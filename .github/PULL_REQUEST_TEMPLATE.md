@@ -27,6 +27,6 @@ And:
 
 - [ ] `npm run check` passes locally
 - [ ] `en` and `pt-BR` copy both read naturally (not a literal translation of each other)
-- [ ] Name is a long, marketplace-style listing (brand, product, size, material, color, key features)
+- [ ] Name is a long, marketplace-style listing (product, size, material, color, key features; a brand only when the product has one)
 - [ ] `BRL` and `USD` prices are what a store in each market would actually charge
 - [ ] If the product is on sale, `listPrice` is set in both currencies and is higher than `price`

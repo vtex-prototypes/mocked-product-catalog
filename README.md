@@ -153,9 +153,9 @@ Content rules:
 
 - **Both languages, always.** `name`, `description`, `tags` and every `alt` need an `en` and a `pt-BR` version. Write them as a native speaker would, not as literal translations (sizes in inches for `en`, centimeters for `pt-BR`).
 - **Both currencies, always.** `price` (and `listPrice` if on sale) need `BRL` and `USD`. Use the price a real store would charge in each market rather than converting.
-- **Long names.** Write the name the way a marketplace listing reads: brand, product, size, material, color, two or three selling points. Minimum 60 characters per language; the current set is 120–170. Short names make prototypes look fake and hide layout bugs.
+- **Long names.** Write the name the way a marketplace listing reads: the product, its size, material, color, and two or three selling points. Add a brand only when the product has one. Minimum 60 characters per language; the current set is 120–170. Short names make prototypes look fake and hide layout bugs.
 - **At least two variants, on whatever axes fit the product.** List them under `options` and sell each combination as a `variant`. Give a new photo to each combination that looks different, and reuse the files when it does not (sizes of the same jacket, for example). When one of the axes is color, give it two or more values with a `hex` swatch and a clearly different photo each. Color is optional: a bottle can vary by volume only.
-- **Fictional brands.** `Casa Norte`, `Fio Puro`, `Trilha Livre`, `Altitude` and `Ritmo` are in use. Add your own. Never use a trademark or a real brand name, in the copy or in the photo.
+- **Fictional brands, when you use one.** `brand` is optional. `Casa Norte`, `Fio Puro`, `Trilha Livre`, `Altitude` and `Ritmo` are examples already in the catalog. Never use a trademark or a real brand name, in the copy or in the photo.
 - If the category you need isn't in `categories.json`, add it there in the same PR, with both language names.
 
 ### 3. Check and build

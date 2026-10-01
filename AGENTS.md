@@ -27,7 +27,7 @@ There are two kinds of contribution. Each PR is one or the other.
 
 When you need both, open two PRs. Merge the framework PR first, then open the content PR that uses it. A new field on products, for example, is a framework PR that adds it to the schema and validator, followed by a content PR that fills it in. Start the PR title with `content:` or `framework:`.
 
-Use a fictional brand. Never use a trademark or a real brand name, in `brand`, in the name, description, tags, or alt text, or as a logo or label in the photo. `Casa Norte`, `Fio Puro`, `Trilha Livre`, `Altitude`, and `Ritmo` are already in the catalog. Invent another one the same way.
+A brand is optional. Leave `brand` out, and leave it out of the name, when the product has none. A tomato does not need one. When you do name a brand, invent a fictional one. Never use a trademark or a real brand name, in `brand`, in the name, description, tags, or alt text, or as a logo or label in the photo. `Casa Norte`, `Fio Puro`, `Trilha Livre`, `Altitude`, and `Ritmo` are examples already in the catalog.
 
 Work on a branch. Generate the white PNG with the prompt in the README, with the draft photo attached when you are promoting one. Run `npm run backgrounds`, then `npm run check`. `check` writes the WebP beside the PNG and rebuilds `catalog.json`. Commit the PNG and the WebP. The PNG stays the source.
 

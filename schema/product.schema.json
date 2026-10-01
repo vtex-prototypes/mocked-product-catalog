@@ -59,11 +59,11 @@
       "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
       "description": "kebab-case slug in English. Must match the file name and the images folder."
     },
-    "brand": { "type": "string", "minLength": 1, "description": "Fictional brand. Never a trademark or a real brand name." },
+    "brand": { "type": "string", "minLength": 1, "description": "Optional. Omit it when the product has no brand. When present, it is fictional: never a trademark or a real brand name." },
     "categoryId": { "type": "string", "description": "An id from categories.json." },
     "name": {
       "$ref": "#/$defs/localized",
-      "description": "Long, marketplace-style listing name (brand, product, size, material, color, key features). At least 60 characters per locale."
+      "description": "Long, marketplace-style listing name (product, size, material, color, key features; a brand only when the product has one). At least 60 characters per locale."
     },
     "description": {
       "$ref": "#/$defs/localized",
