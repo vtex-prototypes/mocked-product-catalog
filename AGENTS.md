@@ -14,7 +14,7 @@ const BASE = "https://raw.githubusercontent.com/vtex-prototypes/mocked-product-c
 
 Fetch `${BASE}catalog.json` and prefix `src` with `BASE`. `src` is `images/<id>/<file>.webp`. Leave the photos where they are. Copying them into the prototype's `public/` folder makes a second copy that goes stale.
 
-Use published products. `drafts/` photos are not compliant. If a chosen category has no published products, say so and narrow the prototype, or promote the drafts with a PR here first.
+Use published products. `drafts/` photos are not compliant. If a chosen category has no published products, stop. Open a `content:` pull request that promotes the drafts (regenerated white PNG, `npm run backgrounds`, `npm run check`) and point the prototype at the raw URLs. Do not copy `drafts/` into the prototype, and do not repaint a draft photo.
 
 ## Contribute
 

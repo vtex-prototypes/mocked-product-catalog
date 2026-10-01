@@ -100,7 +100,7 @@ Full schema: [`schema/product.schema.json`](schema/product.schema.json).
 
 ## Drafts: the queue of products to promote
 
-`drafts.json` lists every product that has a photo and a category but is not compliant yet. The photos come from the original Figma board; most of them have an off-white background, and a few have printed text or a dark background (see `notes`). Nothing in `drafts/` is in `catalog.json`. You can still render drafts in a prototype if you only need volume, but they won't match the published photos.
+`drafts.json` lists every product that has a photo and a category but is not compliant yet. The photos come from the original Figma board; most of them have an off-white background, and a few have printed text or a dark background (see `notes`). Nothing in `drafts/` is in `catalog.json`. If a prototype needs one of these categories, promote the drafts with a `content:` pull request before using them. Copying a draft photo into the prototype, or repainting it there, leaves a second copy that the catalog never sees.
 
 ```json
 {

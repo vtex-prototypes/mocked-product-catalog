@@ -2,6 +2,8 @@
 
 Use this when a prototype at VTEX needs products. Answer both questions before loading anything. The first answer chooses the products. The second chooses the fields those screens render. Leave either one open and the prototype shows a generic marketplace.
 
+If the categories you need have no published products, stop. Open a `content:` pull request that promotes the drafts (regenerated white PNG, `npm run backgrounds`, `npm run check`) and point the prototype at the raw URLs. Do not copy `drafts/` into the prototype, and do not repaint a draft photo.
+
 Published products are in `catalog.json`. `drafts.json` is the queue of photos that are not compliant yet. A realistic prototype uses published products.
 
 ## 1. What store is this?
@@ -20,7 +22,7 @@ A store type maps onto the roots in `categories.json`:
 
 A department store or a marketplace names more than one root. A narrower prototype names subcategories instead, such as `casa-cama-mesa-banho` or `esportes-casacos`. A sporting-goods store can be `esportes` plus part of `roupa-acessorios`. Take the children of any chosen root: each category has a `parent` id, or `null` when it is a root.
 
-Then keep the products whose `categoryId` is in that set. If a chosen category has no published products yet, say so. Narrow the prototype to categories that have products, or promote drafts before using them. Draft photos do not match the published ones.
+Then keep the products whose `categoryId` is in that set. If one of those categories has no published products, stop and follow the rule at the top.
 
 Also pick the locale and the currency for the whole prototype: `en` or `pt-BR`, `USD` or `BRL`. Each currency is the retail price a store in that market would charge. And pick the photo background, `#ffffff` or `#f5f5f5`, and use it on every product.
 
