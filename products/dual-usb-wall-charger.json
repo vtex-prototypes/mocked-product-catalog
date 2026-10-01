@@ -1,0 +1,111 @@
+{
+  "id": "dual-usb-wall-charger",
+  "categoryId": "eletro-acessorios",
+  "name": {
+    "en": "Dual USB Wall Charger, 2 USB-A Ports, 12 W Total, Glossy White, Charge a Phone and Wireless Earbuds at the Same Time, Overheat Protection, Universal Voltage",
+    "pt-BR": "Carregador de Parede com 2 Portas USB-A, 12 W no Total, Branco Brilhante, Carregue Celular e Fones sem Fio ao Mesmo Tempo, Proteção contra Superaquecimento, Bivolt"
+  },
+  "description": {
+    "en": "A two-port charger for the nightstand: top up a phone and a pair of wireless earbuds at once. Built-in protection keeps both devices cool.",
+    "pt-BR": "Carregador de duas portas para a mesa de cabeceira: carregue o celular e os fones sem fio ao mesmo tempo. A proteção integrada evita superaquecimento."
+  },
+  "price": {
+    "BRL": 59.9,
+    "USD": 12.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "charger",
+      "usb",
+      "travel"
+    ],
+    "pt-BR": [
+      "carregador",
+      "usb",
+      "viagem"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "usb-a"
+    }
+  ],
+  "defaultVariantId": "charger",
+  "options": [
+    {
+      "id": "bundle",
+      "name": {
+        "en": "Bundle",
+        "pt-BR": "Kit"
+      },
+      "values": [
+        {
+          "id": "charger",
+          "name": {
+            "en": "Charger only",
+            "pt-BR": "Só o carregador"
+          }
+        },
+        {
+          "id": "with-cable",
+          "name": {
+            "en": "With USB-C cable",
+            "pt-BR": "Com cabo USB-C"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "charger",
+      "sku": "ELE-DWC-STD",
+      "options": {
+        "bundle": "charger"
+      },
+      "price": {
+        "BRL": 59.9,
+        "USD": 12.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White dual USB wall charger",
+            "pt-BR": "Carregador de parede branco com duas portas USB"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "with-cable",
+      "sku": "ELE-DWC-CBL",
+      "options": {
+        "bundle": "with-cable"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 16.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White dual USB wall charger",
+            "pt-BR": "Carregador de parede branco com duas portas USB"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

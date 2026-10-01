@@ -1,0 +1,111 @@
+{
+  "id": "compact-wall-charger",
+  "categoryId": "eletro-acessorios",
+  "name": {
+    "en": "Compact USB-C Wall Charger with Fast Charging, Glossy White, GaN Technology, Charges Phones, Tablets, Wireless Earbuds and Laptops, Universal Voltage for Travel",
+    "pt-BR": "Carregador de Parede USB-C Compacto com Carga Rápida, Branco Brilhante, Tecnologia GaN, Carrega Celular, Tablet, Fones sem Fio e Notebook, Bivolt para Viagem"
+  },
+  "description": {
+    "en": "A small GaN charger with one USB-C port that fast-charges a phone, a tablet, wireless earbuds or a light laptop. Works on any outlet voltage.",
+    "pt-BR": "Carregador GaN pequeno, com uma porta USB-C que carrega rápido celular, tablet, fones sem fio ou notebook leve. Funciona em qualquer voltagem."
+  },
+  "price": {
+    "BRL": 129.9,
+    "USD": 24.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "charger",
+      "usb-c",
+      "fast charging"
+    ],
+    "pt-BR": [
+      "carregador",
+      "usb-c",
+      "carga rápida"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "usb-c"
+    }
+  ],
+  "defaultVariantId": "30w",
+  "options": [
+    {
+      "id": "power",
+      "name": {
+        "en": "Power",
+        "pt-BR": "Potência"
+      },
+      "values": [
+        {
+          "id": "30w",
+          "name": {
+            "en": "30 W",
+            "pt-BR": "30 W"
+          }
+        },
+        {
+          "id": "65w",
+          "name": {
+            "en": "65 W",
+            "pt-BR": "65 W"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "30w",
+      "sku": "ELE-CWC-30W",
+      "options": {
+        "power": "30w"
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 24.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White compact USB-C wall charger",
+            "pt-BR": "Carregador de parede USB-C branco e compacto"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "65w",
+      "sku": "ELE-CWC-65W",
+      "options": {
+        "power": "65w"
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White compact USB-C wall charger",
+            "pt-BR": "Carregador de parede USB-C branco e compacto"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

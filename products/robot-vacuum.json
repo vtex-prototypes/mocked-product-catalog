@@ -1,0 +1,111 @@
+{
+  "id": "robot-vacuum",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Robot Vacuum Cleaner with App and Voice Control, Matte Black, Wi-Fi, Strong 2,700 Pa Suction, Slim 3-Inch Body Fits Under Furniture, Auto-Return to Charge, for Hard Floors and Carpet",
+    "pt-BR": "Robô Aspirador com Controle por App e Voz, Preto Fosco, Wi-Fi, Sucção Potente de 2.700 Pa, Corpo Fino de 8 cm que Passa sob os Móveis, Volta Sozinho para Carregar, para Pisos e Tapetes"
+  },
+  "description": {
+    "en": "A slim robot vacuum that cleans on a schedule you set in the app. Slides under beds and sofas, and heads back to its dock when the battery runs low.",
+    "pt-BR": "Robô aspirador fino que limpa nos horários definidos no app. Passa por baixo de camas e sofás e volta para a base quando a bateria está acabando."
+  },
+  "price": {
+    "BRL": 1299.9,
+    "USD": 199.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "robot vacuum",
+      "cleaning",
+      "smart home"
+    ],
+    "pt-BR": [
+      "robô aspirador",
+      "limpeza",
+      "casa inteligente"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "wi-fi"
+    }
+  ],
+  "defaultVariantId": "gyroscope",
+  "options": [
+    {
+      "id": "navigation",
+      "name": {
+        "en": "Navigation",
+        "pt-BR": "Navegação"
+      },
+      "values": [
+        {
+          "id": "gyroscope",
+          "name": {
+            "en": "Gyroscope",
+            "pt-BR": "Giroscópio"
+          }
+        },
+        {
+          "id": "laser",
+          "name": {
+            "en": "Laser mapping",
+            "pt-BR": "Mapeamento a laser"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gyroscope",
+      "sku": "ELE-RVC-GYRO",
+      "options": {
+        "navigation": "gyroscope"
+      },
+      "price": {
+        "BRL": 1299.9,
+        "USD": 199.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round black robot vacuum, three-quarter view",
+            "pt-BR": "Robô aspirador redondo preto, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "laser",
+      "sku": "ELE-RVC-LIDAR",
+      "options": {
+        "navigation": "laser"
+      },
+      "price": {
+        "BRL": 1899.9,
+        "USD": 299.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round black robot vacuum, three-quarter view",
+            "pt-BR": "Robô aspirador redondo preto, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -203,6 +203,50 @@
           }
         }
       ]
+    },
+    {
+      "id": "connectivity",
+      "name": {
+        "en": "Connectivity",
+        "pt-BR": "Conectividade"
+      },
+      "values": [
+        {
+          "id": "bluetooth",
+          "name": {
+            "en": "Bluetooth",
+            "pt-BR": "Bluetooth"
+          }
+        },
+        {
+          "id": "wi-fi",
+          "name": {
+            "en": "Wi-Fi",
+            "pt-BR": "Wi-Fi"
+          }
+        },
+        {
+          "id": "usb-receiver",
+          "name": {
+            "en": "2.4 GHz USB receiver",
+            "pt-BR": "Receptor USB 2,4 GHz"
+          }
+        },
+        {
+          "id": "usb-a",
+          "name": {
+            "en": "USB-A",
+            "pt-BR": "USB-A"
+          }
+        },
+        {
+          "id": "usb-c",
+          "name": {
+            "en": "USB-C",
+            "pt-BR": "USB-C"
+          }
+        }
+      ]
     }
   ],
   "categories": [
@@ -751,6 +795,373 @@
       ]
     },
     {
+      "id": "bluetooth-speaker",
+      "categoryId": "eletro-casa-entretenimento",
+      "name": {
+        "en": "Portable Bluetooth Speaker, Waterproof IPX7, Charcoal Fabric Grille, Rich Stereo Sound, 12-Hour Battery, Built-In Microphone for Calls, Compact Size for Travel, Beach and Pool",
+        "pt-BR": "Caixa de Som Bluetooth Portátil à Prova d'Água IPX7, Grade de Tecido Grafite, Som Estéreo Encorpado, Bateria de 12 Horas, Microfone para Chamadas, Compacta para Viagem, Praia e Piscina"
+      },
+      "description": {
+        "en": "A palm-size speaker wrapped in fabric that survives a dunk in the pool. Twelve hours of music over Bluetooth, and a microphone for hands-free calls.",
+        "pt-BR": "Caixa de som do tamanho da mão, revestida em tecido, que aguenta um mergulho na piscina. Doze horas de música por Bluetooth e microfone para chamadas sem as mãos."
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "speaker",
+          "bluetooth",
+          "portable"
+        ],
+        "pt-BR": [
+          "caixa de som",
+          "bluetooth",
+          "portátil"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "bluetooth",
+          "value": {
+            "en": "Bluetooth",
+            "pt-BR": "Bluetooth"
+          }
+        }
+      ],
+      "defaultVariantId": "10w",
+      "options": [
+        {
+          "id": "power",
+          "name": {
+            "en": "Power output",
+            "pt-BR": "Potência"
+          },
+          "values": [
+            {
+              "id": "10w",
+              "name": {
+                "en": "10 W",
+                "pt-BR": "10 W"
+              }
+            },
+            {
+              "id": "20w",
+              "name": {
+                "en": "20 W",
+                "pt-BR": "20 W"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "10w",
+          "sku": "ELE-BSP-10W",
+          "options": {
+            "power": "10w"
+          },
+          "price": {
+            "BRL": 199.9,
+            "USD": 39.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black portable bluetooth speaker with fabric grille",
+                "pt-BR": "Caixa de som bluetooth preta com grade de tecido"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bluetooth-speaker/black-white.webp",
+                "#f5f5f5": "images/bluetooth-speaker/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "20w",
+          "sku": "ELE-BSP-20W",
+          "options": {
+            "power": "20w"
+          },
+          "price": {
+            "BRL": 279.9,
+            "USD": 54.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black portable bluetooth speaker with fabric grille",
+                "pt-BR": "Caixa de som bluetooth preta com grade de tecido"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bluetooth-speaker/black-white.webp",
+                "#f5f5f5": "images/bluetooth-speaker/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compact-wall-charger",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Compact USB-C Wall Charger with Fast Charging, Glossy White, GaN Technology, Charges Phones, Tablets, Wireless Earbuds and Laptops, Universal Voltage for Travel",
+        "pt-BR": "Carregador de Parede USB-C Compacto com Carga Rápida, Branco Brilhante, Tecnologia GaN, Carrega Celular, Tablet, Fones sem Fio e Notebook, Bivolt para Viagem"
+      },
+      "description": {
+        "en": "A small GaN charger with one USB-C port that fast-charges a phone, a tablet, wireless earbuds or a light laptop. Works on any outlet voltage.",
+        "pt-BR": "Carregador GaN pequeno, com uma porta USB-C que carrega rápido celular, tablet, fones sem fio ou notebook leve. Funciona em qualquer voltagem."
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 24.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "charger",
+          "usb-c",
+          "fast charging"
+        ],
+        "pt-BR": [
+          "carregador",
+          "usb-c",
+          "carga rápida"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "usb-c",
+          "value": {
+            "en": "USB-C",
+            "pt-BR": "USB-C"
+          }
+        }
+      ],
+      "defaultVariantId": "30w",
+      "options": [
+        {
+          "id": "power",
+          "name": {
+            "en": "Power",
+            "pt-BR": "Potência"
+          },
+          "values": [
+            {
+              "id": "30w",
+              "name": {
+                "en": "30 W",
+                "pt-BR": "30 W"
+              }
+            },
+            {
+              "id": "65w",
+              "name": {
+                "en": "65 W",
+                "pt-BR": "65 W"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "30w",
+          "sku": "ELE-CWC-30W",
+          "options": {
+            "power": "30w"
+          },
+          "price": {
+            "BRL": 129.9,
+            "USD": 24.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White compact USB-C wall charger",
+                "pt-BR": "Carregador de parede USB-C branco e compacto"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/compact-wall-charger/white-white.webp",
+                "#f5f5f5": "images/compact-wall-charger/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "65w",
+          "sku": "ELE-CWC-65W",
+          "options": {
+            "power": "65w"
+          },
+          "price": {
+            "BRL": 199.9,
+            "USD": 39.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White compact USB-C wall charger",
+                "pt-BR": "Carregador de parede USB-C branco e compacto"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/compact-wall-charger/white-white.webp",
+                "#f5f5f5": "images/compact-wall-charger/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desk-fan",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Desk Fan 12-Inch with 3 Speeds and Oscillation, White, Quiet 5-Blade Design, Tilting Head, Sturdy Square Base with Push Buttons, for Bedroom, Office and Living Room",
+        "pt-BR": "Ventilador de Mesa 30 cm com 3 Velocidades e Oscilação, Branco, 5 Pás Silenciosas, Inclinação Ajustável, Base Quadrada Firme com Botões, para Quarto, Escritório e Sala"
+      },
+      "description": {
+        "en": "A quiet five-blade desk fan with three speeds and side-to-side oscillation. The head tilts to aim the air, and the square base keeps it steady.",
+        "pt-BR": "Ventilador de mesa silencioso de cinco pás, com três velocidades e oscilação. A cabeça inclina para direcionar o vento, e a base quadrada deixa tudo firme."
+      },
+      "price": {
+        "BRL": 149.9,
+        "USD": 29.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "fan",
+          "cooling",
+          "summer"
+        ],
+        "pt-BR": [
+          "ventilador",
+          "refrescância",
+          "verão"
+        ]
+      },
+      "defaultVariantId": "127v",
+      "options": [
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Voltagem"
+          },
+          "values": [
+            {
+              "id": "127v",
+              "name": {
+                "en": "127 V",
+                "pt-BR": "127 V"
+              }
+            },
+            {
+              "id": "220v",
+              "name": {
+                "en": "220 V",
+                "pt-BR": "220 V"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "127v",
+          "sku": "ELE-DFN-127V",
+          "options": {
+            "voltage": "127v"
+          },
+          "price": {
+            "BRL": 149.9,
+            "USD": 29.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White desk fan with five blades and push-button base",
+                "pt-BR": "Ventilador de mesa branco com cinco pás e base com botões"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/desk-fan/white-white.webp",
+                "#f5f5f5": "images/desk-fan/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "220v",
+          "sku": "ELE-DFN-220V",
+          "options": {
+            "voltage": "220v"
+          },
+          "price": {
+            "BRL": 149.9,
+            "USD": 29.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White desk fan with five blades and push-button base",
+                "pt-BR": "Ventilador de mesa branco com cinco pás e base com botões"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/desk-fan/white-white.webp",
+                "#f5f5f5": "images/desk-fan/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "down-puffer-jacket",
       "brandId": "altitude",
       "brand": {
@@ -1033,6 +1444,260 @@
               "src": {
                 "#ffffff": "images/down-puffer-jacket/navy-white.webp",
                 "#f5f5f5": "images/down-puffer-jacket/navy-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dual-usb-wall-charger",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Dual USB Wall Charger, 2 USB-A Ports, 12 W Total, Glossy White, Charge a Phone and Wireless Earbuds at the Same Time, Overheat Protection, Universal Voltage",
+        "pt-BR": "Carregador de Parede com 2 Portas USB-A, 12 W no Total, Branco Brilhante, Carregue Celular e Fones sem Fio ao Mesmo Tempo, Proteção contra Superaquecimento, Bivolt"
+      },
+      "description": {
+        "en": "A two-port charger for the nightstand: top up a phone and a pair of wireless earbuds at once. Built-in protection keeps both devices cool.",
+        "pt-BR": "Carregador de duas portas para a mesa de cabeceira: carregue o celular e os fones sem fio ao mesmo tempo. A proteção integrada evita superaquecimento."
+      },
+      "price": {
+        "BRL": 59.9,
+        "USD": 12.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "charger",
+          "usb",
+          "travel"
+        ],
+        "pt-BR": [
+          "carregador",
+          "usb",
+          "viagem"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "usb-a",
+          "value": {
+            "en": "USB-A",
+            "pt-BR": "USB-A"
+          }
+        }
+      ],
+      "defaultVariantId": "charger",
+      "options": [
+        {
+          "id": "bundle",
+          "name": {
+            "en": "Bundle",
+            "pt-BR": "Kit"
+          },
+          "values": [
+            {
+              "id": "charger",
+              "name": {
+                "en": "Charger only",
+                "pt-BR": "Só o carregador"
+              }
+            },
+            {
+              "id": "with-cable",
+              "name": {
+                "en": "With USB-C cable",
+                "pt-BR": "Com cabo USB-C"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "charger",
+          "sku": "ELE-DWC-STD",
+          "options": {
+            "bundle": "charger"
+          },
+          "price": {
+            "BRL": 59.9,
+            "USD": 12.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White dual USB wall charger",
+                "pt-BR": "Carregador de parede branco com duas portas USB"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dual-usb-wall-charger/white-white.webp",
+                "#f5f5f5": "images/dual-usb-wall-charger/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "with-cable",
+          "sku": "ELE-DWC-CBL",
+          "options": {
+            "bundle": "with-cable"
+          },
+          "price": {
+            "BRL": 79.9,
+            "USD": 16.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White dual USB wall charger",
+                "pt-BR": "Carregador de parede branco com duas portas USB"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dual-usb-wall-charger/white-white.webp",
+                "#f5f5f5": "images/dual-usb-wall-charger/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e-reader",
+      "categoryId": "eletro-pessoais",
+      "name": {
+        "en": "E-Reader with 6-Inch Glare-Free Display and Adjustable Warm Light, Black, Wi-Fi, Waterproof IPX8, Weeks of Battery on One Charge, Lightweight for Reading in Bed, at the Beach or on the Go",
+        "pt-BR": "Leitor de Livros Digitais com Tela de 6 Polegadas sem Reflexo e Luz Quente Ajustável, Preto, Wi-Fi, À Prova d'Água IPX8, Bateria para Semanas, Leve para Ler na Cama, na Praia ou em Viagem"
+      },
+      "description": {
+        "en": "A light e-reader with a paper-like screen that stays readable in full sun. Download books over Wi-Fi and read for weeks before you need to charge it.",
+        "pt-BR": "Leitor digital leve, com tela que imita papel e continua legível sob o sol. Baixe livros pelo Wi-Fi e leia por semanas antes de precisar recarregar."
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 109.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "e-reader",
+          "books",
+          "reading"
+        ],
+        "pt-BR": [
+          "leitor digital",
+          "livros",
+          "leitura"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "wi-fi",
+          "value": {
+            "en": "Wi-Fi",
+            "pt-BR": "Wi-Fi"
+          }
+        }
+      ],
+      "defaultVariantId": "16gb",
+      "options": [
+        {
+          "id": "storage",
+          "name": {
+            "en": "Storage",
+            "pt-BR": "Armazenamento"
+          },
+          "values": [
+            {
+              "id": "16gb",
+              "name": {
+                "en": "16 GB",
+                "pt-BR": "16 GB"
+              }
+            },
+            {
+              "id": "32gb",
+              "name": {
+                "en": "32 GB",
+                "pt-BR": "32 GB"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "16gb",
+          "sku": "ELE-ERD-16",
+          "options": {
+            "storage": "16gb"
+          },
+          "price": {
+            "BRL": 599.9,
+            "USD": 109.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black e-reader showing a page, front view",
+                "pt-BR": "Leitor digital preto mostrando uma página, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/e-reader/black-white.webp",
+                "#f5f5f5": "images/e-reader/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "32gb",
+          "sku": "ELE-ERD-32",
+          "options": {
+            "storage": "32gb"
+          },
+          "price": {
+            "BRL": 699.9,
+            "USD": 129.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black e-reader showing a page, front view",
+                "pt-BR": "Leitor digital preto mostrando uma página, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/e-reader/black-white.webp",
+                "#f5f5f5": "images/e-reader/black-gray.webp"
               }
             }
           ]
@@ -1362,6 +2027,145 @@
               "src": {
                 "#ffffff": "images/fleece-jogger-pants/heather-white.webp",
                 "#f5f5f5": "images/fleece-jogger-pants/heather-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "game-controller",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Wireless Game Controller for PC, Android and Smart TV, Matte Black, Bluetooth and USB-C, Dual Vibration Motors, Precision Thumbsticks, Ergonomic Textured Grips, 20-Hour Battery",
+        "pt-BR": "Controle sem Fio para PC, Android e Smart TV, Preto Fosco, Bluetooth e USB-C, Vibração Dupla, Analógicos de Precisão, Pegada Ergonômica Texturizada, Bateria de 20 Horas"
+      },
+      "description": {
+        "en": "A wireless controller with a familiar layout, dual rumble motors and textured grips. Connects over Bluetooth or plugs in with USB-C, and charges while you play.",
+        "pt-BR": "Controle sem fio com layout familiar, vibração dupla e pegada texturizada. Conecta por Bluetooth ou pelo cabo USB-C, e carrega enquanto você joga."
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 49.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "controller",
+          "gaming",
+          "wireless"
+        ],
+        "pt-BR": [
+          "controle",
+          "games",
+          "sem fio"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "bluetooth",
+          "value": {
+            "en": "Bluetooth",
+            "pt-BR": "Bluetooth"
+          }
+        },
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "usb-c",
+          "value": {
+            "en": "USB-C",
+            "pt-BR": "USB-C"
+          }
+        }
+      ],
+      "defaultVariantId": "built-in",
+      "options": [
+        {
+          "id": "battery",
+          "name": {
+            "en": "Battery",
+            "pt-BR": "Bateria"
+          },
+          "values": [
+            {
+              "id": "built-in",
+              "name": {
+                "en": "Built-in rechargeable",
+                "pt-BR": "Recarregável integrada"
+              }
+            },
+            {
+              "id": "spare-pack",
+              "name": {
+                "en": "With spare battery pack",
+                "pt-BR": "Com bateria extra"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "built-in",
+          "sku": "ELE-GCT-STD",
+          "options": {
+            "battery": "built-in"
+          },
+          "price": {
+            "BRL": 249.9,
+            "USD": 49.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black wireless game controller, front view",
+                "pt-BR": "Controle sem fio preto, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/game-controller/black-white.webp",
+                "#f5f5f5": "images/game-controller/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "spare-pack",
+          "sku": "ELE-GCT-PACK",
+          "options": {
+            "battery": "spare-pack"
+          },
+          "price": {
+            "BRL": 299.9,
+            "USD": 59.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black wireless game controller, front view",
+                "pt-BR": "Controle sem fio preto, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/game-controller/black-white.webp",
+                "#f5f5f5": "images/game-controller/black-gray.webp"
               }
             }
           ]
@@ -2098,6 +2902,145 @@
       ]
     },
     {
+      "id": "inkjet-printer",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "All-in-One Inkjet Printer, Scanner and Copier, Matte Black, Wi-Fi and Print from Your Phone, Color Printing, Compact Size for Home and Small Office, Quiet Mode",
+        "pt-BR": "Impressora Multifuncional Jato de Tinta, Imprime, Digitaliza e Copia, Preto Fosco, Wi-Fi e Impressão pelo Celular, Colorida, Tamanho Compacto para Casa e Pequeno Escritório, Modo Silencioso"
+      },
+      "description": {
+        "en": "A compact printer that prints, scans and copies in color. Send pages from your phone or laptop over Wi-Fi, with no cable to the computer.",
+        "pt-BR": "Impressora compacta que imprime, digitaliza e copia em cores. Envie páginas do celular ou do notebook pelo Wi-Fi, sem cabo até o computador."
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "printer",
+          "scanner",
+          "home office"
+        ],
+        "pt-BR": [
+          "impressora",
+          "scanner",
+          "home office"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "wi-fi",
+          "value": {
+            "en": "Wi-Fi",
+            "pt-BR": "Wi-Fi"
+          }
+        },
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "usb-a",
+          "value": {
+            "en": "USB-A",
+            "pt-BR": "USB-A"
+          }
+        }
+      ],
+      "defaultVariantId": "printer",
+      "options": [
+        {
+          "id": "bundle",
+          "name": {
+            "en": "Bundle",
+            "pt-BR": "Kit"
+          },
+          "values": [
+            {
+              "id": "printer",
+              "name": {
+                "en": "Printer only",
+                "pt-BR": "Só a impressora"
+              }
+            },
+            {
+              "id": "with-ink",
+              "name": {
+                "en": "With extra ink set",
+                "pt-BR": "Com cartuchos extras"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "printer",
+          "sku": "ELE-IJP-STD",
+          "options": {
+            "bundle": "printer"
+          },
+          "price": {
+            "BRL": 599.9,
+            "USD": 99.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black all-in-one inkjet printer, three-quarter view",
+                "pt-BR": "Impressora multifuncional preta, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/inkjet-printer/black-white.webp",
+                "#f5f5f5": "images/inkjet-printer/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "with-ink",
+          "sku": "ELE-IJP-INK",
+          "options": {
+            "bundle": "with-ink"
+          },
+          "price": {
+            "BRL": 749.9,
+            "USD": 129.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black all-in-one inkjet printer, three-quarter view",
+                "pt-BR": "Impressora multifuncional preta, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/inkjet-printer/black-white.webp",
+                "#f5f5f5": "images/inkjet-printer/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "insulated-snow-pants",
       "brandId": "altitude",
       "brand": {
@@ -2522,6 +3465,371 @@
       ]
     },
     {
+      "id": "laptop-sleeve",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Padded Laptop Sleeve with Zip Closure, Navy Water-Repellent Fabric, Soft Fleece Lining, Elastic Strap and Front Pocket for Charger and Wireless Mouse, Slim Enough for Any Backpack",
+        "pt-BR": "Capa Acolchoada para Notebook com Zíper, Tecido Azul Marinho Repelente à Água, Forro Macio de Fleece, Elástico e Bolso Frontal para Carregador e Mouse sem Fio, Fina para Qualquer Mochila"
+      },
+      "description": {
+        "en": "A padded sleeve that keeps a laptop scratch-free in any bag. The front pocket fits the charger and a wireless mouse, and the fabric shrugs off light rain.",
+        "pt-BR": "Capa acolchoada que protege o notebook de arranhões em qualquer bolsa. O bolso frontal leva o carregador e um mouse sem fio, e o tecido aguenta chuva fraca."
+      },
+      "price": {
+        "BRL": 99.9,
+        "USD": 24.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "laptop sleeve",
+          "laptop",
+          "accessories"
+        ],
+        "pt-BR": [
+          "capa para notebook",
+          "notebook",
+          "acessórios"
+        ]
+      },
+      "defaultVariantId": "13-14in",
+      "options": [
+        {
+          "id": "size",
+          "name": {
+            "en": "Laptop size",
+            "pt-BR": "Tamanho do notebook"
+          },
+          "values": [
+            {
+              "id": "13-14in",
+              "name": {
+                "en": "13–14 in",
+                "pt-BR": "13–14 polegadas"
+              }
+            },
+            {
+              "id": "15-16in",
+              "name": {
+                "en": "15–16 in",
+                "pt-BR": "15–16 polegadas"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "13-14in",
+          "sku": "ELE-LSL-14",
+          "options": {
+            "size": "13-14in"
+          },
+          "price": {
+            "BRL": 99.9,
+            "USD": 24.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Navy padded laptop sleeve with elastic strap",
+                "pt-BR": "Capa acolchoada azul marinho para notebook com elástico"
+              },
+              "backgrounds": {
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/laptop-sleeve/navy-white.webp",
+                "#f5f5f5": "images/laptop-sleeve/navy-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "15-16in",
+          "sku": "ELE-LSL-16",
+          "options": {
+            "size": "15-16in"
+          },
+          "price": {
+            "BRL": 119.9,
+            "USD": 29.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Navy padded laptop sleeve with elastic strap",
+                "pt-BR": "Capa acolchoada azul marinho para notebook com elástico"
+              },
+              "backgrounds": {
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/laptop-sleeve/navy-white.webp",
+                "#f5f5f5": "images/laptop-sleeve/navy-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "over-ear-headphones",
+      "categoryId": "eletro-pessoais",
+      "name": {
+        "en": "Over-Ear Bluetooth Headphones with Active Noise Cancelling, Matte Black, Memory Foam Ear Cushions, 40-Hour Battery, Fast Charging over USB-C, Foldable Design with Built-In Microphone",
+        "pt-BR": "Headphone Bluetooth Over-Ear com Cancelamento de Ruído Ativo, Preto Fosco, Almofadas de Espuma Viscoelástica, Bateria de 40 Horas, Carga Rápida USB-C, Dobrável com Microfone Integrado"
+      },
+      "description": {
+        "en": "Cushioned over-ear headphones that block out the commute with active noise cancelling. Forty hours per charge, and ten minutes on USB-C adds about four more.",
+        "pt-BR": "Headphone over-ear acolchoado que isola o barulho do trajeto com cancelamento de ruído ativo. Quarenta horas por carga, e dez minutos no USB-C rendem cerca de mais quatro."
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 129.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "headphones",
+          "bluetooth",
+          "noise cancelling"
+        ],
+        "pt-BR": [
+          "headphone",
+          "bluetooth",
+          "cancelamento de ruído"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "bluetooth",
+          "value": {
+            "en": "Bluetooth",
+            "pt-BR": "Bluetooth"
+          }
+        },
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "usb-c",
+          "value": {
+            "en": "USB-C",
+            "pt-BR": "USB-C"
+          }
+        }
+      ],
+      "defaultVariantId": "headphones",
+      "options": [
+        {
+          "id": "bundle",
+          "name": {
+            "en": "Bundle",
+            "pt-BR": "Kit"
+          },
+          "values": [
+            {
+              "id": "headphones",
+              "name": {
+                "en": "Headphones",
+                "pt-BR": "Headphone"
+              }
+            },
+            {
+              "id": "with-case",
+              "name": {
+                "en": "With hard travel case",
+                "pt-BR": "Com estojo rígido"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "headphones",
+          "sku": "ELE-OEH-STD",
+          "options": {
+            "bundle": "headphones"
+          },
+          "price": {
+            "BRL": 599.9,
+            "USD": 129.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black over-ear headphones, three-quarter view",
+                "pt-BR": "Headphone over-ear preto, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/over-ear-headphones/black-white.webp",
+                "#f5f5f5": "images/over-ear-headphones/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "with-case",
+          "sku": "ELE-OEH-CASE",
+          "options": {
+            "bundle": "with-case"
+          },
+          "price": {
+            "BRL": 679.9,
+            "USD": 149.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black over-ear headphones, three-quarter view",
+                "pt-BR": "Headphone over-ear preto, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/over-ear-headphones/black-white.webp",
+                "#f5f5f5": "images/over-ear-headphones/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phone-stand",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Adjustable Desk Phone Stand, White ABS with Non-Slip Silicone Pads, Tilts and Extends for Video Calls and Recipes, Fits Phones and Small Tablets, Folds Flat for Travel",
+        "pt-BR": "Suporte de Mesa Ajustável para Celular, ABS Branco com Apoios de Silicone Antiderrapantes, Inclina e Estende para Videochamadas e Receitas, Para Celulares e Tablets Pequenos, Dobrável para Viagem"
+      },
+      "description": {
+        "en": "Holds a phone at eye level for calls, recipes and videos. The open base leaves room for a cable or a wireless charging pad, and it folds flat for the bag.",
+        "pt-BR": "Deixa o celular na altura dos olhos para chamadas, receitas e vídeos. A base aberta deixa espaço para o cabo ou um carregador sem fio, e dobra para caber na bolsa."
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 12.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "phone stand",
+          "desk",
+          "accessories"
+        ],
+        "pt-BR": [
+          "suporte para celular",
+          "mesa",
+          "acessórios"
+        ]
+      },
+      "defaultVariantId": "1-unit",
+      "options": [
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "1-unit",
+              "name": {
+                "en": "1 stand",
+                "pt-BR": "1 unidade"
+              }
+            },
+            {
+              "id": "2-units",
+              "name": {
+                "en": "2 stands",
+                "pt-BR": "2 unidades"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "1-unit",
+          "sku": "ELE-PST-1UN",
+          "options": {
+            "pack": "1-unit"
+          },
+          "price": {
+            "BRL": 49.9,
+            "USD": 12.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White adjustable phone stand, three-quarter view",
+                "pt-BR": "Suporte ajustável branco para celular, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/phone-stand/white-white.webp",
+                "#f5f5f5": "images/phone-stand/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2-units",
+          "sku": "ELE-PST-2UN",
+          "options": {
+            "pack": "2-units"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 21.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White adjustable phone stand, three-quarter view",
+                "pt-BR": "Suporte ajustável branco para celular, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/phone-stand/white-white.webp",
+                "#f5f5f5": "images/phone-stand/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "pillow",
       "brandId": "fio-puro",
       "brand": {
@@ -2878,6 +4186,168 @@
       ]
     },
     {
+      "id": "portable-ssd",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Portable SSD External Drive, USB-C 3.2 up to 1,050 MB/s, Slim Black Aluminum Case, Shock-Resistant, Works with Laptop, Phone, Tablet and Game Console, Cable Included",
+        "pt-BR": "SSD Externo Portátil, USB-C 3.2 até 1.050 MB/s, Caixa Fina de Alumínio Preta, Resistente a Quedas, Compatível com Notebook, Celular, Tablet e Videogame, Cabo Incluso"
+      },
+      "description": {
+        "en": "A pocket-size SSD that moves a full movie in seconds over USB-C. The aluminum case shrugs off drops, and it works with laptops, phones and consoles.",
+        "pt-BR": "SSD de bolso que copia um filme inteiro em segundos pelo USB-C. A caixa de alumínio aguenta quedas, e funciona com notebook, celular e videogame."
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 69.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "ssd",
+          "storage",
+          "usb-c"
+        ],
+        "pt-BR": [
+          "ssd",
+          "armazenamento",
+          "usb-c"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "usb-c",
+          "value": {
+            "en": "USB-C",
+            "pt-BR": "USB-C"
+          }
+        }
+      ],
+      "defaultVariantId": "500gb",
+      "options": [
+        {
+          "id": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "values": [
+            {
+              "id": "500gb",
+              "name": {
+                "en": "500 GB",
+                "pt-BR": "500 GB"
+              }
+            },
+            {
+              "id": "1tb",
+              "name": {
+                "en": "1 TB",
+                "pt-BR": "1 TB"
+              }
+            },
+            {
+              "id": "2tb",
+              "name": {
+                "en": "2 TB",
+                "pt-BR": "2 TB"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "500gb",
+          "sku": "ELE-PSD-500G",
+          "options": {
+            "capacity": "500gb"
+          },
+          "price": {
+            "BRL": 399.9,
+            "USD": 69.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black portable SSD with a USB-C port",
+                "pt-BR": "SSD portátil preto com porta USB-C"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/portable-ssd/black-white.webp",
+                "#f5f5f5": "images/portable-ssd/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "1tb",
+          "sku": "ELE-PSD-1T",
+          "options": {
+            "capacity": "1tb"
+          },
+          "price": {
+            "BRL": 599.9,
+            "USD": 99.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black portable SSD with a USB-C port",
+                "pt-BR": "SSD portátil preto com porta USB-C"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/portable-ssd/black-white.webp",
+                "#f5f5f5": "images/portable-ssd/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2tb",
+          "sku": "ELE-PSD-2T",
+          "options": {
+            "capacity": "2tb"
+          },
+          "price": {
+            "BRL": 999.9,
+            "USD": 169.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black portable SSD with a USB-C port",
+                "pt-BR": "SSD portátil preto com porta USB-C"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/portable-ssd/black-white.webp",
+                "#f5f5f5": "images/portable-ssd/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "quilted-puffer-jacket",
       "brandId": "altitude",
       "brand": {
@@ -3146,6 +4616,133 @@
               "src": {
                 "#ffffff": "images/quilted-puffer-jacket/burgundy-white.webp",
                 "#f5f5f5": "images/quilted-puffer-jacket/burgundy-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "robot-vacuum",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Robot Vacuum Cleaner with App and Voice Control, Matte Black, Wi-Fi, Strong 2,700 Pa Suction, Slim 3-Inch Body Fits Under Furniture, Auto-Return to Charge, for Hard Floors and Carpet",
+        "pt-BR": "Robô Aspirador com Controle por App e Voz, Preto Fosco, Wi-Fi, Sucção Potente de 2.700 Pa, Corpo Fino de 8 cm que Passa sob os Móveis, Volta Sozinho para Carregar, para Pisos e Tapetes"
+      },
+      "description": {
+        "en": "A slim robot vacuum that cleans on a schedule you set in the app. Slides under beds and sofas, and heads back to its dock when the battery runs low.",
+        "pt-BR": "Robô aspirador fino que limpa nos horários definidos no app. Passa por baixo de camas e sofás e volta para a base quando a bateria está acabando."
+      },
+      "price": {
+        "BRL": 1299.9,
+        "USD": 199.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "robot vacuum",
+          "cleaning",
+          "smart home"
+        ],
+        "pt-BR": [
+          "robô aspirador",
+          "limpeza",
+          "casa inteligente"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "wi-fi",
+          "value": {
+            "en": "Wi-Fi",
+            "pt-BR": "Wi-Fi"
+          }
+        }
+      ],
+      "defaultVariantId": "gyroscope",
+      "options": [
+        {
+          "id": "navigation",
+          "name": {
+            "en": "Navigation",
+            "pt-BR": "Navegação"
+          },
+          "values": [
+            {
+              "id": "gyroscope",
+              "name": {
+                "en": "Gyroscope",
+                "pt-BR": "Giroscópio"
+              }
+            },
+            {
+              "id": "laser",
+              "name": {
+                "en": "Laser mapping",
+                "pt-BR": "Mapeamento a laser"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gyroscope",
+          "sku": "ELE-RVC-GYRO",
+          "options": {
+            "navigation": "gyroscope"
+          },
+          "price": {
+            "BRL": 1299.9,
+            "USD": 199.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Round black robot vacuum, three-quarter view",
+                "pt-BR": "Robô aspirador redondo preto, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/robot-vacuum/black-white.webp",
+                "#f5f5f5": "images/robot-vacuum/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "laser",
+          "sku": "ELE-RVC-LIDAR",
+          "options": {
+            "navigation": "laser"
+          },
+          "price": {
+            "BRL": 1899.9,
+            "USD": 299.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Round black robot vacuum, three-quarter view",
+                "pt-BR": "Robô aspirador redondo preto, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/robot-vacuum/black-white.webp",
+                "#f5f5f5": "images/robot-vacuum/black-gray.webp"
               }
             }
           ]
@@ -3442,6 +5039,133 @@
       ]
     },
     {
+      "id": "security-camera",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Wi-Fi Dome Security Camera for Indoor and Outdoor Use, White Weatherproof Housing, Night Vision up to 30 ft, Motion Alerts on Your Phone, Two-Way Audio, MicroSD and Cloud Recording",
+        "pt-BR": "Câmera de Segurança Wi-Fi Dome para Uso Interno e Externo, Carcaça Branca Resistente ao Tempo, Visão Noturna de até 10 m, Alertas de Movimento no Celular, Áudio Bidirecional, Gravação em MicroSD e Nuvem"
+      },
+      "description": {
+        "en": "A weatherproof dome camera that sends motion alerts straight to your phone over Wi-Fi. Sees in the dark, talks back, and records to a microSD card or the cloud.",
+        "pt-BR": "Câmera dome resistente ao tempo que envia alertas de movimento direto para o celular pelo Wi-Fi. Enxerga no escuro, tem áudio nos dois sentidos e grava em microSD ou na nuvem."
+      },
+      "price": {
+        "BRL": 229.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "security camera",
+          "wi-fi",
+          "smart home"
+        ],
+        "pt-BR": [
+          "câmera de segurança",
+          "wi-fi",
+          "casa inteligente"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "wi-fi",
+          "value": {
+            "en": "Wi-Fi",
+            "pt-BR": "Wi-Fi"
+          }
+        }
+      ],
+      "defaultVariantId": "1080p",
+      "options": [
+        {
+          "id": "resolution",
+          "name": {
+            "en": "Resolution",
+            "pt-BR": "Resolução"
+          },
+          "values": [
+            {
+              "id": "1080p",
+              "name": {
+                "en": "Full HD 1080p",
+                "pt-BR": "Full HD 1080p"
+              }
+            },
+            {
+              "id": "2k",
+              "name": {
+                "en": "2K",
+                "pt-BR": "2K"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "1080p",
+          "sku": "ELE-SCM-1080",
+          "options": {
+            "resolution": "1080p"
+          },
+          "price": {
+            "BRL": 229.9,
+            "USD": 39.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White dome security camera",
+                "pt-BR": "Câmera de segurança dome branca"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/security-camera/white-white.webp",
+                "#f5f5f5": "images/security-camera/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2k",
+          "sku": "ELE-SCM-2K",
+          "options": {
+            "resolution": "2k"
+          },
+          "price": {
+            "BRL": 299.9,
+            "USD": 54.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White dome security camera",
+                "pt-BR": "Câmera de segurança dome branca"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/security-camera/white-white.webp",
+                "#f5f5f5": "images/security-camera/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "sheet-set",
       "brandId": "fio-puro",
       "brand": {
@@ -3580,6 +5304,538 @@
               "src": {
                 "#ffffff": "images/sheet-set/gray-white.webp",
                 "#f5f5f5": "images/sheet-set/gray-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smart-door-lock",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Smart Door Lock with Touch Keypad and App Control, Matte Black Zinc Alloy, Wi-Fi and Bluetooth, Temporary Codes for Guests, Auto-Lock, Backup Key, Easy DIY Installation",
+        "pt-BR": "Fechadura Digital Inteligente com Teclado Touch e Controle pelo App, Liga de Zinco Preta Fosca, Wi-Fi e Bluetooth, Senhas Temporárias para Visitas, Travamento Automático, Chave Reserva, Fácil Instalação"
+      },
+      "description": {
+        "en": "Unlock with a code, your phone or the backup key. Send temporary codes to guests from the app and check who came in, from anywhere over Wi-Fi.",
+        "pt-BR": "Abra com senha, pelo celular ou com a chave reserva. Envie senhas temporárias para visitas pelo app e veja quem entrou, de qualquer lugar, pelo Wi-Fi."
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 149.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "smart lock",
+          "security",
+          "smart home"
+        ],
+        "pt-BR": [
+          "fechadura digital",
+          "segurança",
+          "casa inteligente"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "wi-fi",
+          "value": {
+            "en": "Wi-Fi",
+            "pt-BR": "Wi-Fi"
+          }
+        },
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "bluetooth",
+          "value": {
+            "en": "Bluetooth",
+            "pt-BR": "Bluetooth"
+          }
+        }
+      ],
+      "defaultVariantId": "keypad",
+      "options": [
+        {
+          "id": "unlock",
+          "name": {
+            "en": "Unlock methods",
+            "pt-BR": "Formas de abrir"
+          },
+          "values": [
+            {
+              "id": "keypad",
+              "name": {
+                "en": "Keypad, app and key",
+                "pt-BR": "Senha, app e chave"
+              }
+            },
+            {
+              "id": "fingerprint",
+              "name": {
+                "en": "Adds fingerprint",
+                "pt-BR": "Com biometria"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "keypad",
+          "sku": "ELE-SDL-KEY",
+          "options": {
+            "unlock": "keypad"
+          },
+          "price": {
+            "BRL": 899.9,
+            "USD": 149.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black smart door lock with touch keypad",
+                "pt-BR": "Fechadura digital preta com teclado touch"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/smart-door-lock/black-white.webp",
+                "#f5f5f5": "images/smart-door-lock/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "fingerprint",
+          "sku": "ELE-SDL-BIO",
+          "options": {
+            "unlock": "fingerprint"
+          },
+          "price": {
+            "BRL": 1199.9,
+            "USD": 199.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black smart door lock with touch keypad",
+                "pt-BR": "Fechadura digital preta com teclado touch"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/smart-door-lock/black-white.webp",
+                "#f5f5f5": "images/smart-door-lock/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smart-scale",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Smart Body Composition Scale, White Tempered Glass, Measures Weight, Body Fat, Muscle and Water, Syncs to Your Phone, Recognizes up to 8 Users, Batteries Included",
+        "pt-BR": "Balança Digital de Bioimpedância Inteligente, Vidro Temperado Branco, Mede Peso, Gordura, Músculo e Água, Sincroniza com o Celular, Reconhece até 8 Usuários, Pilhas Inclusas"
+      },
+      "description": {
+        "en": "Step on and the scale reads weight and body composition, then syncs it to the app. It tells family members apart, so everyone keeps their own history.",
+        "pt-BR": "Basta subir para a balança medir peso e composição corporal e enviar tudo ao app. Ela diferencia cada pessoa da família, e cada um mantém o próprio histórico."
+      },
+      "price": {
+        "BRL": 149.9,
+        "USD": 29.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "smart scale",
+          "health",
+          "fitness"
+        ],
+        "pt-BR": [
+          "balança",
+          "saúde",
+          "bioimpedância"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "bluetooth",
+          "value": {
+            "en": "Bluetooth",
+            "pt-BR": "Bluetooth"
+          }
+        }
+      ],
+      "defaultVariantId": "bluetooth",
+      "options": [
+        {
+          "id": "connection",
+          "name": {
+            "en": "Connection",
+            "pt-BR": "Conexão"
+          },
+          "values": [
+            {
+              "id": "bluetooth",
+              "name": {
+                "en": "Bluetooth",
+                "pt-BR": "Bluetooth"
+              }
+            },
+            {
+              "id": "wi-fi",
+              "name": {
+                "en": "Wi-Fi and Bluetooth",
+                "pt-BR": "Wi-Fi e Bluetooth"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "bluetooth",
+          "sku": "ELE-SSC-BT",
+          "options": {
+            "connection": "bluetooth"
+          },
+          "price": {
+            "BRL": 149.9,
+            "USD": 29.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White glass smart scale with four electrodes",
+                "pt-BR": "Balança inteligente de vidro branco com quatro eletrodos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/smart-scale/white-white.webp",
+                "#f5f5f5": "images/smart-scale/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wi-fi",
+          "sku": "ELE-SSC-WIFI",
+          "options": {
+            "connection": "wi-fi"
+          },
+          "price": {
+            "BRL": 219.9,
+            "USD": 49.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White glass smart scale with four electrodes",
+                "pt-BR": "Balança inteligente de vidro branco com quatro eletrodos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/smart-scale/white-white.webp",
+                "#f5f5f5": "images/smart-scale/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smart-speaker",
+      "categoryId": "eletro-casa-entretenimento",
+      "name": {
+        "en": "Compact Smart Speaker with Voice Assistant, Light Gray Fabric Top, Wi-Fi and Bluetooth, Controls Lights and Plugs, Room-Filling Sound, Far-Field Microphones with Mute Switch",
+        "pt-BR": "Smart Speaker Compacto com Assistente de Voz, Tecido Cinza Claro, Wi-Fi e Bluetooth, Controla Lâmpadas e Tomadas, Som que Preenche o Ambiente, Microfones de Longo Alcance com Botão de Mudo"
+      },
+      "description": {
+        "en": "A small round speaker that answers questions, plays music and runs your smart home by voice. Streams over Wi-Fi, pairs with a phone over Bluetooth.",
+        "pt-BR": "Caixinha redonda que responde perguntas, toca música e controla a casa inteligente pela voz. Transmite por Wi-Fi e pareia com o celular por Bluetooth."
+      },
+      "price": {
+        "BRL": 349.9,
+        "USD": 49.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "smart speaker",
+          "voice assistant",
+          "smart home"
+        ],
+        "pt-BR": [
+          "smart speaker",
+          "assistente de voz",
+          "casa inteligente"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "wi-fi",
+          "value": {
+            "en": "Wi-Fi",
+            "pt-BR": "Wi-Fi"
+          }
+        },
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "bluetooth",
+          "value": {
+            "en": "Bluetooth",
+            "pt-BR": "Bluetooth"
+          }
+        }
+      ],
+      "defaultVariantId": "1-unit",
+      "options": [
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "1-unit",
+              "name": {
+                "en": "1 speaker",
+                "pt-BR": "1 unidade"
+              }
+            },
+            {
+              "id": "2-units",
+              "name": {
+                "en": "2 speakers",
+                "pt-BR": "2 unidades"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "1-unit",
+          "sku": "ELE-SSP-1UN",
+          "options": {
+            "pack": "1-unit"
+          },
+          "price": {
+            "BRL": 349.9,
+            "USD": 49.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Round smart speaker with light gray fabric top",
+                "pt-BR": "Smart speaker redondo com tecido cinza claro"
+              },
+              "backgrounds": {
+                "#ffffff": "light-gray-white.png",
+                "#f5f5f5": "light-gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/smart-speaker/light-gray-white.webp",
+                "#f5f5f5": "images/smart-speaker/light-gray-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2-units",
+          "sku": "ELE-SSP-2UN",
+          "options": {
+            "pack": "2-units"
+          },
+          "price": {
+            "BRL": 629.9,
+            "USD": 89.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Round smart speaker with light gray fabric top",
+                "pt-BR": "Smart speaker redondo com tecido cinza claro"
+              },
+              "backgrounds": {
+                "#ffffff": "light-gray-white.png",
+                "#f5f5f5": "light-gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/smart-speaker/light-gray-white.webp",
+                "#f5f5f5": "images/smart-speaker/light-gray-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smartwatch",
+      "categoryId": "eletro-pessoais",
+      "name": {
+        "en": "Smartwatch with GPS and Heart Rate Monitor, Black Aluminum Case and Sport Band, Bluetooth, Sleep and Blood Oxygen Tracking, 100+ Workout Modes, Water-Resistant to 50 m, 7-Day Battery",
+        "pt-BR": "Smartwatch com GPS e Monitor Cardíaco, Caixa de Alumínio Preta e Pulseira Esportiva, Bluetooth, Monitoramento de Sono e Oxigenação, Mais de 100 Modos de Treino, Resistente à Água até 50 m, Bateria de 7 Dias"
+      },
+      "description": {
+        "en": "A light aluminum smartwatch that tracks runs with built-in GPS, heart rate and sleep. Notifications arrive over Bluetooth, and one charge lasts about a week.",
+        "pt-BR": "Smartwatch de alumínio leve que registra corridas com GPS integrado, batimentos e sono. As notificações chegam por Bluetooth, e uma carga dura cerca de uma semana."
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 199.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "smartwatch",
+          "fitness",
+          "gps"
+        ],
+        "pt-BR": [
+          "smartwatch",
+          "relógio inteligente",
+          "fitness"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "bluetooth",
+          "value": {
+            "en": "Bluetooth",
+            "pt-BR": "Bluetooth"
+          }
+        }
+      ],
+      "defaultVariantId": "41mm",
+      "options": [
+        {
+          "id": "case-size",
+          "name": {
+            "en": "Case size",
+            "pt-BR": "Tamanho da caixa"
+          },
+          "values": [
+            {
+              "id": "41mm",
+              "name": {
+                "en": "41 mm",
+                "pt-BR": "41 mm"
+              }
+            },
+            {
+              "id": "45mm",
+              "name": {
+                "en": "45 mm",
+                "pt-BR": "45 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "41mm",
+          "sku": "ELE-SWT-41",
+          "options": {
+            "case-size": "41mm"
+          },
+          "price": {
+            "BRL": 899.9,
+            "USD": 199.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black smartwatch with sport band, three-quarter view",
+                "pt-BR": "Smartwatch preto com pulseira esportiva, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/smartwatch/black-white.webp",
+                "#f5f5f5": "images/smartwatch/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "45mm",
+          "sku": "ELE-SWT-45",
+          "options": {
+            "case-size": "45mm"
+          },
+          "price": {
+            "BRL": 999.9,
+            "USD": 229.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black smartwatch with sport band, three-quarter view",
+                "pt-BR": "Smartwatch preto com pulseira esportiva, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/smartwatch/black-white.webp",
+                "#f5f5f5": "images/smartwatch/black-gray.webp"
               }
             }
           ]
@@ -4581,6 +6837,665 @@
               "src": {
                 "#ffffff": "images/training-shorts/blue-white.webp",
                 "#f5f5f5": "images/training-shorts/blue-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "webcam",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Webcam with Dual Stereo Microphones, Matte Black, Auto Light Correction, Wide 90° Field of View, Clip Mount for Monitor or Tripod, Plug and Play over USB",
+        "pt-BR": "Webcam com Microfones Estéreo Duplos, Preto Fosco, Correção Automática de Luz, Campo de Visão Amplo de 90°, Suporte para Monitor ou Tripé, Plug and Play via USB"
+      },
+      "description": {
+        "en": "A plug-and-play webcam for video calls and classes. It brightens dim rooms on its own and clips onto any monitor or laptop screen.",
+        "pt-BR": "Webcam plug and play para videochamadas e aulas. Ela clareia ambientes escuros sozinha e se prende a qualquer monitor ou tela de notebook."
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "webcam",
+          "video calls",
+          "home office"
+        ],
+        "pt-BR": [
+          "webcam",
+          "videochamada",
+          "home office"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "usb-a",
+          "value": {
+            "en": "USB-A",
+            "pt-BR": "USB-A"
+          }
+        }
+      ],
+      "defaultVariantId": "1080p",
+      "options": [
+        {
+          "id": "resolution",
+          "name": {
+            "en": "Resolution",
+            "pt-BR": "Resolução"
+          },
+          "values": [
+            {
+              "id": "1080p",
+              "name": {
+                "en": "Full HD 1080p",
+                "pt-BR": "Full HD 1080p"
+              }
+            },
+            {
+              "id": "2k",
+              "name": {
+                "en": "2K",
+                "pt-BR": "2K"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "1080p",
+          "sku": "ELE-WCM-1080",
+          "options": {
+            "resolution": "1080p"
+          },
+          "price": {
+            "BRL": 199.9,
+            "USD": 39.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black webcam on its clip mount",
+                "pt-BR": "Webcam preta no suporte de encaixe"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/webcam/black-white.webp",
+                "#f5f5f5": "images/webcam/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2k",
+          "sku": "ELE-WCM-2K",
+          "options": {
+            "resolution": "2k"
+          },
+          "price": {
+            "BRL": 299.9,
+            "USD": 59.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black webcam on its clip mount",
+                "pt-BR": "Webcam preta no suporte de encaixe"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/webcam/black-white.webp",
+                "#f5f5f5": "images/webcam/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wifi-router",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Wi-Fi 6 Dual-Band Router with 2 External Antennas, Matte Black, Gigabit Ethernet Ports, Covers up to 1,500 sq ft, WPA3 Security, Parental Controls and Easy Setup by App",
+        "pt-BR": "Roteador Wi-Fi 6 Dual Band com 2 Antenas Externas, Preto Fosco, Portas Ethernet Gigabit, Cobertura de até 140 m², Segurança WPA3, Controle Parental e Instalação Fácil pelo App"
+      },
+      "description": {
+        "en": "A dual-band Wi-Fi 6 router that keeps a busy home online, from video calls to streaming. Set it up from your phone in a few minutes.",
+        "pt-BR": "Roteador Wi-Fi 6 dual band que mantém a casa conectada, das chamadas de vídeo ao streaming. A instalação pelo celular leva poucos minutos."
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 79.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "router",
+          "wi-fi",
+          "internet"
+        ],
+        "pt-BR": [
+          "roteador",
+          "wi-fi",
+          "internet"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "wi-fi",
+          "value": {
+            "en": "Wi-Fi",
+            "pt-BR": "Wi-Fi"
+          }
+        }
+      ],
+      "defaultVariantId": "ax1800",
+      "options": [
+        {
+          "id": "speed",
+          "name": {
+            "en": "Speed",
+            "pt-BR": "Velocidade"
+          },
+          "values": [
+            {
+              "id": "ax1800",
+              "name": {
+                "en": "AX1800",
+                "pt-BR": "AX1800"
+              }
+            },
+            {
+              "id": "ax3000",
+              "name": {
+                "en": "AX3000",
+                "pt-BR": "AX3000"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "ax1800",
+          "sku": "ELE-WRT-AX18",
+          "options": {
+            "speed": "ax1800"
+          },
+          "price": {
+            "BRL": 399.9,
+            "USD": 79.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black Wi-Fi router with two antennas",
+                "pt-BR": "Roteador Wi-Fi preto com duas antenas"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wifi-router/black-white.webp",
+                "#f5f5f5": "images/wifi-router/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ax3000",
+          "sku": "ELE-WRT-AX30",
+          "options": {
+            "speed": "ax3000"
+          },
+          "price": {
+            "BRL": 549.9,
+            "USD": 109.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black Wi-Fi router with two antennas",
+                "pt-BR": "Roteador Wi-Fi preto com duas antenas"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wifi-router/black-white.webp",
+                "#f5f5f5": "images/wifi-router/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wireless-earbuds",
+      "categoryId": "eletro-pessoais",
+      "name": {
+        "en": "True Wireless Earbuds with Charging Case, Bluetooth 5.3, Glossy White, 6-Hour Playback and 24 Hours with the Case, Touch Controls, Sweat-Resistant, Built-In Microphones for Calls",
+        "pt-BR": "Fones de Ouvido sem Fio com Estojo de Carregamento, Bluetooth 5.3, Branco Brilhante, 6 Horas de Reprodução e 24 Horas com o Estojo, Controle por Toque, Resistentes ao Suor, Microfones para Chamadas"
+      },
+      "description": {
+        "en": "Lightweight wireless earbuds that pair as soon as the case opens. Six hours per charge, four more charges in the pocket-size case, and touch controls for music and calls.",
+        "pt-BR": "Fones sem fio leves que pareiam assim que o estojo abre. Seis horas por carga, mais quatro recargas no estojo de bolso, e controles por toque para música e chamadas."
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "earbuds",
+          "wireless",
+          "bluetooth"
+        ],
+        "pt-BR": [
+          "fone",
+          "sem fio",
+          "bluetooth"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "bluetooth",
+          "value": {
+            "en": "Bluetooth",
+            "pt-BR": "Bluetooth"
+          }
+        }
+      ],
+      "defaultVariantId": "usb-c-case",
+      "options": [
+        {
+          "id": "case",
+          "name": {
+            "en": "Case",
+            "pt-BR": "Estojo"
+          },
+          "values": [
+            {
+              "id": "usb-c-case",
+              "name": {
+                "en": "USB-C charging case",
+                "pt-BR": "Estojo com carga USB-C"
+              }
+            },
+            {
+              "id": "wireless-charging-case",
+              "name": {
+                "en": "Wireless charging case",
+                "pt-BR": "Estojo com carga sem fio"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "usb-c-case",
+          "sku": "ELE-WEB-USBC",
+          "options": {
+            "case": "usb-c-case"
+          },
+          "price": {
+            "BRL": 299.9,
+            "USD": 59.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White wireless earbuds sitting in their open charging case",
+                "pt-BR": "Fones sem fio brancos no estojo de carregamento aberto"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wireless-earbuds/white-white.webp",
+                "#f5f5f5": "images/wireless-earbuds/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wireless-charging-case",
+          "sku": "ELE-WEB-QI",
+          "options": {
+            "case": "wireless-charging-case"
+          },
+          "price": {
+            "BRL": 349.9,
+            "USD": 69.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White wireless earbuds sitting in their open charging case",
+                "pt-BR": "Fones sem fio brancos no estojo de carregamento aberto"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wireless-earbuds/white-white.webp",
+                "#f5f5f5": "images/wireless-earbuds/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wireless-keyboard",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Compact Wireless Keyboard with Numeric Keypad, Low-Profile Scissor Keys in White, Bluetooth and 2.4 GHz Receiver, Quiet Typing, Connects to 3 Devices, for Laptop, Tablet and Desktop",
+        "pt-BR": "Teclado sem Fio Compacto com Teclado Numérico, Teclas Baixas Tipo Tesoura em Branco, Bluetooth e Receptor 2,4 GHz, Digitação Silenciosa, Conecta a 3 Dispositivos, para Notebook, Tablet e PC"
+      },
+      "description": {
+        "en": "A slim wireless keyboard with a full numeric keypad and quiet scissor keys. Switch between three paired devices with one key, over Bluetooth or the USB receiver.",
+        "pt-BR": "Teclado sem fio fino, com teclado numérico completo e teclas tipo tesoura silenciosas. Alterne entre três dispositivos pareados com uma tecla, por Bluetooth ou pelo receptor USB."
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "keyboard",
+          "wireless",
+          "office"
+        ],
+        "pt-BR": [
+          "teclado",
+          "sem fio",
+          "escritório"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "bluetooth",
+          "value": {
+            "en": "Bluetooth",
+            "pt-BR": "Bluetooth"
+          }
+        },
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "usb-receiver",
+          "value": {
+            "en": "2.4 GHz USB receiver",
+            "pt-BR": "Receptor USB 2,4 GHz"
+          }
+        }
+      ],
+      "defaultVariantId": "us",
+      "options": [
+        {
+          "id": "layout",
+          "name": {
+            "en": "Layout",
+            "pt-BR": "Layout"
+          },
+          "values": [
+            {
+              "id": "us",
+              "name": {
+                "en": "US English",
+                "pt-BR": "Inglês (EUA)"
+              }
+            },
+            {
+              "id": "abnt2",
+              "name": {
+                "en": "Brazilian ABNT2",
+                "pt-BR": "ABNT2"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "us",
+          "sku": "ELE-WKB-US",
+          "options": {
+            "layout": "us"
+          },
+          "price": {
+            "BRL": 199.9,
+            "USD": 39.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White compact wireless keyboard with numeric keypad, top view",
+                "pt-BR": "Teclado sem fio branco compacto com teclado numérico, vista de cima"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wireless-keyboard/white-white.webp",
+                "#f5f5f5": "images/wireless-keyboard/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "abnt2",
+          "sku": "ELE-WKB-ABNT2",
+          "options": {
+            "layout": "abnt2"
+          },
+          "price": {
+            "BRL": 199.9,
+            "USD": 39.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White compact wireless keyboard with numeric keypad, top view",
+                "pt-BR": "Teclado sem fio branco compacto com teclado numérico, vista de cima"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wireless-keyboard/white-white.webp",
+                "#f5f5f5": "images/wireless-keyboard/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wireless-mouse",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Silent Wireless Mouse, 1600 DPI, Ambidextrous Low-Profile Shell in Matte White, 2.4 GHz Receiver or Bluetooth, Quiet Clicks, 18-Month Battery Life, for Laptop and Desktop",
+        "pt-BR": "Mouse sem Fio Silencioso 1600 DPI, Formato Ambidestro e Baixo em Branco Fosco, Receptor 2,4 GHz ou Bluetooth, Cliques Silenciosos, Bateria para 18 Meses, para Notebook e Computador"
+      },
+      "description": {
+        "en": "A quiet wireless mouse with a low, symmetrical shell that fits either hand. Pairs over Bluetooth or the included USB receiver and runs about 18 months on one AA battery.",
+        "pt-BR": "Mouse sem fio de cliques silenciosos, com formato baixo e simétrico para as duas mãos. Conecta por Bluetooth ou pelo receptor USB incluso e dura cerca de 18 meses com uma pilha AA."
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 19.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "mouse",
+          "wireless",
+          "office"
+        ],
+        "pt-BR": [
+          "mouse",
+          "sem fio",
+          "escritório"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "usb-receiver",
+          "value": {
+            "en": "2.4 GHz USB receiver",
+            "pt-BR": "Receptor USB 2,4 GHz"
+          }
+        },
+        {
+          "id": "connectivity",
+          "name": {
+            "en": "Connectivity",
+            "pt-BR": "Conectividade"
+          },
+          "valueId": "bluetooth",
+          "value": {
+            "en": "Bluetooth",
+            "pt-BR": "Bluetooth"
+          }
+        }
+      ],
+      "defaultVariantId": "usb-a",
+      "options": [
+        {
+          "id": "receiver",
+          "name": {
+            "en": "Receiver",
+            "pt-BR": "Receptor"
+          },
+          "values": [
+            {
+              "id": "usb-a",
+              "name": {
+                "en": "USB-A receiver",
+                "pt-BR": "Receptor USB-A"
+              }
+            },
+            {
+              "id": "usb-c",
+              "name": {
+                "en": "USB-C receiver",
+                "pt-BR": "Receptor USB-C"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "usb-a",
+          "sku": "ELE-WMS-USBA",
+          "options": {
+            "receiver": "usb-a"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 19.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White wireless mouse seen from above",
+                "pt-BR": "Mouse sem fio branco visto de cima"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wireless-mouse/white-white.webp",
+                "#f5f5f5": "images/wireless-mouse/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "usb-c",
+          "sku": "ELE-WMS-USBC",
+          "options": {
+            "receiver": "usb-c"
+          },
+          "price": {
+            "BRL": 99.9,
+            "USD": 22.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White wireless mouse seen from above",
+                "pt-BR": "Mouse sem fio branco visto de cima"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wireless-mouse/white-white.webp",
+                "#f5f5f5": "images/wireless-mouse/white-gray.webp"
               }
             }
           ]

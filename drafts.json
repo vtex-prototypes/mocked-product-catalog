@@ -122,17 +122,6 @@
       "src": "drafts/blender.jpg"
     },
     {
-      "id": "bluetooth-speaker",
-      "categoryId": "eletro-casa-entretenimento",
-      "name": {
-        "en": "Bluetooth speaker",
-        "pt-BR": "Caixa de som Bluetooth"
-      },
-      "photo": "bluetooth-speaker.jpg",
-      "figmaNode": "134:5713",
-      "src": "drafts/bluetooth-speaker.jpg"
-    },
-    {
       "id": "box-grater",
       "categoryId": "casa-acessorios-cozinha",
       "name": {
@@ -320,17 +309,6 @@
       "src": "drafts/compact-smart-tv.jpg"
     },
     {
-      "id": "compact-wall-charger",
-      "categoryId": "eletro-acessorios",
-      "name": {
-        "en": "Compact wall charger",
-        "pt-BR": "Carregador de parede compacto"
-      },
-      "photo": "compact-wall-charger.jpg",
-      "figmaNode": "129:5594",
-      "src": "drafts/compact-wall-charger.jpg"
-    },
-    {
       "id": "cooler-box",
       "categoryId": "casa-hobbies",
       "name": {
@@ -386,17 +364,6 @@
       "src": "drafts/cycling-gloves.jpg"
     },
     {
-      "id": "desk-fan",
-      "categoryId": "eletro-casa-praticos",
-      "name": {
-        "en": "Desk fan",
-        "pt-BR": "Ventilador de mesa"
-      },
-      "photo": "desk-fan.jpg",
-      "figmaNode": "133:5607",
-      "src": "drafts/desk-fan.jpg"
-    },
-    {
       "id": "dishwasher",
       "categoryId": "eletro-cozinha",
       "name": {
@@ -441,17 +408,6 @@
       "src": "drafts/dslr-camera.jpg"
     },
     {
-      "id": "dual-usb-wall-charger",
-      "categoryId": "eletro-acessorios",
-      "name": {
-        "en": "Dual USB wall charger",
-        "pt-BR": "Carregador de parede com duas portas USB"
-      },
-      "photo": "dual-usb-wall-charger.jpg",
-      "figmaNode": "136:5616",
-      "src": "drafts/dual-usb-wall-charger.jpg"
-    },
-    {
       "id": "duck-boot",
       "categoryId": "esportes-sapatos",
       "name": {
@@ -461,17 +417,6 @@
       "photo": "duck-boot.jpg",
       "figmaNode": "136:5627",
       "src": "drafts/duck-boot.jpg"
-    },
-    {
-      "id": "e-reader",
-      "categoryId": "eletro-pessoais",
-      "name": {
-        "en": "E-reader",
-        "pt-BR": "Leitor digital"
-      },
-      "photo": "e-reader.jpg",
-      "figmaNode": "134:5696",
-      "src": "drafts/e-reader.jpg"
     },
     {
       "id": "eggs-carton",
@@ -626,17 +571,6 @@
       "photo": "frozen-waffles.jpg",
       "figmaNode": "133:5606",
       "src": "drafts/frozen-waffles.jpg"
-    },
-    {
-      "id": "game-controller",
-      "categoryId": "eletro-acessorios",
-      "name": {
-        "en": "Game controller",
-        "pt-BR": "Controle para jogos"
-      },
-      "photo": "game-controller.jpg",
-      "figmaNode": "134:5634",
-      "src": "drafts/game-controller.jpg"
     },
     {
       "id": "garlic",
@@ -849,17 +783,6 @@
       "src": "drafts/ice-cube-tray.jpg"
     },
     {
-      "id": "inkjet-printer",
-      "categoryId": "eletro-casa-praticos",
-      "name": {
-        "en": "Inkjet printer",
-        "pt-BR": "Impressora jato de tinta"
-      },
-      "photo": "inkjet-printer.jpg",
-      "figmaNode": "151:6583",
-      "src": "drafts/inkjet-printer.jpg"
-    },
-    {
       "id": "instant-camera",
       "categoryId": "eletro-pessoais",
       "name": {
@@ -968,17 +891,6 @@
       "photo": "knit-sneaker-boot.jpg",
       "figmaNode": "136:5641",
       "src": "drafts/knit-sneaker-boot.jpg"
-    },
-    {
-      "id": "laptop-sleeve",
-      "categoryId": "eletro-acessorios",
-      "name": {
-        "en": "Laptop sleeve",
-        "pt-BR": "Capa para notebook"
-      },
-      "photo": "laptop-sleeve.jpg",
-      "figmaNode": "134:5709",
-      "src": "drafts/laptop-sleeve.jpg"
     },
     {
       "id": "laptop",
@@ -1312,17 +1224,6 @@
       "src": "drafts/orange.jpg"
     },
     {
-      "id": "over-ear-headphones",
-      "categoryId": "eletro-pessoais",
-      "name": {
-        "en": "Over-ear headphones",
-        "pt-BR": "Fone de ouvido over-ear"
-      },
-      "photo": "over-ear-headphones.jpg",
-      "figmaNode": "129:5586",
-      "src": "drafts/over-ear-headphones.jpg"
-    },
-    {
       "id": "oxford-dress-shoe",
       "categoryId": "roupa-sapatos",
       "name": {
@@ -1367,17 +1268,6 @@
       "src": "drafts/pepper-mill.jpg"
     },
     {
-      "id": "phone-stand",
-      "categoryId": "eletro-acessorios",
-      "name": {
-        "en": "Phone stand",
-        "pt-BR": "Suporte para celular"
-      },
-      "photo": "phone-stand.jpg",
-      "figmaNode": "134:5720",
-      "src": "drafts/phone-stand.jpg"
-    },
-    {
       "id": "pillar-candle",
       "categoryId": "casa-moveis-decoracao",
       "name": {
@@ -1398,17 +1288,6 @@
       "photo": "popcorn-maker.jpg",
       "figmaNode": "134:5738",
       "src": "drafts/popcorn-maker.jpg"
-    },
-    {
-      "id": "portable-ssd",
-      "categoryId": "eletro-acessorios",
-      "name": {
-        "en": "Portable SSD",
-        "pt-BR": "SSD portátil"
-      },
-      "photo": "portable-ssd.jpg",
-      "figmaNode": "134:5632",
-      "src": "drafts/portable-ssd.jpg"
     },
     {
       "id": "portable-table-lamp",
@@ -1554,17 +1433,6 @@
       "src": "drafts/red-wine.jpg"
     },
     {
-      "id": "robot-vacuum",
-      "categoryId": "eletro-casa-praticos",
-      "name": {
-        "en": "Robot vacuum",
-        "pt-BR": "Robô aspirador"
-      },
-      "photo": "robot-vacuum.jpg",
-      "figmaNode": "134:5747",
-      "src": "drafts/robot-vacuum.jpg"
-    },
-    {
       "id": "rolled-oats",
       "categoryId": "mercado-graos",
       "name": {
@@ -1585,17 +1453,6 @@
       "photo": "scrub-brush.jpg",
       "figmaNode": "136:5602",
       "src": "drafts/scrub-brush.jpg"
-    },
-    {
-      "id": "security-camera",
-      "categoryId": "eletro-casa-praticos",
-      "name": {
-        "en": "Security camera",
-        "pt-BR": "Câmera de segurança"
-      },
-      "photo": "security-camera.jpg",
-      "figmaNode": "134:5718",
-      "src": "drafts/security-camera.jpg"
     },
     {
       "id": "sherpa-collar-ankle-boot",
@@ -1708,39 +1565,6 @@
       "src": "drafts/sliced-mozzarella.jpg"
     },
     {
-      "id": "smart-door-lock",
-      "categoryId": "eletro-casa-praticos",
-      "name": {
-        "en": "Smart door lock",
-        "pt-BR": "Fechadura digital"
-      },
-      "photo": "smart-door-lock.jpg",
-      "figmaNode": "136:5621",
-      "src": "drafts/smart-door-lock.jpg"
-    },
-    {
-      "id": "smart-scale",
-      "categoryId": "eletro-casa-praticos",
-      "name": {
-        "en": "Smart body scale",
-        "pt-BR": "Balança inteligente"
-      },
-      "photo": "smart-scale.jpg",
-      "figmaNode": "136:5617",
-      "src": "drafts/smart-scale.jpg"
-    },
-    {
-      "id": "smart-speaker",
-      "categoryId": "eletro-casa-entretenimento",
-      "name": {
-        "en": "Smart speaker",
-        "pt-BR": "Caixa de som inteligente"
-      },
-      "photo": "smart-speaker.jpg",
-      "figmaNode": "134:5711",
-      "src": "drafts/smart-speaker.jpg"
-    },
-    {
       "id": "smart-tv",
       "categoryId": "eletro-casa-entretenimento",
       "name": {
@@ -1761,17 +1585,6 @@
       "photo": "smartphone.jpg",
       "figmaNode": "129:5583",
       "src": "drafts/smartphone.jpg"
-    },
-    {
-      "id": "smartwatch",
-      "categoryId": "eletro-pessoais",
-      "name": {
-        "en": "Smartwatch",
-        "pt-BR": "Relógio inteligente"
-      },
-      "photo": "smartwatch.jpg",
-      "figmaNode": "134:5673",
-      "src": "drafts/smartwatch.jpg"
     },
     {
       "id": "soccer-ball",
@@ -2105,17 +1918,6 @@
       "src": "drafts/waterproof-trail-sneaker.jpg"
     },
     {
-      "id": "webcam",
-      "categoryId": "eletro-acessorios",
-      "name": {
-        "en": "Webcam",
-        "pt-BR": "Webcam"
-      },
-      "photo": "webcam.jpg",
-      "figmaNode": "134:5717",
-      "src": "drafts/webcam.jpg"
-    },
-    {
       "id": "whiskey",
       "categoryId": "mercado-bebidas-alcoolicas",
       "name": {
@@ -2172,17 +1974,6 @@
       "src": "drafts/wide-beam-headlamp.jpg"
     },
     {
-      "id": "wifi-router",
-      "categoryId": "eletro-casa-praticos",
-      "name": {
-        "en": "Wi-Fi router",
-        "pt-BR": "Roteador Wi-Fi"
-      },
-      "photo": "wifi-router.jpg",
-      "figmaNode": "151:6582",
-      "src": "drafts/wifi-router.jpg"
-    },
-    {
       "id": "windbreaker-jacket",
       "categoryId": "roupa-parte-de-cima-casual",
       "name": {
@@ -2214,39 +2005,6 @@
       "photo": "wine-glass.jpg",
       "figmaNode": "131:5589",
       "src": "drafts/wine-glass.jpg"
-    },
-    {
-      "id": "wireless-earbuds",
-      "categoryId": "eletro-pessoais",
-      "name": {
-        "en": "Wireless earbuds",
-        "pt-BR": "Fones sem fio"
-      },
-      "photo": "wireless-earbuds.jpg",
-      "figmaNode": "136:5577",
-      "src": "drafts/wireless-earbuds.jpg"
-    },
-    {
-      "id": "wireless-keyboard",
-      "categoryId": "eletro-acessorios",
-      "name": {
-        "en": "Wireless keyboard",
-        "pt-BR": "Teclado sem fio"
-      },
-      "photo": "wireless-keyboard.jpg",
-      "figmaNode": "134:5633",
-      "src": "drafts/wireless-keyboard.jpg"
-    },
-    {
-      "id": "wireless-mouse",
-      "categoryId": "eletro-acessorios",
-      "name": {
-        "en": "Wireless mouse",
-        "pt-BR": "Mouse sem fio"
-      },
-      "photo": "wireless-mouse.jpg",
-      "figmaNode": "134:5635",
-      "src": "drafts/wireless-mouse.jpg"
     },
     {
       "id": "wooden-coat-hanger",

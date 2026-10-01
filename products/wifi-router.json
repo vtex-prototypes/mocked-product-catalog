@@ -1,0 +1,111 @@
+{
+  "id": "wifi-router",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Wi-Fi 6 Dual-Band Router with 2 External Antennas, Matte Black, Gigabit Ethernet Ports, Covers up to 1,500 sq ft, WPA3 Security, Parental Controls and Easy Setup by App",
+    "pt-BR": "Roteador Wi-Fi 6 Dual Band com 2 Antenas Externas, Preto Fosco, Portas Ethernet Gigabit, Cobertura de até 140 m², Segurança WPA3, Controle Parental e Instalação Fácil pelo App"
+  },
+  "description": {
+    "en": "A dual-band Wi-Fi 6 router that keeps a busy home online, from video calls to streaming. Set it up from your phone in a few minutes.",
+    "pt-BR": "Roteador Wi-Fi 6 dual band que mantém a casa conectada, das chamadas de vídeo ao streaming. A instalação pelo celular leva poucos minutos."
+  },
+  "price": {
+    "BRL": 399.9,
+    "USD": 79.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "router",
+      "wi-fi",
+      "internet"
+    ],
+    "pt-BR": [
+      "roteador",
+      "wi-fi",
+      "internet"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "wi-fi"
+    }
+  ],
+  "defaultVariantId": "ax1800",
+  "options": [
+    {
+      "id": "speed",
+      "name": {
+        "en": "Speed",
+        "pt-BR": "Velocidade"
+      },
+      "values": [
+        {
+          "id": "ax1800",
+          "name": {
+            "en": "AX1800",
+            "pt-BR": "AX1800"
+          }
+        },
+        {
+          "id": "ax3000",
+          "name": {
+            "en": "AX3000",
+            "pt-BR": "AX3000"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "ax1800",
+      "sku": "ELE-WRT-AX18",
+      "options": {
+        "speed": "ax1800"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 79.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Wi-Fi router with two antennas",
+            "pt-BR": "Roteador Wi-Fi preto com duas antenas"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ax3000",
+      "sku": "ELE-WRT-AX30",
+      "options": {
+        "speed": "ax3000"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 109.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Wi-Fi router with two antennas",
+            "pt-BR": "Roteador Wi-Fi preto com duas antenas"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

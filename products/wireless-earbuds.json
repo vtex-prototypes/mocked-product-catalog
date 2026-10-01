@@ -1,0 +1,111 @@
+{
+  "id": "wireless-earbuds",
+  "categoryId": "eletro-pessoais",
+  "name": {
+    "en": "True Wireless Earbuds with Charging Case, Bluetooth 5.3, Glossy White, 6-Hour Playback and 24 Hours with the Case, Touch Controls, Sweat-Resistant, Built-In Microphones for Calls",
+    "pt-BR": "Fones de Ouvido sem Fio com Estojo de Carregamento, Bluetooth 5.3, Branco Brilhante, 6 Horas de Reprodução e 24 Horas com o Estojo, Controle por Toque, Resistentes ao Suor, Microfones para Chamadas"
+  },
+  "description": {
+    "en": "Lightweight wireless earbuds that pair as soon as the case opens. Six hours per charge, four more charges in the pocket-size case, and touch controls for music and calls.",
+    "pt-BR": "Fones sem fio leves que pareiam assim que o estojo abre. Seis horas por carga, mais quatro recargas no estojo de bolso, e controles por toque para música e chamadas."
+  },
+  "price": {
+    "BRL": 299.9,
+    "USD": 59.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "earbuds",
+      "wireless",
+      "bluetooth"
+    ],
+    "pt-BR": [
+      "fone",
+      "sem fio",
+      "bluetooth"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "bluetooth"
+    }
+  ],
+  "defaultVariantId": "usb-c-case",
+  "options": [
+    {
+      "id": "case",
+      "name": {
+        "en": "Case",
+        "pt-BR": "Estojo"
+      },
+      "values": [
+        {
+          "id": "usb-c-case",
+          "name": {
+            "en": "USB-C charging case",
+            "pt-BR": "Estojo com carga USB-C"
+          }
+        },
+        {
+          "id": "wireless-charging-case",
+          "name": {
+            "en": "Wireless charging case",
+            "pt-BR": "Estojo com carga sem fio"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "usb-c-case",
+      "sku": "ELE-WEB-USBC",
+      "options": {
+        "case": "usb-c-case"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wireless earbuds sitting in their open charging case",
+            "pt-BR": "Fones sem fio brancos no estojo de carregamento aberto"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wireless-charging-case",
+      "sku": "ELE-WEB-QI",
+      "options": {
+        "case": "wireless-charging-case"
+      },
+      "price": {
+        "BRL": 349.9,
+        "USD": 69.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wireless earbuds sitting in their open charging case",
+            "pt-BR": "Fones sem fio brancos no estojo de carregamento aberto"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

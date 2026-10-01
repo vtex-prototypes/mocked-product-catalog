@@ -1,0 +1,115 @@
+{
+  "id": "wireless-keyboard",
+  "categoryId": "eletro-acessorios",
+  "name": {
+    "en": "Compact Wireless Keyboard with Numeric Keypad, Low-Profile Scissor Keys in White, Bluetooth and 2.4 GHz Receiver, Quiet Typing, Connects to 3 Devices, for Laptop, Tablet and Desktop",
+    "pt-BR": "Teclado sem Fio Compacto com Teclado Numérico, Teclas Baixas Tipo Tesoura em Branco, Bluetooth e Receptor 2,4 GHz, Digitação Silenciosa, Conecta a 3 Dispositivos, para Notebook, Tablet e PC"
+  },
+  "description": {
+    "en": "A slim wireless keyboard with a full numeric keypad and quiet scissor keys. Switch between three paired devices with one key, over Bluetooth or the USB receiver.",
+    "pt-BR": "Teclado sem fio fino, com teclado numérico completo e teclas tipo tesoura silenciosas. Alterne entre três dispositivos pareados com uma tecla, por Bluetooth ou pelo receptor USB."
+  },
+  "price": {
+    "BRL": 199.9,
+    "USD": 39.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "keyboard",
+      "wireless",
+      "office"
+    ],
+    "pt-BR": [
+      "teclado",
+      "sem fio",
+      "escritório"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "bluetooth"
+    },
+    {
+      "id": "connectivity",
+      "valueId": "usb-receiver"
+    }
+  ],
+  "defaultVariantId": "us",
+  "options": [
+    {
+      "id": "layout",
+      "name": {
+        "en": "Layout",
+        "pt-BR": "Layout"
+      },
+      "values": [
+        {
+          "id": "us",
+          "name": {
+            "en": "US English",
+            "pt-BR": "Inglês (EUA)"
+          }
+        },
+        {
+          "id": "abnt2",
+          "name": {
+            "en": "Brazilian ABNT2",
+            "pt-BR": "ABNT2"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "us",
+      "sku": "ELE-WKB-US",
+      "options": {
+        "layout": "us"
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White compact wireless keyboard with numeric keypad, top view",
+            "pt-BR": "Teclado sem fio branco compacto com teclado numérico, vista de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "abnt2",
+      "sku": "ELE-WKB-ABNT2",
+      "options": {
+        "layout": "abnt2"
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White compact wireless keyboard with numeric keypad, top view",
+            "pt-BR": "Teclado sem fio branco compacto com teclado numérico, vista de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

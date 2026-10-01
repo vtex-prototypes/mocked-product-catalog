@@ -1,0 +1,115 @@
+{
+  "id": "wireless-mouse",
+  "categoryId": "eletro-acessorios",
+  "name": {
+    "en": "Silent Wireless Mouse, 1600 DPI, Ambidextrous Low-Profile Shell in Matte White, 2.4 GHz Receiver or Bluetooth, Quiet Clicks, 18-Month Battery Life, for Laptop and Desktop",
+    "pt-BR": "Mouse sem Fio Silencioso 1600 DPI, Formato Ambidestro e Baixo em Branco Fosco, Receptor 2,4 GHz ou Bluetooth, Cliques Silenciosos, Bateria para 18 Meses, para Notebook e Computador"
+  },
+  "description": {
+    "en": "A quiet wireless mouse with a low, symmetrical shell that fits either hand. Pairs over Bluetooth or the included USB receiver and runs about 18 months on one AA battery.",
+    "pt-BR": "Mouse sem fio de cliques silenciosos, com formato baixo e simétrico para as duas mãos. Conecta por Bluetooth ou pelo receptor USB incluso e dura cerca de 18 meses com uma pilha AA."
+  },
+  "price": {
+    "BRL": 89.9,
+    "USD": 19.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "mouse",
+      "wireless",
+      "office"
+    ],
+    "pt-BR": [
+      "mouse",
+      "sem fio",
+      "escritório"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "usb-receiver"
+    },
+    {
+      "id": "connectivity",
+      "valueId": "bluetooth"
+    }
+  ],
+  "defaultVariantId": "usb-a",
+  "options": [
+    {
+      "id": "receiver",
+      "name": {
+        "en": "Receiver",
+        "pt-BR": "Receptor"
+      },
+      "values": [
+        {
+          "id": "usb-a",
+          "name": {
+            "en": "USB-A receiver",
+            "pt-BR": "Receptor USB-A"
+          }
+        },
+        {
+          "id": "usb-c",
+          "name": {
+            "en": "USB-C receiver",
+            "pt-BR": "Receptor USB-C"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "usb-a",
+      "sku": "ELE-WMS-USBA",
+      "options": {
+        "receiver": "usb-a"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 19.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wireless mouse seen from above",
+            "pt-BR": "Mouse sem fio branco visto de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "usb-c",
+      "sku": "ELE-WMS-USBC",
+      "options": {
+        "receiver": "usb-c"
+      },
+      "price": {
+        "BRL": 99.9,
+        "USD": 22.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wireless mouse seen from above",
+            "pt-BR": "Mouse sem fio branco visto de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
