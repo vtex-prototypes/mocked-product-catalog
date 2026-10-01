@@ -1,6 +1,6 @@
 {
   "id": "training-shorts",
-  "brand": "Ritmo",
+  "brandId": "ritmo",
   "categoryId": "esportes-shorts",
   "name": {
     "en": "Ritmo Core 7-Inch Training Shorts with Drawstring Waist, Quick-Dry Lightweight Knit, Curved Hem and Hidden Back Pocket, Black or Royal Blue, Men's Gym Shorts for Lifting, Running and Everyday",
@@ -27,6 +27,12 @@
       "corrida"
     ]
   },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "quick-dry-knit"
+    }
+  ],
   "defaultVariantId": "black-m",
   "options": [
     {
@@ -56,31 +62,19 @@
     },
     {
       "id": "size",
-      "name": {
-        "en": "Size",
-        "pt-BR": "Tamanho"
-      },
+      "specificationId": "size",
       "values": [
         {
           "id": "s",
-          "name": {
-            "en": "S",
-            "pt-BR": "P"
-          }
+          "valueId": "s"
         },
         {
           "id": "m",
-          "name": {
-            "en": "M",
-            "pt-BR": "M"
-          }
+          "valueId": "m"
         },
         {
           "id": "l",
-          "name": {
-            "en": "L",
-            "pt-BR": "G"
-          }
+          "valueId": "l"
         }
       ]
     }

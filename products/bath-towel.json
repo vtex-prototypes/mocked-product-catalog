@@ -1,6 +1,6 @@
 {
   "id": "bath-towel",
-  "brand": "Fio Puro",
+  "brandId": "fio-puro",
   "categoryId": "casa-cama-mesa-banho",
   "name": {
     "en": "Fio Puro 100% Combed Cotton Bath Towel 28x55 in, 500 GSM Ultra Absorbent Quick Dry, White or Slate Blue, with Tone-on-Tone Jacquard Border",
@@ -10,20 +10,54 @@
     "en": "Full-size bath towel in 500 GSM combed cotton terry. Highly absorbent, quick to dry and soft from the first wash. Woven jacquard border in the same tone. White or slate blue.",
     "pt-BR": "Toalha de banho em felpa de algodão penteado 500 g/m². Alta absorção, secagem rápida e maciez desde a primeira lavagem. Barra em jacquard tom sobre tom. Branca ou azul-ardósia."
   },
-  "price": { "BRL": 59.9, "USD": 14.99 },
+  "price": {
+    "BRL": 59.9,
+    "USD": 14.99
+  },
   "availability": "in_stock",
   "tags": {
-    "en": ["bath towel", "bathroom", "cotton"],
-    "pt-BR": ["toalha", "banho", "algodão"]
+    "en": [
+      "bath towel",
+      "bathroom",
+      "cotton"
+    ],
+    "pt-BR": [
+      "toalha",
+      "banho",
+      "algodão"
+    ]
   },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
   "defaultVariantId": "white",
   "options": [
     {
       "id": "color",
-      "name": { "en": "Color", "pt-BR": "Cor" },
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
       "values": [
-        { "id": "white", "name": { "en": "White", "pt-BR": "Branco" }, "hex": "#F7F7F5" },
-        { "id": "slate", "name": { "en": "Slate Blue", "pt-BR": "Azul-ardósia" }, "hex": "#7E93A8" }
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F7F7F5"
+        },
+        {
+          "id": "slate",
+          "name": {
+            "en": "Slate Blue",
+            "pt-BR": "Azul-ardósia"
+          },
+          "hex": "#7E93A8"
+        }
       ]
     }
   ],
@@ -31,26 +65,48 @@
     {
       "id": "white",
       "sku": "FP-TWL-WHT",
-      "options": { "color": "white" },
-      "price": { "BRL": 59.9, "USD": 14.99 },
+      "options": {
+        "color": "white"
+      },
+      "price": {
+        "BRL": 59.9,
+        "USD": 14.99
+      },
       "availability": "in_stock",
       "images": [
         {
-          "alt": { "en": "Folded white bath towel", "pt-BR": "Toalha de banho branca dobrada" },
-          "backgrounds": { "#ffffff": "white-white.png", "#f5f5f5": "white-gray.png" }
+          "alt": {
+            "en": "Folded white bath towel",
+            "pt-BR": "Toalha de banho branca dobrada"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
         }
       ]
     },
     {
       "id": "slate",
       "sku": "FP-TWL-SLT",
-      "options": { "color": "slate" },
-      "price": { "BRL": 59.9, "USD": 14.99 },
+      "options": {
+        "color": "slate"
+      },
+      "price": {
+        "BRL": 59.9,
+        "USD": 14.99
+      },
       "availability": "in_stock",
       "images": [
         {
-          "alt": { "en": "Folded slate blue bath towel", "pt-BR": "Toalha de banho azul-ardósia dobrada" },
-          "backgrounds": { "#ffffff": "slate-white.png", "#f5f5f5": "slate-gray.png" }
+          "alt": {
+            "en": "Folded slate blue bath towel",
+            "pt-BR": "Toalha de banho azul-ardósia dobrada"
+          },
+          "backgrounds": {
+            "#ffffff": "slate-white.png",
+            "#f5f5f5": "slate-gray.png"
+          }
         }
       ]
     }

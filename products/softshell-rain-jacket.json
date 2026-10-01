@@ -1,6 +1,6 @@
 {
   "id": "softshell-rain-jacket",
-  "brand": "Altitude",
+  "brandId": "altitude",
   "categoryId": "esportes-casacos",
   "name": {
     "en": "Altitude Storm Softshell Rain Jacket with Adjustable Hood, 10K Waterproof Stretch Fabric, Chest Pocket and Pit Zips, Forest Green or Safety Orange, Lightweight Shell for Trail Running and Cycling",
@@ -27,6 +27,12 @@
       "ciclismo"
     ]
   },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "softshell"
+    }
+  ],
   "defaultVariantId": "green-m",
   "options": [
     {
@@ -56,31 +62,19 @@
     },
     {
       "id": "size",
-      "name": {
-        "en": "Size",
-        "pt-BR": "Tamanho"
-      },
+      "specificationId": "size",
       "values": [
         {
           "id": "s",
-          "name": {
-            "en": "S",
-            "pt-BR": "P"
-          }
+          "valueId": "s"
         },
         {
           "id": "m",
-          "name": {
-            "en": "M",
-            "pt-BR": "M"
-          }
+          "valueId": "m"
         },
         {
           "id": "l",
-          "name": {
-            "en": "L",
-            "pt-BR": "G"
-          }
+          "valueId": "l"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "id": "laptop-backpack",
-  "brand": "Altitude",
+  "brandId": "altitude",
   "categoryId": "esportes-mochilas",
   "name": {
     "en": "Altitude Commute 22L Laptop Backpack with Padded 16-Inch Sleeve, Water-Resistant Coated Fabric, Side-Access Pocket and Luggage Strap, Black or Olive, Slim Everyday Backpack for Work, Gym and Travel",
@@ -27,6 +27,16 @@
       "trabalho"
     ]
   },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "coated-fabric"
+    },
+    {
+      "id": "capacity",
+      "valueId": "22-l"
+    }
+  ],
   "defaultVariantId": "black",
   "options": [
     {

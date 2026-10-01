@@ -1,6 +1,6 @@
 {
   "id": "down-puffer-jacket",
-  "brand": "Altitude",
+  "brandId": "altitude",
   "categoryId": "esportes-casacos",
   "name": {
     "en": "Altitude Glacier 700-Fill Down Puffer Jacket with Hood, Wide Horizontal Baffles, Welt Pockets, Taupe or Navy, Warm Lightweight Winter Jacket for Mountain Trips and Cold Cities",
@@ -27,6 +27,12 @@
       "inverno"
     ]
   },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "down"
+    }
+  ],
   "defaultVariantId": "taupe-m",
   "options": [
     {
@@ -56,31 +62,19 @@
     },
     {
       "id": "size",
-      "name": {
-        "en": "Size",
-        "pt-BR": "Tamanho"
-      },
+      "specificationId": "size",
       "values": [
         {
           "id": "s",
-          "name": {
-            "en": "S",
-            "pt-BR": "P"
-          }
+          "valueId": "s"
         },
         {
           "id": "m",
-          "name": {
-            "en": "M",
-            "pt-BR": "M"
-          }
+          "valueId": "m"
         },
         {
           "id": "l",
-          "name": {
-            "en": "L",
-            "pt-BR": "G"
-          }
+          "valueId": "l"
         }
       ]
     }

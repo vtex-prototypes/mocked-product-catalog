@@ -1,6 +1,6 @@
 {
   "id": "fleece-jogger-pants",
-  "brand": "Ritmo",
+  "brandId": "ritmo",
   "categoryId": "esportes-calcas",
   "name": {
     "en": "Ritmo Lounge Fleece Jogger Pants with Drawstring Waist and Ribbed Cuffs, Brushed Cotton-Blend Fleece, Navy or Heather Gray, Tapered Sweatpants for Training, Travel and Rest Days",
@@ -31,6 +31,16 @@
       "calça"
     ]
   },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton-blend"
+    },
+    {
+      "id": "material",
+      "valueId": "fleece"
+    }
+  ],
   "defaultVariantId": "navy-m",
   "options": [
     {
@@ -60,31 +70,19 @@
     },
     {
       "id": "size",
-      "name": {
-        "en": "Size",
-        "pt-BR": "Tamanho"
-      },
+      "specificationId": "size",
       "values": [
         {
           "id": "s",
-          "name": {
-            "en": "S",
-            "pt-BR": "P"
-          }
+          "valueId": "s"
         },
         {
           "id": "m",
-          "name": {
-            "en": "M",
-            "pt-BR": "M"
-          }
+          "valueId": "m"
         },
         {
           "id": "l",
-          "name": {
-            "en": "L",
-            "pt-BR": "G"
-          }
+          "valueId": "l"
         }
       ]
     }

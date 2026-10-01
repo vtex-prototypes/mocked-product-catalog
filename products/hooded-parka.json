@@ -1,6 +1,6 @@
 {
   "id": "hooded-parka",
-  "brand": "Altitude",
+  "brandId": "altitude",
   "categoryId": "esportes-casacos",
   "name": {
     "en": "Altitude Trail Hooded Parka Jacket, Waterproof Breathable Shell with Taped Seams, Adjustable Hood and Ribbed Hem, Brown or Black, Mid-Length Rain Jacket for Hiking and Everyday",
@@ -56,31 +56,19 @@
     },
     {
       "id": "size",
-      "name": {
-        "en": "Size",
-        "pt-BR": "Tamanho"
-      },
+      "specificationId": "size",
       "values": [
         {
           "id": "s",
-          "name": {
-            "en": "S",
-            "pt-BR": "P"
-          }
+          "valueId": "s"
         },
         {
           "id": "m",
-          "name": {
-            "en": "M",
-            "pt-BR": "M"
-          }
+          "valueId": "m"
         },
         {
           "id": "l",
-          "name": {
-            "en": "L",
-            "pt-BR": "G"
-          }
+          "valueId": "l"
         }
       ]
     }

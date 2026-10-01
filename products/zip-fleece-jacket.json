@@ -1,6 +1,6 @@
 {
   "id": "zip-fleece-jacket",
-  "brand": "Altitude",
+  "brandId": "altitude",
   "categoryId": "esportes-casacos",
   "name": {
     "en": "Altitude Basecamp Full-Zip Fleece Jacket, Midweight Recycled Polyester Fleece, Stand Collar and Zip Hand Pockets, Dark Gray or Oatmeal, Warm Layering Piece for Camping and Cold Mornings",
@@ -27,6 +27,16 @@
       "camping"
     ]
   },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "recycled-polyester"
+    },
+    {
+      "id": "material",
+      "valueId": "fleece"
+    }
+  ],
   "defaultVariantId": "gray-m",
   "options": [
     {
@@ -56,31 +66,19 @@
     },
     {
       "id": "size",
-      "name": {
-        "en": "Size",
-        "pt-BR": "Tamanho"
-      },
+      "specificationId": "size",
       "values": [
         {
           "id": "s",
-          "name": {
-            "en": "S",
-            "pt-BR": "P"
-          }
+          "valueId": "s"
         },
         {
           "id": "m",
-          "name": {
-            "en": "M",
-            "pt-BR": "M"
-          }
+          "valueId": "m"
         },
         {
           "id": "l",
-          "name": {
-            "en": "L",
-            "pt-BR": "G"
-          }
+          "valueId": "l"
         }
       ]
     }

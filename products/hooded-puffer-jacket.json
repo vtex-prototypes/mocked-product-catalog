@@ -1,6 +1,6 @@
 {
   "id": "hooded-puffer-jacket",
-  "brand": "Altitude",
+  "brandId": "altitude",
   "categoryId": "esportes-casacos",
   "name": {
     "en": "Altitude Summit Hooded Puffer Jacket for Men and Women, Recycled Synthetic Insulation, Water-Repellent Shell, Light Gray or Forest Green, Packable Winter Coat for Hiking and City",
@@ -31,6 +31,12 @@
       "trilha"
     ]
   },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "recycled-synthetic"
+    }
+  ],
   "defaultVariantId": "gray-m",
   "options": [
     {
@@ -60,31 +66,19 @@
     },
     {
       "id": "size",
-      "name": {
-        "en": "Size",
-        "pt-BR": "Tamanho"
-      },
+      "specificationId": "size",
       "values": [
         {
           "id": "s",
-          "name": {
-            "en": "S",
-            "pt-BR": "P"
-          }
+          "valueId": "s"
         },
         {
           "id": "m",
-          "name": {
-            "en": "M",
-            "pt-BR": "M"
-          }
+          "valueId": "m"
         },
         {
           "id": "l",
-          "name": {
-            "en": "L",
-            "pt-BR": "G"
-          }
+          "valueId": "l"
         }
       ]
     }

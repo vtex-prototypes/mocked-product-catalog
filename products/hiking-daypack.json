@@ -1,6 +1,6 @@
 {
   "id": "hiking-daypack",
-  "brand": "Altitude",
+  "brandId": "altitude",
   "categoryId": "esportes-mochilas",
   "name": {
     "en": "Altitude Ridge 18L Hiking Daypack with Hydration Sleeve and Drink Tube, Breathable Mesh Back Panel, Stretch Side Pockets, Burgundy or Teal, Lightweight Trail Backpack for Day Hikes and Running",
@@ -27,6 +27,12 @@
       "hidratação"
     ]
   },
+  "specifications": [
+    {
+      "id": "capacity",
+      "valueId": "18-l"
+    }
+  ],
   "defaultVariantId": "burgundy",
   "options": [
     {

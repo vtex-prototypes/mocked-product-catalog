@@ -1,6 +1,6 @@
 {
   "id": "pillow",
-  "brand": "Fio Puro",
+  "brandId": "fio-puro",
   "categoryId": "casa-cama-mesa-banho",
   "name": {
     "en": "Fio Puro Hypoallergenic Bed Pillow, Medium Support Siliconized Fiber Fill, 100% Cotton Piped Cover, for Back and Side Sleepers, White or Sage, Standard and Queen",
@@ -10,28 +10,68 @@
     "en": "Bed pillow with a siliconized fiber fill that keeps its loft and a 100% cotton cover finished with piped edges. Medium support, hypoallergenic, machine washable. Sold in white or sage, in standard and queen sizes.",
     "pt-BR": "Travesseiro com enchimento em fibra siliconada que mantém o volume e capa 100% algodão com acabamento em vivo. Suporte médio, antialérgico, lavável em máquina. À venda em branco ou sálvia, nos tamanhos padrão e queen."
   },
-  "price": { "BRL": 69.9, "USD": 16.99 },
+  "price": {
+    "BRL": 69.9,
+    "USD": 16.99
+  },
   "availability": "in_stock",
   "tags": {
-    "en": ["pillow", "hypoallergenic", "bedroom"],
-    "pt-BR": ["travesseiro", "antialérgico", "cama"]
+    "en": [
+      "pillow",
+      "hypoallergenic",
+      "bedroom"
+    ],
+    "pt-BR": [
+      "travesseiro",
+      "antialérgico",
+      "cama"
+    ]
   },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
   "defaultVariantId": "white-standard",
   "options": [
     {
       "id": "color",
-      "name": { "en": "Color", "pt-BR": "Cor" },
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
       "values": [
-        { "id": "white", "name": { "en": "White", "pt-BR": "Branco" }, "hex": "#F7F5F2" },
-        { "id": "sage", "name": { "en": "Sage", "pt-BR": "Sálvia" }, "hex": "#A8BBA3" }
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F7F5F2"
+        },
+        {
+          "id": "sage",
+          "name": {
+            "en": "Sage",
+            "pt-BR": "Sálvia"
+          },
+          "hex": "#A8BBA3"
+        }
       ]
     },
     {
       "id": "size",
-      "name": { "en": "Size", "pt-BR": "Tamanho" },
+      "specificationId": "size",
       "values": [
-        { "id": "standard", "name": { "en": "Standard 20x28 in", "pt-BR": "Padrão 50x70 cm" } },
-        { "id": "queen", "name": { "en": "Queen 20x30 in", "pt-BR": "Queen 50x76 cm" } }
+        {
+          "id": "standard",
+          "valueId": "pillow-standard"
+        },
+        {
+          "id": "queen",
+          "valueId": "pillow-queen"
+        }
       ]
     }
   ],
@@ -39,52 +79,100 @@
     {
       "id": "white-standard",
       "sku": "FP-PIL-WHT-STD",
-      "options": { "color": "white", "size": "standard" },
-      "price": { "BRL": 69.9, "USD": 16.99 },
+      "options": {
+        "color": "white",
+        "size": "standard"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 16.99
+      },
       "availability": "in_stock",
       "images": [
         {
-          "alt": { "en": "White rectangular bed pillow", "pt-BR": "Travesseiro branco retangular" },
-          "backgrounds": { "#ffffff": "white-white.png", "#f5f5f5": "white-gray.png" }
+          "alt": {
+            "en": "White rectangular bed pillow",
+            "pt-BR": "Travesseiro branco retangular"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
         }
       ]
     },
     {
       "id": "white-queen",
       "sku": "FP-PIL-WHT-QN",
-      "options": { "color": "white", "size": "queen" },
-      "price": { "BRL": 89.9, "USD": 21.99 },
+      "options": {
+        "color": "white",
+        "size": "queen"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 21.99
+      },
       "availability": "in_stock",
       "images": [
         {
-          "alt": { "en": "White rectangular bed pillow", "pt-BR": "Travesseiro branco retangular" },
-          "backgrounds": { "#ffffff": "white-white.png", "#f5f5f5": "white-gray.png" }
+          "alt": {
+            "en": "White rectangular bed pillow",
+            "pt-BR": "Travesseiro branco retangular"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
         }
       ]
     },
     {
       "id": "sage-standard",
       "sku": "FP-PIL-SAG-STD",
-      "options": { "color": "sage", "size": "standard" },
-      "price": { "BRL": 69.9, "USD": 16.99 },
+      "options": {
+        "color": "sage",
+        "size": "standard"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 16.99
+      },
       "availability": "in_stock",
       "images": [
         {
-          "alt": { "en": "Sage green rectangular bed pillow", "pt-BR": "Travesseiro retangular verde-sálvia" },
-          "backgrounds": { "#ffffff": "sage-white.png", "#f5f5f5": "sage-gray.png" }
+          "alt": {
+            "en": "Sage green rectangular bed pillow",
+            "pt-BR": "Travesseiro retangular verde-sálvia"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
         }
       ]
     },
     {
       "id": "sage-queen",
       "sku": "FP-PIL-SAG-QN",
-      "options": { "color": "sage", "size": "queen" },
-      "price": { "BRL": 89.9, "USD": 21.99 },
+      "options": {
+        "color": "sage",
+        "size": "queen"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 21.99
+      },
       "availability": "out_of_stock",
       "images": [
         {
-          "alt": { "en": "Sage green rectangular bed pillow", "pt-BR": "Travesseiro retangular verde-sálvia" },
-          "backgrounds": { "#ffffff": "sage-white.png", "#f5f5f5": "sage-gray.png" }
+          "alt": {
+            "en": "Sage green rectangular bed pillow",
+            "pt-BR": "Travesseiro retangular verde-sálvia"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
         }
       ]
     }

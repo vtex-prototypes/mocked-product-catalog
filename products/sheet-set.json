@@ -1,6 +1,6 @@
 {
   "id": "sheet-set",
-  "brand": "Fio Puro",
+  "brandId": "fio-puro",
   "categoryId": "casa-cama-mesa-banho",
   "name": {
     "en": "Fio Puro 4-Piece Queen Sheet Set 200 Thread Count 100% Cotton Percale, White or Light Gray, Deep Pocket Fitted Sheet, Flat Sheet and 2 Pillowcases",
@@ -10,21 +10,58 @@
     "en": "Queen sheet set in crisp 200 thread count cotton percale. Includes a deep-pocket fitted sheet, a flat sheet and two standard pillowcases. Cool to the touch and softer with every wash. White or light gray.",
     "pt-BR": "Jogo de cama queen em percal de algodão 200 fios com toque fresco. Inclui lençol com elástico alto, lençol de cobrir e duas fronhas padrão. Fica mais macio a cada lavagem. Branco ou cinza-claro."
   },
-  "price": { "BRL": 249.9, "USD": 54.99 },
-  "listPrice": { "BRL": 329.9, "USD": 69.99 },
+  "price": {
+    "BRL": 249.9,
+    "USD": 54.99
+  },
+  "listPrice": {
+    "BRL": 329.9,
+    "USD": 69.99
+  },
   "availability": "low_stock",
   "tags": {
-    "en": ["sheet set", "queen", "percale"],
-    "pt-BR": ["lençol", "queen", "percal"]
+    "en": [
+      "sheet set",
+      "queen",
+      "percale"
+    ],
+    "pt-BR": [
+      "lençol",
+      "queen",
+      "percal"
+    ]
   },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
   "defaultVariantId": "white",
   "options": [
     {
       "id": "color",
-      "name": { "en": "Color", "pt-BR": "Cor" },
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
       "values": [
-        { "id": "white", "name": { "en": "White", "pt-BR": "Branco" }, "hex": "#F7F7F5" },
-        { "id": "gray", "name": { "en": "Light Gray", "pt-BR": "Cinza-claro" }, "hex": "#D0D0D0" }
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F7F7F5"
+        },
+        {
+          "id": "gray",
+          "name": {
+            "en": "Light Gray",
+            "pt-BR": "Cinza-claro"
+          },
+          "hex": "#D0D0D0"
+        }
       ]
     }
   ],
@@ -32,27 +69,52 @@
     {
       "id": "white",
       "sku": "FP-SHT-WHT-QN",
-      "options": { "color": "white" },
-      "price": { "BRL": 249.9, "USD": 54.99 },
-      "listPrice": { "BRL": 329.9, "USD": 69.99 },
+      "options": {
+        "color": "white"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 54.99
+      },
+      "listPrice": {
+        "BRL": 329.9,
+        "USD": 69.99
+      },
       "availability": "low_stock",
       "images": [
         {
-          "alt": { "en": "Folded white sheet set stacked with pillowcases on top", "pt-BR": "Jogo de lençol branco dobrado e empilhado com fronhas" },
-          "backgrounds": { "#ffffff": "white-white.png", "#f5f5f5": "white-gray.png" }
+          "alt": {
+            "en": "Folded white sheet set stacked with pillowcases on top",
+            "pt-BR": "Jogo de lençol branco dobrado e empilhado com fronhas"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
         }
       ]
     },
     {
       "id": "gray",
       "sku": "FP-SHT-GRY-QN",
-      "options": { "color": "gray" },
-      "price": { "BRL": 329.9, "USD": 69.99 },
+      "options": {
+        "color": "gray"
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 69.99
+      },
       "availability": "in_stock",
       "images": [
         {
-          "alt": { "en": "Folded light gray sheet set stacked with pillowcases on top", "pt-BR": "Jogo de lençol cinza-claro dobrado e empilhado com fronhas" },
-          "backgrounds": { "#ffffff": "gray-white.png", "#f5f5f5": "gray-gray.png" }
+          "alt": {
+            "en": "Folded light gray sheet set stacked with pillowcases on top",
+            "pt-BR": "Jogo de lençol cinza-claro dobrado e empilhado com fronhas"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
         }
       ]
     }

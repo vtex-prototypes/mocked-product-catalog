@@ -1,6 +1,6 @@
 {
   "id": "plaid-cushion",
-  "brand": "Casa Norte",
+  "brandId": "casa-norte",
   "categoryId": "casa-cama-mesa-banho",
   "name": {
     "en": "Casa Norte Tartan Plaid Decorative Throw Pillow 18x18 in, Teal or Navy Colorway, Removable Cover with Hidden Zipper, Hypoallergenic Fiber Insert Included",
@@ -10,21 +10,54 @@
     "en": "Square decorative pillow in a woven tartan plaid. The cover is removable, closes with a hidden zipper and comes with a plump hypoallergenic fiber insert. Machine washable cover. Teal or navy colorway.",
     "pt-BR": "Almofada quadrada em tecido xadrez tartan. Capa removível com zíper invisível e enchimento em fibra siliconada antialérgica. Capa lavável em máquina. Estampa verde-petróleo ou marinho."
   },
-  "price": { "BRL": 89.9, "USD": 19.99 },
-  "listPrice": { "BRL": 119.9, "USD": 26.99 },
+  "price": {
+    "BRL": 89.9,
+    "USD": 19.99
+  },
+  "listPrice": {
+    "BRL": 119.9,
+    "USD": 26.99
+  },
   "availability": "in_stock",
   "tags": {
-    "en": ["throw pillow", "plaid", "decor", "living room"],
-    "pt-BR": ["almofada", "xadrez", "decoração", "sala"]
+    "en": [
+      "throw pillow",
+      "plaid",
+      "decor",
+      "living room"
+    ],
+    "pt-BR": [
+      "almofada",
+      "xadrez",
+      "decoração",
+      "sala"
+    ]
   },
   "defaultVariantId": "teal",
   "options": [
     {
       "id": "color",
-      "name": { "en": "Color", "pt-BR": "Cor" },
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
       "values": [
-        { "id": "teal", "name": { "en": "Teal Tartan", "pt-BR": "Tartan verde-petróleo" }, "hex": "#2F6F6A" },
-        { "id": "navy", "name": { "en": "Navy Tartan", "pt-BR": "Tartan marinho" }, "hex": "#1E3A5F" }
+        {
+          "id": "teal",
+          "name": {
+            "en": "Teal Tartan",
+            "pt-BR": "Tartan verde-petróleo"
+          },
+          "hex": "#2F6F6A"
+        },
+        {
+          "id": "navy",
+          "name": {
+            "en": "Navy Tartan",
+            "pt-BR": "Tartan marinho"
+          },
+          "hex": "#1E3A5F"
+        }
       ]
     }
   ],
@@ -32,27 +65,52 @@
     {
       "id": "teal",
       "sku": "CN-CSH-TEA",
-      "options": { "color": "teal" },
-      "price": { "BRL": 89.9, "USD": 19.99 },
-      "listPrice": { "BRL": 119.9, "USD": 26.99 },
+      "options": {
+        "color": "teal"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 19.99
+      },
+      "listPrice": {
+        "BRL": 119.9,
+        "USD": 26.99
+      },
       "availability": "in_stock",
       "images": [
         {
-          "alt": { "en": "Square teal tartan throw pillow seen from the front", "pt-BR": "Almofada quadrada xadrez verde-petróleo vista de frente" },
-          "backgrounds": { "#ffffff": "teal-white.png", "#f5f5f5": "teal-gray.png" }
+          "alt": {
+            "en": "Square teal tartan throw pillow seen from the front",
+            "pt-BR": "Almofada quadrada xadrez verde-petróleo vista de frente"
+          },
+          "backgrounds": {
+            "#ffffff": "teal-white.png",
+            "#f5f5f5": "teal-gray.png"
+          }
         }
       ]
     },
     {
       "id": "navy",
       "sku": "CN-CSH-NVY",
-      "options": { "color": "navy" },
-      "price": { "BRL": 119.9, "USD": 26.99 },
+      "options": {
+        "color": "navy"
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 26.99
+      },
       "availability": "in_stock",
       "images": [
         {
-          "alt": { "en": "Square navy tartan throw pillow seen from the front", "pt-BR": "Almofada quadrada xadrez marinho vista de frente" },
-          "backgrounds": { "#ffffff": "navy-white.png", "#f5f5f5": "navy-gray.png" }
+          "alt": {
+            "en": "Square navy tartan throw pillow seen from the front",
+            "pt-BR": "Almofada quadrada xadrez marinho vista de frente"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "id": "tactical-backpack",
-  "brand": "Altitude",
+  "brandId": "altitude",
   "categoryId": "esportes-mochilas",
   "name": {
     "en": "Altitude Rucksack 35L Tactical Backpack with Compression Straps and Padded Hip Belt, 900D Water-Resistant Fabric, Front Zip Pocket, Forest Green or Coyote Tan, Rugged Pack for Trekking and Travel",
@@ -27,6 +27,16 @@
       "trekking"
     ]
   },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "nylon-900d"
+    },
+    {
+      "id": "capacity",
+      "valueId": "35-l"
+    }
+  ],
   "defaultVariantId": "green",
   "options": [
     {

@@ -1,6 +1,6 @@
 {
   "id": "thermal-blanket",
-  "brand": "Casa Norte",
+  "brandId": "casa-norte",
   "categoryId": "casa-cama-mesa-banho",
   "name": {
     "en": "Casa Norte Ribbed Cotton Thermal Blanket Full/Queen 90x90 in, Charcoal or Oatmeal, Breathable Waffle Knit, All-Season Layering Blanket, Machine Washable",
@@ -10,20 +10,54 @@
     "en": "Ribbed thermal blanket in 100% cotton. The open knit traps warmth in winter and breathes in summer, so it works alone or as a layer under a duvet. Charcoal or oatmeal, machine washable.",
     "pt-BR": "Cobertor térmico canelado em 100% algodão. A trama aberta retém o calor no inverno e respira no verão, funcionando sozinho ou como camada sob o edredom. Grafite ou aveia, lavável em máquina."
   },
-  "price": { "BRL": 199.9, "USD": 44.99 },
+  "price": {
+    "BRL": 199.9,
+    "USD": 44.99
+  },
   "availability": "in_stock",
   "tags": {
-    "en": ["blanket", "queen", "winter"],
-    "pt-BR": ["cobertor", "casal", "inverno"]
+    "en": [
+      "blanket",
+      "queen",
+      "winter"
+    ],
+    "pt-BR": [
+      "cobertor",
+      "casal",
+      "inverno"
+    ]
   },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
   "defaultVariantId": "charcoal",
   "options": [
     {
       "id": "color",
-      "name": { "en": "Color", "pt-BR": "Cor" },
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
       "values": [
-        { "id": "charcoal", "name": { "en": "Charcoal", "pt-BR": "Grafite" }, "hex": "#3A3A3A" },
-        { "id": "oatmeal", "name": { "en": "Oatmeal", "pt-BR": "Aveia" }, "hex": "#E4D8C8" }
+        {
+          "id": "charcoal",
+          "name": {
+            "en": "Charcoal",
+            "pt-BR": "Grafite"
+          },
+          "hex": "#3A3A3A"
+        },
+        {
+          "id": "oatmeal",
+          "name": {
+            "en": "Oatmeal",
+            "pt-BR": "Aveia"
+          },
+          "hex": "#E4D8C8"
+        }
       ]
     }
   ],
@@ -31,26 +65,48 @@
     {
       "id": "charcoal",
       "sku": "CN-THM-CHR",
-      "options": { "color": "charcoal" },
-      "price": { "BRL": 199.9, "USD": 44.99 },
+      "options": {
+        "color": "charcoal"
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 44.99
+      },
       "availability": "in_stock",
       "images": [
         {
-          "alt": { "en": "Folded charcoal gray ribbed blanket", "pt-BR": "Cobertor grafite canelado dobrado" },
-          "backgrounds": { "#ffffff": "charcoal-white.png", "#f5f5f5": "charcoal-gray.png" }
+          "alt": {
+            "en": "Folded charcoal gray ribbed blanket",
+            "pt-BR": "Cobertor grafite canelado dobrado"
+          },
+          "backgrounds": {
+            "#ffffff": "charcoal-white.png",
+            "#f5f5f5": "charcoal-gray.png"
+          }
         }
       ]
     },
     {
       "id": "oatmeal",
       "sku": "CN-THM-OAT",
-      "options": { "color": "oatmeal" },
-      "price": { "BRL": 199.9, "USD": 44.99 },
+      "options": {
+        "color": "oatmeal"
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 44.99
+      },
       "availability": "low_stock",
       "images": [
         {
-          "alt": { "en": "Folded oatmeal ribbed blanket", "pt-BR": "Cobertor aveia canelado dobrado" },
-          "backgrounds": { "#ffffff": "oatmeal-white.png", "#f5f5f5": "oatmeal-gray.png" }
+          "alt": {
+            "en": "Folded oatmeal ribbed blanket",
+            "pt-BR": "Cobertor aveia canelado dobrado"
+          },
+          "backgrounds": {
+            "#ffffff": "oatmeal-white.png",
+            "#f5f5f5": "oatmeal-gray.png"
+          }
         }
       ]
     }

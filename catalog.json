@@ -1,4 +1,210 @@
 {
+  "brands": [
+    {
+      "id": "altitude",
+      "name": {
+        "en": "Altitude",
+        "pt-BR": "Altitude"
+      }
+    },
+    {
+      "id": "casa-norte",
+      "name": {
+        "en": "Casa Norte",
+        "pt-BR": "Casa Norte"
+      }
+    },
+    {
+      "id": "fio-puro",
+      "name": {
+        "en": "Fio Puro",
+        "pt-BR": "Fio Puro"
+      }
+    },
+    {
+      "id": "ritmo",
+      "name": {
+        "en": "Ritmo",
+        "pt-BR": "Ritmo"
+      }
+    },
+    {
+      "id": "trilha-livre",
+      "name": {
+        "en": "Trilha Livre",
+        "pt-BR": "Trilha Livre"
+      }
+    }
+  ],
+  "specifications": [
+    {
+      "id": "material",
+      "name": {
+        "en": "Material",
+        "pt-BR": "Material"
+      },
+      "values": [
+        {
+          "id": "acrylic",
+          "name": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "coated-fabric",
+          "name": {
+            "en": "Coated fabric",
+            "pt-BR": "Tecido emborrachado"
+          }
+        },
+        {
+          "id": "compression-knit",
+          "name": {
+            "en": "Compression knit",
+            "pt-BR": "Malha compressiva"
+          }
+        },
+        {
+          "id": "cotton",
+          "name": {
+            "en": "Cotton",
+            "pt-BR": "Algodão"
+          }
+        },
+        {
+          "id": "cotton-blend",
+          "name": {
+            "en": "Cotton blend",
+            "pt-BR": "Mistura de algodão"
+          }
+        },
+        {
+          "id": "down",
+          "name": {
+            "en": "Down",
+            "pt-BR": "Pluma"
+          }
+        },
+        {
+          "id": "fleece",
+          "name": {
+            "en": "Fleece",
+            "pt-BR": "Fleece"
+          }
+        },
+        {
+          "id": "nylon-900d",
+          "name": {
+            "en": "900D nylon",
+            "pt-BR": "Náilon 900D"
+          }
+        },
+        {
+          "id": "quick-dry-knit",
+          "name": {
+            "en": "Quick-dry knit",
+            "pt-BR": "Malha de secagem rápida"
+          }
+        },
+        {
+          "id": "recycled-polyester",
+          "name": {
+            "en": "Recycled polyester",
+            "pt-BR": "Poliéster reciclado"
+          }
+        },
+        {
+          "id": "recycled-synthetic",
+          "name": {
+            "en": "Recycled synthetic",
+            "pt-BR": "Sintético reciclado"
+          }
+        },
+        {
+          "id": "softshell",
+          "name": {
+            "en": "Softshell",
+            "pt-BR": "Softshell"
+          }
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "s",
+          "name": {
+            "en": "S",
+            "pt-BR": "P"
+          }
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "M",
+            "pt-BR": "M"
+          }
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "L",
+            "pt-BR": "G"
+          }
+        },
+        {
+          "id": "pillow-standard",
+          "name": {
+            "en": "Standard 20x28 in",
+            "pt-BR": "Padrão 50x70 cm"
+          }
+        },
+        {
+          "id": "pillow-queen",
+          "name": {
+            "en": "Queen 20x30 in",
+            "pt-BR": "Queen 50x76 cm"
+          }
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "18-l",
+          "name": {
+            "en": "18 L",
+            "pt-BR": "18 L"
+          }
+        },
+        {
+          "id": "22-l",
+          "name": {
+            "en": "22 L",
+            "pt-BR": "22 L"
+          }
+        },
+        {
+          "id": "35-l",
+          "name": {
+            "en": "35 L",
+            "pt-BR": "35 L"
+          }
+        }
+      ]
+    }
+  ],
   "categories": [
     {
       "id": "roupa-acessorios",
@@ -284,7 +490,14 @@
   "products": [
     {
       "id": "air-mattress",
-      "brand": "Trilha Livre",
+      "brandId": "trilha-livre",
+      "brand": {
+        "id": "trilha-livre",
+        "name": {
+          "en": "Trilha Livre",
+          "pt-BR": "Trilha Livre"
+        }
+      },
       "categoryId": "casa-cama-mesa-banho",
       "name": {
         "en": "Trilha Livre Queen Air Mattress 18 in Raised with Built-In Electric Pump, Flocked Top Inflatable Guest Bed, Inflates in 3 Minutes, Gray or Navy",
@@ -402,7 +615,14 @@
     },
     {
       "id": "bath-towel",
-      "brand": "Fio Puro",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
       "categoryId": "casa-cama-mesa-banho",
       "name": {
         "en": "Fio Puro 100% Combed Cotton Bath Towel 28x55 in, 500 GSM Ultra Absorbent Quick Dry, White or Slate Blue, with Tone-on-Tone Jacquard Border",
@@ -429,6 +649,20 @@
           "algodão"
         ]
       },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton",
+          "value": {
+            "en": "Cotton",
+            "pt-BR": "Algodão"
+          }
+        }
+      ],
       "defaultVariantId": "white",
       "options": [
         {
@@ -518,7 +752,14 @@
     },
     {
       "id": "down-puffer-jacket",
-      "brand": "Altitude",
+      "brandId": "altitude",
+      "brand": {
+        "id": "altitude",
+        "name": {
+          "en": "Altitude",
+          "pt-BR": "Altitude"
+        }
+      },
       "categoryId": "esportes-casacos",
       "name": {
         "en": "Altitude Glacier 700-Fill Down Puffer Jacket with Hood, Wide Horizontal Baffles, Welt Pockets, Taupe or Navy, Warm Lightweight Winter Jacket for Mountain Trips and Cold Cities",
@@ -545,6 +786,20 @@
           "inverno"
         ]
       },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "down",
+          "value": {
+            "en": "Down",
+            "pt-BR": "Pluma"
+          }
+        }
+      ],
       "defaultVariantId": "taupe-m",
       "options": [
         {
@@ -574,6 +829,7 @@
         },
         {
           "id": "size",
+          "specificationId": "size",
           "name": {
             "en": "Size",
             "pt-BR": "Tamanho"
@@ -581,6 +837,7 @@
           "values": [
             {
               "id": "s",
+              "valueId": "s",
               "name": {
                 "en": "S",
                 "pt-BR": "P"
@@ -588,6 +845,7 @@
             },
             {
               "id": "m",
+              "valueId": "m",
               "name": {
                 "en": "M",
                 "pt-BR": "M"
@@ -595,6 +853,7 @@
             },
             {
               "id": "l",
+              "valueId": "l",
               "name": {
                 "en": "L",
                 "pt-BR": "G"
@@ -782,7 +1041,14 @@
     },
     {
       "id": "fleece-jogger-pants",
-      "brand": "Ritmo",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
       "categoryId": "esportes-calcas",
       "name": {
         "en": "Ritmo Lounge Fleece Jogger Pants with Drawstring Waist and Ribbed Cuffs, Brushed Cotton-Blend Fleece, Navy or Heather Gray, Tapered Sweatpants for Training, Travel and Rest Days",
@@ -813,6 +1079,32 @@
           "calça"
         ]
       },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton-blend",
+          "value": {
+            "en": "Cotton blend",
+            "pt-BR": "Mistura de algodão"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "fleece",
+          "value": {
+            "en": "Fleece",
+            "pt-BR": "Fleece"
+          }
+        }
+      ],
       "defaultVariantId": "navy-m",
       "options": [
         {
@@ -842,6 +1134,7 @@
         },
         {
           "id": "size",
+          "specificationId": "size",
           "name": {
             "en": "Size",
             "pt-BR": "Tamanho"
@@ -849,6 +1142,7 @@
           "values": [
             {
               "id": "s",
+              "valueId": "s",
               "name": {
                 "en": "S",
                 "pt-BR": "P"
@@ -856,6 +1150,7 @@
             },
             {
               "id": "m",
+              "valueId": "m",
               "name": {
                 "en": "M",
                 "pt-BR": "M"
@@ -863,6 +1158,7 @@
             },
             {
               "id": "l",
+              "valueId": "l",
               "name": {
                 "en": "L",
                 "pt-BR": "G"
@@ -1074,7 +1370,14 @@
     },
     {
       "id": "hiking-daypack",
-      "brand": "Altitude",
+      "brandId": "altitude",
+      "brand": {
+        "id": "altitude",
+        "name": {
+          "en": "Altitude",
+          "pt-BR": "Altitude"
+        }
+      },
       "categoryId": "esportes-mochilas",
       "name": {
         "en": "Altitude Ridge 18L Hiking Daypack with Hydration Sleeve and Drink Tube, Breathable Mesh Back Panel, Stretch Side Pockets, Burgundy or Teal, Lightweight Trail Backpack for Day Hikes and Running",
@@ -1101,6 +1404,20 @@
           "hidratação"
         ]
       },
+      "specifications": [
+        {
+          "id": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "valueId": "18-l",
+          "value": {
+            "en": "18 L",
+            "pt-BR": "18 L"
+          }
+        }
+      ],
       "defaultVariantId": "burgundy",
       "options": [
         {
@@ -1190,7 +1507,14 @@
     },
     {
       "id": "hooded-parka",
-      "brand": "Altitude",
+      "brandId": "altitude",
+      "brand": {
+        "id": "altitude",
+        "name": {
+          "en": "Altitude",
+          "pt-BR": "Altitude"
+        }
+      },
       "categoryId": "esportes-casacos",
       "name": {
         "en": "Altitude Trail Hooded Parka Jacket, Waterproof Breathable Shell with Taped Seams, Adjustable Hood and Ribbed Hem, Brown or Black, Mid-Length Rain Jacket for Hiking and Everyday",
@@ -1246,6 +1570,7 @@
         },
         {
           "id": "size",
+          "specificationId": "size",
           "name": {
             "en": "Size",
             "pt-BR": "Tamanho"
@@ -1253,6 +1578,7 @@
           "values": [
             {
               "id": "s",
+              "valueId": "s",
               "name": {
                 "en": "S",
                 "pt-BR": "P"
@@ -1260,6 +1586,7 @@
             },
             {
               "id": "m",
+              "valueId": "m",
               "name": {
                 "en": "M",
                 "pt-BR": "M"
@@ -1267,6 +1594,7 @@
             },
             {
               "id": "l",
+              "valueId": "l",
               "name": {
                 "en": "L",
                 "pt-BR": "G"
@@ -1454,7 +1782,14 @@
     },
     {
       "id": "hooded-puffer-jacket",
-      "brand": "Altitude",
+      "brandId": "altitude",
+      "brand": {
+        "id": "altitude",
+        "name": {
+          "en": "Altitude",
+          "pt-BR": "Altitude"
+        }
+      },
       "categoryId": "esportes-casacos",
       "name": {
         "en": "Altitude Summit Hooded Puffer Jacket for Men and Women, Recycled Synthetic Insulation, Water-Repellent Shell, Light Gray or Forest Green, Packable Winter Coat for Hiking and City",
@@ -1485,6 +1820,20 @@
           "trilha"
         ]
       },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "recycled-synthetic",
+          "value": {
+            "en": "Recycled synthetic",
+            "pt-BR": "Sintético reciclado"
+          }
+        }
+      ],
       "defaultVariantId": "gray-m",
       "options": [
         {
@@ -1514,6 +1863,7 @@
         },
         {
           "id": "size",
+          "specificationId": "size",
           "name": {
             "en": "Size",
             "pt-BR": "Tamanho"
@@ -1521,6 +1871,7 @@
           "values": [
             {
               "id": "s",
+              "valueId": "s",
               "name": {
                 "en": "S",
                 "pt-BR": "P"
@@ -1528,6 +1879,7 @@
             },
             {
               "id": "m",
+              "valueId": "m",
               "name": {
                 "en": "M",
                 "pt-BR": "M"
@@ -1535,6 +1887,7 @@
             },
             {
               "id": "l",
+              "valueId": "l",
               "name": {
                 "en": "L",
                 "pt-BR": "G"
@@ -1746,7 +2099,14 @@
     },
     {
       "id": "insulated-snow-pants",
-      "brand": "Altitude",
+      "brandId": "altitude",
+      "brand": {
+        "id": "altitude",
+        "name": {
+          "en": "Altitude",
+          "pt-BR": "Altitude"
+        }
+      },
       "categoryId": "esportes-calcas",
       "name": {
         "en": "Altitude Powder Insulated Snow Pants with Integrated Belt, Waterproof Breathable Shell, Articulated Knees and Boot Gaiters, Black or Red, Warm Ski and Snowboard Pants for Men and Women",
@@ -1802,6 +2162,7 @@
         },
         {
           "id": "size",
+          "specificationId": "size",
           "name": {
             "en": "Size",
             "pt-BR": "Tamanho"
@@ -1809,6 +2170,7 @@
           "values": [
             {
               "id": "s",
+              "valueId": "s",
               "name": {
                 "en": "S",
                 "pt-BR": "P"
@@ -1816,6 +2178,7 @@
             },
             {
               "id": "m",
+              "valueId": "m",
               "name": {
                 "en": "M",
                 "pt-BR": "M"
@@ -1823,6 +2186,7 @@
             },
             {
               "id": "l",
+              "valueId": "l",
               "name": {
                 "en": "L",
                 "pt-BR": "G"
@@ -2010,7 +2374,14 @@
     },
     {
       "id": "laptop-backpack",
-      "brand": "Altitude",
+      "brandId": "altitude",
+      "brand": {
+        "id": "altitude",
+        "name": {
+          "en": "Altitude",
+          "pt-BR": "Altitude"
+        }
+      },
       "categoryId": "esportes-mochilas",
       "name": {
         "en": "Altitude Commute 22L Laptop Backpack with Padded 16-Inch Sleeve, Water-Resistant Coated Fabric, Side-Access Pocket and Luggage Strap, Black or Olive, Slim Everyday Backpack for Work, Gym and Travel",
@@ -2037,6 +2408,32 @@
           "trabalho"
         ]
       },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "coated-fabric",
+          "value": {
+            "en": "Coated fabric",
+            "pt-BR": "Tecido emborrachado"
+          }
+        },
+        {
+          "id": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "valueId": "22-l",
+          "value": {
+            "en": "22 L",
+            "pt-BR": "22 L"
+          }
+        }
+      ],
       "defaultVariantId": "black",
       "options": [
         {
@@ -2126,7 +2523,14 @@
     },
     {
       "id": "pillow",
-      "brand": "Fio Puro",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
       "categoryId": "casa-cama-mesa-banho",
       "name": {
         "en": "Fio Puro Hypoallergenic Bed Pillow, Medium Support Siliconized Fiber Fill, 100% Cotton Piped Cover, for Back and Side Sleepers, White or Sage, Standard and Queen",
@@ -2153,6 +2557,20 @@
           "cama"
         ]
       },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton",
+          "value": {
+            "en": "Cotton",
+            "pt-BR": "Algodão"
+          }
+        }
+      ],
       "defaultVariantId": "white-standard",
       "options": [
         {
@@ -2182,6 +2600,7 @@
         },
         {
           "id": "size",
+          "specificationId": "size",
           "name": {
             "en": "Size",
             "pt-BR": "Tamanho"
@@ -2189,6 +2608,7 @@
           "values": [
             {
               "id": "standard",
+              "valueId": "pillow-standard",
               "name": {
                 "en": "Standard 20x28 in",
                 "pt-BR": "Padrão 50x70 cm"
@@ -2196,6 +2616,7 @@
             },
             {
               "id": "queen",
+              "valueId": "pillow-queen",
               "name": {
                 "en": "Queen 20x30 in",
                 "pt-BR": "Queen 50x76 cm"
@@ -2325,7 +2746,14 @@
     },
     {
       "id": "plaid-cushion",
-      "brand": "Casa Norte",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
       "categoryId": "casa-cama-mesa-banho",
       "name": {
         "en": "Casa Norte Tartan Plaid Decorative Throw Pillow 18x18 in, Teal or Navy Colorway, Removable Cover with Hidden Zipper, Hypoallergenic Fiber Insert Included",
@@ -2451,7 +2879,14 @@
     },
     {
       "id": "quilted-puffer-jacket",
-      "brand": "Altitude",
+      "brandId": "altitude",
+      "brand": {
+        "id": "altitude",
+        "name": {
+          "en": "Altitude",
+          "pt-BR": "Altitude"
+        }
+      },
       "categoryId": "esportes-casacos",
       "name": {
         "en": "Altitude Ridge Quilted Puffer Jacket with Hood, Channel Quilting, Three Zip Pockets, Navy Blue or Burgundy, Windproof Lightweight Insulated Jacket for Cold Weather Running and Travel",
@@ -2507,6 +2942,7 @@
         },
         {
           "id": "size",
+          "specificationId": "size",
           "name": {
             "en": "Size",
             "pt-BR": "Tamanho"
@@ -2514,6 +2950,7 @@
           "values": [
             {
               "id": "s",
+              "valueId": "s",
               "name": {
                 "en": "S",
                 "pt-BR": "P"
@@ -2521,6 +2958,7 @@
             },
             {
               "id": "m",
+              "valueId": "m",
               "name": {
                 "en": "M",
                 "pt-BR": "M"
@@ -2528,6 +2966,7 @@
             },
             {
               "id": "l",
+              "valueId": "l",
               "name": {
                 "en": "L",
                 "pt-BR": "G"
@@ -2715,7 +3154,14 @@
     },
     {
       "id": "running-leggings",
-      "brand": "Ritmo",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
       "categoryId": "esportes-calcas",
       "name": {
         "en": "Ritmo Pace High-Waist Running Leggings with Side Phone Pockets and Reflective Details, Squat-Proof Compression Fabric, Black or Plum, Full-Length Women's Tights for Running and Gym",
@@ -2742,6 +3188,20 @@
           "compressão"
         ]
       },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "compression-knit",
+          "value": {
+            "en": "Compression knit",
+            "pt-BR": "Malha compressiva"
+          }
+        }
+      ],
       "defaultVariantId": "black-m",
       "options": [
         {
@@ -2771,6 +3231,7 @@
         },
         {
           "id": "size",
+          "specificationId": "size",
           "name": {
             "en": "Size",
             "pt-BR": "Tamanho"
@@ -2778,6 +3239,7 @@
           "values": [
             {
               "id": "s",
+              "valueId": "s",
               "name": {
                 "en": "S",
                 "pt-BR": "P"
@@ -2785,6 +3247,7 @@
             },
             {
               "id": "m",
+              "valueId": "m",
               "name": {
                 "en": "M",
                 "pt-BR": "M"
@@ -2792,6 +3255,7 @@
             },
             {
               "id": "l",
+              "valueId": "l",
               "name": {
                 "en": "L",
                 "pt-BR": "G"
@@ -2979,7 +3443,14 @@
     },
     {
       "id": "sheet-set",
-      "brand": "Fio Puro",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
       "categoryId": "casa-cama-mesa-banho",
       "name": {
         "en": "Fio Puro 4-Piece Queen Sheet Set 200 Thread Count 100% Cotton Percale, White or Light Gray, Deep Pocket Fitted Sheet, Flat Sheet and 2 Pillowcases",
@@ -3010,6 +3481,20 @@
           "percal"
         ]
       },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton",
+          "value": {
+            "en": "Cotton",
+            "pt-BR": "Algodão"
+          }
+        }
+      ],
       "defaultVariantId": "white",
       "options": [
         {
@@ -3103,7 +3588,14 @@
     },
     {
       "id": "softshell-rain-jacket",
-      "brand": "Altitude",
+      "brandId": "altitude",
+      "brand": {
+        "id": "altitude",
+        "name": {
+          "en": "Altitude",
+          "pt-BR": "Altitude"
+        }
+      },
       "categoryId": "esportes-casacos",
       "name": {
         "en": "Altitude Storm Softshell Rain Jacket with Adjustable Hood, 10K Waterproof Stretch Fabric, Chest Pocket and Pit Zips, Forest Green or Safety Orange, Lightweight Shell for Trail Running and Cycling",
@@ -3130,6 +3622,20 @@
           "ciclismo"
         ]
       },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "softshell",
+          "value": {
+            "en": "Softshell",
+            "pt-BR": "Softshell"
+          }
+        }
+      ],
       "defaultVariantId": "green-m",
       "options": [
         {
@@ -3159,6 +3665,7 @@
         },
         {
           "id": "size",
+          "specificationId": "size",
           "name": {
             "en": "Size",
             "pt-BR": "Tamanho"
@@ -3166,6 +3673,7 @@
           "values": [
             {
               "id": "s",
+              "valueId": "s",
               "name": {
                 "en": "S",
                 "pt-BR": "P"
@@ -3173,6 +3681,7 @@
             },
             {
               "id": "m",
+              "valueId": "m",
               "name": {
                 "en": "M",
                 "pt-BR": "M"
@@ -3180,6 +3689,7 @@
             },
             {
               "id": "l",
+              "valueId": "l",
               "name": {
                 "en": "L",
                 "pt-BR": "G"
@@ -3367,7 +3877,14 @@
     },
     {
       "id": "tactical-backpack",
-      "brand": "Altitude",
+      "brandId": "altitude",
+      "brand": {
+        "id": "altitude",
+        "name": {
+          "en": "Altitude",
+          "pt-BR": "Altitude"
+        }
+      },
       "categoryId": "esportes-mochilas",
       "name": {
         "en": "Altitude Rucksack 35L Tactical Backpack with Compression Straps and Padded Hip Belt, 900D Water-Resistant Fabric, Front Zip Pocket, Forest Green or Coyote Tan, Rugged Pack for Trekking and Travel",
@@ -3394,6 +3911,32 @@
           "trekking"
         ]
       },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "nylon-900d",
+          "value": {
+            "en": "900D nylon",
+            "pt-BR": "Náilon 900D"
+          }
+        },
+        {
+          "id": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "valueId": "35-l",
+          "value": {
+            "en": "35 L",
+            "pt-BR": "35 L"
+          }
+        }
+      ],
       "defaultVariantId": "green",
       "options": [
         {
@@ -3483,7 +4026,14 @@
     },
     {
       "id": "thermal-blanket",
-      "brand": "Casa Norte",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
       "categoryId": "casa-cama-mesa-banho",
       "name": {
         "en": "Casa Norte Ribbed Cotton Thermal Blanket Full/Queen 90x90 in, Charcoal or Oatmeal, Breathable Waffle Knit, All-Season Layering Blanket, Machine Washable",
@@ -3510,6 +4060,20 @@
           "inverno"
         ]
       },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton",
+          "value": {
+            "en": "Cotton",
+            "pt-BR": "Algodão"
+          }
+        }
+      ],
       "defaultVariantId": "charcoal",
       "options": [
         {
@@ -3599,7 +4163,14 @@
     },
     {
       "id": "throw-blanket",
-      "brand": "Casa Norte",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
       "categoryId": "casa-cama-mesa-banho",
       "name": {
         "en": "Casa Norte Soft Knit Throw Blanket with Fringe Tassels 50x67 in, Cream Beige or Charcoal, Lightweight Wool-Feel Acrylic for Sofa, Bed and Armchair",
@@ -3626,6 +4197,20 @@
           "franjas"
         ]
       },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        }
+      ],
       "defaultVariantId": "beige",
       "options": [
         {
@@ -3715,7 +4300,14 @@
     },
     {
       "id": "training-shorts",
-      "brand": "Ritmo",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
       "categoryId": "esportes-shorts",
       "name": {
         "en": "Ritmo Core 7-Inch Training Shorts with Drawstring Waist, Quick-Dry Lightweight Knit, Curved Hem and Hidden Back Pocket, Black or Royal Blue, Men's Gym Shorts for Lifting, Running and Everyday",
@@ -3742,6 +4334,20 @@
           "corrida"
         ]
       },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "quick-dry-knit",
+          "value": {
+            "en": "Quick-dry knit",
+            "pt-BR": "Malha de secagem rápida"
+          }
+        }
+      ],
       "defaultVariantId": "black-m",
       "options": [
         {
@@ -3771,6 +4377,7 @@
         },
         {
           "id": "size",
+          "specificationId": "size",
           "name": {
             "en": "Size",
             "pt-BR": "Tamanho"
@@ -3778,6 +4385,7 @@
           "values": [
             {
               "id": "s",
+              "valueId": "s",
               "name": {
                 "en": "S",
                 "pt-BR": "P"
@@ -3785,6 +4393,7 @@
             },
             {
               "id": "m",
+              "valueId": "m",
               "name": {
                 "en": "M",
                 "pt-BR": "M"
@@ -3792,6 +4401,7 @@
             },
             {
               "id": "l",
+              "valueId": "l",
               "name": {
                 "en": "L",
                 "pt-BR": "G"
@@ -3979,7 +4589,14 @@
     },
     {
       "id": "zip-fleece-jacket",
-      "brand": "Altitude",
+      "brandId": "altitude",
+      "brand": {
+        "id": "altitude",
+        "name": {
+          "en": "Altitude",
+          "pt-BR": "Altitude"
+        }
+      },
       "categoryId": "esportes-casacos",
       "name": {
         "en": "Altitude Basecamp Full-Zip Fleece Jacket, Midweight Recycled Polyester Fleece, Stand Collar and Zip Hand Pockets, Dark Gray or Oatmeal, Warm Layering Piece for Camping and Cold Mornings",
@@ -4006,6 +4623,32 @@
           "camping"
         ]
       },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "recycled-polyester",
+          "value": {
+            "en": "Recycled polyester",
+            "pt-BR": "Poliéster reciclado"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "fleece",
+          "value": {
+            "en": "Fleece",
+            "pt-BR": "Fleece"
+          }
+        }
+      ],
       "defaultVariantId": "gray-m",
       "options": [
         {
@@ -4035,6 +4678,7 @@
         },
         {
           "id": "size",
+          "specificationId": "size",
           "name": {
             "en": "Size",
             "pt-BR": "Tamanho"
@@ -4042,6 +4686,7 @@
           "values": [
             {
               "id": "s",
+              "valueId": "s",
               "name": {
                 "en": "S",
                 "pt-BR": "P"
@@ -4049,6 +4694,7 @@
             },
             {
               "id": "m",
+              "valueId": "m",
               "name": {
                 "en": "M",
                 "pt-BR": "M"
@@ -4056,6 +4702,7 @@
             },
             {
               "id": "l",
+              "valueId": "l",
               "name": {
                 "en": "L",
                 "pt-BR": "G"

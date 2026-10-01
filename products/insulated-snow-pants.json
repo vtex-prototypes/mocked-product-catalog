@@ -1,6 +1,6 @@
 {
   "id": "insulated-snow-pants",
-  "brand": "Altitude",
+  "brandId": "altitude",
   "categoryId": "esportes-calcas",
   "name": {
     "en": "Altitude Powder Insulated Snow Pants with Integrated Belt, Waterproof Breathable Shell, Articulated Knees and Boot Gaiters, Black or Red, Warm Ski and Snowboard Pants for Men and Women",
@@ -56,31 +56,19 @@
     },
     {
       "id": "size",
-      "name": {
-        "en": "Size",
-        "pt-BR": "Tamanho"
-      },
+      "specificationId": "size",
       "values": [
         {
           "id": "s",
-          "name": {
-            "en": "S",
-            "pt-BR": "P"
-          }
+          "valueId": "s"
         },
         {
           "id": "m",
-          "name": {
-            "en": "M",
-            "pt-BR": "M"
-          }
+          "valueId": "m"
         },
         {
           "id": "l",
-          "name": {
-            "en": "L",
-            "pt-BR": "G"
-          }
+          "valueId": "l"
         }
       ]
     }

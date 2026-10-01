@@ -1,6 +1,6 @@
 {
   "id": "throw-blanket",
-  "brand": "Casa Norte",
+  "brandId": "casa-norte",
   "categoryId": "casa-cama-mesa-banho",
   "name": {
     "en": "Casa Norte Soft Knit Throw Blanket with Fringe Tassels 50x67 in, Cream Beige or Charcoal, Lightweight Wool-Feel Acrylic for Sofa, Bed and Armchair",
@@ -10,20 +10,54 @@
     "en": "Lightweight throw in a brushed wool-feel acrylic with hand-knotted fringe along both ends. Drapes over a sofa or the foot of a bed and holds its shape after washing. Cream beige or charcoal.",
     "pt-BR": "Manta leve em acrílico escovado com toque de lã e franjas em nó nas duas extremidades. Fica bem sobre o sofá ou no pé da cama e mantém a forma após a lavagem. Bege cru ou grafite."
   },
-  "price": { "BRL": 149.9, "USD": 34.99 },
+  "price": {
+    "BRL": 149.9,
+    "USD": 34.99
+  },
   "availability": "in_stock",
   "tags": {
-    "en": ["throw blanket", "sofa", "fringe"],
-    "pt-BR": ["manta", "sofá", "franjas"]
+    "en": [
+      "throw blanket",
+      "sofa",
+      "fringe"
+    ],
+    "pt-BR": [
+      "manta",
+      "sofá",
+      "franjas"
+    ]
   },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    }
+  ],
   "defaultVariantId": "beige",
   "options": [
     {
       "id": "color",
-      "name": { "en": "Color", "pt-BR": "Cor" },
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
       "values": [
-        { "id": "beige", "name": { "en": "Cream Beige", "pt-BR": "Bege cru" }, "hex": "#E7DCCB" },
-        { "id": "charcoal", "name": { "en": "Charcoal", "pt-BR": "Grafite" }, "hex": "#5C5C5C" }
+        {
+          "id": "beige",
+          "name": {
+            "en": "Cream Beige",
+            "pt-BR": "Bege cru"
+          },
+          "hex": "#E7DCCB"
+        },
+        {
+          "id": "charcoal",
+          "name": {
+            "en": "Charcoal",
+            "pt-BR": "Grafite"
+          },
+          "hex": "#5C5C5C"
+        }
       ]
     }
   ],
@@ -31,26 +65,48 @@
     {
       "id": "beige",
       "sku": "CN-THR-BGE",
-      "options": { "color": "beige" },
-      "price": { "BRL": 149.9, "USD": 34.99 },
+      "options": {
+        "color": "beige"
+      },
+      "price": {
+        "BRL": 149.9,
+        "USD": 34.99
+      },
       "availability": "in_stock",
       "images": [
         {
-          "alt": { "en": "Folded beige throw blanket with fringe tassels", "pt-BR": "Manta bege dobrada com franjas aparentes" },
-          "backgrounds": { "#ffffff": "beige-white.png", "#f5f5f5": "beige-gray.png" }
+          "alt": {
+            "en": "Folded beige throw blanket with fringe tassels",
+            "pt-BR": "Manta bege dobrada com franjas aparentes"
+          },
+          "backgrounds": {
+            "#ffffff": "beige-white.png",
+            "#f5f5f5": "beige-gray.png"
+          }
         }
       ]
     },
     {
       "id": "charcoal",
       "sku": "CN-THR-CHR",
-      "options": { "color": "charcoal" },
-      "price": { "BRL": 149.9, "USD": 34.99 },
+      "options": {
+        "color": "charcoal"
+      },
+      "price": {
+        "BRL": 149.9,
+        "USD": 34.99
+      },
       "availability": "in_stock",
       "images": [
         {
-          "alt": { "en": "Folded charcoal throw blanket with fringe tassels", "pt-BR": "Manta grafite dobrada com franjas aparentes" },
-          "backgrounds": { "#ffffff": "charcoal-white.png", "#f5f5f5": "charcoal-gray.png" }
+          "alt": {
+            "en": "Folded charcoal throw blanket with fringe tassels",
+            "pt-BR": "Manta grafite dobrada com franjas aparentes"
+          },
+          "backgrounds": {
+            "#ffffff": "charcoal-white.png",
+            "#f5f5f5": "charcoal-gray.png"
+          }
         }
       ]
     }

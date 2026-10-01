@@ -1,6 +1,6 @@
 {
   "id": "running-leggings",
-  "brand": "Ritmo",
+  "brandId": "ritmo",
   "categoryId": "esportes-calcas",
   "name": {
     "en": "Ritmo Pace High-Waist Running Leggings with Side Phone Pockets and Reflective Details, Squat-Proof Compression Fabric, Black or Plum, Full-Length Women's Tights for Running and Gym",
@@ -27,6 +27,12 @@
       "compressão"
     ]
   },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "compression-knit"
+    }
+  ],
   "defaultVariantId": "black-m",
   "options": [
     {
@@ -56,31 +62,19 @@
     },
     {
       "id": "size",
-      "name": {
-        "en": "Size",
-        "pt-BR": "Tamanho"
-      },
+      "specificationId": "size",
       "values": [
         {
           "id": "s",
-          "name": {
-            "en": "S",
-            "pt-BR": "P"
-          }
+          "valueId": "s"
         },
         {
           "id": "m",
-          "name": {
-            "en": "M",
-            "pt-BR": "M"
-          }
+          "valueId": "m"
         },
         {
           "id": "l",
-          "name": {
-            "en": "L",
-            "pt-BR": "G"
-          }
+          "valueId": "l"
         }
       ]
     }
