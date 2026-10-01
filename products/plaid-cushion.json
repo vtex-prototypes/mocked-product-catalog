@@ -1,0 +1,14 @@
+{
+  "id": "plaid-cushion",
+  "name": "Almofada Xadrez Tartan 45x45",
+  "brand": "Casa Norte",
+  "categoryId": "cama-mesa-banho",
+  "description": "Almofada decorativa em tecido xadrez tartan nos tons verde-petróleo, azul, cinza, salmão e laranja. Capa com zíper invisível e enchimento em fibra siliconada.",
+  "price": { "value": 89.9, "currency": "BRL" },
+  "listPrice": 119.9,
+  "availability": "in_stock",
+  "tags": ["almofada", "xadrez", "decoração", "sala"],
+  "images": [
+    { "file": "1.png", "alt": "Almofada quadrada xadrez tartan vista de frente" }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "categories": [
+    {
+      "id": "cama-mesa-banho",
+      "name": "Cama, Mesa e Banho",
+      "parent": "casa-decoracao"
+    },
+    {
+      "id": "casa-decoracao",
+      "name": "Casa & Decoração",
+      "parent": null
+    }
+  ],
+  "products": [
+    {
+      "id": "air-mattress",
+      "name": "Colchão Inflável Casal com Bomba Embutida",
+      "brand": "Trilha Livre",
+      "categoryId": "cama-mesa-banho",
+      "description": "Colchão inflável casal em PVC flocado cinza, altura 46 cm, com bomba elétrica embutida. Infla em cerca de 3 minutos.",
+      "price": {
+        "value": 389.9,
+        "currency": "BRL"
+      },
+      "availability": "out_of_stock",
+      "tags": [
+        "colchão",
+        "inflável",
+        "hóspedes",
+        "camping"
+      ],
+      "images": [
+        {
+          "file": "1.png",
+          "alt": "Colchão inflável cinza visto em perspectiva",
+          "src": "images/air-mattress/1.png"
+        }
+      ]
+    },
+    {
+      "id": "bath-towel",
+      "name": "Toalha de Banho Algodão 70x140",
+      "brand": "Fio Puro",
+      "categoryId": "cama-mesa-banho",
+      "description": "Toalha de banho 100% algodão penteado, 500 g/m², na cor branca. Barra em jacquard tom sobre tom e alta absorção.",
+      "price": {
+        "value": 59.9,
+        "currency": "BRL"
+      },
+      "availability": "in_stock",
+      "tags": [
+        "toalha",
+        "banho",
+        "algodão",
+        "branco"
+      ],
+      "images": [
+        {
+          "file": "1.png",
+          "alt": "Toalha de banho branca dobrada",
+          "src": "images/bath-towel/1.png"
+        }
+      ]
+    },
+    {
+      "id": "pillow",
+      "name": "Travesseiro Fibra Siliconada 50x70",
+      "brand": "Fio Puro",
+      "categoryId": "cama-mesa-banho",
+      "description": "Travesseiro com enchimento em fibra siliconada e capa 100% algodão com vivo nas bordas. Suporte médio, antialérgico.",
+      "price": {
+        "value": 69.9,
+        "currency": "BRL"
+      },
+      "availability": "in_stock",
+      "tags": [
+        "travesseiro",
+        "antialérgico",
+        "cama"
+      ],
+      "images": [
+        {
+          "file": "1.png",
+          "alt": "Travesseiro branco retangular",
+          "src": "images/pillow/1.png"
+        }
+      ]
+    },
+    {
+      "id": "plaid-cushion",
+      "name": "Almofada Xadrez Tartan 45x45",
+      "brand": "Casa Norte",
+      "categoryId": "cama-mesa-banho",
+      "description": "Almofada decorativa em tecido xadrez tartan nos tons verde-petróleo, azul, cinza, salmão e laranja. Capa com zíper invisível e enchimento em fibra siliconada.",
+      "price": {
+        "value": 89.9,
+        "currency": "BRL"
+      },
+      "listPrice": 119.9,
+      "availability": "in_stock",
+      "tags": [
+        "almofada",
+        "xadrez",
+        "decoração",
+        "sala"
+      ],
+      "images": [
+        {
+          "file": "1.png",
+          "alt": "Almofada quadrada xadrez tartan vista de frente",
+          "src": "images/plaid-cushion/1.png"
+        }
+      ]
+    },
+    {
+      "id": "sheet-set",
+      "name": "Jogo de Lençol Percal 200 Fios Queen 4 Peças",
+      "brand": "Fio Puro",
+      "categoryId": "cama-mesa-banho",
+      "description": "Jogo de cama queen em percal 200 fios, 100% algodão, cor branca. Inclui lençol com elástico, lençol de cobrir e duas fronhas.",
+      "price": {
+        "value": 249.9,
+        "currency": "BRL"
+      },
+      "listPrice": 329.9,
+      "availability": "low_stock",
+      "tags": [
+        "lençol",
+        "queen",
+        "percal",
+        "branco"
+      ],
+      "images": [
+        {
+          "file": "1.png",
+          "alt": "Jogo de lençol branco dobrado e empilhado com fronhas",
+          "src": "images/sheet-set/1.png"
+        }
+      ]
+    },
+    {
+      "id": "thermal-blanket",
+      "name": "Cobertor Térmico Canelado Casal",
+      "brand": "Casa Norte",
+      "categoryId": "cama-mesa-banho",
+      "description": "Cobertor casal em malha canelada de algodão na cor grafite. Trama térmica que aquece sem pesar, lavável em máquina.",
+      "price": {
+        "value": 199.9,
+        "currency": "BRL"
+      },
+      "availability": "in_stock",
+      "tags": [
+        "cobertor",
+        "casal",
+        "inverno",
+        "grafite"
+      ],
+      "images": [
+        {
+          "file": "1.png",
+          "alt": "Cobertor grafite canelado dobrado",
+          "src": "images/thermal-blanket/1.png"
+        }
+      ]
+    },
+    {
+      "id": "throw-blanket",
+      "name": "Manta Decorativa com Franjas 130x170",
+      "brand": "Casa Norte",
+      "categoryId": "cama-mesa-banho",
+      "description": "Manta em tecido macio tipo lã na cor bege, acabamento com franjas nas laterais. Ideal para sofá ou pé de cama.",
+      "price": {
+        "value": 149.9,
+        "currency": "BRL"
+      },
+      "availability": "in_stock",
+      "tags": [
+        "manta",
+        "sofá",
+        "franjas",
+        "bege"
+      ],
+      "images": [
+        {
+          "file": "1.png",
+          "alt": "Manta bege dobrada com franjas aparentes",
+          "src": "images/throw-blanket/1.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "throw-blanket",
+  "name": "Manta Decorativa com Franjas 130x170",
+  "brand": "Casa Norte",
+  "categoryId": "cama-mesa-banho",
+  "description": "Manta em tecido macio tipo lã na cor bege, acabamento com franjas nas laterais. Ideal para sofá ou pé de cama.",
+  "price": { "value": 149.9, "currency": "BRL" },
+  "availability": "in_stock",
+  "tags": ["manta", "sofá", "franjas", "bege"],
+  "images": [
+    { "file": "1.png", "alt": "Manta bege dobrada com franjas aparentes" }
+  ]
+}

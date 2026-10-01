@@ -1,0 +1,13 @@
+{
+  "id": "bath-towel",
+  "name": "Toalha de Banho Algodão 70x140",
+  "brand": "Fio Puro",
+  "categoryId": "cama-mesa-banho",
+  "description": "Toalha de banho 100% algodão penteado, 500 g/m², na cor branca. Barra em jacquard tom sobre tom e alta absorção.",
+  "price": { "value": 59.9, "currency": "BRL" },
+  "availability": "in_stock",
+  "tags": ["toalha", "banho", "algodão", "branco"],
+  "images": [
+    { "file": "1.png", "alt": "Toalha de banho branca dobrada" }
+  ]
+}

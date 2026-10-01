@@ -1,0 +1,12 @@
+[
+  {
+    "id": "cama-mesa-banho",
+    "name": "Cama, Mesa e Banho",
+    "parent": "casa-decoracao"
+  },
+  {
+    "id": "casa-decoracao",
+    "name": "Casa & Decoração",
+    "parent": null
+  }
+]

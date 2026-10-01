@@ -1,0 +1,13 @@
+{
+  "id": "thermal-blanket",
+  "name": "Cobertor Térmico Canelado Casal",
+  "brand": "Casa Norte",
+  "categoryId": "cama-mesa-banho",
+  "description": "Cobertor casal em malha canelada de algodão na cor grafite. Trama térmica que aquece sem pesar, lavável em máquina.",
+  "price": { "value": 199.9, "currency": "BRL" },
+  "availability": "in_stock",
+  "tags": ["cobertor", "casal", "inverno", "grafite"],
+  "images": [
+    { "file": "1.png", "alt": "Cobertor grafite canelado dobrado" }
+  ]
+}

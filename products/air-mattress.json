@@ -1,0 +1,13 @@
+{
+  "id": "air-mattress",
+  "name": "Colchão Inflável Casal com Bomba Embutida",
+  "brand": "Trilha Livre",
+  "categoryId": "cama-mesa-banho",
+  "description": "Colchão inflável casal em PVC flocado cinza, altura 46 cm, com bomba elétrica embutida. Infla em cerca de 3 minutos.",
+  "price": { "value": 389.9, "currency": "BRL" },
+  "availability": "out_of_stock",
+  "tags": ["colchão", "inflável", "hóspedes", "camping"],
+  "images": [
+    { "file": "1.png", "alt": "Colchão inflável cinza visto em perspectiva" }
+  ]
+}

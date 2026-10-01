@@ -1,0 +1,18 @@
+{
+  "name": "mocked-product-catalog",
+  "version": "0.1.0",
+  "description": "Mock product catalog with compliant product images for designers building code prototypes.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "npm run validate && npm run build && git diff --exit-code -- catalog.json"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "pngjs": "^7.0.0"
+  }
+}

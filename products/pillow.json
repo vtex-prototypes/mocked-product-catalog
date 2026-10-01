@@ -1,0 +1,13 @@
+{
+  "id": "pillow",
+  "name": "Travesseiro Fibra Siliconada 50x70",
+  "brand": "Fio Puro",
+  "categoryId": "cama-mesa-banho",
+  "description": "Travesseiro com enchimento em fibra siliconada e capa 100% algodão com vivo nas bordas. Suporte médio, antialérgico.",
+  "price": { "value": 69.9, "currency": "BRL" },
+  "availability": "in_stock",
+  "tags": ["travesseiro", "antialérgico", "cama"],
+  "images": [
+    { "file": "1.png", "alt": "Travesseiro branco retangular" }
+  ]
+}

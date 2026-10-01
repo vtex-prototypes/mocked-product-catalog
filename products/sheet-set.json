@@ -1,0 +1,14 @@
+{
+  "id": "sheet-set",
+  "name": "Jogo de Lençol Percal 200 Fios Queen 4 Peças",
+  "brand": "Fio Puro",
+  "categoryId": "cama-mesa-banho",
+  "description": "Jogo de cama queen em percal 200 fios, 100% algodão, cor branca. Inclui lençol com elástico, lençol de cobrir e duas fronhas.",
+  "price": { "value": 249.9, "currency": "BRL" },
+  "listPrice": 329.9,
+  "availability": "low_stock",
+  "tags": ["lençol", "queen", "percal", "branco"],
+  "images": [
+    { "file": "1.png", "alt": "Jogo de lençol branco dobrado e empilhado com fronhas" }
+  ]
+}

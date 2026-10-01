@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/vtex/mocked-product-catalog/schema/product.schema.json",
+  "title": "Product",
+  "description": "One product in the mock catalog. Lives in products/<id>.json; images live in images/<id>/.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "categoryId", "description", "price", "availability", "tags", "images"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "kebab-case slug. Must match the file name and the images folder."
+    },
+    "name": { "type": "string", "minLength": 3, "description": "Display name, pt-BR." },
+    "brand": { "type": "string", "description": "Fictional brand. Never use a real brand." },
+    "categoryId": { "type": "string", "description": "An id from categories.json." },
+    "description": { "type": "string", "minLength": 20, "description": "One or two sentences, pt-BR." },
+    "price": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "currency"],
+      "properties": {
+        "value": { "type": "number", "exclusiveMinimum": 0 },
+        "currency": { "type": "string", "enum": ["BRL", "USD", "EUR"] }
+      }
+    },
+    "listPrice": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "description": "Pre-discount price. Only set it when the product is on sale; must be greater than price.value."
+    },
+    "availability": { "type": "string", "enum": ["in_stock", "low_stock", "out_of_stock"] },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "images": {
+      "type": "array",
+      "minItems": 1,
+      "description": "First entry is the main image.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["file", "alt"],
+        "properties": {
+          "file": { "type": "string", "pattern": "^\\d+\\.png$", "description": "Numbered PNG inside images/<id>/, e.g. 1.png" },
+          "alt": { "type": "string", "minLength": 3 }
+        }
+      }
+    }
+  }
+}
