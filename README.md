@@ -8,10 +8,10 @@ Public mock APIs (DummyJSON, Fake Store, Platzi) exist, but their photos don't m
 
 ## Use it in a prototype
 
-Answer [what store the prototype emulates and which product information it shows](CONSUMING.md) before picking products. Then fetch `catalog.json` and prefix image paths with the raw URL of this repo:
+Agents follow [AGENTS.md](AGENTS.md). Answer [what store the prototype emulates and which product information it shows](CONSUMING.md) before picking products. Depend on this repo by name and serve the WebPs from the prototype:
 
 ```js
-const BASE = "https://raw.githubusercontent.com/vtex-prototypes/mocked-product-catalog/main/";
+const BASE = "/catalog/"; // copied from vtex-prototypes/mocked-product-catalog at build time
 
 const { categories, products } = await fetch(`${BASE}catalog.json`).then((r) => r.json());
 
@@ -176,6 +176,7 @@ A new option value: add it under `options`, then add one variant per combination
 ## Layout
 
 ```
+AGENTS.md                   # instructions for agents consuming and contributing
 CONSUMING.md                # how to pick products for a prototype
 categories.json             # category tree (5 roots, 30 subcategories)
 products/*.json             # one file per published product (source of truth)
