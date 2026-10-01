@@ -113,6 +113,10 @@ Promoting a draft is the main way to contribute. Pick one, follow [Add a product
 
 Drafts are also how new photos enter the repo. If you have a product idea but no compliant image yet, add a draft (id, category, bilingual short name, 1024×1024 JPEG) and someone can promote it later.
 
+## Content and framework
+
+A contribution is either content (products, variants, photos, drafts, categories) or framework (the schema, validator, scripts, build, CI, image spec, and these docs). Keep them in separate PRs. When content depends on a framework change, merge the framework PR first. See [AGENTS.md](AGENTS.md).
+
 ## Add a product
 
 You don't need to be an engineer. The steps are: generate an image, write a small JSON file, run one command, open a PR.

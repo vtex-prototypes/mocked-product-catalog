@@ -1,3 +1,10 @@
+## Type
+
+<!-- Pick one. Content and framework changes go in separate PRs. -->
+
+- [ ] Content: products, variants, photos, drafts, categories
+- [ ] Framework: schema, validator, scripts, build, CI, image spec, docs
+
 ## What this adds
 
 <!-- e.g. "Promotes 6 drafts in Esportes > Casacos" or "second image for pillow" -->

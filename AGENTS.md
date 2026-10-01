@@ -20,11 +20,12 @@ Use published products. `drafts/` photos are not compliant. If a chosen category
 
 Open a PR to `vtex-prototypes/mocked-product-catalog` when you generate something that meets the spec below. A compliant product, variant, or extra photo belongs here, not only in the prototype's `public/` folder. Leave a rough fixture in the prototype when it does not meet the spec.
 
-A contribution is one of these:
+There are two kinds of contribution. Each PR is one or the other.
 
-- A promoted draft: same `id` and `categoryId`, images regenerated from `drafts/<id>.jpg`, and both draft files deleted.
-- A new product, a new variant, or another photo of an existing one.
-- A category added to `categories.json`, with `en` and `pt-BR` names.
+- **Content**: what the catalog holds. A promoted draft (same `id` and `categoryId`, images regenerated from `drafts/<id>.jpg`, both draft files deleted). A new product, a new variant, or another photo of an existing one. A category in `categories.json`, with `en` and `pt-BR` names. Content PRs touch `products/`, `images/`, `drafts/`, `categories.json`, and the regenerated `catalog.json` and `drafts.json`.
+- **Framework**: how the catalog works. The schema, the validator and its rules, the scripts, the build, CI, the image spec, the PR template, and these instructions. Framework PRs do not add or change products.
+
+When you need both, open two PRs. Merge the framework PR first, then open the content PR that uses it. A new field on products, for example, is a framework PR that adds it to the schema and validator, followed by a content PR that fills it in. Start the PR title with `content:` or `framework:`.
 
 Use a fictional brand. Never use a trademark or a real brand name, in `brand`, in the name, description, tags, or alt text, or as a logo or label in the photo. `Casa Norte`, `Fio Puro`, `Trilha Livre`, `Altitude`, and `Ritmo` are already in the catalog. Invent another one the same way.
 
