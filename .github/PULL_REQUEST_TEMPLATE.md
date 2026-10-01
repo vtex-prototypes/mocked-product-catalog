@@ -2,7 +2,7 @@
 
 <!-- Pick one. Content and framework changes go in separate PRs. -->
 
-- [ ] Content: products, variants, photos, drafts, categories
+- [ ] Content: products, variants, photos, drafts, categories, brands, specifications
 - [ ] Framework: schema, validator, scripts, build, CI, image spec, docs
 
 ## What this adds

@@ -11,6 +11,45 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const PRODUCTS_DIR = join(ROOT, "products");
 
 const categories = JSON.parse(readFileSync(join(ROOT, "categories.json"), "utf8"));
+const brands = JSON.parse(readFileSync(join(ROOT, "brands.json"), "utf8"));
+const specifications = JSON.parse(readFileSync(join(ROOT, "specifications.json"), "utf8"));
+const brandById = new Map(brands.map((b) => [b.id, b]));
+const specById = new Map(specifications.map((s) => [s.id, s]));
+
+// Names live on brands.json and specifications.json. catalog.json copies them
+// onto each product so a prototype can render without joining.
+function resolveProduct(p) {
+  const out = {};
+  for (const [key, value] of Object.entries(p)) {
+    if (key === "brandId") {
+      out.brandId = value;
+      const brand = brandById.get(value);
+      out.brand = { id: brand.id, name: brand.name };
+    } else if (key === "specifications") {
+      out.specifications = value.map((entry) => {
+        const spec = specById.get(entry.id);
+        const specValue = spec.values.find((v) => v.id === entry.valueId);
+        return { id: spec.id, name: spec.name, valueId: specValue.id, value: specValue.name };
+      });
+    } else if (key === "options") {
+      out.options = value.map((opt) => {
+        const spec = opt.specificationId ? specById.get(opt.specificationId) : undefined;
+        if (!spec) return opt;
+        return {
+          id: opt.id,
+          specificationId: opt.specificationId,
+          name: spec.name,
+          values: opt.values.map((v) => ({
+            id: v.id,
+            valueId: v.valueId,
+            name: spec.values.find((sv) => sv.id === v.valueId).name,
+          })),
+        };
+      });
+    } else out[key] = value;
+  }
+  return out;
+}
 // Resolves each background filename to the WebP a prototype loads. The PNG
 // stays in `backgrounds` as the source file.
 function withSrc(productId, images) {
@@ -29,17 +68,17 @@ const products = readdirSync(PRODUCTS_DIR)
   .filter((f) => f.endsWith(".json"))
   .sort()
   .map((f) => JSON.parse(readFileSync(join(PRODUCTS_DIR, f), "utf8")))
-  .map((p) => ({
-    ...p,
-    variants: p.variants.map((v) => ({ ...v, images: withSrc(p.id, v.images) })),
-  }));
+  .map((p) => {
+    const resolved = resolveProduct(p);
+    return { ...resolved, variants: resolved.variants.map((v) => ({ ...v, images: withSrc(p.id, v.images) })) };
+  });
 
 // Keep the output deterministic (no timestamps) so CI can verify that the
 // committed catalog.json matches the sources.
-const catalog = { categories, products };
+const catalog = { brands, specifications, categories, products };
 
 writeFileSync(join(ROOT, "catalog.json"), JSON.stringify(catalog, null, 2) + "\n");
-console.log(`catalog.json written with ${products.length} product(s) in ${categories.length} categor(ies).`);
+console.log(`catalog.json written with ${products.length} product(s), ${brands.length} brand(s), ${specifications.length} specification(s), ${categories.length} categor(ies).`);
 
 // Drafts are published separately so catalog.json only ever contains
 // compliant products. drafts.json is the queue of photos waiting for promotion.

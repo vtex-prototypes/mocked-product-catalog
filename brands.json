@@ -1,0 +1,7 @@
+[
+  { "id": "altitude", "name": { "en": "Altitude", "pt-BR": "Altitude" } },
+  { "id": "casa-norte", "name": { "en": "Casa Norte", "pt-BR": "Casa Norte" } },
+  { "id": "fio-puro", "name": { "en": "Fio Puro", "pt-BR": "Fio Puro" } },
+  { "id": "ritmo", "name": { "en": "Ritmo", "pt-BR": "Ritmo" } },
+  { "id": "trilha-livre", "name": { "en": "Trilha Livre", "pt-BR": "Trilha Livre" } }
+]

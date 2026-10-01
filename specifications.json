@@ -1,0 +1,40 @@
+[
+  {
+    "id": "material",
+    "name": { "en": "Material", "pt-BR": "Material" },
+    "values": [
+      { "id": "acrylic", "name": { "en": "Acrylic", "pt-BR": "Acrílico" } },
+      { "id": "coated-fabric", "name": { "en": "Coated fabric", "pt-BR": "Tecido emborrachado" } },
+      { "id": "compression-knit", "name": { "en": "Compression knit", "pt-BR": "Malha compressiva" } },
+      { "id": "cotton", "name": { "en": "Cotton", "pt-BR": "Algodão" } },
+      { "id": "cotton-blend", "name": { "en": "Cotton blend", "pt-BR": "Mistura de algodão" } },
+      { "id": "down", "name": { "en": "Down", "pt-BR": "Pluma" } },
+      { "id": "fleece", "name": { "en": "Fleece", "pt-BR": "Fleece" } },
+      { "id": "nylon-900d", "name": { "en": "900D nylon", "pt-BR": "Náilon 900D" } },
+      { "id": "quick-dry-knit", "name": { "en": "Quick-dry knit", "pt-BR": "Malha de secagem rápida" } },
+      { "id": "recycled-polyester", "name": { "en": "Recycled polyester", "pt-BR": "Poliéster reciclado" } },
+      { "id": "recycled-synthetic", "name": { "en": "Recycled synthetic", "pt-BR": "Sintético reciclado" } },
+      { "id": "softshell", "name": { "en": "Softshell", "pt-BR": "Softshell" } }
+    ]
+  },
+  {
+    "id": "size",
+    "name": { "en": "Size", "pt-BR": "Tamanho" },
+    "values": [
+      { "id": "s", "name": { "en": "S", "pt-BR": "P" } },
+      { "id": "m", "name": { "en": "M", "pt-BR": "M" } },
+      { "id": "l", "name": { "en": "L", "pt-BR": "G" } },
+      { "id": "pillow-standard", "name": { "en": "Standard 20x28 in", "pt-BR": "Padrão 50x70 cm" } },
+      { "id": "pillow-queen", "name": { "en": "Queen 20x30 in", "pt-BR": "Queen 50x76 cm" } }
+    ]
+  },
+  {
+    "id": "capacity",
+    "name": { "en": "Capacity", "pt-BR": "Capacidade" },
+    "values": [
+      { "id": "18-l", "name": { "en": "18 L", "pt-BR": "18 L" } },
+      { "id": "22-l", "name": { "en": "22 L", "pt-BR": "22 L" } },
+      { "id": "35-l", "name": { "en": "35 L", "pt-BR": "35 L" } }
+    ]
+  }
+]

@@ -32,7 +32,8 @@ List the fields each screen shows. A product card and a product page almost alwa
 |---|---|---|
 | Photo | `variants[].images[0].src[background]` of the default variant, or of the selected one | Card, page |
 | Name | `name[locale]` | Card, page |
-| Brand | `brand` | Card, page |
+| Brand | `brand.name[locale]`, from `brandId` | Card, page |
+| Specifications | `specifications`, each `value[locale]` | Filters, spec table, page |
 | Price | `price[currency]`, or the selected variant's `price` | Card, page |
 | Sale price | `listPrice[currency]`, only present when that variant is on sale | Card, page |
 | Availability | `in_stock`, `low_stock`, `out_of_stock` | Card, page, button |

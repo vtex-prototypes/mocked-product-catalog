@@ -59,7 +59,20 @@
       "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
       "description": "kebab-case slug in English. Must match the file name and the images folder."
     },
-    "brand": { "type": "string", "minLength": 1, "description": "Optional. Omit it when the product has no brand. When present, it is fictional: never a trademark or a real brand name." },
+    "brandId": { "type": "string", "description": "Optional id from brands.json. Omit it when the product has no brand. The name lives on the brand, so it is written once." },
+    "specifications": {
+      "type": "array",
+      "description": "Shared attributes a shopper filters or compares, such as material or capacity. Each valueId comes from specifications.json. Repeat an id to give a product several values of the same spec.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "valueId"],
+        "properties": {
+          "id": { "type": "string", "description": "A specification id from specifications.json." },
+          "valueId": { "type": "string", "description": "A value id of that specification." }
+        }
+      }
+    },
     "categoryId": { "type": "string", "description": "An id from categories.json." },
     "name": {
       "$ref": "#/$defs/localized",
@@ -84,20 +97,22 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "name", "values"],
+        "required": ["id", "values"],
         "properties": {
           "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
-          "name": { "$ref": "#/$defs/localized" },
+          "specificationId": { "type": "string", "description": "When set, the option name and each value name come from this specification. Used for shared values such as apparel sizes." },
+          "name": { "$ref": "#/$defs/localized", "description": "Required unless specificationId is set." },
           "values": {
             "type": "array",
             "minItems": 1,
             "items": {
               "type": "object",
               "additionalProperties": false,
-              "required": ["id", "name"],
+              "required": ["id"],
               "properties": {
                 "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
-                "name": { "$ref": "#/$defs/localized" },
+                "valueId": { "type": "string", "description": "A value of the option's specificationId. The localized name lives there. Omit name when this is set." },
+                "name": { "$ref": "#/$defs/localized", "description": "Required unless valueId is set." },
                 "hex": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$", "description": "Swatch color. Required when the option id is color." }
               }
             }

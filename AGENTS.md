@@ -22,12 +22,14 @@ Open a PR to `vtex-prototypes/mocked-product-catalog` when you generate somethin
 
 There are two kinds of contribution. Each PR is one or the other.
 
-- **Content**: what the catalog holds. A promoted draft (same `id` and `categoryId`, images regenerated from `drafts/<id>.jpg`, both draft files deleted). A new product, a new variant, or another photo of an existing one. A category in `categories.json`, with `en` and `pt-BR` names. Content PRs touch `products/`, `images/`, `drafts/`, `categories.json`, and the regenerated `catalog.json` and `drafts.json`.
+- **Content**: what the catalog holds. A promoted draft (same `id` and `categoryId`, images regenerated from `drafts/<id>.jpg`, both draft files deleted). A new product, a new variant, or another photo of an existing one. A category in `categories.json`, a brand in `brands.json`, or a specification value in `specifications.json`, each with `en` and `pt-BR` names. Content PRs touch `products/`, `images/`, `drafts/`, `categories.json`, `brands.json`, `specifications.json`, and the regenerated `catalog.json` and `drafts.json`.
 - **Framework**: how the catalog works. The schema, the validator and its rules, the scripts, the build, CI, the image spec, the PR template, and these instructions. Framework PRs do not add or change products.
 
 When you need both, open two PRs. Merge the framework PR first, then open the content PR that uses it. A new field on products, for example, is a framework PR that adds it to the schema and validator, followed by a content PR that fills it in. Start the PR title with `content:` or `framework:`.
 
-A brand is optional. Leave `brand` out, and leave it out of the name, when the product has none. A tomato does not need one. When you do name a brand, invent a fictional one. Never use a trademark or a real brand name, in `brand`, in the name, description, tags, or alt text, or as a logo or label in the photo. `Casa Norte`, `Fio Puro`, `Trilha Livre`, `Altitude`, and `Ritmo` are examples already in the catalog.
+A brand is optional. Leave `brandId` out, and leave it out of the name, when the product has none. A tomato does not need one. When it has one, add the brand once to `brands.json` and set `brandId`. Never use a trademark or a real brand name, in the brand, the name, description, tags, or alt text, or as a logo or label in the photo.
+
+A value that should match across products goes in `specifications.json` once, with `en` and `pt-BR`. Material and capacity are product specifications. A shared option such as apparel size uses `specificationId` and `valueId` instead of copying the label. Color stays on the product, because the hex belongs to that photo. Write a new value into `specifications.json` when an existing one would be a stretch. The listing name stays the product's own words.
 
 Work on a branch. Generate the white PNG with the prompt in the README, with the draft photo attached when you are promoting one. Run `npm run backgrounds`, then `npm run check`. `check` writes the WebP beside the PNG and rebuilds `catalog.json`. Commit the PNG and the WebP. The PNG stays the source.
 

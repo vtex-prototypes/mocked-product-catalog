@@ -35,6 +35,7 @@ A product looks like this. Photos live on the variant, and every photo has both 
 ```json
 {
   "id": "pillow",
+  "brandId": "fio-puro",
   "categoryId": "casa-cama-mesa-banho",
   "defaultVariantId": "white-standard",
   "price": { "BRL": 69.9, "USD": 16.99 },
@@ -50,10 +51,11 @@ A product looks like this. Photos live on the variant, and every photo has both 
     },
     {
       "id": "size",
+      "specificationId": "size",
       "name": { "en": "Size", "pt-BR": "Tamanho" },
       "values": [
-        { "id": "standard", "name": { "en": "Standard 20x28 in", "pt-BR": "Padrão 50x70 cm" } },
-        { "id": "queen", "name": { "en": "Queen 20x30 in", "pt-BR": "Queen 50x76 cm" } }
+        { "id": "standard", "valueId": "pillow-standard", "name": { "en": "Standard 20x28 in", "pt-BR": "Padrão 50x70 cm" } },
+        { "id": "queen", "valueId": "pillow-queen", "name": { "en": "Queen 20x30 in", "pt-BR": "Queen 50x76 cm" } }
       ]
     }
   ],
@@ -85,7 +87,9 @@ Field notes:
 - Every price is an object keyed by currency: `BRL` and `USD`. USD values are plausible US retail prices, not conversions.
 - `price` and `availability` on the product match the default variant, so a product card can render before a variant is chosen. The real numbers live on `variants`.
 - Names are deliberately long (60+ characters), like real marketplace listings, so prototypes see real wrapping and truncation.
-- `options` are the axes a shopper picks, and a product can have several. Color, size, volume, capacity and pack count are all the same kind of field. `color` values also carry a `hex` swatch. The pillow above has color and size; a jacket has color and size; a bottle can have volume only.
+- `brandId` is optional and points at `brands.json`. `catalog.json` adds `brand` with the localized name. Leave it out when the product has no brand.
+- `specifications` point at `specifications.json` by `id` and `valueId`. Material and capacity live there, so "cotton" is the same value on a towel and a sheet. `catalog.json` adds the localized `name` and `value`.
+- `options` are the axes a shopper picks, and a product can have several. Color stays on the product and carries a `hex` swatch. A shared axis such as apparel size sets `specificationId` and each value's `valueId`, and the label comes from `specifications.json`. The pillow has color and size; a jacket has color and size; a bottle can have volume only.
 - `variants` are the combinations you can buy. Each has its own `sku`, `price`, `availability` and photos. Variants that look the same share image files (every size of a navy jacket points at `navy-white.png`). Variants that look different get their own shot (a 500 ml bottle and a 1 L bottle, a 128 GB phone and a 256 GB phone).
 - `listPrice` is only present when that variant is on sale. Render a strike-through when `listPrice[currency] > price[currency]`.
 - `availability` is `in_stock`, `low_stock` or `out_of_stock`. Some variants are out of stock on purpose, so changing color or size can change the button.
@@ -155,7 +159,8 @@ Content rules:
 - **Both currencies, always.** `price` (and `listPrice` if on sale) need `BRL` and `USD`. Use the price a real store would charge in each market rather than converting.
 - **Long names.** Write the name the way a marketplace listing reads: the product, its size, material, color, and two or three selling points. Add a brand only when the product has one. Minimum 60 characters per language; the current set is 120–170. Short names make prototypes look fake and hide layout bugs.
 - **At least two variants, on whatever axes fit the product.** List them under `options` and sell each combination as a `variant`. Give a new photo to each combination that looks different, and reuse the files when it does not (sizes of the same jacket, for example). When one of the axes is color, give it two or more values with a `hex` swatch and a clearly different photo each. Color is optional: a bottle can vary by volume only.
-- **Fictional brands, when you use one.** `brand` is optional. `Casa Norte`, `Fio Puro`, `Trilha Livre`, `Altitude` and `Ritmo` are examples already in the catalog. Never use a trademark or a real brand name, in the copy or in the photo.
+- **Fictional brands, when you use one.** Add it to `brands.json` and set `brandId`. `Casa Norte`, `Fio Puro`, `Trilha Livre`, `Altitude` and `Ritmo` are already there. Never use a trademark or a real brand name, in the copy or in the photo.
+- **Shared values go in `specifications.json`.** Reuse a material, size, or capacity instead of writing a near-copy on the product. Add a value there when none fits.
 - If the category you need isn't in `categories.json`, add it there in the same PR, with both language names.
 
 ### 3. Check and build
@@ -182,6 +187,8 @@ A new option value: add it under `options`, then add one variant per combination
 ```
 AGENTS.md                   # instructions for agents consuming and contributing
 CONSUMING.md                # how to pick products for a prototype
+brands.json                 # fictional brands, referenced by products
+specifications.json         # shared materials, sizes, capacities
 categories.json             # category tree (5 roots, 30 subcategories)
 products/*.json             # one file per published product (source of truth)
 images/<id>/*-white.png    # source photo on white

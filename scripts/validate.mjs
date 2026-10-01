@@ -68,6 +68,30 @@ function checkMoney(id, field, value) {
 
 const categories = JSON.parse(readFileSync(join(ROOT, "categories.json"), "utf8"));
 const categoryIds = new Set(categories.map((c) => c.id));
+const brands = JSON.parse(readFileSync(join(ROOT, "brands.json"), "utf8"));
+const brandIds = new Set();
+for (const b of brands) {
+  if (!SLUG.test(b.id ?? "")) err("brands.json", `brand id "${b.id}" must be a kebab-case slug`);
+  if (brandIds.has(b.id)) err("brands.json", `duplicate brand "${b.id}"`);
+  brandIds.add(b.id);
+  checkLocalized(`brands.json/${b.id}`, "name", b.name, 2);
+}
+const specifications = JSON.parse(readFileSync(join(ROOT, "specifications.json"), "utf8"));
+const specById = new Map();
+for (const spec of specifications) {
+  if (!SLUG.test(spec.id ?? "")) { err("specifications.json", `specification id "${spec.id}" must be a kebab-case slug`); continue; }
+  if (specById.has(spec.id)) err("specifications.json", `duplicate specification "${spec.id}"`);
+  checkLocalized(`specifications.json/${spec.id}`, "name", spec.name, 2);
+  const values = new Map();
+  if (!Array.isArray(spec.values) || spec.values.length === 0) err(`specifications.json/${spec.id}`, "needs values");
+  else for (const value of spec.values) {
+    if (!SLUG.test(value.id ?? "")) { err(`specifications.json/${spec.id}`, `value id "${value.id}" must be a kebab-case slug`); continue; }
+    if (values.has(value.id)) err(`specifications.json/${spec.id}`, `duplicate value "${value.id}"`);
+    checkLocalized(`specifications.json/${spec.id}/${value.id}`, "name", value.name, 1);
+    values.set(value.id, value);
+  }
+  specById.set(spec.id, values);
+}
 for (const c of categories) {
   if (!SLUG.test(c.id ?? "")) err(`categories.json`, `category id "${c.id}" must be a kebab-case slug`);
   checkLocalized(`categories.json/${c.id}`, "name", c.name, 2);
@@ -85,7 +109,22 @@ function validateProduct(file) {
 
   if (p.id !== id) err(id, `"id" must equal the filename ("${p.id}")`);
   if (!SLUG.test(id)) err(id, `id must be a kebab-case slug`);
-  if (p.brand !== undefined && (typeof p.brand !== "string" || !p.brand.trim())) err(id, `"brand" must be a non-empty string when present`);
+  if (p.brand !== undefined) err(id, `use "brandId" from brands.json instead of "brand"`);
+  if (p.brandId !== undefined && !brandIds.has(p.brandId)) err(id, `unknown brandId "${p.brandId}" (see brands.json)`);
+  if (p.specifications !== undefined) {
+    if (!Array.isArray(p.specifications)) err(id, `"specifications" must be an array`);
+    else {
+      const seen = new Set();
+      for (const spec of p.specifications) {
+        const values = specById.get(spec?.id);
+        if (!values) { err(id, `unknown specification "${spec?.id}" (see specifications.json)`); continue; }
+        if (!values.has(spec.valueId)) err(id, `specification "${spec.id}" has no value "${spec.valueId}"`);
+        const key = `${spec.id}:${spec.valueId}`;
+        if (seen.has(key)) err(id, `specification "${spec.id}" repeats value "${spec.valueId}"`);
+        seen.add(key);
+      }
+    }
+  }
   if (!categoryIds.has(p.categoryId)) err(id, `unknown categoryId "${p.categoryId}" (see categories.json)`);
   checkLocalized(id, "name", p.name, MIN_NAME_LENGTH);
   checkLocalized(id, "description", p.description, MIN_DESCRIPTION_LENGTH);
@@ -128,14 +167,22 @@ function validateVariants(id, p, dir) {
     if (!opt || !SLUG.test(opt.id ?? "")) { err(id, `option id "${opt?.id}" must be a kebab-case slug`); continue; }
     if (seenOptions.has(opt.id)) err(id, `duplicate option "${opt.id}"`);
     seenOptions.add(opt.id);
-    checkLocalized(id, `options.${opt.id}.name`, opt.name, 2);
+    const shared = opt.specificationId ? specById.get(opt.specificationId) : null;
+    if (opt.specificationId && !shared) err(id, `option "${opt.id}" points at unknown specification "${opt.specificationId}"`);
+    if (shared) {
+      if (opt.name !== undefined) err(id, `option "${opt.id}" takes its name from specification "${opt.specificationId}", so drop "name"`);
+    } else checkLocalized(id, `options.${opt.id}.name`, opt.name, 2);
     if (!Array.isArray(opt.values) || opt.values.length === 0) { err(id, `option "${opt.id}" needs values`); continue; }
     const ids = new Set();
     for (const value of opt.values) {
       if (!value || !SLUG.test(value.id ?? "")) { err(id, `option "${opt.id}" has an invalid value id`); continue; }
       if (ids.has(value.id)) err(id, `option "${opt.id}" repeats value "${value.id}"`);
       ids.add(value.id);
-      checkLocalized(id, `options.${opt.id}.${value.id}.name`, value.name, 1);
+      if (value.valueId !== undefined) {
+        if (!shared) err(id, `option "${opt.id}" value "${value.id}" has a valueId but the option has no specificationId`);
+        else if (!shared.has(value.valueId)) err(id, `option "${opt.id}" valueId "${value.valueId}" is not a value of "${opt.specificationId}"`);
+        if (value.name !== undefined) err(id, `option "${opt.id}" value "${value.id}" takes its name from the specification, so drop "name"`);
+      } else checkLocalized(id, `options.${opt.id}.${value.id}.name`, value.name, 1);
       if (opt.id === "color" && !/^#[0-9A-Fa-f]{6}$/.test(value.hex ?? "")) {
         err(id, `color "${value.id}" needs a "hex" swatch like "#8FA58A"`);
       }
