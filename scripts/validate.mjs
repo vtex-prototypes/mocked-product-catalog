@@ -119,7 +119,7 @@ function validateProduct(file) {
 // Returns the set of image filenames referenced, or null if variants are missing.
 function validateVariants(id, p, dir) {
   if (!Array.isArray(p.options) || p.options.length === 0) {
-    err(id, `"options" must list at least one option, such as color`);
+    err(id, `"options" must list at least one axis the shopper picks, such as color, size or volume`);
     return null;
   }
   const optionValues = new Map();
@@ -211,6 +211,9 @@ function validateGallery(id, label, images, dir) {
       const path = join(dir, file);
       if (!existsSync(path)) err(id, `missing file images/${id}/${file}`);
       else validateImage(`${id}/${file}`, path, key);
+      const webp = file.replace(/\.png$/, ".webp");
+      files.push(webp);
+      if (!existsSync(join(dir, webp))) err(id, `missing file images/${id}/${webp} (run npm run webp)`);
     }
     for (const key of Object.keys(bgs)) {
       if (!BACKGROUNDS[key]) err(id, `${prefix} has unknown background "${key}"`);

@@ -105,8 +105,8 @@
             "pt-BR": "Jaqueta softshell verde floresta, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "green-ffffff.png",
-            "#f5f5f5": "green-f5f5f5.png"
+            "#ffffff": "green-white.png",
+            "#f5f5f5": "green-gray.png"
           }
         }
       ]
@@ -130,8 +130,8 @@
             "pt-BR": "Jaqueta softshell verde floresta, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "green-ffffff.png",
-            "#f5f5f5": "green-f5f5f5.png"
+            "#ffffff": "green-white.png",
+            "#f5f5f5": "green-gray.png"
           }
         }
       ]
@@ -155,8 +155,8 @@
             "pt-BR": "Jaqueta softshell verde floresta, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "green-ffffff.png",
-            "#f5f5f5": "green-f5f5f5.png"
+            "#ffffff": "green-white.png",
+            "#f5f5f5": "green-gray.png"
           }
         }
       ]
@@ -180,8 +180,8 @@
             "pt-BR": "Jaqueta softshell laranja sinalização, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "orange-ffffff.png",
-            "#f5f5f5": "orange-f5f5f5.png"
+            "#ffffff": "orange-white.png",
+            "#f5f5f5": "orange-gray.png"
           }
         }
       ]
@@ -205,8 +205,8 @@
             "pt-BR": "Jaqueta softshell laranja sinalização, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "orange-ffffff.png",
-            "#f5f5f5": "orange-f5f5f5.png"
+            "#ffffff": "orange-white.png",
+            "#f5f5f5": "orange-gray.png"
           }
         }
       ]
@@ -230,8 +230,8 @@
             "pt-BR": "Jaqueta softshell laranja sinalização, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "orange-ffffff.png",
-            "#f5f5f5": "orange-f5f5f5.png"
+            "#ffffff": "orange-white.png",
+            "#f5f5f5": "orange-gray.png"
           }
         }
       ]

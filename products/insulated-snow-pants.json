@@ -105,8 +105,8 @@
             "pt-BR": "Calça de neve preta forrada com cinto, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "black-ffffff.png",
-            "#f5f5f5": "black-f5f5f5.png"
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
           }
         }
       ]
@@ -130,8 +130,8 @@
             "pt-BR": "Calça de neve preta forrada com cinto, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "black-ffffff.png",
-            "#f5f5f5": "black-f5f5f5.png"
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
           }
         }
       ]
@@ -155,8 +155,8 @@
             "pt-BR": "Calça de neve preta forrada com cinto, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "black-ffffff.png",
-            "#f5f5f5": "black-f5f5f5.png"
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
           }
         }
       ]
@@ -180,8 +180,8 @@
             "pt-BR": "Calça de neve vermelha forrada com cinto, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "red-ffffff.png",
-            "#f5f5f5": "red-f5f5f5.png"
+            "#ffffff": "red-white.png",
+            "#f5f5f5": "red-gray.png"
           }
         }
       ]
@@ -205,8 +205,8 @@
             "pt-BR": "Calça de neve vermelha forrada com cinto, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "red-ffffff.png",
-            "#f5f5f5": "red-f5f5f5.png"
+            "#ffffff": "red-white.png",
+            "#f5f5f5": "red-gray.png"
           }
         }
       ]
@@ -230,8 +230,8 @@
             "pt-BR": "Calça de neve vermelha forrada com cinto, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "red-ffffff.png",
-            "#f5f5f5": "red-f5f5f5.png"
+            "#ffffff": "red-white.png",
+            "#f5f5f5": "red-gray.png"
           }
         }
       ]

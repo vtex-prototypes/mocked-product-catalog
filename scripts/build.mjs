@@ -11,13 +11,16 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const PRODUCTS_DIR = join(ROOT, "products");
 
 const categories = JSON.parse(readFileSync(join(ROOT, "categories.json"), "utf8"));
-// Resolves each background filename to a repo-relative path a prototype can
-// prefix with the raw GitHub URL.
+// Resolves each background filename to the WebP a prototype loads. The PNG
+// stays in `backgrounds` as the source file.
 function withSrc(productId, images) {
   return images.map((img) => ({
     ...img,
     src: Object.fromEntries(
-      Object.entries(img.backgrounds).map(([bg, file]) => [bg, `images/${productId}/${file}`]),
+      Object.entries(img.backgrounds).map(([bg, file]) => [
+        bg,
+        `images/${productId}/${file.replace(/\.png$/, ".webp")}`,
+      ]),
     ),
   }));
 }

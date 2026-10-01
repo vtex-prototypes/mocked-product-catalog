@@ -45,7 +45,7 @@
       "images": [
         {
           "alt": { "en": "White rectangular bed pillow", "pt-BR": "Travesseiro branco retangular" },
-          "backgrounds": { "#ffffff": "white-ffffff.png", "#f5f5f5": "white-f5f5f5.png" }
+          "backgrounds": { "#ffffff": "white-white.png", "#f5f5f5": "white-gray.png" }
         }
       ]
     },
@@ -58,7 +58,7 @@
       "images": [
         {
           "alt": { "en": "White rectangular bed pillow", "pt-BR": "Travesseiro branco retangular" },
-          "backgrounds": { "#ffffff": "white-ffffff.png", "#f5f5f5": "white-f5f5f5.png" }
+          "backgrounds": { "#ffffff": "white-white.png", "#f5f5f5": "white-gray.png" }
         }
       ]
     },
@@ -71,7 +71,7 @@
       "images": [
         {
           "alt": { "en": "Sage green rectangular bed pillow", "pt-BR": "Travesseiro retangular verde-sálvia" },
-          "backgrounds": { "#ffffff": "sage-ffffff.png", "#f5f5f5": "sage-f5f5f5.png" }
+          "backgrounds": { "#ffffff": "sage-white.png", "#f5f5f5": "sage-gray.png" }
         }
       ]
     },
@@ -84,7 +84,7 @@
       "images": [
         {
           "alt": { "en": "Sage green rectangular bed pillow", "pt-BR": "Travesseiro retangular verde-sálvia" },
-          "backgrounds": { "#ffffff": "sage-ffffff.png", "#f5f5f5": "sage-f5f5f5.png" }
+          "backgrounds": { "#ffffff": "sage-white.png", "#f5f5f5": "sage-gray.png" }
         }
       ]
     }

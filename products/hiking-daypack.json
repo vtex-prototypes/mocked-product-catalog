@@ -74,8 +74,8 @@
             "pt-BR": "Mochila de trilha bordô com tubo de hidratação, vista em três quartos"
           },
           "backgrounds": {
-            "#ffffff": "burgundy-ffffff.png",
-            "#f5f5f5": "burgundy-f5f5f5.png"
+            "#ffffff": "burgundy-white.png",
+            "#f5f5f5": "burgundy-gray.png"
           }
         }
       ]
@@ -98,8 +98,8 @@
             "pt-BR": "Mochila de trilha azul petróleo com tubo de hidratação, vista em três quartos"
           },
           "backgrounds": {
-            "#ffffff": "teal-ffffff.png",
-            "#f5f5f5": "teal-f5f5f5.png"
+            "#ffffff": "teal-white.png",
+            "#f5f5f5": "teal-gray.png"
           }
         }
       ]

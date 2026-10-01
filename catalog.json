@@ -360,12 +360,12 @@
                 "pt-BR": "Colchão inflável cinza visto em perspectiva"
               },
               "backgrounds": {
-                "#ffffff": "gray-ffffff.png",
-                "#f5f5f5": "gray-f5f5f5.png"
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
               },
               "src": {
-                "#ffffff": "images/air-mattress/gray-ffffff.png",
-                "#f5f5f5": "images/air-mattress/gray-f5f5f5.png"
+                "#ffffff": "images/air-mattress/gray-white.webp",
+                "#f5f5f5": "images/air-mattress/gray-gray.webp"
               }
             }
           ]
@@ -388,12 +388,12 @@
                 "pt-BR": "Colchão inflável marinho visto em perspectiva"
               },
               "backgrounds": {
-                "#ffffff": "navy-ffffff.png",
-                "#f5f5f5": "navy-f5f5f5.png"
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
               },
               "src": {
-                "#ffffff": "images/air-mattress/navy-ffffff.png",
-                "#f5f5f5": "images/air-mattress/navy-f5f5f5.png"
+                "#ffffff": "images/air-mattress/navy-white.webp",
+                "#f5f5f5": "images/air-mattress/navy-gray.webp"
               }
             }
           ]
@@ -476,12 +476,12 @@
                 "pt-BR": "Toalha de banho branca dobrada"
               },
               "backgrounds": {
-                "#ffffff": "white-ffffff.png",
-                "#f5f5f5": "white-f5f5f5.png"
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
               },
               "src": {
-                "#ffffff": "images/bath-towel/white-ffffff.png",
-                "#f5f5f5": "images/bath-towel/white-f5f5f5.png"
+                "#ffffff": "images/bath-towel/white-white.webp",
+                "#f5f5f5": "images/bath-towel/white-gray.webp"
               }
             }
           ]
@@ -504,12 +504,12 @@
                 "pt-BR": "Toalha de banho azul-ardósia dobrada"
               },
               "backgrounds": {
-                "#ffffff": "slate-ffffff.png",
-                "#f5f5f5": "slate-f5f5f5.png"
+                "#ffffff": "slate-white.png",
+                "#f5f5f5": "slate-gray.png"
               },
               "src": {
-                "#ffffff": "images/bath-towel/slate-ffffff.png",
-                "#f5f5f5": "images/bath-towel/slate-f5f5f5.png"
+                "#ffffff": "images/bath-towel/slate-white.webp",
+                "#f5f5f5": "images/bath-towel/slate-gray.webp"
               }
             }
           ]
@@ -623,12 +623,12 @@
                 "pt-BR": "Jaqueta puffer de pluma taupe com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "taupe-ffffff.png",
-                "#f5f5f5": "taupe-f5f5f5.png"
+                "#ffffff": "taupe-white.png",
+                "#f5f5f5": "taupe-gray.png"
               },
               "src": {
-                "#ffffff": "images/down-puffer-jacket/taupe-ffffff.png",
-                "#f5f5f5": "images/down-puffer-jacket/taupe-f5f5f5.png"
+                "#ffffff": "images/down-puffer-jacket/taupe-white.webp",
+                "#f5f5f5": "images/down-puffer-jacket/taupe-gray.webp"
               }
             }
           ]
@@ -652,12 +652,12 @@
                 "pt-BR": "Jaqueta puffer de pluma taupe com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "taupe-ffffff.png",
-                "#f5f5f5": "taupe-f5f5f5.png"
+                "#ffffff": "taupe-white.png",
+                "#f5f5f5": "taupe-gray.png"
               },
               "src": {
-                "#ffffff": "images/down-puffer-jacket/taupe-ffffff.png",
-                "#f5f5f5": "images/down-puffer-jacket/taupe-f5f5f5.png"
+                "#ffffff": "images/down-puffer-jacket/taupe-white.webp",
+                "#f5f5f5": "images/down-puffer-jacket/taupe-gray.webp"
               }
             }
           ]
@@ -681,12 +681,12 @@
                 "pt-BR": "Jaqueta puffer de pluma taupe com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "taupe-ffffff.png",
-                "#f5f5f5": "taupe-f5f5f5.png"
+                "#ffffff": "taupe-white.png",
+                "#f5f5f5": "taupe-gray.png"
               },
               "src": {
-                "#ffffff": "images/down-puffer-jacket/taupe-ffffff.png",
-                "#f5f5f5": "images/down-puffer-jacket/taupe-f5f5f5.png"
+                "#ffffff": "images/down-puffer-jacket/taupe-white.webp",
+                "#f5f5f5": "images/down-puffer-jacket/taupe-gray.webp"
               }
             }
           ]
@@ -710,12 +710,12 @@
                 "pt-BR": "Jaqueta puffer de pluma azul marinho com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "navy-ffffff.png",
-                "#f5f5f5": "navy-f5f5f5.png"
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
               },
               "src": {
-                "#ffffff": "images/down-puffer-jacket/navy-ffffff.png",
-                "#f5f5f5": "images/down-puffer-jacket/navy-f5f5f5.png"
+                "#ffffff": "images/down-puffer-jacket/navy-white.webp",
+                "#f5f5f5": "images/down-puffer-jacket/navy-gray.webp"
               }
             }
           ]
@@ -739,12 +739,12 @@
                 "pt-BR": "Jaqueta puffer de pluma azul marinho com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "navy-ffffff.png",
-                "#f5f5f5": "navy-f5f5f5.png"
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
               },
               "src": {
-                "#ffffff": "images/down-puffer-jacket/navy-ffffff.png",
-                "#f5f5f5": "images/down-puffer-jacket/navy-f5f5f5.png"
+                "#ffffff": "images/down-puffer-jacket/navy-white.webp",
+                "#f5f5f5": "images/down-puffer-jacket/navy-gray.webp"
               }
             }
           ]
@@ -768,12 +768,12 @@
                 "pt-BR": "Jaqueta puffer de pluma azul marinho com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "navy-ffffff.png",
-                "#f5f5f5": "navy-f5f5f5.png"
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
               },
               "src": {
-                "#ffffff": "images/down-puffer-jacket/navy-ffffff.png",
-                "#f5f5f5": "images/down-puffer-jacket/navy-f5f5f5.png"
+                "#ffffff": "images/down-puffer-jacket/navy-white.webp",
+                "#f5f5f5": "images/down-puffer-jacket/navy-gray.webp"
               }
             }
           ]
@@ -895,12 +895,12 @@
                 "pt-BR": "Calça jogger de moletom azul marinho, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "navy-ffffff.png",
-                "#f5f5f5": "navy-f5f5f5.png"
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
               },
               "src": {
-                "#ffffff": "images/fleece-jogger-pants/navy-ffffff.png",
-                "#f5f5f5": "images/fleece-jogger-pants/navy-f5f5f5.png"
+                "#ffffff": "images/fleece-jogger-pants/navy-white.webp",
+                "#f5f5f5": "images/fleece-jogger-pants/navy-gray.webp"
               }
             }
           ]
@@ -928,12 +928,12 @@
                 "pt-BR": "Calça jogger de moletom azul marinho, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "navy-ffffff.png",
-                "#f5f5f5": "navy-f5f5f5.png"
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
               },
               "src": {
-                "#ffffff": "images/fleece-jogger-pants/navy-ffffff.png",
-                "#f5f5f5": "images/fleece-jogger-pants/navy-f5f5f5.png"
+                "#ffffff": "images/fleece-jogger-pants/navy-white.webp",
+                "#f5f5f5": "images/fleece-jogger-pants/navy-gray.webp"
               }
             }
           ]
@@ -961,12 +961,12 @@
                 "pt-BR": "Calça jogger de moletom azul marinho, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "navy-ffffff.png",
-                "#f5f5f5": "navy-f5f5f5.png"
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
               },
               "src": {
-                "#ffffff": "images/fleece-jogger-pants/navy-ffffff.png",
-                "#f5f5f5": "images/fleece-jogger-pants/navy-f5f5f5.png"
+                "#ffffff": "images/fleece-jogger-pants/navy-white.webp",
+                "#f5f5f5": "images/fleece-jogger-pants/navy-gray.webp"
               }
             }
           ]
@@ -994,12 +994,12 @@
                 "pt-BR": "Calça jogger de moletom cinza mescla, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "heather-ffffff.png",
-                "#f5f5f5": "heather-f5f5f5.png"
+                "#ffffff": "heather-white.png",
+                "#f5f5f5": "heather-gray.png"
               },
               "src": {
-                "#ffffff": "images/fleece-jogger-pants/heather-ffffff.png",
-                "#f5f5f5": "images/fleece-jogger-pants/heather-f5f5f5.png"
+                "#ffffff": "images/fleece-jogger-pants/heather-white.webp",
+                "#f5f5f5": "images/fleece-jogger-pants/heather-gray.webp"
               }
             }
           ]
@@ -1027,12 +1027,12 @@
                 "pt-BR": "Calça jogger de moletom cinza mescla, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "heather-ffffff.png",
-                "#f5f5f5": "heather-f5f5f5.png"
+                "#ffffff": "heather-white.png",
+                "#f5f5f5": "heather-gray.png"
               },
               "src": {
-                "#ffffff": "images/fleece-jogger-pants/heather-ffffff.png",
-                "#f5f5f5": "images/fleece-jogger-pants/heather-f5f5f5.png"
+                "#ffffff": "images/fleece-jogger-pants/heather-white.webp",
+                "#f5f5f5": "images/fleece-jogger-pants/heather-gray.webp"
               }
             }
           ]
@@ -1060,12 +1060,12 @@
                 "pt-BR": "Calça jogger de moletom cinza mescla, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "heather-ffffff.png",
-                "#f5f5f5": "heather-f5f5f5.png"
+                "#ffffff": "heather-white.png",
+                "#f5f5f5": "heather-gray.png"
               },
               "src": {
-                "#ffffff": "images/fleece-jogger-pants/heather-ffffff.png",
-                "#f5f5f5": "images/fleece-jogger-pants/heather-f5f5f5.png"
+                "#ffffff": "images/fleece-jogger-pants/heather-white.webp",
+                "#f5f5f5": "images/fleece-jogger-pants/heather-gray.webp"
               }
             }
           ]
@@ -1148,12 +1148,12 @@
                 "pt-BR": "Mochila de trilha bordô com tubo de hidratação, vista em três quartos"
               },
               "backgrounds": {
-                "#ffffff": "burgundy-ffffff.png",
-                "#f5f5f5": "burgundy-f5f5f5.png"
+                "#ffffff": "burgundy-white.png",
+                "#f5f5f5": "burgundy-gray.png"
               },
               "src": {
-                "#ffffff": "images/hiking-daypack/burgundy-ffffff.png",
-                "#f5f5f5": "images/hiking-daypack/burgundy-f5f5f5.png"
+                "#ffffff": "images/hiking-daypack/burgundy-white.webp",
+                "#f5f5f5": "images/hiking-daypack/burgundy-gray.webp"
               }
             }
           ]
@@ -1176,12 +1176,12 @@
                 "pt-BR": "Mochila de trilha azul petróleo com tubo de hidratação, vista em três quartos"
               },
               "backgrounds": {
-                "#ffffff": "teal-ffffff.png",
-                "#f5f5f5": "teal-f5f5f5.png"
+                "#ffffff": "teal-white.png",
+                "#f5f5f5": "teal-gray.png"
               },
               "src": {
-                "#ffffff": "images/hiking-daypack/teal-ffffff.png",
-                "#f5f5f5": "images/hiking-daypack/teal-f5f5f5.png"
+                "#ffffff": "images/hiking-daypack/teal-white.webp",
+                "#f5f5f5": "images/hiking-daypack/teal-gray.webp"
               }
             }
           ]
@@ -1295,12 +1295,12 @@
                 "pt-BR": "Parka marrom com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "brown-ffffff.png",
-                "#f5f5f5": "brown-f5f5f5.png"
+                "#ffffff": "brown-white.png",
+                "#f5f5f5": "brown-gray.png"
               },
               "src": {
-                "#ffffff": "images/hooded-parka/brown-ffffff.png",
-                "#f5f5f5": "images/hooded-parka/brown-f5f5f5.png"
+                "#ffffff": "images/hooded-parka/brown-white.webp",
+                "#f5f5f5": "images/hooded-parka/brown-gray.webp"
               }
             }
           ]
@@ -1324,12 +1324,12 @@
                 "pt-BR": "Parka marrom com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "brown-ffffff.png",
-                "#f5f5f5": "brown-f5f5f5.png"
+                "#ffffff": "brown-white.png",
+                "#f5f5f5": "brown-gray.png"
               },
               "src": {
-                "#ffffff": "images/hooded-parka/brown-ffffff.png",
-                "#f5f5f5": "images/hooded-parka/brown-f5f5f5.png"
+                "#ffffff": "images/hooded-parka/brown-white.webp",
+                "#f5f5f5": "images/hooded-parka/brown-gray.webp"
               }
             }
           ]
@@ -1353,12 +1353,12 @@
                 "pt-BR": "Parka marrom com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "brown-ffffff.png",
-                "#f5f5f5": "brown-f5f5f5.png"
+                "#ffffff": "brown-white.png",
+                "#f5f5f5": "brown-gray.png"
               },
               "src": {
-                "#ffffff": "images/hooded-parka/brown-ffffff.png",
-                "#f5f5f5": "images/hooded-parka/brown-f5f5f5.png"
+                "#ffffff": "images/hooded-parka/brown-white.webp",
+                "#f5f5f5": "images/hooded-parka/brown-gray.webp"
               }
             }
           ]
@@ -1382,12 +1382,12 @@
                 "pt-BR": "Parka preta com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "black-ffffff.png",
-                "#f5f5f5": "black-f5f5f5.png"
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
               },
               "src": {
-                "#ffffff": "images/hooded-parka/black-ffffff.png",
-                "#f5f5f5": "images/hooded-parka/black-f5f5f5.png"
+                "#ffffff": "images/hooded-parka/black-white.webp",
+                "#f5f5f5": "images/hooded-parka/black-gray.webp"
               }
             }
           ]
@@ -1411,12 +1411,12 @@
                 "pt-BR": "Parka preta com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "black-ffffff.png",
-                "#f5f5f5": "black-f5f5f5.png"
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
               },
               "src": {
-                "#ffffff": "images/hooded-parka/black-ffffff.png",
-                "#f5f5f5": "images/hooded-parka/black-f5f5f5.png"
+                "#ffffff": "images/hooded-parka/black-white.webp",
+                "#f5f5f5": "images/hooded-parka/black-gray.webp"
               }
             }
           ]
@@ -1440,12 +1440,12 @@
                 "pt-BR": "Parka preta com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "black-ffffff.png",
-                "#f5f5f5": "black-f5f5f5.png"
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
               },
               "src": {
-                "#ffffff": "images/hooded-parka/black-ffffff.png",
-                "#f5f5f5": "images/hooded-parka/black-f5f5f5.png"
+                "#ffffff": "images/hooded-parka/black-white.webp",
+                "#f5f5f5": "images/hooded-parka/black-gray.webp"
               }
             }
           ]
@@ -1567,12 +1567,12 @@
                 "pt-BR": "Jaqueta puffer cinza claro com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "gray-ffffff.png",
-                "#f5f5f5": "gray-f5f5f5.png"
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
               },
               "src": {
-                "#ffffff": "images/hooded-puffer-jacket/gray-ffffff.png",
-                "#f5f5f5": "images/hooded-puffer-jacket/gray-f5f5f5.png"
+                "#ffffff": "images/hooded-puffer-jacket/gray-white.webp",
+                "#f5f5f5": "images/hooded-puffer-jacket/gray-gray.webp"
               }
             }
           ]
@@ -1600,12 +1600,12 @@
                 "pt-BR": "Jaqueta puffer cinza claro com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "gray-ffffff.png",
-                "#f5f5f5": "gray-f5f5f5.png"
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
               },
               "src": {
-                "#ffffff": "images/hooded-puffer-jacket/gray-ffffff.png",
-                "#f5f5f5": "images/hooded-puffer-jacket/gray-f5f5f5.png"
+                "#ffffff": "images/hooded-puffer-jacket/gray-white.webp",
+                "#f5f5f5": "images/hooded-puffer-jacket/gray-gray.webp"
               }
             }
           ]
@@ -1633,12 +1633,12 @@
                 "pt-BR": "Jaqueta puffer cinza claro com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "gray-ffffff.png",
-                "#f5f5f5": "gray-f5f5f5.png"
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
               },
               "src": {
-                "#ffffff": "images/hooded-puffer-jacket/gray-ffffff.png",
-                "#f5f5f5": "images/hooded-puffer-jacket/gray-f5f5f5.png"
+                "#ffffff": "images/hooded-puffer-jacket/gray-white.webp",
+                "#f5f5f5": "images/hooded-puffer-jacket/gray-gray.webp"
               }
             }
           ]
@@ -1666,12 +1666,12 @@
                 "pt-BR": "Jaqueta puffer verde floresta com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "green-ffffff.png",
-                "#f5f5f5": "green-f5f5f5.png"
+                "#ffffff": "green-white.png",
+                "#f5f5f5": "green-gray.png"
               },
               "src": {
-                "#ffffff": "images/hooded-puffer-jacket/green-ffffff.png",
-                "#f5f5f5": "images/hooded-puffer-jacket/green-f5f5f5.png"
+                "#ffffff": "images/hooded-puffer-jacket/green-white.webp",
+                "#f5f5f5": "images/hooded-puffer-jacket/green-gray.webp"
               }
             }
           ]
@@ -1699,12 +1699,12 @@
                 "pt-BR": "Jaqueta puffer verde floresta com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "green-ffffff.png",
-                "#f5f5f5": "green-f5f5f5.png"
+                "#ffffff": "green-white.png",
+                "#f5f5f5": "green-gray.png"
               },
               "src": {
-                "#ffffff": "images/hooded-puffer-jacket/green-ffffff.png",
-                "#f5f5f5": "images/hooded-puffer-jacket/green-f5f5f5.png"
+                "#ffffff": "images/hooded-puffer-jacket/green-white.webp",
+                "#f5f5f5": "images/hooded-puffer-jacket/green-gray.webp"
               }
             }
           ]
@@ -1732,12 +1732,12 @@
                 "pt-BR": "Jaqueta puffer verde floresta com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "green-ffffff.png",
-                "#f5f5f5": "green-f5f5f5.png"
+                "#ffffff": "green-white.png",
+                "#f5f5f5": "green-gray.png"
               },
               "src": {
-                "#ffffff": "images/hooded-puffer-jacket/green-ffffff.png",
-                "#f5f5f5": "images/hooded-puffer-jacket/green-f5f5f5.png"
+                "#ffffff": "images/hooded-puffer-jacket/green-white.webp",
+                "#f5f5f5": "images/hooded-puffer-jacket/green-gray.webp"
               }
             }
           ]
@@ -1851,12 +1851,12 @@
                 "pt-BR": "Calça de neve preta forrada com cinto, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "black-ffffff.png",
-                "#f5f5f5": "black-f5f5f5.png"
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
               },
               "src": {
-                "#ffffff": "images/insulated-snow-pants/black-ffffff.png",
-                "#f5f5f5": "images/insulated-snow-pants/black-f5f5f5.png"
+                "#ffffff": "images/insulated-snow-pants/black-white.webp",
+                "#f5f5f5": "images/insulated-snow-pants/black-gray.webp"
               }
             }
           ]
@@ -1880,12 +1880,12 @@
                 "pt-BR": "Calça de neve preta forrada com cinto, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "black-ffffff.png",
-                "#f5f5f5": "black-f5f5f5.png"
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
               },
               "src": {
-                "#ffffff": "images/insulated-snow-pants/black-ffffff.png",
-                "#f5f5f5": "images/insulated-snow-pants/black-f5f5f5.png"
+                "#ffffff": "images/insulated-snow-pants/black-white.webp",
+                "#f5f5f5": "images/insulated-snow-pants/black-gray.webp"
               }
             }
           ]
@@ -1909,12 +1909,12 @@
                 "pt-BR": "Calça de neve preta forrada com cinto, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "black-ffffff.png",
-                "#f5f5f5": "black-f5f5f5.png"
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
               },
               "src": {
-                "#ffffff": "images/insulated-snow-pants/black-ffffff.png",
-                "#f5f5f5": "images/insulated-snow-pants/black-f5f5f5.png"
+                "#ffffff": "images/insulated-snow-pants/black-white.webp",
+                "#f5f5f5": "images/insulated-snow-pants/black-gray.webp"
               }
             }
           ]
@@ -1938,12 +1938,12 @@
                 "pt-BR": "Calça de neve vermelha forrada com cinto, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "red-ffffff.png",
-                "#f5f5f5": "red-f5f5f5.png"
+                "#ffffff": "red-white.png",
+                "#f5f5f5": "red-gray.png"
               },
               "src": {
-                "#ffffff": "images/insulated-snow-pants/red-ffffff.png",
-                "#f5f5f5": "images/insulated-snow-pants/red-f5f5f5.png"
+                "#ffffff": "images/insulated-snow-pants/red-white.webp",
+                "#f5f5f5": "images/insulated-snow-pants/red-gray.webp"
               }
             }
           ]
@@ -1967,12 +1967,12 @@
                 "pt-BR": "Calça de neve vermelha forrada com cinto, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "red-ffffff.png",
-                "#f5f5f5": "red-f5f5f5.png"
+                "#ffffff": "red-white.png",
+                "#f5f5f5": "red-gray.png"
               },
               "src": {
-                "#ffffff": "images/insulated-snow-pants/red-ffffff.png",
-                "#f5f5f5": "images/insulated-snow-pants/red-f5f5f5.png"
+                "#ffffff": "images/insulated-snow-pants/red-white.webp",
+                "#f5f5f5": "images/insulated-snow-pants/red-gray.webp"
               }
             }
           ]
@@ -1996,12 +1996,12 @@
                 "pt-BR": "Calça de neve vermelha forrada com cinto, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "red-ffffff.png",
-                "#f5f5f5": "red-f5f5f5.png"
+                "#ffffff": "red-white.png",
+                "#f5f5f5": "red-gray.png"
               },
               "src": {
-                "#ffffff": "images/insulated-snow-pants/red-ffffff.png",
-                "#f5f5f5": "images/insulated-snow-pants/red-f5f5f5.png"
+                "#ffffff": "images/insulated-snow-pants/red-white.webp",
+                "#f5f5f5": "images/insulated-snow-pants/red-gray.webp"
               }
             }
           ]
@@ -2084,12 +2084,12 @@
                 "pt-BR": "Mochila preta para notebook, vista em três quartos"
               },
               "backgrounds": {
-                "#ffffff": "black-ffffff.png",
-                "#f5f5f5": "black-f5f5f5.png"
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
               },
               "src": {
-                "#ffffff": "images/laptop-backpack/black-ffffff.png",
-                "#f5f5f5": "images/laptop-backpack/black-f5f5f5.png"
+                "#ffffff": "images/laptop-backpack/black-white.webp",
+                "#f5f5f5": "images/laptop-backpack/black-gray.webp"
               }
             }
           ]
@@ -2112,12 +2112,12 @@
                 "pt-BR": "Mochila verde oliva para notebook, vista em três quartos"
               },
               "backgrounds": {
-                "#ffffff": "olive-ffffff.png",
-                "#f5f5f5": "olive-f5f5f5.png"
+                "#ffffff": "olive-white.png",
+                "#f5f5f5": "olive-gray.png"
               },
               "src": {
-                "#ffffff": "images/laptop-backpack/olive-ffffff.png",
-                "#f5f5f5": "images/laptop-backpack/olive-f5f5f5.png"
+                "#ffffff": "images/laptop-backpack/olive-white.webp",
+                "#f5f5f5": "images/laptop-backpack/olive-gray.webp"
               }
             }
           ]
@@ -2224,12 +2224,12 @@
                 "pt-BR": "Travesseiro branco retangular"
               },
               "backgrounds": {
-                "#ffffff": "white-ffffff.png",
-                "#f5f5f5": "white-f5f5f5.png"
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
               },
               "src": {
-                "#ffffff": "images/pillow/white-ffffff.png",
-                "#f5f5f5": "images/pillow/white-f5f5f5.png"
+                "#ffffff": "images/pillow/white-white.webp",
+                "#f5f5f5": "images/pillow/white-gray.webp"
               }
             }
           ]
@@ -2253,12 +2253,12 @@
                 "pt-BR": "Travesseiro branco retangular"
               },
               "backgrounds": {
-                "#ffffff": "white-ffffff.png",
-                "#f5f5f5": "white-f5f5f5.png"
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
               },
               "src": {
-                "#ffffff": "images/pillow/white-ffffff.png",
-                "#f5f5f5": "images/pillow/white-f5f5f5.png"
+                "#ffffff": "images/pillow/white-white.webp",
+                "#f5f5f5": "images/pillow/white-gray.webp"
               }
             }
           ]
@@ -2282,12 +2282,12 @@
                 "pt-BR": "Travesseiro retangular verde-sálvia"
               },
               "backgrounds": {
-                "#ffffff": "sage-ffffff.png",
-                "#f5f5f5": "sage-f5f5f5.png"
+                "#ffffff": "sage-white.png",
+                "#f5f5f5": "sage-gray.png"
               },
               "src": {
-                "#ffffff": "images/pillow/sage-ffffff.png",
-                "#f5f5f5": "images/pillow/sage-f5f5f5.png"
+                "#ffffff": "images/pillow/sage-white.webp",
+                "#f5f5f5": "images/pillow/sage-gray.webp"
               }
             }
           ]
@@ -2311,12 +2311,12 @@
                 "pt-BR": "Travesseiro retangular verde-sálvia"
               },
               "backgrounds": {
-                "#ffffff": "sage-ffffff.png",
-                "#f5f5f5": "sage-f5f5f5.png"
+                "#ffffff": "sage-white.png",
+                "#f5f5f5": "sage-gray.png"
               },
               "src": {
-                "#ffffff": "images/pillow/sage-ffffff.png",
-                "#f5f5f5": "images/pillow/sage-f5f5f5.png"
+                "#ffffff": "images/pillow/sage-white.webp",
+                "#f5f5f5": "images/pillow/sage-gray.webp"
               }
             }
           ]
@@ -2409,12 +2409,12 @@
                 "pt-BR": "Almofada quadrada xadrez verde-petróleo vista de frente"
               },
               "backgrounds": {
-                "#ffffff": "teal-ffffff.png",
-                "#f5f5f5": "teal-f5f5f5.png"
+                "#ffffff": "teal-white.png",
+                "#f5f5f5": "teal-gray.png"
               },
               "src": {
-                "#ffffff": "images/plaid-cushion/teal-ffffff.png",
-                "#f5f5f5": "images/plaid-cushion/teal-f5f5f5.png"
+                "#ffffff": "images/plaid-cushion/teal-white.webp",
+                "#f5f5f5": "images/plaid-cushion/teal-gray.webp"
               }
             }
           ]
@@ -2437,12 +2437,12 @@
                 "pt-BR": "Almofada quadrada xadrez marinho vista de frente"
               },
               "backgrounds": {
-                "#ffffff": "navy-ffffff.png",
-                "#f5f5f5": "navy-f5f5f5.png"
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
               },
               "src": {
-                "#ffffff": "images/plaid-cushion/navy-ffffff.png",
-                "#f5f5f5": "images/plaid-cushion/navy-f5f5f5.png"
+                "#ffffff": "images/plaid-cushion/navy-white.webp",
+                "#f5f5f5": "images/plaid-cushion/navy-gray.webp"
               }
             }
           ]
@@ -2556,12 +2556,12 @@
                 "pt-BR": "Jaqueta puffer azul marinho matelassê com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "navy-ffffff.png",
-                "#f5f5f5": "navy-f5f5f5.png"
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
               },
               "src": {
-                "#ffffff": "images/quilted-puffer-jacket/navy-ffffff.png",
-                "#f5f5f5": "images/quilted-puffer-jacket/navy-f5f5f5.png"
+                "#ffffff": "images/quilted-puffer-jacket/navy-white.webp",
+                "#f5f5f5": "images/quilted-puffer-jacket/navy-gray.webp"
               }
             }
           ]
@@ -2585,12 +2585,12 @@
                 "pt-BR": "Jaqueta puffer azul marinho matelassê com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "navy-ffffff.png",
-                "#f5f5f5": "navy-f5f5f5.png"
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
               },
               "src": {
-                "#ffffff": "images/quilted-puffer-jacket/navy-ffffff.png",
-                "#f5f5f5": "images/quilted-puffer-jacket/navy-f5f5f5.png"
+                "#ffffff": "images/quilted-puffer-jacket/navy-white.webp",
+                "#f5f5f5": "images/quilted-puffer-jacket/navy-gray.webp"
               }
             }
           ]
@@ -2614,12 +2614,12 @@
                 "pt-BR": "Jaqueta puffer azul marinho matelassê com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "navy-ffffff.png",
-                "#f5f5f5": "navy-f5f5f5.png"
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
               },
               "src": {
-                "#ffffff": "images/quilted-puffer-jacket/navy-ffffff.png",
-                "#f5f5f5": "images/quilted-puffer-jacket/navy-f5f5f5.png"
+                "#ffffff": "images/quilted-puffer-jacket/navy-white.webp",
+                "#f5f5f5": "images/quilted-puffer-jacket/navy-gray.webp"
               }
             }
           ]
@@ -2643,12 +2643,12 @@
                 "pt-BR": "Jaqueta puffer bordô matelassê com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "burgundy-ffffff.png",
-                "#f5f5f5": "burgundy-f5f5f5.png"
+                "#ffffff": "burgundy-white.png",
+                "#f5f5f5": "burgundy-gray.png"
               },
               "src": {
-                "#ffffff": "images/quilted-puffer-jacket/burgundy-ffffff.png",
-                "#f5f5f5": "images/quilted-puffer-jacket/burgundy-f5f5f5.png"
+                "#ffffff": "images/quilted-puffer-jacket/burgundy-white.webp",
+                "#f5f5f5": "images/quilted-puffer-jacket/burgundy-gray.webp"
               }
             }
           ]
@@ -2672,12 +2672,12 @@
                 "pt-BR": "Jaqueta puffer bordô matelassê com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "burgundy-ffffff.png",
-                "#f5f5f5": "burgundy-f5f5f5.png"
+                "#ffffff": "burgundy-white.png",
+                "#f5f5f5": "burgundy-gray.png"
               },
               "src": {
-                "#ffffff": "images/quilted-puffer-jacket/burgundy-ffffff.png",
-                "#f5f5f5": "images/quilted-puffer-jacket/burgundy-f5f5f5.png"
+                "#ffffff": "images/quilted-puffer-jacket/burgundy-white.webp",
+                "#f5f5f5": "images/quilted-puffer-jacket/burgundy-gray.webp"
               }
             }
           ]
@@ -2701,12 +2701,12 @@
                 "pt-BR": "Jaqueta puffer bordô matelassê com capuz, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "burgundy-ffffff.png",
-                "#f5f5f5": "burgundy-f5f5f5.png"
+                "#ffffff": "burgundy-white.png",
+                "#f5f5f5": "burgundy-gray.png"
               },
               "src": {
-                "#ffffff": "images/quilted-puffer-jacket/burgundy-ffffff.png",
-                "#f5f5f5": "images/quilted-puffer-jacket/burgundy-f5f5f5.png"
+                "#ffffff": "images/quilted-puffer-jacket/burgundy-white.webp",
+                "#f5f5f5": "images/quilted-puffer-jacket/burgundy-gray.webp"
               }
             }
           ]
@@ -2820,12 +2820,12 @@
                 "pt-BR": "Legging de corrida preta cintura alta, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "black-ffffff.png",
-                "#f5f5f5": "black-f5f5f5.png"
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
               },
               "src": {
-                "#ffffff": "images/running-leggings/black-ffffff.png",
-                "#f5f5f5": "images/running-leggings/black-f5f5f5.png"
+                "#ffffff": "images/running-leggings/black-white.webp",
+                "#f5f5f5": "images/running-leggings/black-gray.webp"
               }
             }
           ]
@@ -2849,12 +2849,12 @@
                 "pt-BR": "Legging de corrida preta cintura alta, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "black-ffffff.png",
-                "#f5f5f5": "black-f5f5f5.png"
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
               },
               "src": {
-                "#ffffff": "images/running-leggings/black-ffffff.png",
-                "#f5f5f5": "images/running-leggings/black-f5f5f5.png"
+                "#ffffff": "images/running-leggings/black-white.webp",
+                "#f5f5f5": "images/running-leggings/black-gray.webp"
               }
             }
           ]
@@ -2878,12 +2878,12 @@
                 "pt-BR": "Legging de corrida preta cintura alta, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "black-ffffff.png",
-                "#f5f5f5": "black-f5f5f5.png"
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
               },
               "src": {
-                "#ffffff": "images/running-leggings/black-ffffff.png",
-                "#f5f5f5": "images/running-leggings/black-f5f5f5.png"
+                "#ffffff": "images/running-leggings/black-white.webp",
+                "#f5f5f5": "images/running-leggings/black-gray.webp"
               }
             }
           ]
@@ -2907,12 +2907,12 @@
                 "pt-BR": "Legging de corrida ameixa cintura alta, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "plum-ffffff.png",
-                "#f5f5f5": "plum-f5f5f5.png"
+                "#ffffff": "plum-white.png",
+                "#f5f5f5": "plum-gray.png"
               },
               "src": {
-                "#ffffff": "images/running-leggings/plum-ffffff.png",
-                "#f5f5f5": "images/running-leggings/plum-f5f5f5.png"
+                "#ffffff": "images/running-leggings/plum-white.webp",
+                "#f5f5f5": "images/running-leggings/plum-gray.webp"
               }
             }
           ]
@@ -2936,12 +2936,12 @@
                 "pt-BR": "Legging de corrida ameixa cintura alta, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "plum-ffffff.png",
-                "#f5f5f5": "plum-f5f5f5.png"
+                "#ffffff": "plum-white.png",
+                "#f5f5f5": "plum-gray.png"
               },
               "src": {
-                "#ffffff": "images/running-leggings/plum-ffffff.png",
-                "#f5f5f5": "images/running-leggings/plum-f5f5f5.png"
+                "#ffffff": "images/running-leggings/plum-white.webp",
+                "#f5f5f5": "images/running-leggings/plum-gray.webp"
               }
             }
           ]
@@ -2965,12 +2965,12 @@
                 "pt-BR": "Legging de corrida ameixa cintura alta, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "plum-ffffff.png",
-                "#f5f5f5": "plum-f5f5f5.png"
+                "#ffffff": "plum-white.png",
+                "#f5f5f5": "plum-gray.png"
               },
               "src": {
-                "#ffffff": "images/running-leggings/plum-ffffff.png",
-                "#f5f5f5": "images/running-leggings/plum-f5f5f5.png"
+                "#ffffff": "images/running-leggings/plum-white.webp",
+                "#f5f5f5": "images/running-leggings/plum-gray.webp"
               }
             }
           ]
@@ -3061,12 +3061,12 @@
                 "pt-BR": "Jogo de lençol branco dobrado e empilhado com fronhas"
               },
               "backgrounds": {
-                "#ffffff": "white-ffffff.png",
-                "#f5f5f5": "white-f5f5f5.png"
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
               },
               "src": {
-                "#ffffff": "images/sheet-set/white-ffffff.png",
-                "#f5f5f5": "images/sheet-set/white-f5f5f5.png"
+                "#ffffff": "images/sheet-set/white-white.webp",
+                "#f5f5f5": "images/sheet-set/white-gray.webp"
               }
             }
           ]
@@ -3089,12 +3089,12 @@
                 "pt-BR": "Jogo de lençol cinza-claro dobrado e empilhado com fronhas"
               },
               "backgrounds": {
-                "#ffffff": "gray-ffffff.png",
-                "#f5f5f5": "gray-f5f5f5.png"
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
               },
               "src": {
-                "#ffffff": "images/sheet-set/gray-ffffff.png",
-                "#f5f5f5": "images/sheet-set/gray-f5f5f5.png"
+                "#ffffff": "images/sheet-set/gray-white.webp",
+                "#f5f5f5": "images/sheet-set/gray-gray.webp"
               }
             }
           ]
@@ -3208,12 +3208,12 @@
                 "pt-BR": "Jaqueta softshell verde floresta, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "green-ffffff.png",
-                "#f5f5f5": "green-f5f5f5.png"
+                "#ffffff": "green-white.png",
+                "#f5f5f5": "green-gray.png"
               },
               "src": {
-                "#ffffff": "images/softshell-rain-jacket/green-ffffff.png",
-                "#f5f5f5": "images/softshell-rain-jacket/green-f5f5f5.png"
+                "#ffffff": "images/softshell-rain-jacket/green-white.webp",
+                "#f5f5f5": "images/softshell-rain-jacket/green-gray.webp"
               }
             }
           ]
@@ -3237,12 +3237,12 @@
                 "pt-BR": "Jaqueta softshell verde floresta, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "green-ffffff.png",
-                "#f5f5f5": "green-f5f5f5.png"
+                "#ffffff": "green-white.png",
+                "#f5f5f5": "green-gray.png"
               },
               "src": {
-                "#ffffff": "images/softshell-rain-jacket/green-ffffff.png",
-                "#f5f5f5": "images/softshell-rain-jacket/green-f5f5f5.png"
+                "#ffffff": "images/softshell-rain-jacket/green-white.webp",
+                "#f5f5f5": "images/softshell-rain-jacket/green-gray.webp"
               }
             }
           ]
@@ -3266,12 +3266,12 @@
                 "pt-BR": "Jaqueta softshell verde floresta, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "green-ffffff.png",
-                "#f5f5f5": "green-f5f5f5.png"
+                "#ffffff": "green-white.png",
+                "#f5f5f5": "green-gray.png"
               },
               "src": {
-                "#ffffff": "images/softshell-rain-jacket/green-ffffff.png",
-                "#f5f5f5": "images/softshell-rain-jacket/green-f5f5f5.png"
+                "#ffffff": "images/softshell-rain-jacket/green-white.webp",
+                "#f5f5f5": "images/softshell-rain-jacket/green-gray.webp"
               }
             }
           ]
@@ -3295,12 +3295,12 @@
                 "pt-BR": "Jaqueta softshell laranja sinalização, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "orange-ffffff.png",
-                "#f5f5f5": "orange-f5f5f5.png"
+                "#ffffff": "orange-white.png",
+                "#f5f5f5": "orange-gray.png"
               },
               "src": {
-                "#ffffff": "images/softshell-rain-jacket/orange-ffffff.png",
-                "#f5f5f5": "images/softshell-rain-jacket/orange-f5f5f5.png"
+                "#ffffff": "images/softshell-rain-jacket/orange-white.webp",
+                "#f5f5f5": "images/softshell-rain-jacket/orange-gray.webp"
               }
             }
           ]
@@ -3324,12 +3324,12 @@
                 "pt-BR": "Jaqueta softshell laranja sinalização, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "orange-ffffff.png",
-                "#f5f5f5": "orange-f5f5f5.png"
+                "#ffffff": "orange-white.png",
+                "#f5f5f5": "orange-gray.png"
               },
               "src": {
-                "#ffffff": "images/softshell-rain-jacket/orange-ffffff.png",
-                "#f5f5f5": "images/softshell-rain-jacket/orange-f5f5f5.png"
+                "#ffffff": "images/softshell-rain-jacket/orange-white.webp",
+                "#f5f5f5": "images/softshell-rain-jacket/orange-gray.webp"
               }
             }
           ]
@@ -3353,12 +3353,12 @@
                 "pt-BR": "Jaqueta softshell laranja sinalização, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "orange-ffffff.png",
-                "#f5f5f5": "orange-f5f5f5.png"
+                "#ffffff": "orange-white.png",
+                "#f5f5f5": "orange-gray.png"
               },
               "src": {
-                "#ffffff": "images/softshell-rain-jacket/orange-ffffff.png",
-                "#f5f5f5": "images/softshell-rain-jacket/orange-f5f5f5.png"
+                "#ffffff": "images/softshell-rain-jacket/orange-white.webp",
+                "#f5f5f5": "images/softshell-rain-jacket/orange-gray.webp"
               }
             }
           ]
@@ -3441,12 +3441,12 @@
                 "pt-BR": "Mochila tática verde floresta, vista em três quartos"
               },
               "backgrounds": {
-                "#ffffff": "green-ffffff.png",
-                "#f5f5f5": "green-f5f5f5.png"
+                "#ffffff": "green-white.png",
+                "#f5f5f5": "green-gray.png"
               },
               "src": {
-                "#ffffff": "images/tactical-backpack/green-ffffff.png",
-                "#f5f5f5": "images/tactical-backpack/green-f5f5f5.png"
+                "#ffffff": "images/tactical-backpack/green-white.webp",
+                "#f5f5f5": "images/tactical-backpack/green-gray.webp"
               }
             }
           ]
@@ -3469,12 +3469,12 @@
                 "pt-BR": "Mochila tática caqui, vista em três quartos"
               },
               "backgrounds": {
-                "#ffffff": "tan-ffffff.png",
-                "#f5f5f5": "tan-f5f5f5.png"
+                "#ffffff": "tan-white.png",
+                "#f5f5f5": "tan-gray.png"
               },
               "src": {
-                "#ffffff": "images/tactical-backpack/tan-ffffff.png",
-                "#f5f5f5": "images/tactical-backpack/tan-f5f5f5.png"
+                "#ffffff": "images/tactical-backpack/tan-white.webp",
+                "#f5f5f5": "images/tactical-backpack/tan-gray.webp"
               }
             }
           ]
@@ -3557,12 +3557,12 @@
                 "pt-BR": "Cobertor grafite canelado dobrado"
               },
               "backgrounds": {
-                "#ffffff": "charcoal-ffffff.png",
-                "#f5f5f5": "charcoal-f5f5f5.png"
+                "#ffffff": "charcoal-white.png",
+                "#f5f5f5": "charcoal-gray.png"
               },
               "src": {
-                "#ffffff": "images/thermal-blanket/charcoal-ffffff.png",
-                "#f5f5f5": "images/thermal-blanket/charcoal-f5f5f5.png"
+                "#ffffff": "images/thermal-blanket/charcoal-white.webp",
+                "#f5f5f5": "images/thermal-blanket/charcoal-gray.webp"
               }
             }
           ]
@@ -3585,12 +3585,12 @@
                 "pt-BR": "Cobertor aveia canelado dobrado"
               },
               "backgrounds": {
-                "#ffffff": "oatmeal-ffffff.png",
-                "#f5f5f5": "oatmeal-f5f5f5.png"
+                "#ffffff": "oatmeal-white.png",
+                "#f5f5f5": "oatmeal-gray.png"
               },
               "src": {
-                "#ffffff": "images/thermal-blanket/oatmeal-ffffff.png",
-                "#f5f5f5": "images/thermal-blanket/oatmeal-f5f5f5.png"
+                "#ffffff": "images/thermal-blanket/oatmeal-white.webp",
+                "#f5f5f5": "images/thermal-blanket/oatmeal-gray.webp"
               }
             }
           ]
@@ -3673,12 +3673,12 @@
                 "pt-BR": "Manta bege dobrada com franjas aparentes"
               },
               "backgrounds": {
-                "#ffffff": "beige-ffffff.png",
-                "#f5f5f5": "beige-f5f5f5.png"
+                "#ffffff": "beige-white.png",
+                "#f5f5f5": "beige-gray.png"
               },
               "src": {
-                "#ffffff": "images/throw-blanket/beige-ffffff.png",
-                "#f5f5f5": "images/throw-blanket/beige-f5f5f5.png"
+                "#ffffff": "images/throw-blanket/beige-white.webp",
+                "#f5f5f5": "images/throw-blanket/beige-gray.webp"
               }
             }
           ]
@@ -3701,12 +3701,12 @@
                 "pt-BR": "Manta grafite dobrada com franjas aparentes"
               },
               "backgrounds": {
-                "#ffffff": "charcoal-ffffff.png",
-                "#f5f5f5": "charcoal-f5f5f5.png"
+                "#ffffff": "charcoal-white.png",
+                "#f5f5f5": "charcoal-gray.png"
               },
               "src": {
-                "#ffffff": "images/throw-blanket/charcoal-ffffff.png",
-                "#f5f5f5": "images/throw-blanket/charcoal-f5f5f5.png"
+                "#ffffff": "images/throw-blanket/charcoal-white.webp",
+                "#f5f5f5": "images/throw-blanket/charcoal-gray.webp"
               }
             }
           ]
@@ -3820,12 +3820,12 @@
                 "pt-BR": "Shorts de treino preto com cordão, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "black-ffffff.png",
-                "#f5f5f5": "black-f5f5f5.png"
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
               },
               "src": {
-                "#ffffff": "images/training-shorts/black-ffffff.png",
-                "#f5f5f5": "images/training-shorts/black-f5f5f5.png"
+                "#ffffff": "images/training-shorts/black-white.webp",
+                "#f5f5f5": "images/training-shorts/black-gray.webp"
               }
             }
           ]
@@ -3849,12 +3849,12 @@
                 "pt-BR": "Shorts de treino preto com cordão, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "black-ffffff.png",
-                "#f5f5f5": "black-f5f5f5.png"
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
               },
               "src": {
-                "#ffffff": "images/training-shorts/black-ffffff.png",
-                "#f5f5f5": "images/training-shorts/black-f5f5f5.png"
+                "#ffffff": "images/training-shorts/black-white.webp",
+                "#f5f5f5": "images/training-shorts/black-gray.webp"
               }
             }
           ]
@@ -3878,12 +3878,12 @@
                 "pt-BR": "Shorts de treino preto com cordão, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "black-ffffff.png",
-                "#f5f5f5": "black-f5f5f5.png"
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
               },
               "src": {
-                "#ffffff": "images/training-shorts/black-ffffff.png",
-                "#f5f5f5": "images/training-shorts/black-f5f5f5.png"
+                "#ffffff": "images/training-shorts/black-white.webp",
+                "#f5f5f5": "images/training-shorts/black-gray.webp"
               }
             }
           ]
@@ -3907,12 +3907,12 @@
                 "pt-BR": "Shorts de treino azul royal com cordão, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "blue-ffffff.png",
-                "#f5f5f5": "blue-f5f5f5.png"
+                "#ffffff": "blue-white.png",
+                "#f5f5f5": "blue-gray.png"
               },
               "src": {
-                "#ffffff": "images/training-shorts/blue-ffffff.png",
-                "#f5f5f5": "images/training-shorts/blue-f5f5f5.png"
+                "#ffffff": "images/training-shorts/blue-white.webp",
+                "#f5f5f5": "images/training-shorts/blue-gray.webp"
               }
             }
           ]
@@ -3936,12 +3936,12 @@
                 "pt-BR": "Shorts de treino azul royal com cordão, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "blue-ffffff.png",
-                "#f5f5f5": "blue-f5f5f5.png"
+                "#ffffff": "blue-white.png",
+                "#f5f5f5": "blue-gray.png"
               },
               "src": {
-                "#ffffff": "images/training-shorts/blue-ffffff.png",
-                "#f5f5f5": "images/training-shorts/blue-f5f5f5.png"
+                "#ffffff": "images/training-shorts/blue-white.webp",
+                "#f5f5f5": "images/training-shorts/blue-gray.webp"
               }
             }
           ]
@@ -3965,12 +3965,12 @@
                 "pt-BR": "Shorts de treino azul royal com cordão, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "blue-ffffff.png",
-                "#f5f5f5": "blue-f5f5f5.png"
+                "#ffffff": "blue-white.png",
+                "#f5f5f5": "blue-gray.png"
               },
               "src": {
-                "#ffffff": "images/training-shorts/blue-ffffff.png",
-                "#f5f5f5": "images/training-shorts/blue-f5f5f5.png"
+                "#ffffff": "images/training-shorts/blue-white.webp",
+                "#f5f5f5": "images/training-shorts/blue-gray.webp"
               }
             }
           ]
@@ -4084,12 +4084,12 @@
                 "pt-BR": "Jaqueta fleece cinza escuro com zíper inteiro, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "gray-ffffff.png",
-                "#f5f5f5": "gray-f5f5f5.png"
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
               },
               "src": {
-                "#ffffff": "images/zip-fleece-jacket/gray-ffffff.png",
-                "#f5f5f5": "images/zip-fleece-jacket/gray-f5f5f5.png"
+                "#ffffff": "images/zip-fleece-jacket/gray-white.webp",
+                "#f5f5f5": "images/zip-fleece-jacket/gray-gray.webp"
               }
             }
           ]
@@ -4113,12 +4113,12 @@
                 "pt-BR": "Jaqueta fleece cinza escuro com zíper inteiro, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "gray-ffffff.png",
-                "#f5f5f5": "gray-f5f5f5.png"
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
               },
               "src": {
-                "#ffffff": "images/zip-fleece-jacket/gray-ffffff.png",
-                "#f5f5f5": "images/zip-fleece-jacket/gray-f5f5f5.png"
+                "#ffffff": "images/zip-fleece-jacket/gray-white.webp",
+                "#f5f5f5": "images/zip-fleece-jacket/gray-gray.webp"
               }
             }
           ]
@@ -4142,12 +4142,12 @@
                 "pt-BR": "Jaqueta fleece cinza escuro com zíper inteiro, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "gray-ffffff.png",
-                "#f5f5f5": "gray-f5f5f5.png"
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
               },
               "src": {
-                "#ffffff": "images/zip-fleece-jacket/gray-ffffff.png",
-                "#f5f5f5": "images/zip-fleece-jacket/gray-f5f5f5.png"
+                "#ffffff": "images/zip-fleece-jacket/gray-white.webp",
+                "#f5f5f5": "images/zip-fleece-jacket/gray-gray.webp"
               }
             }
           ]
@@ -4171,12 +4171,12 @@
                 "pt-BR": "Jaqueta fleece aveia com zíper inteiro, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "oatmeal-ffffff.png",
-                "#f5f5f5": "oatmeal-f5f5f5.png"
+                "#ffffff": "oatmeal-white.png",
+                "#f5f5f5": "oatmeal-gray.png"
               },
               "src": {
-                "#ffffff": "images/zip-fleece-jacket/oatmeal-ffffff.png",
-                "#f5f5f5": "images/zip-fleece-jacket/oatmeal-f5f5f5.png"
+                "#ffffff": "images/zip-fleece-jacket/oatmeal-white.webp",
+                "#f5f5f5": "images/zip-fleece-jacket/oatmeal-gray.webp"
               }
             }
           ]
@@ -4200,12 +4200,12 @@
                 "pt-BR": "Jaqueta fleece aveia com zíper inteiro, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "oatmeal-ffffff.png",
-                "#f5f5f5": "oatmeal-f5f5f5.png"
+                "#ffffff": "oatmeal-white.png",
+                "#f5f5f5": "oatmeal-gray.png"
               },
               "src": {
-                "#ffffff": "images/zip-fleece-jacket/oatmeal-ffffff.png",
-                "#f5f5f5": "images/zip-fleece-jacket/oatmeal-f5f5f5.png"
+                "#ffffff": "images/zip-fleece-jacket/oatmeal-white.webp",
+                "#f5f5f5": "images/zip-fleece-jacket/oatmeal-gray.webp"
               }
             }
           ]
@@ -4229,12 +4229,12 @@
                 "pt-BR": "Jaqueta fleece aveia com zíper inteiro, vista frontal"
               },
               "backgrounds": {
-                "#ffffff": "oatmeal-ffffff.png",
-                "#f5f5f5": "oatmeal-f5f5f5.png"
+                "#ffffff": "oatmeal-white.png",
+                "#f5f5f5": "oatmeal-gray.png"
               },
               "src": {
-                "#ffffff": "images/zip-fleece-jacket/oatmeal-ffffff.png",
-                "#f5f5f5": "images/zip-fleece-jacket/oatmeal-f5f5f5.png"
+                "#ffffff": "images/zip-fleece-jacket/oatmeal-white.webp",
+                "#f5f5f5": "images/zip-fleece-jacket/oatmeal-gray.webp"
               }
             }
           ]

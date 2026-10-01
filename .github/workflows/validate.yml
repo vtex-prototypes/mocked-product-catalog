@@ -15,6 +15,6 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      # Validates metadata + images, rebuilds catalog.json and fails if the
-      # committed catalog.json is out of date.
+      # Validates metadata + PNGs, rebuilds the WebPs and catalog.json, and
+      # fails if the committed catalog.json is out of date.
       - run: npm run check

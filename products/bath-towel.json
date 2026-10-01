@@ -37,7 +37,7 @@
       "images": [
         {
           "alt": { "en": "Folded white bath towel", "pt-BR": "Toalha de banho branca dobrada" },
-          "backgrounds": { "#ffffff": "white-ffffff.png", "#f5f5f5": "white-f5f5f5.png" }
+          "backgrounds": { "#ffffff": "white-white.png", "#f5f5f5": "white-gray.png" }
         }
       ]
     },
@@ -50,7 +50,7 @@
       "images": [
         {
           "alt": { "en": "Folded slate blue bath towel", "pt-BR": "Toalha de banho azul-ardósia dobrada" },
-          "backgrounds": { "#ffffff": "slate-ffffff.png", "#f5f5f5": "slate-f5f5f5.png" }
+          "backgrounds": { "#ffffff": "slate-white.png", "#f5f5f5": "slate-gray.png" }
         }
       ]
     }

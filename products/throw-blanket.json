@@ -37,7 +37,7 @@
       "images": [
         {
           "alt": { "en": "Folded beige throw blanket with fringe tassels", "pt-BR": "Manta bege dobrada com franjas aparentes" },
-          "backgrounds": { "#ffffff": "beige-ffffff.png", "#f5f5f5": "beige-f5f5f5.png" }
+          "backgrounds": { "#ffffff": "beige-white.png", "#f5f5f5": "beige-gray.png" }
         }
       ]
     },
@@ -50,7 +50,7 @@
       "images": [
         {
           "alt": { "en": "Folded charcoal throw blanket with fringe tassels", "pt-BR": "Manta grafite dobrada com franjas aparentes" },
-          "backgrounds": { "#ffffff": "charcoal-ffffff.png", "#f5f5f5": "charcoal-f5f5f5.png" }
+          "backgrounds": { "#ffffff": "charcoal-white.png", "#f5f5f5": "charcoal-gray.png" }
         }
       ]
     }

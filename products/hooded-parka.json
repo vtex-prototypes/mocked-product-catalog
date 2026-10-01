@@ -105,8 +105,8 @@
             "pt-BR": "Parka marrom com capuz, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "brown-ffffff.png",
-            "#f5f5f5": "brown-f5f5f5.png"
+            "#ffffff": "brown-white.png",
+            "#f5f5f5": "brown-gray.png"
           }
         }
       ]
@@ -130,8 +130,8 @@
             "pt-BR": "Parka marrom com capuz, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "brown-ffffff.png",
-            "#f5f5f5": "brown-f5f5f5.png"
+            "#ffffff": "brown-white.png",
+            "#f5f5f5": "brown-gray.png"
           }
         }
       ]
@@ -155,8 +155,8 @@
             "pt-BR": "Parka marrom com capuz, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "brown-ffffff.png",
-            "#f5f5f5": "brown-f5f5f5.png"
+            "#ffffff": "brown-white.png",
+            "#f5f5f5": "brown-gray.png"
           }
         }
       ]
@@ -180,8 +180,8 @@
             "pt-BR": "Parka preta com capuz, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "black-ffffff.png",
-            "#f5f5f5": "black-f5f5f5.png"
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
           }
         }
       ]
@@ -205,8 +205,8 @@
             "pt-BR": "Parka preta com capuz, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "black-ffffff.png",
-            "#f5f5f5": "black-f5f5f5.png"
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
           }
         }
       ]
@@ -230,8 +230,8 @@
             "pt-BR": "Parka preta com capuz, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "black-ffffff.png",
-            "#f5f5f5": "black-f5f5f5.png"
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
           }
         }
       ]

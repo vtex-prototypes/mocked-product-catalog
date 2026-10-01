@@ -105,8 +105,8 @@
             "pt-BR": "Legging de corrida preta cintura alta, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "black-ffffff.png",
-            "#f5f5f5": "black-f5f5f5.png"
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
           }
         }
       ]
@@ -130,8 +130,8 @@
             "pt-BR": "Legging de corrida preta cintura alta, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "black-ffffff.png",
-            "#f5f5f5": "black-f5f5f5.png"
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
           }
         }
       ]
@@ -155,8 +155,8 @@
             "pt-BR": "Legging de corrida preta cintura alta, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "black-ffffff.png",
-            "#f5f5f5": "black-f5f5f5.png"
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
           }
         }
       ]
@@ -180,8 +180,8 @@
             "pt-BR": "Legging de corrida ameixa cintura alta, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "plum-ffffff.png",
-            "#f5f5f5": "plum-f5f5f5.png"
+            "#ffffff": "plum-white.png",
+            "#f5f5f5": "plum-gray.png"
           }
         }
       ]
@@ -205,8 +205,8 @@
             "pt-BR": "Legging de corrida ameixa cintura alta, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "plum-ffffff.png",
-            "#f5f5f5": "plum-f5f5f5.png"
+            "#ffffff": "plum-white.png",
+            "#f5f5f5": "plum-gray.png"
           }
         }
       ]
@@ -230,8 +230,8 @@
             "pt-BR": "Legging de corrida ameixa cintura alta, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "plum-ffffff.png",
-            "#f5f5f5": "plum-f5f5f5.png"
+            "#ffffff": "plum-white.png",
+            "#f5f5f5": "plum-gray.png"
           }
         }
       ]

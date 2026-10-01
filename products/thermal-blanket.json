@@ -37,7 +37,7 @@
       "images": [
         {
           "alt": { "en": "Folded charcoal gray ribbed blanket", "pt-BR": "Cobertor grafite canelado dobrado" },
-          "backgrounds": { "#ffffff": "charcoal-ffffff.png", "#f5f5f5": "charcoal-f5f5f5.png" }
+          "backgrounds": { "#ffffff": "charcoal-white.png", "#f5f5f5": "charcoal-gray.png" }
         }
       ]
     },
@@ -50,7 +50,7 @@
       "images": [
         {
           "alt": { "en": "Folded oatmeal ribbed blanket", "pt-BR": "Cobertor aveia canelado dobrado" },
-          "backgrounds": { "#ffffff": "oatmeal-ffffff.png", "#f5f5f5": "oatmeal-f5f5f5.png" }
+          "backgrounds": { "#ffffff": "oatmeal-white.png", "#f5f5f5": "oatmeal-gray.png" }
         }
       ]
     }

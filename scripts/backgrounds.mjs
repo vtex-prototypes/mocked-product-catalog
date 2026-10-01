@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Writes the #f5f5f5 twin of every *-ffffff.png.
+// Writes the #f5f5f5 twin of every *-white.png.
 // The product pixels stay untouched: only the white background connected to
 // the edges is repainted. Run this after adding a white photo, then commit
 // both files.
@@ -47,11 +47,11 @@ for (const folder of readdirSync(ROOT)) {
   const dir = join(ROOT, folder);
   if (!existsSync(dir)) continue;
   for (const file of readdirSync(dir)) {
-    if (!file.endsWith("-ffffff.png")) continue;
-    const dest = join(dir, file.replace(/-ffffff\.png$/, "-f5f5f5.png"));
+    if (!file.endsWith("-white.png")) continue;
+    const dest = join(dir, file.replace(/-white\.png$/, "-gray.png"));
     writeFileSync(dest, paint(join(dir, file)));
     written++;
-    console.log(`images/${folder}/${file.replace("-ffffff.png", "-f5f5f5.png")}`);
+    console.log(`images/${folder}/${file.replace("-white.png", "-gray.png")}`);
   }
 }
 console.log(`${written} background${written === 1 ? "" : "s"} written.`);

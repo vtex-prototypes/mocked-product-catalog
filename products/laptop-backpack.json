@@ -74,8 +74,8 @@
             "pt-BR": "Mochila preta para notebook, vista em três quartos"
           },
           "backgrounds": {
-            "#ffffff": "black-ffffff.png",
-            "#f5f5f5": "black-f5f5f5.png"
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
           }
         }
       ]
@@ -98,8 +98,8 @@
             "pt-BR": "Mochila verde oliva para notebook, vista em três quartos"
           },
           "backgrounds": {
-            "#ffffff": "olive-ffffff.png",
-            "#f5f5f5": "olive-f5f5f5.png"
+            "#ffffff": "olive-white.png",
+            "#f5f5f5": "olive-gray.png"
           }
         }
       ]

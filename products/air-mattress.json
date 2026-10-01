@@ -37,7 +37,7 @@
       "images": [
         {
           "alt": { "en": "Gray inflatable air mattress seen in perspective", "pt-BR": "Colchão inflável cinza visto em perspectiva" },
-          "backgrounds": { "#ffffff": "gray-ffffff.png", "#f5f5f5": "gray-f5f5f5.png" }
+          "backgrounds": { "#ffffff": "gray-white.png", "#f5f5f5": "gray-gray.png" }
         }
       ]
     },
@@ -50,7 +50,7 @@
       "images": [
         {
           "alt": { "en": "Navy inflatable air mattress seen in perspective", "pt-BR": "Colchão inflável marinho visto em perspectiva" },
-          "backgrounds": { "#ffffff": "navy-ffffff.png", "#f5f5f5": "navy-f5f5f5.png" }
+          "backgrounds": { "#ffffff": "navy-white.png", "#f5f5f5": "navy-gray.png" }
         }
       ]
     }

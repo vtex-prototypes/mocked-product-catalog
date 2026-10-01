@@ -105,8 +105,8 @@
             "pt-BR": "Jaqueta puffer de pluma taupe com capuz, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "taupe-ffffff.png",
-            "#f5f5f5": "taupe-f5f5f5.png"
+            "#ffffff": "taupe-white.png",
+            "#f5f5f5": "taupe-gray.png"
           }
         }
       ]
@@ -130,8 +130,8 @@
             "pt-BR": "Jaqueta puffer de pluma taupe com capuz, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "taupe-ffffff.png",
-            "#f5f5f5": "taupe-f5f5f5.png"
+            "#ffffff": "taupe-white.png",
+            "#f5f5f5": "taupe-gray.png"
           }
         }
       ]
@@ -155,8 +155,8 @@
             "pt-BR": "Jaqueta puffer de pluma taupe com capuz, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "taupe-ffffff.png",
-            "#f5f5f5": "taupe-f5f5f5.png"
+            "#ffffff": "taupe-white.png",
+            "#f5f5f5": "taupe-gray.png"
           }
         }
       ]
@@ -180,8 +180,8 @@
             "pt-BR": "Jaqueta puffer de pluma azul marinho com capuz, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "navy-ffffff.png",
-            "#f5f5f5": "navy-f5f5f5.png"
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
           }
         }
       ]
@@ -205,8 +205,8 @@
             "pt-BR": "Jaqueta puffer de pluma azul marinho com capuz, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "navy-ffffff.png",
-            "#f5f5f5": "navy-f5f5f5.png"
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
           }
         }
       ]
@@ -230,8 +230,8 @@
             "pt-BR": "Jaqueta puffer de pluma azul marinho com capuz, vista frontal"
           },
           "backgrounds": {
-            "#ffffff": "navy-ffffff.png",
-            "#f5f5f5": "navy-f5f5f5.png"
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
           }
         }
       ]

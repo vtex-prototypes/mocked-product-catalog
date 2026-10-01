@@ -1,19 +1,21 @@
 {
   "name": "mocked-product-catalog",
   "version": "0.1.0",
-  "description": "Mock product catalog with compliant product images for designers building code prototypes.",
+  "description": "Mock product catalog for building realistic prototypes at VTEX.",
   "private": true,
   "type": "module",
   "scripts": {
     "backgrounds": "node scripts/backgrounds.mjs",
+    "webp": "node scripts/webp.mjs",
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/build.mjs",
-    "check": "npm run validate && npm run build && git diff --exit-code -- catalog.json drafts.json"
+    "check": "npm run webp && npm run validate && npm run build && git diff --exit-code -- catalog.json drafts.json images && ! git ls-files --others --exclude-standard -- images | grep -q ."
   },
   "engines": {
     "node": ">=20"
   },
   "devDependencies": {
-    "pngjs": "^7.0.0"
+    "pngjs": "^7.0.0",
+    "sharp": "^0.35.5"
   }
 }

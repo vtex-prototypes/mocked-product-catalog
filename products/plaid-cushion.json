@@ -39,7 +39,7 @@
       "images": [
         {
           "alt": { "en": "Square teal tartan throw pillow seen from the front", "pt-BR": "Almofada quadrada xadrez verde-petróleo vista de frente" },
-          "backgrounds": { "#ffffff": "teal-ffffff.png", "#f5f5f5": "teal-f5f5f5.png" }
+          "backgrounds": { "#ffffff": "teal-white.png", "#f5f5f5": "teal-gray.png" }
         }
       ]
     },
@@ -52,7 +52,7 @@
       "images": [
         {
           "alt": { "en": "Square navy tartan throw pillow seen from the front", "pt-BR": "Almofada quadrada xadrez marinho vista de frente" },
-          "backgrounds": { "#ffffff": "navy-ffffff.png", "#f5f5f5": "navy-f5f5f5.png" }
+          "backgrounds": { "#ffffff": "navy-white.png", "#f5f5f5": "navy-gray.png" }
         }
       ]
     }

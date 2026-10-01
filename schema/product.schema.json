@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/vtex/mocked-product-catalog/schema/product.schema.json",
+  "$id": "https://github.com/vtex-prototypes/mocked-product-catalog/schema/product.schema.json",
   "title": "Product",
   "description": "One product in the mock catalog. Lives in products/<id>.json; images live in images/<id>/. Every human-readable string is localized (en + pt-BR) and every price is given in BRL and USD.",
   "type": "object",
@@ -46,8 +46,8 @@
           "additionalProperties": false,
           "required": ["#ffffff", "#f5f5f5"],
           "properties": {
-            "#ffffff": { "type": "string", "description": "PNG filename on a pure white background." },
-            "#f5f5f5": { "type": "string", "description": "PNG filename of the same photo on #f5f5f5. Produced by npm run backgrounds." }
+            "#ffffff": { "type": "string", "description": "Source PNG on a pure white background, named <slug>-white.png. The slug names the shot. catalog.json serves the WebP generated from it." },
+            "#f5f5f5": { "type": "string", "description": "Source PNG of the same photo on #f5f5f5, named <slug>-gray.png. Produced by npm run backgrounds. catalog.json serves the WebP generated from it." }
           }
         }
       }
@@ -76,11 +76,11 @@
     },
     "availability": { "type": "string", "enum": ["in_stock", "low_stock", "out_of_stock"] },
     "tags": { "$ref": "#/$defs/localizedList" },
-    "defaultVariantId": { "type": "string", "description": "The variant a product card shows before the shopper picks a color or size." },
+    "defaultVariantId": { "type": "string", "description": "The variant a product card shows before the shopper picks anything." },
     "options": {
       "type": "array",
       "minItems": 1,
-      "description": "The axes a shopper chooses, usually color and sometimes size.",
+      "description": "The axes a shopper chooses: color, size, volume, capacity, pack count, or anything else the product needs. A product can have several.",
       "items": {
         "type": "object",
         "additionalProperties": false,
