@@ -3,27 +3,58 @@
   "brand": "Fio Puro",
   "categoryId": "cama-mesa-banho",
   "name": {
-    "en": "Fio Puro 4-Piece Queen Sheet Set 200 Thread Count 100% Cotton Percale, White, Deep Pocket Fitted Sheet, Flat Sheet and 2 Pillowcases",
-    "pt-BR": "Jogo de Lençol Fio Puro Queen 4 Peças Percal 200 Fios 100% Algodão, Branco, Lençol com Elástico Alto, Lençol de Cobrir e 2 Fronhas"
+    "en": "Fio Puro 4-Piece Queen Sheet Set 200 Thread Count 100% Cotton Percale, White or Light Gray, Deep Pocket Fitted Sheet, Flat Sheet and 2 Pillowcases",
+    "pt-BR": "Jogo de Lençol Fio Puro Queen 4 Peças Percal 200 Fios 100% Algodão, Branco ou Cinza-Claro, Lençol com Elástico Alto, Lençol de Cobrir e 2 Fronhas"
   },
   "description": {
-    "en": "Queen sheet set in crisp 200 thread count cotton percale. Includes a deep-pocket fitted sheet, a flat sheet and two standard pillowcases. Cool to the touch and softer with every wash. White.",
-    "pt-BR": "Jogo de cama queen em percal de algodão 200 fios com toque fresco. Inclui lençol com elástico alto, lençol de cobrir e duas fronhas padrão. Fica mais macio a cada lavagem. Branco."
+    "en": "Queen sheet set in crisp 200 thread count cotton percale. Includes a deep-pocket fitted sheet, a flat sheet and two standard pillowcases. Cool to the touch and softer with every wash. White or light gray.",
+    "pt-BR": "Jogo de cama queen em percal de algodão 200 fios com toque fresco. Inclui lençol com elástico alto, lençol de cobrir e duas fronhas padrão. Fica mais macio a cada lavagem. Branco ou cinza-claro."
   },
   "price": { "BRL": 249.9, "USD": 54.99 },
   "listPrice": { "BRL": 329.9, "USD": 69.99 },
   "availability": "low_stock",
   "tags": {
-    "en": ["sheet set", "queen", "percale", "white"],
-    "pt-BR": ["lençol", "queen", "percal", "branco"]
+    "en": ["sheet set", "queen", "percale"],
+    "pt-BR": ["lençol", "queen", "percal"]
   },
-  "images": [
+  "defaultVariantId": "white",
+  "options": [
     {
-      "file": "1.png",
-      "alt": {
-        "en": "Folded white sheet set stacked with pillowcases on top",
-        "pt-BR": "Jogo de lençol branco dobrado e empilhado com fronhas"
-      }
+      "id": "color",
+      "name": { "en": "Color", "pt-BR": "Cor" },
+      "values": [
+        { "id": "white", "name": { "en": "White", "pt-BR": "Branco" }, "hex": "#F7F7F5" },
+        { "id": "gray", "name": { "en": "Light Gray", "pt-BR": "Cinza-claro" }, "hex": "#D0D0D0" }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white",
+      "sku": "FP-SHT-WHT-QN",
+      "options": { "color": "white" },
+      "price": { "BRL": 249.9, "USD": 54.99 },
+      "listPrice": { "BRL": 329.9, "USD": 69.99 },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": { "en": "Folded white sheet set stacked with pillowcases on top", "pt-BR": "Jogo de lençol branco dobrado e empilhado com fronhas" },
+          "backgrounds": { "#ffffff": "white-ffffff.png", "#f5f5f5": "white-f5f5f5.png" }
+        }
+      ]
+    },
+    {
+      "id": "gray",
+      "sku": "FP-SHT-GRY-QN",
+      "options": { "color": "gray" },
+      "price": { "BRL": 329.9, "USD": 69.99 },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": { "en": "Folded light gray sheet set stacked with pillowcases on top", "pt-BR": "Jogo de lençol cinza-claro dobrado e empilhado com fronhas" },
+          "backgrounds": { "#ffffff": "gray-ffffff.png", "#f5f5f5": "gray-f5f5f5.png" }
+        }
+      ]
     }
   ]
 }

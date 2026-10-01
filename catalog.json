@@ -23,12 +23,12 @@
       "brand": "Trilha Livre",
       "categoryId": "cama-mesa-banho",
       "name": {
-        "en": "Trilha Livre Queen Air Mattress 18 in Raised with Built-In Electric Pump, Flocked Top Inflatable Guest Bed, Inflates in 3 Minutes, Gray",
-        "pt-BR": "Colchão Inflável Trilha Livre Casal Queen Altura 46 cm com Bomba Elétrica Embutida, Topo Flocado Cama de Hóspedes, Infla em 3 Minutos, Cinza"
+        "en": "Trilha Livre Queen Air Mattress 18 in Raised with Built-In Electric Pump, Flocked Top Inflatable Guest Bed, Inflates in 3 Minutes, Gray or Navy",
+        "pt-BR": "Colchão Inflável Trilha Livre Casal Queen Altura 46 cm com Bomba Elétrica Embutida, Topo Flocado Cama de Hóspedes, Infla em 3 Minutos, Cinza ou Marinho"
       },
       "description": {
-        "en": "Queen-size raised air mattress in puncture-resistant flocked PVC with a built-in electric pump. Inflates fully in about three minutes and deflates for compact storage. Gray.",
-        "pt-BR": "Colchão inflável queen de altura elevada em PVC flocado resistente a furos, com bomba elétrica embutida. Infla por completo em cerca de três minutos e esvazia para guardar compacto. Cinza."
+        "en": "Queen-size raised air mattress in puncture-resistant flocked PVC with a built-in electric pump. Inflates fully in about three minutes and deflates for compact storage. Gray or navy.",
+        "pt-BR": "Colchão inflável queen de altura elevada em PVC flocado resistente a furos, com bomba elétrica embutida. Infla por completo em cerca de três minutos e esvazia para guardar compacto. Cinza ou marinho."
       },
       "price": {
         "BRL": 389.9,
@@ -49,14 +49,90 @@
           "camping"
         ]
       },
-      "images": [
+      "defaultVariantId": "gray",
+      "options": [
         {
-          "file": "1.png",
-          "alt": {
-            "en": "Gray inflatable air mattress seen in perspective",
-            "pt-BR": "Colchão inflável cinza visto em perspectiva"
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
           },
-          "src": "images/air-mattress/1.png"
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#6E7378"
+            },
+            {
+              "id": "navy",
+              "name": {
+                "en": "Navy",
+                "pt-BR": "Marinho"
+              },
+              "hex": "#2C3A4F"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gray",
+          "sku": "TL-AIR-GRY-QN",
+          "options": {
+            "color": "gray"
+          },
+          "price": {
+            "BRL": 389.9,
+            "USD": 79.99
+          },
+          "availability": "out_of_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray inflatable air mattress seen in perspective",
+                "pt-BR": "Colchão inflável cinza visto em perspectiva"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-ffffff.png",
+                "#f5f5f5": "gray-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/air-mattress/gray-ffffff.png",
+                "#f5f5f5": "images/air-mattress/gray-f5f5f5.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": "navy",
+          "sku": "TL-AIR-NVY-QN",
+          "options": {
+            "color": "navy"
+          },
+          "price": {
+            "BRL": 389.9,
+            "USD": 79.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Navy inflatable air mattress seen in perspective",
+                "pt-BR": "Colchão inflável marinho visto em perspectiva"
+              },
+              "backgrounds": {
+                "#ffffff": "navy-ffffff.png",
+                "#f5f5f5": "navy-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/air-mattress/navy-ffffff.png",
+                "#f5f5f5": "images/air-mattress/navy-f5f5f5.png"
+              }
+            }
+          ]
         }
       ]
     },
@@ -65,12 +141,12 @@
       "brand": "Fio Puro",
       "categoryId": "cama-mesa-banho",
       "name": {
-        "en": "Fio Puro 100% Combed Cotton Bath Towel 28x55 in, 500 GSM Ultra Absorbent Quick Dry, White with Tone-on-Tone Jacquard Border",
-        "pt-BR": "Toalha de Banho Fio Puro 100% Algodão Penteado 70x140 cm, 500 g/m² Alta Absorção Secagem Rápida, Branca com Barra Jacquard Tom sobre Tom"
+        "en": "Fio Puro 100% Combed Cotton Bath Towel 28x55 in, 500 GSM Ultra Absorbent Quick Dry, White or Slate Blue, with Tone-on-Tone Jacquard Border",
+        "pt-BR": "Toalha de Banho Fio Puro 100% Algodão Penteado 70x140 cm, 500 g/m² Alta Absorção Secagem Rápida, Branca ou Azul-Ardósia, com Barra Jacquard Tom sobre Tom"
       },
       "description": {
-        "en": "Full-size bath towel in 500 GSM combed cotton terry. Highly absorbent, quick to dry and soft from the first wash. White with a woven jacquard border in the same tone.",
-        "pt-BR": "Toalha de banho em felpa de algodão penteado 500 g/m². Alta absorção, secagem rápida e maciez desde a primeira lavagem. Branca com barra em jacquard tom sobre tom."
+        "en": "Full-size bath towel in 500 GSM combed cotton terry. Highly absorbent, quick to dry and soft from the first wash. Woven jacquard border in the same tone. White or slate blue.",
+        "pt-BR": "Toalha de banho em felpa de algodão penteado 500 g/m². Alta absorção, secagem rápida e maciez desde a primeira lavagem. Barra em jacquard tom sobre tom. Branca ou azul-ardósia."
       },
       "price": {
         "BRL": 59.9,
@@ -81,24 +157,98 @@
         "en": [
           "bath towel",
           "bathroom",
-          "cotton",
-          "white"
+          "cotton"
         ],
         "pt-BR": [
           "toalha",
           "banho",
-          "algodão",
-          "branco"
+          "algodão"
         ]
       },
-      "images": [
+      "defaultVariantId": "white",
+      "options": [
         {
-          "file": "1.png",
-          "alt": {
-            "en": "Folded white bath towel",
-            "pt-BR": "Toalha de banho branca dobrada"
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
           },
-          "src": "images/bath-towel/1.png"
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F7F7F5"
+            },
+            {
+              "id": "slate",
+              "name": {
+                "en": "Slate Blue",
+                "pt-BR": "Azul-ardósia"
+              },
+              "hex": "#7E93A8"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white",
+          "sku": "FP-TWL-WHT",
+          "options": {
+            "color": "white"
+          },
+          "price": {
+            "BRL": 59.9,
+            "USD": 14.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Folded white bath towel",
+                "pt-BR": "Toalha de banho branca dobrada"
+              },
+              "backgrounds": {
+                "#ffffff": "white-ffffff.png",
+                "#f5f5f5": "white-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/bath-towel/white-ffffff.png",
+                "#f5f5f5": "images/bath-towel/white-f5f5f5.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": "slate",
+          "sku": "FP-TWL-SLT",
+          "options": {
+            "color": "slate"
+          },
+          "price": {
+            "BRL": 59.9,
+            "USD": 14.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Folded slate blue bath towel",
+                "pt-BR": "Toalha de banho azul-ardósia dobrada"
+              },
+              "backgrounds": {
+                "#ffffff": "slate-ffffff.png",
+                "#f5f5f5": "slate-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/bath-towel/slate-ffffff.png",
+                "#f5f5f5": "images/bath-towel/slate-f5f5f5.png"
+              }
+            }
+          ]
         }
       ]
     },
@@ -107,12 +257,12 @@
       "brand": "Fio Puro",
       "categoryId": "cama-mesa-banho",
       "name": {
-        "en": "Fio Puro Hypoallergenic Bed Pillow Standard 20x28 in, Medium Support Siliconized Fiber Fill, 100% Cotton Piped Cover, for Back and Side Sleepers",
-        "pt-BR": "Travesseiro Fio Puro Antialérgico Padrão 50x70 cm, Suporte Médio Fibra Siliconada, Capa 100% Algodão com Vivo, para Quem Dorme de Costas e de Lado"
+        "en": "Fio Puro Hypoallergenic Bed Pillow, Medium Support Siliconized Fiber Fill, 100% Cotton Piped Cover, for Back and Side Sleepers, White or Sage, Standard and Queen",
+        "pt-BR": "Travesseiro Fio Puro Antialérgico, Suporte Médio em Fibra Siliconada, Capa 100% Algodão com Vivo, para Quem Dorme de Costas e de Lado, Branco ou Sálvia, Padrão e Queen"
       },
       "description": {
-        "en": "Standard bed pillow with a siliconized fiber fill that keeps its loft and a 100% cotton cover finished with piped edges. Medium support, hypoallergenic, machine washable.",
-        "pt-BR": "Travesseiro padrão com enchimento em fibra siliconada que mantém o volume e capa 100% algodão com acabamento em vivo. Suporte médio, antialérgico, lavável em máquina."
+        "en": "Bed pillow with a siliconized fiber fill that keeps its loft and a 100% cotton cover finished with piped edges. Medium support, hypoallergenic, machine washable. Sold in white or sage, in standard and queen sizes.",
+        "pt-BR": "Travesseiro com enchimento em fibra siliconada que mantém o volume e capa 100% algodão com acabamento em vivo. Suporte médio, antialérgico, lavável em máquina. À venda em branco ou sálvia, nos tamanhos padrão e queen."
       },
       "price": {
         "BRL": 69.9,
@@ -131,14 +281,173 @@
           "cama"
         ]
       },
-      "images": [
+      "defaultVariantId": "white-standard",
+      "options": [
         {
-          "file": "1.png",
-          "alt": {
-            "en": "White rectangular bed pillow",
-            "pt-BR": "Travesseiro branco retangular"
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
           },
-          "src": "images/pillow/1.png"
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F7F5F2"
+            },
+            {
+              "id": "sage",
+              "name": {
+                "en": "Sage",
+                "pt-BR": "Sálvia"
+              },
+              "hex": "#A8BBA3"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "standard",
+              "name": {
+                "en": "Standard 20x28 in",
+                "pt-BR": "Padrão 50x70 cm"
+              }
+            },
+            {
+              "id": "queen",
+              "name": {
+                "en": "Queen 20x30 in",
+                "pt-BR": "Queen 50x76 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-standard",
+          "sku": "FP-PIL-WHT-STD",
+          "options": {
+            "color": "white",
+            "size": "standard"
+          },
+          "price": {
+            "BRL": 69.9,
+            "USD": 16.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White rectangular bed pillow",
+                "pt-BR": "Travesseiro branco retangular"
+              },
+              "backgrounds": {
+                "#ffffff": "white-ffffff.png",
+                "#f5f5f5": "white-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/pillow/white-ffffff.png",
+                "#f5f5f5": "images/pillow/white-f5f5f5.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": "white-queen",
+          "sku": "FP-PIL-WHT-QN",
+          "options": {
+            "color": "white",
+            "size": "queen"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 21.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White rectangular bed pillow",
+                "pt-BR": "Travesseiro branco retangular"
+              },
+              "backgrounds": {
+                "#ffffff": "white-ffffff.png",
+                "#f5f5f5": "white-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/pillow/white-ffffff.png",
+                "#f5f5f5": "images/pillow/white-f5f5f5.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": "sage-standard",
+          "sku": "FP-PIL-SAG-STD",
+          "options": {
+            "color": "sage",
+            "size": "standard"
+          },
+          "price": {
+            "BRL": 69.9,
+            "USD": 16.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Sage green rectangular bed pillow",
+                "pt-BR": "Travesseiro retangular verde-sálvia"
+              },
+              "backgrounds": {
+                "#ffffff": "sage-ffffff.png",
+                "#f5f5f5": "sage-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/pillow/sage-ffffff.png",
+                "#f5f5f5": "images/pillow/sage-f5f5f5.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": "sage-queen",
+          "sku": "FP-PIL-SAG-QN",
+          "options": {
+            "color": "sage",
+            "size": "queen"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 21.99
+          },
+          "availability": "out_of_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Sage green rectangular bed pillow",
+                "pt-BR": "Travesseiro retangular verde-sálvia"
+              },
+              "backgrounds": {
+                "#ffffff": "sage-ffffff.png",
+                "#f5f5f5": "sage-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/pillow/sage-ffffff.png",
+                "#f5f5f5": "images/pillow/sage-f5f5f5.png"
+              }
+            }
+          ]
         }
       ]
     },
@@ -147,12 +456,12 @@
       "brand": "Casa Norte",
       "categoryId": "cama-mesa-banho",
       "name": {
-        "en": "Casa Norte Tartan Plaid Decorative Throw Pillow 18x18 in, Teal/Rust Multicolor, Removable Cover with Hidden Zipper, Hypoallergenic Fiber Insert Included",
-        "pt-BR": "Almofada Decorativa Casa Norte Xadrez Tartan 45x45 cm Verde-Petróleo e Ferrugem, Capa Removível com Zíper Invisível, Enchimento em Fibra Siliconada Antialérgica Incluso"
+        "en": "Casa Norte Tartan Plaid Decorative Throw Pillow 18x18 in, Teal or Navy Colorway, Removable Cover with Hidden Zipper, Hypoallergenic Fiber Insert Included",
+        "pt-BR": "Almofada Decorativa Casa Norte Xadrez Tartan 45x45 cm, Estampa Verde-Petróleo ou Marinho, Capa Removível com Zíper Invisível, Enchimento em Fibra Siliconada Antialérgica Incluso"
       },
       "description": {
-        "en": "Square decorative pillow in a woven tartan plaid of deep teal, light blue, gray, salmon and orange. The cover is removable, closes with a hidden zipper and comes with a plump hypoallergenic fiber insert. Machine washable cover.",
-        "pt-BR": "Almofada quadrada em tecido xadrez tartan nos tons verde-petróleo, azul-claro, cinza, salmão e laranja. Capa removível com zíper invisível e enchimento em fibra siliconada antialérgica. Capa lavável em máquina."
+        "en": "Square decorative pillow in a woven tartan plaid. The cover is removable, closes with a hidden zipper and comes with a plump hypoallergenic fiber insert. Machine washable cover. Teal or navy colorway.",
+        "pt-BR": "Almofada quadrada em tecido xadrez tartan. Capa removível com zíper invisível e enchimento em fibra siliconada antialérgica. Capa lavável em máquina. Estampa verde-petróleo ou marinho."
       },
       "price": {
         "BRL": 89.9,
@@ -177,14 +486,94 @@
           "sala"
         ]
       },
-      "images": [
+      "defaultVariantId": "teal",
+      "options": [
         {
-          "file": "1.png",
-          "alt": {
-            "en": "Square tartan plaid throw pillow seen from the front",
-            "pt-BR": "Almofada quadrada xadrez tartan vista de frente"
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
           },
-          "src": "images/plaid-cushion/1.png"
+          "values": [
+            {
+              "id": "teal",
+              "name": {
+                "en": "Teal Tartan",
+                "pt-BR": "Tartan verde-petróleo"
+              },
+              "hex": "#2F6F6A"
+            },
+            {
+              "id": "navy",
+              "name": {
+                "en": "Navy Tartan",
+                "pt-BR": "Tartan marinho"
+              },
+              "hex": "#1E3A5F"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "teal",
+          "sku": "CN-CSH-TEA",
+          "options": {
+            "color": "teal"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 19.99
+          },
+          "listPrice": {
+            "BRL": 119.9,
+            "USD": 26.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Square teal tartan throw pillow seen from the front",
+                "pt-BR": "Almofada quadrada xadrez verde-petróleo vista de frente"
+              },
+              "backgrounds": {
+                "#ffffff": "teal-ffffff.png",
+                "#f5f5f5": "teal-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/plaid-cushion/teal-ffffff.png",
+                "#f5f5f5": "images/plaid-cushion/teal-f5f5f5.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": "navy",
+          "sku": "CN-CSH-NVY",
+          "options": {
+            "color": "navy"
+          },
+          "price": {
+            "BRL": 119.9,
+            "USD": 26.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Square navy tartan throw pillow seen from the front",
+                "pt-BR": "Almofada quadrada xadrez marinho vista de frente"
+              },
+              "backgrounds": {
+                "#ffffff": "navy-ffffff.png",
+                "#f5f5f5": "navy-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/plaid-cushion/navy-ffffff.png",
+                "#f5f5f5": "images/plaid-cushion/navy-f5f5f5.png"
+              }
+            }
+          ]
         }
       ]
     },
@@ -193,12 +582,12 @@
       "brand": "Fio Puro",
       "categoryId": "cama-mesa-banho",
       "name": {
-        "en": "Fio Puro 4-Piece Queen Sheet Set 200 Thread Count 100% Cotton Percale, White, Deep Pocket Fitted Sheet, Flat Sheet and 2 Pillowcases",
-        "pt-BR": "Jogo de Lençol Fio Puro Queen 4 Peças Percal 200 Fios 100% Algodão, Branco, Lençol com Elástico Alto, Lençol de Cobrir e 2 Fronhas"
+        "en": "Fio Puro 4-Piece Queen Sheet Set 200 Thread Count 100% Cotton Percale, White or Light Gray, Deep Pocket Fitted Sheet, Flat Sheet and 2 Pillowcases",
+        "pt-BR": "Jogo de Lençol Fio Puro Queen 4 Peças Percal 200 Fios 100% Algodão, Branco ou Cinza-Claro, Lençol com Elástico Alto, Lençol de Cobrir e 2 Fronhas"
       },
       "description": {
-        "en": "Queen sheet set in crisp 200 thread count cotton percale. Includes a deep-pocket fitted sheet, a flat sheet and two standard pillowcases. Cool to the touch and softer with every wash. White.",
-        "pt-BR": "Jogo de cama queen em percal de algodão 200 fios com toque fresco. Inclui lençol com elástico alto, lençol de cobrir e duas fronhas padrão. Fica mais macio a cada lavagem. Branco."
+        "en": "Queen sheet set in crisp 200 thread count cotton percale. Includes a deep-pocket fitted sheet, a flat sheet and two standard pillowcases. Cool to the touch and softer with every wash. White or light gray.",
+        "pt-BR": "Jogo de cama queen em percal de algodão 200 fios com toque fresco. Inclui lençol com elástico alto, lençol de cobrir e duas fronhas padrão. Fica mais macio a cada lavagem. Branco ou cinza-claro."
       },
       "price": {
         "BRL": 249.9,
@@ -213,24 +602,102 @@
         "en": [
           "sheet set",
           "queen",
-          "percale",
-          "white"
+          "percale"
         ],
         "pt-BR": [
           "lençol",
           "queen",
-          "percal",
-          "branco"
+          "percal"
         ]
       },
-      "images": [
+      "defaultVariantId": "white",
+      "options": [
         {
-          "file": "1.png",
-          "alt": {
-            "en": "Folded white sheet set stacked with pillowcases on top",
-            "pt-BR": "Jogo de lençol branco dobrado e empilhado com fronhas"
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
           },
-          "src": "images/sheet-set/1.png"
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F7F7F5"
+            },
+            {
+              "id": "gray",
+              "name": {
+                "en": "Light Gray",
+                "pt-BR": "Cinza-claro"
+              },
+              "hex": "#D0D0D0"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white",
+          "sku": "FP-SHT-WHT-QN",
+          "options": {
+            "color": "white"
+          },
+          "price": {
+            "BRL": 249.9,
+            "USD": 54.99
+          },
+          "listPrice": {
+            "BRL": 329.9,
+            "USD": 69.99
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Folded white sheet set stacked with pillowcases on top",
+                "pt-BR": "Jogo de lençol branco dobrado e empilhado com fronhas"
+              },
+              "backgrounds": {
+                "#ffffff": "white-ffffff.png",
+                "#f5f5f5": "white-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/sheet-set/white-ffffff.png",
+                "#f5f5f5": "images/sheet-set/white-f5f5f5.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gray",
+          "sku": "FP-SHT-GRY-QN",
+          "options": {
+            "color": "gray"
+          },
+          "price": {
+            "BRL": 329.9,
+            "USD": 69.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Folded light gray sheet set stacked with pillowcases on top",
+                "pt-BR": "Jogo de lençol cinza-claro dobrado e empilhado com fronhas"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-ffffff.png",
+                "#f5f5f5": "gray-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/sheet-set/gray-ffffff.png",
+                "#f5f5f5": "images/sheet-set/gray-f5f5f5.png"
+              }
+            }
+          ]
         }
       ]
     },
@@ -239,12 +706,12 @@
       "brand": "Casa Norte",
       "categoryId": "cama-mesa-banho",
       "name": {
-        "en": "Casa Norte Ribbed Cotton Thermal Blanket Full/Queen 90x90 in, Charcoal Gray, Breathable Waffle Knit, All-Season Layering Blanket, Machine Washable",
-        "pt-BR": "Cobertor Térmico Casa Norte Algodão Canelado Casal/Queen 2,30x2,30 m, Cinza Grafite, Trama Respirável, Camada Extra para Todas as Estações, Lavável em Máquina"
+        "en": "Casa Norte Ribbed Cotton Thermal Blanket Full/Queen 90x90 in, Charcoal or Oatmeal, Breathable Waffle Knit, All-Season Layering Blanket, Machine Washable",
+        "pt-BR": "Cobertor Térmico Casa Norte Algodão Canelado Casal/Queen 2,30x2,30 m, Grafite ou Aveia, Trama Respirável, Camada Extra para Todas as Estações, Lavável em Máquina"
       },
       "description": {
-        "en": "Ribbed thermal blanket in 100% cotton. The open knit traps warmth in winter and breathes in summer, so it works alone or as a layer under a duvet. Charcoal gray, machine washable.",
-        "pt-BR": "Cobertor térmico canelado em 100% algodão. A trama aberta retém o calor no inverno e respira no verão, funcionando sozinho ou como camada sob o edredom. Cinza grafite, lavável em máquina."
+        "en": "Ribbed thermal blanket in 100% cotton. The open knit traps warmth in winter and breathes in summer, so it works alone or as a layer under a duvet. Charcoal or oatmeal, machine washable.",
+        "pt-BR": "Cobertor térmico canelado em 100% algodão. A trama aberta retém o calor no inverno e respira no verão, funcionando sozinho ou como camada sob o edredom. Grafite ou aveia, lavável em máquina."
       },
       "price": {
         "BRL": 199.9,
@@ -255,24 +722,98 @@
         "en": [
           "blanket",
           "queen",
-          "winter",
-          "charcoal"
+          "winter"
         ],
         "pt-BR": [
           "cobertor",
           "casal",
-          "inverno",
-          "grafite"
+          "inverno"
         ]
       },
-      "images": [
+      "defaultVariantId": "charcoal",
+      "options": [
         {
-          "file": "1.png",
-          "alt": {
-            "en": "Folded charcoal gray ribbed blanket",
-            "pt-BR": "Cobertor grafite canelado dobrado"
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
           },
-          "src": "images/thermal-blanket/1.png"
+          "values": [
+            {
+              "id": "charcoal",
+              "name": {
+                "en": "Charcoal",
+                "pt-BR": "Grafite"
+              },
+              "hex": "#3A3A3A"
+            },
+            {
+              "id": "oatmeal",
+              "name": {
+                "en": "Oatmeal",
+                "pt-BR": "Aveia"
+              },
+              "hex": "#E4D8C8"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "charcoal",
+          "sku": "CN-THM-CHR",
+          "options": {
+            "color": "charcoal"
+          },
+          "price": {
+            "BRL": 199.9,
+            "USD": 44.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Folded charcoal gray ribbed blanket",
+                "pt-BR": "Cobertor grafite canelado dobrado"
+              },
+              "backgrounds": {
+                "#ffffff": "charcoal-ffffff.png",
+                "#f5f5f5": "charcoal-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/thermal-blanket/charcoal-ffffff.png",
+                "#f5f5f5": "images/thermal-blanket/charcoal-f5f5f5.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": "oatmeal",
+          "sku": "CN-THM-OAT",
+          "options": {
+            "color": "oatmeal"
+          },
+          "price": {
+            "BRL": 199.9,
+            "USD": 44.99
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Folded oatmeal ribbed blanket",
+                "pt-BR": "Cobertor aveia canelado dobrado"
+              },
+              "backgrounds": {
+                "#ffffff": "oatmeal-ffffff.png",
+                "#f5f5f5": "oatmeal-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/thermal-blanket/oatmeal-ffffff.png",
+                "#f5f5f5": "images/thermal-blanket/oatmeal-f5f5f5.png"
+              }
+            }
+          ]
         }
       ]
     },
@@ -281,12 +822,12 @@
       "brand": "Casa Norte",
       "categoryId": "cama-mesa-banho",
       "name": {
-        "en": "Casa Norte Soft Knit Throw Blanket with Fringe Tassels 50x67 in, Cream Beige, Lightweight Wool-Feel Acrylic for Sofa, Bed and Armchair",
-        "pt-BR": "Manta Decorativa Casa Norte Tricô Macio com Franjas 130x170 cm, Bege Cru, Acrílico Toque de Lã Leve para Sofá, Cama e Poltrona"
+        "en": "Casa Norte Soft Knit Throw Blanket with Fringe Tassels 50x67 in, Cream Beige or Charcoal, Lightweight Wool-Feel Acrylic for Sofa, Bed and Armchair",
+        "pt-BR": "Manta Decorativa Casa Norte Tricô Macio com Franjas 130x170 cm, Bege Cru ou Grafite, Acrílico Toque de Lã Leve para Sofá, Cama e Poltrona"
       },
       "description": {
-        "en": "Lightweight throw in a brushed wool-feel acrylic with hand-knotted fringe along both ends. Drapes over a sofa or the foot of a bed and holds its shape after washing. Cream beige.",
-        "pt-BR": "Manta leve em acrílico escovado com toque de lã e franjas em nó nas duas extremidades. Fica bem sobre o sofá ou no pé da cama e mantém a forma após a lavagem. Cor bege cru."
+        "en": "Lightweight throw in a brushed wool-feel acrylic with hand-knotted fringe along both ends. Drapes over a sofa or the foot of a bed and holds its shape after washing. Cream beige or charcoal.",
+        "pt-BR": "Manta leve em acrílico escovado com toque de lã e franjas em nó nas duas extremidades. Fica bem sobre o sofá ou no pé da cama e mantém a forma após a lavagem. Bege cru ou grafite."
       },
       "price": {
         "BRL": 149.9,
@@ -297,24 +838,98 @@
         "en": [
           "throw blanket",
           "sofa",
-          "fringe",
-          "beige"
+          "fringe"
         ],
         "pt-BR": [
           "manta",
           "sofá",
-          "franjas",
-          "bege"
+          "franjas"
         ]
       },
-      "images": [
+      "defaultVariantId": "beige",
+      "options": [
         {
-          "file": "1.png",
-          "alt": {
-            "en": "Folded beige throw blanket with fringe tassels",
-            "pt-BR": "Manta bege dobrada com franjas aparentes"
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
           },
-          "src": "images/throw-blanket/1.png"
+          "values": [
+            {
+              "id": "beige",
+              "name": {
+                "en": "Cream Beige",
+                "pt-BR": "Bege cru"
+              },
+              "hex": "#E7DCCB"
+            },
+            {
+              "id": "charcoal",
+              "name": {
+                "en": "Charcoal",
+                "pt-BR": "Grafite"
+              },
+              "hex": "#5C5C5C"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "beige",
+          "sku": "CN-THR-BGE",
+          "options": {
+            "color": "beige"
+          },
+          "price": {
+            "BRL": 149.9,
+            "USD": 34.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Folded beige throw blanket with fringe tassels",
+                "pt-BR": "Manta bege dobrada com franjas aparentes"
+              },
+              "backgrounds": {
+                "#ffffff": "beige-ffffff.png",
+                "#f5f5f5": "beige-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/throw-blanket/beige-ffffff.png",
+                "#f5f5f5": "images/throw-blanket/beige-f5f5f5.png"
+              }
+            }
+          ]
+        },
+        {
+          "id": "charcoal",
+          "sku": "CN-THR-CHR",
+          "options": {
+            "color": "charcoal"
+          },
+          "price": {
+            "BRL": 149.9,
+            "USD": 34.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Folded charcoal throw blanket with fringe tassels",
+                "pt-BR": "Manta grafite dobrada com franjas aparentes"
+              },
+              "backgrounds": {
+                "#ffffff": "charcoal-ffffff.png",
+                "#f5f5f5": "charcoal-f5f5f5.png"
+              },
+              "src": {
+                "#ffffff": "images/throw-blanket/charcoal-ffffff.png",
+                "#f5f5f5": "images/throw-blanket/charcoal-f5f5f5.png"
+              }
+            }
+          ]
         }
       ]
     }

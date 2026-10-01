@@ -5,7 +5,7 @@
   "description": "One product in the mock catalog. Lives in products/<id>.json; images live in images/<id>/. Every human-readable string is localized (en + pt-BR) and every price is given in BRL and USD.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "categoryId", "description", "price", "availability", "tags", "images"],
+  "required": ["id", "name", "categoryId", "description", "price", "availability", "tags", "defaultVariantId", "options", "variants"],
   "$defs": {
     "localized": {
       "type": "object",
@@ -33,6 +33,24 @@
         "BRL": { "type": "number", "exclusiveMinimum": 0 },
         "USD": { "type": "number", "exclusiveMinimum": 0 }
       }
+    },
+    "photo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["alt", "backgrounds"],
+      "description": "One shot of the product, on both backgrounds.",
+      "properties": {
+        "alt": { "$ref": "#/$defs/localized" },
+        "backgrounds": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["#ffffff", "#f5f5f5"],
+          "properties": {
+            "#ffffff": { "type": "string", "description": "PNG filename on a pure white background." },
+            "#f5f5f5": { "type": "string", "description": "PNG filename of the same photo on #f5f5f5. Produced by npm run backgrounds." }
+          }
+        }
+      }
     }
   },
   "properties": {
@@ -58,17 +76,55 @@
     },
     "availability": { "type": "string", "enum": ["in_stock", "low_stock", "out_of_stock"] },
     "tags": { "$ref": "#/$defs/localizedList" },
-    "images": {
+    "defaultVariantId": { "type": "string", "description": "The variant a product card shows before the shopper picks a color or size." },
+    "options": {
       "type": "array",
       "minItems": 1,
-      "description": "First entry is the main image.",
+      "description": "The axes a shopper chooses, usually color and sometimes size.",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["file", "alt"],
+        "required": ["id", "name", "values"],
         "properties": {
-          "file": { "type": "string", "pattern": "^\\d+\\.png$", "description": "Numbered PNG inside images/<id>/, e.g. 1.png" },
-          "alt": { "$ref": "#/$defs/localized" }
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "name": { "$ref": "#/$defs/localized" },
+          "values": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["id", "name"],
+              "properties": {
+                "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+                "name": { "$ref": "#/$defs/localized" },
+                "hex": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$", "description": "Swatch color. Required when the option id is color." }
+              }
+            }
+          }
+        }
+      }
+    },
+    "variants": {
+      "type": "array",
+      "minItems": 1,
+      "description": "One entry per combination you sell. Price, stock and photos live here.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "sku", "options", "price", "availability", "images"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "sku": { "type": "string", "minLength": 1 },
+          "options": { "type": "object", "additionalProperties": { "type": "string" }, "description": "option id to value id, e.g. { \"color\": \"sage\", \"size\": \"queen\" }" },
+          "price": { "$ref": "#/$defs/money" },
+          "listPrice": { "$ref": "#/$defs/money" },
+          "availability": { "type": "string", "enum": ["in_stock", "low_stock", "out_of_stock"] },
+          "images": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "#/$defs/photo" }
+          }
         }
       }
     }

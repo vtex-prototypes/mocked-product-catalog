@@ -15,9 +15,14 @@ const PRODUCTS_DIR = join(ROOT, "products");
 const IMAGES_DIR = join(ROOT, "images");
 
 const IMAGE_SIZE = 1024;
-const WHITE_MIN = 248; // every RGB channel of a background pixel must be >= this
-const BORDER_RING = 16; // px ring along the edges that must be pure background
-const MAX_BORDER_NON_WHITE = 0.002; // 0.2% of ring pixels may miss (JPEG-ish noise)
+const BORDER_RING = 16; // px ring along the edges that must be the declared background
+const MAX_BORDER_OFF = 0.002; // 0.2% of ring pixels may miss
+// Every photo ships on both of these. #ffffff must be near-pure white.
+// #f5f5f5 is painted from the white file, so the ring should be exactly 245.
+const BACKGROUNDS = {
+  "#ffffff": (r, g, b) => r >= 248 && g >= 248 && b >= 248,
+  "#f5f5f5": (r, g, b) => Math.abs(r - 245) <= 4 && Math.abs(g - 245) <= 4 && Math.abs(b - 245) <= 4,
+};
 
 const LOCALES = ["en", "pt-BR"]; // every human-readable string must exist in all of these
 const CURRENCIES = ["BRL", "USD"]; // every price must exist in all of these
@@ -97,30 +102,122 @@ function validateProduct(file) {
   if (!AVAILABILITY.has(p.availability)) err(id, `"availability" must be one of ${[...AVAILABILITY].join(", ")}`);
   checkLocalizedList(id, "tags", p.tags);
 
-  if (!Array.isArray(p.images) || p.images.length === 0) {
-    err(id, `"images" must have at least one entry`);
-  } else {
-    const dir = join(IMAGES_DIR, id);
-    if (!existsSync(dir)) err(id, `missing images folder images/${id}/`);
-    p.images.forEach((img, i) => {
-      if (!img || typeof img.file !== "string") return err(id, `images[${i}].file is required`);
-      if (!/^\d+\.png$/.test(img.file)) err(id, `images[${i}].file must be like "1.png" (numbered PNG)`);
-      checkLocalized(id, `images[${i}].alt`, img.alt, 3);
-      const path = join(dir, img.file);
-      if (!existsSync(path)) return err(id, `missing file images/${id}/${img.file}`);
-      validateImage(`${id}/${img.file}`, path);
-    });
-    if (existsSync(dir)) {
-      const listed = new Set(p.images.map((i) => i.file));
-      for (const f of readdirSync(dir)) {
-        if (f.startsWith(".")) continue;
-        if (!listed.has(f)) warn(id, `images/${id}/${f} exists but is not listed in "images"`);
-      }
+  const dir = join(IMAGES_DIR, id);
+  if (!existsSync(dir)) err(id, `missing images folder images/${id}/`);
+  const listed = validateVariants(id, p, dir);
+  if (existsSync(dir) && listed) {
+    for (const f of readdirSync(dir)) {
+      if (f.startsWith(".")) continue;
+      if (!listed.has(f)) warn(id, `images/${id}/${f} exists but is not used by any variant`);
     }
   }
 }
 
-function validateImage(label, path) {
+// Options (color, size, …) and one entry per combination that is actually sold.
+// Returns the set of image filenames referenced, or null if variants are missing.
+function validateVariants(id, p, dir) {
+  if (!Array.isArray(p.options) || p.options.length === 0) {
+    err(id, `"options" must list at least one option, such as color`);
+    return null;
+  }
+  const optionValues = new Map();
+  const seenOptions = new Set();
+  for (const opt of p.options) {
+    if (!opt || !SLUG.test(opt.id ?? "")) { err(id, `option id "${opt?.id}" must be a kebab-case slug`); continue; }
+    if (seenOptions.has(opt.id)) err(id, `duplicate option "${opt.id}"`);
+    seenOptions.add(opt.id);
+    checkLocalized(id, `options.${opt.id}.name`, opt.name, 2);
+    if (!Array.isArray(opt.values) || opt.values.length === 0) { err(id, `option "${opt.id}" needs values`); continue; }
+    const ids = new Set();
+    for (const value of opt.values) {
+      if (!value || !SLUG.test(value.id ?? "")) { err(id, `option "${opt.id}" has an invalid value id`); continue; }
+      if (ids.has(value.id)) err(id, `option "${opt.id}" repeats value "${value.id}"`);
+      ids.add(value.id);
+      checkLocalized(id, `options.${opt.id}.${value.id}.name`, value.name, 1);
+      if (opt.id === "color" && !/^#[0-9A-Fa-f]{6}$/.test(value.hex ?? "")) {
+        err(id, `color "${value.id}" needs a "hex" swatch like "#8FA58A"`);
+      }
+    }
+    optionValues.set(opt.id, ids);
+  }
+
+  if (!Array.isArray(p.variants) || p.variants.length === 0) {
+    err(id, `"variants" must list the combinations you actually sell`);
+    return null;
+  }
+  const variantIds = new Set();
+  const listed = new Set();
+  for (const v of p.variants) {
+    const label = `variant ${v?.id ?? "?"}`;
+    if (!v || !SLUG.test(v.id ?? "")) { err(id, `${label} id must be a kebab-case slug`); continue; }
+    if (variantIds.has(v.id)) err(id, `duplicate variant "${v.id}"`);
+    variantIds.add(v.id);
+    if (typeof v.sku !== "string" || !v.sku.trim()) err(id, `${label} needs a "sku"`);
+    for (const [optId, values] of optionValues) {
+      const chosen = v.options?.[optId];
+      if (!values.has(chosen)) err(id, `${label} options.${optId} "${chosen ?? ""}" is not one of ${[...values].join(", ")}`);
+    }
+    checkMoney(id, `${label}.price`, v.price);
+    if (v.listPrice !== undefined) {
+      checkMoney(id, `${label}.listPrice`, v.listPrice);
+      if (v.price && v.listPrice) {
+        for (const cur of CURRENCIES) {
+          if (typeof v.listPrice[cur] === "number" && typeof v.price[cur] === "number" && v.listPrice[cur] <= v.price[cur]) {
+            err(id, `${label} listPrice.${cur} must be greater than price.${cur}`);
+          }
+        }
+      }
+    }
+    if (!AVAILABILITY.has(v.availability)) err(id, `${label} availability is invalid`);
+    for (const file of validateGallery(id, label, v.images, dir)) listed.add(file);
+  }
+  if (!variantIds.has(p.defaultVariantId)) err(id, `"defaultVariantId" "${p.defaultVariantId ?? ""}" does not match a variant`);
+  else {
+    const def = p.variants.find((v) => v.id === p.defaultVariantId);
+    if (def && p.price && def.price) {
+      for (const cur of CURRENCIES) {
+        if (p.price[cur] !== def.price[cur]) err(id, `price.${cur} must match the default variant (${def.id})`);
+      }
+    }
+    if (def && p.availability !== def.availability) err(id, `availability must match the default variant (${def.id})`);
+  }
+  return listed;
+}
+
+// Each photo is one object with alt text and both background files.
+function validateGallery(id, label, images, dir) {
+  if (!Array.isArray(images) || images.length === 0) {
+    err(id, `${label} needs at least one photo`);
+    return [];
+  }
+  const files = [];
+  images.forEach((img, i) => {
+    const prefix = `${label} image ${i + 1}`;
+    checkLocalized(id, `${prefix}.alt`, img?.alt, 3);
+    const bgs = img?.backgrounds;
+    if (!bgs || typeof bgs !== "object" || Array.isArray(bgs)) {
+      err(id, `${prefix} needs a "backgrounds" object with #ffffff and #f5f5f5`);
+      return;
+    }
+    for (const key of Object.keys(BACKGROUNDS)) {
+      const file = bgs[key];
+      if (typeof file !== "string" || !/^[a-z0-9-]+\.png$/.test(file)) {
+        err(id, `${prefix} backgrounds["${key}"] must be a png filename`);
+        continue;
+      }
+      files.push(file);
+      const path = join(dir, file);
+      if (!existsSync(path)) err(id, `missing file images/${id}/${file}`);
+      else validateImage(`${id}/${file}`, path, key);
+    }
+    for (const key of Object.keys(bgs)) {
+      if (!BACKGROUNDS[key]) err(id, `${prefix} has unknown background "${key}"`);
+    }
+  });
+  return files;
+}
+
+function validateImage(label, path, background) {
   let png;
   try {
     png = PNG.sync.read(readFileSync(path));
@@ -130,21 +227,19 @@ function validateImage(label, path) {
   const { width: w, height: h, data } = png;
   if (w !== IMAGE_SIZE || h !== IMAGE_SIZE) err(label, `must be ${IMAGE_SIZE}x${IMAGE_SIZE}, got ${w}x${h}`);
 
-  const isWhite = (i) => data[i] >= WHITE_MIN && data[i + 1] >= WHITE_MIN && data[i + 2] >= WHITE_MIN;
-  const idx = (x, y) => (y * w + x) * 4;
-
-  // 1. Border ring must be white.
+  const matches = BACKGROUNDS[background];
   let ring = 0, ringBad = 0;
   for (let y = 0; y < h; y++) {
     for (let x = 0; x < w; x++) {
       const onRing = x < BORDER_RING || y < BORDER_RING || x >= w - BORDER_RING || y >= h - BORDER_RING;
       if (!onRing) continue;
       ring++;
-      if (!isWhite(idx(x, y))) ringBad++;
+      const i = (y * w + x) * 4;
+      if (!matches(data[i], data[i + 1], data[i + 2])) ringBad++;
     }
   }
-  if (ringBad / ring > MAX_BORDER_NON_WHITE) {
-    err(label, `background is not white at the edges (${((ringBad / ring) * 100).toFixed(1)}% of the outer ${BORDER_RING}px is off-white). Product too close to the edge, or background is gray.`);
+  if (ringBad / ring > MAX_BORDER_OFF) {
+    err(label, `edges are not ${background} (${((ringBad / ring) * 100).toFixed(1)}% of the outer ${BORDER_RING}px is off). For #f5f5f5, run npm run backgrounds instead of redrawing the photo.`);
   }
 
   // Shadows, tags and text are NOT detected automatically. Simple pixel

@@ -5,6 +5,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "backgrounds": "node scripts/backgrounds.mjs",
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/build.mjs",
     "check": "npm run validate && npm run build && git diff --exit-code -- catalog.json"

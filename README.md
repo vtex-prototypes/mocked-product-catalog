@@ -1,6 +1,6 @@
 # Mock Product Catalog
 
-A small, consistent product catalog for designers at VTEX building code prototypes. Every product has English and Brazilian Portuguese copy, prices in USD and BRL, a stock state, and at least one 1024×1024 product image on a true-white background, with no shadows and no text.
+A small, consistent product catalog for designers at VTEX building code prototypes. Every product has English and Brazilian Portuguese copy, prices in USD and BRL, a stock state, and color variants. Every photo is 1024×1024 and ships twice: once on pure white (`#ffffff`) and once on `#f5f5f5`, with no shadows and no text.
 
 Public mock APIs (DummyJSON, Fake Store, Platzi) exist, but their photos are inconsistent and the data doesn't cover the states a storefront needs. This repo trades breadth for consistency: fewer products, but all of them look like they belong in the same store.
 
@@ -15,34 +15,62 @@ const { categories, products } = await fetch(`${BASE}catalog.json`).then((r) => 
 
 const locale = "pt-BR"; // or "en"
 const currency = "BRL"; // or "USD"
+const background = "#f5f5f5"; // or "#ffffff"
 
-const product = products[0];
-product.name[locale];                 // "Almofada Decorativa Casa Norte Xadrez Tartan 45x45 cm…"
-product.price[currency];              // 89.9
-BASE + product.images[0].src;         // images/plaid-cushion/1.png
+const product = products.find((p) => p.id === "pillow");
+const variant = product.variants.find((v) => v.id === product.defaultVariantId);
+
+product.name[locale];
+variant.price[currency];                              // 69.9
+BASE + variant.images[0].src[background];              // images/pillow/white-f5f5f5.png
+
+const sageQueen = product.variants.find((v) => v.options.color === "sage" && v.options.size === "queen");
+sageQueen.availability;                               // "out_of_stock"
 ```
 
-A product looks like this:
+A product looks like this. Photos live on the variant, and every photo has both backgrounds:
 
 ```json
 {
-  "id": "plaid-cushion",
-  "brand": "Casa Norte",
-  "categoryId": "cama-mesa-banho",
-  "name": {
-    "en": "Casa Norte Tartan Plaid Decorative Throw Pillow 18x18 in, Teal/Rust Multicolor, Removable Cover with Hidden Zipper, Hypoallergenic Fiber Insert Included",
-    "pt-BR": "Almofada Decorativa Casa Norte Xadrez Tartan 45x45 cm Verde-Petróleo e Ferrugem, Capa Removível com Zíper Invisível, Enchimento em Fibra Siliconada Antialérgica Incluso"
-  },
-  "description": { "en": "Square decorative pillow in a woven tartan plaid…", "pt-BR": "Almofada quadrada em tecido xadrez tartan…" },
-  "price": { "BRL": 89.9, "USD": 19.99 },
-  "listPrice": { "BRL": 119.9, "USD": 26.99 },
+  "id": "pillow",
+  "defaultVariantId": "white-standard",
+  "price": { "BRL": 69.9, "USD": 16.99 },
   "availability": "in_stock",
-  "tags": { "en": ["throw pillow", "plaid", "decor", "living room"], "pt-BR": ["almofada", "xadrez", "decoração", "sala"] },
-  "images": [
+  "options": [
     {
-      "file": "1.png",
-      "alt": { "en": "Square tartan plaid throw pillow seen from the front", "pt-BR": "Almofada quadrada xadrez tartan vista de frente" },
-      "src": "images/plaid-cushion/1.png"
+      "id": "color",
+      "name": { "en": "Color", "pt-BR": "Cor" },
+      "values": [
+        { "id": "white", "name": { "en": "White", "pt-BR": "Branco" }, "hex": "#F7F5F2" },
+        { "id": "sage", "name": { "en": "Sage", "pt-BR": "Sálvia" }, "hex": "#A8BBA3" }
+      ]
+    },
+    {
+      "id": "size",
+      "name": { "en": "Size", "pt-BR": "Tamanho" },
+      "values": [
+        { "id": "standard", "name": { "en": "Standard 20x28 in", "pt-BR": "Padrão 50x70 cm" } },
+        { "id": "queen", "name": { "en": "Queen 20x30 in", "pt-BR": "Queen 50x76 cm" } }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-standard",
+      "sku": "FP-PIL-WHT-STD",
+      "options": { "color": "white", "size": "standard" },
+      "price": { "BRL": 69.9, "USD": 16.99 },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": { "en": "White rectangular bed pillow", "pt-BR": "Travesseiro branco retangular" },
+          "backgrounds": { "#ffffff": "white-ffffff.png", "#f5f5f5": "white-f5f5f5.png" },
+          "src": {
+            "#ffffff": "images/pillow/white-ffffff.png",
+            "#f5f5f5": "images/pillow/white-f5f5f5.png"
+          }
+        }
+      ]
     }
   ]
 }
@@ -50,12 +78,15 @@ A product looks like this:
 
 Field notes:
 
-- Every human-readable string (`name`, `description`, `tags`, `alt`, category `name`) is an object keyed by locale: `en` and `pt-BR`. Pick one at render time.
+- Every human-readable string (`name`, `description`, `tags`, `alt`, option and category `name`) is an object keyed by locale: `en` and `pt-BR`. Pick one at render time.
 - Every price is an object keyed by currency: `BRL` and `USD`. USD values are plausible US retail prices, not conversions.
+- `price` and `availability` on the product match the default variant, so a product card can render before a variant is chosen. The real numbers live on `variants`.
 - Names are deliberately long (60+ characters), like real marketplace listings, so prototypes see real wrapping and truncation.
-- `listPrice` is only present when the product is on sale. Render a strike-through when `listPrice[currency] > price[currency]`.
-- `availability` is `in_stock`, `low_stock` or `out_of_stock`, so you can prototype those states.
-- `images[0]` is the main image. Extra angles are `2.png`, `3.png`, …
+- `options` are what the shopper picks. `color` values include a `hex` swatch. The pillow also has `size`; most products are color only.
+- `variants` are the combinations you can buy. Each has its own `sku`, `price`, `availability` and photos. A size that shares a color reuses the same files.
+- `listPrice` is only present when that variant is on sale. Render a strike-through when `listPrice[currency] > price[currency]`.
+- `availability` is `in_stock`, `low_stock` or `out_of_stock`. The sage queen pillow is out of stock, and the gray air mattress is out of stock while navy is in stock, so a color change can change the button.
+- Every photo has two files: `#ffffff` and `#f5f5f5`. `images[0]` is the main shot. `src` is added in `catalog.json`; the source files only store the filename.
 - `categories` is a flat list; each one has a `parent` id or `null`.
 
 Full schema: [`schema/product.schema.json`](schema/product.schema.json).
@@ -85,12 +116,12 @@ Rules the image has to meet:
 ### 2. Add the files
 
 ```
-products/<id>.json          # metadata
-images/<id>/1.png           # main image
-images/<id>/2.png           # optional extra angles
+products/<id>.json
+images/<id>/<color>-ffffff.png
+images/<id>/<color>-f5f5f5.png
 ```
 
-`<id>` is a kebab-case slug in English (`bath-towel`, `air-mattress`). Copy an existing file in `products/` as a starting point.
+`<id>` is a kebab-case slug in English (`bath-towel`, `air-mattress`). Copy an existing file in `products/` as a starting point. Generate the white photo only, then run `npm run backgrounds` to paint the `#f5f5f5` twin from it. Do not redraw the gray version: the product has to be the same pixels.
 
 Content rules:
 
@@ -113,16 +144,20 @@ npm run check
 
 The PR template has the three visual checks the validator can't do (shadows, text, real brands). CI runs `npm run check`.
 
-## Add an extra image to an existing product
+## Add an extra image or a variant
 
-Drop `images/<id>/2.png` (same rules) and append `{ "file": "2.png", "alt": { "en": "…", "pt-BR": "…" } }` to the product's `images` array. Run `npm run check`.
+Another angle of a color you already have: add `2-ffffff.png`, run `npm run backgrounds`, and append a second object to that color's `images` array, with both filenames.
+
+A new color: generate `<color>-ffffff.png` on white, run `npm run backgrounds`, add the color to `options`, and add one variant per combination that uses it. A new size usually reuses the existing photos and only changes `price` and `sku`.
 
 ## Layout
 
 ```
 categories.json             # category tree
 products/*.json             # one file per product (source of truth)
-images/<id>/*.png           # product images
+images/<id>/*-ffffff.png    # product photos on white
+images/<id>/*-f5f5f5.png    # the same photos, background repainted
+scripts/backgrounds.mjs     # paints the #f5f5f5 twins
 catalog.json                # generated: categories + products with resolved image paths
 schema/product.schema.json  # JSON schema for products/*.json
 scripts/validate.mjs        # metadata + image checks
