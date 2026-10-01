@@ -1,13 +1,28 @@
 {
   "id": "pillow",
-  "name": "Travesseiro Fibra Siliconada 50x70",
   "brand": "Fio Puro",
   "categoryId": "cama-mesa-banho",
-  "description": "Travesseiro com enchimento em fibra siliconada e capa 100% algodão com vivo nas bordas. Suporte médio, antialérgico.",
-  "price": { "value": 69.9, "currency": "BRL" },
+  "name": {
+    "en": "Fio Puro Hypoallergenic Bed Pillow Standard 20x28 in, Medium Support Siliconized Fiber Fill, 100% Cotton Piped Cover, for Back and Side Sleepers",
+    "pt-BR": "Travesseiro Fio Puro Antialérgico Padrão 50x70 cm, Suporte Médio Fibra Siliconada, Capa 100% Algodão com Vivo, para Quem Dorme de Costas e de Lado"
+  },
+  "description": {
+    "en": "Standard bed pillow with a siliconized fiber fill that keeps its loft and a 100% cotton cover finished with piped edges. Medium support, hypoallergenic, machine washable.",
+    "pt-BR": "Travesseiro padrão com enchimento em fibra siliconada que mantém o volume e capa 100% algodão com acabamento em vivo. Suporte médio, antialérgico, lavável em máquina."
+  },
+  "price": { "BRL": 69.9, "USD": 16.99 },
   "availability": "in_stock",
-  "tags": ["travesseiro", "antialérgico", "cama"],
+  "tags": {
+    "en": ["pillow", "hypoallergenic", "bedroom"],
+    "pt-BR": ["travesseiro", "antialérgico", "cama"]
+  },
   "images": [
-    { "file": "1.png", "alt": "Travesseiro branco retangular" }
+    {
+      "file": "1.png",
+      "alt": {
+        "en": "White rectangular bed pillow",
+        "pt-BR": "Travesseiro branco retangular"
+      }
+    }
   ]
 }

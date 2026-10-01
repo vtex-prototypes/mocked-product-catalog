@@ -1,13 +1,28 @@
 {
   "id": "air-mattress",
-  "name": "Colchão Inflável Casal com Bomba Embutida",
   "brand": "Trilha Livre",
   "categoryId": "cama-mesa-banho",
-  "description": "Colchão inflável casal em PVC flocado cinza, altura 46 cm, com bomba elétrica embutida. Infla em cerca de 3 minutos.",
-  "price": { "value": 389.9, "currency": "BRL" },
+  "name": {
+    "en": "Trilha Livre Queen Air Mattress 18 in Raised with Built-In Electric Pump, Flocked Top Inflatable Guest Bed, Inflates in 3 Minutes, Gray",
+    "pt-BR": "Colchão Inflável Trilha Livre Casal Queen Altura 46 cm com Bomba Elétrica Embutida, Topo Flocado Cama de Hóspedes, Infla em 3 Minutos, Cinza"
+  },
+  "description": {
+    "en": "Queen-size raised air mattress in puncture-resistant flocked PVC with a built-in electric pump. Inflates fully in about three minutes and deflates for compact storage. Gray.",
+    "pt-BR": "Colchão inflável queen de altura elevada em PVC flocado resistente a furos, com bomba elétrica embutida. Infla por completo em cerca de três minutos e esvazia para guardar compacto. Cinza."
+  },
+  "price": { "BRL": 389.9, "USD": 79.99 },
   "availability": "out_of_stock",
-  "tags": ["colchão", "inflável", "hóspedes", "camping"],
+  "tags": {
+    "en": ["air mattress", "inflatable", "guest bed", "camping"],
+    "pt-BR": ["colchão", "inflável", "hóspedes", "camping"]
+  },
   "images": [
-    { "file": "1.png", "alt": "Colchão inflável cinza visto em perspectiva" }
+    {
+      "file": "1.png",
+      "alt": {
+        "en": "Gray inflatable air mattress seen in perspective",
+        "pt-BR": "Colchão inflável cinza visto em perspectiva"
+      }
+    }
   ]
 }

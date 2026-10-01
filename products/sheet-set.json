@@ -1,14 +1,29 @@
 {
   "id": "sheet-set",
-  "name": "Jogo de Lençol Percal 200 Fios Queen 4 Peças",
   "brand": "Fio Puro",
   "categoryId": "cama-mesa-banho",
-  "description": "Jogo de cama queen em percal 200 fios, 100% algodão, cor branca. Inclui lençol com elástico, lençol de cobrir e duas fronhas.",
-  "price": { "value": 249.9, "currency": "BRL" },
-  "listPrice": 329.9,
+  "name": {
+    "en": "Fio Puro 4-Piece Queen Sheet Set 200 Thread Count 100% Cotton Percale, White, Deep Pocket Fitted Sheet, Flat Sheet and 2 Pillowcases",
+    "pt-BR": "Jogo de Lençol Fio Puro Queen 4 Peças Percal 200 Fios 100% Algodão, Branco, Lençol com Elástico Alto, Lençol de Cobrir e 2 Fronhas"
+  },
+  "description": {
+    "en": "Queen sheet set in crisp 200 thread count cotton percale. Includes a deep-pocket fitted sheet, a flat sheet and two standard pillowcases. Cool to the touch and softer with every wash. White.",
+    "pt-BR": "Jogo de cama queen em percal de algodão 200 fios com toque fresco. Inclui lençol com elástico alto, lençol de cobrir e duas fronhas padrão. Fica mais macio a cada lavagem. Branco."
+  },
+  "price": { "BRL": 249.9, "USD": 54.99 },
+  "listPrice": { "BRL": 329.9, "USD": 69.99 },
   "availability": "low_stock",
-  "tags": ["lençol", "queen", "percal", "branco"],
+  "tags": {
+    "en": ["sheet set", "queen", "percale", "white"],
+    "pt-BR": ["lençol", "queen", "percal", "branco"]
+  },
   "images": [
-    { "file": "1.png", "alt": "Jogo de lençol branco dobrado e empilhado com fronhas" }
+    {
+      "file": "1.png",
+      "alt": {
+        "en": "Folded white sheet set stacked with pillowcases on top",
+        "pt-BR": "Jogo de lençol branco dobrado e empilhado com fronhas"
+      }
+    }
   ]
 }

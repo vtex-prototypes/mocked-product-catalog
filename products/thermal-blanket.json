@@ -1,13 +1,28 @@
 {
   "id": "thermal-blanket",
-  "name": "Cobertor Térmico Canelado Casal",
   "brand": "Casa Norte",
   "categoryId": "cama-mesa-banho",
-  "description": "Cobertor casal em malha canelada de algodão na cor grafite. Trama térmica que aquece sem pesar, lavável em máquina.",
-  "price": { "value": 199.9, "currency": "BRL" },
+  "name": {
+    "en": "Casa Norte Ribbed Cotton Thermal Blanket Full/Queen 90x90 in, Charcoal Gray, Breathable Waffle Knit, All-Season Layering Blanket, Machine Washable",
+    "pt-BR": "Cobertor Térmico Casa Norte Algodão Canelado Casal/Queen 2,30x2,30 m, Cinza Grafite, Trama Respirável, Camada Extra para Todas as Estações, Lavável em Máquina"
+  },
+  "description": {
+    "en": "Ribbed thermal blanket in 100% cotton. The open knit traps warmth in winter and breathes in summer, so it works alone or as a layer under a duvet. Charcoal gray, machine washable.",
+    "pt-BR": "Cobertor térmico canelado em 100% algodão. A trama aberta retém o calor no inverno e respira no verão, funcionando sozinho ou como camada sob o edredom. Cinza grafite, lavável em máquina."
+  },
+  "price": { "BRL": 199.9, "USD": 44.99 },
   "availability": "in_stock",
-  "tags": ["cobertor", "casal", "inverno", "grafite"],
+  "tags": {
+    "en": ["blanket", "queen", "winter", "charcoal"],
+    "pt-BR": ["cobertor", "casal", "inverno", "grafite"]
+  },
   "images": [
-    { "file": "1.png", "alt": "Cobertor grafite canelado dobrado" }
+    {
+      "file": "1.png",
+      "alt": {
+        "en": "Folded charcoal gray ribbed blanket",
+        "pt-BR": "Cobertor grafite canelado dobrado"
+      }
+    }
   ]
 }

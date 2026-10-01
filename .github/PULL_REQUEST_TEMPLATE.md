@@ -13,5 +13,7 @@ The validator (`npm run check`) covers metadata, file layout, 1024×1024 PNG and
 And:
 
 - [ ] `npm run check` passes locally
-- [ ] Names and descriptions are in pt-BR
-- [ ] If the product is on sale, `listPrice` is set and is higher than `price.value`
+- [ ] `en` and `pt-BR` copy both read naturally (not a literal translation of each other)
+- [ ] Name is a long, marketplace-style listing (brand, product, size, material, color, key features)
+- [ ] `BRL` and `USD` prices are what a store in each market would actually charge
+- [ ] If the product is on sale, `listPrice` is set in both currencies and is higher than `price`

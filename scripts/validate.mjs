@@ -19,17 +19,53 @@ const WHITE_MIN = 248; // every RGB channel of a background pixel must be >= thi
 const BORDER_RING = 16; // px ring along the edges that must be pure background
 const MAX_BORDER_NON_WHITE = 0.002; // 0.2% of ring pixels may miss (JPEG-ish noise)
 
-const categories = JSON.parse(readFileSync(join(ROOT, "categories.json"), "utf8"));
-const categoryIds = new Set(categories.map((c) => c.id));
-
+const LOCALES = ["en", "pt-BR"]; // every human-readable string must exist in all of these
+const CURRENCIES = ["BRL", "USD"]; // every price must exist in all of these
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-const CURRENCIES = new Set(["BRL", "USD", "EUR"]);
 const AVAILABILITY = new Set(["in_stock", "low_stock", "out_of_stock"]);
+const MIN_NAME_LENGTH = 60; // marketplace-style long names, so prototypes see realistic wrapping
+const MIN_DESCRIPTION_LENGTH = 80;
 
 const errors = [];
 const warnings = [];
 const err = (id, msg) => errors.push(`${id}: ${msg}`);
 const warn = (id, msg) => warnings.push(`${id}: ${msg}`);
+
+// { "en": "...", "pt-BR": "..." } with every locale present and non-empty.
+function checkLocalized(id, field, value, minLength = 1) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return err(id, `"${field}" must be an object with keys ${LOCALES.join(", ")}`);
+  for (const loc of LOCALES) {
+    const s = value[loc];
+    if (typeof s !== "string" || s.trim().length < minLength) err(id, `"${field}.${loc}" must be a string with at least ${minLength} characters`);
+  }
+  for (const k of Object.keys(value)) if (!LOCALES.includes(k)) err(id, `"${field}" has unknown locale "${k}"`);
+}
+
+// { "en": [...], "pt-BR": [...] } arrays of strings.
+function checkLocalizedList(id, field, value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return err(id, `"${field}" must be an object with keys ${LOCALES.join(", ")}`);
+  for (const loc of LOCALES) {
+    const a = value[loc];
+    if (!Array.isArray(a) || a.length === 0 || a.some((t) => typeof t !== "string" || !t.trim())) err(id, `"${field}.${loc}" must be a non-empty array of strings`);
+  }
+}
+
+// { "BRL": 89.9, "USD": 19.99 } with every currency present and positive.
+function checkMoney(id, field, value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return err(id, `"${field}" must be an object with keys ${CURRENCIES.join(", ")}`);
+  for (const cur of CURRENCIES) {
+    if (typeof value[cur] !== "number" || !(value[cur] > 0)) err(id, `"${field}.${cur}" must be a positive number`);
+  }
+  for (const k of Object.keys(value)) if (!CURRENCIES.includes(k)) err(id, `"${field}" has unknown currency "${k}"`);
+}
+
+const categories = JSON.parse(readFileSync(join(ROOT, "categories.json"), "utf8"));
+const categoryIds = new Set(categories.map((c) => c.id));
+for (const c of categories) {
+  if (!SLUG.test(c.id ?? "")) err(`categories.json`, `category id "${c.id}" must be a kebab-case slug`);
+  checkLocalized(`categories.json/${c.id}`, "name", c.name, 2);
+  if (c.parent !== null && !categoryIds.has(c.parent)) err(`categories.json/${c.id}`, `unknown parent "${c.parent}"`);
+}
 
 function validateProduct(file) {
   const id = file.replace(/\.json$/, "");
@@ -42,18 +78,24 @@ function validateProduct(file) {
 
   if (p.id !== id) err(id, `"id" must equal the filename ("${p.id}")`);
   if (!SLUG.test(id)) err(id, `id must be a kebab-case slug`);
-  if (typeof p.name !== "string" || !p.name.trim()) err(id, `"name" is required`);
+  if (p.brand !== undefined && (typeof p.brand !== "string" || !p.brand.trim())) err(id, `"brand" must be a non-empty string when present`);
   if (!categoryIds.has(p.categoryId)) err(id, `unknown categoryId "${p.categoryId}" (see categories.json)`);
-  if (typeof p.description !== "string" || p.description.length < 20) err(id, `"description" must be at least 20 characters`);
+  checkLocalized(id, "name", p.name, MIN_NAME_LENGTH);
+  checkLocalized(id, "description", p.description, MIN_DESCRIPTION_LENGTH);
 
-  if (!p.price || typeof p.price.value !== "number" || p.price.value <= 0) err(id, `"price.value" must be a positive number`);
-  if (!p.price || !CURRENCIES.has(p.price.currency)) err(id, `"price.currency" must be one of ${[...CURRENCIES].join(", ")}`);
+  checkMoney(id, "price", p.price);
   if (p.listPrice !== undefined) {
-    if (typeof p.listPrice !== "number" || p.listPrice <= 0) err(id, `"listPrice" must be a positive number when present`);
-    else if (p.price && p.listPrice <= p.price.value) err(id, `"listPrice" must be greater than price.value (it is the pre-discount price)`);
+    checkMoney(id, "listPrice", p.listPrice);
+    if (p.price && typeof p.price === "object" && p.listPrice && typeof p.listPrice === "object") {
+      for (const cur of CURRENCIES) {
+        if (typeof p.listPrice[cur] === "number" && typeof p.price[cur] === "number" && p.listPrice[cur] <= p.price[cur]) {
+          err(id, `"listPrice.${cur}" must be greater than price.${cur} (it is the pre-discount price)`);
+        }
+      }
+    }
   }
   if (!AVAILABILITY.has(p.availability)) err(id, `"availability" must be one of ${[...AVAILABILITY].join(", ")}`);
-  if (!Array.isArray(p.tags) || p.tags.some((t) => typeof t !== "string")) err(id, `"tags" must be an array of strings`);
+  checkLocalizedList(id, "tags", p.tags);
 
   if (!Array.isArray(p.images) || p.images.length === 0) {
     err(id, `"images" must have at least one entry`);
@@ -63,7 +105,7 @@ function validateProduct(file) {
     p.images.forEach((img, i) => {
       if (!img || typeof img.file !== "string") return err(id, `images[${i}].file is required`);
       if (!/^\d+\.png$/.test(img.file)) err(id, `images[${i}].file must be like "1.png" (numbered PNG)`);
-      if (typeof img.alt !== "string" || !img.alt.trim()) err(id, `images[${i}].alt is required`);
+      checkLocalized(id, `images[${i}].alt`, img.alt, 3);
       const path = join(dir, img.file);
       if (!existsSync(path)) return err(id, `missing file images/${id}/${img.file}`);
       validateImage(`${id}/${img.file}`, path);

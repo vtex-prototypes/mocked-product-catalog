@@ -1,13 +1,28 @@
 {
   "id": "bath-towel",
-  "name": "Toalha de Banho Algodão 70x140",
   "brand": "Fio Puro",
   "categoryId": "cama-mesa-banho",
-  "description": "Toalha de banho 100% algodão penteado, 500 g/m², na cor branca. Barra em jacquard tom sobre tom e alta absorção.",
-  "price": { "value": 59.9, "currency": "BRL" },
+  "name": {
+    "en": "Fio Puro 100% Combed Cotton Bath Towel 28x55 in, 500 GSM Ultra Absorbent Quick Dry, White with Tone-on-Tone Jacquard Border",
+    "pt-BR": "Toalha de Banho Fio Puro 100% Algodão Penteado 70x140 cm, 500 g/m² Alta Absorção Secagem Rápida, Branca com Barra Jacquard Tom sobre Tom"
+  },
+  "description": {
+    "en": "Full-size bath towel in 500 GSM combed cotton terry. Highly absorbent, quick to dry and soft from the first wash. White with a woven jacquard border in the same tone.",
+    "pt-BR": "Toalha de banho em felpa de algodão penteado 500 g/m². Alta absorção, secagem rápida e maciez desde a primeira lavagem. Branca com barra em jacquard tom sobre tom."
+  },
+  "price": { "BRL": 59.9, "USD": 14.99 },
   "availability": "in_stock",
-  "tags": ["toalha", "banho", "algodão", "branco"],
+  "tags": {
+    "en": ["bath towel", "bathroom", "cotton", "white"],
+    "pt-BR": ["toalha", "banho", "algodão", "branco"]
+  },
   "images": [
-    { "file": "1.png", "alt": "Toalha de banho branca dobrada" }
+    {
+      "file": "1.png",
+      "alt": {
+        "en": "Folded white bath towel",
+        "pt-BR": "Toalha de banho branca dobrada"
+      }
+    }
   ]
 }

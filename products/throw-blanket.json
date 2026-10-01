@@ -1,13 +1,28 @@
 {
   "id": "throw-blanket",
-  "name": "Manta Decorativa com Franjas 130x170",
   "brand": "Casa Norte",
   "categoryId": "cama-mesa-banho",
-  "description": "Manta em tecido macio tipo lã na cor bege, acabamento com franjas nas laterais. Ideal para sofá ou pé de cama.",
-  "price": { "value": 149.9, "currency": "BRL" },
+  "name": {
+    "en": "Casa Norte Soft Knit Throw Blanket with Fringe Tassels 50x67 in, Cream Beige, Lightweight Wool-Feel Acrylic for Sofa, Bed and Armchair",
+    "pt-BR": "Manta Decorativa Casa Norte Tricô Macio com Franjas 130x170 cm, Bege Cru, Acrílico Toque de Lã Leve para Sofá, Cama e Poltrona"
+  },
+  "description": {
+    "en": "Lightweight throw in a brushed wool-feel acrylic with hand-knotted fringe along both ends. Drapes over a sofa or the foot of a bed and holds its shape after washing. Cream beige.",
+    "pt-BR": "Manta leve em acrílico escovado com toque de lã e franjas em nó nas duas extremidades. Fica bem sobre o sofá ou no pé da cama e mantém a forma após a lavagem. Cor bege cru."
+  },
+  "price": { "BRL": 149.9, "USD": 34.99 },
   "availability": "in_stock",
-  "tags": ["manta", "sofá", "franjas", "bege"],
+  "tags": {
+    "en": ["throw blanket", "sofa", "fringe", "beige"],
+    "pt-BR": ["manta", "sofá", "franjas", "bege"]
+  },
   "images": [
-    { "file": "1.png", "alt": "Manta bege dobrada com franjas aparentes" }
+    {
+      "file": "1.png",
+      "alt": {
+        "en": "Folded beige throw blanket with fringe tassels",
+        "pt-BR": "Manta bege dobrada com franjas aparentes"
+      }
+    }
   ]
 }

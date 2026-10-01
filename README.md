@@ -1,6 +1,6 @@
 # Mock Product Catalog
 
-A small, consistent product catalog for designers at VTEX building code prototypes. Every product has pt-BR copy, a price, stock state and at least one 1024×1024 product image on a true-white background, with no shadows and no text.
+A small, consistent product catalog for designers at VTEX building code prototypes. Every product has English and Brazilian Portuguese copy, prices in USD and BRL, a stock state, and at least one 1024×1024 product image on a true-white background, with no shadows and no text.
 
 Public mock APIs (DummyJSON, Fake Store, Platzi) exist, but their photos are inconsistent and the data doesn't cover the states a storefront needs. This repo trades breadth for consistency: fewer products, but all of them look like they belong in the same store.
 
@@ -13,8 +13,13 @@ const BASE = "https://raw.githubusercontent.com/vtex/mocked-product-catalog/main
 
 const { categories, products } = await fetch(`${BASE}catalog.json`).then((r) => r.json());
 
+const locale = "pt-BR"; // or "en"
+const currency = "BRL"; // or "USD"
+
 const product = products[0];
-const imageUrl = BASE + product.images[0].src; // images/<id>/1.png
+product.name[locale];                 // "Almofada Decorativa Casa Norte Xadrez Tartan 45x45 cm…"
+product.price[currency];              // 89.9
+BASE + product.images[0].src;         // images/plaid-cushion/1.png
 ```
 
 A product looks like this:
@@ -22,23 +27,33 @@ A product looks like this:
 ```json
 {
   "id": "plaid-cushion",
-  "name": "Almofada Xadrez Tartan 45x45",
   "brand": "Casa Norte",
   "categoryId": "cama-mesa-banho",
-  "description": "Almofada decorativa em tecido xadrez tartan…",
-  "price": { "value": 89.9, "currency": "BRL" },
-  "listPrice": 119.9,
+  "name": {
+    "en": "Casa Norte Tartan Plaid Decorative Throw Pillow 18x18 in, Teal/Rust Multicolor, Removable Cover with Hidden Zipper, Hypoallergenic Fiber Insert Included",
+    "pt-BR": "Almofada Decorativa Casa Norte Xadrez Tartan 45x45 cm Verde-Petróleo e Ferrugem, Capa Removível com Zíper Invisível, Enchimento em Fibra Siliconada Antialérgica Incluso"
+  },
+  "description": { "en": "Square decorative pillow in a woven tartan plaid…", "pt-BR": "Almofada quadrada em tecido xadrez tartan…" },
+  "price": { "BRL": 89.9, "USD": 19.99 },
+  "listPrice": { "BRL": 119.9, "USD": 26.99 },
   "availability": "in_stock",
-  "tags": ["almofada", "xadrez", "decoração", "sala"],
+  "tags": { "en": ["throw pillow", "plaid", "decor", "living room"], "pt-BR": ["almofada", "xadrez", "decoração", "sala"] },
   "images": [
-    { "file": "1.png", "alt": "Almofada quadrada xadrez tartan vista de frente", "src": "images/plaid-cushion/1.png" }
+    {
+      "file": "1.png",
+      "alt": { "en": "Square tartan plaid throw pillow seen from the front", "pt-BR": "Almofada quadrada xadrez tartan vista de frente" },
+      "src": "images/plaid-cushion/1.png"
+    }
   ]
 }
 ```
 
 Field notes:
 
-- `listPrice` is only present when the product is on sale. Render a strike-through when `listPrice > price.value`.
+- Every human-readable string (`name`, `description`, `tags`, `alt`, category `name`) is an object keyed by locale: `en` and `pt-BR`. Pick one at render time.
+- Every price is an object keyed by currency: `BRL` and `USD`. USD values are plausible US retail prices, not conversions.
+- Names are deliberately long (60+ characters), like real marketplace listings, so prototypes see real wrapping and truncation.
+- `listPrice` is only present when the product is on sale. Render a strike-through when `listPrice[currency] > price[currency]`.
 - `availability` is `in_stock`, `low_stock` or `out_of_stock`, so you can prototype those states.
 - `images[0]` is the main image. Extra angles are `2.png`, `3.png`, …
 - `categories` is a flat list; each one has a `parent` id or `null`.
@@ -75,7 +90,15 @@ images/<id>/1.png           # main image
 images/<id>/2.png           # optional extra angles
 ```
 
-`<id>` is a kebab-case slug in English (`bath-towel`, `air-mattress`). Copy an existing file in `products/` as a starting point. Names and descriptions are pt-BR, brands are fictional, prices are plausible BRL. If the category you need isn't in `categories.json`, add it there in the same PR.
+`<id>` is a kebab-case slug in English (`bath-towel`, `air-mattress`). Copy an existing file in `products/` as a starting point.
+
+Content rules:
+
+- **Both languages, always.** `name`, `description`, `tags` and every `alt` need an `en` and a `pt-BR` version. Write them as a native speaker would, not as literal translations (sizes in inches for `en`, centimeters for `pt-BR`).
+- **Both currencies, always.** `price` (and `listPrice` if on sale) need `BRL` and `USD`. Use the price a real store would charge in each market rather than converting.
+- **Long names.** Write the name the way a marketplace listing reads: brand, product, size, material, color, two or three selling points. Minimum 60 characters per language; the current set is 120–170. Short names make prototypes look fake and hide layout bugs.
+- **Fictional brands.** `Casa Norte`, `Fio Puro` and `Trilha Livre` are in use; add your own, but never a real one.
+- If the category you need isn't in `categories.json`, add it there in the same PR, with both language names.
 
 ### 3. Check and build
 
@@ -92,7 +115,7 @@ The PR template has the three visual checks the validator can't do (shadows, tex
 
 ## Add an extra image to an existing product
 
-Drop `images/<id>/2.png` (same rules) and append `{ "file": "2.png", "alt": "…" }` to the product's `images` array. Run `npm run check`.
+Drop `images/<id>/2.png` (same rules) and append `{ "file": "2.png", "alt": { "en": "…", "pt-BR": "…" } }` to the product's `images` array. Run `npm run check`.
 
 ## Layout
 

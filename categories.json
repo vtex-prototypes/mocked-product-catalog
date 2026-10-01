@@ -1,12 +1,12 @@
 [
   {
-    "id": "cama-mesa-banho",
-    "name": "Cama, Mesa e Banho",
-    "parent": "casa-decoracao"
+    "id": "casa-decoracao",
+    "name": { "en": "Home & Decor", "pt-BR": "Casa & Decoração" },
+    "parent": null
   },
   {
-    "id": "casa-decoracao",
-    "name": "Casa & Decoração",
-    "parent": null
+    "id": "cama-mesa-banho",
+    "name": { "en": "Bed, Bath & Table", "pt-BR": "Cama, Mesa e Banho" },
+    "parent": "casa-decoracao"
   }
 ]

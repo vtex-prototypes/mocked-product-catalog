@@ -2,36 +2,62 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/vtex/mocked-product-catalog/schema/product.schema.json",
   "title": "Product",
-  "description": "One product in the mock catalog. Lives in products/<id>.json; images live in images/<id>/.",
+  "description": "One product in the mock catalog. Lives in products/<id>.json; images live in images/<id>/. Every human-readable string is localized (en + pt-BR) and every price is given in BRL and USD.",
   "type": "object",
   "additionalProperties": false,
   "required": ["id", "name", "categoryId", "description", "price", "availability", "tags", "images"],
+  "$defs": {
+    "localized": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "pt-BR"],
+      "properties": {
+        "en": { "type": "string", "minLength": 1 },
+        "pt-BR": { "type": "string", "minLength": 1 }
+      }
+    },
+    "localizedList": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "pt-BR"],
+      "properties": {
+        "en": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "pt-BR": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "money": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["BRL", "USD"],
+      "properties": {
+        "BRL": { "type": "number", "exclusiveMinimum": 0 },
+        "USD": { "type": "number", "exclusiveMinimum": 0 }
+      }
+    }
+  },
   "properties": {
     "id": {
       "type": "string",
       "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
-      "description": "kebab-case slug. Must match the file name and the images folder."
+      "description": "kebab-case slug in English. Must match the file name and the images folder."
     },
-    "name": { "type": "string", "minLength": 3, "description": "Display name, pt-BR." },
-    "brand": { "type": "string", "description": "Fictional brand. Never use a real brand." },
+    "brand": { "type": "string", "minLength": 1, "description": "Fictional brand. Never use a real brand." },
     "categoryId": { "type": "string", "description": "An id from categories.json." },
-    "description": { "type": "string", "minLength": 20, "description": "One or two sentences, pt-BR." },
-    "price": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["value", "currency"],
-      "properties": {
-        "value": { "type": "number", "exclusiveMinimum": 0 },
-        "currency": { "type": "string", "enum": ["BRL", "USD", "EUR"] }
-      }
+    "name": {
+      "$ref": "#/$defs/localized",
+      "description": "Long, marketplace-style listing name (brand, product, size, material, color, key features). At least 60 characters per locale."
     },
+    "description": {
+      "$ref": "#/$defs/localized",
+      "description": "Two or three sentences. At least 80 characters per locale."
+    },
+    "price": { "$ref": "#/$defs/money", "description": "Current selling price in each currency." },
     "listPrice": {
-      "type": "number",
-      "exclusiveMinimum": 0,
-      "description": "Pre-discount price. Only set it when the product is on sale; must be greater than price.value."
+      "$ref": "#/$defs/money",
+      "description": "Pre-discount price. Only set it when the product is on sale; each currency must be greater than the matching price."
     },
     "availability": { "type": "string", "enum": ["in_stock", "low_stock", "out_of_stock"] },
-    "tags": { "type": "array", "items": { "type": "string" } },
+    "tags": { "$ref": "#/$defs/localizedList" },
     "images": {
       "type": "array",
       "minItems": 1,
@@ -42,7 +68,7 @@
         "required": ["file", "alt"],
         "properties": {
           "file": { "type": "string", "pattern": "^\\d+\\.png$", "description": "Numbered PNG inside images/<id>/, e.g. 1.png" },
-          "alt": { "type": "string", "minLength": 3 }
+          "alt": { "$ref": "#/$defs/localized" }
         }
       }
     }

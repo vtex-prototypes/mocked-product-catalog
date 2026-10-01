@@ -1,189 +1,319 @@
 {
   "categories": [
     {
-      "id": "cama-mesa-banho",
-      "name": "Cama, Mesa e Banho",
-      "parent": "casa-decoracao"
+      "id": "casa-decoracao",
+      "name": {
+        "en": "Home & Decor",
+        "pt-BR": "Casa & Decoração"
+      },
+      "parent": null
     },
     {
-      "id": "casa-decoracao",
-      "name": "Casa & Decoração",
-      "parent": null
+      "id": "cama-mesa-banho",
+      "name": {
+        "en": "Bed, Bath & Table",
+        "pt-BR": "Cama, Mesa e Banho"
+      },
+      "parent": "casa-decoracao"
     }
   ],
   "products": [
     {
       "id": "air-mattress",
-      "name": "Colchão Inflável Casal com Bomba Embutida",
       "brand": "Trilha Livre",
       "categoryId": "cama-mesa-banho",
-      "description": "Colchão inflável casal em PVC flocado cinza, altura 46 cm, com bomba elétrica embutida. Infla em cerca de 3 minutos.",
+      "name": {
+        "en": "Trilha Livre Queen Air Mattress 18 in Raised with Built-In Electric Pump, Flocked Top Inflatable Guest Bed, Inflates in 3 Minutes, Gray",
+        "pt-BR": "Colchão Inflável Trilha Livre Casal Queen Altura 46 cm com Bomba Elétrica Embutida, Topo Flocado Cama de Hóspedes, Infla em 3 Minutos, Cinza"
+      },
+      "description": {
+        "en": "Queen-size raised air mattress in puncture-resistant flocked PVC with a built-in electric pump. Inflates fully in about three minutes and deflates for compact storage. Gray.",
+        "pt-BR": "Colchão inflável queen de altura elevada em PVC flocado resistente a furos, com bomba elétrica embutida. Infla por completo em cerca de três minutos e esvazia para guardar compacto. Cinza."
+      },
       "price": {
-        "value": 389.9,
-        "currency": "BRL"
+        "BRL": 389.9,
+        "USD": 79.99
       },
       "availability": "out_of_stock",
-      "tags": [
-        "colchão",
-        "inflável",
-        "hóspedes",
-        "camping"
-      ],
+      "tags": {
+        "en": [
+          "air mattress",
+          "inflatable",
+          "guest bed",
+          "camping"
+        ],
+        "pt-BR": [
+          "colchão",
+          "inflável",
+          "hóspedes",
+          "camping"
+        ]
+      },
       "images": [
         {
           "file": "1.png",
-          "alt": "Colchão inflável cinza visto em perspectiva",
+          "alt": {
+            "en": "Gray inflatable air mattress seen in perspective",
+            "pt-BR": "Colchão inflável cinza visto em perspectiva"
+          },
           "src": "images/air-mattress/1.png"
         }
       ]
     },
     {
       "id": "bath-towel",
-      "name": "Toalha de Banho Algodão 70x140",
       "brand": "Fio Puro",
       "categoryId": "cama-mesa-banho",
-      "description": "Toalha de banho 100% algodão penteado, 500 g/m², na cor branca. Barra em jacquard tom sobre tom e alta absorção.",
+      "name": {
+        "en": "Fio Puro 100% Combed Cotton Bath Towel 28x55 in, 500 GSM Ultra Absorbent Quick Dry, White with Tone-on-Tone Jacquard Border",
+        "pt-BR": "Toalha de Banho Fio Puro 100% Algodão Penteado 70x140 cm, 500 g/m² Alta Absorção Secagem Rápida, Branca com Barra Jacquard Tom sobre Tom"
+      },
+      "description": {
+        "en": "Full-size bath towel in 500 GSM combed cotton terry. Highly absorbent, quick to dry and soft from the first wash. White with a woven jacquard border in the same tone.",
+        "pt-BR": "Toalha de banho em felpa de algodão penteado 500 g/m². Alta absorção, secagem rápida e maciez desde a primeira lavagem. Branca com barra em jacquard tom sobre tom."
+      },
       "price": {
-        "value": 59.9,
-        "currency": "BRL"
+        "BRL": 59.9,
+        "USD": 14.99
       },
       "availability": "in_stock",
-      "tags": [
-        "toalha",
-        "banho",
-        "algodão",
-        "branco"
-      ],
+      "tags": {
+        "en": [
+          "bath towel",
+          "bathroom",
+          "cotton",
+          "white"
+        ],
+        "pt-BR": [
+          "toalha",
+          "banho",
+          "algodão",
+          "branco"
+        ]
+      },
       "images": [
         {
           "file": "1.png",
-          "alt": "Toalha de banho branca dobrada",
+          "alt": {
+            "en": "Folded white bath towel",
+            "pt-BR": "Toalha de banho branca dobrada"
+          },
           "src": "images/bath-towel/1.png"
         }
       ]
     },
     {
       "id": "pillow",
-      "name": "Travesseiro Fibra Siliconada 50x70",
       "brand": "Fio Puro",
       "categoryId": "cama-mesa-banho",
-      "description": "Travesseiro com enchimento em fibra siliconada e capa 100% algodão com vivo nas bordas. Suporte médio, antialérgico.",
+      "name": {
+        "en": "Fio Puro Hypoallergenic Bed Pillow Standard 20x28 in, Medium Support Siliconized Fiber Fill, 100% Cotton Piped Cover, for Back and Side Sleepers",
+        "pt-BR": "Travesseiro Fio Puro Antialérgico Padrão 50x70 cm, Suporte Médio Fibra Siliconada, Capa 100% Algodão com Vivo, para Quem Dorme de Costas e de Lado"
+      },
+      "description": {
+        "en": "Standard bed pillow with a siliconized fiber fill that keeps its loft and a 100% cotton cover finished with piped edges. Medium support, hypoallergenic, machine washable.",
+        "pt-BR": "Travesseiro padrão com enchimento em fibra siliconada que mantém o volume e capa 100% algodão com acabamento em vivo. Suporte médio, antialérgico, lavável em máquina."
+      },
       "price": {
-        "value": 69.9,
-        "currency": "BRL"
+        "BRL": 69.9,
+        "USD": 16.99
       },
       "availability": "in_stock",
-      "tags": [
-        "travesseiro",
-        "antialérgico",
-        "cama"
-      ],
+      "tags": {
+        "en": [
+          "pillow",
+          "hypoallergenic",
+          "bedroom"
+        ],
+        "pt-BR": [
+          "travesseiro",
+          "antialérgico",
+          "cama"
+        ]
+      },
       "images": [
         {
           "file": "1.png",
-          "alt": "Travesseiro branco retangular",
+          "alt": {
+            "en": "White rectangular bed pillow",
+            "pt-BR": "Travesseiro branco retangular"
+          },
           "src": "images/pillow/1.png"
         }
       ]
     },
     {
       "id": "plaid-cushion",
-      "name": "Almofada Xadrez Tartan 45x45",
       "brand": "Casa Norte",
       "categoryId": "cama-mesa-banho",
-      "description": "Almofada decorativa em tecido xadrez tartan nos tons verde-petróleo, azul, cinza, salmão e laranja. Capa com zíper invisível e enchimento em fibra siliconada.",
-      "price": {
-        "value": 89.9,
-        "currency": "BRL"
+      "name": {
+        "en": "Casa Norte Tartan Plaid Decorative Throw Pillow 18x18 in, Teal/Rust Multicolor, Removable Cover with Hidden Zipper, Hypoallergenic Fiber Insert Included",
+        "pt-BR": "Almofada Decorativa Casa Norte Xadrez Tartan 45x45 cm Verde-Petróleo e Ferrugem, Capa Removível com Zíper Invisível, Enchimento em Fibra Siliconada Antialérgica Incluso"
       },
-      "listPrice": 119.9,
+      "description": {
+        "en": "Square decorative pillow in a woven tartan plaid of deep teal, light blue, gray, salmon and orange. The cover is removable, closes with a hidden zipper and comes with a plump hypoallergenic fiber insert. Machine washable cover.",
+        "pt-BR": "Almofada quadrada em tecido xadrez tartan nos tons verde-petróleo, azul-claro, cinza, salmão e laranja. Capa removível com zíper invisível e enchimento em fibra siliconada antialérgica. Capa lavável em máquina."
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 19.99
+      },
+      "listPrice": {
+        "BRL": 119.9,
+        "USD": 26.99
+      },
       "availability": "in_stock",
-      "tags": [
-        "almofada",
-        "xadrez",
-        "decoração",
-        "sala"
-      ],
+      "tags": {
+        "en": [
+          "throw pillow",
+          "plaid",
+          "decor",
+          "living room"
+        ],
+        "pt-BR": [
+          "almofada",
+          "xadrez",
+          "decoração",
+          "sala"
+        ]
+      },
       "images": [
         {
           "file": "1.png",
-          "alt": "Almofada quadrada xadrez tartan vista de frente",
+          "alt": {
+            "en": "Square tartan plaid throw pillow seen from the front",
+            "pt-BR": "Almofada quadrada xadrez tartan vista de frente"
+          },
           "src": "images/plaid-cushion/1.png"
         }
       ]
     },
     {
       "id": "sheet-set",
-      "name": "Jogo de Lençol Percal 200 Fios Queen 4 Peças",
       "brand": "Fio Puro",
       "categoryId": "cama-mesa-banho",
-      "description": "Jogo de cama queen em percal 200 fios, 100% algodão, cor branca. Inclui lençol com elástico, lençol de cobrir e duas fronhas.",
-      "price": {
-        "value": 249.9,
-        "currency": "BRL"
+      "name": {
+        "en": "Fio Puro 4-Piece Queen Sheet Set 200 Thread Count 100% Cotton Percale, White, Deep Pocket Fitted Sheet, Flat Sheet and 2 Pillowcases",
+        "pt-BR": "Jogo de Lençol Fio Puro Queen 4 Peças Percal 200 Fios 100% Algodão, Branco, Lençol com Elástico Alto, Lençol de Cobrir e 2 Fronhas"
       },
-      "listPrice": 329.9,
+      "description": {
+        "en": "Queen sheet set in crisp 200 thread count cotton percale. Includes a deep-pocket fitted sheet, a flat sheet and two standard pillowcases. Cool to the touch and softer with every wash. White.",
+        "pt-BR": "Jogo de cama queen em percal de algodão 200 fios com toque fresco. Inclui lençol com elástico alto, lençol de cobrir e duas fronhas padrão. Fica mais macio a cada lavagem. Branco."
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 54.99
+      },
+      "listPrice": {
+        "BRL": 329.9,
+        "USD": 69.99
+      },
       "availability": "low_stock",
-      "tags": [
-        "lençol",
-        "queen",
-        "percal",
-        "branco"
-      ],
+      "tags": {
+        "en": [
+          "sheet set",
+          "queen",
+          "percale",
+          "white"
+        ],
+        "pt-BR": [
+          "lençol",
+          "queen",
+          "percal",
+          "branco"
+        ]
+      },
       "images": [
         {
           "file": "1.png",
-          "alt": "Jogo de lençol branco dobrado e empilhado com fronhas",
+          "alt": {
+            "en": "Folded white sheet set stacked with pillowcases on top",
+            "pt-BR": "Jogo de lençol branco dobrado e empilhado com fronhas"
+          },
           "src": "images/sheet-set/1.png"
         }
       ]
     },
     {
       "id": "thermal-blanket",
-      "name": "Cobertor Térmico Canelado Casal",
       "brand": "Casa Norte",
       "categoryId": "cama-mesa-banho",
-      "description": "Cobertor casal em malha canelada de algodão na cor grafite. Trama térmica que aquece sem pesar, lavável em máquina.",
+      "name": {
+        "en": "Casa Norte Ribbed Cotton Thermal Blanket Full/Queen 90x90 in, Charcoal Gray, Breathable Waffle Knit, All-Season Layering Blanket, Machine Washable",
+        "pt-BR": "Cobertor Térmico Casa Norte Algodão Canelado Casal/Queen 2,30x2,30 m, Cinza Grafite, Trama Respirável, Camada Extra para Todas as Estações, Lavável em Máquina"
+      },
+      "description": {
+        "en": "Ribbed thermal blanket in 100% cotton. The open knit traps warmth in winter and breathes in summer, so it works alone or as a layer under a duvet. Charcoal gray, machine washable.",
+        "pt-BR": "Cobertor térmico canelado em 100% algodão. A trama aberta retém o calor no inverno e respira no verão, funcionando sozinho ou como camada sob o edredom. Cinza grafite, lavável em máquina."
+      },
       "price": {
-        "value": 199.9,
-        "currency": "BRL"
+        "BRL": 199.9,
+        "USD": 44.99
       },
       "availability": "in_stock",
-      "tags": [
-        "cobertor",
-        "casal",
-        "inverno",
-        "grafite"
-      ],
+      "tags": {
+        "en": [
+          "blanket",
+          "queen",
+          "winter",
+          "charcoal"
+        ],
+        "pt-BR": [
+          "cobertor",
+          "casal",
+          "inverno",
+          "grafite"
+        ]
+      },
       "images": [
         {
           "file": "1.png",
-          "alt": "Cobertor grafite canelado dobrado",
+          "alt": {
+            "en": "Folded charcoal gray ribbed blanket",
+            "pt-BR": "Cobertor grafite canelado dobrado"
+          },
           "src": "images/thermal-blanket/1.png"
         }
       ]
     },
     {
       "id": "throw-blanket",
-      "name": "Manta Decorativa com Franjas 130x170",
       "brand": "Casa Norte",
       "categoryId": "cama-mesa-banho",
-      "description": "Manta em tecido macio tipo lã na cor bege, acabamento com franjas nas laterais. Ideal para sofá ou pé de cama.",
+      "name": {
+        "en": "Casa Norte Soft Knit Throw Blanket with Fringe Tassels 50x67 in, Cream Beige, Lightweight Wool-Feel Acrylic for Sofa, Bed and Armchair",
+        "pt-BR": "Manta Decorativa Casa Norte Tricô Macio com Franjas 130x170 cm, Bege Cru, Acrílico Toque de Lã Leve para Sofá, Cama e Poltrona"
+      },
+      "description": {
+        "en": "Lightweight throw in a brushed wool-feel acrylic with hand-knotted fringe along both ends. Drapes over a sofa or the foot of a bed and holds its shape after washing. Cream beige.",
+        "pt-BR": "Manta leve em acrílico escovado com toque de lã e franjas em nó nas duas extremidades. Fica bem sobre o sofá ou no pé da cama e mantém a forma após a lavagem. Cor bege cru."
+      },
       "price": {
-        "value": 149.9,
-        "currency": "BRL"
+        "BRL": 149.9,
+        "USD": 34.99
       },
       "availability": "in_stock",
-      "tags": [
-        "manta",
-        "sofá",
-        "franjas",
-        "bege"
-      ],
+      "tags": {
+        "en": [
+          "throw blanket",
+          "sofa",
+          "fringe",
+          "beige"
+        ],
+        "pt-BR": [
+          "manta",
+          "sofá",
+          "franjas",
+          "bege"
+        ]
+      },
       "images": [
         {
           "file": "1.png",
-          "alt": "Manta bege dobrada com franjas aparentes",
+          "alt": {
+            "en": "Folded beige throw blanket with fringe tassels",
+            "pt-BR": "Manta bege dobrada com franjas aparentes"
+          },
           "src": "images/throw-blanket/1.png"
         }
       ]

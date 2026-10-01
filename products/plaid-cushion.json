@@ -1,14 +1,29 @@
 {
   "id": "plaid-cushion",
-  "name": "Almofada Xadrez Tartan 45x45",
   "brand": "Casa Norte",
   "categoryId": "cama-mesa-banho",
-  "description": "Almofada decorativa em tecido xadrez tartan nos tons verde-petróleo, azul, cinza, salmão e laranja. Capa com zíper invisível e enchimento em fibra siliconada.",
-  "price": { "value": 89.9, "currency": "BRL" },
-  "listPrice": 119.9,
+  "name": {
+    "en": "Casa Norte Tartan Plaid Decorative Throw Pillow 18x18 in, Teal/Rust Multicolor, Removable Cover with Hidden Zipper, Hypoallergenic Fiber Insert Included",
+    "pt-BR": "Almofada Decorativa Casa Norte Xadrez Tartan 45x45 cm Verde-Petróleo e Ferrugem, Capa Removível com Zíper Invisível, Enchimento em Fibra Siliconada Antialérgica Incluso"
+  },
+  "description": {
+    "en": "Square decorative pillow in a woven tartan plaid of deep teal, light blue, gray, salmon and orange. The cover is removable, closes with a hidden zipper and comes with a plump hypoallergenic fiber insert. Machine washable cover.",
+    "pt-BR": "Almofada quadrada em tecido xadrez tartan nos tons verde-petróleo, azul-claro, cinza, salmão e laranja. Capa removível com zíper invisível e enchimento em fibra siliconada antialérgica. Capa lavável em máquina."
+  },
+  "price": { "BRL": 89.9, "USD": 19.99 },
+  "listPrice": { "BRL": 119.9, "USD": 26.99 },
   "availability": "in_stock",
-  "tags": ["almofada", "xadrez", "decoração", "sala"],
+  "tags": {
+    "en": ["throw pillow", "plaid", "decor", "living room"],
+    "pt-BR": ["almofada", "xadrez", "decoração", "sala"]
+  },
   "images": [
-    { "file": "1.png", "alt": "Almofada quadrada xadrez tartan vista de frente" }
+    {
+      "file": "1.png",
+      "alt": {
+        "en": "Square tartan plaid throw pillow seen from the front",
+        "pt-BR": "Almofada quadrada xadrez tartan vista de frente"
+      }
+    }
   ]
 }
