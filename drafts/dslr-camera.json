@@ -1,0 +1,10 @@
+{
+  "id": "dslr-camera",
+  "categoryId": "eletro-pessoais",
+  "name": {
+    "en": "DSLR camera",
+    "pt-BR": "Câmera DSLR"
+  },
+  "photo": "dslr-camera.jpg",
+  "figmaNode": "134:5719"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "wireless-mouse",
+  "categoryId": "eletro-acessorios",
+  "name": {
+    "en": "Wireless mouse",
+    "pt-BR": "Mouse sem fio"
+  },
+  "photo": "wireless-mouse.jpg",
+  "figmaNode": "134:5635"
+}

@@ -1,0 +1,240 @@
+{
+  "id": "training-shorts",
+  "brand": "Ritmo",
+  "categoryId": "esportes-shorts",
+  "name": {
+    "en": "Ritmo Core 7-Inch Training Shorts with Drawstring Waist, Quick-Dry Lightweight Knit, Curved Hem and Hidden Back Pocket, Black or Royal Blue, Men's Gym Shorts for Lifting, Running and Everyday",
+    "pt-BR": "Shorts de Treino Ritmo Core 18 cm com Cós de Cordão, Malha Leve de Secagem Rápida, Barra Curvada e Bolso Traseiro Escondido, Preto ou Azul Royal, Bermuda Masculina para Musculação, Corrida e Dia a Dia"
+  },
+  "description": {
+    "en": "Seven-inch training shorts in a lightweight quick-dry knit with a wide elastic waistband and drawstring, curved side hems for range of motion and a zipped back pocket for keys.",
+    "pt-BR": "Shorts de treino de 18 cm em malha leve de secagem rápida, cós elástico largo com cordão, barras laterais curvadas para liberdade de movimento e bolso traseiro com zíper para a chave."
+  },
+  "price": {
+    "BRL": 129.9,
+    "USD": 34.0
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "shorts",
+      "gym",
+      "running"
+    ],
+    "pt-BR": [
+      "shorts",
+      "academia",
+      "corrida"
+    ]
+  },
+  "defaultVariantId": "black-m",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#181818"
+        },
+        {
+          "id": "blue",
+          "name": {
+            "en": "Royal Blue",
+            "pt-BR": "Azul royal"
+          },
+          "hex": "#1F49C8"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "s",
+          "name": {
+            "en": "S",
+            "pt-BR": "P"
+          }
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "M",
+            "pt-BR": "M"
+          }
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "L",
+            "pt-BR": "G"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "RTM-SHT-BLA-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 34.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black training shorts with drawstring, front view",
+            "pt-BR": "Shorts de treino preto com cordão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-ffffff.png",
+            "#f5f5f5": "black-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "RTM-SHT-BLA-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 34.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black training shorts with drawstring, front view",
+            "pt-BR": "Shorts de treino preto com cordão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-ffffff.png",
+            "#f5f5f5": "black-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "RTM-SHT-BLA-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 34.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black training shorts with drawstring, front view",
+            "pt-BR": "Shorts de treino preto com cordão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-ffffff.png",
+            "#f5f5f5": "black-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "blue-s",
+      "sku": "RTM-SHT-BLU-S",
+      "options": {
+        "color": "blue",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 34.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Royal blue training shorts with drawstring, front view",
+            "pt-BR": "Shorts de treino azul royal com cordão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "blue-ffffff.png",
+            "#f5f5f5": "blue-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "blue-m",
+      "sku": "RTM-SHT-BLU-M",
+      "options": {
+        "color": "blue",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 34.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Royal blue training shorts with drawstring, front view",
+            "pt-BR": "Shorts de treino azul royal com cordão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "blue-ffffff.png",
+            "#f5f5f5": "blue-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "blue-l",
+      "sku": "RTM-SHT-BLU-L",
+      "options": {
+        "color": "blue",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 34.0
+      },
+      "availability": "out_of_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Royal blue training shorts with drawstring, front view",
+            "pt-BR": "Shorts de treino azul royal com cordão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "blue-ffffff.png",
+            "#f5f5f5": "blue-f5f5f5.png"
+          }
+        }
+      ]
+    }
+  ]
+}

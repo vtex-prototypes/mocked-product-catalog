@@ -1,0 +1,10 @@
+{
+  "id": "tomato",
+  "categoryId": "mercado-vegetais-fungos",
+  "name": {
+    "en": "Tomato",
+    "pt-BR": "Tomate"
+  },
+  "photo": "tomato.jpg",
+  "figmaNode": "134:5610"
+}

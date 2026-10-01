@@ -1,0 +1,10 @@
+{
+  "id": "pressure-cooker",
+  "categoryId": "casa-panelas",
+  "name": {
+    "en": "Pressure cooker",
+    "pt-BR": "Panela de pressão"
+  },
+  "photo": "pressure-cooker.jpg",
+  "figmaNode": "134:5729"
+}

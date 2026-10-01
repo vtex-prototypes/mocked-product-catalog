@@ -1,0 +1,10 @@
+{
+  "id": "baking-sheet",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Baking sheet",
+    "pt-BR": "Assadeira"
+  },
+  "photo": "baking-sheet.jpg",
+  "figmaNode": "134:5734"
+}

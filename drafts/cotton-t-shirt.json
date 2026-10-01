@@ -1,0 +1,10 @@
+{
+  "id": "cotton-t-shirt",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Cotton T-shirt",
+    "pt-BR": "Camiseta de algodão"
+  },
+  "photo": "cotton-t-shirt.jpg",
+  "figmaNode": "151:6557"
+}

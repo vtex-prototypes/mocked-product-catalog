@@ -1,0 +1,10 @@
+{
+  "id": "granola-pouch",
+  "categoryId": "mercado-graos",
+  "name": {
+    "en": "Granola",
+    "pt-BR": "Granola"
+  },
+  "photo": "granola-pouch.jpg",
+  "figmaNode": "134:5679"
+}

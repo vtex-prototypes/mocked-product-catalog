@@ -1,0 +1,10 @@
+{
+  "id": "mustard",
+  "categoryId": "mercado-temperos-molhos",
+  "name": {
+    "en": "Mustard",
+    "pt-BR": "Mostarda"
+  },
+  "photo": "mustard.jpg",
+  "figmaNode": "132:5603"
+}

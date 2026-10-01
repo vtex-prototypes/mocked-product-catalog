@@ -1,0 +1,10 @@
+{
+  "id": "coir-doormat",
+  "categoryId": "casa-moveis-decoracao",
+  "name": {
+    "en": "Coir doormat",
+    "pt-BR": "Capacho de fibra de coco"
+  },
+  "photo": "coir-doormat.jpg",
+  "figmaNode": "134:5660"
+}

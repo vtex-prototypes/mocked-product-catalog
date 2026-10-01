@@ -1,0 +1,10 @@
+{
+  "id": "hydration-bladder",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Hydration bladder",
+    "pt-BR": "Reservatório de hidratação"
+  },
+  "photo": "hydration-bladder.jpg",
+  "figmaNode": "134:5725"
+}

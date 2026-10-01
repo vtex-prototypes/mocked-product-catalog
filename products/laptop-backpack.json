@@ -1,0 +1,108 @@
+{
+  "id": "laptop-backpack",
+  "brand": "Altitude",
+  "categoryId": "esportes-mochilas",
+  "name": {
+    "en": "Altitude Commute 22L Laptop Backpack with Padded 16-Inch Sleeve, Water-Resistant Coated Fabric, Side-Access Pocket and Luggage Strap, Black or Olive, Slim Everyday Backpack for Work, Gym and Travel",
+    "pt-BR": "Mochila para Notebook Altitude Commute 22 L com Compartimento Acolchoado para 16 Polegadas, Tecido Emborrachado Resistente à Água, Bolso de Acesso Lateral e Alça para Mala, Preta ou Verde Oliva, Mochila Slim para Trabalho, Academia e Viagem"
+  },
+  "description": {
+    "en": "Slim 22-liter commuter pack with a suspended padded laptop sleeve, a side-access pocket for a water bottle, a hidden back pocket and a trolley strap. Coated fabric wipes clean.",
+    "pt-BR": "Mochila urbana slim de 22 litros com compartimento acolchoado suspenso para notebook, bolso lateral para garrafa, bolso traseiro escondido e alça para encaixar na mala. O tecido emborrachado limpa com um pano."
+  },
+  "price": {
+    "BRL": 429.9,
+    "USD": 89.0
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "backpack",
+      "laptop",
+      "commute"
+    ],
+    "pt-BR": [
+      "mochila",
+      "notebook",
+      "trabalho"
+    ]
+  },
+  "defaultVariantId": "black",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preta"
+          },
+          "hex": "#161616"
+        },
+        {
+          "id": "olive",
+          "name": {
+            "en": "Olive",
+            "pt-BR": "Verde oliva"
+          },
+          "hex": "#3F4634"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black",
+      "sku": "ALT-LPB-BLA",
+      "options": {
+        "color": "black"
+      },
+      "price": {
+        "BRL": 429.9,
+        "USD": 89.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black commuter laptop backpack, three-quarter view",
+            "pt-BR": "Mochila preta para notebook, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "black-ffffff.png",
+            "#f5f5f5": "black-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "olive",
+      "sku": "ALT-LPB-OLI",
+      "options": {
+        "color": "olive"
+      },
+      "price": {
+        "BRL": 429.9,
+        "USD": 89.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Olive commuter laptop backpack, three-quarter view",
+            "pt-BR": "Mochila verde oliva para notebook, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "olive-ffffff.png",
+            "#f5f5f5": "olive-f5f5f5.png"
+          }
+        }
+      ]
+    }
+  ]
+}

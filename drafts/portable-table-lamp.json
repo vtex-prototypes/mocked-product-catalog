@@ -1,0 +1,10 @@
+{
+  "id": "portable-table-lamp",
+  "categoryId": "casa-moveis-decoracao",
+  "name": {
+    "en": "Portable table lamp",
+    "pt-BR": "Luminária de mesa portátil"
+  },
+  "photo": "portable-table-lamp.jpg",
+  "figmaNode": "131:5588"
+}

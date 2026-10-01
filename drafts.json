@@ -1,0 +1,2307 @@
+{
+  "drafts": [
+    {
+      "id": "4k-led-tv",
+      "categoryId": "eletro-casa-entretenimento",
+      "name": {
+        "en": "4K LED TV",
+        "pt-BR": "TV LED 4K"
+      },
+      "photo": "4k-led-tv.jpg",
+      "figmaNode": "136:5595",
+      "src": "drafts/4k-led-tv.jpg"
+    },
+    {
+      "id": "acacia-salad-bowl",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Acacia wood salad bowl",
+        "pt-BR": "Saladeira de madeira"
+      },
+      "photo": "acacia-salad-bowl.jpg",
+      "figmaNode": "136:5601",
+      "src": "drafts/acacia-salad-bowl.jpg"
+    },
+    {
+      "id": "air-purifier",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Air purifier",
+        "pt-BR": "Purificador de ar"
+      },
+      "photo": "air-purifier.jpg",
+      "figmaNode": "136:5611",
+      "src": "drafts/air-purifier.jpg"
+    },
+    {
+      "id": "aperitivo-liqueur",
+      "categoryId": "mercado-bebidas-alcoolicas",
+      "name": {
+        "en": "Aperitivo liqueur",
+        "pt-BR": "Aperitivo"
+      },
+      "photo": "aperitivo-liqueur.jpg",
+      "figmaNode": "134:5626",
+      "src": "drafts/aperitivo-liqueur.jpg"
+    },
+    {
+      "id": "avocado",
+      "categoryId": "mercado-vegetais-fungos",
+      "name": {
+        "en": "Avocado",
+        "pt-BR": "Abacate"
+      },
+      "photo": "avocado.jpg",
+      "figmaNode": "134:5621",
+      "src": "drafts/avocado.jpg"
+    },
+    {
+      "id": "baking-sheet",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Baking sheet",
+        "pt-BR": "Assadeira"
+      },
+      "photo": "baking-sheet.jpg",
+      "figmaNode": "134:5734",
+      "src": "drafts/baking-sheet.jpg"
+    },
+    {
+      "id": "baseball-cap",
+      "categoryId": "roupa-acessorios-acessorios",
+      "name": {
+        "en": "Baseball cap",
+        "pt-BR": "Boné"
+      },
+      "photo": "baseball-cap.jpg",
+      "figmaNode": "136:5607",
+      "src": "drafts/baseball-cap.jpg"
+    },
+    {
+      "id": "basketball",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Basketball",
+        "pt-BR": "Bola de basquete"
+      },
+      "photo": "basketball.jpg",
+      "figmaNode": "134:5655",
+      "src": "drafts/basketball.jpg"
+    },
+    {
+      "id": "bike-helmet",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Bike helmet",
+        "pt-BR": "Capacete de ciclismo"
+      },
+      "photo": "bike-helmet.jpg",
+      "figmaNode": "134:5712",
+      "src": "drafts/bike-helmet.jpg"
+    },
+    {
+      "id": "black-peppercorns",
+      "categoryId": "mercado-temperos-molhos",
+      "name": {
+        "en": "Black peppercorns",
+        "pt-BR": "Pimenta-do-reino em grãos"
+      },
+      "photo": "black-peppercorns.jpg",
+      "figmaNode": "130:5571",
+      "src": "drafts/black-peppercorns.jpg"
+    },
+    {
+      "id": "blender",
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Blender",
+        "pt-BR": "Liquidificador"
+      },
+      "photo": "blender.jpg",
+      "figmaNode": "131:5584",
+      "src": "drafts/blender.jpg"
+    },
+    {
+      "id": "bluetooth-speaker",
+      "categoryId": "eletro-casa-entretenimento",
+      "name": {
+        "en": "Bluetooth speaker",
+        "pt-BR": "Caixa de som Bluetooth"
+      },
+      "photo": "bluetooth-speaker.jpg",
+      "figmaNode": "134:5713",
+      "src": "drafts/bluetooth-speaker.jpg"
+    },
+    {
+      "id": "box-grater",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Box grater",
+        "pt-BR": "Ralador quatro faces"
+      },
+      "photo": "box-grater.jpg",
+      "figmaNode": "134:5698",
+      "src": "drafts/box-grater.jpg"
+    },
+    {
+      "id": "breakfast-cereal",
+      "categoryId": "mercado-lanches",
+      "name": {
+        "en": "Breakfast cereal",
+        "pt-BR": "Cereal matinal"
+      },
+      "photo": "breakfast-cereal.jpg",
+      "figmaNode": "131:5571",
+      "src": "drafts/breakfast-cereal.jpg"
+    },
+    {
+      "id": "butter-block",
+      "categoryId": "mercado-pao-leite-ovos",
+      "name": {
+        "en": "Butter block",
+        "pt-BR": "Manteiga em tablete"
+      },
+      "photo": "butter-block.jpg",
+      "figmaNode": "134:5625",
+      "src": "drafts/butter-block.jpg"
+    },
+    {
+      "id": "canvas-backpack",
+      "categoryId": "roupa-acessorios-acessorios",
+      "name": {
+        "en": "Canvas backpack",
+        "pt-BR": "Mochila de lona"
+      },
+      "photo": "canvas-backpack.jpg",
+      "figmaNode": "132:5597",
+      "src": "drafts/canvas-backpack.jpg"
+    },
+    {
+      "id": "canvas-hiking-boot",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Canvas hiking boot",
+        "pt-BR": "Bota de trilha em lona"
+      },
+      "photo": "canvas-hiking-boot.jpg",
+      "figmaNode": "136:5637",
+      "src": "drafts/canvas-hiking-boot.jpg"
+    },
+    {
+      "id": "carrot",
+      "categoryId": "mercado-vegetais-fungos",
+      "name": {
+        "en": "Carrot",
+        "pt-BR": "Cenoura"
+      },
+      "photo": "carrot.jpg",
+      "figmaNode": "134:5637",
+      "src": "drafts/carrot.jpg"
+    },
+    {
+      "id": "ceramic-frying-pan",
+      "categoryId": "casa-panelas",
+      "name": {
+        "en": "Ceramic frying pan",
+        "pt-BR": "Frigideira cerâmica"
+      },
+      "photo": "ceramic-frying-pan.jpg",
+      "figmaNode": "134:5732",
+      "src": "drafts/ceramic-frying-pan.jpg"
+    },
+    {
+      "id": "ceramic-nesting-bowls",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Ceramic nesting bowls",
+        "pt-BR": "Jogo de tigelas de cerâmica"
+      },
+      "photo": "ceramic-nesting-bowls.jpg",
+      "figmaNode": "134:5676",
+      "src": "drafts/ceramic-nesting-bowls.jpg"
+    },
+    {
+      "id": "ceramic-ring-vase",
+      "categoryId": "casa-moveis-decoracao",
+      "name": {
+        "en": "Ceramic ring vase",
+        "pt-BR": "Vaso de cerâmica circular"
+      },
+      "photo": "ceramic-ring-vase.jpg",
+      "figmaNode": "129:5593",
+      "src": "drafts/ceramic-ring-vase.jpg"
+    },
+    {
+      "id": "charcoal-grill",
+      "categoryId": "casa-hobbies",
+      "name": {
+        "en": "Charcoal grill",
+        "pt-BR": "Churrasqueira a carvão"
+      },
+      "photo": "charcoal-grill.jpg",
+      "figmaNode": "134:5706",
+      "src": "drafts/charcoal-grill.jpg"
+    },
+    {
+      "id": "chef-knife",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Chef's knife",
+        "pt-BR": "Faca do chef"
+      },
+      "photo": "chef-knife.jpg",
+      "figmaNode": "131:5577",
+      "src": "drafts/chef-knife.jpg"
+    },
+    {
+      "id": "chocolate-chip-cookies",
+      "categoryId": "mercado-lanches",
+      "name": {
+        "en": "Chocolate chip cookies",
+        "pt-BR": "Cookies com gotas de chocolate"
+      },
+      "photo": "chocolate-chip-cookies.jpg",
+      "figmaNode": "132:5594",
+      "src": "drafts/chocolate-chip-cookies.jpg"
+    },
+    {
+      "id": "cleaning-sponge",
+      "categoryId": "mercado-limpeza",
+      "name": {
+        "en": "Cleaning sponge",
+        "pt-BR": "Esponja de limpeza"
+      },
+      "photo": "cleaning-sponge.jpg",
+      "figmaNode": "131:5574",
+      "src": "drafts/cleaning-sponge.jpg"
+    },
+    {
+      "id": "cocktail-shaker",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Cocktail shaker",
+        "pt-BR": "Coqueteleira"
+      },
+      "photo": "cocktail-shaker.jpg",
+      "figmaNode": "134:5684",
+      "src": "drafts/cocktail-shaker.jpg"
+    },
+    {
+      "id": "coffee-beans",
+      "categoryId": "mercado-graos",
+      "name": {
+        "en": "Coffee beans",
+        "pt-BR": "Café em grãos"
+      },
+      "photo": "coffee-beans.jpg",
+      "figmaNode": "130:5572",
+      "src": "drafts/coffee-beans.jpg"
+    },
+    {
+      "id": "coir-doormat",
+      "categoryId": "casa-moveis-decoracao",
+      "name": {
+        "en": "Coir doormat",
+        "pt-BR": "Capacho de fibra de coco"
+      },
+      "photo": "coir-doormat.jpg",
+      "figmaNode": "134:5660",
+      "src": "drafts/coir-doormat.jpg"
+    },
+    {
+      "id": "compact-smart-tv",
+      "categoryId": "eletro-casa-entretenimento",
+      "name": {
+        "en": "Compact smart TV",
+        "pt-BR": "Smart TV compacta"
+      },
+      "photo": "compact-smart-tv.jpg",
+      "figmaNode": "136:5594",
+      "src": "drafts/compact-smart-tv.jpg"
+    },
+    {
+      "id": "compact-wall-charger",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Compact wall charger",
+        "pt-BR": "Carregador de parede compacto"
+      },
+      "photo": "compact-wall-charger.jpg",
+      "figmaNode": "129:5594",
+      "src": "drafts/compact-wall-charger.jpg"
+    },
+    {
+      "id": "cooler-box",
+      "categoryId": "casa-hobbies",
+      "name": {
+        "en": "Cooler box",
+        "pt-BR": "Caixa térmica"
+      },
+      "photo": "cooler-box.jpg",
+      "figmaNode": "134:5705",
+      "src": "drafts/cooler-box.jpg"
+    },
+    {
+      "id": "cotton-t-shirt",
+      "categoryId": "roupa-parte-de-cima-casual",
+      "name": {
+        "en": "Cotton T-shirt",
+        "pt-BR": "Camiseta de algodão"
+      },
+      "photo": "cotton-t-shirt.jpg",
+      "figmaNode": "151:6557",
+      "src": "drafts/cotton-t-shirt.jpg"
+    },
+    {
+      "id": "crewneck-sweatshirt",
+      "categoryId": "roupa-parte-de-cima-casual",
+      "name": {
+        "en": "Crewneck sweatshirt",
+        "pt-BR": "Moletom gola careca"
+      },
+      "photo": "crewneck-sweatshirt.jpg",
+      "figmaNode": "151:6558",
+      "src": "drafts/crewneck-sweatshirt.jpg"
+    },
+    {
+      "id": "cutlery-set",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Cutlery set",
+        "pt-BR": "Faqueiro"
+      },
+      "photo": "cutlery-set.jpg",
+      "figmaNode": "131:5576",
+      "src": "drafts/cutlery-set.jpg"
+    },
+    {
+      "id": "cycling-gloves",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Cycling gloves",
+        "pt-BR": "Luvas de ciclismo"
+      },
+      "photo": "cycling-gloves.jpg",
+      "figmaNode": "151:6591",
+      "src": "drafts/cycling-gloves.jpg"
+    },
+    {
+      "id": "desk-fan",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Desk fan",
+        "pt-BR": "Ventilador de mesa"
+      },
+      "photo": "desk-fan.jpg",
+      "figmaNode": "133:5607",
+      "src": "drafts/desk-fan.jpg"
+    },
+    {
+      "id": "dishwasher",
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Dishwasher",
+        "pt-BR": "Lava-louças"
+      },
+      "photo": "dishwasher.jpg",
+      "figmaNode": "134:5695",
+      "src": "drafts/dishwasher.jpg"
+    },
+    {
+      "id": "drawer-organizer",
+      "categoryId": "casa-organizacao-limpeza",
+      "name": {
+        "en": "Drawer organizer",
+        "pt-BR": "Organizador de gaveta"
+      },
+      "photo": "drawer-organizer.jpg",
+      "figmaNode": "136:5605",
+      "src": "drafts/drawer-organizer.jpg"
+    },
+    {
+      "id": "dress-shirt",
+      "categoryId": "roupa-parte-de-cima-formal",
+      "name": {
+        "en": "Dress shirt",
+        "pt-BR": "Camisa social"
+      },
+      "photo": "dress-shirt.jpg",
+      "figmaNode": "134:5653",
+      "src": "drafts/dress-shirt.jpg"
+    },
+    {
+      "id": "dslr-camera",
+      "categoryId": "eletro-pessoais",
+      "name": {
+        "en": "DSLR camera",
+        "pt-BR": "Câmera DSLR"
+      },
+      "photo": "dslr-camera.jpg",
+      "figmaNode": "134:5719",
+      "src": "drafts/dslr-camera.jpg"
+    },
+    {
+      "id": "dual-usb-wall-charger",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Dual USB wall charger",
+        "pt-BR": "Carregador de parede com duas portas USB"
+      },
+      "photo": "dual-usb-wall-charger.jpg",
+      "figmaNode": "136:5616",
+      "src": "drafts/dual-usb-wall-charger.jpg"
+    },
+    {
+      "id": "duck-boot",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Duck boot",
+        "pt-BR": "Bota galocha"
+      },
+      "photo": "duck-boot.jpg",
+      "figmaNode": "136:5627",
+      "src": "drafts/duck-boot.jpg"
+    },
+    {
+      "id": "e-reader",
+      "categoryId": "eletro-pessoais",
+      "name": {
+        "en": "E-reader",
+        "pt-BR": "Leitor digital"
+      },
+      "photo": "e-reader.jpg",
+      "figmaNode": "134:5696",
+      "src": "drafts/e-reader.jpg"
+    },
+    {
+      "id": "eggs-carton",
+      "categoryId": "mercado-pao-leite-ovos",
+      "name": {
+        "en": "Carton of eggs",
+        "pt-BR": "Ovos"
+      },
+      "photo": "eggs-carton.jpg",
+      "figmaNode": "134:5638",
+      "src": "drafts/eggs-carton.jpg"
+    },
+    {
+      "id": "electric-coffee-grinder",
+      "categoryId": "casa-hobbies",
+      "name": {
+        "en": "Electric coffee grinder",
+        "pt-BR": "Moedor de café elétrico"
+      },
+      "photo": "electric-coffee-grinder.jpg",
+      "figmaNode": "134:5645",
+      "src": "drafts/electric-coffee-grinder.jpg"
+    },
+    {
+      "id": "electric-kettle",
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Electric kettle",
+        "pt-BR": "Chaleira elétrica"
+      },
+      "photo": "electric-kettle.jpg",
+      "figmaNode": "131:5579",
+      "src": "drafts/electric-kettle.jpg"
+    },
+    {
+      "id": "energy-drink-can",
+      "categoryId": "mercado-bebidas-nao-alcoolicas",
+      "name": {
+        "en": "Energy drink can",
+        "pt-BR": "Energético em lata"
+      },
+      "photo": "energy-drink-can.jpg",
+      "figmaNode": "136:5574",
+      "src": "drafts/energy-drink-can.jpg"
+    },
+    {
+      "id": "exercise-ball",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Exercise ball",
+        "pt-BR": "Bola de pilates"
+      },
+      "photo": "exercise-ball.jpg",
+      "figmaNode": "136:5613",
+      "src": "drafts/exercise-ball.jpg"
+    },
+    {
+      "id": "extra-virgin-olive-oil",
+      "categoryId": "mercado-temperos-molhos",
+      "name": {
+        "en": "Extra virgin olive oil",
+        "pt-BR": "Azeite extravirgem"
+      },
+      "photo": "extra-virgin-olive-oil.jpg",
+      "figmaNode": "129:5598",
+      "src": "drafts/extra-virgin-olive-oil.jpg"
+    },
+    {
+      "id": "fabric-softener",
+      "categoryId": "mercado-limpeza",
+      "name": {
+        "en": "Fabric softener",
+        "pt-BR": "Amaciante de roupas"
+      },
+      "photo": "fabric-softener.jpg",
+      "figmaNode": "134:5648",
+      "src": "drafts/fabric-softener.jpg"
+    },
+    {
+      "id": "fingerless-training-gloves",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Fingerless training gloves",
+        "pt-BR": "Luvas de treino sem dedos"
+      },
+      "photo": "fingerless-training-gloves.jpg",
+      "figmaNode": "151:6589",
+      "src": "drafts/fingerless-training-gloves.jpg"
+    },
+    {
+      "id": "fleece-winter-sneaker",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Fleece winter sneaker",
+        "pt-BR": "Tênis de inverno com fleece"
+      },
+      "photo": "fleece-winter-sneaker.jpg",
+      "figmaNode": "136:5631",
+      "src": "drafts/fleece-winter-sneaker.jpg"
+    },
+    {
+      "id": "flip-flops",
+      "categoryId": "roupa-sapatos",
+      "name": {
+        "en": "Flip-flops",
+        "pt-BR": "Chinelo de dedo"
+      },
+      "photo": "flip-flops.jpg",
+      "figmaNode": "134:5675",
+      "src": "drafts/flip-flops.jpg"
+    },
+    {
+      "id": "fondue-set",
+      "categoryId": "casa-hobbies",
+      "name": {
+        "en": "Fondue set",
+        "pt-BR": "Conjunto de fondue"
+      },
+      "photo": "fondue-set.jpg",
+      "figmaNode": "134:5735",
+      "src": "drafts/fondue-set.jpg"
+    },
+    {
+      "id": "food-processor",
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Food processor",
+        "pt-BR": "Processador de alimentos"
+      },
+      "photo": "food-processor.jpg",
+      "figmaNode": "134:5739",
+      "src": "drafts/food-processor.jpg"
+    },
+    {
+      "id": "frozen-french-fries",
+      "categoryId": "mercado-comida-congelada",
+      "name": {
+        "en": "Frozen french fries",
+        "pt-BR": "Batata frita congelada"
+      },
+      "photo": "frozen-french-fries.jpg",
+      "figmaNode": "133:5608",
+      "src": "drafts/frozen-french-fries.jpg"
+    },
+    {
+      "id": "frozen-waffles",
+      "categoryId": "mercado-comida-congelada",
+      "name": {
+        "en": "Frozen waffles",
+        "pt-BR": "Waffles congelados"
+      },
+      "photo": "frozen-waffles.jpg",
+      "figmaNode": "133:5606",
+      "src": "drafts/frozen-waffles.jpg"
+    },
+    {
+      "id": "game-controller",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Game controller",
+        "pt-BR": "Controle para jogos"
+      },
+      "photo": "game-controller.jpg",
+      "figmaNode": "134:5634",
+      "src": "drafts/game-controller.jpg"
+    },
+    {
+      "id": "garlic",
+      "categoryId": "mercado-vegetais-fungos",
+      "name": {
+        "en": "Garlic",
+        "pt-BR": "Alho"
+      },
+      "photo": "garlic.jpg",
+      "figmaNode": "129:5608",
+      "src": "drafts/garlic.jpg"
+    },
+    {
+      "id": "gas-cooktop",
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Gas cooktop",
+        "pt-BR": "Cooktop a gás"
+      },
+      "photo": "gas-cooktop.jpg",
+      "figmaNode": "134:5609",
+      "src": "drafts/gas-cooktop.jpg"
+    },
+    {
+      "id": "glass-cleaner-spray",
+      "categoryId": "mercado-limpeza",
+      "name": {
+        "en": "Glass cleaner spray",
+        "pt-BR": "Limpa-vidros"
+      },
+      "photo": "glass-cleaner-spray.jpg",
+      "figmaNode": "134:5618",
+      "src": "drafts/glass-cleaner-spray.jpg"
+    },
+    {
+      "id": "glass-coffee-carafe",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Glass coffee carafe",
+        "pt-BR": "Jarra de vidro para café"
+      },
+      "photo": "glass-coffee-carafe.jpg",
+      "figmaNode": "134:5701",
+      "src": "drafts/glass-coffee-carafe.jpg"
+    },
+    {
+      "id": "glass-cookie-jar",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Glass cookie jar",
+        "pt-BR": "Pote de vidro para biscoitos"
+      },
+      "photo": "glass-cookie-jar.jpg",
+      "figmaNode": "132:5593",
+      "notes": "Source photo has printed text (\"COOKIE JAR\")",
+      "src": "drafts/glass-cookie-jar.jpg"
+    },
+    {
+      "id": "glass-food-container",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Glass food storage container",
+        "pt-BR": "Pote de vidro hermético"
+      },
+      "photo": "glass-food-container.jpg",
+      "figmaNode": "134:5749",
+      "src": "drafts/glass-food-container.jpg"
+    },
+    {
+      "id": "glass-storage-jar",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Glass storage jar",
+        "pt-BR": "Pote de vidro com tampa"
+      },
+      "photo": "glass-storage-jar.jpg",
+      "figmaNode": "136:5586",
+      "src": "drafts/glass-storage-jar.jpg"
+    },
+    {
+      "id": "granola-bar",
+      "categoryId": "mercado-lanches",
+      "name": {
+        "en": "Granola bar",
+        "pt-BR": "Barra de cereal"
+      },
+      "photo": "granola-bar.jpg",
+      "figmaNode": "136:5614",
+      "src": "drafts/granola-bar.jpg"
+    },
+    {
+      "id": "granola-pouch",
+      "categoryId": "mercado-graos",
+      "name": {
+        "en": "Granola",
+        "pt-BR": "Granola"
+      },
+      "photo": "granola-pouch.jpg",
+      "figmaNode": "134:5679",
+      "src": "drafts/granola-pouch.jpg"
+    },
+    {
+      "id": "grape-juice",
+      "categoryId": "mercado-bebidas-nao-alcoolicas",
+      "name": {
+        "en": "Grape juice",
+        "pt-BR": "Suco de uva"
+      },
+      "photo": "grape-juice.jpg",
+      "figmaNode": "130:5573",
+      "src": "drafts/grape-juice.jpg"
+    },
+    {
+      "id": "grip-socks",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Non-slip grip socks",
+        "pt-BR": "Meia antiderrapante"
+      },
+      "photo": "grip-socks.jpg",
+      "figmaNode": "134:5674",
+      "src": "drafts/grip-socks.jpg"
+    },
+    {
+      "id": "gummy-candy",
+      "categoryId": "mercado-lanches",
+      "name": {
+        "en": "Gummy candy",
+        "pt-BR": "Balas de goma"
+      },
+      "photo": "gummy-candy.jpg",
+      "figmaNode": "130:5579",
+      "src": "drafts/gummy-candy.jpg"
+    },
+    {
+      "id": "hamburger-buns",
+      "categoryId": "mercado-pao-leite-ovos",
+      "name": {
+        "en": "Hamburger buns",
+        "pt-BR": "Pão de hambúrguer"
+      },
+      "photo": "hamburger-buns.jpg",
+      "figmaNode": "134:5620",
+      "src": "drafts/hamburger-buns.jpg"
+    },
+    {
+      "id": "hardside-carry-on-suitcase",
+      "categoryId": "roupa-acessorios-acessorios",
+      "name": {
+        "en": "Hardside carry-on suitcase",
+        "pt-BR": "Mala de bordo rígida"
+      },
+      "photo": "hardside-carry-on-suitcase.jpg",
+      "figmaNode": "134:5708",
+      "src": "drafts/hardside-carry-on-suitcase.jpg"
+    },
+    {
+      "id": "harrington-jacket",
+      "categoryId": "roupa-parte-de-cima-formal",
+      "name": {
+        "en": "Harrington jacket",
+        "pt-BR": "Jaqueta Harrington"
+      },
+      "photo": "harrington-jacket.jpg",
+      "figmaNode": "136:5588",
+      "src": "drafts/harrington-jacket.jpg"
+    },
+    {
+      "id": "honey-jar",
+      "categoryId": "mercado-temperos-molhos",
+      "name": {
+        "en": "Honey",
+        "pt-BR": "Mel"
+      },
+      "photo": "honey-jar.jpg",
+      "figmaNode": "134:5611",
+      "src": "drafts/honey-jar.jpg"
+    },
+    {
+      "id": "hydration-bladder",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Hydration bladder",
+        "pt-BR": "Reservatório de hidratação"
+      },
+      "photo": "hydration-bladder.jpg",
+      "figmaNode": "134:5725",
+      "src": "drafts/hydration-bladder.jpg"
+    },
+    {
+      "id": "ice-axe",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Ice axe",
+        "pt-BR": "Piolet"
+      },
+      "photo": "ice-axe.jpg",
+      "figmaNode": "136:5666",
+      "src": "drafts/ice-axe.jpg"
+    },
+    {
+      "id": "ice-cube-tray",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Ice cube tray",
+        "pt-BR": "Forma de gelo"
+      },
+      "photo": "ice-cube-tray.jpg",
+      "figmaNode": "134:5721",
+      "src": "drafts/ice-cube-tray.jpg"
+    },
+    {
+      "id": "inkjet-printer",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Inkjet printer",
+        "pt-BR": "Impressora jato de tinta"
+      },
+      "photo": "inkjet-printer.jpg",
+      "figmaNode": "151:6583",
+      "src": "drafts/inkjet-printer.jpg"
+    },
+    {
+      "id": "instant-camera",
+      "categoryId": "eletro-pessoais",
+      "name": {
+        "en": "Instant camera",
+        "pt-BR": "Câmera instantânea"
+      },
+      "photo": "instant-camera.jpg",
+      "figmaNode": "136:5592",
+      "src": "drafts/instant-camera.jpg"
+    },
+    {
+      "id": "insulated-camp-mug",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Insulated camp mug",
+        "pt-BR": "Caneca térmica"
+      },
+      "photo": "insulated-camp-mug.jpg",
+      "figmaNode": "134:5741",
+      "src": "drafts/insulated-camp-mug.jpg"
+    },
+    {
+      "id": "insulated-snow-boot",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Insulated snow boot",
+        "pt-BR": "Bota de neve forrada"
+      },
+      "photo": "insulated-snow-boot.jpg",
+      "figmaNode": "136:5638",
+      "src": "drafts/insulated-snow-boot.jpg"
+    },
+    {
+      "id": "juicer",
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Juicer",
+        "pt-BR": "Centrífuga de sucos"
+      },
+      "photo": "juicer.jpg",
+      "figmaNode": "134:5744",
+      "src": "drafts/juicer.jpg"
+    },
+    {
+      "id": "jump-rope",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Jump rope",
+        "pt-BR": "Corda de pular"
+      },
+      "photo": "jump-rope.jpg",
+      "figmaNode": "136:5608",
+      "src": "drafts/jump-rope.jpg"
+    },
+    {
+      "id": "ketchup",
+      "categoryId": "mercado-temperos-molhos",
+      "name": {
+        "en": "Ketchup",
+        "pt-BR": "Ketchup"
+      },
+      "photo": "ketchup.jpg",
+      "figmaNode": "132:5602",
+      "src": "drafts/ketchup.jpg"
+    },
+    {
+      "id": "keypad-deadbolt",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Keypad deadbolt",
+        "pt-BR": "Fechadura com teclado"
+      },
+      "photo": "keypad-deadbolt.jpg",
+      "figmaNode": "134:5694",
+      "src": "drafts/keypad-deadbolt.jpg"
+    },
+    {
+      "id": "kitchen-knife-set",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Kitchen knife set",
+        "pt-BR": "Jogo de facas"
+      },
+      "photo": "kitchen-knife-set.jpg",
+      "figmaNode": "134:5743",
+      "src": "drafts/kitchen-knife-set.jpg"
+    },
+    {
+      "id": "kitchen-scale",
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Digital kitchen scale",
+        "pt-BR": "Balança de cozinha digital"
+      },
+      "photo": "kitchen-scale.jpg",
+      "figmaNode": "134:5737",
+      "src": "drafts/kitchen-scale.jpg"
+    },
+    {
+      "id": "knit-sneaker-boot",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Knit sneaker boot",
+        "pt-BR": "Bota-tênis em malha"
+      },
+      "photo": "knit-sneaker-boot.jpg",
+      "figmaNode": "136:5641",
+      "src": "drafts/knit-sneaker-boot.jpg"
+    },
+    {
+      "id": "laptop-sleeve",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Laptop sleeve",
+        "pt-BR": "Capa para notebook"
+      },
+      "photo": "laptop-sleeve.jpg",
+      "figmaNode": "134:5709",
+      "src": "drafts/laptop-sleeve.jpg"
+    },
+    {
+      "id": "laptop",
+      "categoryId": "eletro-pessoais",
+      "name": {
+        "en": "Laptop",
+        "pt-BR": "Notebook"
+      },
+      "photo": "laptop.jpg",
+      "figmaNode": "129:5575",
+      "src": "drafts/laptop.jpg"
+    },
+    {
+      "id": "laundry-detergent",
+      "categoryId": "mercado-limpeza",
+      "name": {
+        "en": "Liquid laundry detergent",
+        "pt-BR": "Sabão líquido para roupas"
+      },
+      "photo": "laundry-detergent.jpg",
+      "figmaNode": "129:5572",
+      "src": "drafts/laundry-detergent.jpg"
+    },
+    {
+      "id": "leather-belt",
+      "categoryId": "roupa-acessorios-acessorios",
+      "name": {
+        "en": "Leather belt",
+        "pt-BR": "Cinto de couro"
+      },
+      "photo": "leather-belt.jpg",
+      "figmaNode": "136:5582",
+      "src": "drafts/leather-belt.jpg"
+    },
+    {
+      "id": "leather-biker-jacket",
+      "categoryId": "roupa-parte-de-cima-formal",
+      "name": {
+        "en": "Leather biker jacket",
+        "pt-BR": "Jaqueta de couro estilo motociclista"
+      },
+      "photo": "leather-biker-jacket.jpg",
+      "figmaNode": "136:5589",
+      "src": "drafts/leather-biker-jacket.jpg"
+    },
+    {
+      "id": "leather-high-top-sneaker",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Leather high-top sneaker",
+        "pt-BR": "Tênis cano alto de couro"
+      },
+      "photo": "leather-high-top-sneaker.jpg",
+      "figmaNode": "136:5639",
+      "src": "drafts/leather-high-top-sneaker.jpg"
+    },
+    {
+      "id": "leather-platform-sneaker",
+      "categoryId": "roupa-sapatos",
+      "name": {
+        "en": "Leather platform sneaker",
+        "pt-BR": "Tênis de couro com plataforma"
+      },
+      "photo": "leather-platform-sneaker.jpg",
+      "figmaNode": "129:5571",
+      "notes": "Source photo has a black background",
+      "src": "drafts/leather-platform-sneaker.jpg"
+    },
+    {
+      "id": "leather-satchel-bag",
+      "categoryId": "roupa-acessorios-acessorios",
+      "name": {
+        "en": "Leather satchel bag",
+        "pt-BR": "Bolsa satchel de couro"
+      },
+      "photo": "leather-satchel-bag.jpg",
+      "figmaNode": "136:5622",
+      "src": "drafts/leather-satchel-bag.jpg"
+    },
+    {
+      "id": "led-headlamp",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "LED headlamp",
+        "pt-BR": "Lanterna de cabeça LED"
+      },
+      "photo": "led-headlamp.jpg",
+      "figmaNode": "136:5653",
+      "src": "drafts/led-headlamp.jpg"
+    },
+    {
+      "id": "lemon",
+      "categoryId": "mercado-vegetais-fungos",
+      "name": {
+        "en": "Lemon",
+        "pt-BR": "Limão-siciliano"
+      },
+      "photo": "lemon.jpg",
+      "figmaNode": "134:5617",
+      "src": "drafts/lemon.jpg"
+    },
+    {
+      "id": "lettuce",
+      "categoryId": "mercado-vegetais-fungos",
+      "name": {
+        "en": "Lettuce",
+        "pt-BR": "Alface"
+      },
+      "photo": "lettuce.jpg",
+      "figmaNode": "134:5691",
+      "src": "drafts/lettuce.jpg"
+    },
+    {
+      "id": "lightweight-trail-boot",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Lightweight trail boot",
+        "pt-BR": "Bota de trilha leve"
+      },
+      "photo": "lightweight-trail-boot.jpg",
+      "figmaNode": "136:5636",
+      "src": "drafts/lightweight-trail-boot.jpg"
+    },
+    {
+      "id": "lime",
+      "categoryId": "mercado-vegetais-fungos",
+      "name": {
+        "en": "Lime",
+        "pt-BR": "Limão-taiti"
+      },
+      "photo": "lime.jpg",
+      "figmaNode": "134:5619",
+      "src": "drafts/lime.jpg"
+    },
+    {
+      "id": "mango",
+      "categoryId": "mercado-vegetais-fungos",
+      "name": {
+        "en": "Mango",
+        "pt-BR": "Manga"
+      },
+      "photo": "mango.jpg",
+      "figmaNode": "134:5613",
+      "src": "drafts/mango.jpg"
+    },
+    {
+      "id": "manual-coffee-grinder",
+      "categoryId": "casa-hobbies",
+      "name": {
+        "en": "Manual coffee grinder",
+        "pt-BR": "Moedor de café manual"
+      },
+      "photo": "manual-coffee-grinder.jpg",
+      "figmaNode": "136:5579",
+      "src": "drafts/manual-coffee-grinder.jpg"
+    },
+    {
+      "id": "maple-syrup",
+      "categoryId": "mercado-temperos-molhos",
+      "name": {
+        "en": "Maple syrup",
+        "pt-BR": "Xarope de bordo"
+      },
+      "photo": "maple-syrup.jpg",
+      "figmaNode": "134:5699",
+      "src": "drafts/maple-syrup.jpg"
+    },
+    {
+      "id": "mesh-laundry-bags",
+      "categoryId": "casa-organizacao-limpeza",
+      "name": {
+        "en": "Mesh laundry bag set",
+        "pt-BR": "Sacos de lavagem em tela"
+      },
+      "photo": "mesh-laundry-bags.jpg",
+      "figmaNode": "136:5591",
+      "src": "drafts/mesh-laundry-bags.jpg"
+    },
+    {
+      "id": "microwave-oven",
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Microwave oven",
+        "pt-BR": "Micro-ondas"
+      },
+      "photo": "microwave-oven.jpg",
+      "figmaNode": "131:5582",
+      "src": "drafts/microwave-oven.jpg"
+    },
+    {
+      "id": "military-hiking-boot",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Military hiking boot",
+        "pt-BR": "Bota de trilha militar"
+      },
+      "photo": "military-hiking-boot.jpg",
+      "figmaNode": "136:5632",
+      "src": "drafts/military-hiking-boot.jpg"
+    },
+    {
+      "id": "milk-chocolate-bar",
+      "categoryId": "mercado-lanches",
+      "name": {
+        "en": "Milk chocolate bar",
+        "pt-BR": "Barra de chocolate ao leite"
+      },
+      "photo": "milk-chocolate-bar.jpg",
+      "figmaNode": "130:5578",
+      "src": "drafts/milk-chocolate-bar.jpg"
+    },
+    {
+      "id": "mixed-nuts",
+      "categoryId": "mercado-graos",
+      "name": {
+        "en": "Mixed nuts",
+        "pt-BR": "Mix de castanhas"
+      },
+      "photo": "mixed-nuts.jpg",
+      "figmaNode": "135:5573",
+      "src": "drafts/mixed-nuts.jpg"
+    },
+    {
+      "id": "mixing-bowl-set",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Stainless steel mixing bowl set",
+        "pt-BR": "Jogo de tigelas de aço inox"
+      },
+      "photo": "mixing-bowl-set.jpg",
+      "figmaNode": "134:5745",
+      "src": "drafts/mixing-bowl-set.jpg"
+    },
+    {
+      "id": "mustard",
+      "categoryId": "mercado-temperos-molhos",
+      "name": {
+        "en": "Mustard",
+        "pt-BR": "Mostarda"
+      },
+      "photo": "mustard.jpg",
+      "figmaNode": "132:5603",
+      "src": "drafts/mustard.jpg"
+    },
+    {
+      "id": "nonstick-cookware-set",
+      "categoryId": "casa-panelas",
+      "name": {
+        "en": "Nonstick cookware set",
+        "pt-BR": "Jogo de panelas antiaderentes"
+      },
+      "photo": "nonstick-cookware-set.jpg",
+      "figmaNode": "134:5731",
+      "src": "drafts/nonstick-cookware-set.jpg"
+    },
+    {
+      "id": "nonstick-frying-pan",
+      "categoryId": "casa-panelas",
+      "name": {
+        "en": "Nonstick frying pan",
+        "pt-BR": "Frigideira antiaderente"
+      },
+      "photo": "nonstick-frying-pan.jpg",
+      "figmaNode": "132:5595",
+      "src": "drafts/nonstick-frying-pan.jpg"
+    },
+    {
+      "id": "nubuck-lace-up-boot",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Nubuck lace-up boot",
+        "pt-BR": "Bota de nobuck com cadarço"
+      },
+      "photo": "nubuck-lace-up-boot.jpg",
+      "figmaNode": "136:5630",
+      "src": "drafts/nubuck-lace-up-boot.jpg"
+    },
+    {
+      "id": "office-chair",
+      "categoryId": "casa-hobbies",
+      "name": {
+        "en": "Office chair",
+        "pt-BR": "Cadeira de escritório"
+      },
+      "photo": "office-chair.jpg",
+      "figmaNode": "134:5646",
+      "src": "drafts/office-chair.jpg"
+    },
+    {
+      "id": "oil-sprayer-bottle",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Oil sprayer bottle",
+        "pt-BR": "Spray de azeite"
+      },
+      "photo": "oil-sprayer-bottle.jpg",
+      "figmaNode": "134:5740",
+      "src": "drafts/oil-sprayer-bottle.jpg"
+    },
+    {
+      "id": "olive-oil",
+      "categoryId": "mercado-temperos-molhos",
+      "name": {
+        "en": "Olive oil",
+        "pt-BR": "Azeite"
+      },
+      "photo": "olive-oil.jpg",
+      "figmaNode": "132:5598",
+      "src": "drafts/olive-oil.jpg"
+    },
+    {
+      "id": "orange-juice",
+      "categoryId": "mercado-bebidas-nao-alcoolicas",
+      "name": {
+        "en": "Orange juice",
+        "pt-BR": "Suco de laranja"
+      },
+      "photo": "orange-juice.jpg",
+      "figmaNode": "130:5574",
+      "src": "drafts/orange-juice.jpg"
+    },
+    {
+      "id": "orange",
+      "categoryId": "mercado-vegetais-fungos",
+      "name": {
+        "en": "Orange",
+        "pt-BR": "Laranja"
+      },
+      "photo": "orange.jpg",
+      "figmaNode": "134:5615",
+      "src": "drafts/orange.jpg"
+    },
+    {
+      "id": "over-ear-headphones",
+      "categoryId": "eletro-pessoais",
+      "name": {
+        "en": "Over-ear headphones",
+        "pt-BR": "Fone de ouvido over-ear"
+      },
+      "photo": "over-ear-headphones.jpg",
+      "figmaNode": "129:5586",
+      "src": "drafts/over-ear-headphones.jpg"
+    },
+    {
+      "id": "oxford-dress-shoe",
+      "categoryId": "roupa-sapatos",
+      "name": {
+        "en": "Oxford dress shoe",
+        "pt-BR": "Sapato Oxford"
+      },
+      "photo": "oxford-dress-shoe.jpg",
+      "figmaNode": "136:5580",
+      "src": "drafts/oxford-dress-shoe.jpg"
+    },
+    {
+      "id": "parmesan-wedge",
+      "categoryId": "mercado-pao-leite-ovos",
+      "name": {
+        "en": "Parmesan wedge",
+        "pt-BR": "Parmesão em pedaço"
+      },
+      "photo": "parmesan-wedge.jpg",
+      "figmaNode": "131:5587",
+      "src": "drafts/parmesan-wedge.jpg"
+    },
+    {
+      "id": "pasta-pot-with-strainer",
+      "categoryId": "casa-panelas",
+      "name": {
+        "en": "Pasta pot with strainer insert",
+        "pt-BR": "Espagueteira com escorredor"
+      },
+      "photo": "pasta-pot-with-strainer.jpg",
+      "figmaNode": "134:5730",
+      "src": "drafts/pasta-pot-with-strainer.jpg"
+    },
+    {
+      "id": "pepper-mill",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Pepper mill",
+        "pt-BR": "Moedor de pimenta"
+      },
+      "photo": "pepper-mill.jpg",
+      "figmaNode": "134:5644",
+      "src": "drafts/pepper-mill.jpg"
+    },
+    {
+      "id": "phone-stand",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Phone stand",
+        "pt-BR": "Suporte para celular"
+      },
+      "photo": "phone-stand.jpg",
+      "figmaNode": "134:5720",
+      "src": "drafts/phone-stand.jpg"
+    },
+    {
+      "id": "pillar-candle",
+      "categoryId": "casa-moveis-decoracao",
+      "name": {
+        "en": "Pillar candle",
+        "pt-BR": "Vela pilar"
+      },
+      "photo": "pillar-candle.jpg",
+      "figmaNode": "129:5590",
+      "src": "drafts/pillar-candle.jpg"
+    },
+    {
+      "id": "popcorn-maker",
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Popcorn maker",
+        "pt-BR": "Pipoqueira elétrica"
+      },
+      "photo": "popcorn-maker.jpg",
+      "figmaNode": "134:5738",
+      "src": "drafts/popcorn-maker.jpg"
+    },
+    {
+      "id": "portable-ssd",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Portable SSD",
+        "pt-BR": "SSD portátil"
+      },
+      "photo": "portable-ssd.jpg",
+      "figmaNode": "134:5632",
+      "src": "drafts/portable-ssd.jpg"
+    },
+    {
+      "id": "portable-table-lamp",
+      "categoryId": "casa-moveis-decoracao",
+      "name": {
+        "en": "Portable table lamp",
+        "pt-BR": "Luminária de mesa portátil"
+      },
+      "photo": "portable-table-lamp.jpg",
+      "figmaNode": "131:5588",
+      "src": "drafts/portable-table-lamp.jpg"
+    },
+    {
+      "id": "potato-chips",
+      "categoryId": "mercado-lanches",
+      "name": {
+        "en": "Potato chips",
+        "pt-BR": "Batata chips"
+      },
+      "photo": "potato-chips.jpg",
+      "figmaNode": "129:5576",
+      "src": "drafts/potato-chips.jpg"
+    },
+    {
+      "id": "powder-detergent-box",
+      "categoryId": "mercado-limpeza",
+      "name": {
+        "en": "Powder detergent box",
+        "pt-BR": "Sabão em pó"
+      },
+      "photo": "powder-detergent-box.jpg",
+      "figmaNode": "134:5647",
+      "src": "drafts/powder-detergent-box.jpg"
+    },
+    {
+      "id": "power-strip",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Power strip",
+        "pt-BR": "Régua de tomadas"
+      },
+      "photo": "power-strip.jpg",
+      "figmaNode": "134:5702",
+      "src": "drafts/power-strip.jpg"
+    },
+    {
+      "id": "pressure-cooker",
+      "categoryId": "casa-panelas",
+      "name": {
+        "en": "Pressure cooker",
+        "pt-BR": "Panela de pressão"
+      },
+      "photo": "pressure-cooker.jpg",
+      "figmaNode": "134:5729",
+      "src": "drafts/pressure-cooker.jpg"
+    },
+    {
+      "id": "pumpkin",
+      "categoryId": "mercado-vegetais-fungos",
+      "name": {
+        "en": "Pumpkin",
+        "pt-BR": "Abóbora"
+      },
+      "photo": "pumpkin.jpg",
+      "figmaNode": "134:5672",
+      "src": "drafts/pumpkin.jpg"
+    },
+    {
+      "id": "quilted-slip-on-shoe",
+      "categoryId": "roupa-sapatos",
+      "name": {
+        "en": "Quilted slip-on shoe",
+        "pt-BR": "Sapato slip-on matelassê"
+      },
+      "photo": "quilted-slip-on-shoe.jpg",
+      "figmaNode": "136:5659",
+      "src": "drafts/quilted-slip-on-shoe.jpg"
+    },
+    {
+      "id": "quilted-snow-boot",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Quilted snow boot",
+        "pt-BR": "Bota de neve matelassê"
+      },
+      "photo": "quilted-snow-boot.jpg",
+      "figmaNode": "136:5634",
+      "src": "drafts/quilted-snow-boot.jpg"
+    },
+    {
+      "id": "rectangular-food-container",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Rectangular food storage container",
+        "pt-BR": "Pote hermético retangular"
+      },
+      "photo": "rectangular-food-container.jpg",
+      "figmaNode": "134:5649",
+      "src": "drafts/rectangular-food-container.jpg"
+    },
+    {
+      "id": "red-bell-pepper",
+      "categoryId": "mercado-vegetais-fungos",
+      "name": {
+        "en": "Red bell pepper",
+        "pt-BR": "Pimentão vermelho"
+      },
+      "photo": "red-bell-pepper.jpg",
+      "figmaNode": "134:5640",
+      "src": "drafts/red-bell-pepper.jpg"
+    },
+    {
+      "id": "red-grapes",
+      "categoryId": "mercado-vegetais-fungos",
+      "name": {
+        "en": "Red grapes",
+        "pt-BR": "Uva rosada"
+      },
+      "photo": "red-grapes.jpg",
+      "figmaNode": "134:5616",
+      "src": "drafts/red-grapes.jpg"
+    },
+    {
+      "id": "red-onion",
+      "categoryId": "mercado-vegetais-fungos",
+      "name": {
+        "en": "Red onion",
+        "pt-BR": "Cebola roxa"
+      },
+      "photo": "red-onion.jpg",
+      "figmaNode": "130:5577",
+      "src": "drafts/red-onion.jpg"
+    },
+    {
+      "id": "red-wine",
+      "categoryId": "mercado-bebidas-alcoolicas",
+      "name": {
+        "en": "Red wine",
+        "pt-BR": "Vinho tinto"
+      },
+      "photo": "red-wine.jpg",
+      "figmaNode": "129:5579",
+      "src": "drafts/red-wine.jpg"
+    },
+    {
+      "id": "robot-vacuum",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Robot vacuum",
+        "pt-BR": "Robô aspirador"
+      },
+      "photo": "robot-vacuum.jpg",
+      "figmaNode": "134:5747",
+      "src": "drafts/robot-vacuum.jpg"
+    },
+    {
+      "id": "rolled-oats",
+      "categoryId": "mercado-graos",
+      "name": {
+        "en": "Rolled oats",
+        "pt-BR": "Aveia em flocos"
+      },
+      "photo": "rolled-oats.jpg",
+      "figmaNode": "129:5610",
+      "src": "drafts/rolled-oats.jpg"
+    },
+    {
+      "id": "scrub-brush",
+      "categoryId": "casa-organizacao-limpeza",
+      "name": {
+        "en": "Scrub brush",
+        "pt-BR": "Escova de limpeza"
+      },
+      "photo": "scrub-brush.jpg",
+      "figmaNode": "136:5602",
+      "src": "drafts/scrub-brush.jpg"
+    },
+    {
+      "id": "security-camera",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Security camera",
+        "pt-BR": "Câmera de segurança"
+      },
+      "photo": "security-camera.jpg",
+      "figmaNode": "134:5718",
+      "src": "drafts/security-camera.jpg"
+    },
+    {
+      "id": "sherpa-collar-ankle-boot",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Sherpa-collar ankle boot",
+        "pt-BR": "Bota cano curto com gola sherpa"
+      },
+      "photo": "sherpa-collar-ankle-boot.jpg",
+      "figmaNode": "136:5640",
+      "src": "drafts/sherpa-collar-ankle-boot.jpg"
+    },
+    {
+      "id": "sherpa-lined-hiking-boot",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Sherpa-lined hiking boot",
+        "pt-BR": "Bota de trilha forrada em sherpa"
+      },
+      "photo": "sherpa-lined-hiking-boot.jpg",
+      "figmaNode": "136:5628",
+      "src": "drafts/sherpa-lined-hiking-boot.jpg"
+    },
+    {
+      "id": "silicone-muffin-pan",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Silicone muffin pan",
+        "pt-BR": "Forma de silicone para muffins"
+      },
+      "photo": "silicone-muffin-pan.jpg",
+      "figmaNode": "134:5748",
+      "src": "drafts/silicone-muffin-pan.jpg"
+    },
+    {
+      "id": "silicone-spatula",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Silicone spatula",
+        "pt-BR": "Espátula de silicone"
+      },
+      "photo": "silicone-spatula.jpg",
+      "figmaNode": "134:5750",
+      "src": "drafts/silicone-spatula.jpg"
+    },
+    {
+      "id": "silicone-whisk",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Silicone whisk",
+        "pt-BR": "Batedor de silicone"
+      },
+      "photo": "silicone-whisk.jpg",
+      "figmaNode": "136:5598",
+      "src": "drafts/silicone-whisk.jpg"
+    },
+    {
+      "id": "ski-helmet",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Ski helmet",
+        "pt-BR": "Capacete de esqui"
+      },
+      "photo": "ski-helmet.jpg",
+      "figmaNode": "136:5665",
+      "src": "drafts/ski-helmet.jpg"
+    },
+    {
+      "id": "sleeping-bag",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Sleeping bag",
+        "pt-BR": "Saco de dormir"
+      },
+      "photo": "sleeping-bag.jpg",
+      "figmaNode": "136:5647",
+      "src": "drafts/sleeping-bag.jpg"
+    },
+    {
+      "id": "sliced-bread",
+      "categoryId": "mercado-pao-leite-ovos",
+      "name": {
+        "en": "Sliced bread",
+        "pt-BR": "Pão de forma"
+      },
+      "photo": "sliced-bread.jpg",
+      "figmaNode": "130:5580",
+      "src": "drafts/sliced-bread.jpg"
+    },
+    {
+      "id": "sliced-cheddar",
+      "categoryId": "mercado-pao-leite-ovos",
+      "name": {
+        "en": "Sliced cheddar",
+        "pt-BR": "Queijo prato fatiado"
+      },
+      "photo": "sliced-cheddar.jpg",
+      "figmaNode": "136:5604",
+      "src": "drafts/sliced-cheddar.jpg"
+    },
+    {
+      "id": "sliced-mozzarella",
+      "categoryId": "mercado-pao-leite-ovos",
+      "name": {
+        "en": "Sliced mozzarella",
+        "pt-BR": "Mussarela fatiada"
+      },
+      "photo": "sliced-mozzarella.jpg",
+      "figmaNode": "134:5614",
+      "src": "drafts/sliced-mozzarella.jpg"
+    },
+    {
+      "id": "smart-door-lock",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Smart door lock",
+        "pt-BR": "Fechadura digital"
+      },
+      "photo": "smart-door-lock.jpg",
+      "figmaNode": "136:5621",
+      "src": "drafts/smart-door-lock.jpg"
+    },
+    {
+      "id": "smart-scale",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Smart body scale",
+        "pt-BR": "Balança inteligente"
+      },
+      "photo": "smart-scale.jpg",
+      "figmaNode": "136:5617",
+      "src": "drafts/smart-scale.jpg"
+    },
+    {
+      "id": "smart-speaker",
+      "categoryId": "eletro-casa-entretenimento",
+      "name": {
+        "en": "Smart speaker",
+        "pt-BR": "Caixa de som inteligente"
+      },
+      "photo": "smart-speaker.jpg",
+      "figmaNode": "134:5711",
+      "src": "drafts/smart-speaker.jpg"
+    },
+    {
+      "id": "smart-tv",
+      "categoryId": "eletro-casa-entretenimento",
+      "name": {
+        "en": "Smart TV",
+        "pt-BR": "Smart TV"
+      },
+      "photo": "smart-tv.jpg",
+      "figmaNode": "133:5605",
+      "src": "drafts/smart-tv.jpg"
+    },
+    {
+      "id": "smartphone",
+      "categoryId": "eletro-pessoais",
+      "name": {
+        "en": "Smartphone",
+        "pt-BR": "Smartphone"
+      },
+      "photo": "smartphone.jpg",
+      "figmaNode": "129:5583",
+      "src": "drafts/smartphone.jpg"
+    },
+    {
+      "id": "smartwatch",
+      "categoryId": "eletro-pessoais",
+      "name": {
+        "en": "Smartwatch",
+        "pt-BR": "Relógio inteligente"
+      },
+      "photo": "smartwatch.jpg",
+      "figmaNode": "134:5673",
+      "src": "drafts/smartwatch.jpg"
+    },
+    {
+      "id": "soccer-ball",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Soccer ball",
+        "pt-BR": "Bola de futebol"
+      },
+      "photo": "soccer-ball.jpg",
+      "figmaNode": "134:5657",
+      "src": "drafts/soccer-ball.jpg"
+    },
+    {
+      "id": "soy-sauce",
+      "categoryId": "mercado-temperos-molhos",
+      "name": {
+        "en": "Soy sauce",
+        "pt-BR": "Molho shoyu"
+      },
+      "photo": "soy-sauce.jpg",
+      "figmaNode": "134:5639",
+      "src": "drafts/soy-sauce.jpg"
+    },
+    {
+      "id": "spaghetti",
+      "categoryId": "mercado-graos",
+      "name": {
+        "en": "Spaghetti",
+        "pt-BR": "Espaguete"
+      },
+      "photo": "spaghetti.jpg",
+      "figmaNode": "129:5600",
+      "src": "drafts/spaghetti.jpg"
+    },
+    {
+      "id": "sparkling-water-can",
+      "categoryId": "mercado-bebidas-nao-alcoolicas",
+      "name": {
+        "en": "Sparkling water can",
+        "pt-BR": "Água com gás em lata"
+      },
+      "photo": "sparkling-water-can.jpg",
+      "figmaNode": "129:5577",
+      "notes": "Source photo has printed text (\"AQUA\")",
+      "src": "drafts/sparkling-water-can.jpg"
+    },
+    {
+      "id": "sparkling-wine",
+      "categoryId": "mercado-bebidas-alcoolicas",
+      "name": {
+        "en": "Sparkling wine",
+        "pt-BR": "Espumante"
+      },
+      "photo": "sparkling-wine.jpg",
+      "figmaNode": "134:5710",
+      "src": "drafts/sparkling-wine.jpg"
+    },
+    {
+      "id": "split-air-conditioner",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Split air conditioner",
+        "pt-BR": "Ar-condicionado split"
+      },
+      "photo": "split-air-conditioner.jpg",
+      "figmaNode": "131:5583",
+      "src": "drafts/split-air-conditioner.jpg"
+    },
+    {
+      "id": "sports-water-bottle",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Sports water bottle",
+        "pt-BR": "Garrafa esportiva"
+      },
+      "photo": "sports-water-bottle.jpg",
+      "figmaNode": "136:5650",
+      "src": "drafts/sports-water-bottle.jpg"
+    },
+    {
+      "id": "stainless-steel-cookware-set",
+      "categoryId": "casa-panelas",
+      "name": {
+        "en": "Stainless steel cookware set",
+        "pt-BR": "Jogo de panelas de aço inox"
+      },
+      "photo": "stainless-steel-cookware-set.jpg",
+      "figmaNode": "134:5733",
+      "src": "drafts/stainless-steel-cookware-set.jpg"
+    },
+    {
+      "id": "stainless-steel-frying-pan",
+      "categoryId": "casa-panelas",
+      "name": {
+        "en": "Stainless steel frying pan",
+        "pt-BR": "Frigideira de aço inox"
+      },
+      "photo": "stainless-steel-frying-pan.jpg",
+      "figmaNode": "134:5688",
+      "src": "drafts/stainless-steel-frying-pan.jpg"
+    },
+    {
+      "id": "stainless-steel-stock-pot",
+      "categoryId": "casa-panelas",
+      "name": {
+        "en": "Stainless steel stock pot",
+        "pt-BR": "Caldeirão de aço inox"
+      },
+      "photo": "stainless-steel-stock-pot.jpg",
+      "figmaNode": "134:5728",
+      "src": "drafts/stainless-steel-stock-pot.jpg"
+    },
+    {
+      "id": "stainless-steel-whisk",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Stainless steel whisk",
+        "pt-BR": "Batedor de aço inox"
+      },
+      "photo": "stainless-steel-whisk.jpg",
+      "figmaNode": "136:5596",
+      "src": "drafts/stainless-steel-whisk.jpg"
+    },
+    {
+      "id": "stand-mixer",
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Stand mixer",
+        "pt-BR": "Batedeira planetária"
+      },
+      "photo": "stand-mixer.jpg",
+      "figmaNode": "131:5591",
+      "src": "drafts/stand-mixer.jpg"
+    },
+    {
+      "id": "steam-iron",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Steam iron",
+        "pt-BR": "Ferro a vapor"
+      },
+      "photo": "steam-iron.jpg",
+      "figmaNode": "131:5580",
+      "src": "drafts/steam-iron.jpg"
+    },
+    {
+      "id": "step-trash-can",
+      "categoryId": "casa-organizacao-limpeza",
+      "name": {
+        "en": "Step trash can",
+        "pt-BR": "Lixeira com pedal"
+      },
+      "photo": "step-trash-can.jpg",
+      "figmaNode": "134:5667",
+      "src": "drafts/step-trash-can.jpg"
+    },
+    {
+      "id": "suede-hiking-boot",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Suede hiking boot",
+        "pt-BR": "Bota de trilha em camurça"
+      },
+      "photo": "suede-hiking-boot.jpg",
+      "figmaNode": "136:5629",
+      "src": "drafts/suede-hiking-boot.jpg"
+    },
+    {
+      "id": "swim-goggles",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Swim goggles",
+        "pt-BR": "Óculos de natação"
+      },
+      "photo": "swim-goggles.jpg",
+      "figmaNode": "134:5670",
+      "src": "drafts/swim-goggles.jpg"
+    },
+    {
+      "id": "tahini",
+      "categoryId": "mercado-temperos-molhos",
+      "name": {
+        "en": "Tahini",
+        "pt-BR": "Tahine"
+      },
+      "photo": "tahini.jpg",
+      "figmaNode": "135:5572",
+      "src": "drafts/tahini.jpg"
+    },
+    {
+      "id": "tailored-blazer",
+      "categoryId": "roupa-parte-de-cima-formal",
+      "name": {
+        "en": "Tailored blazer",
+        "pt-BR": "Blazer de alfaiataria"
+      },
+      "photo": "tailored-blazer.jpg",
+      "figmaNode": "136:5581",
+      "src": "drafts/tailored-blazer.jpg"
+    },
+    {
+      "id": "telescopic-hiking-pole",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Telescopic hiking pole",
+        "pt-BR": "Bastão de caminhada telescópico"
+      },
+      "photo": "telescopic-hiking-pole.jpg",
+      "figmaNode": "136:5654",
+      "src": "drafts/telescopic-hiking-pole.jpg"
+    },
+    {
+      "id": "toaster",
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Toaster",
+        "pt-BR": "Torradeira"
+      },
+      "photo": "toaster.jpg",
+      "figmaNode": "131:5590",
+      "src": "drafts/toaster.jpg"
+    },
+    {
+      "id": "toilet-paper-pack",
+      "categoryId": "mercado-limpeza",
+      "name": {
+        "en": "Toilet paper pack",
+        "pt-BR": "Papel higiênico"
+      },
+      "photo": "toilet-paper-pack.jpg",
+      "figmaNode": "129:5603",
+      "src": "drafts/toilet-paper-pack.jpg"
+    },
+    {
+      "id": "tomato-passata",
+      "categoryId": "mercado-temperos-molhos",
+      "name": {
+        "en": "Tomato passata",
+        "pt-BR": "Molho de tomate passata"
+      },
+      "photo": "tomato-passata.jpg",
+      "figmaNode": "129:5599",
+      "src": "drafts/tomato-passata.jpg"
+    },
+    {
+      "id": "tomato-sauce-jar",
+      "categoryId": "mercado-temperos-molhos",
+      "name": {
+        "en": "Tomato sauce",
+        "pt-BR": "Molho de tomate em vidro"
+      },
+      "photo": "tomato-sauce-jar.jpg",
+      "figmaNode": "132:5599",
+      "src": "drafts/tomato-sauce-jar.jpg"
+    },
+    {
+      "id": "tomato",
+      "categoryId": "mercado-vegetais-fungos",
+      "name": {
+        "en": "Tomato",
+        "pt-BR": "Tomate"
+      },
+      "photo": "tomato.jpg",
+      "figmaNode": "134:5610",
+      "src": "drafts/tomato.jpg"
+    },
+    {
+      "id": "trekking-poles",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Trekking poles",
+        "pt-BR": "Bastões de trekking"
+      },
+      "photo": "trekking-poles.jpg",
+      "figmaNode": "136:5651",
+      "src": "drafts/trekking-poles.jpg"
+    },
+    {
+      "id": "upright-vacuum",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Upright vacuum cleaner",
+        "pt-BR": "Aspirador vertical"
+      },
+      "photo": "upright-vacuum.jpg",
+      "figmaNode": "134:5746",
+      "src": "drafts/upright-vacuum.jpg"
+    },
+    {
+      "id": "utility-overshirt",
+      "categoryId": "roupa-parte-de-cima-formal",
+      "name": {
+        "en": "Utility overshirt",
+        "pt-BR": "Sobrecamisa utilitária"
+      },
+      "photo": "utility-overshirt.jpg",
+      "figmaNode": "134:5631",
+      "src": "drafts/utility-overshirt.jpg"
+    },
+    {
+      "id": "wafer-cookies",
+      "categoryId": "mercado-lanches",
+      "name": {
+        "en": "Wafer cookies",
+        "pt-BR": "Biscoito wafer"
+      },
+      "photo": "wafer-cookies.jpg",
+      "figmaNode": "136:5587",
+      "src": "drafts/wafer-cookies.jpg"
+    },
+    {
+      "id": "watering-can",
+      "categoryId": "casa-hobbies",
+      "name": {
+        "en": "Watering can",
+        "pt-BR": "Regador"
+      },
+      "photo": "watering-can.jpg",
+      "figmaNode": "134:5658",
+      "src": "drafts/watering-can.jpg"
+    },
+    {
+      "id": "waterproof-trail-sneaker",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Waterproof trail sneaker",
+        "pt-BR": "Tênis de trilha impermeável"
+      },
+      "photo": "waterproof-trail-sneaker.jpg",
+      "figmaNode": "136:5633",
+      "src": "drafts/waterproof-trail-sneaker.jpg"
+    },
+    {
+      "id": "webcam",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Webcam",
+        "pt-BR": "Webcam"
+      },
+      "photo": "webcam.jpg",
+      "figmaNode": "134:5717",
+      "src": "drafts/webcam.jpg"
+    },
+    {
+      "id": "whiskey",
+      "categoryId": "mercado-bebidas-alcoolicas",
+      "name": {
+        "en": "Whiskey",
+        "pt-BR": "Uísque"
+      },
+      "photo": "whiskey.jpg",
+      "figmaNode": "134:5627",
+      "src": "drafts/whiskey.jpg"
+    },
+    {
+      "id": "white-mushrooms",
+      "categoryId": "mercado-vegetais-fungos",
+      "name": {
+        "en": "White mushrooms",
+        "pt-BR": "Cogumelo Paris"
+      },
+      "photo": "white-mushrooms.jpg",
+      "figmaNode": "132:5601",
+      "src": "drafts/white-mushrooms.jpg"
+    },
+    {
+      "id": "white-wine-vinegar",
+      "categoryId": "mercado-temperos-molhos",
+      "name": {
+        "en": "White wine vinegar",
+        "pt-BR": "Vinagre de vinho branco"
+      },
+      "photo": "white-wine-vinegar.jpg",
+      "figmaNode": "136:5585",
+      "src": "drafts/white-wine-vinegar.jpg"
+    },
+    {
+      "id": "white-wine",
+      "categoryId": "mercado-bebidas-alcoolicas",
+      "name": {
+        "en": "White wine",
+        "pt-BR": "Vinho branco"
+      },
+      "photo": "white-wine.jpg",
+      "figmaNode": "136:5603",
+      "src": "drafts/white-wine.jpg"
+    },
+    {
+      "id": "wide-beam-headlamp",
+      "categoryId": "esportes-acessorios",
+      "name": {
+        "en": "Wide-beam headlamp",
+        "pt-BR": "Lanterna de cabeça de feixe largo"
+      },
+      "photo": "wide-beam-headlamp.jpg",
+      "figmaNode": "136:5612",
+      "notes": "Source photo has printed text (\"HEADLAMP\")",
+      "src": "drafts/wide-beam-headlamp.jpg"
+    },
+    {
+      "id": "wifi-router",
+      "categoryId": "eletro-casa-praticos",
+      "name": {
+        "en": "Wi-Fi router",
+        "pt-BR": "Roteador Wi-Fi"
+      },
+      "photo": "wifi-router.jpg",
+      "figmaNode": "151:6582",
+      "src": "drafts/wifi-router.jpg"
+    },
+    {
+      "id": "windbreaker-jacket",
+      "categoryId": "roupa-parte-de-cima-casual",
+      "name": {
+        "en": "Windbreaker jacket",
+        "pt-BR": "Jaqueta corta-vento"
+      },
+      "photo": "windbreaker-jacket.jpg",
+      "figmaNode": "151:6559",
+      "src": "drafts/windbreaker-jacket.jpg"
+    },
+    {
+      "id": "wine-cooler",
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Wine cooler",
+        "pt-BR": "Adega climatizada"
+      },
+      "photo": "wine-cooler.jpg",
+      "figmaNode": "134:5681",
+      "src": "drafts/wine-cooler.jpg"
+    },
+    {
+      "id": "wine-glass",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Wine glass",
+        "pt-BR": "Taça de vinho"
+      },
+      "photo": "wine-glass.jpg",
+      "figmaNode": "131:5589",
+      "src": "drafts/wine-glass.jpg"
+    },
+    {
+      "id": "wireless-earbuds",
+      "categoryId": "eletro-pessoais",
+      "name": {
+        "en": "Wireless earbuds",
+        "pt-BR": "Fones sem fio"
+      },
+      "photo": "wireless-earbuds.jpg",
+      "figmaNode": "136:5577",
+      "src": "drafts/wireless-earbuds.jpg"
+    },
+    {
+      "id": "wireless-keyboard",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Wireless keyboard",
+        "pt-BR": "Teclado sem fio"
+      },
+      "photo": "wireless-keyboard.jpg",
+      "figmaNode": "134:5633",
+      "src": "drafts/wireless-keyboard.jpg"
+    },
+    {
+      "id": "wireless-mouse",
+      "categoryId": "eletro-acessorios",
+      "name": {
+        "en": "Wireless mouse",
+        "pt-BR": "Mouse sem fio"
+      },
+      "photo": "wireless-mouse.jpg",
+      "figmaNode": "134:5635",
+      "src": "drafts/wireless-mouse.jpg"
+    },
+    {
+      "id": "wooden-coat-hanger",
+      "categoryId": "casa-organizacao-limpeza",
+      "name": {
+        "en": "Wooden coat hanger",
+        "pt-BR": "Cabide de madeira"
+      },
+      "photo": "wooden-coat-hanger.jpg",
+      "figmaNode": "134:5612",
+      "src": "drafts/wooden-coat-hanger.jpg"
+    },
+    {
+      "id": "wooden-cutting-board",
+      "categoryId": "casa-acessorios-cozinha",
+      "name": {
+        "en": "Wooden cutting board",
+        "pt-BR": "Tábua de corte de madeira"
+      },
+      "photo": "wooden-cutting-board.jpg",
+      "figmaNode": "134:5665",
+      "src": "drafts/wooden-cutting-board.jpg"
+    },
+    {
+      "id": "wooden-stool",
+      "categoryId": "casa-moveis-decoracao",
+      "name": {
+        "en": "Wooden stool",
+        "pt-BR": "Banqueta de madeira"
+      },
+      "photo": "wooden-stool.jpg",
+      "figmaNode": "136:5593",
+      "src": "drafts/wooden-stool.jpg"
+    },
+    {
+      "id": "wool-lined-winter-boot",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Wool-lined winter boot",
+        "pt-BR": "Bota de inverno forrada em lã"
+      },
+      "photo": "wool-lined-winter-boot.jpg",
+      "figmaNode": "136:5635",
+      "src": "drafts/wool-lined-winter-boot.jpg"
+    },
+    {
+      "id": "work-boot",
+      "categoryId": "esportes-sapatos",
+      "name": {
+        "en": "Work boot",
+        "pt-BR": "Bota de trabalho"
+      },
+      "photo": "work-boot.jpg",
+      "figmaNode": "134:5707",
+      "src": "drafts/work-boot.jpg"
+    }
+  ]
+}

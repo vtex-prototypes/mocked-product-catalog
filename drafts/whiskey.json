@@ -1,0 +1,10 @@
+{
+  "id": "whiskey",
+  "categoryId": "mercado-bebidas-alcoolicas",
+  "name": {
+    "en": "Whiskey",
+    "pt-BR": "Uísque"
+  },
+  "photo": "whiskey.jpg",
+  "figmaNode": "134:5627"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "fleece-winter-sneaker",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Fleece winter sneaker",
+    "pt-BR": "Tênis de inverno com fleece"
+  },
+  "photo": "fleece-winter-sneaker.jpg",
+  "figmaNode": "136:5631"
+}

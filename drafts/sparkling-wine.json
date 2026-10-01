@@ -1,0 +1,10 @@
+{
+  "id": "sparkling-wine",
+  "categoryId": "mercado-bebidas-alcoolicas",
+  "name": {
+    "en": "Sparkling wine",
+    "pt-BR": "Espumante"
+  },
+  "photo": "sparkling-wine.jpg",
+  "figmaNode": "134:5710"
+}

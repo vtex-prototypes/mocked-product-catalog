@@ -1,0 +1,10 @@
+{
+  "id": "carrot",
+  "categoryId": "mercado-vegetais-fungos",
+  "name": {
+    "en": "Carrot",
+    "pt-BR": "Cenoura"
+  },
+  "photo": "carrot.jpg",
+  "figmaNode": "134:5637"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "milk-chocolate-bar",
+  "categoryId": "mercado-lanches",
+  "name": {
+    "en": "Milk chocolate bar",
+    "pt-BR": "Barra de chocolate ao leite"
+  },
+  "photo": "milk-chocolate-bar.jpg",
+  "figmaNode": "130:5578"
+}

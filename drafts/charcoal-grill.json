@@ -1,0 +1,10 @@
+{
+  "id": "charcoal-grill",
+  "categoryId": "casa-hobbies",
+  "name": {
+    "en": "Charcoal grill",
+    "pt-BR": "Churrasqueira a carvão"
+  },
+  "photo": "charcoal-grill.jpg",
+  "figmaNode": "134:5706"
+}

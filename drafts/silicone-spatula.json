@@ -1,0 +1,10 @@
+{
+  "id": "silicone-spatula",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Silicone spatula",
+    "pt-BR": "Espátula de silicone"
+  },
+  "photo": "silicone-spatula.jpg",
+  "figmaNode": "134:5750"
+}

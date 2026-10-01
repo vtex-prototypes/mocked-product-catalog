@@ -1,0 +1,10 @@
+{
+  "id": "military-hiking-boot",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Military hiking boot",
+    "pt-BR": "Bota de trilha militar"
+  },
+  "photo": "military-hiking-boot.jpg",
+  "figmaNode": "136:5632"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "mesh-laundry-bags",
+  "categoryId": "casa-organizacao-limpeza",
+  "name": {
+    "en": "Mesh laundry bag set",
+    "pt-BR": "Sacos de lavagem em tela"
+  },
+  "photo": "mesh-laundry-bags.jpg",
+  "figmaNode": "136:5591"
+}

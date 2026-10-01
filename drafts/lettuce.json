@@ -1,0 +1,10 @@
+{
+  "id": "lettuce",
+  "categoryId": "mercado-vegetais-fungos",
+  "name": {
+    "en": "Lettuce",
+    "pt-BR": "Alface"
+  },
+  "photo": "lettuce.jpg",
+  "figmaNode": "134:5691"
+}

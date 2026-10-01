@@ -1,0 +1,10 @@
+{
+  "id": "exercise-ball",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Exercise ball",
+    "pt-BR": "Bola de pilates"
+  },
+  "photo": "exercise-ball.jpg",
+  "figmaNode": "136:5613"
+}

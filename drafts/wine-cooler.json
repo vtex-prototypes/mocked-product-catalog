@@ -1,0 +1,10 @@
+{
+  "id": "wine-cooler",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Wine cooler",
+    "pt-BR": "Adega climatizada"
+  },
+  "photo": "wine-cooler.jpg",
+  "figmaNode": "134:5681"
+}

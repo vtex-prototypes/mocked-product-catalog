@@ -1,0 +1,10 @@
+{
+  "id": "honey-jar",
+  "categoryId": "mercado-temperos-molhos",
+  "name": {
+    "en": "Honey",
+    "pt-BR": "Mel"
+  },
+  "photo": "honey-jar.jpg",
+  "figmaNode": "134:5611"
+}

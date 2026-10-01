@@ -1,0 +1,10 @@
+{
+  "id": "windbreaker-jacket",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Windbreaker jacket",
+    "pt-BR": "Jaqueta corta-vento"
+  },
+  "photo": "windbreaker-jacket.jpg",
+  "figmaNode": "151:6559"
+}

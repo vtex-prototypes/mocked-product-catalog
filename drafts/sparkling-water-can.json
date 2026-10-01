@@ -1,0 +1,11 @@
+{
+  "id": "sparkling-water-can",
+  "categoryId": "mercado-bebidas-nao-alcoolicas",
+  "name": {
+    "en": "Sparkling water can",
+    "pt-BR": "Água com gás em lata"
+  },
+  "photo": "sparkling-water-can.jpg",
+  "figmaNode": "129:5577",
+  "notes": "Source photo has printed text (\"AQUA\")"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "red-wine",
+  "categoryId": "mercado-bebidas-alcoolicas",
+  "name": {
+    "en": "Red wine",
+    "pt-BR": "Vinho tinto"
+  },
+  "photo": "red-wine.jpg",
+  "figmaNode": "129:5579"
+}

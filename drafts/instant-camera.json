@@ -1,0 +1,10 @@
+{
+  "id": "instant-camera",
+  "categoryId": "eletro-pessoais",
+  "name": {
+    "en": "Instant camera",
+    "pt-BR": "Câmera instantânea"
+  },
+  "photo": "instant-camera.jpg",
+  "figmaNode": "136:5592"
+}

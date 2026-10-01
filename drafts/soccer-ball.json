@@ -1,0 +1,10 @@
+{
+  "id": "soccer-ball",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Soccer ball",
+    "pt-BR": "Bola de futebol"
+  },
+  "photo": "soccer-ball.jpg",
+  "figmaNode": "134:5657"
+}

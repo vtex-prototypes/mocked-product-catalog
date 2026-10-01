@@ -1,0 +1,10 @@
+{
+  "id": "rectangular-food-container",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Rectangular food storage container",
+    "pt-BR": "Pote hermético retangular"
+  },
+  "photo": "rectangular-food-container.jpg",
+  "figmaNode": "134:5649"
+}

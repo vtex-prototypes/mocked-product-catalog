@@ -1,0 +1,10 @@
+{
+  "id": "pillar-candle",
+  "categoryId": "casa-moveis-decoracao",
+  "name": {
+    "en": "Pillar candle",
+    "pt-BR": "Vela pilar"
+  },
+  "photo": "pillar-candle.jpg",
+  "figmaNode": "129:5590"
+}

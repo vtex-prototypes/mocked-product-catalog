@@ -1,0 +1,268 @@
+{
+  "id": "hooded-puffer-jacket",
+  "brand": "Altitude",
+  "categoryId": "esportes-casacos",
+  "name": {
+    "en": "Altitude Summit Hooded Puffer Jacket for Men and Women, Recycled Synthetic Insulation, Water-Repellent Shell, Light Gray or Forest Green, Packable Winter Coat for Hiking and City",
+    "pt-BR": "Jaqueta Puffer Altitude Summit com Capuz Unissex, Enchimento Sintético Reciclado, Tecido Repelente à Água, Cinza Claro ou Verde Floresta, Casaco de Inverno Compactável para Trilha e Cidade"
+  },
+  "description": {
+    "en": "Box-quilted puffer with a fixed hood, synthetic insulation that stays warm when damp and a lightweight ripstop shell with a water-repellent finish. Packs into its own pocket for travel.",
+    "pt-BR": "Puffer com matelassê em blocos, capuz fixo, enchimento sintético que mantém o calor mesmo úmido e tecido ripstop leve com acabamento repelente à água. Dobra dentro do próprio bolso para viajar."
+  },
+  "price": {
+    "BRL": 599.9,
+    "USD": 129.0
+  },
+  "listPrice": {
+    "BRL": 699.9,
+    "USD": 159.0
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "puffer jacket",
+      "winter",
+      "hiking"
+    ],
+    "pt-BR": [
+      "jaqueta puffer",
+      "inverno",
+      "trilha"
+    ]
+  },
+  "defaultVariantId": "gray-m",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Light Gray",
+            "pt-BR": "Cinza claro"
+          },
+          "hex": "#D7D8D5"
+        },
+        {
+          "id": "green",
+          "name": {
+            "en": "Forest Green",
+            "pt-BR": "Verde floresta"
+          },
+          "hex": "#2F4A3A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "s",
+          "name": {
+            "en": "S",
+            "pt-BR": "P"
+          }
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "M",
+            "pt-BR": "M"
+          }
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "L",
+            "pt-BR": "G"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gray-s",
+      "sku": "ALT-HPJ-GRA-S",
+      "options": {
+        "color": "gray",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 129.0
+      },
+      "listPrice": {
+        "BRL": 699.9,
+        "USD": 159.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Light gray hooded puffer jacket, front view",
+            "pt-BR": "Jaqueta puffer cinza claro com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-ffffff.png",
+            "#f5f5f5": "gray-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gray-m",
+      "sku": "ALT-HPJ-GRA-M",
+      "options": {
+        "color": "gray",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 129.0
+      },
+      "listPrice": {
+        "BRL": 699.9,
+        "USD": 159.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Light gray hooded puffer jacket, front view",
+            "pt-BR": "Jaqueta puffer cinza claro com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-ffffff.png",
+            "#f5f5f5": "gray-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gray-l",
+      "sku": "ALT-HPJ-GRA-L",
+      "options": {
+        "color": "gray",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 129.0
+      },
+      "listPrice": {
+        "BRL": 699.9,
+        "USD": 159.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Light gray hooded puffer jacket, front view",
+            "pt-BR": "Jaqueta puffer cinza claro com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-ffffff.png",
+            "#f5f5f5": "gray-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "green-s",
+      "sku": "ALT-HPJ-GRE-S",
+      "options": {
+        "color": "green",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 129.0
+      },
+      "listPrice": {
+        "BRL": 699.9,
+        "USD": 159.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Forest green hooded puffer jacket, front view",
+            "pt-BR": "Jaqueta puffer verde floresta com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "green-ffffff.png",
+            "#f5f5f5": "green-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "green-m",
+      "sku": "ALT-HPJ-GRE-M",
+      "options": {
+        "color": "green",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 129.0
+      },
+      "listPrice": {
+        "BRL": 699.9,
+        "USD": 159.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Forest green hooded puffer jacket, front view",
+            "pt-BR": "Jaqueta puffer verde floresta com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "green-ffffff.png",
+            "#f5f5f5": "green-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "green-l",
+      "sku": "ALT-HPJ-GRE-L",
+      "options": {
+        "color": "green",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 129.0
+      },
+      "listPrice": {
+        "BRL": 699.9,
+        "USD": 159.0
+      },
+      "availability": "out_of_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Forest green hooded puffer jacket, front view",
+            "pt-BR": "Jaqueta puffer verde floresta com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "green-ffffff.png",
+            "#f5f5f5": "green-f5f5f5.png"
+          }
+        }
+      ]
+    }
+  ]
+}

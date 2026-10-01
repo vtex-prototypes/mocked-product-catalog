@@ -1,0 +1,10 @@
+{
+  "id": "grip-socks",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Non-slip grip socks",
+    "pt-BR": "Meia antiderrapante"
+  },
+  "photo": "grip-socks.jpg",
+  "figmaNode": "134:5674"
+}

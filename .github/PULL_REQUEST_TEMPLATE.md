@@ -1,6 +1,12 @@
 ## What this adds
 
-<!-- e.g. "3 products in Cama, Mesa e Banho" or "second image for pillow" -->
+<!-- e.g. "Promotes 6 drafts in Esportes > Casacos" or "second image for pillow" -->
+
+## If this promotes a draft
+
+- [ ] The product keeps the draft's `id` and `categoryId`
+- [ ] Images were regenerated from the draft photo (not edited from it) and the product is still recognizably the same
+- [ ] `drafts/<id>.json` and `drafts/<id>.jpg` were deleted
 
 ## Checklist
 

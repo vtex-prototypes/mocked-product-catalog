@@ -1,0 +1,10 @@
+{
+  "id": "step-trash-can",
+  "categoryId": "casa-organizacao-limpeza",
+  "name": {
+    "en": "Step trash can",
+    "pt-BR": "Lixeira com pedal"
+  },
+  "photo": "step-trash-can.jpg",
+  "figmaNode": "134:5667"
+}

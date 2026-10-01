@@ -1,0 +1,240 @@
+{
+  "id": "running-leggings",
+  "brand": "Ritmo",
+  "categoryId": "esportes-calcas",
+  "name": {
+    "en": "Ritmo Pace High-Waist Running Leggings with Side Phone Pockets and Reflective Details, Squat-Proof Compression Fabric, Black or Plum, Full-Length Women's Tights for Running and Gym",
+    "pt-BR": "Legging de Corrida Ritmo Pace Cintura Alta com Bolsos Laterais para Celular e Detalhes Refletivos, Tecido Compressivo que Não Transparece, Preta ou Ameixa, Calça Legging Feminina para Corrida e Academia"
+  },
+  "description": {
+    "en": "High-rise compression leggings with two deep side pockets that hold a phone without bouncing, reflective strips at the thighs and calves, and a flat waistband that stays put on long runs.",
+    "pt-BR": "Legging compressiva de cintura alta com dois bolsos laterais fundos que seguram o celular sem balançar, faixas refletivas nas coxas e panturrilhas e cós plano que não desce em corridas longas."
+  },
+  "price": {
+    "BRL": 199.9,
+    "USD": 54.0
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "leggings",
+      "running",
+      "compression"
+    ],
+    "pt-BR": [
+      "legging",
+      "corrida",
+      "compressão"
+    ]
+  },
+  "defaultVariantId": "black-m",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preta"
+          },
+          "hex": "#151515"
+        },
+        {
+          "id": "plum",
+          "name": {
+            "en": "Plum",
+            "pt-BR": "Ameixa"
+          },
+          "hex": "#3E2247"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "s",
+          "name": {
+            "en": "S",
+            "pt-BR": "P"
+          }
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "M",
+            "pt-BR": "M"
+          }
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "L",
+            "pt-BR": "G"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "RTM-LEG-BLA-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 54.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black high-waist running leggings, front view",
+            "pt-BR": "Legging de corrida preta cintura alta, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-ffffff.png",
+            "#f5f5f5": "black-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "RTM-LEG-BLA-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 54.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black high-waist running leggings, front view",
+            "pt-BR": "Legging de corrida preta cintura alta, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-ffffff.png",
+            "#f5f5f5": "black-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "RTM-LEG-BLA-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 54.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black high-waist running leggings, front view",
+            "pt-BR": "Legging de corrida preta cintura alta, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-ffffff.png",
+            "#f5f5f5": "black-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plum-s",
+      "sku": "RTM-LEG-PLU-S",
+      "options": {
+        "color": "plum",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 54.0
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Plum high-waist running leggings, front view",
+            "pt-BR": "Legging de corrida ameixa cintura alta, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "plum-ffffff.png",
+            "#f5f5f5": "plum-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plum-m",
+      "sku": "RTM-LEG-PLU-M",
+      "options": {
+        "color": "plum",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 54.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Plum high-waist running leggings, front view",
+            "pt-BR": "Legging de corrida ameixa cintura alta, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "plum-ffffff.png",
+            "#f5f5f5": "plum-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plum-l",
+      "sku": "RTM-LEG-PLU-L",
+      "options": {
+        "color": "plum",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 54.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Plum high-waist running leggings, front view",
+            "pt-BR": "Legging de corrida ameixa cintura alta, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "plum-ffffff.png",
+            "#f5f5f5": "plum-f5f5f5.png"
+          }
+        }
+      ]
+    }
+  ]
+}

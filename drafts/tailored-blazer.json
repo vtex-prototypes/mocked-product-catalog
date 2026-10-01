@@ -1,0 +1,10 @@
+{
+  "id": "tailored-blazer",
+  "categoryId": "roupa-parte-de-cima-formal",
+  "name": {
+    "en": "Tailored blazer",
+    "pt-BR": "Blazer de alfaiataria"
+  },
+  "photo": "tailored-blazer.jpg",
+  "figmaNode": "136:5581"
+}

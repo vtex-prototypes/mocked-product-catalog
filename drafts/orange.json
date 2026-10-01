@@ -1,0 +1,10 @@
+{
+  "id": "orange",
+  "categoryId": "mercado-vegetais-fungos",
+  "name": {
+    "en": "Orange",
+    "pt-BR": "Laranja"
+  },
+  "photo": "orange.jpg",
+  "figmaNode": "134:5615"
+}

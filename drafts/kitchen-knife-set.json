@@ -1,0 +1,10 @@
+{
+  "id": "kitchen-knife-set",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Kitchen knife set",
+    "pt-BR": "Jogo de facas"
+  },
+  "photo": "kitchen-knife-set.jpg",
+  "figmaNode": "134:5743"
+}

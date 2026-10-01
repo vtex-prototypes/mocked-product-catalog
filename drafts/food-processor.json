@@ -1,0 +1,10 @@
+{
+  "id": "food-processor",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Food processor",
+    "pt-BR": "Processador de alimentos"
+  },
+  "photo": "food-processor.jpg",
+  "figmaNode": "134:5739"
+}

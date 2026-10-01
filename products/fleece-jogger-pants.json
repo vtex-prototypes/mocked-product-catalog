@@ -1,0 +1,268 @@
+{
+  "id": "fleece-jogger-pants",
+  "brand": "Ritmo",
+  "categoryId": "esportes-calcas",
+  "name": {
+    "en": "Ritmo Lounge Fleece Jogger Pants with Drawstring Waist and Ribbed Cuffs, Brushed Cotton-Blend Fleece, Navy or Heather Gray, Tapered Sweatpants for Training, Travel and Rest Days",
+    "pt-BR": "Calça Jogger Ritmo Lounge de Moletom Felpado com Cós de Cordão e Punhos Canelados, Mistura de Algodão Escovado, Azul Marinho ou Cinza Mescla, Calça de Moletom Afunilada para Treino, Viagem e Descanso"
+  },
+  "description": {
+    "en": "Tapered joggers in a brushed cotton-blend fleece with an elastic drawstring waist, slanted side pockets and ribbed cuffs. Heavy enough for cold mornings, soft enough to sleep in.",
+    "pt-BR": "Jogger afunilada em moletom felpado com mistura de algodão, cós elástico com cordão, bolsos laterais e punhos canelados. Encorpada para manhãs frias, macia para dormir."
+  },
+  "price": {
+    "BRL": 229.9,
+    "USD": 59.0
+  },
+  "listPrice": {
+    "BRL": 279.9,
+    "USD": 69.0
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "joggers",
+      "sweatpants",
+      "fleece"
+    ],
+    "pt-BR": [
+      "jogger",
+      "moletom",
+      "calça"
+    ]
+  },
+  "defaultVariantId": "navy-m",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "navy",
+          "name": {
+            "en": "Navy",
+            "pt-BR": "Azul marinho"
+          },
+          "hex": "#1C2A4A"
+        },
+        {
+          "id": "heather",
+          "name": {
+            "en": "Heather Gray",
+            "pt-BR": "Cinza mescla"
+          },
+          "hex": "#BDBFC3"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "s",
+          "name": {
+            "en": "S",
+            "pt-BR": "P"
+          }
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "M",
+            "pt-BR": "M"
+          }
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "L",
+            "pt-BR": "G"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "navy-s",
+      "sku": "RTM-JOG-NAV-S",
+      "options": {
+        "color": "navy",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 229.9,
+        "USD": 59.0
+      },
+      "listPrice": {
+        "BRL": 279.9,
+        "USD": 69.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy fleece jogger pants, front view",
+            "pt-BR": "Calça jogger de moletom azul marinho, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-ffffff.png",
+            "#f5f5f5": "navy-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-m",
+      "sku": "RTM-JOG-NAV-M",
+      "options": {
+        "color": "navy",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 229.9,
+        "USD": 59.0
+      },
+      "listPrice": {
+        "BRL": 279.9,
+        "USD": 69.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy fleece jogger pants, front view",
+            "pt-BR": "Calça jogger de moletom azul marinho, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-ffffff.png",
+            "#f5f5f5": "navy-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-l",
+      "sku": "RTM-JOG-NAV-L",
+      "options": {
+        "color": "navy",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 229.9,
+        "USD": 59.0
+      },
+      "listPrice": {
+        "BRL": 279.9,
+        "USD": 69.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy fleece jogger pants, front view",
+            "pt-BR": "Calça jogger de moletom azul marinho, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-ffffff.png",
+            "#f5f5f5": "navy-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heather-s",
+      "sku": "RTM-JOG-HEA-S",
+      "options": {
+        "color": "heather",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 229.9,
+        "USD": 59.0
+      },
+      "listPrice": {
+        "BRL": 279.9,
+        "USD": 69.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Heather gray fleece jogger pants, front view",
+            "pt-BR": "Calça jogger de moletom cinza mescla, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "heather-ffffff.png",
+            "#f5f5f5": "heather-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heather-m",
+      "sku": "RTM-JOG-HEA-M",
+      "options": {
+        "color": "heather",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 229.9,
+        "USD": 59.0
+      },
+      "listPrice": {
+        "BRL": 279.9,
+        "USD": 69.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Heather gray fleece jogger pants, front view",
+            "pt-BR": "Calça jogger de moletom cinza mescla, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "heather-ffffff.png",
+            "#f5f5f5": "heather-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heather-l",
+      "sku": "RTM-JOG-HEA-L",
+      "options": {
+        "color": "heather",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 229.9,
+        "USD": 59.0
+      },
+      "listPrice": {
+        "BRL": 279.9,
+        "USD": 69.0
+      },
+      "availability": "out_of_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Heather gray fleece jogger pants, front view",
+            "pt-BR": "Calça jogger de moletom cinza mescla, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "heather-ffffff.png",
+            "#f5f5f5": "heather-f5f5f5.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "sherpa-lined-hiking-boot",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Sherpa-lined hiking boot",
+    "pt-BR": "Bota de trilha forrada em sherpa"
+  },
+  "photo": "sherpa-lined-hiking-boot.jpg",
+  "figmaNode": "136:5628"
+}

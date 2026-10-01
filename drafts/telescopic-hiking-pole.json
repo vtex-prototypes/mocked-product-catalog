@@ -1,0 +1,10 @@
+{
+  "id": "telescopic-hiking-pole",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Telescopic hiking pole",
+    "pt-BR": "Bastão de caminhada telescópico"
+  },
+  "photo": "telescopic-hiking-pole.jpg",
+  "figmaNode": "136:5654"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "nonstick-frying-pan",
+  "categoryId": "casa-panelas",
+  "name": {
+    "en": "Nonstick frying pan",
+    "pt-BR": "Frigideira antiaderente"
+  },
+  "photo": "nonstick-frying-pan.jpg",
+  "figmaNode": "132:5595"
+}

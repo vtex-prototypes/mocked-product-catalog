@@ -1,0 +1,10 @@
+{
+  "id": "wooden-cutting-board",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Wooden cutting board",
+    "pt-BR": "Tábua de corte de madeira"
+  },
+  "photo": "wooden-cutting-board.jpg",
+  "figmaNode": "134:5665"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "grape-juice",
+  "categoryId": "mercado-bebidas-nao-alcoolicas",
+  "name": {
+    "en": "Grape juice",
+    "pt-BR": "Suco de uva"
+  },
+  "photo": "grape-juice.jpg",
+  "figmaNode": "130:5573"
+}

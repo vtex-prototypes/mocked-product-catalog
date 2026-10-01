@@ -1,0 +1,10 @@
+{
+  "id": "sliced-bread",
+  "categoryId": "mercado-pao-leite-ovos",
+  "name": {
+    "en": "Sliced bread",
+    "pt-BR": "Pão de forma"
+  },
+  "photo": "sliced-bread.jpg",
+  "figmaNode": "130:5580"
+}

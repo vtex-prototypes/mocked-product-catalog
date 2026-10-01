@@ -1,0 +1,10 @@
+{
+  "id": "insulated-camp-mug",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Insulated camp mug",
+    "pt-BR": "Caneca térmica"
+  },
+  "photo": "insulated-camp-mug.jpg",
+  "figmaNode": "134:5741"
+}

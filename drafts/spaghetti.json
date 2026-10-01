@@ -1,0 +1,10 @@
+{
+  "id": "spaghetti",
+  "categoryId": "mercado-graos",
+  "name": {
+    "en": "Spaghetti",
+    "pt-BR": "Espaguete"
+  },
+  "photo": "spaghetti.jpg",
+  "figmaNode": "129:5600"
+}

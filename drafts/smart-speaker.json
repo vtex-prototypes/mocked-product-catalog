@@ -1,0 +1,10 @@
+{
+  "id": "smart-speaker",
+  "categoryId": "eletro-casa-entretenimento",
+  "name": {
+    "en": "Smart speaker",
+    "pt-BR": "Caixa de som inteligente"
+  },
+  "photo": "smart-speaker.jpg",
+  "figmaNode": "134:5711"
+}

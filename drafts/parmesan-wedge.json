@@ -1,0 +1,10 @@
+{
+  "id": "parmesan-wedge",
+  "categoryId": "mercado-pao-leite-ovos",
+  "name": {
+    "en": "Parmesan wedge",
+    "pt-BR": "Parmesão em pedaço"
+  },
+  "photo": "parmesan-wedge.jpg",
+  "figmaNode": "131:5587"
+}

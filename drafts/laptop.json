@@ -1,0 +1,10 @@
+{
+  "id": "laptop",
+  "categoryId": "eletro-pessoais",
+  "name": {
+    "en": "Laptop",
+    "pt-BR": "Notebook"
+  },
+  "photo": "laptop.jpg",
+  "figmaNode": "129:5575"
+}

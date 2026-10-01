@@ -1,0 +1,10 @@
+{
+  "id": "canvas-hiking-boot",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Canvas hiking boot",
+    "pt-BR": "Bota de trilha em lona"
+  },
+  "photo": "canvas-hiking-boot.jpg",
+  "figmaNode": "136:5637"
+}

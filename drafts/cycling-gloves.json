@@ -1,0 +1,10 @@
+{
+  "id": "cycling-gloves",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Cycling gloves",
+    "pt-BR": "Luvas de ciclismo"
+  },
+  "photo": "cycling-gloves.jpg",
+  "figmaNode": "151:6591"
+}

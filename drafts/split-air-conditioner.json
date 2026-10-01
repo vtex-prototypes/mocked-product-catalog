@@ -1,0 +1,10 @@
+{
+  "id": "split-air-conditioner",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Split air conditioner",
+    "pt-BR": "Ar-condicionado split"
+  },
+  "photo": "split-air-conditioner.jpg",
+  "figmaNode": "131:5583"
+}

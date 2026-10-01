@@ -1,0 +1,10 @@
+{
+  "id": "cocktail-shaker",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Cocktail shaker",
+    "pt-BR": "Coqueteleira"
+  },
+  "photo": "cocktail-shaker.jpg",
+  "figmaNode": "134:5684"
+}

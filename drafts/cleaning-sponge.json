@@ -1,0 +1,10 @@
+{
+  "id": "cleaning-sponge",
+  "categoryId": "mercado-limpeza",
+  "name": {
+    "en": "Cleaning sponge",
+    "pt-BR": "Esponja de limpeza"
+  },
+  "photo": "cleaning-sponge.jpg",
+  "figmaNode": "131:5574"
+}

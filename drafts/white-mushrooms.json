@@ -1,0 +1,10 @@
+{
+  "id": "white-mushrooms",
+  "categoryId": "mercado-vegetais-fungos",
+  "name": {
+    "en": "White mushrooms",
+    "pt-BR": "Cogumelo Paris"
+  },
+  "photo": "white-mushrooms.jpg",
+  "figmaNode": "132:5601"
+}

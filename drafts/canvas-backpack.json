@@ -1,0 +1,10 @@
+{
+  "id": "canvas-backpack",
+  "categoryId": "roupa-acessorios-acessorios",
+  "name": {
+    "en": "Canvas backpack",
+    "pt-BR": "Mochila de lona"
+  },
+  "photo": "canvas-backpack.jpg",
+  "figmaNode": "132:5597"
+}

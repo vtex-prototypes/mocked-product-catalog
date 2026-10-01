@@ -1,0 +1,10 @@
+{
+  "id": "potato-chips",
+  "categoryId": "mercado-lanches",
+  "name": {
+    "en": "Potato chips",
+    "pt-BR": "Batata chips"
+  },
+  "photo": "potato-chips.jpg",
+  "figmaNode": "129:5576"
+}

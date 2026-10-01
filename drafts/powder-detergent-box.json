@@ -1,0 +1,10 @@
+{
+  "id": "powder-detergent-box",
+  "categoryId": "mercado-limpeza",
+  "name": {
+    "en": "Powder detergent box",
+    "pt-BR": "Sabão em pó"
+  },
+  "photo": "powder-detergent-box.jpg",
+  "figmaNode": "134:5647"
+}

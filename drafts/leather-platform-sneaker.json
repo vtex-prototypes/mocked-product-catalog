@@ -1,0 +1,11 @@
+{
+  "id": "leather-platform-sneaker",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Leather platform sneaker",
+    "pt-BR": "Tênis de couro com plataforma"
+  },
+  "photo": "leather-platform-sneaker.jpg",
+  "figmaNode": "129:5571",
+  "notes": "Source photo has a black background"
+}

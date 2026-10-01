@@ -1,0 +1,10 @@
+{
+  "id": "maple-syrup",
+  "categoryId": "mercado-temperos-molhos",
+  "name": {
+    "en": "Maple syrup",
+    "pt-BR": "Xarope de bordo"
+  },
+  "photo": "maple-syrup.jpg",
+  "figmaNode": "134:5699"
+}

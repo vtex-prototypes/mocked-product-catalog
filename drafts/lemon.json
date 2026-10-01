@@ -1,0 +1,10 @@
+{
+  "id": "lemon",
+  "categoryId": "mercado-vegetais-fungos",
+  "name": {
+    "en": "Lemon",
+    "pt-BR": "Limão-siciliano"
+  },
+  "photo": "lemon.jpg",
+  "figmaNode": "134:5617"
+}

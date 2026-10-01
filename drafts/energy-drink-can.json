@@ -1,0 +1,10 @@
+{
+  "id": "energy-drink-can",
+  "categoryId": "mercado-bebidas-nao-alcoolicas",
+  "name": {
+    "en": "Energy drink can",
+    "pt-BR": "Energético em lata"
+  },
+  "photo": "energy-drink-can.jpg",
+  "figmaNode": "136:5574"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "drawer-organizer",
+  "categoryId": "casa-organizacao-limpeza",
+  "name": {
+    "en": "Drawer organizer",
+    "pt-BR": "Organizador de gaveta"
+  },
+  "photo": "drawer-organizer.jpg",
+  "figmaNode": "136:5605"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "stand-mixer",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Stand mixer",
+    "pt-BR": "Batedeira planetária"
+  },
+  "photo": "stand-mixer.jpg",
+  "figmaNode": "131:5591"
+}

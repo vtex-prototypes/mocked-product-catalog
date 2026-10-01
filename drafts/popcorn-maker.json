@@ -1,0 +1,10 @@
+{
+  "id": "popcorn-maker",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Popcorn maker",
+    "pt-BR": "Pipoqueira elétrica"
+  },
+  "photo": "popcorn-maker.jpg",
+  "figmaNode": "134:5738"
+}

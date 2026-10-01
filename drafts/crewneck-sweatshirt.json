@@ -1,0 +1,10 @@
+{
+  "id": "crewneck-sweatshirt",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Crewneck sweatshirt",
+    "pt-BR": "Moletom gola careca"
+  },
+  "photo": "crewneck-sweatshirt.jpg",
+  "figmaNode": "151:6558"
+}

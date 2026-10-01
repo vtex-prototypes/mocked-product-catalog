@@ -1,0 +1,10 @@
+{
+  "id": "sherpa-collar-ankle-boot",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Sherpa-collar ankle boot",
+    "pt-BR": "Bota cano curto com gola sherpa"
+  },
+  "photo": "sherpa-collar-ankle-boot.jpg",
+  "figmaNode": "136:5640"
+}

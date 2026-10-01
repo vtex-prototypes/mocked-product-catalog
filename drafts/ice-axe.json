@@ -1,0 +1,10 @@
+{
+  "id": "ice-axe",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Ice axe",
+    "pt-BR": "Piolet"
+  },
+  "photo": "ice-axe.jpg",
+  "figmaNode": "136:5666"
+}

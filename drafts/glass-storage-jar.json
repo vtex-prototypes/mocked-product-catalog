@@ -1,0 +1,10 @@
+{
+  "id": "glass-storage-jar",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Glass storage jar",
+    "pt-BR": "Pote de vidro com tampa"
+  },
+  "photo": "glass-storage-jar.jpg",
+  "figmaNode": "136:5586"
+}

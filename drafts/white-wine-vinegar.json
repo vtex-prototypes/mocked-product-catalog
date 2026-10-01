@@ -1,0 +1,10 @@
+{
+  "id": "white-wine-vinegar",
+  "categoryId": "mercado-temperos-molhos",
+  "name": {
+    "en": "White wine vinegar",
+    "pt-BR": "Vinagre de vinho branco"
+  },
+  "photo": "white-wine-vinegar.jpg",
+  "figmaNode": "136:5585"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "wafer-cookies",
+  "categoryId": "mercado-lanches",
+  "name": {
+    "en": "Wafer cookies",
+    "pt-BR": "Biscoito wafer"
+  },
+  "photo": "wafer-cookies.jpg",
+  "figmaNode": "136:5587"
+}

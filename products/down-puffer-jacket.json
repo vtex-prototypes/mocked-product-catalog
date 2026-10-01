@@ -1,0 +1,240 @@
+{
+  "id": "down-puffer-jacket",
+  "brand": "Altitude",
+  "categoryId": "esportes-casacos",
+  "name": {
+    "en": "Altitude Glacier 700-Fill Down Puffer Jacket with Hood, Wide Horizontal Baffles, Welt Pockets, Taupe or Navy, Warm Lightweight Winter Jacket for Mountain Trips and Cold Cities",
+    "pt-BR": "Jaqueta Puffer Altitude Glacier Pluma 700 com Capuz, Gomos Horizontais Largos, Bolsos Embutidos, Taupe ou Azul Marinho, Jaqueta de Inverno Quente e Leve para Montanha e Cidades Frias"
+  },
+  "description": {
+    "en": "Oversized baffles filled with 700-fill responsibly sourced down, a cozy insulated hood and a soft matte shell. The warmest jacket in the range at under 600 grams.",
+    "pt-BR": "Gomos largos com pluma 700 de origem responsável, capuz acolchoado e tecido externo fosco e macio. A jaqueta mais quente da linha com menos de 600 gramas."
+  },
+  "price": {
+    "BRL": 899.9,
+    "USD": 199.0
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "down jacket",
+      "puffer",
+      "winter"
+    ],
+    "pt-BR": [
+      "jaqueta de pluma",
+      "puffer",
+      "inverno"
+    ]
+  },
+  "defaultVariantId": "taupe-m",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "taupe",
+          "name": {
+            "en": "Taupe",
+            "pt-BR": "Taupe"
+          },
+          "hex": "#7C6B5C"
+        },
+        {
+          "id": "navy",
+          "name": {
+            "en": "Navy",
+            "pt-BR": "Azul marinho"
+          },
+          "hex": "#1E2743"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "s",
+          "name": {
+            "en": "S",
+            "pt-BR": "P"
+          }
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "M",
+            "pt-BR": "M"
+          }
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "L",
+            "pt-BR": "G"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "taupe-s",
+      "sku": "ALT-DPJ-TAU-S",
+      "options": {
+        "color": "taupe",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 199.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Taupe down puffer jacket with hood, front view",
+            "pt-BR": "Jaqueta puffer de pluma taupe com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "taupe-ffffff.png",
+            "#f5f5f5": "taupe-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "taupe-m",
+      "sku": "ALT-DPJ-TAU-M",
+      "options": {
+        "color": "taupe",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 199.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Taupe down puffer jacket with hood, front view",
+            "pt-BR": "Jaqueta puffer de pluma taupe com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "taupe-ffffff.png",
+            "#f5f5f5": "taupe-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "taupe-l",
+      "sku": "ALT-DPJ-TAU-L",
+      "options": {
+        "color": "taupe",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 199.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Taupe down puffer jacket with hood, front view",
+            "pt-BR": "Jaqueta puffer de pluma taupe com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "taupe-ffffff.png",
+            "#f5f5f5": "taupe-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-s",
+      "sku": "ALT-DPJ-NAV-S",
+      "options": {
+        "color": "navy",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 199.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy down puffer jacket with hood, front view",
+            "pt-BR": "Jaqueta puffer de pluma azul marinho com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-ffffff.png",
+            "#f5f5f5": "navy-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-m",
+      "sku": "ALT-DPJ-NAV-M",
+      "options": {
+        "color": "navy",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 199.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy down puffer jacket with hood, front view",
+            "pt-BR": "Jaqueta puffer de pluma azul marinho com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-ffffff.png",
+            "#f5f5f5": "navy-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-l",
+      "sku": "ALT-DPJ-NAV-L",
+      "options": {
+        "color": "navy",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 199.0
+      },
+      "availability": "out_of_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy down puffer jacket with hood, front view",
+            "pt-BR": "Jaqueta puffer de pluma azul marinho com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-ffffff.png",
+            "#f5f5f5": "navy-f5f5f5.png"
+          }
+        }
+      ]
+    }
+  ]
+}

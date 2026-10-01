@@ -1,0 +1,10 @@
+{
+  "id": "extra-virgin-olive-oil",
+  "categoryId": "mercado-temperos-molhos",
+  "name": {
+    "en": "Extra virgin olive oil",
+    "pt-BR": "Azeite extravirgem"
+  },
+  "photo": "extra-virgin-olive-oil.jpg",
+  "figmaNode": "129:5598"
+}

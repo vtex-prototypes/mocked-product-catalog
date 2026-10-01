@@ -1,0 +1,10 @@
+{
+  "id": "ketchup",
+  "categoryId": "mercado-temperos-molhos",
+  "name": {
+    "en": "Ketchup",
+    "pt-BR": "Ketchup"
+  },
+  "photo": "ketchup.jpg",
+  "figmaNode": "132:5602"
+}

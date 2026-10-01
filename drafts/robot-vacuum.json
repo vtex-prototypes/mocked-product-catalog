@@ -1,0 +1,10 @@
+{
+  "id": "robot-vacuum",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Robot vacuum",
+    "pt-BR": "Robô aspirador"
+  },
+  "photo": "robot-vacuum.jpg",
+  "figmaNode": "134:5747"
+}

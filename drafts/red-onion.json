@@ -1,0 +1,10 @@
+{
+  "id": "red-onion",
+  "categoryId": "mercado-vegetais-fungos",
+  "name": {
+    "en": "Red onion",
+    "pt-BR": "Cebola roxa"
+  },
+  "photo": "red-onion.jpg",
+  "figmaNode": "130:5577"
+}

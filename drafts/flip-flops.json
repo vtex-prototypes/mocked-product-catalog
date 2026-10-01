@@ -1,0 +1,10 @@
+{
+  "id": "flip-flops",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Flip-flops",
+    "pt-BR": "Chinelo de dedo"
+  },
+  "photo": "flip-flops.jpg",
+  "figmaNode": "134:5675"
+}

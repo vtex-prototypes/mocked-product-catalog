@@ -1,0 +1,10 @@
+{
+  "id": "swim-goggles",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Swim goggles",
+    "pt-BR": "Óculos de natação"
+  },
+  "photo": "swim-goggles.jpg",
+  "figmaNode": "134:5670"
+}

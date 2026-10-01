@@ -1,0 +1,10 @@
+{
+  "id": "sliced-mozzarella",
+  "categoryId": "mercado-pao-leite-ovos",
+  "name": {
+    "en": "Sliced mozzarella",
+    "pt-BR": "Mussarela fatiada"
+  },
+  "photo": "sliced-mozzarella.jpg",
+  "figmaNode": "134:5614"
+}

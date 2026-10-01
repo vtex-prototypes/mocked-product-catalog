@@ -1,0 +1,10 @@
+{
+  "id": "electric-coffee-grinder",
+  "categoryId": "casa-hobbies",
+  "name": {
+    "en": "Electric coffee grinder",
+    "pt-BR": "Moedor de café elétrico"
+  },
+  "photo": "electric-coffee-grinder.jpg",
+  "figmaNode": "134:5645"
+}

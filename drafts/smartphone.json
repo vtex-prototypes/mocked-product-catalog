@@ -1,0 +1,10 @@
+{
+  "id": "smartphone",
+  "categoryId": "eletro-pessoais",
+  "name": {
+    "en": "Smartphone",
+    "pt-BR": "Smartphone"
+  },
+  "photo": "smartphone.jpg",
+  "figmaNode": "129:5583"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "e-reader",
+  "categoryId": "eletro-pessoais",
+  "name": {
+    "en": "E-reader",
+    "pt-BR": "Leitor digital"
+  },
+  "photo": "e-reader.jpg",
+  "figmaNode": "134:5696"
+}

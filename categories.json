@@ -1,12 +1,41 @@
 [
-  {
-    "id": "casa-decoracao",
-    "name": { "en": "Home & Decor", "pt-BR": "Casa & Decoração" },
-    "parent": null
-  },
-  {
-    "id": "cama-mesa-banho",
-    "name": { "en": "Bed, Bath & Table", "pt-BR": "Cama, Mesa e Banho" },
-    "parent": "casa-decoracao"
-  }
+  { "id": "roupa-acessorios", "name": { "en": "Clothing & Accessories", "pt-BR": "Roupa & Acessórios" }, "parent": null },
+  { "id": "roupa-acessorios-acessorios", "name": { "en": "Accessories", "pt-BR": "Acessórios" }, "parent": "roupa-acessorios" },
+  { "id": "roupa-sapatos", "name": { "en": "Shoes", "pt-BR": "Sapatos" }, "parent": "roupa-acessorios" },
+  { "id": "roupa-parte-de-cima-casual", "name": { "en": "Casual Tops", "pt-BR": "Parte de cima casual" }, "parent": "roupa-acessorios" },
+  { "id": "roupa-parte-de-cima-formal", "name": { "en": "Formal Tops", "pt-BR": "Parte de cima formal" }, "parent": "roupa-acessorios" },
+
+  { "id": "casa-decoracao", "name": { "en": "Home & Decor", "pt-BR": "Casa & Decoração" }, "parent": null },
+  { "id": "casa-panelas", "name": { "en": "Cookware", "pt-BR": "Panelas" }, "parent": "casa-decoracao" },
+  { "id": "casa-acessorios-cozinha", "name": { "en": "Kitchen Accessories", "pt-BR": "Acessórios de cozinha" }, "parent": "casa-decoracao" },
+  { "id": "casa-organizacao-limpeza", "name": { "en": "Organization & Cleaning", "pt-BR": "Organização e Limpeza" }, "parent": "casa-decoracao" },
+  { "id": "casa-hobbies", "name": { "en": "Hobbies", "pt-BR": "Hobbies" }, "parent": "casa-decoracao" },
+  { "id": "casa-cama-mesa-banho", "name": { "en": "Bed, Bath & Table", "pt-BR": "Cama, Mesa e Banho" }, "parent": "casa-decoracao" },
+  { "id": "casa-moveis-decoracao", "name": { "en": "Furniture & Decor", "pt-BR": "Móveis e decoração" }, "parent": "casa-decoracao" },
+
+  { "id": "supermercado", "name": { "en": "Grocery", "pt-BR": "Supermercado" }, "parent": null },
+  { "id": "mercado-comida-congelada", "name": { "en": "Frozen Food", "pt-BR": "Comida congelada" }, "parent": "supermercado" },
+  { "id": "mercado-limpeza", "name": { "en": "Household Cleaning", "pt-BR": "Limpeza" }, "parent": "supermercado" },
+  { "id": "mercado-bebidas-alcoolicas", "name": { "en": "Alcoholic Drinks", "pt-BR": "Bebidas alcoólicas" }, "parent": "supermercado" },
+  { "id": "mercado-pao-leite-ovos", "name": { "en": "Bakery, Dairy & Eggs", "pt-BR": "Pão, leite, ovos e derivados" }, "parent": "supermercado" },
+  { "id": "mercado-temperos-molhos", "name": { "en": "Condiments & Sauces", "pt-BR": "Temperos e molhos" }, "parent": "supermercado" },
+  { "id": "mercado-bebidas-nao-alcoolicas", "name": { "en": "Soft Drinks & Juices", "pt-BR": "Bebidas não-alcoólicas" }, "parent": "supermercado" },
+  { "id": "mercado-graos", "name": { "en": "Grains & Pantry", "pt-BR": "Grãos" }, "parent": "supermercado" },
+  { "id": "mercado-lanches", "name": { "en": "Snacks", "pt-BR": "Lanches industrializados" }, "parent": "supermercado" },
+  { "id": "mercado-vegetais-fungos", "name": { "en": "Fruit, Vegetables & Mushrooms", "pt-BR": "Vegetais e fungos" }, "parent": "supermercado" },
+
+  { "id": "eletronicos", "name": { "en": "Electronics & Appliances", "pt-BR": "Eletrônicos e eletrodomésticos" }, "parent": null },
+  { "id": "eletro-casa-praticos", "name": { "en": "Home Appliances", "pt-BR": "Aparelhos práticos para casa" }, "parent": "eletronicos" },
+  { "id": "eletro-casa-entretenimento", "name": { "en": "Home Entertainment", "pt-BR": "Aparelhos para entreter em casa" }, "parent": "eletronicos" },
+  { "id": "eletro-cozinha", "name": { "en": "Kitchen Appliances", "pt-BR": "Aparelhos de cozinha" }, "parent": "eletronicos" },
+  { "id": "eletro-pessoais", "name": { "en": "Personal Devices", "pt-BR": "Aparelhos pessoais" }, "parent": "eletronicos" },
+  { "id": "eletro-acessorios", "name": { "en": "Accessories", "pt-BR": "Acessórios" }, "parent": "eletronicos" },
+
+  { "id": "esportes", "name": { "en": "Sports & Outdoors", "pt-BR": "Esportes" }, "parent": null },
+  { "id": "esportes-casacos", "name": { "en": "Jackets", "pt-BR": "Casacos" }, "parent": "esportes" },
+  { "id": "esportes-sapatos", "name": { "en": "Footwear", "pt-BR": "Sapatos" }, "parent": "esportes" },
+  { "id": "esportes-shorts", "name": { "en": "Shorts", "pt-BR": "Shorts" }, "parent": "esportes" },
+  { "id": "esportes-calcas", "name": { "en": "Pants", "pt-BR": "Calças" }, "parent": "esportes" },
+  { "id": "esportes-acessorios", "name": { "en": "Accessories", "pt-BR": "Acessórios" }, "parent": "esportes" },
+  { "id": "esportes-mochilas", "name": { "en": "Backpacks", "pt-BR": "Mochilas" }, "parent": "esportes" }
 ]

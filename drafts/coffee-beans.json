@@ -1,0 +1,10 @@
+{
+  "id": "coffee-beans",
+  "categoryId": "mercado-graos",
+  "name": {
+    "en": "Coffee beans",
+    "pt-BR": "Café em grãos"
+  },
+  "photo": "coffee-beans.jpg",
+  "figmaNode": "130:5572"
+}

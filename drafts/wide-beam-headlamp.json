@@ -1,0 +1,11 @@
+{
+  "id": "wide-beam-headlamp",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Wide-beam headlamp",
+    "pt-BR": "Lanterna de cabeça de feixe largo"
+  },
+  "photo": "wide-beam-headlamp.jpg",
+  "figmaNode": "136:5612",
+  "notes": "Source photo has printed text (\"HEADLAMP\")"
+}

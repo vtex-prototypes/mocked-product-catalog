@@ -2,7 +2,8 @@
 // Validates every product in products/*.json and its images:
 //   metadata shape, category, price, image files, PNG 1024x1024,
 //   and a true-white (#FFFFFF-ish) background along the edges.
-// Usage: node scripts/validate.mjs [productId ...]
+// Also validates drafts/*.json (imported photos waiting to be promoted).
+// Usage: node scripts/validate.mjs [id ...]
 // Exits 1 on any error. Warnings do not fail the run.
 
 import { readFileSync, readdirSync, existsSync } from "node:fs";
@@ -13,6 +14,7 @@ import { PNG } from "pngjs";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const PRODUCTS_DIR = join(ROOT, "products");
 const IMAGES_DIR = join(ROOT, "images");
+const DRAFTS_DIR = join(ROOT, "drafts");
 
 const IMAGE_SIZE = 1024;
 const BORDER_RING = 16; // px ring along the edges that must be the declared background
@@ -247,19 +249,76 @@ function validateImage(label, path, background) {
   // (towel, pillow, sheets), so those remain a human check in the PR template.
 }
 
-const requested = process.argv.slice(2);
-const files = readdirSync(PRODUCTS_DIR)
-  .filter((f) => f.endsWith(".json"))
-  .filter((f) => requested.length === 0 || requested.includes(f.replace(/\.json$/, "")));
+// Drafts are photos imported from the Figma board that are not compliant yet
+// (off-white background, text, etc.). They only need an id, a category, a
+// bilingual short name and the reference photo. Promoting one means deleting
+// the draft and adding a product with regenerated images.
+function validateDraft(file, productIds) {
+  const id = file.replace(/\.json$/, "");
+  const label = `drafts/${id}`;
+  let d;
+  try {
+    d = JSON.parse(readFileSync(join(DRAFTS_DIR, file), "utf8"));
+  } catch (e) {
+    return err(label, `invalid JSON (${e.message})`);
+  }
+  if (d.id !== id) err(label, `"id" must equal the filename ("${d.id}")`);
+  if (!SLUG.test(id)) err(label, `id must be a kebab-case slug`);
+  if (productIds.has(id)) err(label, `a product with the same id exists; delete the draft once it is promoted`);
+  if (!categoryIds.has(d.categoryId)) err(label, `unknown categoryId "${d.categoryId}" (see categories.json)`);
+  checkLocalized(label, "name", d.name, 3);
+  if (typeof d.photo !== "string" || !/^[a-z0-9-]+\.jpg$/.test(d.photo)) err(label, `"photo" must be a jpg filename`);
+  else {
+    const path = join(DRAFTS_DIR, d.photo);
+    if (!existsSync(path)) err(label, `missing file drafts/${d.photo}`);
+    else {
+      const size = jpegSize(readFileSync(path));
+      if (!size) err(label, `drafts/${d.photo} is not a readable JPEG`);
+      else if (size.width !== IMAGE_SIZE || size.height !== IMAGE_SIZE) err(label, `drafts/${d.photo} must be ${IMAGE_SIZE}x${IMAGE_SIZE}, got ${size.width}x${size.height}`);
+    }
+  }
+  if (d.figmaNode !== undefined && !/^\d+:\d+$/.test(d.figmaNode)) err(label, `"figmaNode" must look like "136:5642"`);
+  if (d.notes !== undefined && typeof d.notes !== "string") err(label, `"notes" must be a string`);
+}
 
-if (files.length === 0) {
-  console.error("No products to validate.");
+// Reads width/height from the first SOF marker of a JPEG.
+function jpegSize(buf) {
+  if (buf[0] !== 0xff || buf[1] !== 0xd8) return null;
+  let i = 2;
+  while (i + 9 < buf.length) {
+    if (buf[i] !== 0xff) return null;
+    const marker = buf[i + 1];
+    if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
+      return { height: buf.readUInt16BE(i + 5), width: buf.readUInt16BE(i + 7) };
+    }
+    i += 2 + buf.readUInt16BE(i + 2);
+  }
+  return null;
+}
+
+const requested = process.argv.slice(2);
+const allProducts = readdirSync(PRODUCTS_DIR).filter((f) => f.endsWith(".json"));
+const files = allProducts.filter((f) => requested.length === 0 || requested.includes(f.replace(/\.json$/, "")));
+const productIds = new Set(allProducts.map((f) => f.replace(/\.json$/, "")));
+const draftFiles = existsSync(DRAFTS_DIR)
+  ? readdirSync(DRAFTS_DIR).filter((f) => f.endsWith(".json")).filter((f) => requested.length === 0 || requested.includes(f.replace(/\.json$/, "")))
+  : [];
+
+if (files.length === 0 && draftFiles.length === 0) {
+  console.error("Nothing to validate.");
   process.exit(1);
 }
 
 for (const f of files) validateProduct(f);
+for (const f of draftFiles) validateDraft(f, productIds);
+if (existsSync(DRAFTS_DIR) && requested.length === 0) {
+  const used = new Set(draftFiles.map((f) => JSON.parse(readFileSync(join(DRAFTS_DIR, f), "utf8")).photo));
+  for (const f of readdirSync(DRAFTS_DIR)) {
+    if (f.endsWith(".jpg") && !used.has(f)) warn(`drafts/${f}`, `photo is not referenced by any draft`);
+  }
+}
 
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
-console.log(`\n${files.length} product(s) checked, ${errors.length} error(s), ${warnings.length} warning(s).`);
+console.log(`\n${files.length} product(s) and ${draftFiles.length} draft(s) checked, ${errors.length} error(s), ${warnings.length} warning(s).`);
 process.exit(errors.length ? 1 : 0);

@@ -1,0 +1,10 @@
+{
+  "id": "wireless-keyboard",
+  "categoryId": "eletro-acessorios",
+  "name": {
+    "en": "Wireless keyboard",
+    "pt-BR": "Teclado sem fio"
+  },
+  "photo": "wireless-keyboard.jpg",
+  "figmaNode": "134:5633"
+}

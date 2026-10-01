@@ -1,0 +1,10 @@
+{
+  "id": "sports-water-bottle",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Sports water bottle",
+    "pt-BR": "Garrafa esportiva"
+  },
+  "photo": "sports-water-bottle.jpg",
+  "figmaNode": "136:5650"
+}

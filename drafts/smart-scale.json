@@ -1,0 +1,10 @@
+{
+  "id": "smart-scale",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Smart body scale",
+    "pt-BR": "Balança inteligente"
+  },
+  "photo": "smart-scale.jpg",
+  "figmaNode": "136:5617"
+}

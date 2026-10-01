@@ -1,0 +1,10 @@
+{
+  "id": "fondue-set",
+  "categoryId": "casa-hobbies",
+  "name": {
+    "en": "Fondue set",
+    "pt-BR": "Conjunto de fondue"
+  },
+  "photo": "fondue-set.jpg",
+  "figmaNode": "134:5735"
+}

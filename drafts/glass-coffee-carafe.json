@@ -1,0 +1,10 @@
+{
+  "id": "glass-coffee-carafe",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Glass coffee carafe",
+    "pt-BR": "Jarra de vidro para café"
+  },
+  "photo": "glass-coffee-carafe.jpg",
+  "figmaNode": "134:5701"
+}

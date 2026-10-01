@@ -1,0 +1,240 @@
+{
+  "id": "quilted-puffer-jacket",
+  "brand": "Altitude",
+  "categoryId": "esportes-casacos",
+  "name": {
+    "en": "Altitude Ridge Quilted Puffer Jacket with Hood, Channel Quilting, Three Zip Pockets, Navy Blue or Burgundy, Windproof Lightweight Insulated Jacket for Cold Weather Running and Travel",
+    "pt-BR": "Jaqueta Puffer Altitude Ridge Matelassê com Capuz, Costura em Canais, Três Bolsos com Zíper, Azul Marinho ou Bordô, Jaqueta Leve Corta-Vento para Corrida no Frio e Viagem"
+  },
+  "description": {
+    "en": "Slim channel-quilted puffer with an insulated hood, a chest zip pocket and two zipped hand pockets. Windproof shell with elastic cuffs so it layers under a hardshell.",
+    "pt-BR": "Puffer de corte ajustado com costura em canais, capuz acolchoado, bolso no peito e dois bolsos de mão com zíper. Tecido corta-vento e punhos elásticos para usar por baixo de um casaco impermeável."
+  },
+  "price": {
+    "BRL": 549.9,
+    "USD": 119.0
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "puffer jacket",
+      "quilted",
+      "windproof"
+    ],
+    "pt-BR": [
+      "jaqueta puffer",
+      "matelassê",
+      "corta-vento"
+    ]
+  },
+  "defaultVariantId": "navy-m",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "navy",
+          "name": {
+            "en": "Navy Blue",
+            "pt-BR": "Azul marinho"
+          },
+          "hex": "#1F2A44"
+        },
+        {
+          "id": "burgundy",
+          "name": {
+            "en": "Burgundy",
+            "pt-BR": "Bordô"
+          },
+          "hex": "#5E1E2A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "s",
+          "name": {
+            "en": "S",
+            "pt-BR": "P"
+          }
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "M",
+            "pt-BR": "M"
+          }
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "L",
+            "pt-BR": "G"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "navy-s",
+      "sku": "ALT-QPJ-NAV-S",
+      "options": {
+        "color": "navy",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 119.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy quilted puffer jacket with hood, front view",
+            "pt-BR": "Jaqueta puffer azul marinho matelassê com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-ffffff.png",
+            "#f5f5f5": "navy-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-m",
+      "sku": "ALT-QPJ-NAV-M",
+      "options": {
+        "color": "navy",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 119.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy quilted puffer jacket with hood, front view",
+            "pt-BR": "Jaqueta puffer azul marinho matelassê com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-ffffff.png",
+            "#f5f5f5": "navy-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-l",
+      "sku": "ALT-QPJ-NAV-L",
+      "options": {
+        "color": "navy",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 119.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy quilted puffer jacket with hood, front view",
+            "pt-BR": "Jaqueta puffer azul marinho matelassê com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-ffffff.png",
+            "#f5f5f5": "navy-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "burgundy-s",
+      "sku": "ALT-QPJ-BUR-S",
+      "options": {
+        "color": "burgundy",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 119.0
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Burgundy quilted puffer jacket with hood, front view",
+            "pt-BR": "Jaqueta puffer bordô matelassê com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "burgundy-ffffff.png",
+            "#f5f5f5": "burgundy-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "burgundy-m",
+      "sku": "ALT-QPJ-BUR-M",
+      "options": {
+        "color": "burgundy",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 119.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Burgundy quilted puffer jacket with hood, front view",
+            "pt-BR": "Jaqueta puffer bordô matelassê com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "burgundy-ffffff.png",
+            "#f5f5f5": "burgundy-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "burgundy-l",
+      "sku": "ALT-QPJ-BUR-L",
+      "options": {
+        "color": "burgundy",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 119.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Burgundy quilted puffer jacket with hood, front view",
+            "pt-BR": "Jaqueta puffer bordô matelassê com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "burgundy-ffffff.png",
+            "#f5f5f5": "burgundy-f5f5f5.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "waterproof-trail-sneaker",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Waterproof trail sneaker",
+    "pt-BR": "Tênis de trilha impermeável"
+  },
+  "photo": "waterproof-trail-sneaker.jpg",
+  "figmaNode": "136:5633"
+}

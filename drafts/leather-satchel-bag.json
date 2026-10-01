@@ -1,0 +1,10 @@
+{
+  "id": "leather-satchel-bag",
+  "categoryId": "roupa-acessorios-acessorios",
+  "name": {
+    "en": "Leather satchel bag",
+    "pt-BR": "Bolsa satchel de couro"
+  },
+  "photo": "leather-satchel-bag.jpg",
+  "figmaNode": "136:5622"
+}

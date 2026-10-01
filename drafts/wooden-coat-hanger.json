@@ -1,0 +1,10 @@
+{
+  "id": "wooden-coat-hanger",
+  "categoryId": "casa-organizacao-limpeza",
+  "name": {
+    "en": "Wooden coat hanger",
+    "pt-BR": "Cabide de madeira"
+  },
+  "photo": "wooden-coat-hanger.jpg",
+  "figmaNode": "134:5612"
+}

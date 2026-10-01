@@ -1,0 +1,10 @@
+{
+  "id": "chef-knife",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Chef's knife",
+    "pt-BR": "Faca do chef"
+  },
+  "photo": "chef-knife.jpg",
+  "figmaNode": "131:5577"
+}

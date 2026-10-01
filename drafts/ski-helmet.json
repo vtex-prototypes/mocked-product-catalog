@@ -1,0 +1,10 @@
+{
+  "id": "ski-helmet",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Ski helmet",
+    "pt-BR": "Capacete de esqui"
+  },
+  "photo": "ski-helmet.jpg",
+  "figmaNode": "136:5665"
+}

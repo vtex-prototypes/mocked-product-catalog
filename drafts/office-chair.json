@@ -1,0 +1,10 @@
+{
+  "id": "office-chair",
+  "categoryId": "casa-hobbies",
+  "name": {
+    "en": "Office chair",
+    "pt-BR": "Cadeira de escritório"
+  },
+  "photo": "office-chair.jpg",
+  "figmaNode": "134:5646"
+}

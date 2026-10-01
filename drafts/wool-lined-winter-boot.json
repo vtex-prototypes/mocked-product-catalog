@@ -1,0 +1,10 @@
+{
+  "id": "wool-lined-winter-boot",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Wool-lined winter boot",
+    "pt-BR": "Bota de inverno forrada em lã"
+  },
+  "photo": "wool-lined-winter-boot.jpg",
+  "figmaNode": "136:5635"
+}

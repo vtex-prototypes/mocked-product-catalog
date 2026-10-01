@@ -1,0 +1,10 @@
+{
+  "id": "mixed-nuts",
+  "categoryId": "mercado-graos",
+  "name": {
+    "en": "Mixed nuts",
+    "pt-BR": "Mix de castanhas"
+  },
+  "photo": "mixed-nuts.jpg",
+  "figmaNode": "135:5573"
+}

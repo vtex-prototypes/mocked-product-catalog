@@ -1,0 +1,10 @@
+{
+  "id": "tomato-sauce-jar",
+  "categoryId": "mercado-temperos-molhos",
+  "name": {
+    "en": "Tomato sauce",
+    "pt-BR": "Molho de tomate em vidro"
+  },
+  "photo": "tomato-sauce-jar.jpg",
+  "figmaNode": "132:5599"
+}

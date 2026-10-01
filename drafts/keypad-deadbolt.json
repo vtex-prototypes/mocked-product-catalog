@@ -1,0 +1,10 @@
+{
+  "id": "keypad-deadbolt",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Keypad deadbolt",
+    "pt-BR": "Fechadura com teclado"
+  },
+  "photo": "keypad-deadbolt.jpg",
+  "figmaNode": "134:5694"
+}

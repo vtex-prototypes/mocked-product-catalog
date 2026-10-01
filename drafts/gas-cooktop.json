@@ -1,0 +1,10 @@
+{
+  "id": "gas-cooktop",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Gas cooktop",
+    "pt-BR": "Cooktop a gás"
+  },
+  "photo": "gas-cooktop.jpg",
+  "figmaNode": "134:5609"
+}

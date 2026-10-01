@@ -1,0 +1,10 @@
+{
+  "id": "glass-food-container",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Glass food storage container",
+    "pt-BR": "Pote de vidro hermético"
+  },
+  "photo": "glass-food-container.jpg",
+  "figmaNode": "134:5749"
+}

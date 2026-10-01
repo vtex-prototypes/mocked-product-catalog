@@ -1,0 +1,240 @@
+{
+  "id": "zip-fleece-jacket",
+  "brand": "Altitude",
+  "categoryId": "esportes-casacos",
+  "name": {
+    "en": "Altitude Basecamp Full-Zip Fleece Jacket, Midweight Recycled Polyester Fleece, Stand Collar and Zip Hand Pockets, Dark Gray or Oatmeal, Warm Layering Piece for Camping and Cold Mornings",
+    "pt-BR": "Jaqueta Fleece Altitude Basecamp com Zíper Inteiro, Fleece de Poliéster Reciclado Peso Médio, Gola Alta e Bolsos com Zíper, Cinza Escuro ou Aveia, Segunda Pele Quente para Camping e Manhãs Frias"
+  },
+  "description": {
+    "en": "Midweight fleece in recycled polyester with a stand collar, full-length zip and two zipped hand pockets. Flatlock seams so it sits comfortably under a shell.",
+    "pt-BR": "Fleece de peso médio em poliéster reciclado com gola alta, zíper inteiro e dois bolsos de mão com zíper. Costuras planas para vestir com conforto por baixo de um casaco."
+  },
+  "price": {
+    "BRL": 329.9,
+    "USD": 79.0
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "fleece",
+      "layering",
+      "camping"
+    ],
+    "pt-BR": [
+      "fleece",
+      "segunda pele",
+      "camping"
+    ]
+  },
+  "defaultVariantId": "gray-m",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Dark Gray",
+            "pt-BR": "Cinza escuro"
+          },
+          "hex": "#3C3F44"
+        },
+        {
+          "id": "oatmeal",
+          "name": {
+            "en": "Oatmeal",
+            "pt-BR": "Aveia"
+          },
+          "hex": "#D9D0C1"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "s",
+          "name": {
+            "en": "S",
+            "pt-BR": "P"
+          }
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "M",
+            "pt-BR": "M"
+          }
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "L",
+            "pt-BR": "G"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gray-s",
+      "sku": "ALT-FLZ-GRA-S",
+      "options": {
+        "color": "gray",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 79.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Dark gray full-zip fleece jacket, front view",
+            "pt-BR": "Jaqueta fleece cinza escuro com zíper inteiro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-ffffff.png",
+            "#f5f5f5": "gray-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gray-m",
+      "sku": "ALT-FLZ-GRA-M",
+      "options": {
+        "color": "gray",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 79.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Dark gray full-zip fleece jacket, front view",
+            "pt-BR": "Jaqueta fleece cinza escuro com zíper inteiro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-ffffff.png",
+            "#f5f5f5": "gray-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gray-l",
+      "sku": "ALT-FLZ-GRA-L",
+      "options": {
+        "color": "gray",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 79.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Dark gray full-zip fleece jacket, front view",
+            "pt-BR": "Jaqueta fleece cinza escuro com zíper inteiro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-ffffff.png",
+            "#f5f5f5": "gray-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oatmeal-s",
+      "sku": "ALT-FLZ-OAT-S",
+      "options": {
+        "color": "oatmeal",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 79.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Oatmeal full-zip fleece jacket, front view",
+            "pt-BR": "Jaqueta fleece aveia com zíper inteiro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "oatmeal-ffffff.png",
+            "#f5f5f5": "oatmeal-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oatmeal-m",
+      "sku": "ALT-FLZ-OAT-M",
+      "options": {
+        "color": "oatmeal",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 79.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Oatmeal full-zip fleece jacket, front view",
+            "pt-BR": "Jaqueta fleece aveia com zíper inteiro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "oatmeal-ffffff.png",
+            "#f5f5f5": "oatmeal-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oatmeal-l",
+      "sku": "ALT-FLZ-OAT-L",
+      "options": {
+        "color": "oatmeal",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 79.0
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Oatmeal full-zip fleece jacket, front view",
+            "pt-BR": "Jaqueta fleece aveia com zíper inteiro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "oatmeal-ffffff.png",
+            "#f5f5f5": "oatmeal-f5f5f5.png"
+          }
+        }
+      ]
+    }
+  ]
+}

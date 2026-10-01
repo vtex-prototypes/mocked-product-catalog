@@ -1,0 +1,10 @@
+{
+  "id": "pumpkin",
+  "categoryId": "mercado-vegetais-fungos",
+  "name": {
+    "en": "Pumpkin",
+    "pt-BR": "Abóbora"
+  },
+  "photo": "pumpkin.jpg",
+  "figmaNode": "134:5672"
+}

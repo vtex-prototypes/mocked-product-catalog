@@ -1,0 +1,10 @@
+{
+  "id": "white-wine",
+  "categoryId": "mercado-bebidas-alcoolicas",
+  "name": {
+    "en": "White wine",
+    "pt-BR": "Vinho branco"
+  },
+  "photo": "white-wine.jpg",
+  "figmaNode": "136:5603"
+}

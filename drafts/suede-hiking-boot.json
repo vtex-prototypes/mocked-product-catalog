@@ -1,0 +1,10 @@
+{
+  "id": "suede-hiking-boot",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Suede hiking boot",
+    "pt-BR": "Bota de trilha em camurça"
+  },
+  "photo": "suede-hiking-boot.jpg",
+  "figmaNode": "136:5629"
+}

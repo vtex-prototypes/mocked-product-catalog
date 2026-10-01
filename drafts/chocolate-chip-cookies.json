@@ -1,0 +1,10 @@
+{
+  "id": "chocolate-chip-cookies",
+  "categoryId": "mercado-lanches",
+  "name": {
+    "en": "Chocolate chip cookies",
+    "pt-BR": "Cookies com gotas de chocolate"
+  },
+  "photo": "chocolate-chip-cookies.jpg",
+  "figmaNode": "132:5594"
+}

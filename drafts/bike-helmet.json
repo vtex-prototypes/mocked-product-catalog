@@ -1,0 +1,10 @@
+{
+  "id": "bike-helmet",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Bike helmet",
+    "pt-BR": "Capacete de ciclismo"
+  },
+  "photo": "bike-helmet.jpg",
+  "figmaNode": "134:5712"
+}

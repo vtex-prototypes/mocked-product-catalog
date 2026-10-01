@@ -1,0 +1,10 @@
+{
+  "id": "orange-juice",
+  "categoryId": "mercado-bebidas-nao-alcoolicas",
+  "name": {
+    "en": "Orange juice",
+    "pt-BR": "Suco de laranja"
+  },
+  "photo": "orange-juice.jpg",
+  "figmaNode": "130:5574"
+}

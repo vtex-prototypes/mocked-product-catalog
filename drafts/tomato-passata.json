@@ -1,0 +1,10 @@
+{
+  "id": "tomato-passata",
+  "categoryId": "mercado-temperos-molhos",
+  "name": {
+    "en": "Tomato passata",
+    "pt-BR": "Molho de tomate passata"
+  },
+  "photo": "tomato-passata.jpg",
+  "figmaNode": "129:5599"
+}

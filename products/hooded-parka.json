@@ -1,0 +1,240 @@
+{
+  "id": "hooded-parka",
+  "brand": "Altitude",
+  "categoryId": "esportes-casacos",
+  "name": {
+    "en": "Altitude Trail Hooded Parka Jacket, Waterproof Breathable Shell with Taped Seams, Adjustable Hood and Ribbed Hem, Brown or Black, Mid-Length Rain Jacket for Hiking and Everyday",
+    "pt-BR": "Parka Altitude Trail com Capuz, Tecido Impermeável e Respirável com Costuras Seladas, Capuz Ajustável e Barra Canelada, Marrom ou Preta, Jaqueta de Chuva para Trilha e Dia a Dia"
+  },
+  "description": {
+    "en": "Clean mid-length parka in a 2-layer waterproof fabric with taped seams, drawcord hood and welt hand pockets. Ribbed cuffs and hem keep the wind out without the bulk of insulation.",
+    "pt-BR": "Parka de comprimento médio em tecido impermeável de duas camadas com costuras seladas, capuz com cordão e bolsos embutidos. Punhos e barra canelados seguram o vento sem o volume de um casaco forrado."
+  },
+  "price": {
+    "BRL": 749.9,
+    "USD": 169.0
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "parka",
+      "rain jacket",
+      "waterproof"
+    ],
+    "pt-BR": [
+      "parka",
+      "jaqueta de chuva",
+      "impermeável"
+    ]
+  },
+  "defaultVariantId": "brown-m",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "brown",
+          "name": {
+            "en": "Brown",
+            "pt-BR": "Marrom"
+          },
+          "hex": "#7A4A2A"
+        },
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preta"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "s",
+          "name": {
+            "en": "S",
+            "pt-BR": "P"
+          }
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "M",
+            "pt-BR": "M"
+          }
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "L",
+            "pt-BR": "G"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "brown-s",
+      "sku": "ALT-PRK-BRO-S",
+      "options": {
+        "color": "brown",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 749.9,
+        "USD": 169.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brown hooded parka jacket, front view",
+            "pt-BR": "Parka marrom com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brown-ffffff.png",
+            "#f5f5f5": "brown-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "brown-m",
+      "sku": "ALT-PRK-BRO-M",
+      "options": {
+        "color": "brown",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 749.9,
+        "USD": 169.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brown hooded parka jacket, front view",
+            "pt-BR": "Parka marrom com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brown-ffffff.png",
+            "#f5f5f5": "brown-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "brown-l",
+      "sku": "ALT-PRK-BRO-L",
+      "options": {
+        "color": "brown",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 749.9,
+        "USD": 169.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brown hooded parka jacket, front view",
+            "pt-BR": "Parka marrom com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brown-ffffff.png",
+            "#f5f5f5": "brown-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-s",
+      "sku": "ALT-PRK-BLA-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 749.9,
+        "USD": 169.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black hooded parka jacket, front view",
+            "pt-BR": "Parka preta com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-ffffff.png",
+            "#f5f5f5": "black-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "ALT-PRK-BLA-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 749.9,
+        "USD": 169.0
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black hooded parka jacket, front view",
+            "pt-BR": "Parka preta com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-ffffff.png",
+            "#f5f5f5": "black-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "ALT-PRK-BLA-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 749.9,
+        "USD": 169.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black hooded parka jacket, front view",
+            "pt-BR": "Parka preta com capuz, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-ffffff.png",
+            "#f5f5f5": "black-f5f5f5.png"
+          }
+        }
+      ]
+    }
+  ]
+}

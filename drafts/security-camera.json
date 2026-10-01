@@ -1,0 +1,10 @@
+{
+  "id": "security-camera",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Security camera",
+    "pt-BR": "Câmera de segurança"
+  },
+  "photo": "security-camera.jpg",
+  "figmaNode": "134:5718"
+}

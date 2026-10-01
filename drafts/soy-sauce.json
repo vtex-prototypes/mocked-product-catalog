@@ -1,0 +1,10 @@
+{
+  "id": "soy-sauce",
+  "categoryId": "mercado-temperos-molhos",
+  "name": {
+    "en": "Soy sauce",
+    "pt-BR": "Molho shoyu"
+  },
+  "photo": "soy-sauce.jpg",
+  "figmaNode": "134:5639"
+}

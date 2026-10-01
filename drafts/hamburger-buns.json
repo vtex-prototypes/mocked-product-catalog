@@ -1,0 +1,10 @@
+{
+  "id": "hamburger-buns",
+  "categoryId": "mercado-pao-leite-ovos",
+  "name": {
+    "en": "Hamburger buns",
+    "pt-BR": "Pão de hambúrguer"
+  },
+  "photo": "hamburger-buns.jpg",
+  "figmaNode": "134:5620"
+}

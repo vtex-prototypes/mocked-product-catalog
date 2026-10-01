@@ -1,0 +1,10 @@
+{
+  "id": "watering-can",
+  "categoryId": "casa-hobbies",
+  "name": {
+    "en": "Watering can",
+    "pt-BR": "Regador"
+  },
+  "photo": "watering-can.jpg",
+  "figmaNode": "134:5658"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "juicer",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Juicer",
+    "pt-BR": "Centrífuga de sucos"
+  },
+  "photo": "juicer.jpg",
+  "figmaNode": "134:5744"
+}

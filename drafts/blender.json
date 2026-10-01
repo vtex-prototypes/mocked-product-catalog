@@ -1,0 +1,10 @@
+{
+  "id": "blender",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Blender",
+    "pt-BR": "Liquidificador"
+  },
+  "photo": "blender.jpg",
+  "figmaNode": "131:5584"
+}

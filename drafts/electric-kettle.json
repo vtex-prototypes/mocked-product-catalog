@@ -1,0 +1,10 @@
+{
+  "id": "electric-kettle",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Electric kettle",
+    "pt-BR": "Chaleira elétrica"
+  },
+  "photo": "electric-kettle.jpg",
+  "figmaNode": "131:5579"
+}

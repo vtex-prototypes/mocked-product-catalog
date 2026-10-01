@@ -1,0 +1,10 @@
+{
+  "id": "knit-sneaker-boot",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Knit sneaker boot",
+    "pt-BR": "Bota-tênis em malha"
+  },
+  "photo": "knit-sneaker-boot.jpg",
+  "figmaNode": "136:5641"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lightweight-trail-boot",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Lightweight trail boot",
+    "pt-BR": "Bota de trilha leve"
+  },
+  "photo": "lightweight-trail-boot.jpg",
+  "figmaNode": "136:5636"
+}

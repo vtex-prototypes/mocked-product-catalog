@@ -1,0 +1,11 @@
+{
+  "id": "glass-cookie-jar",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Glass cookie jar",
+    "pt-BR": "Pote de vidro para biscoitos"
+  },
+  "photo": "glass-cookie-jar.jpg",
+  "figmaNode": "132:5593",
+  "notes": "Source photo has printed text (\"COOKIE JAR\")"
+}

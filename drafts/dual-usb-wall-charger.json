@@ -1,0 +1,10 @@
+{
+  "id": "dual-usb-wall-charger",
+  "categoryId": "eletro-acessorios",
+  "name": {
+    "en": "Dual USB wall charger",
+    "pt-BR": "Carregador de parede com duas portas USB"
+  },
+  "photo": "dual-usb-wall-charger.jpg",
+  "figmaNode": "136:5616"
+}

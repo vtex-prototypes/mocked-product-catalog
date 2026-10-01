@@ -1,0 +1,10 @@
+{
+  "id": "upright-vacuum",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Upright vacuum cleaner",
+    "pt-BR": "Aspirador vertical"
+  },
+  "photo": "upright-vacuum.jpg",
+  "figmaNode": "134:5746"
+}

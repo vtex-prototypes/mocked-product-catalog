@@ -1,0 +1,10 @@
+{
+  "id": "compact-smart-tv",
+  "categoryId": "eletro-casa-entretenimento",
+  "name": {
+    "en": "Compact smart TV",
+    "pt-BR": "Smart TV compacta"
+  },
+  "photo": "compact-smart-tv.jpg",
+  "figmaNode": "136:5594"
+}

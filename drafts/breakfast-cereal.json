@@ -1,0 +1,10 @@
+{
+  "id": "breakfast-cereal",
+  "categoryId": "mercado-lanches",
+  "name": {
+    "en": "Breakfast cereal",
+    "pt-BR": "Cereal matinal"
+  },
+  "photo": "breakfast-cereal.jpg",
+  "figmaNode": "131:5571"
+}

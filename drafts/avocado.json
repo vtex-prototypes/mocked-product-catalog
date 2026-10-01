@@ -1,0 +1,10 @@
+{
+  "id": "avocado",
+  "categoryId": "mercado-vegetais-fungos",
+  "name": {
+    "en": "Avocado",
+    "pt-BR": "Abacate"
+  },
+  "photo": "avocado.jpg",
+  "figmaNode": "134:5621"
+}

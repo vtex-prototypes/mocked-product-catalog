@@ -1,0 +1,10 @@
+{
+  "id": "olive-oil",
+  "categoryId": "mercado-temperos-molhos",
+  "name": {
+    "en": "Olive oil",
+    "pt-BR": "Azeite"
+  },
+  "photo": "olive-oil.jpg",
+  "figmaNode": "132:5598"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "led-headlamp",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "LED headlamp",
+    "pt-BR": "Lanterna de cabeça LED"
+  },
+  "photo": "led-headlamp.jpg",
+  "figmaNode": "136:5653"
+}

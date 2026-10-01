@@ -1,0 +1,10 @@
+{
+  "id": "ceramic-frying-pan",
+  "categoryId": "casa-panelas",
+  "name": {
+    "en": "Ceramic frying pan",
+    "pt-BR": "Frigideira cerâmica"
+  },
+  "photo": "ceramic-frying-pan.jpg",
+  "figmaNode": "134:5732"
+}

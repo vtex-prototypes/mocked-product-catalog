@@ -1,0 +1,10 @@
+{
+  "id": "sleeping-bag",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Sleeping bag",
+    "pt-BR": "Saco de dormir"
+  },
+  "photo": "sleeping-bag.jpg",
+  "figmaNode": "136:5647"
+}

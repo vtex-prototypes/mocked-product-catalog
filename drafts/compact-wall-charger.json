@@ -1,0 +1,10 @@
+{
+  "id": "compact-wall-charger",
+  "categoryId": "eletro-acessorios",
+  "name": {
+    "en": "Compact wall charger",
+    "pt-BR": "Carregador de parede compacto"
+  },
+  "photo": "compact-wall-charger.jpg",
+  "figmaNode": "129:5594"
+}

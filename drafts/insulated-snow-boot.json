@@ -1,0 +1,10 @@
+{
+  "id": "insulated-snow-boot",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Insulated snow boot",
+    "pt-BR": "Bota de neve forrada"
+  },
+  "photo": "insulated-snow-boot.jpg",
+  "figmaNode": "136:5638"
+}

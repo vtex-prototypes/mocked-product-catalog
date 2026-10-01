@@ -1,0 +1,10 @@
+{
+  "id": "aperitivo-liqueur",
+  "categoryId": "mercado-bebidas-alcoolicas",
+  "name": {
+    "en": "Aperitivo liqueur",
+    "pt-BR": "Aperitivo"
+  },
+  "photo": "aperitivo-liqueur.jpg",
+  "figmaNode": "134:5626"
+}

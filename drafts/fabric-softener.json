@@ -1,0 +1,10 @@
+{
+  "id": "fabric-softener",
+  "categoryId": "mercado-limpeza",
+  "name": {
+    "en": "Fabric softener",
+    "pt-BR": "Amaciante de roupas"
+  },
+  "photo": "fabric-softener.jpg",
+  "figmaNode": "134:5648"
+}

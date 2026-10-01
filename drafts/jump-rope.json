@@ -1,0 +1,10 @@
+{
+  "id": "jump-rope",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Jump rope",
+    "pt-BR": "Corda de pular"
+  },
+  "photo": "jump-rope.jpg",
+  "figmaNode": "136:5608"
+}

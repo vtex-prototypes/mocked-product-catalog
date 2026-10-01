@@ -1,0 +1,10 @@
+{
+  "id": "rolled-oats",
+  "categoryId": "mercado-graos",
+  "name": {
+    "en": "Rolled oats",
+    "pt-BR": "Aveia em flocos"
+  },
+  "photo": "rolled-oats.jpg",
+  "figmaNode": "129:5610"
+}

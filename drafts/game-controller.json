@@ -1,0 +1,10 @@
+{
+  "id": "game-controller",
+  "categoryId": "eletro-acessorios",
+  "name": {
+    "en": "Game controller",
+    "pt-BR": "Controle para jogos"
+  },
+  "photo": "game-controller.jpg",
+  "figmaNode": "134:5634"
+}

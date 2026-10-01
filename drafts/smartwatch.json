@@ -1,0 +1,10 @@
+{
+  "id": "smartwatch",
+  "categoryId": "eletro-pessoais",
+  "name": {
+    "en": "Smartwatch",
+    "pt-BR": "Relógio inteligente"
+  },
+  "photo": "smartwatch.jpg",
+  "figmaNode": "134:5673"
+}

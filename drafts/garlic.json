@@ -1,0 +1,10 @@
+{
+  "id": "garlic",
+  "categoryId": "mercado-vegetais-fungos",
+  "name": {
+    "en": "Garlic",
+    "pt-BR": "Alho"
+  },
+  "photo": "garlic.jpg",
+  "figmaNode": "129:5608"
+}

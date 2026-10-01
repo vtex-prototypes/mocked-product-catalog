@@ -1,0 +1,10 @@
+{
+  "id": "desk-fan",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Desk fan",
+    "pt-BR": "Ventilador de mesa"
+  },
+  "photo": "desk-fan.jpg",
+  "figmaNode": "133:5607"
+}

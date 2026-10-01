@@ -1,0 +1,10 @@
+{
+  "id": "inkjet-printer",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Inkjet printer",
+    "pt-BR": "Impressora jato de tinta"
+  },
+  "photo": "inkjet-printer.jpg",
+  "figmaNode": "151:6583"
+}

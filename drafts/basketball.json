@@ -1,0 +1,10 @@
+{
+  "id": "basketball",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Basketball",
+    "pt-BR": "Bola de basquete"
+  },
+  "photo": "basketball.jpg",
+  "figmaNode": "134:5655"
+}

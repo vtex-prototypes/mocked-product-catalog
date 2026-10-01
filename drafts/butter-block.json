@@ -1,0 +1,10 @@
+{
+  "id": "butter-block",
+  "categoryId": "mercado-pao-leite-ovos",
+  "name": {
+    "en": "Butter block",
+    "pt-BR": "Manteiga em tablete"
+  },
+  "photo": "butter-block.jpg",
+  "figmaNode": "134:5625"
+}

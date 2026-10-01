@@ -1,0 +1,10 @@
+{
+  "id": "eggs-carton",
+  "categoryId": "mercado-pao-leite-ovos",
+  "name": {
+    "en": "Carton of eggs",
+    "pt-BR": "Ovos"
+  },
+  "photo": "eggs-carton.jpg",
+  "figmaNode": "134:5638"
+}

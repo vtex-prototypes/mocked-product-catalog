@@ -1,0 +1,10 @@
+{
+  "id": "red-grapes",
+  "categoryId": "mercado-vegetais-fungos",
+  "name": {
+    "en": "Red grapes",
+    "pt-BR": "Uva rosada"
+  },
+  "photo": "red-grapes.jpg",
+  "figmaNode": "134:5616"
+}

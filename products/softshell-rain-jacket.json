@@ -1,0 +1,240 @@
+{
+  "id": "softshell-rain-jacket",
+  "brand": "Altitude",
+  "categoryId": "esportes-casacos",
+  "name": {
+    "en": "Altitude Storm Softshell Rain Jacket with Adjustable Hood, 10K Waterproof Stretch Fabric, Chest Pocket and Pit Zips, Forest Green or Safety Orange, Lightweight Shell for Trail Running and Cycling",
+    "pt-BR": "Jaqueta Softshell Altitude Storm Impermeável com Capuz Ajustável, Tecido Elástico 10K, Bolso no Peito e Ventilação nas Axilas, Verde Floresta ou Laranja Sinalização, Casaco Leve para Trail Running e Ciclismo"
+  },
+  "description": {
+    "en": "Four-way stretch softshell with a 10,000 mm waterproof rating, sealed zips and a hood that cinches over a helmet. Velcro cuffs and a dropped hem for the bike.",
+    "pt-BR": "Softshell com elasticidade em quatro direções, coluna d'água de 10.000 mm, zíperes selados e capuz que ajusta sobre o capacete. Punhos em velcro e barra mais longa atrás para a bike."
+  },
+  "price": {
+    "BRL": 679.9,
+    "USD": 149.0
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "rain jacket",
+      "softshell",
+      "cycling"
+    ],
+    "pt-BR": [
+      "jaqueta de chuva",
+      "softshell",
+      "ciclismo"
+    ]
+  },
+  "defaultVariantId": "green-m",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "green",
+          "name": {
+            "en": "Forest Green",
+            "pt-BR": "Verde floresta"
+          },
+          "hex": "#243D2B"
+        },
+        {
+          "id": "orange",
+          "name": {
+            "en": "Safety Orange",
+            "pt-BR": "Laranja sinalização"
+          },
+          "hex": "#F07A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "s",
+          "name": {
+            "en": "S",
+            "pt-BR": "P"
+          }
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "M",
+            "pt-BR": "M"
+          }
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "L",
+            "pt-BR": "G"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "green-s",
+      "sku": "ALT-SSJ-GRE-S",
+      "options": {
+        "color": "green",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 679.9,
+        "USD": 149.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Forest green softshell rain jacket, front view",
+            "pt-BR": "Jaqueta softshell verde floresta, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "green-ffffff.png",
+            "#f5f5f5": "green-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "green-m",
+      "sku": "ALT-SSJ-GRE-M",
+      "options": {
+        "color": "green",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 679.9,
+        "USD": 149.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Forest green softshell rain jacket, front view",
+            "pt-BR": "Jaqueta softshell verde floresta, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "green-ffffff.png",
+            "#f5f5f5": "green-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "green-l",
+      "sku": "ALT-SSJ-GRE-L",
+      "options": {
+        "color": "green",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 679.9,
+        "USD": 149.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Forest green softshell rain jacket, front view",
+            "pt-BR": "Jaqueta softshell verde floresta, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "green-ffffff.png",
+            "#f5f5f5": "green-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "orange-s",
+      "sku": "ALT-SSJ-ORA-S",
+      "options": {
+        "color": "orange",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 679.9,
+        "USD": 149.0
+      },
+      "availability": "out_of_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Safety orange softshell rain jacket, front view",
+            "pt-BR": "Jaqueta softshell laranja sinalização, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "orange-ffffff.png",
+            "#f5f5f5": "orange-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "orange-m",
+      "sku": "ALT-SSJ-ORA-M",
+      "options": {
+        "color": "orange",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 679.9,
+        "USD": 149.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Safety orange softshell rain jacket, front view",
+            "pt-BR": "Jaqueta softshell laranja sinalização, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "orange-ffffff.png",
+            "#f5f5f5": "orange-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "orange-l",
+      "sku": "ALT-SSJ-ORA-L",
+      "options": {
+        "color": "orange",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 679.9,
+        "USD": 149.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Safety orange softshell rain jacket, front view",
+            "pt-BR": "Jaqueta softshell laranja sinalização, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "orange-ffffff.png",
+            "#f5f5f5": "orange-f5f5f5.png"
+          }
+        }
+      ]
+    }
+  ]
+}

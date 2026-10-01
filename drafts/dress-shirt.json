@@ -1,0 +1,10 @@
+{
+  "id": "dress-shirt",
+  "categoryId": "roupa-parte-de-cima-formal",
+  "name": {
+    "en": "Dress shirt",
+    "pt-BR": "Camisa social"
+  },
+  "photo": "dress-shirt.jpg",
+  "figmaNode": "134:5653"
+}

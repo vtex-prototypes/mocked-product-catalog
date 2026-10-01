@@ -1,0 +1,10 @@
+{
+  "id": "dishwasher",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Dishwasher",
+    "pt-BR": "Lava-louças"
+  },
+  "photo": "dishwasher.jpg",
+  "figmaNode": "134:5695"
+}

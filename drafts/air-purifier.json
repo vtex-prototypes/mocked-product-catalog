@@ -1,0 +1,10 @@
+{
+  "id": "air-purifier",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Air purifier",
+    "pt-BR": "Purificador de ar"
+  },
+  "photo": "air-purifier.jpg",
+  "figmaNode": "136:5611"
+}

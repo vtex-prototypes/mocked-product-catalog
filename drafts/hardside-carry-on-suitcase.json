@@ -1,0 +1,10 @@
+{
+  "id": "hardside-carry-on-suitcase",
+  "categoryId": "roupa-acessorios-acessorios",
+  "name": {
+    "en": "Hardside carry-on suitcase",
+    "pt-BR": "Mala de bordo rígida"
+  },
+  "photo": "hardside-carry-on-suitcase.jpg",
+  "figmaNode": "134:5708"
+}

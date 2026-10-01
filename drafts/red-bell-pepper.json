@@ -1,0 +1,10 @@
+{
+  "id": "red-bell-pepper",
+  "categoryId": "mercado-vegetais-fungos",
+  "name": {
+    "en": "Red bell pepper",
+    "pt-BR": "Pimentão vermelho"
+  },
+  "photo": "red-bell-pepper.jpg",
+  "figmaNode": "134:5640"
+}

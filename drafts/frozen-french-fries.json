@@ -1,0 +1,10 @@
+{
+  "id": "frozen-french-fries",
+  "categoryId": "mercado-comida-congelada",
+  "name": {
+    "en": "Frozen french fries",
+    "pt-BR": "Batata frita congelada"
+  },
+  "photo": "frozen-french-fries.jpg",
+  "figmaNode": "133:5608"
+}

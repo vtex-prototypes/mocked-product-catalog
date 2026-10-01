@@ -1,0 +1,10 @@
+{
+  "id": "oil-sprayer-bottle",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Oil sprayer bottle",
+    "pt-BR": "Spray de azeite"
+  },
+  "photo": "oil-sprayer-bottle.jpg",
+  "figmaNode": "134:5740"
+}

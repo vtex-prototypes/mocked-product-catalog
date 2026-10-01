@@ -1,0 +1,10 @@
+{
+  "id": "silicone-whisk",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Silicone whisk",
+    "pt-BR": "Batedor de silicone"
+  },
+  "photo": "silicone-whisk.jpg",
+  "figmaNode": "136:5598"
+}

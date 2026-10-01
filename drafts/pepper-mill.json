@@ -1,0 +1,10 @@
+{
+  "id": "pepper-mill",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Pepper mill",
+    "pt-BR": "Moedor de pimenta"
+  },
+  "photo": "pepper-mill.jpg",
+  "figmaNode": "134:5644"
+}

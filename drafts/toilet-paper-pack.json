@@ -1,0 +1,10 @@
+{
+  "id": "toilet-paper-pack",
+  "categoryId": "mercado-limpeza",
+  "name": {
+    "en": "Toilet paper pack",
+    "pt-BR": "Papel higiênico"
+  },
+  "photo": "toilet-paper-pack.jpg",
+  "figmaNode": "129:5603"
+}

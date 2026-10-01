@@ -1,0 +1,10 @@
+{
+  "id": "leather-biker-jacket",
+  "categoryId": "roupa-parte-de-cima-formal",
+  "name": {
+    "en": "Leather biker jacket",
+    "pt-BR": "Jaqueta de couro estilo motociclista"
+  },
+  "photo": "leather-biker-jacket.jpg",
+  "figmaNode": "136:5589"
+}

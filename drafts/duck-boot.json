@@ -1,0 +1,10 @@
+{
+  "id": "duck-boot",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Duck boot",
+    "pt-BR": "Bota galocha"
+  },
+  "photo": "duck-boot.jpg",
+  "figmaNode": "136:5627"
+}

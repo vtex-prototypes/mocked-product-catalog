@@ -1,0 +1,10 @@
+{
+  "id": "sliced-cheddar",
+  "categoryId": "mercado-pao-leite-ovos",
+  "name": {
+    "en": "Sliced cheddar",
+    "pt-BR": "Queijo prato fatiado"
+  },
+  "photo": "sliced-cheddar.jpg",
+  "figmaNode": "136:5604"
+}

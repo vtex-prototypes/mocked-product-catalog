@@ -1,0 +1,108 @@
+{
+  "id": "hiking-daypack",
+  "brand": "Altitude",
+  "categoryId": "esportes-mochilas",
+  "name": {
+    "en": "Altitude Ridge 18L Hiking Daypack with Hydration Sleeve and Drink Tube, Breathable Mesh Back Panel, Stretch Side Pockets, Burgundy or Teal, Lightweight Trail Backpack for Day Hikes and Running",
+    "pt-BR": "Mochila de Trilha Altitude Ridge 18 L com Compartimento para Reservatório e Tubo de Hidratação, Costas em Tela Respirável, Bolsos Laterais Elásticos, Bordô ou Azul Petróleo, Mochila Leve para Trilhas de Um Dia e Corrida"
+  },
+  "description": {
+    "en": "Eighteen-liter daypack with a 2 L hydration sleeve and routed drink tube, ventilated mesh back, stretch mesh side pockets and a sternum strap. Weighs under 500 grams.",
+    "pt-BR": "Mochila de 18 litros com compartimento para reservatório de 2 L e passagem para o tubo, costas em tela ventilada, bolsos laterais em malha elástica e tira peitoral. Pesa menos de 500 gramas."
+  },
+  "price": {
+    "BRL": 349.9,
+    "USD": 79.0
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "daypack",
+      "hiking",
+      "hydration"
+    ],
+    "pt-BR": [
+      "mochila",
+      "trilha",
+      "hidratação"
+    ]
+  },
+  "defaultVariantId": "burgundy",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "burgundy",
+          "name": {
+            "en": "Burgundy",
+            "pt-BR": "Bordô"
+          },
+          "hex": "#7A2A24"
+        },
+        {
+          "id": "teal",
+          "name": {
+            "en": "Teal",
+            "pt-BR": "Azul petróleo"
+          },
+          "hex": "#1F5566"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "burgundy",
+      "sku": "ALT-DPK-BUR",
+      "options": {
+        "color": "burgundy"
+      },
+      "price": {
+        "BRL": 349.9,
+        "USD": 79.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Burgundy hiking daypack with hydration tube, three-quarter view",
+            "pt-BR": "Mochila de trilha bordô com tubo de hidratação, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "burgundy-ffffff.png",
+            "#f5f5f5": "burgundy-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "teal",
+      "sku": "ALT-DPK-TEA",
+      "options": {
+        "color": "teal"
+      },
+      "price": {
+        "BRL": 349.9,
+        "USD": 79.0
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Teal hiking daypack with hydration tube, three-quarter view",
+            "pt-BR": "Mochila de trilha azul petróleo com tubo de hidratação, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "teal-ffffff.png",
+            "#f5f5f5": "teal-f5f5f5.png"
+          }
+        }
+      ]
+    }
+  ]
+}

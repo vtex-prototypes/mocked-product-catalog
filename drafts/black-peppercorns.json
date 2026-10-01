@@ -1,0 +1,10 @@
+{
+  "id": "black-peppercorns",
+  "categoryId": "mercado-temperos-molhos",
+  "name": {
+    "en": "Black peppercorns",
+    "pt-BR": "Pimenta-do-reino em grãos"
+  },
+  "photo": "black-peppercorns.jpg",
+  "figmaNode": "130:5571"
+}

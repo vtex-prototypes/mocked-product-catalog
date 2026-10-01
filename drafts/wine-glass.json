@@ -1,0 +1,10 @@
+{
+  "id": "wine-glass",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Wine glass",
+    "pt-BR": "Taça de vinho"
+  },
+  "photo": "wine-glass.jpg",
+  "figmaNode": "131:5589"
+}

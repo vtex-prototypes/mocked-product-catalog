@@ -1,0 +1,10 @@
+{
+  "id": "baseball-cap",
+  "categoryId": "roupa-acessorios-acessorios",
+  "name": {
+    "en": "Baseball cap",
+    "pt-BR": "Boné"
+  },
+  "photo": "baseball-cap.jpg",
+  "figmaNode": "136:5607"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "tactical-backpack",
+  "brand": "Altitude",
+  "categoryId": "esportes-mochilas",
+  "name": {
+    "en": "Altitude Rucksack 35L Tactical Backpack with Compression Straps and Padded Hip Belt, 900D Water-Resistant Fabric, Front Zip Pocket, Forest Green or Coyote Tan, Rugged Pack for Trekking and Travel",
+    "pt-BR": "Mochila Tática Altitude Rucksack 35 L com Fitas de Compressão e Cinto de Quadril Acolchoado, Tecido 900D Resistente à Água, Bolso Frontal com Zíper, Verde Floresta ou Caqui, Mochila Robusta para Trekking e Viagem"
+  },
+  "description": {
+    "en": "Thirty-five-liter pack in abrasion-resistant 900D fabric with side compression straps, a padded hip belt, a vertical front zip pocket and reinforced grab handle. Fits a 17-inch laptop sleeve.",
+    "pt-BR": "Mochila de 35 litros em tecido 900D resistente à abrasão com fitas de compressão laterais, cinto de quadril acolchoado, bolso frontal vertical com zíper e alça de mão reforçada. Comporta notebook de 17 polegadas."
+  },
+  "price": {
+    "BRL": 499.9,
+    "USD": 109.0
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "backpack",
+      "tactical",
+      "trekking"
+    ],
+    "pt-BR": [
+      "mochila",
+      "tática",
+      "trekking"
+    ]
+  },
+  "defaultVariantId": "green",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "green",
+          "name": {
+            "en": "Forest Green",
+            "pt-BR": "Verde floresta"
+          },
+          "hex": "#2B3A30"
+        },
+        {
+          "id": "tan",
+          "name": {
+            "en": "Coyote Tan",
+            "pt-BR": "Caqui"
+          },
+          "hex": "#B08D5B"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "green",
+      "sku": "ALT-TAC-GRE",
+      "options": {
+        "color": "green"
+      },
+      "price": {
+        "BRL": 499.9,
+        "USD": 109.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Forest green tactical backpack, three-quarter view",
+            "pt-BR": "Mochila tática verde floresta, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "green-ffffff.png",
+            "#f5f5f5": "green-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tan",
+      "sku": "ALT-TAC-TAN",
+      "options": {
+        "color": "tan"
+      },
+      "price": {
+        "BRL": 499.9,
+        "USD": 109.0
+      },
+      "availability": "out_of_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Coyote tan tactical backpack, three-quarter view",
+            "pt-BR": "Mochila tática caqui, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "tan-ffffff.png",
+            "#f5f5f5": "tan-f5f5f5.png"
+          }
+        }
+      ]
+    }
+  ]
+}

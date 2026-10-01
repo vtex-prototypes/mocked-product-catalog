@@ -1,0 +1,10 @@
+{
+  "id": "bluetooth-speaker",
+  "categoryId": "eletro-casa-entretenimento",
+  "name": {
+    "en": "Bluetooth speaker",
+    "pt-BR": "Caixa de som Bluetooth"
+  },
+  "photo": "bluetooth-speaker.jpg",
+  "figmaNode": "134:5713"
+}

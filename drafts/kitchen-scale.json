@@ -1,0 +1,10 @@
+{
+  "id": "kitchen-scale",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Digital kitchen scale",
+    "pt-BR": "Balança de cozinha digital"
+  },
+  "photo": "kitchen-scale.jpg",
+  "figmaNode": "134:5737"
+}

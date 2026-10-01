@@ -1,0 +1,10 @@
+{
+  "id": "smart-tv",
+  "categoryId": "eletro-casa-entretenimento",
+  "name": {
+    "en": "Smart TV",
+    "pt-BR": "Smart TV"
+  },
+  "photo": "smart-tv.jpg",
+  "figmaNode": "133:5605"
+}

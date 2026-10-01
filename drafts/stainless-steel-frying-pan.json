@@ -1,0 +1,10 @@
+{
+  "id": "stainless-steel-frying-pan",
+  "categoryId": "casa-panelas",
+  "name": {
+    "en": "Stainless steel frying pan",
+    "pt-BR": "Frigideira de aço inox"
+  },
+  "photo": "stainless-steel-frying-pan.jpg",
+  "figmaNode": "134:5688"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "oxford-dress-shoe",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Oxford dress shoe",
+    "pt-BR": "Sapato Oxford"
+  },
+  "photo": "oxford-dress-shoe.jpg",
+  "figmaNode": "136:5580"
+}

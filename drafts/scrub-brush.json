@@ -1,0 +1,10 @@
+{
+  "id": "scrub-brush",
+  "categoryId": "casa-organizacao-limpeza",
+  "name": {
+    "en": "Scrub brush",
+    "pt-BR": "Escova de limpeza"
+  },
+  "photo": "scrub-brush.jpg",
+  "figmaNode": "136:5602"
+}

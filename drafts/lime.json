@@ -1,0 +1,10 @@
+{
+  "id": "lime",
+  "categoryId": "mercado-vegetais-fungos",
+  "name": {
+    "en": "Lime",
+    "pt-BR": "Limão-taiti"
+  },
+  "photo": "lime.jpg",
+  "figmaNode": "134:5619"
+}

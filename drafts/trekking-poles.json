@@ -1,0 +1,10 @@
+{
+  "id": "trekking-poles",
+  "categoryId": "esportes-acessorios",
+  "name": {
+    "en": "Trekking poles",
+    "pt-BR": "Bastões de trekking"
+  },
+  "photo": "trekking-poles.jpg",
+  "figmaNode": "136:5651"
+}

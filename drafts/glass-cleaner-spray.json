@@ -1,0 +1,10 @@
+{
+  "id": "glass-cleaner-spray",
+  "categoryId": "mercado-limpeza",
+  "name": {
+    "en": "Glass cleaner spray",
+    "pt-BR": "Limpa-vidros"
+  },
+  "photo": "glass-cleaner-spray.jpg",
+  "figmaNode": "134:5618"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "4k-led-tv",
+  "categoryId": "eletro-casa-entretenimento",
+  "name": {
+    "en": "4K LED TV",
+    "pt-BR": "TV LED 4K"
+  },
+  "photo": "4k-led-tv.jpg",
+  "figmaNode": "136:5595"
+}

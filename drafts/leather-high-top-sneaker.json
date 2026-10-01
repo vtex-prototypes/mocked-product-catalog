@@ -1,0 +1,10 @@
+{
+  "id": "leather-high-top-sneaker",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Leather high-top sneaker",
+    "pt-BR": "Tênis cano alto de couro"
+  },
+  "photo": "leather-high-top-sneaker.jpg",
+  "figmaNode": "136:5639"
+}

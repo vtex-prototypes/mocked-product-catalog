@@ -1,0 +1,10 @@
+{
+  "id": "box-grater",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Box grater",
+    "pt-BR": "Ralador quatro faces"
+  },
+  "photo": "box-grater.jpg",
+  "figmaNode": "134:5698"
+}

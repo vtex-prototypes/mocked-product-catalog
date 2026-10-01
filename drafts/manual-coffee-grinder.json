@@ -1,0 +1,10 @@
+{
+  "id": "manual-coffee-grinder",
+  "categoryId": "casa-hobbies",
+  "name": {
+    "en": "Manual coffee grinder",
+    "pt-BR": "Moedor de café manual"
+  },
+  "photo": "manual-coffee-grinder.jpg",
+  "figmaNode": "136:5579"
+}

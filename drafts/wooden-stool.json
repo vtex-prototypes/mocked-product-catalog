@@ -1,0 +1,10 @@
+{
+  "id": "wooden-stool",
+  "categoryId": "casa-moveis-decoracao",
+  "name": {
+    "en": "Wooden stool",
+    "pt-BR": "Banqueta de madeira"
+  },
+  "photo": "wooden-stool.jpg",
+  "figmaNode": "136:5593"
+}

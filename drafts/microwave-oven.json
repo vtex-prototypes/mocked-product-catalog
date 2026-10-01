@@ -1,0 +1,10 @@
+{
+  "id": "microwave-oven",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Microwave oven",
+    "pt-BR": "Micro-ondas"
+  },
+  "photo": "microwave-oven.jpg",
+  "figmaNode": "131:5582"
+}

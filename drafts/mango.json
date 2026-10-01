@@ -1,0 +1,10 @@
+{
+  "id": "mango",
+  "categoryId": "mercado-vegetais-fungos",
+  "name": {
+    "en": "Mango",
+    "pt-BR": "Manga"
+  },
+  "photo": "mango.jpg",
+  "figmaNode": "134:5613"
+}

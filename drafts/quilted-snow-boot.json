@@ -1,0 +1,10 @@
+{
+  "id": "quilted-snow-boot",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Quilted snow boot",
+    "pt-BR": "Bota de neve matelassê"
+  },
+  "photo": "quilted-snow-boot.jpg",
+  "figmaNode": "136:5634"
+}

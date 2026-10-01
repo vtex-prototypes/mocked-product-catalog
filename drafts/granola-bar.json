@@ -1,0 +1,10 @@
+{
+  "id": "granola-bar",
+  "categoryId": "mercado-lanches",
+  "name": {
+    "en": "Granola bar",
+    "pt-BR": "Barra de cereal"
+  },
+  "photo": "granola-bar.jpg",
+  "figmaNode": "136:5614"
+}

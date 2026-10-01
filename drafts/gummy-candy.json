@@ -1,0 +1,10 @@
+{
+  "id": "gummy-candy",
+  "categoryId": "mercado-lanches",
+  "name": {
+    "en": "Gummy candy",
+    "pt-BR": "Balas de goma"
+  },
+  "photo": "gummy-candy.jpg",
+  "figmaNode": "130:5579"
+}

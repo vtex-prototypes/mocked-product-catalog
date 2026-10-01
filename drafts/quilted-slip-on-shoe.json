@@ -1,0 +1,10 @@
+{
+  "id": "quilted-slip-on-shoe",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Quilted slip-on shoe",
+    "pt-BR": "Sapato slip-on matelassê"
+  },
+  "photo": "quilted-slip-on-shoe.jpg",
+  "figmaNode": "136:5659"
+}

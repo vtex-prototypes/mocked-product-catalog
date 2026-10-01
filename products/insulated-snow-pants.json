@@ -1,0 +1,240 @@
+{
+  "id": "insulated-snow-pants",
+  "brand": "Altitude",
+  "categoryId": "esportes-calcas",
+  "name": {
+    "en": "Altitude Powder Insulated Snow Pants with Integrated Belt, Waterproof Breathable Shell, Articulated Knees and Boot Gaiters, Black or Red, Warm Ski and Snowboard Pants for Men and Women",
+    "pt-BR": "Calça de Neve Altitude Powder Forrada com Cinto Integrado, Tecido Impermeável e Respirável, Joelhos Articulados e Polainas Internas, Preta ou Vermelha, Calça Quente para Esqui e Snowboard Unissex"
+  },
+  "description": {
+    "en": "Insulated snow pants with a 15K waterproof shell, fully taped seams, articulated knees and internal gaiters that seal over boots. The integrated webbing belt replaces suspenders.",
+    "pt-BR": "Calça de neve forrada com tecido impermeável 15K, costuras totalmente seladas, joelhos articulados e polainas internas que vedam sobre a bota. O cinto de fita integrado dispensa suspensórios."
+  },
+  "price": {
+    "BRL": 799.9,
+    "USD": 179.0
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "snow pants",
+      "ski",
+      "waterproof"
+    ],
+    "pt-BR": [
+      "calça de neve",
+      "esqui",
+      "impermeável"
+    ]
+  },
+  "defaultVariantId": "black-m",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preta"
+          },
+          "hex": "#232323"
+        },
+        {
+          "id": "red",
+          "name": {
+            "en": "Red",
+            "pt-BR": "Vermelha"
+          },
+          "hex": "#C8252B"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "s",
+          "name": {
+            "en": "S",
+            "pt-BR": "P"
+          }
+        },
+        {
+          "id": "m",
+          "name": {
+            "en": "M",
+            "pt-BR": "M"
+          }
+        },
+        {
+          "id": "l",
+          "name": {
+            "en": "L",
+            "pt-BR": "G"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "ALT-SNP-BLA-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 799.9,
+        "USD": 179.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black insulated snow pants with belt, front view",
+            "pt-BR": "Calça de neve preta forrada com cinto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-ffffff.png",
+            "#f5f5f5": "black-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "ALT-SNP-BLA-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 799.9,
+        "USD": 179.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black insulated snow pants with belt, front view",
+            "pt-BR": "Calça de neve preta forrada com cinto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-ffffff.png",
+            "#f5f5f5": "black-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "ALT-SNP-BLA-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 799.9,
+        "USD": 179.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black insulated snow pants with belt, front view",
+            "pt-BR": "Calça de neve preta forrada com cinto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-ffffff.png",
+            "#f5f5f5": "black-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "red-s",
+      "sku": "ALT-SNP-RED-S",
+      "options": {
+        "color": "red",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 799.9,
+        "USD": 179.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red insulated snow pants with belt, front view",
+            "pt-BR": "Calça de neve vermelha forrada com cinto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "red-ffffff.png",
+            "#f5f5f5": "red-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "red-m",
+      "sku": "ALT-SNP-RED-M",
+      "options": {
+        "color": "red",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 799.9,
+        "USD": 179.0
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red insulated snow pants with belt, front view",
+            "pt-BR": "Calça de neve vermelha forrada com cinto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "red-ffffff.png",
+            "#f5f5f5": "red-f5f5f5.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "red-l",
+      "sku": "ALT-SNP-RED-L",
+      "options": {
+        "color": "red",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 799.9,
+        "USD": 179.0
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red insulated snow pants with belt, front view",
+            "pt-BR": "Calça de neve vermelha forrada com cinto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "red-ffffff.png",
+            "#f5f5f5": "red-f5f5f5.png"
+          }
+        }
+      ]
+    }
+  ]
+}

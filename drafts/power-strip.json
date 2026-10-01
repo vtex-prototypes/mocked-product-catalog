@@ -1,0 +1,10 @@
+{
+  "id": "power-strip",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Power strip",
+    "pt-BR": "Régua de tomadas"
+  },
+  "photo": "power-strip.jpg",
+  "figmaNode": "134:5702"
+}

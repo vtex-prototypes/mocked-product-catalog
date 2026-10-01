@@ -1,0 +1,10 @@
+{
+  "id": "tahini",
+  "categoryId": "mercado-temperos-molhos",
+  "name": {
+    "en": "Tahini",
+    "pt-BR": "Tahine"
+  },
+  "photo": "tahini.jpg",
+  "figmaNode": "135:5572"
+}

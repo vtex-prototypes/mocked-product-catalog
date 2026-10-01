@@ -1,0 +1,10 @@
+{
+  "id": "steam-iron",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Steam iron",
+    "pt-BR": "Ferro a vapor"
+  },
+  "photo": "steam-iron.jpg",
+  "figmaNode": "131:5580"
+}

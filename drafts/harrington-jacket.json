@@ -1,0 +1,10 @@
+{
+  "id": "harrington-jacket",
+  "categoryId": "roupa-parte-de-cima-formal",
+  "name": {
+    "en": "Harrington jacket",
+    "pt-BR": "Jaqueta Harrington"
+  },
+  "photo": "harrington-jacket.jpg",
+  "figmaNode": "136:5588"
+}

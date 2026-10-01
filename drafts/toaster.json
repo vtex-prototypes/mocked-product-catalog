@@ -1,0 +1,10 @@
+{
+  "id": "toaster",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Toaster",
+    "pt-BR": "Torradeira"
+  },
+  "photo": "toaster.jpg",
+  "figmaNode": "131:5590"
+}

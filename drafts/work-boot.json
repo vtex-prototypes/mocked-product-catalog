@@ -1,0 +1,10 @@
+{
+  "id": "work-boot",
+  "categoryId": "esportes-sapatos",
+  "name": {
+    "en": "Work boot",
+    "pt-BR": "Bota de trabalho"
+  },
+  "photo": "work-boot.jpg",
+  "figmaNode": "134:5707"
+}

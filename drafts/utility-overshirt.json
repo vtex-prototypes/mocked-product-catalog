@@ -1,0 +1,10 @@
+{
+  "id": "utility-overshirt",
+  "categoryId": "roupa-parte-de-cima-formal",
+  "name": {
+    "en": "Utility overshirt",
+    "pt-BR": "Sobrecamisa utilitária"
+  },
+  "photo": "utility-overshirt.jpg",
+  "figmaNode": "134:5631"
+}

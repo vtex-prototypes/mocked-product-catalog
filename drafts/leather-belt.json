@@ -1,0 +1,10 @@
+{
+  "id": "leather-belt",
+  "categoryId": "roupa-acessorios-acessorios",
+  "name": {
+    "en": "Leather belt",
+    "pt-BR": "Cinto de couro"
+  },
+  "photo": "leather-belt.jpg",
+  "figmaNode": "136:5582"
+}

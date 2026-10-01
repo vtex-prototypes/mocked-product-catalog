@@ -1,0 +1,10 @@
+{
+  "id": "ice-cube-tray",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Ice cube tray",
+    "pt-BR": "Forma de gelo"
+  },
+  "photo": "ice-cube-tray.jpg",
+  "figmaNode": "134:5721"
+}

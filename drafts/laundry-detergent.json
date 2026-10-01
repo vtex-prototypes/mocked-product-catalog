@@ -1,0 +1,10 @@
+{
+  "id": "laundry-detergent",
+  "categoryId": "mercado-limpeza",
+  "name": {
+    "en": "Liquid laundry detergent",
+    "pt-BR": "Sabão líquido para roupas"
+  },
+  "photo": "laundry-detergent.jpg",
+  "figmaNode": "129:5572"
+}

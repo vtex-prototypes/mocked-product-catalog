@@ -1,0 +1,10 @@
+{
+  "id": "cooler-box",
+  "categoryId": "casa-hobbies",
+  "name": {
+    "en": "Cooler box",
+    "pt-BR": "Caixa térmica"
+  },
+  "photo": "cooler-box.jpg",
+  "figmaNode": "134:5705"
+}

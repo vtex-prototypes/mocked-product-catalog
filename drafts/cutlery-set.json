@@ -1,0 +1,10 @@
+{
+  "id": "cutlery-set",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Cutlery set",
+    "pt-BR": "Faqueiro"
+  },
+  "photo": "cutlery-set.jpg",
+  "figmaNode": "131:5576"
+}

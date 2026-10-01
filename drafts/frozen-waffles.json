@@ -1,0 +1,10 @@
+{
+  "id": "frozen-waffles",
+  "categoryId": "mercado-comida-congelada",
+  "name": {
+    "en": "Frozen waffles",
+    "pt-BR": "Waffles congelados"
+  },
+  "photo": "frozen-waffles.jpg",
+  "figmaNode": "133:5606"
+}
