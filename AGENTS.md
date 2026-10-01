@@ -6,13 +6,13 @@ Agents are who use this repo. Follow this before loading products into a prototy
 
 Read [CONSUMING.md](CONSUMING.md) and answer both questions before picking products: which store or categories, and which fields each screen shows.
 
-The repo is internal to `vtex-prototypes`. A preview cannot fetch it by URL. Depend on it by name from a prototype in the same org:
+The repo is public. Load it by URL in the preview:
 
-```sh
-git submodule add ../mocked-product-catalog.git catalog
+```js
+const BASE = "https://raw.githubusercontent.com/vtex-prototypes/mocked-product-catalog/main/";
 ```
 
-That relative URL keeps working if the host changes. Copy `catalog/catalog.json` and the WebPs for the chosen categories into the prototype's static files at build time, and serve those. `src` in `catalog.json` is `images/<id>/<file>.webp`. The preview loads its own files.
+Fetch `${BASE}catalog.json` and prefix `src` with `BASE`. `src` is `images/<id>/<file>.webp`. Leave the photos where they are. Copying them into the prototype's `public/` folder makes a second copy that goes stale.
 
 Use published products. `drafts/` photos are not compliant. If a chosen category has no published products, say so and narrow the prototype, or promote the drafts with a PR here first.
 

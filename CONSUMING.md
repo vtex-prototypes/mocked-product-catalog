@@ -49,16 +49,10 @@ Write the list in the prototype brief. Example for a grocery home: photo, short-
 
 ## Load
 
-This repo is internal, so a preview cannot fetch it by URL. From a prototype in `vtex-prototypes`, depend on it by name:
-
-```sh
-git submodule add ../mocked-product-catalog.git catalog
-```
-
-Copy `catalog.json` and the WebPs for the categories from question 1 into the prototype's static files. `BASE` is that directory.
+The repo is public. Fetch it in the preview. `src` points at a WebP in this repo.
 
 ```js
-const BASE = "/catalog/";
+const BASE = "https://raw.githubusercontent.com/vtex-prototypes/mocked-product-catalog/main/";
 const { categories, products } = await fetch(`${BASE}catalog.json`).then((r) => r.json());
 
 const locale = "pt-BR";
