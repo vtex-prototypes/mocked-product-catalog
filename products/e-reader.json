@@ -1,0 +1,111 @@
+{
+  "id": "e-reader",
+  "categoryId": "eletro-pessoais",
+  "name": {
+    "en": "E-Reader with 6-Inch Glare-Free Display and Adjustable Warm Light, Black, Wi-Fi, Waterproof IPX8, Weeks of Battery on One Charge, Lightweight for Reading in Bed, at the Beach or on the Go",
+    "pt-BR": "Leitor de Livros Digitais com Tela de 6 Polegadas sem Reflexo e Luz Quente Ajustável, Preto, Wi-Fi, À Prova d'Água IPX8, Bateria para Semanas, Leve para Ler na Cama, na Praia ou em Viagem"
+  },
+  "description": {
+    "en": "A light e-reader with a paper-like screen that stays readable in full sun. Download books over Wi-Fi and read for weeks before you need to charge it.",
+    "pt-BR": "Leitor digital leve, com tela que imita papel e continua legível sob o sol. Baixe livros pelo Wi-Fi e leia por semanas antes de precisar recarregar."
+  },
+  "price": {
+    "BRL": 599.9,
+    "USD": 109.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "e-reader",
+      "books",
+      "reading"
+    ],
+    "pt-BR": [
+      "leitor digital",
+      "livros",
+      "leitura"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "wi-fi"
+    }
+  ],
+  "defaultVariantId": "16gb",
+  "options": [
+    {
+      "id": "storage",
+      "name": {
+        "en": "Storage",
+        "pt-BR": "Armazenamento"
+      },
+      "values": [
+        {
+          "id": "16gb",
+          "name": {
+            "en": "16 GB",
+            "pt-BR": "16 GB"
+          }
+        },
+        {
+          "id": "32gb",
+          "name": {
+            "en": "32 GB",
+            "pt-BR": "32 GB"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "16gb",
+      "sku": "ELE-ERD-16",
+      "options": {
+        "storage": "16gb"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 109.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black e-reader showing a page, front view",
+            "pt-BR": "Leitor digital preto mostrando uma página, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "32gb",
+      "sku": "ELE-ERD-32",
+      "options": {
+        "storage": "32gb"
+      },
+      "price": {
+        "BRL": 699.9,
+        "USD": 129.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black e-reader showing a page, front view",
+            "pt-BR": "Leitor digital preto mostrando uma página, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

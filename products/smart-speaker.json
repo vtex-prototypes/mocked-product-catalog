@@ -1,0 +1,115 @@
+{
+  "id": "smart-speaker",
+  "categoryId": "eletro-casa-entretenimento",
+  "name": {
+    "en": "Compact Smart Speaker with Voice Assistant, Light Gray Fabric Top, Wi-Fi and Bluetooth, Controls Lights and Plugs, Room-Filling Sound, Far-Field Microphones with Mute Switch",
+    "pt-BR": "Smart Speaker Compacto com Assistente de Voz, Tecido Cinza Claro, Wi-Fi e Bluetooth, Controla Lâmpadas e Tomadas, Som que Preenche o Ambiente, Microfones de Longo Alcance com Botão de Mudo"
+  },
+  "description": {
+    "en": "A small round speaker that answers questions, plays music and runs your smart home by voice. Streams over Wi-Fi, pairs with a phone over Bluetooth.",
+    "pt-BR": "Caixinha redonda que responde perguntas, toca música e controla a casa inteligente pela voz. Transmite por Wi-Fi e pareia com o celular por Bluetooth."
+  },
+  "price": {
+    "BRL": 349.9,
+    "USD": 49.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "smart speaker",
+      "voice assistant",
+      "smart home"
+    ],
+    "pt-BR": [
+      "smart speaker",
+      "assistente de voz",
+      "casa inteligente"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "wi-fi"
+    },
+    {
+      "id": "connectivity",
+      "valueId": "bluetooth"
+    }
+  ],
+  "defaultVariantId": "1-unit",
+  "options": [
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "1-unit",
+          "name": {
+            "en": "1 speaker",
+            "pt-BR": "1 unidade"
+          }
+        },
+        {
+          "id": "2-units",
+          "name": {
+            "en": "2 speakers",
+            "pt-BR": "2 unidades"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "1-unit",
+      "sku": "ELE-SSP-1UN",
+      "options": {
+        "pack": "1-unit"
+      },
+      "price": {
+        "BRL": 349.9,
+        "USD": 49.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round smart speaker with light gray fabric top",
+            "pt-BR": "Smart speaker redondo com tecido cinza claro"
+          },
+          "backgrounds": {
+            "#ffffff": "light-gray-white.png",
+            "#f5f5f5": "light-gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2-units",
+      "sku": "ELE-SSP-2UN",
+      "options": {
+        "pack": "2-units"
+      },
+      "price": {
+        "BRL": 629.9,
+        "USD": 89.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round smart speaker with light gray fabric top",
+            "pt-BR": "Smart speaker redondo com tecido cinza claro"
+          },
+          "backgrounds": {
+            "#ffffff": "light-gray-white.png",
+            "#f5f5f5": "light-gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

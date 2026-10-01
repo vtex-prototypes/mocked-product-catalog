@@ -1,0 +1,111 @@
+{
+  "id": "security-camera",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Wi-Fi Dome Security Camera for Indoor and Outdoor Use, White Weatherproof Housing, Night Vision up to 30 ft, Motion Alerts on Your Phone, Two-Way Audio, MicroSD and Cloud Recording",
+    "pt-BR": "Câmera de Segurança Wi-Fi Dome para Uso Interno e Externo, Carcaça Branca Resistente ao Tempo, Visão Noturna de até 10 m, Alertas de Movimento no Celular, Áudio Bidirecional, Gravação em MicroSD e Nuvem"
+  },
+  "description": {
+    "en": "A weatherproof dome camera that sends motion alerts straight to your phone over Wi-Fi. Sees in the dark, talks back, and records to a microSD card or the cloud.",
+    "pt-BR": "Câmera dome resistente ao tempo que envia alertas de movimento direto para o celular pelo Wi-Fi. Enxerga no escuro, tem áudio nos dois sentidos e grava em microSD ou na nuvem."
+  },
+  "price": {
+    "BRL": 229.9,
+    "USD": 39.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "security camera",
+      "wi-fi",
+      "smart home"
+    ],
+    "pt-BR": [
+      "câmera de segurança",
+      "wi-fi",
+      "casa inteligente"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "wi-fi"
+    }
+  ],
+  "defaultVariantId": "1080p",
+  "options": [
+    {
+      "id": "resolution",
+      "name": {
+        "en": "Resolution",
+        "pt-BR": "Resolução"
+      },
+      "values": [
+        {
+          "id": "1080p",
+          "name": {
+            "en": "Full HD 1080p",
+            "pt-BR": "Full HD 1080p"
+          }
+        },
+        {
+          "id": "2k",
+          "name": {
+            "en": "2K",
+            "pt-BR": "2K"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "1080p",
+      "sku": "ELE-SCM-1080",
+      "options": {
+        "resolution": "1080p"
+      },
+      "price": {
+        "BRL": 229.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White dome security camera",
+            "pt-BR": "Câmera de segurança dome branca"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2k",
+      "sku": "ELE-SCM-2K",
+      "options": {
+        "resolution": "2k"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 54.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White dome security camera",
+            "pt-BR": "Câmera de segurança dome branca"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

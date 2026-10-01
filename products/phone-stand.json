@@ -1,0 +1,105 @@
+{
+  "id": "phone-stand",
+  "categoryId": "eletro-acessorios",
+  "name": {
+    "en": "Adjustable Desk Phone Stand, White ABS with Non-Slip Silicone Pads, Tilts and Extends for Video Calls and Recipes, Fits Phones and Small Tablets, Folds Flat for Travel",
+    "pt-BR": "Suporte de Mesa Ajustável para Celular, ABS Branco com Apoios de Silicone Antiderrapantes, Inclina e Estende para Videochamadas e Receitas, Para Celulares e Tablets Pequenos, Dobrável para Viagem"
+  },
+  "description": {
+    "en": "Holds a phone at eye level for calls, recipes and videos. The open base leaves room for a cable or a wireless charging pad, and it folds flat for the bag.",
+    "pt-BR": "Deixa o celular na altura dos olhos para chamadas, receitas e vídeos. A base aberta deixa espaço para o cabo ou um carregador sem fio, e dobra para caber na bolsa."
+  },
+  "price": {
+    "BRL": 49.9,
+    "USD": 12.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "phone stand",
+      "desk",
+      "accessories"
+    ],
+    "pt-BR": [
+      "suporte para celular",
+      "mesa",
+      "acessórios"
+    ]
+  },
+  "defaultVariantId": "1-unit",
+  "options": [
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "1-unit",
+          "name": {
+            "en": "1 stand",
+            "pt-BR": "1 unidade"
+          }
+        },
+        {
+          "id": "2-units",
+          "name": {
+            "en": "2 stands",
+            "pt-BR": "2 unidades"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "1-unit",
+      "sku": "ELE-PST-1UN",
+      "options": {
+        "pack": "1-unit"
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 12.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White adjustable phone stand, three-quarter view",
+            "pt-BR": "Suporte ajustável branco para celular, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2-units",
+      "sku": "ELE-PST-2UN",
+      "options": {
+        "pack": "2-units"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 21.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White adjustable phone stand, three-quarter view",
+            "pt-BR": "Suporte ajustável branco para celular, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

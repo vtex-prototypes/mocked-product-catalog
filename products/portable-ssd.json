@@ -1,0 +1,142 @@
+{
+  "id": "portable-ssd",
+  "categoryId": "eletro-acessorios",
+  "name": {
+    "en": "Portable SSD External Drive, USB-C 3.2 up to 1,050 MB/s, Slim Black Aluminum Case, Shock-Resistant, Works with Laptop, Phone, Tablet and Game Console, Cable Included",
+    "pt-BR": "SSD Externo Portátil, USB-C 3.2 até 1.050 MB/s, Caixa Fina de Alumínio Preta, Resistente a Quedas, Compatível com Notebook, Celular, Tablet e Videogame, Cabo Incluso"
+  },
+  "description": {
+    "en": "A pocket-size SSD that moves a full movie in seconds over USB-C. The aluminum case shrugs off drops, and it works with laptops, phones and consoles.",
+    "pt-BR": "SSD de bolso que copia um filme inteiro em segundos pelo USB-C. A caixa de alumínio aguenta quedas, e funciona com notebook, celular e videogame."
+  },
+  "price": {
+    "BRL": 399.9,
+    "USD": 69.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "ssd",
+      "storage",
+      "usb-c"
+    ],
+    "pt-BR": [
+      "ssd",
+      "armazenamento",
+      "usb-c"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "usb-c"
+    }
+  ],
+  "defaultVariantId": "500gb",
+  "options": [
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "500gb",
+          "name": {
+            "en": "500 GB",
+            "pt-BR": "500 GB"
+          }
+        },
+        {
+          "id": "1tb",
+          "name": {
+            "en": "1 TB",
+            "pt-BR": "1 TB"
+          }
+        },
+        {
+          "id": "2tb",
+          "name": {
+            "en": "2 TB",
+            "pt-BR": "2 TB"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "500gb",
+      "sku": "ELE-PSD-500G",
+      "options": {
+        "capacity": "500gb"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 69.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black portable SSD with a USB-C port",
+            "pt-BR": "SSD portátil preto com porta USB-C"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1tb",
+      "sku": "ELE-PSD-1T",
+      "options": {
+        "capacity": "1tb"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black portable SSD with a USB-C port",
+            "pt-BR": "SSD portátil preto com porta USB-C"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2tb",
+      "sku": "ELE-PSD-2T",
+      "options": {
+        "capacity": "2tb"
+      },
+      "price": {
+        "BRL": 999.9,
+        "USD": 169.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black portable SSD with a USB-C port",
+            "pt-BR": "SSD portátil preto com porta USB-C"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

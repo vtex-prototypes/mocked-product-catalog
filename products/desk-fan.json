@@ -1,0 +1,105 @@
+{
+  "id": "desk-fan",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Desk Fan 12-Inch with 3 Speeds and Oscillation, White, Quiet 5-Blade Design, Tilting Head, Sturdy Square Base with Push Buttons, for Bedroom, Office and Living Room",
+    "pt-BR": "Ventilador de Mesa 30 cm com 3 Velocidades e Oscilação, Branco, 5 Pás Silenciosas, Inclinação Ajustável, Base Quadrada Firme com Botões, para Quarto, Escritório e Sala"
+  },
+  "description": {
+    "en": "A quiet five-blade desk fan with three speeds and side-to-side oscillation. The head tilts to aim the air, and the square base keeps it steady.",
+    "pt-BR": "Ventilador de mesa silencioso de cinco pás, com três velocidades e oscilação. A cabeça inclina para direcionar o vento, e a base quadrada deixa tudo firme."
+  },
+  "price": {
+    "BRL": 149.9,
+    "USD": 29.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "fan",
+      "cooling",
+      "summer"
+    ],
+    "pt-BR": [
+      "ventilador",
+      "refrescância",
+      "verão"
+    ]
+  },
+  "defaultVariantId": "127v",
+  "options": [
+    {
+      "id": "voltage",
+      "name": {
+        "en": "Voltage",
+        "pt-BR": "Voltagem"
+      },
+      "values": [
+        {
+          "id": "127v",
+          "name": {
+            "en": "127 V",
+            "pt-BR": "127 V"
+          }
+        },
+        {
+          "id": "220v",
+          "name": {
+            "en": "220 V",
+            "pt-BR": "220 V"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "127v",
+      "sku": "ELE-DFN-127V",
+      "options": {
+        "voltage": "127v"
+      },
+      "price": {
+        "BRL": 149.9,
+        "USD": 29.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White desk fan with five blades and push-button base",
+            "pt-BR": "Ventilador de mesa branco com cinco pás e base com botões"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "220v",
+      "sku": "ELE-DFN-220V",
+      "options": {
+        "voltage": "220v"
+      },
+      "price": {
+        "BRL": 149.9,
+        "USD": 29.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White desk fan with five blades and push-button base",
+            "pt-BR": "Ventilador de mesa branco com cinco pás e base com botões"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

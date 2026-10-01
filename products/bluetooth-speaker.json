@@ -1,0 +1,111 @@
+{
+  "id": "bluetooth-speaker",
+  "categoryId": "eletro-casa-entretenimento",
+  "name": {
+    "en": "Portable Bluetooth Speaker, Waterproof IPX7, Charcoal Fabric Grille, Rich Stereo Sound, 12-Hour Battery, Built-In Microphone for Calls, Compact Size for Travel, Beach and Pool",
+    "pt-BR": "Caixa de Som Bluetooth Portátil à Prova d'Água IPX7, Grade de Tecido Grafite, Som Estéreo Encorpado, Bateria de 12 Horas, Microfone para Chamadas, Compacta para Viagem, Praia e Piscina"
+  },
+  "description": {
+    "en": "A palm-size speaker wrapped in fabric that survives a dunk in the pool. Twelve hours of music over Bluetooth, and a microphone for hands-free calls.",
+    "pt-BR": "Caixa de som do tamanho da mão, revestida em tecido, que aguenta um mergulho na piscina. Doze horas de música por Bluetooth e microfone para chamadas sem as mãos."
+  },
+  "price": {
+    "BRL": 199.9,
+    "USD": 39.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "speaker",
+      "bluetooth",
+      "portable"
+    ],
+    "pt-BR": [
+      "caixa de som",
+      "bluetooth",
+      "portátil"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "bluetooth"
+    }
+  ],
+  "defaultVariantId": "10w",
+  "options": [
+    {
+      "id": "power",
+      "name": {
+        "en": "Power output",
+        "pt-BR": "Potência"
+      },
+      "values": [
+        {
+          "id": "10w",
+          "name": {
+            "en": "10 W",
+            "pt-BR": "10 W"
+          }
+        },
+        {
+          "id": "20w",
+          "name": {
+            "en": "20 W",
+            "pt-BR": "20 W"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "10w",
+      "sku": "ELE-BSP-10W",
+      "options": {
+        "power": "10w"
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black portable bluetooth speaker with fabric grille",
+            "pt-BR": "Caixa de som bluetooth preta com grade de tecido"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20w",
+      "sku": "ELE-BSP-20W",
+      "options": {
+        "power": "20w"
+      },
+      "price": {
+        "BRL": 279.9,
+        "USD": 54.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black portable bluetooth speaker with fabric grille",
+            "pt-BR": "Caixa de som bluetooth preta com grade de tecido"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

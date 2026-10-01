@@ -1,0 +1,115 @@
+{
+  "id": "game-controller",
+  "categoryId": "eletro-acessorios",
+  "name": {
+    "en": "Wireless Game Controller for PC, Android and Smart TV, Matte Black, Bluetooth and USB-C, Dual Vibration Motors, Precision Thumbsticks, Ergonomic Textured Grips, 20-Hour Battery",
+    "pt-BR": "Controle sem Fio para PC, Android e Smart TV, Preto Fosco, Bluetooth e USB-C, Vibração Dupla, Analógicos de Precisão, Pegada Ergonômica Texturizada, Bateria de 20 Horas"
+  },
+  "description": {
+    "en": "A wireless controller with a familiar layout, dual rumble motors and textured grips. Connects over Bluetooth or plugs in with USB-C, and charges while you play.",
+    "pt-BR": "Controle sem fio com layout familiar, vibração dupla e pegada texturizada. Conecta por Bluetooth ou pelo cabo USB-C, e carrega enquanto você joga."
+  },
+  "price": {
+    "BRL": 249.9,
+    "USD": 49.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "controller",
+      "gaming",
+      "wireless"
+    ],
+    "pt-BR": [
+      "controle",
+      "games",
+      "sem fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "bluetooth"
+    },
+    {
+      "id": "connectivity",
+      "valueId": "usb-c"
+    }
+  ],
+  "defaultVariantId": "built-in",
+  "options": [
+    {
+      "id": "battery",
+      "name": {
+        "en": "Battery",
+        "pt-BR": "Bateria"
+      },
+      "values": [
+        {
+          "id": "built-in",
+          "name": {
+            "en": "Built-in rechargeable",
+            "pt-BR": "Recarregável integrada"
+          }
+        },
+        {
+          "id": "spare-pack",
+          "name": {
+            "en": "With spare battery pack",
+            "pt-BR": "Com bateria extra"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "built-in",
+      "sku": "ELE-GCT-STD",
+      "options": {
+        "battery": "built-in"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 49.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black wireless game controller, front view",
+            "pt-BR": "Controle sem fio preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "spare-pack",
+      "sku": "ELE-GCT-PACK",
+      "options": {
+        "battery": "spare-pack"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black wireless game controller, front view",
+            "pt-BR": "Controle sem fio preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

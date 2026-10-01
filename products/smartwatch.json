@@ -1,0 +1,111 @@
+{
+  "id": "smartwatch",
+  "categoryId": "eletro-pessoais",
+  "name": {
+    "en": "Smartwatch with GPS and Heart Rate Monitor, Black Aluminum Case and Sport Band, Bluetooth, Sleep and Blood Oxygen Tracking, 100+ Workout Modes, Water-Resistant to 50 m, 7-Day Battery",
+    "pt-BR": "Smartwatch com GPS e Monitor Cardíaco, Caixa de Alumínio Preta e Pulseira Esportiva, Bluetooth, Monitoramento de Sono e Oxigenação, Mais de 100 Modos de Treino, Resistente à Água até 50 m, Bateria de 7 Dias"
+  },
+  "description": {
+    "en": "A light aluminum smartwatch that tracks runs with built-in GPS, heart rate and sleep. Notifications arrive over Bluetooth, and one charge lasts about a week.",
+    "pt-BR": "Smartwatch de alumínio leve que registra corridas com GPS integrado, batimentos e sono. As notificações chegam por Bluetooth, e uma carga dura cerca de uma semana."
+  },
+  "price": {
+    "BRL": 899.9,
+    "USD": 199.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "smartwatch",
+      "fitness",
+      "gps"
+    ],
+    "pt-BR": [
+      "smartwatch",
+      "relógio inteligente",
+      "fitness"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "bluetooth"
+    }
+  ],
+  "defaultVariantId": "41mm",
+  "options": [
+    {
+      "id": "case-size",
+      "name": {
+        "en": "Case size",
+        "pt-BR": "Tamanho da caixa"
+      },
+      "values": [
+        {
+          "id": "41mm",
+          "name": {
+            "en": "41 mm",
+            "pt-BR": "41 mm"
+          }
+        },
+        {
+          "id": "45mm",
+          "name": {
+            "en": "45 mm",
+            "pt-BR": "45 mm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "41mm",
+      "sku": "ELE-SWT-41",
+      "options": {
+        "case-size": "41mm"
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 199.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black smartwatch with sport band, three-quarter view",
+            "pt-BR": "Smartwatch preto com pulseira esportiva, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "45mm",
+      "sku": "ELE-SWT-45",
+      "options": {
+        "case-size": "45mm"
+      },
+      "price": {
+        "BRL": 999.9,
+        "USD": 229.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black smartwatch with sport band, three-quarter view",
+            "pt-BR": "Smartwatch preto com pulseira esportiva, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

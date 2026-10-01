@@ -1,0 +1,115 @@
+{
+  "id": "inkjet-printer",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "All-in-One Inkjet Printer, Scanner and Copier, Matte Black, Wi-Fi and Print from Your Phone, Color Printing, Compact Size for Home and Small Office, Quiet Mode",
+    "pt-BR": "Impressora Multifuncional Jato de Tinta, Imprime, Digitaliza e Copia, Preto Fosco, Wi-Fi e Impressão pelo Celular, Colorida, Tamanho Compacto para Casa e Pequeno Escritório, Modo Silencioso"
+  },
+  "description": {
+    "en": "A compact printer that prints, scans and copies in color. Send pages from your phone or laptop over Wi-Fi, with no cable to the computer.",
+    "pt-BR": "Impressora compacta que imprime, digitaliza e copia em cores. Envie páginas do celular ou do notebook pelo Wi-Fi, sem cabo até o computador."
+  },
+  "price": {
+    "BRL": 599.9,
+    "USD": 99.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "printer",
+      "scanner",
+      "home office"
+    ],
+    "pt-BR": [
+      "impressora",
+      "scanner",
+      "home office"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "wi-fi"
+    },
+    {
+      "id": "connectivity",
+      "valueId": "usb-a"
+    }
+  ],
+  "defaultVariantId": "printer",
+  "options": [
+    {
+      "id": "bundle",
+      "name": {
+        "en": "Bundle",
+        "pt-BR": "Kit"
+      },
+      "values": [
+        {
+          "id": "printer",
+          "name": {
+            "en": "Printer only",
+            "pt-BR": "Só a impressora"
+          }
+        },
+        {
+          "id": "with-ink",
+          "name": {
+            "en": "With extra ink set",
+            "pt-BR": "Com cartuchos extras"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "printer",
+      "sku": "ELE-IJP-STD",
+      "options": {
+        "bundle": "printer"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black all-in-one inkjet printer, three-quarter view",
+            "pt-BR": "Impressora multifuncional preta, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "with-ink",
+      "sku": "ELE-IJP-INK",
+      "options": {
+        "bundle": "with-ink"
+      },
+      "price": {
+        "BRL": 749.9,
+        "USD": 129.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black all-in-one inkjet printer, three-quarter view",
+            "pt-BR": "Impressora multifuncional preta, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

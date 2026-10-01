@@ -36,5 +36,16 @@
       { "id": "22-l", "name": { "en": "22 L", "pt-BR": "22 L" } },
       { "id": "35-l", "name": { "en": "35 L", "pt-BR": "35 L" } }
     ]
+  },
+  {
+    "id": "connectivity",
+    "name": { "en": "Connectivity", "pt-BR": "Conectividade" },
+    "values": [
+      { "id": "bluetooth", "name": { "en": "Bluetooth", "pt-BR": "Bluetooth" } },
+      { "id": "wi-fi", "name": { "en": "Wi-Fi", "pt-BR": "Wi-Fi" } },
+      { "id": "usb-receiver", "name": { "en": "2.4 GHz USB receiver", "pt-BR": "Receptor USB 2,4 GHz" } },
+      { "id": "usb-a", "name": { "en": "USB-A", "pt-BR": "USB-A" } },
+      { "id": "usb-c", "name": { "en": "USB-C", "pt-BR": "USB-C" } }
+    ]
   }
 ]

@@ -1,0 +1,111 @@
+{
+  "id": "webcam",
+  "categoryId": "eletro-acessorios",
+  "name": {
+    "en": "Webcam with Dual Stereo Microphones, Matte Black, Auto Light Correction, Wide 90° Field of View, Clip Mount for Monitor or Tripod, Plug and Play over USB",
+    "pt-BR": "Webcam com Microfones Estéreo Duplos, Preto Fosco, Correção Automática de Luz, Campo de Visão Amplo de 90°, Suporte para Monitor ou Tripé, Plug and Play via USB"
+  },
+  "description": {
+    "en": "A plug-and-play webcam for video calls and classes. It brightens dim rooms on its own and clips onto any monitor or laptop screen.",
+    "pt-BR": "Webcam plug and play para videochamadas e aulas. Ela clareia ambientes escuros sozinha e se prende a qualquer monitor ou tela de notebook."
+  },
+  "price": {
+    "BRL": 199.9,
+    "USD": 39.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "webcam",
+      "video calls",
+      "home office"
+    ],
+    "pt-BR": [
+      "webcam",
+      "videochamada",
+      "home office"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "usb-a"
+    }
+  ],
+  "defaultVariantId": "1080p",
+  "options": [
+    {
+      "id": "resolution",
+      "name": {
+        "en": "Resolution",
+        "pt-BR": "Resolução"
+      },
+      "values": [
+        {
+          "id": "1080p",
+          "name": {
+            "en": "Full HD 1080p",
+            "pt-BR": "Full HD 1080p"
+          }
+        },
+        {
+          "id": "2k",
+          "name": {
+            "en": "2K",
+            "pt-BR": "2K"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "1080p",
+      "sku": "ELE-WCM-1080",
+      "options": {
+        "resolution": "1080p"
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black webcam on its clip mount",
+            "pt-BR": "Webcam preta no suporte de encaixe"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2k",
+      "sku": "ELE-WCM-2K",
+      "options": {
+        "resolution": "2k"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black webcam on its clip mount",
+            "pt-BR": "Webcam preta no suporte de encaixe"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

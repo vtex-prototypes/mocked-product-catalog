@@ -1,0 +1,111 @@
+{
+  "id": "smart-scale",
+  "categoryId": "eletro-casa-praticos",
+  "name": {
+    "en": "Smart Body Composition Scale, White Tempered Glass, Measures Weight, Body Fat, Muscle and Water, Syncs to Your Phone, Recognizes up to 8 Users, Batteries Included",
+    "pt-BR": "Balança Digital de Bioimpedância Inteligente, Vidro Temperado Branco, Mede Peso, Gordura, Músculo e Água, Sincroniza com o Celular, Reconhece até 8 Usuários, Pilhas Inclusas"
+  },
+  "description": {
+    "en": "Step on and the scale reads weight and body composition, then syncs it to the app. It tells family members apart, so everyone keeps their own history.",
+    "pt-BR": "Basta subir para a balança medir peso e composição corporal e enviar tudo ao app. Ela diferencia cada pessoa da família, e cada um mantém o próprio histórico."
+  },
+  "price": {
+    "BRL": 149.9,
+    "USD": 29.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "smart scale",
+      "health",
+      "fitness"
+    ],
+    "pt-BR": [
+      "balança",
+      "saúde",
+      "bioimpedância"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "connectivity",
+      "valueId": "bluetooth"
+    }
+  ],
+  "defaultVariantId": "bluetooth",
+  "options": [
+    {
+      "id": "connection",
+      "name": {
+        "en": "Connection",
+        "pt-BR": "Conexão"
+      },
+      "values": [
+        {
+          "id": "bluetooth",
+          "name": {
+            "en": "Bluetooth",
+            "pt-BR": "Bluetooth"
+          }
+        },
+        {
+          "id": "wi-fi",
+          "name": {
+            "en": "Wi-Fi and Bluetooth",
+            "pt-BR": "Wi-Fi e Bluetooth"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "bluetooth",
+      "sku": "ELE-SSC-BT",
+      "options": {
+        "connection": "bluetooth"
+      },
+      "price": {
+        "BRL": 149.9,
+        "USD": 29.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White glass smart scale with four electrodes",
+            "pt-BR": "Balança inteligente de vidro branco com quatro eletrodos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wi-fi",
+      "sku": "ELE-SSC-WIFI",
+      "options": {
+        "connection": "wi-fi"
+      },
+      "price": {
+        "BRL": 219.9,
+        "USD": 49.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White glass smart scale with four electrodes",
+            "pt-BR": "Balança inteligente de vidro branco com quatro eletrodos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

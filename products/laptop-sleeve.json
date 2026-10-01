@@ -1,0 +1,105 @@
+{
+  "id": "laptop-sleeve",
+  "categoryId": "eletro-acessorios",
+  "name": {
+    "en": "Padded Laptop Sleeve with Zip Closure, Navy Water-Repellent Fabric, Soft Fleece Lining, Elastic Strap and Front Pocket for Charger and Wireless Mouse, Slim Enough for Any Backpack",
+    "pt-BR": "Capa Acolchoada para Notebook com Zíper, Tecido Azul Marinho Repelente à Água, Forro Macio de Fleece, Elástico e Bolso Frontal para Carregador e Mouse sem Fio, Fina para Qualquer Mochila"
+  },
+  "description": {
+    "en": "A padded sleeve that keeps a laptop scratch-free in any bag. The front pocket fits the charger and a wireless mouse, and the fabric shrugs off light rain.",
+    "pt-BR": "Capa acolchoada que protege o notebook de arranhões em qualquer bolsa. O bolso frontal leva o carregador e um mouse sem fio, e o tecido aguenta chuva fraca."
+  },
+  "price": {
+    "BRL": 99.9,
+    "USD": 24.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "laptop sleeve",
+      "laptop",
+      "accessories"
+    ],
+    "pt-BR": [
+      "capa para notebook",
+      "notebook",
+      "acessórios"
+    ]
+  },
+  "defaultVariantId": "13-14in",
+  "options": [
+    {
+      "id": "size",
+      "name": {
+        "en": "Laptop size",
+        "pt-BR": "Tamanho do notebook"
+      },
+      "values": [
+        {
+          "id": "13-14in",
+          "name": {
+            "en": "13–14 in",
+            "pt-BR": "13–14 polegadas"
+          }
+        },
+        {
+          "id": "15-16in",
+          "name": {
+            "en": "15–16 in",
+            "pt-BR": "15–16 polegadas"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "13-14in",
+      "sku": "ELE-LSL-14",
+      "options": {
+        "size": "13-14in"
+      },
+      "price": {
+        "BRL": 99.9,
+        "USD": 24.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy padded laptop sleeve with elastic strap",
+            "pt-BR": "Capa acolchoada azul marinho para notebook com elástico"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15-16in",
+      "sku": "ELE-LSL-16",
+      "options": {
+        "size": "15-16in"
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 29.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy padded laptop sleeve with elastic strap",
+            "pt-BR": "Capa acolchoada azul marinho para notebook com elástico"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
