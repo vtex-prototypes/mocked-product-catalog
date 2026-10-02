@@ -2,7 +2,7 @@
 
 The standard mock product catalog for building realistic prototypes at VTEX. One data shape, one image spec, one place to get products from, so every prototype at VTEX speaks the same catalog and photos from different people look like they belong in the same store.
 
-It covers the five categories of a real marketplace, Roupa e Acessórios, Casa e Decoração, Supermercado, Eletrônicos and Esportes, with 30 subcategories and 229 products. Every published product has English and Brazilian Portuguese copy, prices in USD and BRL, a stock state, color variants, and 1024×1024 photos on pure white (`#ffffff`) and on `#f5f5f5`, with no shadows and no text.
+Categories live in `categories.json`, and a prototype picks the roots and subcategories it needs. The tree it ships with covers clothing and accessories, home and decor, grocery, electronics, and sports. A store that needs a different cut adds a root. Every published product has English and Brazilian Portuguese copy, prices in USD and BRL, a stock state, variants, and 1024×1024 photos on pure white (`#ffffff`) and on `#f5f5f5`, with no shadows and no text.
 
 Public mock APIs (DummyJSON, Fake Store, Platzi) exist, but their photos don't match each other, their data has no variants, no localization and no stock states, and nobody at VTEX controls them. This repo sets the standard and keeps it: a product is only in `catalog.json` once it meets the spec below. Products that are not there yet live in `drafts/` with their original photo, so you can see the full breadth and pick what to promote.
 
@@ -102,7 +102,7 @@ Field notes:
 - `listPrice` is only present when that variant is on sale. Render a strike-through when `listPrice[currency] > price[currency]`.
 - `availability` is `in_stock`, `low_stock` or `out_of_stock`. Some variants are out of stock on purpose, so changing color or size can change the button.
 - Every photo has two backgrounds, `#ffffff` and `#f5f5f5`. `images[0]` is the main shot. The source files store the PNG filename. `src` is added in `catalog.json` and points at the WebP a prototype loads.
-- `categories` is a flat list of 35 entries; each one has a `parent` id or `null`. The five roots are `roupa-acessorios`, `casa-decoracao`, `supermercado`, `eletronicos`, `esportes`.
+- `categories` is a flat tree. Each entry has a `parent` id, or `null` when it is a root. Read the roots from `categories.json`.
 
 Full schema: [`schema/product.schema.json`](schema/product.schema.json).
 
@@ -196,15 +196,15 @@ A new option value: add it under `options`, then add one variant per combination
 AGENTS.md                   # instructions for agents consuming and contributing
 CONSUMING.md                # how to pick products for a prototype
 brands.json                 # fictional brands, referenced by products
-specifications.json         # shared materials, sizes, capacities
-categories.json             # category tree (5 roots, 30 subcategories)
+specifications.json         # shared values a shopper filters or compares
+categories.json             # category tree
 products/*.json             # one file per published product (source of truth)
 images/<id>/*-white.png    # source photo on white
 images/<id>/*-gray.png     # same photo, background repainted #f5f5f5
 images/<id>/*.webp         # what a prototype loads, generated from the PNG
 drafts/<id>.json            # products waiting for compliant photos
 drafts/<id>.jpg             # their original reference photo
-catalog.json                # generated: categories + published products with resolved image paths
+catalog.json                # generated: brands, specifications, categories, and published products
 drafts.json                 # generated: the promotion queue
 schema/product.schema.json  # JSON schema for products/*.json
 scripts/validate.mjs        # metadata + image checks for products and drafts

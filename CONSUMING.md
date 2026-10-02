@@ -10,7 +10,7 @@ Published products are in `catalog.json`. `drafts.json` is the queue of photos t
 
 Answer with the type of store to emulate, or with the category ids to include. One of the two is enough.
 
-A store type maps onto the roots in `categories.json`:
+A store type maps onto a root in `categories.json`. These are the roots the catalog has. A store that needs a different one adds it:
 
 | Store | Root id |
 |---|---|
