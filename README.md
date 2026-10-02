@@ -2,7 +2,7 @@
 
 The standard mock product catalog for building realistic prototypes at VTEX. One data shape, one image spec, one place to get products from, so every prototype at VTEX speaks the same catalog and photos from different people look like they belong in the same store.
 
-Categories live in `categories.json`, and a prototype picks the roots and subcategories it needs. The tree it ships with covers clothing and accessories, home and decor, grocery, electronics, and sports. A store that needs a different cut adds a root. Every published product has English and Brazilian Portuguese copy, prices in USD and BRL, a stock state, variants, and 1024×1024 photos on pure white (`#ffffff`) and on `#f5f5f5`, with no shadows and no text.
+Categories live in `categories.json`, and a prototype picks the roots and subcategories it needs. The tree has roots for clothing and accessories, home and decor, grocery, electronics, and sports, but not every root has published products yet: [CONSUMING.md](CONSUMING.md#1-what-store-is-this) has the current count per root. A store that needs a different cut adds a root. Every published product has English and Brazilian Portuguese copy, prices in USD and BRL, a stock state, variants, and 1024×1024 photos on pure white (`#ffffff`) and on `#f5f5f5`, with no shadows and no text.
 
 Public mock APIs (DummyJSON, Fake Store, Platzi) exist, but their photos don't match each other, their data has no variants, no localization and no stock states, and nobody at VTEX controls them. This repo sets the standard and keeps it: a product is only in `catalog.json` once it meets the spec below. Products that are not there yet live in `drafts/` with their original photo, so you can see the full breadth and pick what to promote.
 
@@ -38,7 +38,7 @@ const sageQueen = product.variants.find((v) => v.options.color === "sage" && v.o
 sageQueen.availability;                               // "out_of_stock"
 ```
 
-A product looks like this. Photos live on the variant, and every photo has both backgrounds:
+A product in `catalog.json` looks like this. Photos live on the variant, and every photo has both backgrounds. This is the built shape a prototype reads, not a source file: `npm run build` adds `src` and copies the `size` names from `specifications.json`. To write a file in `products/`, copy an existing one instead.
 
 ```json
 {
@@ -104,11 +104,11 @@ Field notes:
 - Every photo has two backgrounds, `#ffffff` and `#f5f5f5`. `images[0]` is the main shot. The source files store the PNG filename. `src` is added in `catalog.json` and points at the WebP a prototype loads.
 - `categories` is a flat tree. Each entry has a `parent` id, or `null` when it is a root. Read the roots from `categories.json`.
 
-Full schema: [`schema/product.schema.json`](schema/product.schema.json).
+Schema of the source files in `products/`: [`schema/product.schema.json`](schema/product.schema.json). `scripts/validate.mjs` enforces it, plus the rules a schema can't express (references between files, image pixels, default-variant consistency).
 
 ## Drafts: the queue of products to promote
 
-`drafts.json` lists every product that has a photo and a category but is not compliant yet. The photos come from the original Figma board; most of them have an off-white background, and a few have printed text or a dark background (see `notes`). Nothing in `drafts/` is in `catalog.json`. If a prototype needs one of these categories, promote the drafts with a `content:` pull request before using them. Copying a draft photo into the prototype, or repainting it there, leaves a second copy that the catalog never sees.
+`drafts.json` lists every product that has a photo and a category but is not compliant yet. The photos come from the original Figma board; most of them have an off-white background, and a few have printed text or a dark background (see `notes`). Nothing in `drafts/` is in `catalog.json`. If a prototype needs one of these categories, promote the drafts first ([CONSUMING.md](CONSUMING.md#when-a-category-has-no-published-products) explains why not to use them directly).
 
 ```json
 {
@@ -127,7 +127,7 @@ Drafts are also how new photos enter the repo. If you have a product idea but no
 
 ## Content and framework
 
-A contribution is either content (products, variants, photos, drafts, categories, brands, specifications) or framework (the schema, validator, scripts, build, CI, image spec, and these docs). Keep them in separate PRs. When content depends on a framework change, merge the framework PR first. See [AGENTS.md](AGENTS.md).
+A contribution is either content (what the catalog holds) or framework (how it works), and each PR is one or the other. [AGENTS.md](AGENTS.md#contribute) has the exact split and the order to merge them in.
 
 ## Add a product
 
@@ -173,12 +173,14 @@ Content rules:
 
 ### 3. Check and build
 
+Requires Node 20 or later.
+
 ```sh
 npm install
 npm run check
 ```
 
-`check` validates every product and draft, rebuilds `catalog.json` and `drafts.json`, and fails if the committed copies are stale. Commit the regenerated files together with yours.
+`check` validates every product and draft, rebuilds `catalog.json`, `drafts.json` and the coverage table in `CONSUMING.md`, and fails if the committed copies are stale. Commit the regenerated files together with yours.
 
 ### 4. Open a PR
 
@@ -194,7 +196,7 @@ A new option value: add it under `options`, then add one variant per combination
 
 ```
 AGENTS.md                   # instructions for agents consuming and contributing
-CONSUMING.md                # how to pick products for a prototype
+CONSUMING.md                # how to pick products for a prototype (coverage table is generated)
 brands.json                 # fictional brands, referenced by products
 specifications.json         # shared values a shopper filters or compares
 categories.json             # category tree
@@ -213,4 +215,8 @@ scripts/webp.mjs            # writes a WebP next to every PNG
 scripts/build.mjs           # builds catalog.json and drafts.json
 ```
 
-Prototypes load the WebP. The PNG stays beside it, and validation and `npm run backgrounds` read the PNG. The repo stores both, so clone size still follows the PNGs. Once a meaningful share of the drafts is promoted, move `images/` to Git LFS before that hurts clone times.
+Prototypes load the WebP. The PNG stays beside it, and validation and `npm run backgrounds` read the PNG.
+
+## Maintaining
+
+The repo stores both the PNG and the WebP, so clone size follows the PNGs. Once a meaningful share of the drafts is promoted, move `images/` to Git LFS before that hurts clone times.

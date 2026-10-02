@@ -4,17 +4,9 @@ Agents are who use this repo. Follow this before loading products into a prototy
 
 ## Consume
 
-Read [CONSUMING.md](CONSUMING.md) and answer both questions before picking products: which store or categories, and which fields each screen shows.
+Follow [CONSUMING.md](CONSUMING.md). Answer both of its questions before picking products: which store or categories, and which fields each screen shows. It has the loading code and the rule for categories that have no published products yet.
 
-The repo is public. Load it by URL in the preview:
-
-```js
-const BASE = "https://raw.githubusercontent.com/vtex-prototypes/mocked-product-catalog/main/";
-```
-
-Fetch `${BASE}catalog.json` and prefix `src` with `BASE`. `src` is `images/<id>/<file>.webp`. Leave the photos where they are. Copying them into the prototype's `public/` folder makes a second copy that goes stale.
-
-Use published products. `drafts/` photos are not compliant. If a chosen category has no published products, stop. Open a `content:` pull request that promotes the drafts (regenerated white PNG, `npm run backgrounds`, `npm run check`) and point the prototype at the raw URLs. Do not copy `drafts/` into the prototype, and do not repaint a draft photo.
+Load `catalog.json` and the photos by URL, and leave the photos where they are. Copying them into the prototype's `public/` folder makes a second copy that goes stale.
 
 ## Contribute
 
