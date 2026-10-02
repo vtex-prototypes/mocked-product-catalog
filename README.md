@@ -8,7 +8,15 @@ Public mock APIs (DummyJSON, Fake Store, Platzi) exist, but their photos don't m
 
 ## Use it in a prototype
 
-Agents follow [AGENTS.md](AGENTS.md). Answer [what store the prototype emulates and which product information it shows](CONSUMING.md) before picking products. The repo is public, so fetch `catalog.json` and prefix image paths with its raw URL:
+You do not clone this repo. Send its link to the agent that is building your prototype:
+
+> Use the products from https://github.com/vtex-prototypes/mocked-product-catalog. Follow its AGENTS.md.
+
+Then answer the two questions the agent asks, which store the prototype emulates and which product information each screen shows. [CONSUMING.md](CONSUMING.md) is the list it works from.
+
+That is the whole setup. The repo is public, so the agent fetches `catalog.json` and the photos straight from GitHub, and the prototype stays up to date with it. Nothing is copied into the prototype.
+
+For the agent, this is what the load looks like:
 
 ```js
 const BASE = "https://raw.githubusercontent.com/vtex-prototypes/mocked-product-catalog/main/";
@@ -119,11 +127,11 @@ Drafts are also how new photos enter the repo. If you have a product idea but no
 
 ## Content and framework
 
-A contribution is either content (products, variants, photos, drafts, categories) or framework (the schema, validator, scripts, build, CI, image spec, and these docs). Keep them in separate PRs. When content depends on a framework change, merge the framework PR first. See [AGENTS.md](AGENTS.md).
+A contribution is either content (products, variants, photos, drafts, categories, brands, specifications) or framework (the schema, validator, scripts, build, CI, image spec, and these docs). Keep them in separate PRs. When content depends on a framework change, merge the framework PR first. See [AGENTS.md](AGENTS.md).
 
 ## Add a product
 
-You don't need to be an engineer. The steps are: generate an image, write a small JSON file, run one command, open a PR.
+You don't need to be an engineer. Ask the agent in your prototype to promote the drafts your category needs, or to add the product, and to open the PR here. It follows [AGENTS.md](AGENTS.md). The steps it takes are: generate an image, write a small JSON file, run one command, open a PR.
 
 ### 1. Generate the image
 
