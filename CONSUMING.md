@@ -6,7 +6,7 @@ Published products are in `catalog.json`. `drafts.json` is the queue of photos t
 
 ## When a category has no published products
 
-Stop. Open a `content:` pull request that promotes the drafts (regenerated white PNG, `npm run backgrounds`, `npm run check`; see [Add a product](README.md#add-a-product)). Once it merges, the release that contains them is published automatically and a prototype on a `@1` range picks it up. Do not copy `drafts/` into the prototype, and do not repaint a draft photo: either one leaves a second copy that the catalog never sees.
+Stop. Open a `content:` pull request that promotes the drafts (regenerated white PNG, `npm run backgrounds`, `npm run check`; see [Add a product](README.md#add-a-product)). Once it merges and is released, a prototype on a `@1` range picks it up. Do not copy `drafts/` into the prototype, and do not repaint a draft photo: either one leaves a second copy that the catalog never sees.
 
 ## 1. What store is this?
 
@@ -89,7 +89,7 @@ Leave the photos where they are. Copying them into the prototype's `public/` fol
 
 ## Versions
 
-Every merge that changes what prototypes load is published as a release, `vMAJOR.MINOR.PATCH`, and a release never changes after it is published. The [releases page](https://github.com/vtex-prototypes/mocked-product-catalog/releases) is the changelog.
+Changes to what prototypes load are published as releases, `vMAJOR.MINOR.PATCH`, and a release never changes after it is published. A merge reaches prototypes once it is released (see [Releasing](README.md#releasing)). The [releases page](https://github.com/vtex-prototypes/mocked-product-catalog/releases) is the changelog.
 
 | Load from | You get | Use it for |
 |---|---|---|
@@ -107,7 +107,7 @@ What each kind of release can do:
 A product or variant is removed in three steps, and the loader tells the prototype at each one:
 
 1. **Deprecated, in a minor release.** It gets `"deprecated": { "reason": "...", "replacedBy": "<id>" }` and stays in the catalog, unchanged. Every `loadCatalog` call that returns it logs a warning with the reason and the replacement. Swap to the replacement, or drop it with `overrides.remove`, and the warning stops.
-2. **Removed, in the next major release.** CI only lets a product or variant go once it was deprecated in a published release. A `@1` prototype keeps receiving the deprecated item for as long as it stays on 1.x.
+2. **Removed, in the next major release.** The compatibility check, which every PR and every release runs, only lets a product or variant go once it was deprecated in an earlier release. A `@1` prototype keeps receiving the deprecated item for as long as it stays on 1.x.
 3. **Announced.** When a newer major release exists, the loader logs one warning naming it and linking to its release notes. Nothing changes until the prototype moves to the new major itself.
 
 The warnings go to the browser console, and loading never fails because of them. Ids are never reused for something else. Do not load from `main` or from `raw.githubusercontent.com`: those follow every merge, including breaking ones.

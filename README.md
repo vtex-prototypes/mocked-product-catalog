@@ -185,7 +185,7 @@ npm run check
 
 ### 4. Open a PR
 
-The PR template has the visual checks the validator can't do (shadows, text, real brands) and the draft-promotion checklist. CI runs `npm run check`, and fails a PR that removes or renames something prototypes use unless its title starts with `content!:` or `framework!:` (see [AGENTS.md](AGENTS.md#contribute)). Merge with squash. The merge is released automatically as the next version.
+The PR template has the visual checks the validator can't do (shadows, text, real brands) and the draft-promotion checklist. Before opening it, run `npm run check` and `npm run compat -- origin/main`. The second fails when the PR removes or renames something prototypes use, unless its title starts with `content!:` or `framework!:` (see [AGENTS.md](AGENTS.md#contribute)). GitHub Actions runs both on every PR once it is enabled for the repo; today the vtex-prototypes organization has it disabled. Merge with squash, then [release](#releasing).
 
 ## Add an extra image or a variant
 
@@ -217,12 +217,28 @@ scripts/build.mjs           # builds catalog.json, drafts.json and the coverage 
 scripts/compat.mjs          # says whether a change is a major, minor or patch release
 scripts/test-loader.mjs     # tests for loader.js
 scripts/warm-cdn.mjs        # waits until jsDelivr serves every file of a new release
+scripts/release.mjs         # npm run release: checks, versions, publishes, warms the CDN
 loader.js                   # what a prototype imports: pins a release, filters, applies overrides
-.github/workflows/          # validate on every PR, release on every merge to main
+.github/workflows/          # validate on every PR, release on every merge (inactive until Actions is enabled)
 ```
 
 Prototypes load the WebP. The PNG stays beside it, and validation and `npm run backgrounds` read the PNG.
 
 ## Maintaining
+
+### Releasing
+
+Prototypes only see a change once it is released. After merging, from an up-to-date `main`:
+
+```sh
+npm run release -- --dry-run   # shows the version it would publish and why
+npm run release
+```
+
+`release` refuses to run on a dirty tree or a stale `main`, runs `npm run check` and the compatibility check, picks the version (major when something was removed or a merged title has `!`, minor for additions and deprecations, patch otherwise), creates the GitHub release with notes, waits until jsDelivr serves every file of it (up to 10 minutes on a new release), and moves the `@MAJOR` range to it. It needs `gh` signed in with push rights. When nothing prototypes load has changed since the last release, it does nothing.
+
+`.github/workflows/release.yml` runs the same script on every merge to `main`. It starts working as soon as GitHub Actions is enabled for the repo, and then nobody needs to run `release` by hand.
+
+### Clone size
 
 The repo stores both the PNG and the WebP, so clone size follows the PNGs. Once a meaningful share of the drafts is promoted, move `images/` to Git LFS before that hurts clone times.

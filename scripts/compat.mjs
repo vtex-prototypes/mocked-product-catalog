@@ -3,10 +3,10 @@
 // semver bump it needs: major (something a prototype can rely on was removed),
 // minor (something was added) or patch (only values changed). Prints "none"
 // when nothing changed. The report goes to stderr, the bump to stdout.
-// Usage: node scripts/compat.mjs <ref> [--allow-breaking] [--report-only]
+// Usage: node scripts/compat.mjs <ref> [--allow-breaking]
 // Exits 1 on a breaking change unless --allow-breaking is passed, and always
 // exits 1 when a product or variant is removed without having been deprecated
-// at <ref>. --report-only never fails (used by the release).
+// at <ref>.
 
 import { readFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
@@ -16,7 +16,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const [ref, ...flags] = process.argv.slice(2);
 if (!ref) {
-  console.error("Usage: node scripts/compat.mjs <ref> [--allow-breaking] [--report-only]");
+  console.error("Usage: node scripts/compat.mjs <ref> [--allow-breaking]");
   process.exit(2);
 }
 
@@ -95,8 +95,6 @@ if (added.length) console.error(`Added:\n${added.map((x) => `  + ${x}`).join("\n
 if (nowDeprecated.length) console.error(`Deprecated (removed in the next major):\n${nowDeprecated.map((x) => `  ~ ${x}`).join("\n")}`);
 console.error(`catalog.json vs ${ref}: ${bump}`);
 console.log(bump);
-
-if (flags.includes("--report-only")) process.exit(0);
 
 if (undeprecated.length) {
   console.error(
