@@ -9,7 +9,7 @@
     "webp": "node scripts/webp.mjs",
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/build.mjs",
-    "check": "npm run webp && npm run validate && npm run build && git diff --exit-code -- catalog.json drafts.json images && ! git ls-files --others --exclude-standard -- images | grep -q ."
+    "check": "npm run webp && npm run validate && npm run build && git diff --exit-code -- catalog.json drafts.json CONSUMING.md images && ! git ls-files --others --exclude-standard -- images | grep -q ."
   },
   "engines": {
     "node": ">=20"
