@@ -26,7 +26,7 @@ The validator (`npm run check`) covers metadata, file layout, 1024×1024 PNG and
 And:
 
 - [ ] `npm run check` passes locally
-- [ ] Nothing a prototype can reference was removed or renamed. If something had to go, the title starts with `content!:` or `framework!:`
+- [ ] Nothing a prototype can reference was removed or renamed. If something had to go, it was deprecated in an earlier release and the title starts with `content!:` or `framework!:`
 - [ ] `en` and `pt-BR` copy both read naturally (not a literal translation of each other)
 - [ ] Name is a long, marketplace-style listing (product, size, material, color, key features; a brand only when the product has one)
 - [ ] `BRL` and `USD` prices are what a store in each market would actually charge

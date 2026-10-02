@@ -102,6 +102,7 @@ Field notes:
 - `listPrice` is only present when that variant is on sale. Render a strike-through when `listPrice[currency] > price[currency]`.
 - `availability` is `in_stock`, `low_stock` or `out_of_stock`. Some variants are out of stock on purpose, so changing color or size can change the button.
 - Every photo has two backgrounds, `#ffffff` and `#f5f5f5`. `images[0]` is the main shot. The source files store the PNG filename. `src` is added in `catalog.json` and points at the WebP a prototype loads, relative to the repo root. `loadCatalog` turns it into an absolute URL on the release it loaded.
+- `deprecated` appears on a product or variant that goes away in the next major release, with a `reason` and usually a `replacedBy` id. It is otherwise complete and still sells. The loader warns when a prototype uses it. See [Nothing disappears without a warning](CONSUMING.md#nothing-disappears-without-a-warning).
 - `categories` is a flat tree. Each entry has a `parent` id, or `null` when it is a root. Read the roots from `categories.json`.
 
 Schema of the source files in `products/`: [`schema/product.schema.json`](schema/product.schema.json). `scripts/validate.mjs` enforces it, plus the rules a schema can't express (references between files, image pixels, default-variant consistency).

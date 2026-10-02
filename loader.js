@@ -5,18 +5,52 @@
 // from the same, immutable copy. Overrides are applied in memory only.
 
 const REPO = "vtex-prototypes/mocked-product-catalog";
+const SEMVER = /^\d+\.\d+\.\d+$/;
 
+async function resolveVersion(specifier) {
+  const res = await fetch(`https://data.jsdelivr.com/v1/packages/gh/${REPO}/resolved?specifier=${encodeURIComponent(specifier)}`, {
+    signal: AbortSignal.timeout(5000),
+  });
+  return (await res.json()).version ?? null;
+}
+
+// Returns the URL to load from and, when it is a release, its exact version.
 async function resolveBase(base) {
-  if (base) return base.endsWith("/") ? base : `${base}/`;
-  const here = new URL("./", import.meta.url).href;
-  const match = here.match(/^https:\/\/cdn\.jsdelivr\.net\/gh\/[^@]+@([^/]+)\/$/);
-  if (!match || /^\d+\.\d+\.\d+$/.test(match[1])) return here;
+  const root = base ? (base.endsWith("/") ? base : `${base}/`) : new URL("./", import.meta.url).href;
+  const specifier = root.match(/^https:\/\/cdn\.jsdelivr\.net\/gh\/[^@]+@([^/]+)\/$/)?.[1];
+  if (!specifier) return { root, version: null };
+  if (SEMVER.test(specifier)) return { root, version: specifier };
   try {
-    const res = await fetch(`https://data.jsdelivr.com/v1/packages/gh/${REPO}/resolved?specifier=${encodeURIComponent(match[1])}`);
-    const { version } = await res.json();
-    if (version) return `https://cdn.jsdelivr.net/gh/${REPO}@${version}/`;
+    const version = await resolveVersion(specifier);
+    if (version && SEMVER.test(version)) return { root: `https://cdn.jsdelivr.net/gh/${REPO}@${version}/`, version };
   } catch {}
-  return here;
+  return { root, version: null };
+}
+
+let warnedNewerMajor = false;
+async function warnIfNewerMajor(version, warn) {
+  if (!version || warnedNewerMajor) return;
+  const latest = await resolveVersion("latest").catch(() => null);
+  if (!latest || Number(latest.split(".")[0]) <= Number(version.split(".")[0])) return;
+  warnedNewerMajor = true;
+  warn(
+    `v${latest} is out and this prototype loads v${version}. Nothing changes until you move to @${latest.split(".")[0]}. ` +
+      `What it removes: https://github.com/${REPO}/releases/tag/v${latest.split(".")[0]}.0.0`,
+  );
+}
+
+function warnDeprecated(products, warn) {
+  for (const p of products) {
+    if (p.local) continue;
+    if (p.deprecated) {
+      warn(`product "${p.id}" is deprecated and goes away in the next major release: ${p.deprecated.reason}` + (p.deprecated.replacedBy ? ` Use "${p.deprecated.replacedBy}".` : ""));
+      continue;
+    }
+    for (const v of p.variants) {
+      if (!v.deprecated) continue;
+      warn(`variant "${p.id}/${v.id}" is deprecated and goes away in the next major release: ${v.deprecated.reason}` + (v.deprecated.replacedBy ? ` Use "${v.deprecated.replacedBy}".` : ""));
+    }
+  }
 }
 
 const isObject = (v) => v !== null && typeof v === "object" && !Array.isArray(v);
@@ -73,11 +107,12 @@ function absolutize(product, base) {
  * @param {string} [options.base] Load from this URL instead of the one this file came from.
  */
 export async function loadCatalog({ categories: wantedCategories, products: wantedProducts, overrides = {}, base } = {}) {
-  const root = await resolveBase(base);
+  const warn = (msg) => console.warn(`mocked-product-catalog: ${msg}`);
+  const { root, version } = await resolveBase(base);
+  warnIfNewerMajor(version, warn);
   const res = await fetch(`${root}catalog.json`);
   if (!res.ok) throw new Error(`mocked-product-catalog: ${root}catalog.json returned ${res.status}`);
   const catalog = await res.json();
-  const warn = (msg) => console.warn(`mocked-product-catalog: ${msg}`);
 
   let products = catalog.products.map((p) => absolutize(p, root));
 
@@ -122,7 +157,8 @@ export async function loadCatalog({ categories: wantedCategories, products: want
     products = products.filter((p) => p.id !== local.id).concat({ ...syncDefault(local), local: true });
   }
 
-  return { ...catalog, base: root, products };
+  warnDeprecated(products, warn);
+  return { ...catalog, base: root, version, products };
 }
 
 function subtreeOf(categories, id) {

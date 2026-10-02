@@ -41,7 +41,7 @@ jobs:
             echo "Nothing prototypes load changed since $last. No release."
             exit 0
           fi
-          bump=$(node scripts/compat.mjs "$last" --allow-breaking 2> compat.txt)
+          bump=$(node scripts/compat.mjs "$last" --report-only 2> compat.txt)
           if [ "$bump" = none ]; then bump=patch; fi
           if git log --format=%s "$last"..HEAD | grep -Eq '^[a-z]+!:'; then bump=major; fi
           IFS=. read -r major minor patch <<< "${last#v}"

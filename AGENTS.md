@@ -19,7 +19,14 @@ There are two kinds of contribution. Each PR is one or the other.
 
 When you need both, open two PRs. Merge the framework PR first, then open the content PR that uses it. A new field on products, for example, is a framework PR that adds it to the schema and validator, followed by a content PR that fills it in. Start the PR title with `content:` or `framework:`.
 
-Prototypes depend on every id and field in `catalog.json`. Change values freely, and add whatever you need. Do not remove or rename a product, variant, option value, category, brand, specification, or field unless there is no other way, and never reuse an id for something else. When a removal is unavoidable, or a `loader.js` change would break existing callers, start the title with `content!:` or `framework!:`. CI fails a PR that removes something without the `!`, and the merge is released as a new major version, so prototypes on the current major are not affected. Merge with squash, so the PR title is the commit the release reads.
+Prototypes depend on every id and field in `catalog.json`. Change values freely, and add whatever you need. Do not remove or rename a product, variant, option value, category, brand, specification, or field unless there is no other way, and never reuse an id for something else.
+
+When a product or variant has to go, take it out in two PRs:
+
+1. A `content:` PR that adds `"deprecated": { "reason": "...", "replacedBy": "<id>" }` to it and changes nothing else. The reason is in English, for whoever builds prototypes. `replacedBy` is a product id on a product, or a variant id of the same product on a variant; leave it out only when nothing replaces it. The default variant cannot be deprecated: point `defaultVariantId` at a variant that stays first. This merges as a minor release, and prototypes that load the item start warning.
+2. Later, a `content!:` PR that removes it. CI fails a removal of anything that was not deprecated at the base branch.
+
+A removal is released as a new major version, so prototypes on the current major are not affected. Start the title with `content!:` or `framework!:` for any removal, and for a `loader.js` change that would break existing callers. CI fails a PR that removes something without the `!`. Merge with squash, so the PR title is the commit the release reads.
 
 A brand is optional. Leave `brandId` out, and leave it out of the name, when the product has none. A tomato does not need one. When it has one, add the brand once to `brands.json` and set `brandId`. Never use a trademark or a real brand name, in the brand, the name, description, tags, or alt text, or as a logo or label in the photo.
 
