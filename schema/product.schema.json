@@ -7,6 +7,16 @@
   "additionalProperties": false,
   "required": ["id", "name", "categoryId", "description", "price", "availability", "tags", "defaultVariantId", "options", "variants"],
   "$defs": {
+    "deprecated": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reason"],
+      "description": "Marks something that will be removed in the next major release. Prototypes that load it get a warning. Remove it only in a major release after this one.",
+      "properties": {
+        "reason": { "type": "string", "minLength": 10, "description": "Why it is going away, in English, for the people building prototypes." },
+        "replacedBy": { "type": "string", "description": "The id to use instead: a product id on a product, a variant id of the same product on a variant." }
+      }
+    },
     "localized": {
       "type": "object",
       "additionalProperties": false,
@@ -74,6 +84,7 @@
       }
     },
     "categoryId": { "type": "string", "description": "An id from categories.json." },
+    "deprecated": { "$ref": "#/$defs/deprecated" },
     "name": {
       "$ref": "#/$defs/localized",
       "description": "Long, marketplace-style listing name (product, size, material, color, key features; a brand only when the product has one). At least 60 characters per locale."
@@ -135,6 +146,7 @@
           "price": { "$ref": "#/$defs/money" },
           "listPrice": { "$ref": "#/$defs/money" },
           "availability": { "type": "string", "enum": ["in_stock", "low_stock", "out_of_stock"] },
+          "deprecated": { "$ref": "#/$defs/deprecated" },
           "images": {
             "type": "array",
             "minItems": 1,

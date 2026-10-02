@@ -20,7 +20,7 @@ const files = new Set(["catalog.json", "loader.js"]);
 for (const p of catalog.products) for (const v of p.variants) for (const img of v.images) for (const src of Object.values(img.src)) files.add(src);
 
 const base = `https://cdn.jsdelivr.net/gh/${repo}@${version}/`;
-const ROUNDS = 20;
+const ROUNDS = 40;
 const WAIT_MS = 15_000;
 const CONCURRENCY = 16;
 

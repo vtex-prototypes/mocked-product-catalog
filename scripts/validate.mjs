@@ -66,6 +66,17 @@ function checkMoney(id, field, value) {
   for (const k of Object.keys(value)) if (!CURRENCIES.includes(k)) err(id, `"${field}" has unknown currency "${k}"`);
 }
 
+// { "reason": "...", "replacedBy": "id" }. Returns replacedBy, or undefined.
+function checkDeprecated(id, label, value) {
+  if (value === undefined) return undefined;
+  if (!value || typeof value !== "object" || Array.isArray(value)) return err(id, `${label}"deprecated" must be an object with a "reason"`);
+  if (typeof value.reason !== "string" || value.reason.trim().length < 10) err(id, `${label}"deprecated.reason" must say why, in at least 10 characters`);
+  for (const k of Object.keys(value)) if (k !== "reason" && k !== "replacedBy") err(id, `${label}"deprecated" has unknown key "${k}"`);
+  if (value.replacedBy !== undefined && typeof value.replacedBy !== "string") err(id, `${label}"deprecated.replacedBy" must be an id`);
+  return value.replacedBy;
+}
+const deprecatedProducts = new Map(); // id -> replacedBy
+
 const categories = JSON.parse(readFileSync(join(ROOT, "categories.json"), "utf8"));
 const categoryIds = new Set(categories.map((c) => c.id));
 const brands = JSON.parse(readFileSync(join(ROOT, "brands.json"), "utf8"));
@@ -126,6 +137,12 @@ function validateProduct(file) {
     }
   }
   if (!categoryIds.has(p.categoryId)) err(id, `unknown categoryId "${p.categoryId}" (see categories.json)`);
+  if (p.deprecated !== undefined) {
+    const replacedBy = checkDeprecated(id, "", p.deprecated);
+    deprecatedProducts.set(id, replacedBy);
+    if (replacedBy === id) err(id, `"deprecated.replacedBy" cannot point at the product itself`);
+    else if (replacedBy !== undefined && !productIds.has(replacedBy)) err(id, `"deprecated.replacedBy" "${replacedBy}" is not a product`);
+  }
   checkLocalized(id, "name", p.name, MIN_NAME_LENGTH);
   checkLocalized(id, "description", p.description, MIN_DESCRIPTION_LENGTH);
 
@@ -218,7 +235,19 @@ function validateVariants(id, p, dir) {
       }
     }
     if (!AVAILABILITY.has(v.availability)) err(id, `${label} availability is invalid`);
+    checkDeprecated(id, `${label} `, v.deprecated);
     for (const file of validateGallery(id, label, v.images, dir)) listed.add(file);
+  }
+  for (const v of p.variants) {
+    const replacedBy = v?.deprecated?.replacedBy;
+    if (replacedBy === undefined) continue;
+    const target = p.variants.find((x) => x?.id === replacedBy);
+    if (replacedBy === v.id) err(id, `variant ${v.id} "deprecated.replacedBy" cannot point at itself`);
+    else if (!target) err(id, `variant ${v.id} "deprecated.replacedBy" "${replacedBy}" is not a variant of this product`);
+    else if (target.deprecated) err(id, `variant ${v.id} is replaced by "${replacedBy}", which is deprecated too`);
+  }
+  if (p.variants.find((v) => v?.id === p.defaultVariantId)?.deprecated) {
+    err(id, `"defaultVariantId" points at a deprecated variant; pick one that stays`);
   }
   if (!variantIds.has(p.defaultVariantId)) err(id, `"defaultVariantId" "${p.defaultVariantId ?? ""}" does not match a variant`);
   else {
@@ -360,6 +389,9 @@ if (files.length === 0 && draftFiles.length === 0) {
 }
 
 for (const f of files) validateProduct(f);
+for (const [id, replacedBy] of deprecatedProducts) {
+  if (deprecatedProducts.has(replacedBy)) err(id, `replaced by "${replacedBy}", which is deprecated too`);
+}
 for (const f of draftFiles) validateDraft(f, productIds);
 if (existsSync(DRAFTS_DIR) && requested.length === 0) {
   const used = new Set(draftFiles.map((f) => JSON.parse(readFileSync(join(DRAFTS_DIR, f), "utf8")).photo));

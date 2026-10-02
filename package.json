@@ -10,6 +10,7 @@
     "build": "node scripts/build.mjs",
     "test": "node --test scripts/test-loader.mjs",
     "compat": "node scripts/compat.mjs",
+    "release": "node scripts/release.mjs",
     "check": "npm run webp && npm run validate && npm run build && npm test && git diff --exit-code -- catalog.json drafts.json CONSUMING.md images && ! git ls-files --others --exclude-standard -- images | grep -q ."
   },
   "engines": {

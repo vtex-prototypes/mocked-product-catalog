@@ -1,8 +1,7 @@
 name: release
 
-# Every merge to main that changes what prototypes load (catalog.json, images,
-# loader.js) becomes an immutable vX.Y.Z tag. The bump comes from
-# scripts/compat.mjs, or is major when a merged PR title starts with `<type>!:`.
+# Publishes every merge to main that changes what prototypes load. The logic
+# lives in scripts/release.mjs, which a maintainer can also run by hand.
 
 on:
   push:
@@ -25,56 +24,6 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - run: npm run check
-
-      - name: Decide the version
-        id: version
-        run: |
-          last=$(git describe --tags --abbrev=0 --match 'v[0-9]*' 2>/dev/null || true)
-          if [ -z "$last" ]; then
-            echo "First release." > compat.txt
-            echo "tag=v1.0.0" >> "$GITHUB_OUTPUT"
-            echo "major=1" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          if git diff --quiet "$last" HEAD -- catalog.json images loader.js; then
-            echo "Nothing prototypes load changed since $last. No release."
-            exit 0
-          fi
-          bump=$(node scripts/compat.mjs "$last" --allow-breaking 2> compat.txt)
-          if [ "$bump" = none ]; then bump=patch; fi
-          if git log --format=%s "$last"..HEAD | grep -Eq '^[a-z]+!:'; then bump=major; fi
-          IFS=. read -r major minor patch <<< "${last#v}"
-          case "$bump" in
-            major) major=$((major + 1)); minor=0; patch=0 ;;
-            minor) minor=$((minor + 1)); patch=0 ;;
-            patch) patch=$((patch + 1)) ;;
-          esac
-          echo "$last -> v$major.$minor.$patch ($bump)"
-          echo "tag=v$major.$minor.$patch" >> "$GITHUB_OUTPUT"
-          echo "major=$major" >> "$GITHUB_OUTPUT"
-
-      - name: Publish the release
-        if: steps.version.outputs.tag
+      - run: npm run release
         env:
           GH_TOKEN: ${{ github.token }}
-          TAG: ${{ steps.version.outputs.tag }}
-          MAJOR: ${{ steps.version.outputs.major }}
-          REPO: ${{ github.repository }}
-        run: |
-          {
-            echo "Load it with \`https://cdn.jsdelivr.net/gh/$REPO@${TAG#v}/loader.js\`."
-            echo
-            echo "<details><summary>Catalog changes</summary>"
-            echo
-            echo '```'
-            cat compat.txt
-            echo '```'
-            echo "</details>"
-          } > notes.md
-          gh release create "$TAG" --target "$GITHUB_SHA" --generate-notes --notes-file notes.md
-          node scripts/warm-cdn.mjs "$REPO" "${TAG#v}"
-          # jsDelivr caches ranges such as @1; move it to the warmed release now.
-          for file in loader.js catalog.json; do
-            curl -fsS "https://purge.jsdelivr.net/gh/$REPO@$MAJOR/$file" > /dev/null || true
-          done

@@ -13,10 +13,16 @@ const BASE = "https://catalog.test/v/";
 const raw = readFileSync(join(ROOT, "catalog.json"), "utf8");
 const source = JSON.parse(raw);
 
+const CDN = "https://cdn.jsdelivr.net/gh/vtex-prototypes/mocked-product-catalog";
+const RESOLVE = "https://data.jsdelivr.com/v1/packages/gh/vtex-prototypes/mocked-product-catalog/resolved?specifier=";
+const routes = new Map([[`${BASE}catalog.json`, raw]]);
+const resolved = (version) => JSON.stringify({ version });
+
 globalThis.fetch = async (url) => {
-  if (url !== `${BASE}catalog.json`) throw new Error(`unexpected fetch ${url}`);
-  return new Response(raw, { status: 200 });
+  if (!routes.has(url)) throw new Error(`unexpected fetch ${url}`);
+  return new Response(routes.get(url), { status: 200 });
 };
+const tick = () => new Promise((r) => setTimeout(r, 0));
 
 const warnings = [];
 console.warn = (msg) => warnings.push(msg);
@@ -97,4 +103,48 @@ test("remove and add change only this prototype's view", async () => {
 test("products narrows to the listed ids", async () => {
   const { products } = await load({ products: [product.id] });
   assert.deepEqual(products.map((p) => p.id), [product.id]);
+});
+
+test("deprecated products and variants warn with their replacement", async () => {
+  const [first, second] = source.products;
+  const withDeprecations = structuredClone(source);
+  withDeprecations.products[0].deprecated = { reason: "Merged into another listing.", replacedBy: second.id };
+  const v = withDeprecations.products[1].variants.find((x) => x.id !== second.defaultVariantId);
+  v.deprecated = { reason: "This color is discontinued." };
+  const base = "https://catalog.test/deprecated/";
+  routes.set(`${base}catalog.json`, JSON.stringify(withDeprecations));
+
+  warnings.length = 0;
+  await loadCatalog({ base });
+  assert.equal(warnings.length, 2);
+  assert.match(warnings[0], new RegExp(`product "${first.id}" is deprecated.*Use "${second.id}"`));
+  assert.match(warnings[1], new RegExp(`variant "${second.id}/${v.id}" is deprecated`));
+
+  warnings.length = 0;
+  await loadCatalog({ base, overrides: { remove: [first.id] } });
+  assert.equal(warnings.length, 1, "removing a deprecated product in the prototype silences it");
+});
+
+test("a range resolves to one exact release, and the same major does not warn", async () => {
+  routes.set(`${RESOLVE}1`, resolved("1.2.0"));
+  routes.set(`${RESOLVE}latest`, resolved("1.3.0"));
+  routes.set(`${CDN}@1.2.0/catalog.json`, raw);
+  warnings.length = 0;
+  const { base, version, products } = await loadCatalog({ base: `${CDN}@1/` });
+  await tick();
+  assert.equal(version, "1.2.0");
+  assert.equal(base, `${CDN}@1.2.0/`);
+  assert.ok(products[0].variants[0].images[0].src["#ffffff"].startsWith(`${CDN}@1.2.0/images/`));
+  assert.equal(warnings.length, 0);
+});
+
+test("a newer major release warns once, without blocking the load", async () => {
+  routes.set(`${RESOLVE}latest`, resolved("2.0.1"));
+  warnings.length = 0;
+  await loadCatalog({ base: `${CDN}@1.2.0/` });
+  await tick();
+  await loadCatalog({ base: `${CDN}@1.2.0/` });
+  await tick();
+  assert.equal(warnings.length, 1);
+  assert.match(warnings[0], /v2\.0\.1 is out.*v1\.2\.0.*releases\/tag\/v2\.0\.0/);
 });
