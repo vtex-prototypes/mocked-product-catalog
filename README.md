@@ -215,6 +215,7 @@ scripts/webp.mjs            # writes a WebP next to every PNG
 scripts/build.mjs           # builds catalog.json, drafts.json and the coverage table
 scripts/compat.mjs          # says whether a change is a major, minor or patch release
 scripts/test-loader.mjs     # tests for loader.js
+scripts/warm-cdn.mjs        # waits until jsDelivr serves every file of a new release
 loader.js                   # what a prototype imports: pins a release, filters, applies overrides
 .github/workflows/          # validate on every PR, release on every merge to main
 ```

@@ -73,7 +73,8 @@ jobs:
             echo "</details>"
           } > notes.md
           gh release create "$TAG" --target "$GITHUB_SHA" --generate-notes --notes-file notes.md
-          # jsDelivr caches ranges such as @1; ask it to pick up the new release now.
+          node scripts/warm-cdn.mjs "$REPO" "${TAG#v}"
+          # jsDelivr caches ranges such as @1; move it to the warmed release now.
           for file in loader.js catalog.json; do
             curl -fsS "https://purge.jsdelivr.net/gh/$REPO@$MAJOR/$file" > /dev/null || true
           done
