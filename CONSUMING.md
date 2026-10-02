@@ -6,7 +6,7 @@ Published products are in `catalog.json`. `drafts.json` is the queue of photos t
 
 ## When a category has no published products
 
-Stop. Open a `content:` pull request that promotes the drafts (regenerated white PNG, `npm run backgrounds`, `npm run check`; see [Add a product](README.md#add-a-product)), then point the prototype at the published files. Do not copy `drafts/` into the prototype, and do not repaint a draft photo: either one leaves a second copy that the catalog never sees.
+Stop. Open a `content:` pull request that promotes the drafts (regenerated white PNG, `npm run backgrounds`, `npm run check`; see [Add a product](README.md#add-a-product)). Once it merges, the release that contains them is published automatically and a prototype on a `@1` range picks it up. Do not copy `drafts/` into the prototype, and do not repaint a draft photo: either one leaves a second copy that the catalog never sees.
 
 ## 1. What store is this?
 
@@ -56,18 +56,18 @@ Write the list in the prototype brief. Example for a grocery home: photo, short-
 
 ## Load
 
-The repo is public. Fetch it in the preview. `src` points at a WebP in this repo.
+Import the loader from a versioned URL. It fetches `catalog.json` and the photos from the same release, keeps the categories from question 1 (with their subcategories), and turns every `src` into an absolute URL.
 
 ```js
-const BASE = "https://raw.githubusercontent.com/vtex-prototypes/mocked-product-catalog/main/";
-const { categories, products } = await fetch(`${BASE}catalog.json`).then((r) => r.json());
+import { loadCatalog } from "https://cdn.jsdelivr.net/gh/vtex-prototypes/mocked-product-catalog@1/loader.js";
+
+const { categories, products } = await loadCatalog({
+  categories: ["esportes-casacos", "esportes-mochilas"], // from question 1
+});
 
 const locale = "pt-BR";
 const currency = "BRL";
 const background = "#f5f5f5";
-
-const wanted = new Set(["esportes-casacos", "esportes-mochilas"]); // from question 1
-const catalog = products.filter((p) => wanted.has(p.categoryId));
 
 function card(product) {
   const variant = product.variants.find((v) => v.id === product.defaultVariantId);
@@ -76,9 +76,57 @@ function card(product) {
     price: variant.price[currency],
     listPrice: variant.listPrice?.[currency],
     availability: variant.availability,
-    image: BASE + variant.images[0].src[background],
+    image: variant.images[0].src[background],
   };
 }
 ```
 
 Show only the fields from question 2. The rest stays in the data.
+
+`loadCatalog` throws when a category is unknown or has no published products in that release, so a prototype never renders an empty store by accident. Pass `products: ["pillow", ...]` instead of, or with, `categories` to pick exact products.
+
+Leave the photos where they are. Copying them into the prototype's `public/` folder makes a second copy that goes stale.
+
+## Versions
+
+Every merge that changes what prototypes load is published as a release, `vMAJOR.MINOR.PATCH`, and a release never changes after it is published. The [releases page](https://github.com/vtex-prototypes/mocked-product-catalog/releases) is the changelog.
+
+| Load from | You get | Use it for |
+|---|---|---|
+| `@1` | The newest 1.x: new products, new photos, fixed copy and prices. Nothing you use is removed or renamed. | Most prototypes |
+| `@1.0.0` | Exactly that release, forever | A usability test, a recorded demo, screenshots that must not move |
+
+What each kind of release can do:
+
+- **Patch**: changes values (copy, prices, stock states, a better photo). Ids and fields stay.
+- **Minor**: adds products, variants, options, categories, brands, specifications, or fields.
+- **Major**: removes or renames any of those. A `@1` prototype never receives it. Move to `@2` when you are ready, after reading the release notes.
+
+Ids are never reused for something else. Do not load from `main` or from `raw.githubusercontent.com`: those follow every merge, including breaking ones.
+
+## Change data for one prototype
+
+A prototype that needs different data changes its own copy, in memory, with `overrides`. The catalog, and every other prototype, keeps seeing the original.
+
+```js
+const { products } = await loadCatalog({
+  categories: ["casa-cama-mesa-banho"],
+  overrides: {
+    products: {
+      pillow: {
+        name: { "pt-BR": "Travesseiro de teste com um nome curto" },
+        variants: {
+          "white-standard": { availability: "out_of_stock", price: { BRL: 49.9 } },
+        },
+      },
+    },
+    remove: ["sheet-set"],
+    add: [myLocalProduct], // same shape as a catalog product; marked `local: true`
+  },
+});
+```
+
+- Objects merge field by field, and arrays replace. Variants are patched by `id`.
+- The product's `price`, `listPrice` and `availability` are re-synced from the default variant afterwards, so a card and a product page never disagree.
+- An override that points at an id the release no longer has logs a warning and is skipped. The prototype keeps loading.
+- If an override would help every prototype (a fixed translation, a more realistic price), open a `content:` pull request instead, so it lands in the catalog.

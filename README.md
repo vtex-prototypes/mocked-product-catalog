@@ -14,14 +14,14 @@ You do not clone this repo. Send its link to the agent that is building your pro
 
 Then answer the two questions the agent asks, which store the prototype emulates and which product information each screen shows. [CONSUMING.md](CONSUMING.md) is the list it works from.
 
-That is the whole setup. The repo is public, so the agent fetches `catalog.json` and the photos straight from GitHub, and the prototype stays up to date with it. Nothing is copied into the prototype.
+That is the whole setup. The agent loads a released version of the catalog straight from a CDN, and nothing is copied into the prototype. Your prototype gets new products and fixes, but nothing it uses is ever removed or renamed under it. If it needs different data (a product out of stock, a shorter name for a test), that change lives in your prototype only, and no one else sees it. [Versions](CONSUMING.md#versions) and [Change data for one prototype](CONSUMING.md#change-data-for-one-prototype) have the details.
 
 For the agent, this is what the load looks like:
 
 ```js
-const BASE = "https://raw.githubusercontent.com/vtex-prototypes/mocked-product-catalog/main/";
+import { loadCatalog } from "https://cdn.jsdelivr.net/gh/vtex-prototypes/mocked-product-catalog@1/loader.js";
 
-const { categories, products } = await fetch(`${BASE}catalog.json`).then((r) => r.json());
+const { categories, products } = await loadCatalog({ categories: ["casa-decoracao"] });
 
 const locale = "pt-BR"; // or "en"
 const currency = "BRL"; // or "USD"
@@ -32,7 +32,7 @@ const variant = product.variants.find((v) => v.id === product.defaultVariantId);
 
 product.name[locale];
 variant.price[currency];                              // 69.9
-BASE + variant.images[0].src[background];              // images/pillow/white-gray.webp
+variant.images[0].src[background];                    // https://cdn.jsdelivr.net/gh/…@1.0.0/images/pillow/white-gray.webp
 
 const sageQueen = product.variants.find((v) => v.options.color === "sage" && v.options.size === "queen");
 sageQueen.availability;                               // "out_of_stock"
@@ -101,7 +101,7 @@ Field notes:
 - `variants` are the combinations you can buy. Each has its own `sku`, `price`, `availability` and photos. Variants that look the same share image files (every size of a navy jacket points at `navy-white.png`). Variants that look different get their own shot (a 500 ml bottle and a 1 L bottle, a 128 GB phone and a 256 GB phone).
 - `listPrice` is only present when that variant is on sale. Render a strike-through when `listPrice[currency] > price[currency]`.
 - `availability` is `in_stock`, `low_stock` or `out_of_stock`. Some variants are out of stock on purpose, so changing color or size can change the button.
-- Every photo has two backgrounds, `#ffffff` and `#f5f5f5`. `images[0]` is the main shot. The source files store the PNG filename. `src` is added in `catalog.json` and points at the WebP a prototype loads.
+- Every photo has two backgrounds, `#ffffff` and `#f5f5f5`. `images[0]` is the main shot. The source files store the PNG filename. `src` is added in `catalog.json` and points at the WebP a prototype loads, relative to the repo root. `loadCatalog` turns it into an absolute URL on the release it loaded.
 - `categories` is a flat tree. Each entry has a `parent` id, or `null` when it is a root. Read the roots from `categories.json`.
 
 Schema of the source files in `products/`: [`schema/product.schema.json`](schema/product.schema.json). `scripts/validate.mjs` enforces it, plus the rules a schema can't express (references between files, image pixels, default-variant consistency).
@@ -184,7 +184,7 @@ npm run check
 
 ### 4. Open a PR
 
-The PR template has the visual checks the validator can't do (shadows, text, real brands) and the draft-promotion checklist. CI runs `npm run check`.
+The PR template has the visual checks the validator can't do (shadows, text, real brands) and the draft-promotion checklist. CI runs `npm run check`, and fails a PR that removes or renames something prototypes use unless its title starts with `content!:` or `framework!:` (see [AGENTS.md](AGENTS.md#contribute)). Merge with squash. The merge is released automatically as the next version.
 
 ## Add an extra image or a variant
 
@@ -212,7 +212,12 @@ schema/product.schema.json  # JSON schema for products/*.json
 scripts/validate.mjs        # metadata + image checks for products and drafts
 scripts/backgrounds.mjs     # paints the #f5f5f5 twins
 scripts/webp.mjs            # writes a WebP next to every PNG
-scripts/build.mjs           # builds catalog.json and drafts.json
+scripts/build.mjs           # builds catalog.json, drafts.json and the coverage table
+scripts/compat.mjs          # says whether a change is a major, minor or patch release
+scripts/test-loader.mjs     # tests for loader.js
+scripts/warm-cdn.mjs        # waits until jsDelivr serves every file of a new release
+loader.js                   # what a prototype imports: pins a release, filters, applies overrides
+.github/workflows/          # validate on every PR, release on every merge to main
 ```
 
 Prototypes load the WebP. The PNG stays beside it, and validation and `npm run backgrounds` read the PNG.

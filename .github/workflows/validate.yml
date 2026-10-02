@@ -2,6 +2,7 @@ name: validate
 
 on:
   pull_request:
+    types: [opened, synchronize, reopened, edited]
   push:
     branches: [main]
 
@@ -10,11 +11,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
       - run: npm ci
-      # Validates metadata + PNGs, rebuilds the WebPs and catalog.json, and
-      # fails if the committed catalog.json is out of date.
+      # Validates metadata + PNGs, rebuilds the WebPs, catalog.json and the
+      # coverage table, tests loader.js, and fails if committed outputs are stale.
       - run: npm run check
+      # Removing anything a prototype can reference needs a major version,
+      # which the PR declares with `content!:` or `framework!:`.
+      - name: Breaking changes need a major version
+        if: github.event_name == 'pull_request'
+        env:
+          TITLE: ${{ github.event.pull_request.title }}
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          flag=""
+          if [[ "$TITLE" =~ ^[a-z]+!: ]]; then flag="--allow-breaking"; fi
+          node scripts/compat.mjs "origin/$BASE_REF" $flag
