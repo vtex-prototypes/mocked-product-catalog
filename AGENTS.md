@@ -6,7 +6,7 @@ Agents are who use this repo. Follow this before loading products into a prototy
 
 Follow [CONSUMING.md](CONSUMING.md). Answer both of its questions before picking products: which store or categories, and which fields each screen shows. It has the loading code and the rule for categories that have no published products yet.
 
-Load `catalog.json` and the photos by URL, and leave the photos where they are. Copying them into the prototype's `public/` folder makes a second copy that goes stale.
+Load with `loader.js` from a versioned jsDelivr URL (`@1`, or an exact `@1.0.0` when the data must not move), never from `main`. When the prototype needs different data, pass `overrides` to `loadCatalog`. Do not edit the catalog for one prototype, and do not copy `catalog.json` or the photos into it. See [Versions](CONSUMING.md#versions) and [Change data for one prototype](CONSUMING.md#change-data-for-one-prototype).
 
 ## Contribute
 
@@ -15,9 +15,11 @@ Open a PR to `vtex-prototypes/mocked-product-catalog` when you generate somethin
 There are two kinds of contribution. Each PR is one or the other.
 
 - **Content**: what the catalog holds. A promoted draft (same `id` and `categoryId`, images regenerated from `drafts/<id>.jpg`, both draft files deleted). A new product, a new variant, or another photo of an existing one. A category in `categories.json`, a brand in `brands.json`, or a specification value in `specifications.json`, each with `en` and `pt-BR` names. Content PRs touch `products/`, `images/`, `drafts/`, `categories.json`, `brands.json`, `specifications.json`, and the regenerated `catalog.json` and `drafts.json`.
-- **Framework**: how the catalog works. The schema, the validator and its rules, the scripts, the build, CI, the image spec, the PR template, and these instructions. Framework PRs do not add or change products.
+- **Framework**: how the catalog works. The schema, the validator and its rules, the scripts, `loader.js`, the build, CI and releases, the image spec, the PR template, and these instructions. Framework PRs do not add or change products.
 
 When you need both, open two PRs. Merge the framework PR first, then open the content PR that uses it. A new field on products, for example, is a framework PR that adds it to the schema and validator, followed by a content PR that fills it in. Start the PR title with `content:` or `framework:`.
+
+Prototypes depend on every id and field in `catalog.json`. Change values freely, and add whatever you need. Do not remove or rename a product, variant, option value, category, brand, specification, or field unless there is no other way, and never reuse an id for something else. When a removal is unavoidable, or a `loader.js` change would break existing callers, start the title with `content!:` or `framework!:`. CI fails a PR that removes something without the `!`, and the merge is released as a new major version, so prototypes on the current major are not affected. Merge with squash, so the PR title is the commit the release reads.
 
 A brand is optional. Leave `brandId` out, and leave it out of the name, when the product has none. A tomato does not need one. When it has one, add the brand once to `brands.json` and set `brandId`. Never use a trademark or a real brand name, in the brand, the name, description, tags, or alt text, or as a logo or label in the photo.
 

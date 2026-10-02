@@ -1,7 +1,6 @@
 {
   "name": "mocked-product-catalog",
-  "version": "0.1.0",
-  "description": "Mock product catalog for building realistic prototypes at VTEX.",
+  "description": "Mock product catalog for building realistic prototypes at VTEX. Versions are the vX.Y.Z git tags.",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,7 +8,9 @@
     "webp": "node scripts/webp.mjs",
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/build.mjs",
-    "check": "npm run webp && npm run validate && npm run build && git diff --exit-code -- catalog.json drafts.json CONSUMING.md images && ! git ls-files --others --exclude-standard -- images | grep -q ."
+    "test": "node --test scripts/test-loader.mjs",
+    "compat": "node scripts/compat.mjs",
+    "check": "npm run webp && npm run validate && npm run build && npm test && git diff --exit-code -- catalog.json drafts.json CONSUMING.md images && ! git ls-files --others --exclude-standard -- images | grep -q ."
   },
   "engines": {
     "node": ">=20"
