@@ -42,6 +42,18 @@
     {
       "id": "application",
       "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    },
+    {
+      "id": "thickness",
+      "valueId": "7-mm"
     }
   ],
   "defaultVariantId": "white-glazed",

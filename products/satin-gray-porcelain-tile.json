@@ -1,0 +1,154 @@
+{
+  "id": "satin-gray-porcelain-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Satin Gray Porcelain Floor Tile for Covered Outdoor Areas, 24 by 24 Inches and 8 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Porcelanato Acetinado Cinza para Área Externa Coberta 60×60 cm com 8 mm, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A satin gray porcelain tile for a covered porch. It gets slippery when wet. It can go outdoors. Slip resistance is R9 and scratch resistance is high. It works best under a roof. The price is for one square foot.",
+    "pt-BR": "Porcelanato cinza acetinado para varanda coberta. Fica liso quando molha. Pode ir em área externa. O antiderrapante é R9 e a resistência a arranhão é alta. Funciona melhor em área coberta. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 49.9,
+    "USD": 2.49
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "porcelain tile",
+      "outdoor floor",
+      "R9"
+    ],
+    "pt-BR": [
+      "porcelanato",
+      "piso externo",
+      "antiderrapante R9"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r9"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    },
+    {
+      "id": "thickness",
+      "valueId": "8-mm"
+    }
+  ],
+  "defaultVariantId": "mid-gray-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "mid-gray",
+          "name": {
+            "en": "Mid gray",
+            "pt-BR": "Cinza médio"
+          },
+          "hex": "#9A9A9A"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "mid-gray-natural",
+      "sku": "CON-SATIN-GRAY-PORCELAIN-TILE-NATURAL",
+      "options": {
+        "color": "mid-gray",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 2.49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Satin Gray Porcelain Floor Tile for Covered Outdoor Areas",
+            "pt-BR": "Porcelanato Acetinado Cinza para Área Externa Coberta 60×60 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "mid-gray-white.png",
+            "#f5f5f5": "mid-gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mid-gray-rectified",
+      "sku": "CON-SATIN-GRAY-PORCELAIN-TILE-RECTIFIED",
+      "options": {
+        "color": "mid-gray",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 53.9,
+        "USD": 2.69
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Satin Gray Porcelain Floor Tile for Covered Outdoor Areas",
+            "pt-BR": "Porcelanato Acetinado Cinza para Área Externa Coberta 60×60 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "mid-gray-white.png",
+            "#f5f5f5": "mid-gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

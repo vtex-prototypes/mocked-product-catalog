@@ -1,0 +1,138 @@
+{
+  "id": "sage-interior-acrylic-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Sage Green Interior Acrylic Wall Paint with a Matte Finish, Sold by the Can",
+    "pt-BR": "Tinta Acrílica Verde Sálvia Fosca para Parede Interna, Vendida por Lata"
+  },
+  "description": {
+    "en": "A soft sage green matte acrylic for bedrooms and living rooms. It covers a white wall in two coats. The listed price is for the 3.6 liter can.",
+    "pt-BR": "Tinta acrílica verde sálvia fosca para quarto e sala. Cobre parede branca em duas demãos. O preço anunciado é da lata de 3,6 litros."
+  },
+  "price": {
+    "BRL": 109.9,
+    "USD": 44
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "interior paint",
+      "sage green",
+      "matte"
+    ],
+    "pt-BR": [
+      "tinta interna",
+      "verde sálvia",
+      "fosca"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "sage-3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "sage",
+          "name": {
+            "en": "Sage",
+            "pt-BR": "Verde sálvia"
+          },
+          "hex": "#93A58F"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "3.6 L",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "18 L",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "sage-3-6-l",
+      "sku": "CON-SAGE-INTERIOR-ACRYLIC-PAINT-3-6-L",
+      "options": {
+        "color": "sage",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 109.9,
+        "USD": 44
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of sage green interior paint",
+            "pt-BR": "Lata de tinta verde sálvia"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-18-l",
+      "sku": "CON-SAGE-INTERIOR-ACRYLIC-PAINT-18-L",
+      "options": {
+        "color": "sage",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 349,
+        "USD": 145
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of sage green interior paint",
+            "pt-BR": "Lata de tinta verde sálvia"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

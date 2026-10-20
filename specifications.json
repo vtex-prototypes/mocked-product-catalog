@@ -215,6 +215,41 @@
           "en": "Polycarbonate",
           "pt-BR": "Policarbonato"
         }
+      },
+      {
+        "id": "wood",
+        "name": {
+          "en": "Wood",
+          "pt-BR": "Madeira"
+        }
+      },
+      {
+        "id": "laminate",
+        "name": {
+          "en": "Laminate",
+          "pt-BR": "Laminado"
+        }
+      },
+      {
+        "id": "glass",
+        "name": {
+          "en": "Glass",
+          "pt-BR": "Vidro"
+        }
+      },
+      {
+        "id": "stainless-steel",
+        "name": {
+          "en": "Stainless steel",
+          "pt-BR": "Aço inox"
+        }
+      },
+      {
+        "id": "alkyd",
+        "name": {
+          "en": "Alkyd enamel",
+          "pt-BR": "Esmalte sintético"
+        }
       }
     ]
   },
@@ -371,10 +406,34 @@
       "pt-BR": "Antiderrapante"
     },
     "values": [
-      { "id": "r9", "name": { "en": "R9", "pt-BR": "R9" } },
-      { "id": "r10", "name": { "en": "R10", "pt-BR": "R10" } },
-      { "id": "r11", "name": { "en": "R11", "pt-BR": "R11" } },
-      { "id": "r12", "name": { "en": "R12", "pt-BR": "R12" } }
+      {
+        "id": "r9",
+        "name": {
+          "en": "R9",
+          "pt-BR": "R9"
+        }
+      },
+      {
+        "id": "r10",
+        "name": {
+          "en": "R10",
+          "pt-BR": "R10"
+        }
+      },
+      {
+        "id": "r11",
+        "name": {
+          "en": "R11",
+          "pt-BR": "R11"
+        }
+      },
+      {
+        "id": "r12",
+        "name": {
+          "en": "R12",
+          "pt-BR": "R12"
+        }
+      }
     ]
   },
   {
@@ -384,9 +443,27 @@
       "pt-BR": "Resistência a arranhão"
     },
     "values": [
-      { "id": "low", "name": { "en": "Low", "pt-BR": "Baixa" } },
-      { "id": "medium", "name": { "en": "Medium", "pt-BR": "Média" } },
-      { "id": "high", "name": { "en": "High", "pt-BR": "Alta" } }
+      {
+        "id": "low",
+        "name": {
+          "en": "Low",
+          "pt-BR": "Baixa"
+        }
+      },
+      {
+        "id": "medium",
+        "name": {
+          "en": "Medium",
+          "pt-BR": "Média"
+        }
+      },
+      {
+        "id": "high",
+        "name": {
+          "en": "High",
+          "pt-BR": "Alta"
+        }
+      }
     ]
   },
   {
@@ -396,8 +473,173 @@
       "pt-BR": "Uso"
     },
     "values": [
-      { "id": "indoor", "name": { "en": "Indoor", "pt-BR": "Área interna" } },
-      { "id": "outdoor", "name": { "en": "Outdoor", "pt-BR": "Área externa" } }
+      {
+        "id": "indoor",
+        "name": {
+          "en": "Indoor",
+          "pt-BR": "Área interna"
+        }
+      },
+      {
+        "id": "outdoor",
+        "name": {
+          "en": "Outdoor",
+          "pt-BR": "Área externa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "look",
+    "name": {
+      "en": "Look",
+      "pt-BR": "Visual"
+    },
+    "values": [
+      {
+        "id": "wood",
+        "name": {
+          "en": "Wood",
+          "pt-BR": "Madeira"
+        }
+      },
+      {
+        "id": "stone",
+        "name": {
+          "en": "Stone",
+          "pt-BR": "Pedra"
+        }
+      },
+      {
+        "id": "concrete",
+        "name": {
+          "en": "Concrete",
+          "pt-BR": "Cimentício"
+        }
+      },
+      {
+        "id": "marble",
+        "name": {
+          "en": "Marble",
+          "pt-BR": "Mármore"
+        }
+      },
+      {
+        "id": "terrazzo",
+        "name": {
+          "en": "Terrazzo",
+          "pt-BR": "Granilite"
+        }
+      },
+      {
+        "id": "solid",
+        "name": {
+          "en": "Solid color",
+          "pt-BR": "Liso"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tone",
+    "name": {
+      "en": "Tone",
+      "pt-BR": "Tom"
+    },
+    "values": [
+      {
+        "id": "light",
+        "name": {
+          "en": "Light",
+          "pt-BR": "Claro"
+        }
+      },
+      {
+        "id": "medium",
+        "name": {
+          "en": "Medium",
+          "pt-BR": "Médio"
+        }
+      },
+      {
+        "id": "dark",
+        "name": {
+          "en": "Dark",
+          "pt-BR": "Escuro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "thickness",
+    "name": {
+      "en": "Thickness",
+      "pt-BR": "Espessura"
+    },
+    "values": [
+      {
+        "id": "3-mm",
+        "name": {
+          "en": "3 mm",
+          "pt-BR": "3 mm"
+        }
+      },
+      {
+        "id": "5-mm",
+        "name": {
+          "en": "5 mm",
+          "pt-BR": "5 mm"
+        }
+      },
+      {
+        "id": "7-mm",
+        "name": {
+          "en": "7 mm",
+          "pt-BR": "7 mm"
+        }
+      },
+      {
+        "id": "8-mm",
+        "name": {
+          "en": "8 mm",
+          "pt-BR": "8 mm"
+        }
+      },
+      {
+        "id": "9-mm",
+        "name": {
+          "en": "9 mm",
+          "pt-BR": "9 mm"
+        }
+      },
+      {
+        "id": "10-mm",
+        "name": {
+          "en": "10 mm",
+          "pt-BR": "10 mm"
+        }
+      },
+      {
+        "id": "12-mm",
+        "name": {
+          "en": "12 mm",
+          "pt-BR": "12 mm"
+        }
+      },
+      {
+        "id": "20-mm",
+        "name": {
+          "en": "20 mm",
+          "pt-BR": "20 mm"
+        }
+      },
+      {
+        "id": "80-mm",
+        "name": {
+          "en": "80 mm",
+          "pt-BR": "80 mm"
+        }
+      }
     ]
   }
 ]

@@ -1,0 +1,154 @@
+{
+  "id": "walnut-vinyl-glue-down-plank",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Walnut Wood-Look Vinyl Floor Plank, 7 by 48 Inches and 3 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Piso Vinílico Nogueira 18×122 cm com 3 mm, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A thin dark walnut vinyl plank that goes over an old floor with no demolition. It is meant for indoor rooms. Slip resistance is R10 and scratch resistance is low. The price is for one square foot.",
+    "pt-BR": "Régua vinílica fina em nogueira escura, que entra sobre piso antigo sem quebrar nada. É indicado para área interna. O antiderrapante é R10 e a resistência a arranhão é baixa. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 79.9,
+    "USD": 2.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "vinyl floor",
+      "indoor floor",
+      "R10"
+    ],
+    "pt-BR": [
+      "piso vinílico",
+      "piso interno",
+      "antiderrapante R10"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "vinyl"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r10"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "low"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "wood"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    },
+    {
+      "id": "thickness",
+      "valueId": "3-mm"
+    }
+  ],
+  "defaultVariantId": "walnut-glue-down",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "walnut",
+          "name": {
+            "en": "Walnut",
+            "pt-BR": "Nogueira"
+          },
+          "hex": "#4E3426"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Installation",
+        "pt-BR": "Instalação"
+      },
+      "values": [
+        {
+          "id": "glue-down",
+          "name": {
+            "en": "Glue-down",
+            "pt-BR": "Colado"
+          }
+        },
+        {
+          "id": "click",
+          "name": {
+            "en": "Click",
+            "pt-BR": "Click"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "walnut-glue-down",
+      "sku": "CON-WALNUT-VINYL-GLUE-DOWN-PLANK-GLUE-DOWN",
+      "options": {
+        "color": "walnut",
+        "install": "glue-down"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 2.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Walnut Wood-Look Vinyl Floor Plank",
+            "pt-BR": "Piso Vinílico Nogueira 18×122 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "walnut-white.png",
+            "#f5f5f5": "walnut-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "walnut-click",
+      "sku": "CON-WALNUT-VINYL-GLUE-DOWN-PLANK-CLICK",
+      "options": {
+        "color": "walnut",
+        "install": "click"
+      },
+      "price": {
+        "BRL": 83.9,
+        "USD": 3.19
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Walnut Wood-Look Vinyl Floor Plank",
+            "pt-BR": "Piso Vinílico Nogueira 18×122 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "walnut-white.png",
+            "#f5f5f5": "walnut-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

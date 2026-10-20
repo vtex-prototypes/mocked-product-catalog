@@ -1,0 +1,154 @@
+{
+  "id": "terracotta-anti-slip-ceramic-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Terracotta Anti-Slip Outdoor Ceramic Floor Tile, 18 by 18 Inches and 8 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Cerâmica Antiderrapante Terracota para Área Externa 45×45 cm com 8 mm, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A solid terracotta ceramic tile with a sandy surface that holds the foot. It can go outdoors. Slip resistance is R11 and scratch resistance is high. It stays grippy in direct rain. The price is for one square foot.",
+    "pt-BR": "Cerâmica lisa cor de terracota com superfície arenosa que segura o pé. Pode ir em área externa. O antiderrapante é R11 e a resistência a arranhão é alta. Aguenta chuva direta sem ficar liso. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 32.9,
+    "USD": 1.79
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "ceramic tile",
+      "outdoor floor",
+      "R11"
+    ],
+    "pt-BR": [
+      "cerâmica",
+      "piso externo",
+      "antiderrapante R11"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r11"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    },
+    {
+      "id": "thickness",
+      "valueId": "8-mm"
+    }
+  ],
+  "defaultVariantId": "terracotta-red-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "terracotta-red",
+          "name": {
+            "en": "Terracotta red",
+            "pt-BR": "Terracota"
+          },
+          "hex": "#B5583A"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "terracotta-red-natural",
+      "sku": "CON-TERRACOTTA-ANTI-SLIP-CERAMIC-TILE-NATURAL",
+      "options": {
+        "color": "terracotta-red",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 32.9,
+        "USD": 1.79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Terracotta Anti-Slip Outdoor Ceramic Floor Tile",
+            "pt-BR": "Cerâmica Antiderrapante Terracota para Área Externa 45×45 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-red-white.png",
+            "#f5f5f5": "terracotta-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "terracotta-red-rectified",
+      "sku": "CON-TERRACOTTA-ANTI-SLIP-CERAMIC-TILE-RECTIFIED",
+      "options": {
+        "color": "terracotta-red",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 36.9,
+        "USD": 1.99
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Terracotta Anti-Slip Outdoor Ceramic Floor Tile",
+            "pt-BR": "Cerâmica Antiderrapante Terracota para Área Externa 45×45 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-red-white.png",
+            "#f5f5f5": "terracotta-red-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "polished-terrazzo-porcelain-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Polished White Terrazzo-Look Porcelain Floor Tile for Indoor Rooms, 24 by 24 Inches and 9 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Porcelanato Granilite Polido Branco 60×60 cm com 9 mm para Área Interna, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A polished white porcelain tile with terracotta, green and black chips. It is meant for indoor rooms. Slip resistance is R9 and scratch resistance is high. The price is for one square foot.",
+    "pt-BR": "Porcelanato polido branco com pedrinhas terracota, verdes e pretas. É indicado para área interna. O antiderrapante é R9 e a resistência a arranhão é alta. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 99.9,
+    "USD": 4.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "porcelain tile",
+      "indoor floor",
+      "R9"
+    ],
+    "pt-BR": [
+      "porcelanato",
+      "piso interno",
+      "antiderrapante R9"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r9"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "terrazzo"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    },
+    {
+      "id": "thickness",
+      "valueId": "9-mm"
+    }
+  ],
+  "defaultVariantId": "white-terrazzo-polished",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white-terrazzo",
+          "name": {
+            "en": "White terrazzo",
+            "pt-BR": "Granilite branco"
+          },
+          "hex": "#F2F0EC"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "polished",
+          "name": {
+            "en": "Polished",
+            "pt-BR": "Polido"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-terrazzo-polished",
+      "sku": "CON-POLISHED-TERRAZZO-PORCELAIN-TILE-POLISHED",
+      "options": {
+        "color": "white-terrazzo",
+        "finish": "polished"
+      },
+      "price": {
+        "BRL": 99.9,
+        "USD": 4.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Polished White Terrazzo-Look Porcelain Floor Tile for Indoor Rooms",
+            "pt-BR": "Porcelanato Granilite Polido Branco 60×60 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "white-terrazzo-white.png",
+            "#f5f5f5": "white-terrazzo-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-terrazzo-rectified",
+      "sku": "CON-POLISHED-TERRAZZO-PORCELAIN-TILE-RECTIFIED",
+      "options": {
+        "color": "white-terrazzo",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 103.9,
+        "USD": 5.19
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Polished White Terrazzo-Look Porcelain Floor Tile for Indoor Rooms",
+            "pt-BR": "Porcelanato Granilite Polido Branco 60×60 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "white-terrazzo-white.png",
+            "#f5f5f5": "white-terrazzo-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "polished-off-white-porcelain-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Polished Ivory Porcelain Floor Tile for Indoor Rooms, 36 by 36 Inches and 10 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Porcelanato Polido Off-White 90×90 cm com 10 mm para Área Interna, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A large polished ivory porcelain tile for living rooms and bedrooms. It is meant for indoor rooms. Slip resistance is R9 and scratch resistance is high. The price is for one square foot.",
+    "pt-BR": "Placa grande de porcelanato polido em off-white, para sala e quarto. É indicado para área interna. O antiderrapante é R9 e a resistência a arranhão é alta. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 109.9,
+    "USD": 5.49
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "porcelain tile",
+      "indoor floor",
+      "R9"
+    ],
+    "pt-BR": [
+      "porcelanato",
+      "piso interno",
+      "antiderrapante R9"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r9"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    },
+    {
+      "id": "thickness",
+      "valueId": "10-mm"
+    }
+  ],
+  "defaultVariantId": "ivory-polished",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "ivory",
+          "name": {
+            "en": "Ivory",
+            "pt-BR": "Off-white"
+          },
+          "hex": "#F1ECE2"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "polished",
+          "name": {
+            "en": "Polished",
+            "pt-BR": "Polido"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "ivory-polished",
+      "sku": "CON-POLISHED-OFF-WHITE-PORCELAIN-TILE-POLISHED",
+      "options": {
+        "color": "ivory",
+        "finish": "polished"
+      },
+      "price": {
+        "BRL": 109.9,
+        "USD": 5.49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Polished Ivory Porcelain Floor Tile for Indoor Rooms",
+            "pt-BR": "Porcelanato Polido Off-White 90×90 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "ivory-white.png",
+            "#f5f5f5": "ivory-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ivory-rectified",
+      "sku": "CON-POLISHED-OFF-WHITE-PORCELAIN-TILE-RECTIFIED",
+      "options": {
+        "color": "ivory",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 113.9,
+        "USD": 5.69
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Polished Ivory Porcelain Floor Tile for Indoor Rooms",
+            "pt-BR": "Porcelanato Polido Off-White 90×90 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "ivory-white.png",
+            "#f5f5f5": "ivory-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

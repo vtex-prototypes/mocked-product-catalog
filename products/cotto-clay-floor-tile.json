@@ -1,0 +1,154 @@
+{
+  "id": "cotto-clay-floor-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Natural Cotto Clay Outdoor Floor Tile, 12 by 12 Inches and 12 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Piso de Barro Cotto Natural para Área Externa 30×30 cm com 12 mm, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "An unglazed clay tile with natural color variation. It soaks up water and scratches easily. It can go outdoors. Slip resistance is R10 and scratch resistance is low. It works best under a roof. The price is for one square foot.",
+    "pt-BR": "Piso de barro sem esmalte, com variação natural de cor. Absorve água e risca com facilidade. Pode ir em área externa. O antiderrapante é R10 e a resistência a arranhão é baixa. Funciona melhor em área coberta. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 36.9,
+    "USD": 2.29
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "ceramic tile",
+      "outdoor floor",
+      "R10"
+    ],
+    "pt-BR": [
+      "cerâmica",
+      "piso externo",
+      "antiderrapante R10"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r10"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "low"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    },
+    {
+      "id": "thickness",
+      "valueId": "12-mm"
+    }
+  ],
+  "defaultVariantId": "clay-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "clay",
+          "name": {
+            "en": "Clay red",
+            "pt-BR": "Barro"
+          },
+          "hex": "#C8643A"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "clay-natural",
+      "sku": "CON-COTTO-CLAY-FLOOR-TILE-NATURAL",
+      "options": {
+        "color": "clay",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 36.9,
+        "USD": 2.29
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Natural Cotto Clay Outdoor Floor Tile",
+            "pt-BR": "Piso de Barro Cotto Natural para Área Externa 30×30 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "clay-rectified",
+      "sku": "CON-COTTO-CLAY-FLOOR-TILE-RECTIFIED",
+      "options": {
+        "color": "clay",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 40.9,
+        "USD": 2.49
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Natural Cotto Clay Outdoor Floor Tile",
+            "pt-BR": "Piso de Barro Cotto Natural para Área Externa 30×30 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

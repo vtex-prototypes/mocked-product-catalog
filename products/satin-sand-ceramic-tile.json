@@ -1,0 +1,154 @@
+{
+  "id": "satin-sand-ceramic-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Satin Sand Ceramic Floor Tile with a Linen Texture for Indoor Rooms, 24 by 24 Inches and 8 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Cerâmica Acetinada Areia 60×60 cm com 8 mm para Área Interna, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A sand-colored ceramic tile with a linen texture and a satin finish. It is meant for indoor rooms. Slip resistance is R9 and scratch resistance is medium. The price is for one square foot.",
+    "pt-BR": "Cerâmica cor de areia com textura de linho e acabamento acetinado. É indicado para área interna. O antiderrapante é R9 e a resistência a arranhão é média. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 32.9,
+    "USD": 1.69
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "ceramic tile",
+      "indoor floor",
+      "R9"
+    ],
+    "pt-BR": [
+      "cerâmica",
+      "piso interno",
+      "antiderrapante R9"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r9"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "medium"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    },
+    {
+      "id": "thickness",
+      "valueId": "8-mm"
+    }
+  ],
+  "defaultVariantId": "linen-sand-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "linen-sand",
+          "name": {
+            "en": "Linen sand",
+            "pt-BR": "Areia"
+          },
+          "hex": "#CFC2AE"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "linen-sand-natural",
+      "sku": "CON-SATIN-SAND-CERAMIC-TILE-NATURAL",
+      "options": {
+        "color": "linen-sand",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 32.9,
+        "USD": 1.69
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Satin Sand Ceramic Floor Tile with a Linen Texture for Indoor Rooms",
+            "pt-BR": "Cerâmica Acetinada Areia 60×60 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "linen-sand-white.png",
+            "#f5f5f5": "linen-sand-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "linen-sand-rectified",
+      "sku": "CON-SATIN-SAND-CERAMIC-TILE-RECTIFIED",
+      "options": {
+        "color": "linen-sand",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 36.9,
+        "USD": 1.89
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Satin Sand Ceramic Floor Tile with a Linen Texture for Indoor Rooms",
+            "pt-BR": "Cerâmica Acetinada Areia 60×60 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "linen-sand-white.png",
+            "#f5f5f5": "linen-sand-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

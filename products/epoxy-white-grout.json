@@ -1,0 +1,142 @@
+{
+  "id": "epoxy-white-grout",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "White Epoxy Grout for Stain-Resistant Indoor and Outdoor Tile Joints, Sold by the Tub",
+    "pt-BR": "Rejunte Epóxi Branco para Juntas Internas e Externas Resistentes a Mancha, Vendido por Pote"
+  },
+  "description": {
+    "en": "A white epoxy grout that stays white where cement grout would stain, such as a kitchen or a pet feeding corner. The listed price is for the 1 kg tub.",
+    "pt-BR": "Rejunte epóxi branco que continua branco onde o cimentício mancharia, como cozinha ou o canto do comedouro do pet. O preço anunciado é do pote de 1 kg."
+  },
+  "price": {
+    "BRL": 64.9,
+    "USD": 29.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "epoxy grout",
+      "white",
+      "stain resistant"
+    ],
+    "pt-BR": [
+      "rejunte epóxi",
+      "branco",
+      "resistente a mancha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "epoxy"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "white-1kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F7F7F5"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "1kg",
+          "name": {
+            "en": "1 kg",
+            "pt-BR": "1 kg"
+          }
+        },
+        {
+          "id": "5kg",
+          "name": {
+            "en": "5 kg",
+            "pt-BR": "5 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-1kg",
+      "sku": "CON-EPOXY-WHITE-GROUT-1KG",
+      "options": {
+        "color": "white",
+        "weight": "1kg"
+      },
+      "price": {
+        "BRL": 64.9,
+        "USD": 29.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of white epoxy grout",
+            "pt-BR": "Pote de rejunte epóxi branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-5kg",
+      "sku": "CON-EPOXY-WHITE-GROUT-5KG",
+      "options": {
+        "color": "white",
+        "weight": "5kg"
+      },
+      "price": {
+        "BRL": 249,
+        "USD": 105
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of white epoxy grout",
+            "pt-BR": "Pote de rejunte epóxi branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

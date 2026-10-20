@@ -55,5 +55,6 @@
   { "id": "construcao-revestimentos", "name": { "en": "Wall Tile", "pt-BR": "Revestimentos" }, "parent": "construcao" },
   { "id": "construcao-tintas", "name": { "en": "Paint", "pt-BR": "Tintas" }, "parent": "construcao" },
   { "id": "construcao-hidraulica", "name": { "en": "Plumbing", "pt-BR": "Hidráulica" }, "parent": "construcao" },
-  { "id": "construcao-rejuntes", "name": { "en": "Grout", "pt-BR": "Rejuntes" }, "parent": "construcao" }
+  { "id": "construcao-rejuntes", "name": { "en": "Grout", "pt-BR": "Rejuntes" }, "parent": "construcao" },
+  { "id": "construcao-argamassas", "name": { "en": "Mortar", "pt-BR": "Argamassas" }, "parent": "construcao" }
 ]

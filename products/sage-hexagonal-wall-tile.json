@@ -1,0 +1,142 @@
+{
+  "id": "sage-hexagonal-wall-tile",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Glossy Sage Green Hexagonal Ceramic Wall Tile with a Handmade Glaze, Priced per Square Foot",
+    "pt-BR": "Revestimento Hexagonal Verde Sálvia Brilhante com Esmalte Artesanal, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A glossy sage green hexagon tile for a kitchen backsplash or a bathroom wall. The glaze varies a little from tile to tile. The price is for one square foot.",
+    "pt-BR": "Revestimento hexagonal verde sálvia brilhante para parede de cozinha ou banheiro. O esmalte muda um pouco de peça para peça. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 89.9,
+    "USD": 6.49
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "hexagon wall tile",
+      "sage green",
+      "backsplash"
+    ],
+    "pt-BR": [
+      "revestimento hexagonal",
+      "verde sálvia",
+      "parede de cozinha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "sage-glossy",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "sage",
+          "name": {
+            "en": "Sage",
+            "pt-BR": "Verde sálvia"
+          },
+          "hex": "#8FAE92"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "glossy",
+          "name": {
+            "en": "Glossy",
+            "pt-BR": "Brilhante"
+          }
+        },
+        {
+          "id": "matte",
+          "name": {
+            "en": "Matte",
+            "pt-BR": "Fosco"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "sage-glossy",
+      "sku": "CON-SAGE-HEXAGONAL-WALL-TILE-GLOSSY",
+      "options": {
+        "color": "sage",
+        "finish": "glossy"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 6.49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy sage green hexagonal wall tile",
+            "pt-BR": "Revestimento hexagonal verde sálvia"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-matte",
+      "sku": "CON-SAGE-HEXAGONAL-WALL-TILE-MATTE",
+      "options": {
+        "color": "sage",
+        "finish": "matte"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 6.49
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy sage green hexagonal wall tile",
+            "pt-BR": "Revestimento hexagonal verde sálvia"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

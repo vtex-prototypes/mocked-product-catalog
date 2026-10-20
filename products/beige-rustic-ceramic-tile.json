@@ -1,0 +1,154 @@
+{
+  "id": "beige-rustic-ceramic-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Rustic Beige Outdoor Ceramic Floor Tile, 18 by 18 Inches and 8 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Cerâmica Rústica Bege para Área Externa 45×45 cm com 8 mm, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A beige ceramic tile with a handmade look, low-priced and light. Dog claws can mark it. It can go outdoors. Slip resistance is R10 and scratch resistance is medium. It works best under a roof. The price is for one square foot.",
+    "pt-BR": "Cerâmica bege com visual artesanal, barata e clara. Pode marcar com unha de cachorro. Pode ir em área externa. O antiderrapante é R10 e a resistência a arranhão é média. Funciona melhor em área coberta. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 27.9,
+    "USD": 1.49
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "ceramic tile",
+      "outdoor floor",
+      "R10"
+    ],
+    "pt-BR": [
+      "cerâmica",
+      "piso externo",
+      "antiderrapante R10"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r10"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "medium"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "stone"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    },
+    {
+      "id": "thickness",
+      "valueId": "8-mm"
+    }
+  ],
+  "defaultVariantId": "rustic-beige-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "rustic-beige",
+          "name": {
+            "en": "Rustic beige",
+            "pt-BR": "Bege rústico"
+          },
+          "hex": "#DCCFB8"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "rustic-beige-natural",
+      "sku": "CON-BEIGE-RUSTIC-CERAMIC-TILE-NATURAL",
+      "options": {
+        "color": "rustic-beige",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 27.9,
+        "USD": 1.49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rustic Beige Outdoor Ceramic Floor Tile",
+            "pt-BR": "Cerâmica Rústica Bege para Área Externa 45×45 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "rustic-beige-white.png",
+            "#f5f5f5": "rustic-beige-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rustic-beige-rectified",
+      "sku": "CON-BEIGE-RUSTIC-CERAMIC-TILE-RECTIFIED",
+      "options": {
+        "color": "rustic-beige",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 31.9,
+        "USD": 1.69
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rustic Beige Outdoor Ceramic Floor Tile",
+            "pt-BR": "Cerâmica Rústica Bege para Área Externa 45×45 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "rustic-beige-white.png",
+            "#f5f5f5": "rustic-beige-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

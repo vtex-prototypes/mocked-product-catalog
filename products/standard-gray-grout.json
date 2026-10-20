@@ -1,0 +1,138 @@
+{
+  "id": "standard-gray-grout",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Standard Gray Cement Grout for Dry Indoor Tile Joints, Sold by the Bag",
+    "pt-BR": "Rejunte Cimentício Comum Cinza para Juntas de Área Interna Seca, Vendido por Saco"
+  },
+  "description": {
+    "en": "A standard gray cement grout for dry indoor floors and walls. It is not flexible, so it cracks outdoors where the floor moves with heat. The listed price is for the 1 kg bag.",
+    "pt-BR": "Rejunte cimentício comum cinza para piso e parede internos e secos. Não é flexível, então trinca em área externa, onde o piso dilata com o calor. O preço anunciado é do saco de 1 kg."
+  },
+  "price": {
+    "BRL": 9.9,
+    "USD": 5.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "standard grout",
+      "gray",
+      "indoor"
+    ],
+    "pt-BR": [
+      "rejunte comum",
+      "cinza",
+      "área interna"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "gray-1kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#9C9C98"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "1kg",
+          "name": {
+            "en": "1 kg",
+            "pt-BR": "1 kg"
+          }
+        },
+        {
+          "id": "5kg",
+          "name": {
+            "en": "5 kg",
+            "pt-BR": "5 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gray-1kg",
+      "sku": "CON-STANDARD-GRAY-GROUT-1KG",
+      "options": {
+        "color": "gray",
+        "weight": "1kg"
+      },
+      "price": {
+        "BRL": 9.9,
+        "USD": 5.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bag of standard gray grout",
+            "pt-BR": "Saco de rejunte comum cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gray-5kg",
+      "sku": "CON-STANDARD-GRAY-GROUT-5KG",
+      "options": {
+        "color": "gray",
+        "weight": "5kg"
+      },
+      "price": {
+        "BRL": 39.9,
+        "USD": 19.9
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bag of standard gray grout",
+            "pt-BR": "Saco de rejunte comum cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

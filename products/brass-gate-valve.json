@@ -1,0 +1,138 @@
+{
+  "id": "brass-gate-valve",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "Brass Gate Valve with a Handwheel for Cold and Hot Water Lines, Threaded Ends",
+    "pt-BR": "Registro de Gaveta de Latão com Volante para Água Fria e Quente, Rosca nas Pontas"
+  },
+  "description": {
+    "en": "A brass gate valve with a round handwheel, for shutting off a water line before a bathroom or an outdoor tap. The listed price is for the 3/4 inch valve.",
+    "pt-BR": "Registro de gaveta de latão com volante redondo, para fechar a água antes do banheiro ou da torneira do quintal. O preço anunciado é do registro de 3/4 de polegada."
+  },
+  "price": {
+    "BRL": 69.9,
+    "USD": 24.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "gate valve",
+      "brass",
+      "shutoff"
+    ],
+    "pt-BR": [
+      "registro de gaveta",
+      "latão",
+      "fechamento"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "brass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "brass-3-4-in",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "brass",
+          "name": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          },
+          "hex": "#C9A23A"
+        }
+      ]
+    },
+    {
+      "id": "diameter",
+      "name": {
+        "en": "Diameter",
+        "pt-BR": "Diâmetro"
+      },
+      "values": [
+        {
+          "id": "3-4-in",
+          "name": {
+            "en": "3/4 in",
+            "pt-BR": "3/4 pol"
+          }
+        },
+        {
+          "id": "1-in",
+          "name": {
+            "en": "1 in",
+            "pt-BR": "1 pol"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "brass-3-4-in",
+      "sku": "CON-BRASS-GATE-VALVE-3-4-IN",
+      "options": {
+        "color": "brass",
+        "diameter": "3-4-in"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 24.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass gate valve with a handwheel",
+            "pt-BR": "Registro de gaveta de latão"
+          },
+          "backgrounds": {
+            "#ffffff": "brass-white.png",
+            "#f5f5f5": "brass-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "brass-1-in",
+      "sku": "CON-BRASS-GATE-VALVE-1-IN",
+      "options": {
+        "color": "brass",
+        "diameter": "1-in"
+      },
+      "price": {
+        "BRL": 99.9,
+        "USD": 34.9
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass gate valve with a handwheel",
+            "pt-BR": "Registro de gaveta de latão"
+          },
+          "backgrounds": {
+            "#ffffff": "brass-white.png",
+            "#f5f5f5": "brass-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "flexible-white-grout",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Flexible White Cement Grout for Indoor and Outdoor Tile Joints, Sold by the Tub",
+    "pt-BR": "Rejunte Flexível Branco para Juntas de Piso Interno e Externo, Vendido por Pote"
+  },
+  "description": {
+    "en": "A flexible white cement grout for light tiles indoors and outdoors. It moves with the floor on a balcony that heats and cools. The listed price is for the 1 kg tub.",
+    "pt-BR": "Rejunte cimentício branco e flexível para piso claro, dentro e fora de casa. Acompanha o piso de varanda que esquenta e esfria. O preço anunciado é do pote de 1 kg."
+  },
+  "price": {
+    "BRL": 14.9,
+    "USD": 8.5
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "flexible grout",
+      "white",
+      "outdoor"
+    ],
+    "pt-BR": [
+      "rejunte flexível",
+      "branco",
+      "área externa"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "white-1kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F2F0"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "1kg",
+          "name": {
+            "en": "1 kg",
+            "pt-BR": "1 kg"
+          }
+        },
+        {
+          "id": "5kg",
+          "name": {
+            "en": "5 kg",
+            "pt-BR": "5 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-1kg",
+      "sku": "CON-FLEXIBLE-WHITE-GROUT-1KG",
+      "options": {
+        "color": "white",
+        "weight": "1kg"
+      },
+      "price": {
+        "BRL": 14.9,
+        "USD": 8.5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of flexible white grout",
+            "pt-BR": "Pote de rejunte flexível branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-5kg",
+      "sku": "CON-FLEXIBLE-WHITE-GROUT-5KG",
+      "options": {
+        "color": "white",
+        "weight": "5kg"
+      },
+      "price": {
+        "BRL": 59.9,
+        "USD": 29.9
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of flexible white grout",
+            "pt-BR": "Pote de rejunte flexível branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

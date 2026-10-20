@@ -42,6 +42,18 @@
     {
       "id": "application",
       "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "stone"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    },
+    {
+      "id": "thickness",
+      "valueId": "8-mm"
     }
   ],
   "defaultVariantId": "stone-natural",

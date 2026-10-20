@@ -1,0 +1,154 @@
+{
+  "id": "honey-wood-porcelain-deck",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Honey Wood-Look Porcelain Deck Plank, 8 by 48 Inches and 9 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Deck Porcelanato Madeira Mel 20×120 cm com 9 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A honey wood-look porcelain plank with the grain of a deck and none of the upkeep. It can go outdoors. Slip resistance is R11 and scratch resistance is high. It stays grippy in direct rain. The price is for one square foot.",
+    "pt-BR": "Régua de porcelanato com veio de madeira cor de mel, sem a manutenção de um deck de madeira. Pode ir em área externa. O antiderrapante é R11 e a resistência a arranhão é alta. Aguenta chuva direta sem ficar liso. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 92.9,
+    "USD": 4.59
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "porcelain tile",
+      "outdoor floor",
+      "R11"
+    ],
+    "pt-BR": [
+      "porcelanato",
+      "piso externo",
+      "antiderrapante R11"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r11"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "wood"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    },
+    {
+      "id": "thickness",
+      "valueId": "9-mm"
+    }
+  ],
+  "defaultVariantId": "honey-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "honey",
+          "name": {
+            "en": "Honey wood",
+            "pt-BR": "Madeira mel"
+          },
+          "hex": "#B07A45"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "honey-natural",
+      "sku": "CON-HONEY-WOOD-PORCELAIN-DECK-NATURAL",
+      "options": {
+        "color": "honey",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 92.9,
+        "USD": 4.59
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Honey Wood-Look Porcelain Deck Plank",
+            "pt-BR": "Deck Porcelanato Madeira Mel 20×120 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "honey-white.png",
+            "#f5f5f5": "honey-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "honey-rectified",
+      "sku": "CON-HONEY-WOOD-PORCELAIN-DECK-RECTIFIED",
+      "options": {
+        "color": "honey",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 96.9,
+        "USD": 4.79
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Honey Wood-Look Porcelain Deck Plank",
+            "pt-BR": "Deck Porcelanato Madeira Mel 20×120 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "honey-white.png",
+            "#f5f5f5": "honey-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "cream-quartzite-stone-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Cream Natural Quartzite Stone Floor Tile with Split Edges, 12 by 12 Inches and 20 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Pedra Natural Quartzito Creme 30×30 cm com 20 mm e Borda Bruta, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A cream natural quartzite with a layered face and split edges. It is too thick to lay over an old floor. It can go outdoors. Slip resistance is R12 and scratch resistance is high. It stays grippy in direct rain. The price is for one square foot.",
+    "pt-BR": "Quartzito natural creme com face em camadas e borda bruta. É grosso demais para assentar sobre piso antigo. Pode ir em área externa. O antiderrapante é R12 e a resistência a arranhão é alta. Aguenta chuva direta sem ficar liso. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 119,
+    "USD": 7.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "natural stone",
+      "outdoor floor",
+      "R12"
+    ],
+    "pt-BR": [
+      "pedra natural",
+      "piso externo",
+      "antiderrapante R12"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "natural-stone"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r12"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "stone"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    },
+    {
+      "id": "thickness",
+      "valueId": "20-mm"
+    }
+  ],
+  "defaultVariantId": "cream-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cream",
+          "name": {
+            "en": "Cream",
+            "pt-BR": "Creme"
+          },
+          "hex": "#E8DFCC"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cream-natural",
+      "sku": "CON-CREAM-QUARTZITE-STONE-TILE-NATURAL",
+      "options": {
+        "color": "cream",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 7.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Natural Quartzite Stone Floor Tile with Split Edges",
+            "pt-BR": "Pedra Natural Quartzito Creme 30×30 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-rectified",
+      "sku": "CON-CREAM-QUARTZITE-STONE-TILE-RECTIFIED",
+      "options": {
+        "color": "cream",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 123,
+        "USD": 8.1
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Natural Quartzite Stone Floor Tile with Split Edges",
+            "pt-BR": "Pedra Natural Quartzito Creme 30×30 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

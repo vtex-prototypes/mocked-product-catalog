@@ -1,0 +1,154 @@
+{
+  "id": "beige-concrete-porcelain-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Light Beige Concrete-Look Outdoor Porcelain Floor Tile, 24 by 24 Inches and 8 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Porcelanato Cimentício Bege Claro Externo 60×60 cm com 8 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A smooth light beige concrete-look porcelain tile, thin enough to lay over an old floor. It can go outdoors. Slip resistance is R10 and scratch resistance is high. It works best under a roof. The price is for one square foot.",
+    "pt-BR": "Porcelanato cimentício liso em bege claro, fino para assentar sobre piso antigo. Pode ir em área externa. O antiderrapante é R10 e a resistência a arranhão é alta. Funciona melhor em área coberta. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 58.9,
+    "USD": 2.89
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "porcelain tile",
+      "outdoor floor",
+      "R10"
+    ],
+    "pt-BR": [
+      "porcelanato",
+      "piso externo",
+      "antiderrapante R10"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r10"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "concrete"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    },
+    {
+      "id": "thickness",
+      "valueId": "8-mm"
+    }
+  ],
+  "defaultVariantId": "light-beige-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "light-beige",
+          "name": {
+            "en": "Light beige",
+            "pt-BR": "Bege claro"
+          },
+          "hex": "#DCD6CC"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "light-beige-natural",
+      "sku": "CON-BEIGE-CONCRETE-PORCELAIN-TILE-NATURAL",
+      "options": {
+        "color": "light-beige",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 58.9,
+        "USD": 2.89
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Light Beige Concrete-Look Outdoor Porcelain Floor Tile",
+            "pt-BR": "Porcelanato Cimentício Bege Claro Externo 60×60 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "light-beige-white.png",
+            "#f5f5f5": "light-beige-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "light-beige-rectified",
+      "sku": "CON-BEIGE-CONCRETE-PORCELAIN-TILE-RECTIFIED",
+      "options": {
+        "color": "light-beige",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 62.9,
+        "USD": 3.09
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Light Beige Concrete-Look Outdoor Porcelain Floor Tile",
+            "pt-BR": "Porcelanato Cimentício Bege Claro Externo 60×60 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "light-beige-white.png",
+            "#f5f5f5": "light-beige-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

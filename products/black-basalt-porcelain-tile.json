@@ -1,0 +1,166 @@
+{
+  "id": "black-basalt-porcelain-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Black Basalt-Look Outdoor Porcelain Floor Tile, 24 by 24 Inches and 10 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Porcelanato Basalto Preto Externo 60×60 cm com 10 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A near-black porcelain tile with a fine basalt texture. It gets hotter in the sun. It can go outdoors. Slip resistance is R11 and scratch resistance is high. It stays grippy in direct rain. The price is for one square foot.",
+    "pt-BR": "Porcelanato quase preto com textura fina de basalto. Esquenta mais no sol. Pode ir em área externa. O antiderrapante é R11 e a resistência a arranhão é alta. Aguenta chuva direta sem ficar liso. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 109.9,
+    "USD": 5.49
+  },
+  "listPrice": {
+    "BRL": 129.9,
+    "USD": 6.49
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "porcelain tile",
+      "outdoor floor",
+      "R11"
+    ],
+    "pt-BR": [
+      "porcelanato",
+      "piso externo",
+      "antiderrapante R11"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r11"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "stone"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    },
+    {
+      "id": "thickness",
+      "valueId": "10-mm"
+    }
+  ],
+  "defaultVariantId": "black-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#2B2B2B"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-natural",
+      "sku": "CON-BLACK-BASALT-PORCELAIN-TILE-NATURAL",
+      "options": {
+        "color": "black",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 109.9,
+        "USD": 5.49
+      },
+      "listPrice": {
+        "BRL": 129.9,
+        "USD": 6.49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Basalt-Look Outdoor Porcelain Floor Tile",
+            "pt-BR": "Porcelanato Basalto Preto Externo 60×60 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-rectified",
+      "sku": "CON-BLACK-BASALT-PORCELAIN-TILE-RECTIFIED",
+      "options": {
+        "color": "black",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 113.9,
+        "USD": 5.69
+      },
+      "listPrice": {
+        "BRL": 133.9,
+        "USD": 6.69
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Basalt-Look Outdoor Porcelain Floor Tile",
+            "pt-BR": "Porcelanato Basalto Preto Externo 60×60 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

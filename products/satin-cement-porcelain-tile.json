@@ -1,0 +1,154 @@
+{
+  "id": "satin-cement-porcelain-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Satin Cement Gray Porcelain Floor Tile for Indoor Rooms, 24 by 24 Inches and 8 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Porcelanato Cimentício Cinza Acetinado 60×60 cm com 8 mm para Área Interna, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A cement gray porcelain tile with a satin finish, for kitchens and living rooms. It is meant for indoor rooms. Slip resistance is R10 and scratch resistance is high. The price is for one square foot.",
+    "pt-BR": "Porcelanato cimentício cinza com acabamento acetinado, para cozinha e sala. É indicado para área interna. O antiderrapante é R10 e a resistência a arranhão é alta. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 54.9,
+    "USD": 2.69
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "porcelain tile",
+      "indoor floor",
+      "R10"
+    ],
+    "pt-BR": [
+      "porcelanato",
+      "piso interno",
+      "antiderrapante R10"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r10"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "concrete"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    },
+    {
+      "id": "thickness",
+      "valueId": "8-mm"
+    }
+  ],
+  "defaultVariantId": "cement-gray-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cement-gray",
+          "name": {
+            "en": "Cement gray",
+            "pt-BR": "Cinza cimento"
+          },
+          "hex": "#8F8F8D"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cement-gray-natural",
+      "sku": "CON-SATIN-CEMENT-PORCELAIN-TILE-NATURAL",
+      "options": {
+        "color": "cement-gray",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 54.9,
+        "USD": 2.69
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Satin Cement Gray Porcelain Floor Tile for Indoor Rooms",
+            "pt-BR": "Porcelanato Cimentício Cinza Acetinado 60×60 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "cement-gray-white.png",
+            "#f5f5f5": "cement-gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cement-gray-rectified",
+      "sku": "CON-SATIN-CEMENT-PORCELAIN-TILE-RECTIFIED",
+      "options": {
+        "color": "cement-gray",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 58.9,
+        "USD": 2.89
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Satin Cement Gray Porcelain Floor Tile for Indoor Rooms",
+            "pt-BR": "Porcelanato Cimentício Cinza Acetinado 60×60 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "cement-gray-white.png",
+            "#f5f5f5": "cement-gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "flexible-graphite-grout",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Flexible Graphite Cement Grout for Indoor and Outdoor Tile Joints, Sold by the Tub",
+    "pt-BR": "Rejunte Flexível Grafite para Juntas de Piso Interno e Externo, Vendido por Pote"
+  },
+  "description": {
+    "en": "A flexible graphite cement grout for dark tiles indoors and outdoors. The dark joint hides dirt on a balcony with pets. The listed price is for the 1 kg tub.",
+    "pt-BR": "Rejunte cimentício grafite e flexível para piso escuro, dentro e fora de casa. A junta escura disfarça sujeira em varanda com pet. O preço anunciado é do pote de 1 kg."
+  },
+  "price": {
+    "BRL": 16.9,
+    "USD": 8.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "flexible grout",
+      "graphite",
+      "outdoor"
+    ],
+    "pt-BR": [
+      "rejunte flexível",
+      "grafite",
+      "área externa"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "graphite-1kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "graphite",
+          "name": {
+            "en": "Graphite",
+            "pt-BR": "Grafite"
+          },
+          "hex": "#3A3A3A"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "1kg",
+          "name": {
+            "en": "1 kg",
+            "pt-BR": "1 kg"
+          }
+        },
+        {
+          "id": "5kg",
+          "name": {
+            "en": "5 kg",
+            "pt-BR": "5 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "graphite-1kg",
+      "sku": "CON-FLEXIBLE-GRAPHITE-GROUT-1KG",
+      "options": {
+        "color": "graphite",
+        "weight": "1kg"
+      },
+      "price": {
+        "BRL": 16.9,
+        "USD": 8.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of flexible graphite grout",
+            "pt-BR": "Pote de rejunte flexível grafite"
+          },
+          "backgrounds": {
+            "#ffffff": "graphite-white.png",
+            "#f5f5f5": "graphite-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "graphite-5kg",
+      "sku": "CON-FLEXIBLE-GRAPHITE-GROUT-5KG",
+      "options": {
+        "color": "graphite",
+        "weight": "5kg"
+      },
+      "price": {
+        "BRL": 64.9,
+        "USD": 31.9
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of flexible graphite grout",
+            "pt-BR": "Pote de rejunte flexível grafite"
+          },
+          "backgrounds": {
+            "#ffffff": "graphite-white.png",
+            "#f5f5f5": "graphite-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

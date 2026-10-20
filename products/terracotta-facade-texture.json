@@ -1,0 +1,138 @@
+{
+  "id": "terracotta-facade-texture",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Terracotta Acrylic Texture Coating for Exterior Walls and Facades, Sold by the Bucket",
+    "pt-BR": "Textura Acrílica Terracota para Muro e Fachada, Vendida por Balde"
+  },
+  "description": {
+    "en": "A thick terracotta acrylic texture for exterior walls. It hides small cracks and uneven plaster and takes rain. The listed price is for the 5 kg bucket.",
+    "pt-BR": "Textura acrílica terracota encorpada para muro e fachada. Disfarça trinca pequena e reboco irregular e aguenta chuva. O preço anunciado é do balde de 5 kg."
+  },
+  "price": {
+    "BRL": 49.9,
+    "USD": 29
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "texture coating",
+      "terracotta",
+      "exterior"
+    ],
+    "pt-BR": [
+      "textura acrílica",
+      "terracota",
+      "fachada"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "terracotta-5kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "terracotta",
+          "name": {
+            "en": "Terracotta",
+            "pt-BR": "Terracota"
+          },
+          "hex": "#C2643E"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "5kg",
+          "name": {
+            "en": "5 kg",
+            "pt-BR": "5 kg"
+          }
+        },
+        {
+          "id": "25kg",
+          "name": {
+            "en": "25 kg",
+            "pt-BR": "25 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "terracotta-5kg",
+      "sku": "CON-TERRACOTTA-FACADE-TEXTURE-5KG",
+      "options": {
+        "color": "terracotta",
+        "weight": "5kg"
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 29
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bucket of terracotta texture coating",
+            "pt-BR": "Balde de textura acrílica terracota"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "terracotta-25kg",
+      "sku": "CON-TERRACOTTA-FACADE-TEXTURE-25KG",
+      "options": {
+        "color": "terracotta",
+        "weight": "25kg"
+      },
+      "price": {
+        "BRL": 159.9,
+        "USD": 89
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bucket of terracotta texture coating",
+            "pt-BR": "Balde de textura acrílica terracota"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

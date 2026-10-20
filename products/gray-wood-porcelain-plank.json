@@ -1,0 +1,154 @@
+{
+  "id": "gray-wood-porcelain-plank",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Weathered Gray Wood-Look Outdoor Porcelain Plank, 8 by 48 Inches and 9 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Porcelanato Madeira Cinza Envelhecido Externo 20×120 cm com 9 mm, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A porcelain plank that looks like timber gone gray in the weather. It can go outdoors. Slip resistance is R10 and scratch resistance is high. It works best under a roof. The price is for one square foot.",
+    "pt-BR": "Régua de porcelanato com visual de madeira acinzentada pelo tempo. Pode ir em área externa. O antiderrapante é R10 e a resistência a arranhão é alta. Funciona melhor em área coberta. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 79.9,
+    "USD": 3.89
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "porcelain tile",
+      "outdoor floor",
+      "R10"
+    ],
+    "pt-BR": [
+      "porcelanato",
+      "piso externo",
+      "antiderrapante R10"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r10"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "wood"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    },
+    {
+      "id": "thickness",
+      "valueId": "9-mm"
+    }
+  ],
+  "defaultVariantId": "weathered-gray-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "weathered-gray",
+          "name": {
+            "en": "Weathered gray",
+            "pt-BR": "Cinza envelhecido"
+          },
+          "hex": "#BDBAB4"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "weathered-gray-natural",
+      "sku": "CON-GRAY-WOOD-PORCELAIN-PLANK-NATURAL",
+      "options": {
+        "color": "weathered-gray",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 3.89
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Weathered Gray Wood-Look Outdoor Porcelain Plank",
+            "pt-BR": "Porcelanato Madeira Cinza Envelhecido Externo 20×120 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "weathered-gray-white.png",
+            "#f5f5f5": "weathered-gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "weathered-gray-rectified",
+      "sku": "CON-GRAY-WOOD-PORCELAIN-PLANK-RECTIFIED",
+      "options": {
+        "color": "weathered-gray",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 83.9,
+        "USD": 4.09
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Weathered Gray Wood-Look Outdoor Porcelain Plank",
+            "pt-BR": "Porcelanato Madeira Cinza Envelhecido Externo 20×120 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "weathered-gray-white.png",
+            "#f5f5f5": "weathered-gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

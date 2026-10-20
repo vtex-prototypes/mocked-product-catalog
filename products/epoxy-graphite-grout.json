@@ -38,6 +38,10 @@
     {
       "id": "application",
       "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
     }
   ],
   "defaultVariantId": "graphite-1kg",

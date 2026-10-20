@@ -1,0 +1,154 @@
+{
+  "id": "hardwood-deck-board",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Grooved Solid Hardwood Deck Board, 4 by 79 Inches and 20 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Deck de Madeira Maciça Ranhurado 10×200 cm com 20 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A solid hardwood board with anti-slip grooves. It needs oil every year and pet claws mark it. It can go outdoors. Slip resistance is R11 and scratch resistance is low. It stays grippy in direct rain. The price is for one square foot.",
+    "pt-BR": "Régua de madeira maciça com ranhuras antiderrapantes. Pede óleo todo ano e marca com unha de pet. Pode ir em área externa. O antiderrapante é R11 e a resistência a arranhão é baixa. Aguenta chuva direta sem ficar liso. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 249,
+    "USD": 9.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "hardwood deck",
+      "outdoor floor",
+      "R11"
+    ],
+    "pt-BR": [
+      "deck de madeira",
+      "piso externo",
+      "antiderrapante R11"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "wood"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r11"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "low"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "wood"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    },
+    {
+      "id": "thickness",
+      "valueId": "20-mm"
+    }
+  ],
+  "defaultVariantId": "golden-brown-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "golden-brown",
+          "name": {
+            "en": "Golden brown",
+            "pt-BR": "Castanho dourado"
+          },
+          "hex": "#A0632F"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "oiled",
+          "name": {
+            "en": "Pre-oiled",
+            "pt-BR": "Com óleo"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "golden-brown-natural",
+      "sku": "CON-HARDWOOD-DECK-BOARD-NATURAL",
+      "options": {
+        "color": "golden-brown",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 249,
+        "USD": 9.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Grooved Solid Hardwood Deck Board",
+            "pt-BR": "Deck de Madeira Maciça Ranhurado 10×200 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "golden-brown-white.png",
+            "#f5f5f5": "golden-brown-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "golden-brown-oiled",
+      "sku": "CON-HARDWOOD-DECK-BOARD-OILED",
+      "options": {
+        "color": "golden-brown",
+        "finish": "oiled"
+      },
+      "price": {
+        "BRL": 253,
+        "USD": 10.1
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Grooved Solid Hardwood Deck Board",
+            "pt-BR": "Deck de Madeira Maciça Ranhurado 10×200 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "golden-brown-white.png",
+            "#f5f5f5": "golden-brown-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

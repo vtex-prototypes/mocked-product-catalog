@@ -38,6 +38,14 @@
     {
       "id": "application",
       "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
     }
   ],
   "defaultVariantId": "white-glazed",
