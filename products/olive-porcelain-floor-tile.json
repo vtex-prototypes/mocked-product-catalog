@@ -1,0 +1,142 @@
+{
+  "id": "olive-porcelain-floor-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Matte Olive Porcelain Floor Tile, 24 by 24 Inches and 9 Millimeters Thick, for Indoor Rooms, Priced per Square Foot",
+    "pt-BR": "Porcelanato Oliva Fosco 60×60 cm com 9 mm para Área Interna, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A matte olive porcelain floor tile for a dry indoor room. The color is a muted green, not a print. The listed price is for one square foot.",
+    "pt-BR": "Porcelanato oliva fosco para área interna seca. A cor é um verde fechado, sem estampa. O preço anunciado é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 79.9,
+    "USD": 32
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "porcelain",
+      "olive",
+      "matte"
+    ],
+    "pt-BR": [
+      "porcelanato",
+      "oliva",
+      "fosco"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "olive-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "olive",
+          "name": {
+            "en": "Olive",
+            "pt-BR": "Oliva"
+          },
+          "hex": "#6E7356"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "olive-natural",
+      "sku": "CON-OLIVE-PORCELAIN-FLOOR-TILE-OLIVE-NATURAL",
+      "options": {
+        "color": "olive",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 32
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte olive porcelain floor tile, front view",
+            "pt-BR": "Porcelanato oliva fosco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "olive-white.png",
+            "#f5f5f5": "olive-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "olive-rectified",
+      "sku": "CON-OLIVE-PORCELAIN-FLOOR-TILE-OLIVE-RECTIFIED",
+      "options": {
+        "color": "olive",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 36
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte olive porcelain floor tile, front view",
+            "pt-BR": "Porcelanato oliva fosco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "olive-white.png",
+            "#f5f5f5": "olive-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

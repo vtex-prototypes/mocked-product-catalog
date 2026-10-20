@@ -1,0 +1,138 @@
+{
+  "id": "steel-rebar-bar",
+  "categoryId": "construcao-basicos",
+  "name": {
+    "en": "Deformed Steel Rebar, 3/8 Inch Diameter and 10 Feet Long, for Concrete, Sold by the Bar",
+    "pt-BR": "Vergalhão de Aço Nervurado de 10 mm com 3 m de Comprimento, para Concreto, Vendido por Barra"
+  },
+  "description": {
+    "en": "A ribbed steel rebar bar for reinforcing concrete. The ribs grip the mix. It is not a smooth rod. The listed price is for one bar.",
+    "pt-BR": "Barra de vergalhão nervurado para armar concreto. A nervura agarra a massa. Não é barra lisa. O preço anunciado é de uma barra."
+  },
+  "price": {
+    "BRL": 32.9,
+    "USD": 12
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "rebar",
+      "steel",
+      "concrete"
+    ],
+    "pt-BR": [
+      "vergalhão",
+      "aço",
+      "concreto"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "steel"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "one",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "steel",
+          "name": {
+            "en": "Steel",
+            "pt-BR": "Aço"
+          },
+          "hex": "#8A8D90"
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "one",
+          "name": {
+            "en": "1 bar",
+            "pt-BR": "1 barra"
+          }
+        },
+        {
+          "id": "six",
+          "name": {
+            "en": "6 bars",
+            "pt-BR": "6 barras"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one",
+      "sku": "CON-STEEL-REBAR-BAR-ONE",
+      "options": {
+        "color": "steel",
+        "length": "one"
+      },
+      "price": {
+        "BRL": 32.9,
+        "USD": 12
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ribbed steel rebar bar, front view",
+            "pt-BR": "Vergalhão de aço nervurado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "steel-white.png",
+            "#f5f5f5": "steel-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "six",
+      "sku": "CON-STEEL-REBAR-BAR-SIX",
+      "options": {
+        "color": "steel",
+        "length": "six"
+      },
+      "price": {
+        "BRL": 179,
+        "USD": 64
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ribbed steel rebar bar, front view",
+            "pt-BR": "Vergalhão de aço nervurado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "steel-white.png",
+            "#f5f5f5": "steel-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -56,5 +56,8 @@
   { "id": "construcao-tintas", "name": { "en": "Paint", "pt-BR": "Tintas" }, "parent": "construcao" },
   { "id": "construcao-hidraulica", "name": { "en": "Plumbing", "pt-BR": "Hidráulica" }, "parent": "construcao" },
   { "id": "construcao-rejuntes", "name": { "en": "Grout", "pt-BR": "Rejuntes" }, "parent": "construcao" },
-  { "id": "construcao-argamassas", "name": { "en": "Mortar", "pt-BR": "Argamassas" }, "parent": "construcao" }
+  { "id": "construcao-argamassas", "name": { "en": "Mortar", "pt-BR": "Argamassas" }, "parent": "construcao" },
+  { "id": "construcao-eletrica", "name": { "en": "Electrical", "pt-BR": "Elétrica" }, "parent": "construcao" },
+  { "id": "construcao-basicos", "name": { "en": "Basic Materials", "pt-BR": "Materiais básicos" }, "parent": "construcao" },
+  { "id": "construcao-banheiro", "name": { "en": "Bathroom", "pt-BR": "Banheiro" }, "parent": "construcao" }
 ]

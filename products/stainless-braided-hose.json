@@ -1,0 +1,134 @@
+{
+  "id": "stainless-braided-hose",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "Stainless Steel Braided Supply Hose, 12 Inches, for a Faucet or Toilet, Sold by the Piece",
+    "pt-BR": "Engate Flexível de Inox de 30 cm para Torneira ou Vaso Sanitário, Vendido por Peça"
+  },
+  "description": {
+    "en": "A short braided stainless hose that connects a shutoff to a faucet or a toilet. Both ends have a plain hex nut. The listed price is for one hose.",
+    "pt-BR": "Engate flexível de inox curto, que liga o registro à torneira ou ao vaso. As duas pontas têm porca sextavada lisa. O preço anunciado é de uma peça."
+  },
+  "price": {
+    "BRL": 24.9,
+    "USD": 11
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "braided hose",
+      "stainless",
+      "supply"
+    ],
+    "pt-BR": [
+      "engate flexível",
+      "inox",
+      "ligação"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "steel",
+          "name": {
+            "en": "Stainless steel",
+            "pt-BR": "Inox"
+          },
+          "hex": "#C5C7C8"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-STAINLESS-BRAIDED-HOSE-SINGLE",
+      "options": {
+        "color": "steel",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 24.9,
+        "USD": 11
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless braided supply hose, front view",
+            "pt-BR": "Engate flexível de inox, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "steel-white.png",
+            "#f5f5f5": "steel-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-STAINLESS-BRAIDED-HOSE-TEN",
+      "options": {
+        "color": "steel",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 199,
+        "USD": 85
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless braided supply hose, front view",
+            "pt-BR": "Engate flexível de inox, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "steel-white.png",
+            "#f5f5f5": "steel-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

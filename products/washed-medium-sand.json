@@ -1,0 +1,138 @@
+{
+  "id": "washed-medium-sand",
+  "categoryId": "construcao-basicos",
+  "name": {
+    "en": "Washed Medium Sand for Mortar and Bedding, a 44 Pound Bag, Clean of Clay, Sold by the Bag",
+    "pt-BR": "Areia Média Lavada para Argamassa e Assentamento, Saco de 20 kg, sem Barro, Vendida por Saco"
+  },
+  "description": {
+    "en": "A bag of washed medium sand for mixing mortar or bedding a paver. It is not play sand. The listed price is for one bag.",
+    "pt-BR": "Saco de areia média lavada para virar argamassa ou assentar bloco. Não é areia de caixa de brincar. O preço anunciado é de um saco."
+  },
+  "price": {
+    "BRL": 12.9,
+    "USD": 6
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "washed sand",
+      "mortar",
+      "bedding"
+    ],
+    "pt-BR": [
+      "areia lavada",
+      "argamassa",
+      "assentamento"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "sand"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "one",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "tan",
+          "name": {
+            "en": "Tan",
+            "pt-BR": "Areia"
+          },
+          "hex": "#C8B48A"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "one",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "five",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one",
+      "sku": "CON-WASHED-MEDIUM-SAND-ONE",
+      "options": {
+        "color": "tan",
+        "pack": "one"
+      },
+      "price": {
+        "BRL": 12.9,
+        "USD": 6
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bag of washed medium sand",
+            "pt-BR": "Saco de areia média lavada"
+          },
+          "backgrounds": {
+            "#ffffff": "tan-white.png",
+            "#f5f5f5": "tan-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "five",
+      "sku": "CON-WASHED-MEDIUM-SAND-FIVE",
+      "options": {
+        "color": "tan",
+        "pack": "five"
+      },
+      "price": {
+        "BRL": 54.9,
+        "USD": 24
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bag of washed medium sand",
+            "pt-BR": "Saco de areia média lavada"
+          },
+          "backgrounds": {
+            "#ffffff": "tan-white.png",
+            "#f5f5f5": "tan-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "black-subway-wall-tile",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Glossy Black Ceramic Subway Wall Tile, 3 by 6 Inches, for Kitchen and Bathroom Walls, Priced per Square Foot",
+    "pt-BR": "Revestimento Cerâmico Subway Preto Brilhante 7,5×15 cm para Cozinha e Banheiro, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A glossy black subway tile for a kitchen backsplash or a bathroom wall. The face is smooth and the edge is beveled. The listed price is for one square foot.",
+    "pt-BR": "Subway preto brilhante para a parede da cozinha ou do banheiro. A face é lisa e a borda é bisotada. O preço anunciado é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 79.9,
+    "USD": 32
+  },
+  "listPrice": {
+    "BRL": 95.9,
+    "USD": 38.4
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "subway tile",
+      "glossy",
+      "black"
+    ],
+    "pt-BR": [
+      "subway",
+      "brilhante",
+      "preto"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "black-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-natural",
+      "sku": "CON-BLACK-SUBWAY-WALL-TILE-BLACK-NATURAL",
+      "options": {
+        "color": "black",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 32
+      },
+      "listPrice": {
+        "BRL": 95.9,
+        "USD": 38.4
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy black subway wall tile, front view",
+            "pt-BR": "Revestimento subway preto brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-rectified",
+      "sku": "CON-BLACK-SUBWAY-WALL-TILE-BLACK-RECTIFIED",
+      "options": {
+        "color": "black",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 36
+      },
+      "listPrice": {
+        "BRL": 107.9,
+        "USD": 43.2
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy black subway wall tile, front view",
+            "pt-BR": "Revestimento subway preto brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "chrome-single-lever-faucet",
+  "categoryId": "construcao-banheiro",
+  "name": {
+    "en": "Chrome Single-Lever Bathroom Faucet with a Short Spout, for a Basin, Sold by the Piece",
+    "pt-BR": "Torneira de Banheiro Cromada com Alavanca Única e Bica Curta, para Cuba, Vendida por Peça"
+  },
+  "description": {
+    "en": "A chrome single-lever faucet for a bathroom basin. The spout is short, so measure the basin first. The listed price is for the faucet alone.",
+    "pt-BR": "Torneira cromada de alavanca única para cuba de banheiro. A bica é curta, então meça a cuba antes. O preço anunciado é só da torneira."
+  },
+  "price": {
+    "BRL": 159,
+    "USD": 69
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "faucet",
+      "chrome",
+      "single lever"
+    ],
+    "pt-BR": [
+      "torneira",
+      "cromada",
+      "alavanca"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "standard",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "chrome",
+          "name": {
+            "en": "Chrome",
+            "pt-BR": "Cromado"
+          },
+          "hex": "#D5D7D8"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Drain",
+        "pt-BR": "Saída"
+      },
+      "values": [
+        {
+          "id": "standard",
+          "name": {
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        },
+        {
+          "id": "alt",
+          "name": {
+            "en": "Alternate",
+            "pt-BR": "Alternativa"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-STANDARD",
+      "options": {
+        "color": "chrome",
+        "install": "standard"
+      },
+      "price": {
+        "BRL": 159,
+        "USD": 69
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome single-lever bathroom faucet, front view",
+            "pt-BR": "Torneira de banheiro cromada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alt",
+      "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-ALT",
+      "options": {
+        "color": "chrome",
+        "install": "alt"
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 82
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome single-lever bathroom faucet, front view",
+            "pt-BR": "Torneira de banheiro cromada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

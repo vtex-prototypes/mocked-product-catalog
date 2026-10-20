@@ -1,0 +1,142 @@
+{
+  "id": "black-rubber-garage-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Black Interlocking Rubber Garage Floor Tile, 20 by 20 Inches, a Textured Mat, Priced per Square Foot",
+    "pt-BR": "Piso de Borracha Preta com Encaixe para Garagem, Placa de 50×50 cm, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A black interlocking rubber tile for a garage or a workshop floor. It lays over concrete and comes back up. The listed price is for one square foot.",
+    "pt-BR": "Placa de borracha preta com encaixe para garagem ou oficina. Assenta sobre o concreto e sai depois. O preço anunciado é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 89.9,
+    "USD": 36
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "rubber tile",
+      "garage",
+      "interlocking"
+    ],
+    "pt-BR": [
+      "piso de borracha",
+      "garagem",
+      "encaixe"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "rubber"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "black-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1C1C1C"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-natural",
+      "sku": "CON-BLACK-RUBBER-GARAGE-TILE-BLACK-NATURAL",
+      "options": {
+        "color": "black",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 36
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black interlocking rubber garage tile, front view",
+            "pt-BR": "Piso de borracha preta para garagem, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-rectified",
+      "sku": "CON-BLACK-RUBBER-GARAGE-TILE-BLACK-RECTIFIED",
+      "options": {
+        "color": "black",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 99.9,
+        "USD": 40
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black interlocking rubber garage tile, front view",
+            "pt-BR": "Piso de borracha preta para garagem, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "white-duplex-outlet",
+  "categoryId": "construcao-eletrica",
+  "name": {
+    "en": "White Duplex Wall Outlet for an Indoor Branch Circuit, a Blank Cover, Sold by the Piece",
+    "pt-BR": "Tomada de Parede Branca para Circuito Interno, Espelho Liso, Vendida por Peça"
+  },
+  "description": {
+    "en": "A white wall outlet for an indoor circuit. It needs a box and a matching breaker behind it. The listed price is for one outlet.",
+    "pt-BR": "Tomada de parede branca para circuito interno. Pede caixa e disjuntor compatível atrás dela. O preço anunciado é de uma peça."
+  },
+  "price": {
+    "BRL": 14.9,
+    "USD": 6.5
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "outlet",
+      "wall",
+      "white"
+    ],
+    "pt-BR": [
+      "tomada",
+      "parede",
+      "branca"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polycarbonate"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F7F7F5"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-WHITE-DUPLEX-OUTLET-SINGLE",
+      "options": {
+        "color": "white",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 14.9,
+        "USD": 6.5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall outlet, front view",
+            "pt-BR": "Tomada de parede branca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-WHITE-DUPLEX-OUTLET-TEN",
+      "options": {
+        "color": "white",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 48
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall outlet, front view",
+            "pt-BR": "Tomada de parede branca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

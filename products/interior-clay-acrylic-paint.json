@@ -1,0 +1,142 @@
+{
+  "id": "interior-clay-acrylic-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Interior Clay Acrylic Wall Paint with a Matte Finish, a Warm Terracotta Tone, Sold by the Can",
+    "pt-BR": "Tinta Acrílica Terracota Fosca para Parede Interna, Tom de Barro Quente, Vendida por Lata"
+  },
+  "description": {
+    "en": "A matte clay acrylic paint for indoor walls that need a warm tone. Two coats cover white. The listed price is for the smaller can.",
+    "pt-BR": "Tinta acrílica terracota fosca para parede interna que pede um tom quente. Duas demãos cobrem o branco. O preço anunciado é da lata menor."
+  },
+  "price": {
+    "BRL": 109.9,
+    "USD": 44
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "interior paint",
+      "clay",
+      "matte"
+    ],
+    "pt-BR": [
+      "tinta interna",
+      "terracota",
+      "fosca"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "clay-small",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "clay",
+          "name": {
+            "en": "Clay",
+            "pt-BR": "Terracota"
+          },
+          "hex": "#C46A45"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "small",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "large",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "clay-small",
+      "sku": "CON-INTERIOR-CLAY-ACRYLIC-PAINT-CLAY-SMALL",
+      "options": {
+        "color": "clay",
+        "volume": "small"
+      },
+      "price": {
+        "BRL": 109.9,
+        "USD": 44
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte clay interior paint",
+            "pt-BR": "Lata de tinta interna terracota fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "clay-large",
+      "sku": "CON-INTERIOR-CLAY-ACRYLIC-PAINT-CLAY-LARGE",
+      "options": {
+        "color": "clay",
+        "volume": "large"
+      },
+      "price": {
+        "BRL": 309,
+        "USD": 124
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte clay interior paint",
+            "pt-BR": "Lata de tinta interna terracota fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

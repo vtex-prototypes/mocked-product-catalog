@@ -1,0 +1,138 @@
+{
+  "id": "ac2-white-mortar",
+  "categoryId": "construcao-argamassas",
+  "name": {
+    "en": "Type II White Thinset Mortar for Outdoor Ceramic Floors and Light Facades, 44 Pound Bag",
+    "pt-BR": "Argamassa Colante AC-II Branca para Cerâmica em Área Externa e Fachada Leve, Saco de 20 kg"
+  },
+  "description": {
+    "en": "A white type II thinset for ceramic tile on an outdoor floor or a light facade. It is not the one for porcelain. The listed price is for one 44 pound bag.",
+    "pt-BR": "Argamassa colante AC-II branca para cerâmica em piso externo ou fachada leve. Não é a indicada para porcelanato. O preço anunciado é de um saco de 20 kg."
+  },
+  "price": {
+    "BRL": 34.9,
+    "USD": 16
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "thinset",
+      "white",
+      "outdoor"
+    ],
+    "pt-BR": [
+      "argamassa ac-ii",
+      "branca",
+      "área externa"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "one",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F3F1EC"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "20kg",
+          "name": {
+            "en": "44 lb",
+            "pt-BR": "20 kg"
+          }
+        },
+        {
+          "id": "five",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one",
+      "sku": "CON-AC2-WHITE-MORTAR-ONE",
+      "options": {
+        "color": "white",
+        "weight": "20kg"
+      },
+      "price": {
+        "BRL": 34.9,
+        "USD": 16
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bag of white type II thinset mortar",
+            "pt-BR": "Saco de argamassa AC-II branca"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "five",
+      "sku": "CON-AC2-WHITE-MORTAR-FIVE",
+      "options": {
+        "color": "white",
+        "weight": "five"
+      },
+      "price": {
+        "BRL": 159,
+        "USD": 72
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bag of white type II thinset mortar",
+            "pt-BR": "Saco de argamassa AC-II branca"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

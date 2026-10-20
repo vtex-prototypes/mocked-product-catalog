@@ -1,0 +1,134 @@
+{
+  "id": "miniature-circuit-breaker",
+  "categoryId": "construcao-eletrica",
+  "name": {
+    "en": "White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
+    "pt-BR": "Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+  },
+  "description": {
+    "en": "A single-pole miniature breaker for an indoor panel. Match the amp rating to the circuit before it goes in the rail. The listed price is for one module.",
+    "pt-BR": "Disjuntor unipolar para quadro interno. A corrente tem que casar com o circuito antes de entrar no trilho. O preço anunciado é de um módulo."
+  },
+  "price": {
+    "BRL": 28.9,
+    "USD": 12
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "circuit breaker",
+      "panel",
+      "indoor"
+    ],
+    "pt-BR": [
+      "disjuntor",
+      "quadro",
+      "interno"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polycarbonate"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F2"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-MINIATURE-CIRCUIT-BREAKER-SINGLE",
+      "options": {
+        "color": "white",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 28.9,
+        "USD": 12
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White miniature circuit breaker, front view",
+            "pt-BR": "Disjuntor miniatura branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-MINIATURE-CIRCUIT-BREAKER-TEN",
+      "options": {
+        "color": "white",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 249,
+        "USD": 99
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White miniature circuit breaker, front view",
+            "pt-BR": "Disjuntor miniatura branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

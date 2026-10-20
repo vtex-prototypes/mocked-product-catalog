@@ -1,0 +1,154 @@
+{
+  "id": "interior-navy-acrylic-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Interior Navy Acrylic Wall Paint with a Matte Finish, for Dry Indoor Walls, Sold by the Can",
+    "pt-BR": "Tinta Acrílica Azul Marinho Fosca para Parede Interna Seca, Vendida por Lata"
+  },
+  "description": {
+    "en": "A matte navy acrylic paint for dry indoor walls. Two coats cover a light wall. It is not for a wet shower. The listed price is for the smaller can.",
+    "pt-BR": "Tinta acrílica azul marinho fosca para parede interna seca. Duas demãos cobrem parede clara. Não serve para box molhado. O preço anunciado é da lata menor."
+  },
+  "price": {
+    "BRL": 119,
+    "USD": 48
+  },
+  "listPrice": {
+    "BRL": 142.8,
+    "USD": 57.6
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "interior paint",
+      "navy",
+      "matte"
+    ],
+    "pt-BR": [
+      "tinta interna",
+      "azul marinho",
+      "fosca"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "navy-small",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "navy",
+          "name": {
+            "en": "Navy",
+            "pt-BR": "Azul marinho"
+          },
+          "hex": "#1E3A5F"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "small",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "large",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "navy-small",
+      "sku": "CON-INTERIOR-NAVY-ACRYLIC-PAINT-NAVY-SMALL",
+      "options": {
+        "color": "navy",
+        "volume": "small"
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 48
+      },
+      "listPrice": {
+        "BRL": 142.8,
+        "USD": 57.6
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte navy interior paint",
+            "pt-BR": "Lata de tinta interna azul marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-large",
+      "sku": "CON-INTERIOR-NAVY-ACRYLIC-PAINT-NAVY-LARGE",
+      "options": {
+        "color": "navy",
+        "volume": "large"
+      },
+      "price": {
+        "BRL": 329,
+        "USD": 132
+      },
+      "listPrice": {
+        "BRL": 394.8,
+        "USD": 158.4
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte navy interior paint",
+            "pt-BR": "Lata de tinta interna azul marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

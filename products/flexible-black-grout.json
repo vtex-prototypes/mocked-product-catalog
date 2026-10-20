@@ -1,0 +1,154 @@
+{
+  "id": "flexible-black-grout",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Flexible Black Cement Grout for Indoor and Outdoor Tile Joints, Sold by the Tub",
+    "pt-BR": "Rejunte Flexível Preto para Juntas de Piso Interno e Externo, Vendido por Pote"
+  },
+  "description": {
+    "en": "A flexible black cement grout for joints that need a dark line, indoors or on a covered balcony. The listed price is for the 1 kg tub.",
+    "pt-BR": "Rejunte cimentício preto e flexível para junta que pede um risco escuro, dentro de casa ou em varanda coberta. O preço anunciado é do pote de 1 kg."
+  },
+  "price": {
+    "BRL": 18.9,
+    "USD": 9.5
+  },
+  "listPrice": {
+    "BRL": 22.7,
+    "USD": 11.4
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "flexible grout",
+      "black",
+      "outdoor"
+    ],
+    "pt-BR": [
+      "rejunte flexível",
+      "preto",
+      "área externa"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "black-1kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#2A2A28"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "1kg",
+          "name": {
+            "en": "1 kg",
+            "pt-BR": "1 kg"
+          }
+        },
+        {
+          "id": "5kg",
+          "name": {
+            "en": "5 kg",
+            "pt-BR": "5 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-1kg",
+      "sku": "CON-FLEXIBLE-BLACK-GROUT-BLACK-1KG",
+      "options": {
+        "color": "black",
+        "weight": "1kg"
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 9.5
+      },
+      "listPrice": {
+        "BRL": 22.7,
+        "USD": 11.4
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of flexible black grout",
+            "pt-BR": "Pote de rejunte flexível preto"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-5kg",
+      "sku": "CON-FLEXIBLE-BLACK-GROUT-BLACK-5KG",
+      "options": {
+        "color": "black",
+        "weight": "5kg"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 36
+      },
+      "listPrice": {
+        "BRL": 95.9,
+        "USD": 43.2
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of flexible black grout",
+            "pt-BR": "Pote de rejunte flexível preto"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

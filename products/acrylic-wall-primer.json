@@ -1,0 +1,142 @@
+{
+  "id": "acrylic-wall-primer",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "White Acrylic Wall Primer for Indoor Drywall and Plaster, Sold by the Can, Before the Color Coat",
+    "pt-BR": "Fundo Acrílico Branco para Parede Interna de Gesso e Reboco, Vendido por Lata, antes da Tinta"
+  },
+  "description": {
+    "en": "A white acrylic primer that seals new drywall and plaster before the color coat. One coat is enough on a sound wall. The listed price is for the smaller can.",
+    "pt-BR": "Fundo acrílico branco que sela gesso e reboco novos antes da tinta de cor. Uma demão basta em parede firme. O preço anunciado é da lata menor."
+  },
+  "price": {
+    "BRL": 69.9,
+    "USD": 28
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "primer",
+      "white",
+      "acrylic"
+    ],
+    "pt-BR": [
+      "fundo",
+      "branco",
+      "acrílico"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "white-small",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F3F1EC"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "small",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "large",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-small",
+      "sku": "CON-ACRYLIC-WALL-PRIMER-WHITE-SMALL",
+      "options": {
+        "color": "white",
+        "volume": "small"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of white acrylic wall primer",
+            "pt-BR": "Lata de fundo acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-large",
+      "sku": "CON-ACRYLIC-WALL-PRIMER-WHITE-LARGE",
+      "options": {
+        "color": "white",
+        "volume": "large"
+      },
+      "price": {
+        "BRL": 199,
+        "USD": 80
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of white acrylic wall primer",
+            "pt-BR": "Lata de fundo acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

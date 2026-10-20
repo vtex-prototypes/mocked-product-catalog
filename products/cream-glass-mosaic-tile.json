@@ -1,0 +1,142 @@
+{
+  "id": "cream-glass-mosaic-tile",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Cream Glass Mosaic Tile Sheet on Mesh, 12 by 12 Inches, for Wet Walls and Shower Niches",
+    "pt-BR": "Pastilha de Vidro Creme em Placa com Tela 30×30 cm para Parede Molhada e Nicho de Box"
+  },
+  "description": {
+    "en": "A sheet of small cream glass mosaic on mesh, for a shower niche or a wet wall. The sheet is about 12 inches square. The listed price is for one sheet.",
+    "pt-BR": "Placa de pastilha de vidro creme sobre tela, para nicho de box ou parede molhada. A placa tem cerca de 30 cm. O preço anunciado é de uma placa."
+  },
+  "price": {
+    "BRL": 24.9,
+    "USD": 11
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "mosaic",
+      "glass",
+      "cream"
+    ],
+    "pt-BR": [
+      "pastilha",
+      "vidro",
+      "creme"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "glass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "cream-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cream",
+          "name": {
+            "en": "Cream",
+            "pt-BR": "Creme"
+          },
+          "hex": "#E7E0D2"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cream-natural",
+      "sku": "CON-CREAM-GLASS-MOSAIC-TILE-CREAM-NATURAL",
+      "options": {
+        "color": "cream",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 24.9,
+        "USD": 11
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream glass mosaic tile sheet, front view",
+            "pt-BR": "Pastilha de vidro creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-rectified",
+      "sku": "CON-CREAM-GLASS-MOSAIC-TILE-CREAM-RECTIFIED",
+      "options": {
+        "color": "cream",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 28.9,
+        "USD": 13
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream glass mosaic tile sheet, front view",
+            "pt-BR": "Pastilha de vidro creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

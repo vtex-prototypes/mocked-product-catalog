@@ -1,0 +1,134 @@
+{
+  "id": "gray-pvc-coupling",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "Gray PVC Coupling for 1 Inch Cold-Water Pipe, a Straight Sleeve, Sold by the Piece",
+    "pt-BR": "Luva de PVC Cinza para Tubo de Água Fria de 25 mm, Emenda Reta, Vendida por Peça"
+  },
+  "description": {
+    "en": "A gray PVC coupling that joins two lengths of 1 inch cold-water pipe. Both sockets take solvent cement. The listed price is for one coupling.",
+    "pt-BR": "Luva de PVC cinza que emenda duas barras de tubo de água fria de 25 mm. As duas bolsas levam adesivo. O preço anunciado é de uma peça."
+  },
+  "price": {
+    "BRL": 2.9,
+    "USD": 1.2
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "pvc coupling",
+      "cold water",
+      "fitting"
+    ],
+    "pt-BR": [
+      "luva de pvc",
+      "água fria",
+      "conexão"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "pvc"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#8E8E8A"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-GRAY-PVC-COUPLING-SINGLE",
+      "options": {
+        "color": "gray",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 2.9,
+        "USD": 1.2
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC pipe coupling, front view",
+            "pt-BR": "Luva de PVC cinza, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-GRAY-PVC-COUPLING-TEN",
+      "options": {
+        "color": "gray",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 24.9,
+        "USD": 9.5
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC pipe coupling, front view",
+            "pt-BR": "Luva de PVC cinza, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
