@@ -1,0 +1,138 @@
+{
+  "id": "gray-stone-wall-tile",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Matte Gray Stone-Look Ceramic Wall Tile, 12 by 24 Inches, Priced per Square Foot",
+    "pt-BR": "Revestimento Cerâmico Pedra Cinza Fosco 30×60 cm, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A matte gray stone-look ceramic tile for indoor walls. The long rectangle covers a bath or a feature wall without the gloss of a subway tile. Scratch resistance is medium. The price is for one square foot.",
+    "pt-BR": "Revestimento cerâmico fosco com visual de pedra cinza para parede interna. O retângulo longo cobre banheiro ou uma parede de destaque sem o brilho do subway. A resistência a arranhão é média. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 54.9,
+    "USD": 3.29
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "stone look wall tile",
+      "gray",
+      "indoor"
+    ],
+    "pt-BR": [
+      "revestimento pedra cinza",
+      "cinza",
+      "área interna"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "medium"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "gray-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#8A8E90"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gray-natural",
+      "sku": "CON-GRAYSTONEW-NATURAL",
+      "options": {
+        "color": "gray",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 54.9,
+        "USD": 3.29
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte gray stone-look ceramic wall tile",
+            "pt-BR": "Revestimento pedra cinza fosco"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gray-rectified",
+      "sku": "CON-GRAYSTONEW-RECTIFIED",
+      "options": {
+        "color": "gray",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 54.9,
+        "USD": 3.29
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte gray stone-look ceramic wall tile",
+            "pt-BR": "Revestimento pedra cinza fosco"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

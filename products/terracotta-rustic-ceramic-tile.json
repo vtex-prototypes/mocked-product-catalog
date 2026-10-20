@@ -1,0 +1,142 @@
+{
+  "id": "terracotta-rustic-ceramic-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Rustic Terracotta Ceramic Floor Tile, 20 by 20 Inches and 8 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Cerâmica Rústica Terracota 50×50 cm com 8 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A rustic terracotta ceramic tile for outdoor floors. Slip resistance is R10 and scratch resistance is medium. The warm clay color is the extra outdoor option beside the porcelain tiles. The price is for one square foot.",
+    "pt-BR": "Cerâmica rústica terracota para piso externo. O antiderrapante é R10 e a resistência a arranhão é média. O tom de barro é a opção externa extra ao lado dos porcelanatos. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 39.9,
+    "USD": 2.19
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "terracotta ceramic",
+      "outdoor floor",
+      "rustic"
+    ],
+    "pt-BR": [
+      "cerâmica rústica terracota",
+      "piso externo",
+      "rústico"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r10"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "medium"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "terracotta-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "terracotta",
+          "name": {
+            "en": "Terracotta",
+            "pt-BR": "Terracota"
+          },
+          "hex": "#C46B45"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "terracotta-natural",
+      "sku": "CON-TERRACOTTAR-NATURAL",
+      "options": {
+        "color": "terracotta",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 39.9,
+        "USD": 2.19
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rustic terracotta ceramic floor tile",
+            "pt-BR": "Cerâmica rústica terracota"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "terracotta-rectified",
+      "sku": "CON-TERRACOTTAR-RECTIFIED",
+      "options": {
+        "color": "terracotta",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 39.9,
+        "USD": 2.19
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rustic terracotta ceramic floor tile",
+            "pt-BR": "Cerâmica rústica terracota"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

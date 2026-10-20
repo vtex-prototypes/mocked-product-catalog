@@ -1,0 +1,134 @@
+{
+  "id": "interior-white-acrylic-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Interior White Acrylic Wall Paint with a Matte Finish, Sold by the Can",
+    "pt-BR": "Tinta Acrílica Branca Fosca para Parede Interna, Vendida por Lata"
+  },
+  "description": {
+    "en": "A matte white acrylic paint for indoor walls and ceilings. One coat covers a light wall; a darker wall needs two. The listed price is for the 3.6 liter can.",
+    "pt-BR": "Tinta acrílica branca fosca para parede e teto internos. Uma demão cobre parede clara; parede escura pede duas. O preço anunciado é da lata de 3,6 litros."
+  },
+  "price": {
+    "BRL": 89.9,
+    "USD": 36
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "interior paint",
+      "white",
+      "acrylic"
+    ],
+    "pt-BR": [
+      "tinta interna",
+      "branca",
+      "acrílica"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "white-3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F2"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "3.6 L",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "18 L",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-3-6-l",
+      "sku": "CON-INTERIORWHI-3-6-L",
+      "options": {
+        "color": "white",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 36
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of interior white acrylic paint",
+            "pt-BR": "Lata de tinta acrílica branca para interior"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-18-l",
+      "sku": "CON-INTERIORWHI-18-L",
+      "options": {
+        "color": "white",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 289,
+        "USD": 118
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of interior white acrylic paint",
+            "pt-BR": "Lata de tinta acrílica branca para interior"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

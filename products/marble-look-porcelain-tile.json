@@ -1,0 +1,142 @@
+{
+  "id": "marble-look-porcelain-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Polished Marble-Look Porcelain Floor Tile, 32 by 32 Inches and 10 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Porcelanato Polido com Efeito Mármore Branco 80×80 cm e 10 mm, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A polished white porcelain tile with gray marble veining, for indoor floors. Slip resistance is R9 and scratch resistance is high. The glossy face marks easily when wet, so it stays inside. The price is for one square foot.",
+    "pt-BR": "Porcelanato branco polido com veios cinza, para piso interno. O antiderrapante é R9 e a resistência a arranhão é alta. A face brilhante marca quando molha, então fica em área interna. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 129.9,
+    "USD": 6.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "marble look porcelain",
+      "indoor floor",
+      "light"
+    ],
+    "pt-BR": [
+      "porcelanato efeito mármore",
+      "piso interno",
+      "claro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r9"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "white-polished",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F4"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "polished",
+          "name": {
+            "en": "Polished",
+            "pt-BR": "Polido"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-polished",
+      "sku": "CON-MARBLELOOK-POLISHED",
+      "options": {
+        "color": "white",
+        "finish": "polished"
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 6.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Polished marble-look porcelain floor tile",
+            "pt-BR": "Porcelanato polido com efeito mármore"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-rectified",
+      "sku": "CON-MARBLELOOK-RECTIFIED",
+      "options": {
+        "color": "white",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 6.99
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Polished marble-look porcelain floor tile",
+            "pt-BR": "Porcelanato polido com efeito mármore"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

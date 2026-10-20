@@ -1,0 +1,142 @@
+{
+  "id": "slate-porcelain-floor-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Matte Slate Porcelain Floor Tile, 24 by 24 Inches and 9 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Porcelanato Ardósia Fosco 60×60 cm com 9 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A matte slate porcelain tile for outdoor floors. Slip resistance is R11 and scratch resistance is high, so it holds up on a wet balcony with a dog. The price is for one square foot.",
+    "pt-BR": "Porcelanato fosco com visual de ardósia para piso externo. O antiderrapante é R11 e a resistência a arranhão é alta, então aguenta varanda molhada e cachorro. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 89.9,
+    "USD": 4.49
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "slate porcelain",
+      "outdoor floor",
+      "slip resistant"
+    ],
+    "pt-BR": [
+      "porcelanato ardósia",
+      "piso externo",
+      "antiderrapante"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r11"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "slate-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "slate",
+          "name": {
+            "en": "Slate",
+            "pt-BR": "Ardósia"
+          },
+          "hex": "#5C6166"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "slate-natural",
+      "sku": "CON-SLATEPORCEL-NATURAL",
+      "options": {
+        "color": "slate",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 4.49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte slate porcelain floor tile",
+            "pt-BR": "Porcelanato ardósia fosco"
+          },
+          "backgrounds": {
+            "#ffffff": "slate-white.png",
+            "#f5f5f5": "slate-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "slate-rectified",
+      "sku": "CON-SLATEPORCEL-RECTIFIED",
+      "options": {
+        "color": "slate",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 4.49
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte slate porcelain floor tile",
+            "pt-BR": "Porcelanato ardósia fosco"
+          },
+          "backgrounds": {
+            "#ffffff": "slate-white.png",
+            "#f5f5f5": "slate-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

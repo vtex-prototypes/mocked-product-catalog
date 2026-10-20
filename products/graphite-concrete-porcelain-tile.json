@@ -1,0 +1,142 @@
+{
+  "id": "graphite-concrete-porcelain-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Graphite Concrete-Look Porcelain Floor Tile, 24 by 24 Inches and 9 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Porcelanato Cimentício Grafite 60×60 cm com 9 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A graphite concrete-look porcelain tile for outdoor floors. Slip resistance is R10 and scratch resistance is high. It is the darker, lower-priced pair to the slate tile. The price is for one square foot.",
+    "pt-BR": "Porcelanato grafite com visual cimentício para piso externo. O antiderrapante é R10 e a resistência a arranhão é alta. É o par mais escuro e mais barato do porcelanato ardósia. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 69.9,
+    "USD": 3.29
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "concrete look porcelain",
+      "outdoor floor",
+      "graphite"
+    ],
+    "pt-BR": [
+      "porcelanato cimentício",
+      "piso externo",
+      "grafite"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r10"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "graphite-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "graphite",
+          "name": {
+            "en": "Graphite",
+            "pt-BR": "Grafite"
+          },
+          "hex": "#4A4E52"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "graphite-natural",
+      "sku": "CON-GRAPHITECON-NATURAL",
+      "options": {
+        "color": "graphite",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 3.29
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Graphite concrete-look porcelain floor tile",
+            "pt-BR": "Porcelanato cimentício grafite"
+          },
+          "backgrounds": {
+            "#ffffff": "graphite-white.png",
+            "#f5f5f5": "graphite-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "graphite-rectified",
+      "sku": "CON-GRAPHITECON-RECTIFIED",
+      "options": {
+        "color": "graphite",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 3.29
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Graphite concrete-look porcelain floor tile",
+            "pt-BR": "Porcelanato cimentício grafite"
+          },
+          "backgrounds": {
+            "#ffffff": "graphite-white.png",
+            "#f5f5f5": "graphite-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

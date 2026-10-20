@@ -52,6 +52,20 @@
           }
         },
         {
+          "id": "ceramic",
+          "name": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        },
+        {
+          "id": "cement",
+          "name": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
           "id": "coated-fabric",
           "name": {
             "en": "Coated fabric",
@@ -63,6 +77,13 @@
           "name": {
             "en": "Compression knit",
             "pt-BR": "Malha compressiva"
+          }
+        },
+        {
+          "id": "epoxy",
+          "name": {
+            "en": "Epoxy",
+            "pt-BR": "Epóxi"
           }
         },
         {
@@ -143,6 +164,27 @@
           }
         },
         {
+          "id": "natural-stone",
+          "name": {
+            "en": "Natural stone",
+            "pt-BR": "Pedra natural"
+          }
+        },
+        {
+          "id": "porcelain",
+          "name": {
+            "en": "Porcelain",
+            "pt-BR": "Porcelanato"
+          }
+        },
+        {
+          "id": "pvc",
+          "name": {
+            "en": "PVC",
+            "pt-BR": "PVC"
+          }
+        },
+        {
           "id": "leather",
           "name": {
             "en": "Leather",
@@ -175,6 +217,13 @@
           "name": {
             "en": "Straw",
             "pt-BR": "Palha"
+          }
+        },
+        {
+          "id": "vinyl",
+          "name": {
+            "en": "Vinyl",
+            "pt-BR": "Vinílico"
           }
         },
         {
@@ -349,6 +398,96 @@
           "name": {
             "en": "USB-C",
             "pt-BR": "USB-C"
+          }
+        }
+      ]
+    },
+    {
+      "id": "slip-resistance",
+      "name": {
+        "en": "Slip resistance",
+        "pt-BR": "Antiderrapante"
+      },
+      "values": [
+        {
+          "id": "r9",
+          "name": {
+            "en": "R9",
+            "pt-BR": "R9"
+          }
+        },
+        {
+          "id": "r10",
+          "name": {
+            "en": "R10",
+            "pt-BR": "R10"
+          }
+        },
+        {
+          "id": "r11",
+          "name": {
+            "en": "R11",
+            "pt-BR": "R11"
+          }
+        },
+        {
+          "id": "r12",
+          "name": {
+            "en": "R12",
+            "pt-BR": "R12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scratch-resistance",
+      "name": {
+        "en": "Scratch resistance",
+        "pt-BR": "Resistência a arranhão"
+      },
+      "values": [
+        {
+          "id": "low",
+          "name": {
+            "en": "Low",
+            "pt-BR": "Baixa"
+          }
+        },
+        {
+          "id": "medium",
+          "name": {
+            "en": "Medium",
+            "pt-BR": "Média"
+          }
+        },
+        {
+          "id": "high",
+          "name": {
+            "en": "High",
+            "pt-BR": "Alta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "application",
+      "name": {
+        "en": "Application",
+        "pt-BR": "Uso"
+      },
+      "values": [
+        {
+          "id": "indoor",
+          "name": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "outdoor",
+          "name": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
           }
         }
       ]
@@ -722,9 +861,227 @@
         "pt-BR": "Mochilas"
       },
       "parent": "esportes"
+    },
+    {
+      "id": "construcao",
+      "name": {
+        "en": "Building Materials",
+        "pt-BR": "Material de construção"
+      },
+      "parent": null
+    },
+    {
+      "id": "construcao-pisos",
+      "name": {
+        "en": "Flooring",
+        "pt-BR": "Pisos"
+      },
+      "parent": "construcao"
+    },
+    {
+      "id": "construcao-revestimentos",
+      "name": {
+        "en": "Wall Tile",
+        "pt-BR": "Revestimentos"
+      },
+      "parent": "construcao"
+    },
+    {
+      "id": "construcao-tintas",
+      "name": {
+        "en": "Paint",
+        "pt-BR": "Tintas"
+      },
+      "parent": "construcao"
+    },
+    {
+      "id": "construcao-hidraulica",
+      "name": {
+        "en": "Plumbing",
+        "pt-BR": "Hidráulica"
+      },
+      "parent": "construcao"
+    },
+    {
+      "id": "construcao-rejuntes",
+      "name": {
+        "en": "Grout",
+        "pt-BR": "Rejuntes"
+      },
+      "parent": "construcao"
     }
   ],
   "products": [
+    {
+      "id": "acrylic-beige-grout",
+      "categoryId": "construcao-rejuntes",
+      "name": {
+        "en": "Acrylic Beige Grout for Indoor and Outdoor Tile Joints, Sold by the Tub",
+        "pt-BR": "Rejunte Acrílico Bege para Juntas de Piso Interno e Externo, Vendido por Pote"
+      },
+      "description": {
+        "en": "An acrylic beige grout for indoor and outdoor joints. The warm tone sits next to light stone and wood-look tile. It is ready to use, with no mixing. The listed price is for the 1 kg tub.",
+        "pt-BR": "Rejunte acrílico bege para juntas internas e externas. O tom quente acompanha pedra clara e piso com efeito madeira. Já vem pronto, sem mistura. O preço anunciado é do pote de 1 kg."
+      },
+      "price": {
+        "BRL": 22.5,
+        "USD": 11.9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "acrylic grout",
+          "beige",
+          "ready to use"
+        ],
+        "pt-BR": [
+          "rejunte acrílico",
+          "bege",
+          "pronto para uso"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        }
+      ],
+      "defaultVariantId": "beige-1kg",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "beige",
+              "name": {
+                "en": "Beige",
+                "pt-BR": "Bege"
+              },
+              "hex": "#D8C3A5"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Weight",
+            "pt-BR": "Peso"
+          },
+          "values": [
+            {
+              "id": "1kg",
+              "name": {
+                "en": "1 kg",
+                "pt-BR": "1 kg"
+              }
+            },
+            {
+              "id": "5kg",
+              "name": {
+                "en": "5 kg",
+                "pt-BR": "5 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "beige-1kg",
+          "sku": "CON-ACRYLICBEIG-1KG",
+          "options": {
+            "color": "beige",
+            "weight": "1kg"
+          },
+          "price": {
+            "BRL": 22.5,
+            "USD": 11.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tub of acrylic beige grout",
+                "pt-BR": "Pote de rejunte acrílico bege"
+              },
+              "backgrounds": {
+                "#ffffff": "beige-white.png",
+                "#f5f5f5": "beige-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/acrylic-beige-grout/beige-white.webp",
+                "#f5f5f5": "images/acrylic-beige-grout/beige-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "beige-5kg",
+          "sku": "CON-ACRYLICBEIG-5KG",
+          "options": {
+            "color": "beige",
+            "weight": "5kg"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 42
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tub of acrylic beige grout",
+                "pt-BR": "Pote de rejunte acrílico bege"
+              },
+              "backgrounds": {
+                "#ffffff": "beige-white.png",
+                "#f5f5f5": "beige-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/acrylic-beige-grout/beige-white.webp",
+                "#f5f5f5": "images/acrylic-beige-grout/beige-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "air-mattress",
       "brandId": "trilha-livre",
@@ -3346,6 +3703,334 @@
       ]
     },
     {
+      "id": "epoxy-graphite-grout",
+      "categoryId": "construcao-rejuntes",
+      "name": {
+        "en": "Graphite Epoxy Grout for Stain-Resistant Indoor and Outdoor Tile Joints, Sold by the Tub",
+        "pt-BR": "Rejunte Epóxi Grafite para Juntas Internas e Externas Resistentes a Mancha, Vendido por Pote"
+      },
+      "description": {
+        "en": "A graphite epoxy grout for indoor and outdoor joints that need to resist stains. It is the most expensive grout and the one that stays dark and closed after it cures. The listed price is for the 1 kg tub.",
+        "pt-BR": "Rejunte epóxi grafite para juntas internas e externas que precisam resistir a mancha. É o rejunte mais caro e o que fica escuro e fechado depois de curar. O preço anunciado é do pote de 1 kg."
+      },
+      "price": {
+        "BRL": 59.9,
+        "USD": 27.9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "epoxy grout",
+          "graphite",
+          "stain resistant"
+        ],
+        "pt-BR": [
+          "rejunte epóxi",
+          "grafite",
+          "resistente a mancha"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "epoxy",
+          "value": {
+            "en": "Epoxy",
+            "pt-BR": "Epóxi"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        }
+      ],
+      "defaultVariantId": "graphite-1kg",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "graphite",
+              "name": {
+                "en": "Graphite",
+                "pt-BR": "Grafite"
+              },
+              "hex": "#3E4246"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Weight",
+            "pt-BR": "Peso"
+          },
+          "values": [
+            {
+              "id": "1kg",
+              "name": {
+                "en": "1 kg",
+                "pt-BR": "1 kg"
+              }
+            },
+            {
+              "id": "5kg",
+              "name": {
+                "en": "5 kg",
+                "pt-BR": "5 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "graphite-1kg",
+          "sku": "CON-EPOXYGRAPHI-1KG",
+          "options": {
+            "color": "graphite",
+            "weight": "1kg"
+          },
+          "price": {
+            "BRL": 59.9,
+            "USD": 27.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tub of graphite epoxy grout",
+                "pt-BR": "Pote de rejunte epóxi grafite"
+              },
+              "backgrounds": {
+                "#ffffff": "graphite-white.png",
+                "#f5f5f5": "graphite-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/epoxy-graphite-grout/graphite-white.webp",
+                "#f5f5f5": "images/epoxy-graphite-grout/graphite-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "graphite-5kg",
+          "sku": "CON-EPOXYGRAPHI-5KG",
+          "options": {
+            "color": "graphite",
+            "weight": "5kg"
+          },
+          "price": {
+            "BRL": 229,
+            "USD": 99
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tub of graphite epoxy grout",
+                "pt-BR": "Pote de rejunte epóxi grafite"
+              },
+              "backgrounds": {
+                "#ffffff": "graphite-white.png",
+                "#f5f5f5": "graphite-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/epoxy-graphite-grout/graphite-white.webp",
+                "#f5f5f5": "images/epoxy-graphite-grout/graphite-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exterior-sand-acrylic-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Exterior Sand Acrylic Masonry Paint with a Matte Finish, Sold by the Can",
+        "pt-BR": "Tinta Acrílica Areia Fosca para Alvenaria Externa, Vendida por Lata"
+      },
+      "description": {
+        "en": "A matte sand acrylic paint for outdoor masonry. It is made for rain and sun on an exterior wall, not for a dry indoor room. The listed price is for the 3.6 liter can.",
+        "pt-BR": "Tinta acrílica areia fosca para alvenaria externa. Foi feita para chuva e sol em parede externa, não para cômodo interno seco. O preço anunciado é da lata de 3,6 litros."
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 46
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "exterior paint",
+          "sand",
+          "acrylic"
+        ],
+        "pt-BR": [
+          "tinta externa",
+          "areia",
+          "acrílica"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        }
+      ],
+      "defaultVariantId": "sand-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "sand",
+              "name": {
+                "en": "Sand",
+                "pt-BR": "Areia"
+              },
+              "hex": "#D6C4A8"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "3.6 L",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "18 L",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "sand-3-6-l",
+          "sku": "CON-EXTERIORSAN-3-6-L",
+          "options": {
+            "color": "sand",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 119,
+            "USD": 46
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of exterior sand acrylic paint",
+                "pt-BR": "Lata de tinta acrílica areia para exterior"
+              },
+              "backgrounds": {
+                "#ffffff": "sand-white.png",
+                "#f5f5f5": "sand-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/exterior-sand-acrylic-paint/sand-white.webp",
+                "#f5f5f5": "images/exterior-sand-acrylic-paint/sand-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "sand-18-l",
+          "sku": "CON-EXTERIORSAN-18-L",
+          "options": {
+            "color": "sand",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 349,
+            "USD": 139
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of exterior sand acrylic paint",
+                "pt-BR": "Lata de tinta acrílica areia para exterior"
+              },
+              "backgrounds": {
+                "#ffffff": "sand-white.png",
+                "#f5f5f5": "sand-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/exterior-sand-acrylic-paint/sand-white.webp",
+                "#f5f5f5": "images/exterior-sand-acrylic-paint/sand-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "fleece-jogger-pants",
       "brandId": "ritmo",
       "brand": {
@@ -3668,6 +4353,176 @@
               "src": {
                 "#ffffff": "images/fleece-jogger-pants/heather-white.webp",
                 "#f5f5f5": "images/fleece-jogger-pants/heather-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flexible-gray-grout",
+      "categoryId": "construcao-rejuntes",
+      "name": {
+        "en": "Flexible Gray Cement Grout for Indoor and Outdoor Tile Joints, Sold by the Tub",
+        "pt-BR": "Rejunte Flexível Cinza para Juntas de Piso Interno e Externo, Vendido por Pote"
+      },
+      "description": {
+        "en": "A flexible gray cement grout for indoor and outdoor joints. It is the one indicated for an exterior balcony, where the joint has to move with the tile. The listed price is for the 1 kg tub.",
+        "pt-BR": "Rejunte cimentício cinza e flexível para juntas internas e externas. É o indicado para varanda, onde a junta precisa acompanhar o piso. O preço anunciado é do pote de 1 kg."
+      },
+      "price": {
+        "BRL": 14.9,
+        "USD": 8.5
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "flexible grout",
+          "gray",
+          "outdoor"
+        ],
+        "pt-BR": [
+          "rejunte flexível",
+          "cinza",
+          "área externa"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        }
+      ],
+      "defaultVariantId": "gray-1kg",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#B7B7B4"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Weight",
+            "pt-BR": "Peso"
+          },
+          "values": [
+            {
+              "id": "1kg",
+              "name": {
+                "en": "1 kg",
+                "pt-BR": "1 kg"
+              }
+            },
+            {
+              "id": "5kg",
+              "name": {
+                "en": "5 kg",
+                "pt-BR": "5 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gray-1kg",
+          "sku": "CON-FLEXIBLEGRA-1KG",
+          "options": {
+            "color": "gray",
+            "weight": "1kg"
+          },
+          "price": {
+            "BRL": 14.9,
+            "USD": 8.5
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tub of flexible gray cement grout",
+                "pt-BR": "Pote de rejunte flexível cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flexible-gray-grout/gray-white.webp",
+                "#f5f5f5": "images/flexible-gray-grout/gray-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gray-5kg",
+          "sku": "CON-FLEXIBLEGRA-5KG",
+          "options": {
+            "color": "gray",
+            "weight": "5kg"
+          },
+          "price": {
+            "BRL": 59.9,
+            "USD": 29.9
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tub of flexible gray cement grout",
+                "pt-BR": "Pote de rejunte flexível cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flexible-gray-grout/gray-white.webp",
+                "#f5f5f5": "images/flexible-gray-grout/gray-gray.webp"
               }
             }
           ]
@@ -4345,6 +5200,540 @@
               "src": {
                 "#ffffff": "images/gold-hoop-earrings/gold-white.webp",
                 "#f5f5f5": "images/gold-hoop-earrings/gold-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "graphite-concrete-porcelain-tile",
+      "categoryId": "construcao-pisos",
+      "name": {
+        "en": "Graphite Concrete-Look Porcelain Floor Tile, 24 by 24 Inches and 9 Millimeters Thick, Priced per Square Foot",
+        "pt-BR": "Porcelanato Cimentício Grafite 60×60 cm com 9 mm de Espessura, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A graphite concrete-look porcelain tile for outdoor floors. Slip resistance is R10 and scratch resistance is high. It is the darker, lower-priced pair to the slate tile. The price is for one square foot.",
+        "pt-BR": "Porcelanato grafite com visual cimentício para piso externo. O antiderrapante é R10 e a resistência a arranhão é alta. É o par mais escuro e mais barato do porcelanato ardósia. O preço é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 3.29
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "concrete look porcelain",
+          "outdoor floor",
+          "graphite"
+        ],
+        "pt-BR": [
+          "porcelanato cimentício",
+          "piso externo",
+          "grafite"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "porcelain",
+          "value": {
+            "en": "Porcelain",
+            "pt-BR": "Porcelanato"
+          }
+        },
+        {
+          "id": "slip-resistance",
+          "name": {
+            "en": "Slip resistance",
+            "pt-BR": "Antiderrapante"
+          },
+          "valueId": "r10",
+          "value": {
+            "en": "R10",
+            "pt-BR": "R10"
+          }
+        },
+        {
+          "id": "scratch-resistance",
+          "name": {
+            "en": "Scratch resistance",
+            "pt-BR": "Resistência a arranhão"
+          },
+          "valueId": "high",
+          "value": {
+            "en": "High",
+            "pt-BR": "Alta"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        }
+      ],
+      "defaultVariantId": "graphite-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "graphite",
+              "name": {
+                "en": "Graphite",
+                "pt-BR": "Grafite"
+              },
+              "hex": "#4A4E52"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "graphite-natural",
+          "sku": "CON-GRAPHITECON-NATURAL",
+          "options": {
+            "color": "graphite",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 69.9,
+            "USD": 3.29
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Graphite concrete-look porcelain floor tile",
+                "pt-BR": "Porcelanato cimentício grafite"
+              },
+              "backgrounds": {
+                "#ffffff": "graphite-white.png",
+                "#f5f5f5": "graphite-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/graphite-concrete-porcelain-tile/graphite-white.webp",
+                "#f5f5f5": "images/graphite-concrete-porcelain-tile/graphite-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "graphite-rectified",
+          "sku": "CON-GRAPHITECON-RECTIFIED",
+          "options": {
+            "color": "graphite",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 69.9,
+            "USD": 3.29
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Graphite concrete-look porcelain floor tile",
+                "pt-BR": "Porcelanato cimentício grafite"
+              },
+              "backgrounds": {
+                "#ffffff": "graphite-white.png",
+                "#f5f5f5": "graphite-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/graphite-concrete-porcelain-tile/graphite-white.webp",
+                "#f5f5f5": "images/graphite-concrete-porcelain-tile/graphite-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gray-stone-wall-tile",
+      "categoryId": "construcao-revestimentos",
+      "name": {
+        "en": "Matte Gray Stone-Look Ceramic Wall Tile, 12 by 24 Inches, Priced per Square Foot",
+        "pt-BR": "Revestimento Cerâmico Pedra Cinza Fosco 30×60 cm, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A matte gray stone-look ceramic tile for indoor walls. The long rectangle covers a bath or a feature wall without the gloss of a subway tile. Scratch resistance is medium. The price is for one square foot.",
+        "pt-BR": "Revestimento cerâmico fosco com visual de pedra cinza para parede interna. O retângulo longo cobre banheiro ou uma parede de destaque sem o brilho do subway. A resistência a arranhão é média. O preço é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 54.9,
+        "USD": 3.29
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "stone look wall tile",
+          "gray",
+          "indoor"
+        ],
+        "pt-BR": [
+          "revestimento pedra cinza",
+          "cinza",
+          "área interna"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "ceramic",
+          "value": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        },
+        {
+          "id": "scratch-resistance",
+          "name": {
+            "en": "Scratch resistance",
+            "pt-BR": "Resistência a arranhão"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Média"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "gray-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#8A8E90"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gray-natural",
+          "sku": "CON-GRAYSTONEW-NATURAL",
+          "options": {
+            "color": "gray",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 54.9,
+            "USD": 3.29
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte gray stone-look ceramic wall tile",
+                "pt-BR": "Revestimento pedra cinza fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gray-stone-wall-tile/gray-white.webp",
+                "#f5f5f5": "images/gray-stone-wall-tile/gray-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gray-rectified",
+          "sku": "CON-GRAYSTONEW-RECTIFIED",
+          "options": {
+            "color": "gray",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 54.9,
+            "USD": 3.29
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte gray stone-look ceramic wall tile",
+                "pt-BR": "Revestimento pedra cinza fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gray-stone-wall-tile/gray-white.webp",
+                "#f5f5f5": "images/gray-stone-wall-tile/gray-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "green-natural-stone-tile",
+      "categoryId": "construcao-pisos",
+      "name": {
+        "en": "Honed Green Natural Stone Floor Tile, 4 by 4 Inches and 10 Millimeters Thick, Priced per Square Foot",
+        "pt-BR": "Pedra Natural Verde 10×10 cm com 10 mm de Espessura, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A honed green natural stone tile for outdoor floors. Slip resistance is R12 and scratch resistance is high. The small format and the stone face make it the most expensive outdoor option. The price is for one square foot.",
+        "pt-BR": "Pedra natural verde levigada para piso externo. O antiderrapante é R12 e a resistência a arranhão é alta. O formato pequeno e a face de pedra fazem dela a opção externa mais cara. O preço é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 12.9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "green natural stone",
+          "outdoor floor",
+          "slip resistant"
+        ],
+        "pt-BR": [
+          "pedra natural verde",
+          "piso externo",
+          "antiderrapante"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "natural-stone",
+          "value": {
+            "en": "Natural stone",
+            "pt-BR": "Pedra natural"
+          }
+        },
+        {
+          "id": "slip-resistance",
+          "name": {
+            "en": "Slip resistance",
+            "pt-BR": "Antiderrapante"
+          },
+          "valueId": "r12",
+          "value": {
+            "en": "R12",
+            "pt-BR": "R12"
+          }
+        },
+        {
+          "id": "scratch-resistance",
+          "name": {
+            "en": "Scratch resistance",
+            "pt-BR": "Resistência a arranhão"
+          },
+          "valueId": "high",
+          "value": {
+            "en": "High",
+            "pt-BR": "Alta"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        }
+      ],
+      "defaultVariantId": "green-honed",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "green",
+              "name": {
+                "en": "Green",
+                "pt-BR": "Verde"
+              },
+              "hex": "#2F4F45"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "honed",
+              "name": {
+                "en": "Honed",
+                "pt-BR": "Levigado"
+              }
+            },
+            {
+              "id": "mesh-mounted",
+              "name": {
+                "en": "Mesh-mounted",
+                "pt-BR": "Tela"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "green-honed",
+          "sku": "CON-GREENNATURA-HONED",
+          "options": {
+            "color": "green",
+            "finish": "honed"
+          },
+          "price": {
+            "BRL": 189,
+            "USD": 12.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Honed green natural stone floor tile",
+                "pt-BR": "Pedra natural verde levigada"
+              },
+              "backgrounds": {
+                "#ffffff": "green-white.png",
+                "#f5f5f5": "green-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/green-natural-stone-tile/green-white.webp",
+                "#f5f5f5": "images/green-natural-stone-tile/green-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "green-mesh-mounted",
+          "sku": "CON-GREENNATURA-MESH-MOUNTED",
+          "options": {
+            "color": "green",
+            "finish": "mesh-mounted"
+          },
+          "price": {
+            "BRL": 189,
+            "USD": 12.9
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Honed green natural stone floor tile",
+                "pt-BR": "Pedra natural verde levigada"
+              },
+              "backgrounds": {
+                "#ffffff": "green-white.png",
+                "#f5f5f5": "green-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/green-natural-stone-tile/green-white.webp",
+                "#f5f5f5": "images/green-natural-stone-tile/green-gray.webp"
               }
             }
           ]
@@ -6013,6 +7402,164 @@
       ]
     },
     {
+      "id": "interior-white-acrylic-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Interior White Acrylic Wall Paint with a Matte Finish, Sold by the Can",
+        "pt-BR": "Tinta Acrílica Branca Fosca para Parede Interna, Vendida por Lata"
+      },
+      "description": {
+        "en": "A matte white acrylic paint for indoor walls and ceilings. One coat covers a light wall; a darker wall needs two. The listed price is for the 3.6 liter can.",
+        "pt-BR": "Tinta acrílica branca fosca para parede e teto internos. Uma demão cobre parede clara; parede escura pede duas. O preço anunciado é da lata de 3,6 litros."
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 36
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "interior paint",
+          "white",
+          "acrylic"
+        ],
+        "pt-BR": [
+          "tinta interna",
+          "branca",
+          "acrílica"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "white-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "3.6 L",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "18 L",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-3-6-l",
+          "sku": "CON-INTERIORWHI-3-6-L",
+          "options": {
+            "color": "white",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 36
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of interior white acrylic paint",
+                "pt-BR": "Lata de tinta acrílica branca para interior"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-white-acrylic-paint/white-white.webp",
+                "#f5f5f5": "images/interior-white-acrylic-paint/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "white-18-l",
+          "sku": "CON-INTERIORWHI-18-L",
+          "options": {
+            "color": "white",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 289,
+            "USD": 118
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of interior white acrylic paint",
+                "pt-BR": "Lata de tinta acrílica branca para interior"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-white-acrylic-paint/white-white.webp",
+                "#f5f5f5": "images/interior-white-acrylic-paint/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "lace-trim-blouse",
       "brandId": "fio-puro",
       "brand": {
@@ -7504,6 +9051,188 @@
       }
     },
     {
+      "id": "light-stone-ceramic-tile",
+      "categoryId": "construcao-pisos",
+      "name": {
+        "en": "Light Stone-Look Ceramic Floor Tile, 18 by 18 Inches and 8 Millimeters Thick, Priced per Square Foot",
+        "pt-BR": "Cerâmica Pedra Mineira Clara 45×45 cm com 8 mm de Espessura, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A light stone-look ceramic tile for outdoor floors. Slip resistance is R11 and scratch resistance is medium. The pale face stays easy to match with light walls. The price is for one square foot.",
+        "pt-BR": "Cerâmica clara com visual de pedra mineira para piso externo. O antiderrapante é R11 e a resistência a arranhão é média. O tom claro combina com parede clara. O preço é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 42.5,
+        "USD": 2.29
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "stone look ceramic",
+          "outdoor floor",
+          "light"
+        ],
+        "pt-BR": [
+          "cerâmica pedra mineira",
+          "piso externo",
+          "claro"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "ceramic",
+          "value": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        },
+        {
+          "id": "slip-resistance",
+          "name": {
+            "en": "Slip resistance",
+            "pt-BR": "Antiderrapante"
+          },
+          "valueId": "r11",
+          "value": {
+            "en": "R11",
+            "pt-BR": "R11"
+          }
+        },
+        {
+          "id": "scratch-resistance",
+          "name": {
+            "en": "Scratch resistance",
+            "pt-BR": "Resistência a arranhão"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Média"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        }
+      ],
+      "defaultVariantId": "stone-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "stone",
+              "name": {
+                "en": "Light stone",
+                "pt-BR": "Pedra clara"
+              },
+              "hex": "#D9C7A6"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "stone-natural",
+          "sku": "CON-LIGHTSTONE-NATURAL",
+          "options": {
+            "color": "stone",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 42.5,
+            "USD": 2.29
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Light stone-look ceramic floor tile",
+                "pt-BR": "Cerâmica clara com visual de pedra"
+              },
+              "backgrounds": {
+                "#ffffff": "stone-white.png",
+                "#f5f5f5": "stone-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/light-stone-ceramic-tile/stone-white.webp",
+                "#f5f5f5": "images/light-stone-ceramic-tile/stone-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "stone-rectified",
+          "sku": "CON-LIGHTSTONE-RECTIFIED",
+          "options": {
+            "color": "stone",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 42.5,
+            "USD": 2.29
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Light stone-look ceramic floor tile",
+                "pt-BR": "Cerâmica clara com visual de pedra"
+              },
+              "backgrounds": {
+                "#ffffff": "stone-white.png",
+                "#f5f5f5": "stone-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/light-stone-ceramic-tile/stone-white.webp",
+                "#f5f5f5": "images/light-stone-ceramic-tile/stone-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "linen-shirt-dress",
       "brandId": "fio-puro",
       "brand": {
@@ -7892,6 +9621,188 @@
       ]
     },
     {
+      "id": "marble-look-porcelain-tile",
+      "categoryId": "construcao-pisos",
+      "name": {
+        "en": "Polished Marble-Look Porcelain Floor Tile, 32 by 32 Inches and 10 Millimeters Thick, Priced per Square Foot",
+        "pt-BR": "Porcelanato Polido com Efeito Mármore Branco 80×80 cm e 10 mm, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A polished white porcelain tile with gray marble veining, for indoor floors. Slip resistance is R9 and scratch resistance is high. The glossy face marks easily when wet, so it stays inside. The price is for one square foot.",
+        "pt-BR": "Porcelanato branco polido com veios cinza, para piso interno. O antiderrapante é R9 e a resistência a arranhão é alta. A face brilhante marca quando molha, então fica em área interna. O preço é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 6.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "marble look porcelain",
+          "indoor floor",
+          "light"
+        ],
+        "pt-BR": [
+          "porcelanato efeito mármore",
+          "piso interno",
+          "claro"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "porcelain",
+          "value": {
+            "en": "Porcelain",
+            "pt-BR": "Porcelanato"
+          }
+        },
+        {
+          "id": "slip-resistance",
+          "name": {
+            "en": "Slip resistance",
+            "pt-BR": "Antiderrapante"
+          },
+          "valueId": "r9",
+          "value": {
+            "en": "R9",
+            "pt-BR": "R9"
+          }
+        },
+        {
+          "id": "scratch-resistance",
+          "name": {
+            "en": "Scratch resistance",
+            "pt-BR": "Resistência a arranhão"
+          },
+          "valueId": "high",
+          "value": {
+            "en": "High",
+            "pt-BR": "Alta"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "white-polished",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F4"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "polished",
+              "name": {
+                "en": "Polished",
+                "pt-BR": "Polido"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-polished",
+          "sku": "CON-MARBLELOOK-POLISHED",
+          "options": {
+            "color": "white",
+            "finish": "polished"
+          },
+          "price": {
+            "BRL": 129.9,
+            "USD": 6.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Polished marble-look porcelain floor tile",
+                "pt-BR": "Porcelanato polido com efeito mármore"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/marble-look-porcelain-tile/white-white.webp",
+                "#f5f5f5": "images/marble-look-porcelain-tile/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "white-rectified",
+          "sku": "CON-MARBLELOOK-RECTIFIED",
+          "options": {
+            "color": "white",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 129.9,
+            "USD": 6.99
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Polished marble-look porcelain floor tile",
+                "pt-BR": "Porcelanato polido com efeito mármore"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/marble-look-porcelain-tile/white-white.webp",
+                "#f5f5f5": "images/marble-look-porcelain-tile/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "merino-turtleneck",
       "brandId": "fio-puro",
       "brand": {
@@ -8100,6 +10011,188 @@
         "BRL": 980,
         "USD": 198
       }
+    },
+    {
+      "id": "oak-vinyl-click-plank",
+      "categoryId": "construcao-pisos",
+      "name": {
+        "en": "Oak Wood-Look Vinyl Click Floor Plank, 7 by 48 Inches and 5 Millimeters Thick, Priced per Square Foot",
+        "pt-BR": "Piso Vinílico Click Carvalho 18×122 cm com 5 mm de Espessura, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "An oak vinyl plank for indoor floors. Slip resistance is R10 and scratch resistance is low, so it suits a dry room more than a balcony. The click edge locks without glue. The price is for one square foot.",
+        "pt-BR": "Régua vinílica com efeito carvalho para piso interno. O antiderrapante é R10 e a resistência a arranhão é baixa, então serve mais em ambiente seco do que em varanda. O encaixe click dispensa cola. O preço é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 99,
+        "USD": 3.49
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "vinyl plank",
+          "indoor floor",
+          "wood look"
+        ],
+        "pt-BR": [
+          "piso vinílico",
+          "piso interno",
+          "efeito madeira"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "vinyl",
+          "value": {
+            "en": "Vinyl",
+            "pt-BR": "Vinílico"
+          }
+        },
+        {
+          "id": "slip-resistance",
+          "name": {
+            "en": "Slip resistance",
+            "pt-BR": "Antiderrapante"
+          },
+          "valueId": "r10",
+          "value": {
+            "en": "R10",
+            "pt-BR": "R10"
+          }
+        },
+        {
+          "id": "scratch-resistance",
+          "name": {
+            "en": "Scratch resistance",
+            "pt-BR": "Resistência a arranhão"
+          },
+          "valueId": "low",
+          "value": {
+            "en": "Low",
+            "pt-BR": "Baixa"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "oak-click",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "oak",
+              "name": {
+                "en": "Oak",
+                "pt-BR": "Carvalho"
+              },
+              "hex": "#A67C52"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Installation",
+            "pt-BR": "Instalação"
+          },
+          "values": [
+            {
+              "id": "click",
+              "name": {
+                "en": "Click",
+                "pt-BR": "Click"
+              }
+            },
+            {
+              "id": "glue-down",
+              "name": {
+                "en": "Glue-down",
+                "pt-BR": "Colado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "oak-click",
+          "sku": "CON-OAKVINYLCL-CLICK",
+          "options": {
+            "color": "oak",
+            "install": "click"
+          },
+          "price": {
+            "BRL": 99,
+            "USD": 3.49
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Oak wood-look vinyl click plank",
+                "pt-BR": "Piso vinílico click carvalho"
+              },
+              "backgrounds": {
+                "#ffffff": "oak-white.png",
+                "#f5f5f5": "oak-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/oak-vinyl-click-plank/oak-white.webp",
+                "#f5f5f5": "images/oak-vinyl-click-plank/oak-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "oak-glue-down",
+          "sku": "CON-OAKVINYLCL-GLUE-DOWN",
+          "options": {
+            "color": "oak",
+            "install": "glue-down"
+          },
+          "price": {
+            "BRL": 99,
+            "USD": 3.49
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Oak wood-look vinyl click plank",
+                "pt-BR": "Piso vinílico click carvalho"
+              },
+              "backgrounds": {
+                "#ffffff": "oak-white.png",
+                "#f5f5f5": "oak-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/oak-vinyl-click-plank/oak-white.webp",
+                "#f5f5f5": "images/oak-vinyl-click-plank/oak-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "one-piece-swimsuit",
@@ -9593,6 +11686,346 @@
               "src": {
                 "#ffffff": "images/portable-ssd/black-white.webp",
                 "#f5f5f5": "images/portable-ssd/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pvc-elbow-fitting",
+      "categoryId": "construcao-hidraulica",
+      "name": {
+        "en": "Gray PVC 90-Degree Elbow Fitting for 1 Inch Cold-Water Pipe, Sold by the Piece",
+        "pt-BR": "Joelho de PVC Cinza 90 Graus para Tubo de Água Fria de 25 mm, Vendido por Peça"
+      },
+      "description": {
+        "en": "A gray PVC 90-degree elbow for a 1 inch cold-water pipe. It turns a line at a corner indoors or outdoors and solvent-welds to the pipe. The listed price is for one piece.",
+        "pt-BR": "Joelho de PVC cinza de 90 graus para tubo de água fria de 25 mm. Vira a linha num canto, interno ou externo, e solda com adesivo no tubo. O preço anunciado é de uma peça."
+      },
+      "price": {
+        "BRL": 3.5,
+        "USD": 1.49
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "pvc elbow",
+          "cold water",
+          "plumbing"
+        ],
+        "pt-BR": [
+          "joelho de pvc",
+          "água fria",
+          "hidráulica"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "pvc",
+          "value": {
+            "en": "PVC",
+            "pt-BR": "PVC"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        }
+      ],
+      "defaultVariantId": "gray-single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#9AA0A6"
+            }
+          ]
+        },
+        {
+          "id": "quantity",
+          "name": {
+            "en": "Quantity",
+            "pt-BR": "Quantidade"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 piece",
+                "pt-BR": "1 unidade"
+              }
+            },
+            {
+              "id": "pack-10",
+              "name": {
+                "en": "Pack of 10",
+                "pt-BR": "Pacote com 10"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gray-single",
+          "sku": "CON-PVCELBOWFI-SINGLE",
+          "options": {
+            "color": "gray",
+            "quantity": "single"
+          },
+          "price": {
+            "BRL": 3.5,
+            "USD": 1.49
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray PVC 90-degree elbow fitting",
+                "pt-BR": "Joelho de PVC cinza de 90 graus"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pvc-elbow-fitting/gray-white.webp",
+                "#f5f5f5": "images/pvc-elbow-fitting/gray-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gray-pack-10",
+          "sku": "CON-PVCELBOWFI-PACK-10",
+          "options": {
+            "color": "gray",
+            "quantity": "pack-10"
+          },
+          "price": {
+            "BRL": 29.9,
+            "USD": 11.9
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray PVC 90-degree elbow fitting",
+                "pt-BR": "Joelho de PVC cinza de 90 graus"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pvc-elbow-fitting/gray-white.webp",
+                "#f5f5f5": "images/pvc-elbow-fitting/gray-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pvc-water-pipe",
+      "categoryId": "construcao-hidraulica",
+      "name": {
+        "en": "Gray PVC Cold-Water Pipe, 1 Inch Diameter, Sold by the Length",
+        "pt-BR": "Tubo de PVC Cinza para Água Fria, 25 mm de Diâmetro, Vendido por Barra"
+      },
+      "description": {
+        "en": "A gray PVC pipe for cold-water lines indoors and outdoors. The 1 inch diameter is the everyday size for a branch line. The listed price is for the 3 meter length.",
+        "pt-BR": "Tubo de PVC cinza para água fria, em área interna e externa. O diâmetro de 25 mm é a medida comum de um ramal. O preço anunciado é da barra de 3 metros."
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 7.9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "pvc pipe",
+          "cold water",
+          "plumbing"
+        ],
+        "pt-BR": [
+          "tubo de pvc",
+          "água fria",
+          "hidráulica"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "pvc",
+          "value": {
+            "en": "PVC",
+            "pt-BR": "PVC"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        }
+      ],
+      "defaultVariantId": "gray-3m",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#9AA0A6"
+            }
+          ]
+        },
+        {
+          "id": "length",
+          "name": {
+            "en": "Length",
+            "pt-BR": "Comprimento"
+          },
+          "values": [
+            {
+              "id": "3m",
+              "name": {
+                "en": "3 m",
+                "pt-BR": "3 m"
+              }
+            },
+            {
+              "id": "6m",
+              "name": {
+                "en": "6 m",
+                "pt-BR": "6 m"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gray-3m",
+          "sku": "CON-PVCWATERPI-3M",
+          "options": {
+            "color": "gray",
+            "length": "3m"
+          },
+          "price": {
+            "BRL": 18.9,
+            "USD": 7.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray PVC cold-water pipe",
+                "pt-BR": "Tubo de PVC cinza para água fria"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pvc-water-pipe/gray-white.webp",
+                "#f5f5f5": "images/pvc-water-pipe/gray-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gray-6m",
+          "sku": "CON-PVCWATERPI-6M",
+          "options": {
+            "color": "gray",
+            "length": "6m"
+          },
+          "price": {
+            "BRL": 34.9,
+            "USD": 14.5
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray PVC cold-water pipe",
+                "pt-BR": "Tubo de PVC cinza para água fria"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pvc-water-pipe/gray-white.webp",
+                "#f5f5f5": "images/pvc-water-pipe/gray-gray.webp"
               }
             }
           ]
@@ -11141,6 +13574,188 @@
       ]
     },
     {
+      "id": "slate-porcelain-floor-tile",
+      "categoryId": "construcao-pisos",
+      "name": {
+        "en": "Matte Slate Porcelain Floor Tile, 24 by 24 Inches and 9 Millimeters Thick, Priced per Square Foot",
+        "pt-BR": "Porcelanato Ardósia Fosco 60×60 cm com 9 mm de Espessura, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A matte slate porcelain tile for outdoor floors. Slip resistance is R11 and scratch resistance is high, so it holds up on a wet balcony with a dog. The price is for one square foot.",
+        "pt-BR": "Porcelanato fosco com visual de ardósia para piso externo. O antiderrapante é R11 e a resistência a arranhão é alta, então aguenta varanda molhada e cachorro. O preço é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 4.49
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "slate porcelain",
+          "outdoor floor",
+          "slip resistant"
+        ],
+        "pt-BR": [
+          "porcelanato ardósia",
+          "piso externo",
+          "antiderrapante"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "porcelain",
+          "value": {
+            "en": "Porcelain",
+            "pt-BR": "Porcelanato"
+          }
+        },
+        {
+          "id": "slip-resistance",
+          "name": {
+            "en": "Slip resistance",
+            "pt-BR": "Antiderrapante"
+          },
+          "valueId": "r11",
+          "value": {
+            "en": "R11",
+            "pt-BR": "R11"
+          }
+        },
+        {
+          "id": "scratch-resistance",
+          "name": {
+            "en": "Scratch resistance",
+            "pt-BR": "Resistência a arranhão"
+          },
+          "valueId": "high",
+          "value": {
+            "en": "High",
+            "pt-BR": "Alta"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        }
+      ],
+      "defaultVariantId": "slate-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "slate",
+              "name": {
+                "en": "Slate",
+                "pt-BR": "Ardósia"
+              },
+              "hex": "#5C6166"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "slate-natural",
+          "sku": "CON-SLATEPORCEL-NATURAL",
+          "options": {
+            "color": "slate",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 4.49
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte slate porcelain floor tile",
+                "pt-BR": "Porcelanato ardósia fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "slate-white.png",
+                "#f5f5f5": "slate-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/slate-porcelain-floor-tile/slate-white.webp",
+                "#f5f5f5": "images/slate-porcelain-floor-tile/slate-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "slate-rectified",
+          "sku": "CON-SLATEPORCEL-RECTIFIED",
+          "options": {
+            "color": "slate",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 4.49
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte slate porcelain floor tile",
+                "pt-BR": "Porcelanato ardósia fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "slate-white.png",
+                "#f5f5f5": "slate-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/slate-porcelain-floor-tile/slate-white.webp",
+                "#f5f5f5": "images/slate-porcelain-floor-tile/slate-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "smart-door-lock",
       "categoryId": "eletro-casa-praticos",
       "name": {
@@ -12673,6 +15288,188 @@
       ]
     },
     {
+      "id": "terracotta-rustic-ceramic-tile",
+      "categoryId": "construcao-pisos",
+      "name": {
+        "en": "Rustic Terracotta Ceramic Floor Tile, 20 by 20 Inches and 8 Millimeters Thick, Priced per Square Foot",
+        "pt-BR": "Cerâmica Rústica Terracota 50×50 cm com 8 mm de Espessura, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A rustic terracotta ceramic tile for outdoor floors. Slip resistance is R10 and scratch resistance is medium. The warm clay color is the extra outdoor option beside the porcelain tiles. The price is for one square foot.",
+        "pt-BR": "Cerâmica rústica terracota para piso externo. O antiderrapante é R10 e a resistência a arranhão é média. O tom de barro é a opção externa extra ao lado dos porcelanatos. O preço é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 39.9,
+        "USD": 2.19
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "terracotta ceramic",
+          "outdoor floor",
+          "rustic"
+        ],
+        "pt-BR": [
+          "cerâmica rústica terracota",
+          "piso externo",
+          "rústico"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "ceramic",
+          "value": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        },
+        {
+          "id": "slip-resistance",
+          "name": {
+            "en": "Slip resistance",
+            "pt-BR": "Antiderrapante"
+          },
+          "valueId": "r10",
+          "value": {
+            "en": "R10",
+            "pt-BR": "R10"
+          }
+        },
+        {
+          "id": "scratch-resistance",
+          "name": {
+            "en": "Scratch resistance",
+            "pt-BR": "Resistência a arranhão"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Média"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        }
+      ],
+      "defaultVariantId": "terracotta-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "terracotta",
+              "name": {
+                "en": "Terracotta",
+                "pt-BR": "Terracota"
+              },
+              "hex": "#C46B45"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "terracotta-natural",
+          "sku": "CON-TERRACOTTAR-NATURAL",
+          "options": {
+            "color": "terracotta",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 39.9,
+            "USD": 2.19
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Rustic terracotta ceramic floor tile",
+                "pt-BR": "Cerâmica rústica terracota"
+              },
+              "backgrounds": {
+                "#ffffff": "terracotta-white.png",
+                "#f5f5f5": "terracotta-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/terracotta-rustic-ceramic-tile/terracotta-white.webp",
+                "#f5f5f5": "images/terracotta-rustic-ceramic-tile/terracotta-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "terracotta-rectified",
+          "sku": "CON-TERRACOTTAR-RECTIFIED",
+          "options": {
+            "color": "terracotta",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 39.9,
+            "USD": 2.19
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Rustic terracotta ceramic floor tile",
+                "pt-BR": "Cerâmica rústica terracota"
+              },
+              "backgrounds": {
+                "#ffffff": "terracotta-white.png",
+                "#f5f5f5": "terracotta-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/terracotta-rustic-ceramic-tile/terracotta-white.webp",
+                "#f5f5f5": "images/terracotta-rustic-ceramic-tile/terracotta-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "thermal-blanket",
       "brandId": "casa-norte",
       "brand": {
@@ -13530,6 +16327,358 @@
               "src": {
                 "#ffffff": "images/webcam/black-white.webp",
                 "#f5f5f5": "images/webcam/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white-glazed-ceramic-floor-tile",
+      "categoryId": "construcao-pisos",
+      "name": {
+        "en": "Glossy White Glazed Ceramic Floor Tile, 24 by 24 Inches and 7 Millimeters Thick, Priced per Square Foot",
+        "pt-BR": "Cerâmica Esmaltada Branca 60×60 cm com 7 mm de Espessura, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A glossy white glazed ceramic tile for indoor floors. Slip resistance is R9 and scratch resistance is medium. The light face brightens a small room and marks when it is wet. The price is for one square foot.",
+        "pt-BR": "Cerâmica branca esmaltada para piso interno. O antiderrapante é R9 e a resistência a arranhão é média. A face clara clareia um cômodo pequeno e marca quando molha. O preço é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 29.9,
+        "USD": 1.79
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "white ceramic tile",
+          "indoor floor",
+          "light"
+        ],
+        "pt-BR": [
+          "cerâmica esmaltada branca",
+          "piso interno",
+          "claro"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "ceramic",
+          "value": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        },
+        {
+          "id": "slip-resistance",
+          "name": {
+            "en": "Slip resistance",
+            "pt-BR": "Antiderrapante"
+          },
+          "valueId": "r9",
+          "value": {
+            "en": "R9",
+            "pt-BR": "R9"
+          }
+        },
+        {
+          "id": "scratch-resistance",
+          "name": {
+            "en": "Scratch resistance",
+            "pt-BR": "Resistência a arranhão"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Média"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "white-glazed",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F7F7F7"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "glazed",
+              "name": {
+                "en": "Glazed",
+                "pt-BR": "Esmaltado"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-glazed",
+          "sku": "CON-WHITEGLAZED-GLAZED",
+          "options": {
+            "color": "white",
+            "finish": "glazed"
+          },
+          "price": {
+            "BRL": 29.9,
+            "USD": 1.79
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Glossy white glazed ceramic floor tile",
+                "pt-BR": "Cerâmica esmaltada branca"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-glazed-ceramic-floor-tile/white-white.webp",
+                "#f5f5f5": "images/white-glazed-ceramic-floor-tile/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "white-rectified",
+          "sku": "CON-WHITEGLAZED-RECTIFIED",
+          "options": {
+            "color": "white",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 29.9,
+            "USD": 1.79
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Glossy white glazed ceramic floor tile",
+                "pt-BR": "Cerâmica esmaltada branca"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-glazed-ceramic-floor-tile/white-white.webp",
+                "#f5f5f5": "images/white-glazed-ceramic-floor-tile/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white-subway-wall-tile",
+      "categoryId": "construcao-revestimentos",
+      "name": {
+        "en": "Glossy White Ceramic Subway Wall Tile, 3 by 6 Inches, Priced per Square Foot",
+        "pt-BR": "Revestimento Cerâmico Subway Branco Brilhante 7,5×15 cm, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A glossy white ceramic subway tile for indoor walls. The short rectangle lays in a running bond and brightens a kitchen or a bath. Scratch resistance is medium. The price is for one square foot.",
+        "pt-BR": "Revestimento cerâmico branco brilhante para parede interna. O retângulo curto assenta em junta amarrada e clareia cozinha ou banheiro. A resistência a arranhão é média. O preço é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 36.9,
+        "USD": 2.49
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "subway wall tile",
+          "white",
+          "indoor"
+        ],
+        "pt-BR": [
+          "revestimento subway",
+          "branco",
+          "área interna"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "ceramic",
+          "value": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        },
+        {
+          "id": "scratch-resistance",
+          "name": {
+            "en": "Scratch resistance",
+            "pt-BR": "Resistência a arranhão"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Média"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "white-glazed",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F5F5F5"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "glazed",
+              "name": {
+                "en": "Glazed",
+                "pt-BR": "Esmaltado"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-glazed",
+          "sku": "CON-WHITESUBWAY-GLAZED",
+          "options": {
+            "color": "white",
+            "finish": "glazed"
+          },
+          "price": {
+            "BRL": 36.9,
+            "USD": 2.49
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Glossy white ceramic subway wall tile",
+                "pt-BR": "Revestimento subway branco brilhante"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-subway-wall-tile/white-white.webp",
+                "#f5f5f5": "images/white-subway-wall-tile/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "white-rectified",
+          "sku": "CON-WHITESUBWAY-RECTIFIED",
+          "options": {
+            "color": "white",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 36.9,
+            "USD": 2.49
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Glossy white ceramic subway wall tile",
+                "pt-BR": "Revestimento subway branco brilhante"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-subway-wall-tile/white-white.webp",
+                "#f5f5f5": "images/white-subway-wall-tile/white-gray.webp"
               }
             }
           ]
@@ -14640,6 +17789,188 @@
               "src": {
                 "#ffffff": "images/wireless-mouse/white-white.webp",
                 "#f5f5f5": "images/wireless-mouse/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wood-look-ceramic-plank",
+      "categoryId": "construcao-pisos",
+      "name": {
+        "en": "Light Wood-Look Ceramic Deck Plank, 8 by 48 Inches and 9 Millimeters Thick, Priced per Square Foot",
+        "pt-BR": "Deck Cerâmico Madeira Clara 20×120 cm com 9 mm de Espessura, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A light wood-look ceramic plank for outdoor decks. Slip resistance is R10 and scratch resistance is high. It reads as pale timber without the upkeep of real wood. The price is for one square foot.",
+        "pt-BR": "Régua cerâmica clara com efeito madeira para deck externo. O antiderrapante é R10 e a resistência a arranhão é alta. Parece madeira clara sem a manutenção da madeira de verdade. O preço é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 74.9,
+        "USD": 3.79
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "wood look ceramic",
+          "outdoor floor",
+          "light"
+        ],
+        "pt-BR": [
+          "deck cerâmico madeira",
+          "piso externo",
+          "claro"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "ceramic",
+          "value": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        },
+        {
+          "id": "slip-resistance",
+          "name": {
+            "en": "Slip resistance",
+            "pt-BR": "Antiderrapante"
+          },
+          "valueId": "r10",
+          "value": {
+            "en": "R10",
+            "pt-BR": "R10"
+          }
+        },
+        {
+          "id": "scratch-resistance",
+          "name": {
+            "en": "Scratch resistance",
+            "pt-BR": "Resistência a arranhão"
+          },
+          "valueId": "high",
+          "value": {
+            "en": "High",
+            "pt-BR": "Alta"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        }
+      ],
+      "defaultVariantId": "oak-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "oak",
+              "name": {
+                "en": "Light oak",
+                "pt-BR": "Madeira clara"
+              },
+              "hex": "#C4A574"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "oak-natural",
+          "sku": "CON-WOODLOOKCE-NATURAL",
+          "options": {
+            "color": "oak",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 74.9,
+            "USD": 3.79
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Light wood-look ceramic deck plank",
+                "pt-BR": "Deck cerâmico madeira clara"
+              },
+              "backgrounds": {
+                "#ffffff": "oak-white.png",
+                "#f5f5f5": "oak-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wood-look-ceramic-plank/oak-white.webp",
+                "#f5f5f5": "images/wood-look-ceramic-plank/oak-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "oak-rectified",
+          "sku": "CON-WOODLOOKCE-RECTIFIED",
+          "options": {
+            "color": "oak",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 74.9,
+            "USD": 3.79
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Light wood-look ceramic deck plank",
+                "pt-BR": "Deck cerâmico madeira clara"
+              },
+              "backgrounds": {
+                "#ffffff": "oak-white.png",
+                "#f5f5f5": "oak-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wood-look-ceramic-plank/oak-white.webp",
+                "#f5f5f5": "images/wood-look-ceramic-plank/oak-gray.webp"
               }
             }
           ]

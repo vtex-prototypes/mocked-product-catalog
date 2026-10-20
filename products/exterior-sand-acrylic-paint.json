@@ -1,0 +1,134 @@
+{
+  "id": "exterior-sand-acrylic-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Exterior Sand Acrylic Masonry Paint with a Matte Finish, Sold by the Can",
+    "pt-BR": "Tinta Acrílica Areia Fosca para Alvenaria Externa, Vendida por Lata"
+  },
+  "description": {
+    "en": "A matte sand acrylic paint for outdoor masonry. It is made for rain and sun on an exterior wall, not for a dry indoor room. The listed price is for the 3.6 liter can.",
+    "pt-BR": "Tinta acrílica areia fosca para alvenaria externa. Foi feita para chuva e sol em parede externa, não para cômodo interno seco. O preço anunciado é da lata de 3,6 litros."
+  },
+  "price": {
+    "BRL": 119,
+    "USD": 46
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "exterior paint",
+      "sand",
+      "acrylic"
+    ],
+    "pt-BR": [
+      "tinta externa",
+      "areia",
+      "acrílica"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "sand-3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "sand",
+          "name": {
+            "en": "Sand",
+            "pt-BR": "Areia"
+          },
+          "hex": "#D6C4A8"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "3.6 L",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "18 L",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "sand-3-6-l",
+      "sku": "CON-EXTERIORSAN-3-6-L",
+      "options": {
+        "color": "sand",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 46
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of exterior sand acrylic paint",
+            "pt-BR": "Lata de tinta acrílica areia para exterior"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sand-18-l",
+      "sku": "CON-EXTERIORSAN-18-L",
+      "options": {
+        "color": "sand",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 349,
+        "USD": 139
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of exterior sand acrylic paint",
+            "pt-BR": "Lata de tinta acrílica areia para exterior"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "oak-vinyl-click-plank",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Oak Wood-Look Vinyl Click Floor Plank, 7 by 48 Inches and 5 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Piso Vinílico Click Carvalho 18×122 cm com 5 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "An oak vinyl plank for indoor floors. Slip resistance is R10 and scratch resistance is low, so it suits a dry room more than a balcony. The click edge locks without glue. The price is for one square foot.",
+    "pt-BR": "Régua vinílica com efeito carvalho para piso interno. O antiderrapante é R10 e a resistência a arranhão é baixa, então serve mais em ambiente seco do que em varanda. O encaixe click dispensa cola. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 99,
+    "USD": 3.49
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "vinyl plank",
+      "indoor floor",
+      "wood look"
+    ],
+    "pt-BR": [
+      "piso vinílico",
+      "piso interno",
+      "efeito madeira"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "vinyl"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r10"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "low"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "oak-click",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "oak",
+          "name": {
+            "en": "Oak",
+            "pt-BR": "Carvalho"
+          },
+          "hex": "#A67C52"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Installation",
+        "pt-BR": "Instalação"
+      },
+      "values": [
+        {
+          "id": "click",
+          "name": {
+            "en": "Click",
+            "pt-BR": "Click"
+          }
+        },
+        {
+          "id": "glue-down",
+          "name": {
+            "en": "Glue-down",
+            "pt-BR": "Colado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "oak-click",
+      "sku": "CON-OAKVINYLCL-CLICK",
+      "options": {
+        "color": "oak",
+        "install": "click"
+      },
+      "price": {
+        "BRL": 99,
+        "USD": 3.49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Oak wood-look vinyl click plank",
+            "pt-BR": "Piso vinílico click carvalho"
+          },
+          "backgrounds": {
+            "#ffffff": "oak-white.png",
+            "#f5f5f5": "oak-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oak-glue-down",
+      "sku": "CON-OAKVINYLCL-GLUE-DOWN",
+      "options": {
+        "color": "oak",
+        "install": "glue-down"
+      },
+      "price": {
+        "BRL": 99,
+        "USD": 3.49
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Oak wood-look vinyl click plank",
+            "pt-BR": "Piso vinílico click carvalho"
+          },
+          "backgrounds": {
+            "#ffffff": "oak-white.png",
+            "#f5f5f5": "oak-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

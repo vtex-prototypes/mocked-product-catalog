@@ -14,6 +14,20 @@
         }
       },
       {
+        "id": "ceramic",
+        "name": {
+          "en": "Ceramic",
+          "pt-BR": "Cerâmica"
+        }
+      },
+      {
+        "id": "cement",
+        "name": {
+          "en": "Cement",
+          "pt-BR": "Cimento"
+        }
+      },
+      {
         "id": "coated-fabric",
         "name": {
           "en": "Coated fabric",
@@ -25,6 +39,13 @@
         "name": {
           "en": "Compression knit",
           "pt-BR": "Malha compressiva"
+        }
+      },
+      {
+        "id": "epoxy",
+        "name": {
+          "en": "Epoxy",
+          "pt-BR": "Epóxi"
         }
       },
       {
@@ -105,6 +126,27 @@
         }
       },
       {
+        "id": "natural-stone",
+        "name": {
+          "en": "Natural stone",
+          "pt-BR": "Pedra natural"
+        }
+      },
+      {
+        "id": "porcelain",
+        "name": {
+          "en": "Porcelain",
+          "pt-BR": "Porcelanato"
+        }
+      },
+      {
+        "id": "pvc",
+        "name": {
+          "en": "PVC",
+          "pt-BR": "PVC"
+        }
+      },
+      {
         "id": "leather",
         "name": {
           "en": "Leather",
@@ -137,6 +179,13 @@
         "name": {
           "en": "Straw",
           "pt-BR": "Palha"
+        }
+      },
+      {
+        "id": "vinyl",
+        "name": {
+          "en": "Vinyl",
+          "pt-BR": "Vinílico"
         }
       },
       {
@@ -313,6 +362,42 @@
           "pt-BR": "USB-C"
         }
       }
+    ]
+  },
+  {
+    "id": "slip-resistance",
+    "name": {
+      "en": "Slip resistance",
+      "pt-BR": "Antiderrapante"
+    },
+    "values": [
+      { "id": "r9", "name": { "en": "R9", "pt-BR": "R9" } },
+      { "id": "r10", "name": { "en": "R10", "pt-BR": "R10" } },
+      { "id": "r11", "name": { "en": "R11", "pt-BR": "R11" } },
+      { "id": "r12", "name": { "en": "R12", "pt-BR": "R12" } }
+    ]
+  },
+  {
+    "id": "scratch-resistance",
+    "name": {
+      "en": "Scratch resistance",
+      "pt-BR": "Resistência a arranhão"
+    },
+    "values": [
+      { "id": "low", "name": { "en": "Low", "pt-BR": "Baixa" } },
+      { "id": "medium", "name": { "en": "Medium", "pt-BR": "Média" } },
+      { "id": "high", "name": { "en": "High", "pt-BR": "Alta" } }
+    ]
+  },
+  {
+    "id": "application",
+    "name": {
+      "en": "Application",
+      "pt-BR": "Uso"
+    },
+    "values": [
+      { "id": "indoor", "name": { "en": "Indoor", "pt-BR": "Área interna" } },
+      { "id": "outdoor", "name": { "en": "Outdoor", "pt-BR": "Área externa" } }
     ]
   }
 ]

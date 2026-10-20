@@ -1,0 +1,138 @@
+{
+  "id": "white-subway-wall-tile",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Glossy White Ceramic Subway Wall Tile, 3 by 6 Inches, Priced per Square Foot",
+    "pt-BR": "Revestimento Cerâmico Subway Branco Brilhante 7,5×15 cm, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A glossy white ceramic subway tile for indoor walls. The short rectangle lays in a running bond and brightens a kitchen or a bath. Scratch resistance is medium. The price is for one square foot.",
+    "pt-BR": "Revestimento cerâmico branco brilhante para parede interna. O retângulo curto assenta em junta amarrada e clareia cozinha ou banheiro. A resistência a arranhão é média. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 36.9,
+    "USD": 2.49
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "subway wall tile",
+      "white",
+      "indoor"
+    ],
+    "pt-BR": [
+      "revestimento subway",
+      "branco",
+      "área interna"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "medium"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "white-glazed",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F5F5F5"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "glazed",
+          "name": {
+            "en": "Glazed",
+            "pt-BR": "Esmaltado"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-glazed",
+      "sku": "CON-WHITESUBWAY-GLAZED",
+      "options": {
+        "color": "white",
+        "finish": "glazed"
+      },
+      "price": {
+        "BRL": 36.9,
+        "USD": 2.49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy white ceramic subway wall tile",
+            "pt-BR": "Revestimento subway branco brilhante"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-rectified",
+      "sku": "CON-WHITESUBWAY-RECTIFIED",
+      "options": {
+        "color": "white",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 36.9,
+        "USD": 2.49
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy white ceramic subway wall tile",
+            "pt-BR": "Revestimento subway branco brilhante"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
