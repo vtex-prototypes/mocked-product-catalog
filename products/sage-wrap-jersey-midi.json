@@ -1,0 +1,163 @@
+{
+  "id": "sage-wrap-jersey-midi",
+  "brandId": "ritmo",
+  "categoryId": "roupa-vestidos",
+  "name": {
+    "en": "Ritmo Sage Wrap Midi Dress in Jersey with a Surplice Neck, Three-Quarter Sleeves and an Easy Tie",
+    "pt-BR": "Vestido midi transpassado Ritmo sálvia de jersey, com decote cruzado, manga três quartos e amarração fácil de ajustar"
+  },
+  "description": {
+    "en": "A jersey wrap midi with three-quarter sleeves and a tie you can loosen through the day. The sage knit feels soft against the skin.",
+    "pt-BR": "Midi transpassado de jersey, manga três quartos e amarração que afrouxa ao longo do dia. O sálvia fica macio na pele."
+  },
+  "price": {
+    "BRL": 480,
+    "USD": 98
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "wrap midi dress in"
+    ],
+    "pt-BR": [
+      "vestido midi transpassado ritmo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "jersey"
+    }
+  ],
+  "defaultVariantId": "sage-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "sage",
+          "name": {
+            "en": "Sage",
+            "pt-BR": "Sálvia"
+          },
+          "hex": "#8A9A84"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "sage-s",
+      "sku": "RIT-SWJ-S",
+      "options": {
+        "color": "sage",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 98
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage Wrap Midi Dress in Jersey with a Surplice Neck, Three-Quarter Sleeves and an Easy Tie, front view",
+            "pt-BR": "Vestido midi transpassado Ritmo sálvia de jersey, com decote cruzado, manga três quartos e amarração fácil de ajustar, Sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 720,
+        "USD": 149
+      }
+    },
+    {
+      "id": "sage-m",
+      "sku": "RIT-SWJ-M",
+      "options": {
+        "color": "sage",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 98
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage Wrap Midi Dress in Jersey with a Surplice Neck, Three-Quarter Sleeves and an Easy Tie, front view",
+            "pt-BR": "Vestido midi transpassado Ritmo sálvia de jersey, com decote cruzado, manga três quartos e amarração fácil de ajustar, Sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 720,
+        "USD": 149
+      }
+    },
+    {
+      "id": "sage-l",
+      "sku": "RIT-SWJ-L",
+      "options": {
+        "color": "sage",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 98
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage Wrap Midi Dress in Jersey with a Surplice Neck, Three-Quarter Sleeves and an Easy Tie, front view",
+            "pt-BR": "Vestido midi transpassado Ritmo sálvia de jersey, com decote cruzado, manga três quartos e amarração fácil de ajustar, Sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 720,
+        "USD": 149
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 720,
+    "USD": 149
+  }
+}

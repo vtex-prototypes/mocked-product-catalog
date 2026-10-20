@@ -1,0 +1,147 @@
+{
+  "id": "black-structured-tote",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-bolsas",
+  "name": {
+    "en": "Fio Puro Black Structured Leather Tote with Twin Top Handles and a Firm Rectangular Body",
+    "pt-BR": "Bolsa tote estruturada Fio Puro preta de couro, duas alças de mão e corpo retangular firme"
+  },
+  "description": {
+    "en": "A black leather tote with a structured rectangular body and twin top handles. It stands open on a desk without collapsing.",
+    "pt-BR": "Tote preta de couro, corpo retangular estruturado e duas alças. Fica aberta sobre a mesa sem desabar."
+  },
+  "price": {
+    "BRL": 1320,
+    "USD": 274
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black structured leather tote"
+    ],
+    "pt-BR": [
+      "bolsa tote estruturada fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-BSTT-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1320,
+        "USD": 274
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Structured Leather Tote with Twin Top Handles and a Firm Rectangular Body, front view",
+            "pt-BR": "Bolsa tote estruturada Fio Puro preta de couro, duas alças de mão e corpo retangular firme, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-BSTT-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1320,
+        "USD": 274
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Structured Leather Tote with Twin Top Handles and a Firm Rectangular Body, front view",
+            "pt-BR": "Bolsa tote estruturada Fio Puro preta de couro, duas alças de mão e corpo retangular firme, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-BSTT-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1320,
+        "USD": 274
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Structured Leather Tote with Twin Top Handles and a Firm Rectangular Body, front view",
+            "pt-BR": "Bolsa tote estruturada Fio Puro preta de couro, duas alças de mão e corpo retangular firme, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

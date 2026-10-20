@@ -1,0 +1,147 @@
+{
+  "id": "black-square-neck-crepe",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Fio Puro Black Crepe Top with a Square Neck, Wide Straps and a Clean Hip-Length Hem",
+    "pt-BR": "Blusa Fio Puro preta de crepe com decote quadrado, alças largas e barra reta na altura do quadril"
+  },
+  "description": {
+    "en": "A black crepe top with a square neck and wide straps. The cloth holds a straight line from bust to hip.",
+    "pt-BR": "Blusa preta de crepe com decote quadrado e alças largas. O tecido segura uma linha reta do busto ao quadril."
+  },
+  "price": {
+    "BRL": 1180,
+    "USD": 246
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black crepe top with"
+    ],
+    "pt-BR": [
+      "blusa fio puro preta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "crepe"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-BSQ-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1180,
+        "USD": 246
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Crepe Top with a Square Neck, Wide Straps and a Clean Hip-Length Hem, front view",
+            "pt-BR": "Blusa Fio Puro preta de crepe com decote quadrado, alças largas e barra reta na altura do quadril, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-BSQ-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1180,
+        "USD": 246
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Crepe Top with a Square Neck, Wide Straps and a Clean Hip-Length Hem, front view",
+            "pt-BR": "Blusa Fio Puro preta de crepe com decote quadrado, alças largas e barra reta na altura do quadril, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-BSQ-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1180,
+        "USD": 246
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Crepe Top with a Square Neck, Wide Straps and a Clean Hip-Length Hem, front view",
+            "pt-BR": "Blusa Fio Puro preta de crepe com decote quadrado, alças largas e barra reta na altura do quadril, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -250,6 +250,34 @@
           "en": "Alkyd enamel",
           "pt-BR": "Esmalte sintético"
         }
+      },
+      {
+        "id": "crepe",
+        "name": {
+          "en": "Crepe",
+          "pt-BR": "Crepe"
+        }
+      },
+      {
+        "id": "jersey",
+        "name": {
+          "en": "Jersey",
+          "pt-BR": "Jersey"
+        }
+      },
+      {
+        "id": "cashmere",
+        "name": {
+          "en": "Cashmere",
+          "pt-BR": "Caxemira"
+        }
+      },
+      {
+        "id": "suede",
+        "name": {
+          "en": "Suede",
+          "pt-BR": "Camurça"
+        }
       }
     ]
   },

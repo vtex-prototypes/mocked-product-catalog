@@ -1,0 +1,147 @@
+{
+  "id": "tan-mini-crossbody",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-bolsas",
+  "name": {
+    "en": "Fio Puro Tan Mini Leather Crossbody Bag with a Thin Strap, a Flap Closure and a Compact Body",
+    "pt-BR": "Bolsa transversal mini Fio Puro caramelo de couro, alça fina, aba e corpo compacto"
+  },
+  "description": {
+    "en": "A tan mini leather crossbody with a thin strap and a flap. Small enough to sit at the hip without a tote's swing.",
+    "pt-BR": "Transversal mini caramelo de couro, alça fina e aba. Pequena o bastante para ficar no quadril sem o balanço de uma tote."
+  },
+  "price": {
+    "BRL": 1240,
+    "USD": 258
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "tan mini leather crossbody"
+    ],
+    "pt-BR": [
+      "bolsa transversal mini fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "tan-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "tan",
+          "name": {
+            "en": "Tan",
+            "pt-BR": "Caramelo"
+          },
+          "hex": "#C4A484"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "tan-s",
+      "sku": "FIO-TMC-S",
+      "options": {
+        "color": "tan",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1240,
+        "USD": 258
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tan Mini Leather Crossbody Bag with a Thin Strap, a Flap Closure and a Compact Body, front view",
+            "pt-BR": "Bolsa transversal mini Fio Puro caramelo de couro, alça fina, aba e corpo compacto, Caramelo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "tan-white.png",
+            "#f5f5f5": "tan-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tan-m",
+      "sku": "FIO-TMC-M",
+      "options": {
+        "color": "tan",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1240,
+        "USD": 258
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tan Mini Leather Crossbody Bag with a Thin Strap, a Flap Closure and a Compact Body, front view",
+            "pt-BR": "Bolsa transversal mini Fio Puro caramelo de couro, alça fina, aba e corpo compacto, Caramelo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "tan-white.png",
+            "#f5f5f5": "tan-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tan-l",
+      "sku": "FIO-TMC-L",
+      "options": {
+        "color": "tan",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1240,
+        "USD": 258
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tan Mini Leather Crossbody Bag with a Thin Strap, a Flap Closure and a Compact Body, front view",
+            "pt-BR": "Bolsa transversal mini Fio Puro caramelo de couro, alça fina, aba e corpo compacto, Caramelo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "tan-white.png",
+            "#f5f5f5": "tan-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

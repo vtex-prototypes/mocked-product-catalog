@@ -1,0 +1,163 @@
+{
+  "id": "ecru-straight-high-rise-jeans",
+  "brandId": "ritmo",
+  "categoryId": "roupa-jeans",
+  "name": {
+    "en": "Ritmo Ecru Straight-Leg Jeans in Denim with a High Rise, Five Pockets and a Full-Length Hem",
+    "pt-BR": "Jeans reto Ritmo cru de denim, cós alto, cinco bolsos e barra no comprimento inteiro"
+  },
+  "description": {
+    "en": "Ecru straight-leg jeans with a high rise. The pale denim is undyed enough to wear like a cream trouser.",
+    "pt-BR": "Jeans reto cru, cós alto. O denim claro é pouco tingido e funciona como uma calça creme."
+  },
+  "price": {
+    "BRL": 480,
+    "USD": 98
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "straight-leg jeans in denim"
+    ],
+    "pt-BR": [
+      "jeans reto ritmo cru"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "denim"
+    }
+  ],
+  "defaultVariantId": "ecru-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "ecru",
+          "name": {
+            "en": "Ecru",
+            "pt-BR": "Cru"
+          },
+          "hex": "#E7D7C3"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "ecru-s",
+      "sku": "RIT-ESH-S",
+      "options": {
+        "color": "ecru",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 98
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ecru Straight-Leg Jeans in Denim with a High Rise, Five Pockets and a Full-Length Hem, front view",
+            "pt-BR": "Jeans reto Ritmo cru de denim, cós alto, cinco bolsos e barra no comprimento inteiro, Cru, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "ecru-white.png",
+            "#f5f5f5": "ecru-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 680,
+        "USD": 139
+      }
+    },
+    {
+      "id": "ecru-m",
+      "sku": "RIT-ESH-M",
+      "options": {
+        "color": "ecru",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 98
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ecru Straight-Leg Jeans in Denim with a High Rise, Five Pockets and a Full-Length Hem, front view",
+            "pt-BR": "Jeans reto Ritmo cru de denim, cós alto, cinco bolsos e barra no comprimento inteiro, Cru, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "ecru-white.png",
+            "#f5f5f5": "ecru-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 680,
+        "USD": 139
+      }
+    },
+    {
+      "id": "ecru-l",
+      "sku": "RIT-ESH-L",
+      "options": {
+        "color": "ecru",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 98
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ecru Straight-Leg Jeans in Denim with a High Rise, Five Pockets and a Full-Length Hem, front view",
+            "pt-BR": "Jeans reto Ritmo cru de denim, cós alto, cinco bolsos e barra no comprimento inteiro, Cru, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "ecru-white.png",
+            "#f5f5f5": "ecru-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 680,
+        "USD": 139
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 680,
+    "USD": 139
+  }
+}

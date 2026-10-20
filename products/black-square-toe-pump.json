@@ -1,0 +1,147 @@
+{
+  "id": "black-square-toe-pump",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Fio Puro Black Leather Pump with a Square Toe, a Mid Heel and a Slim Throat",
+    "pt-BR": "Scarpin Fio Puro preto de couro com bico quadrado, salto médio e boca estreita que segura o pé"
+  },
+  "description": {
+    "en": "A black leather pump with a square toe and a mid heel. The throat is cut slim so the foot stays seated.",
+    "pt-BR": "Scarpin preto de couro, bico quadrado e salto médio. A boca é estreita e o pé fica sentado no sapato."
+  },
+  "price": {
+    "BRL": 1580,
+    "USD": 328
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black leather pump with"
+    ],
+    "pt-BR": [
+      "scarpin fio puro preto"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "black-36",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "36",
+          "valueId": "36"
+        },
+        {
+          "id": "38",
+          "valueId": "38"
+        },
+        {
+          "id": "40",
+          "valueId": "40"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-36",
+      "sku": "FIO-BST-36",
+      "options": {
+        "color": "black",
+        "size": "36"
+      },
+      "price": {
+        "BRL": 1580,
+        "USD": 328
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Leather Pump with a Square Toe, a Mid Heel and a Slim Throat, front view",
+            "pt-BR": "Scarpin Fio Puro preto de couro com bico quadrado, salto médio e boca estreita que segura o pé, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-38",
+      "sku": "FIO-BST-38",
+      "options": {
+        "color": "black",
+        "size": "38"
+      },
+      "price": {
+        "BRL": 1580,
+        "USD": 328
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Leather Pump with a Square Toe, a Mid Heel and a Slim Throat, front view",
+            "pt-BR": "Scarpin Fio Puro preto de couro com bico quadrado, salto médio e boca estreita que segura o pé, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-40",
+      "sku": "FIO-BST-40",
+      "options": {
+        "color": "black",
+        "size": "40"
+      },
+      "price": {
+        "BRL": 1580,
+        "USD": 328
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Leather Pump with a Square Toe, a Mid Heel and a Slim Throat, front view",
+            "pt-BR": "Scarpin Fio Puro preto de couro com bico quadrado, salto médio e boca estreita que segura o pé, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

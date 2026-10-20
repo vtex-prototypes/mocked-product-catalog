@@ -1,0 +1,147 @@
+{
+  "id": "indigo-relaxed-denim-pants",
+  "brandId": "ritmo",
+  "categoryId": "roupa-calcas",
+  "name": {
+    "en": "Ritmo Indigo Relaxed Denim Pants with a Mid Rise, a Loose Thigh and a Full-Length Hem",
+    "pt-BR": "Calça jeans folgada Ritmo índigo, cós médio, coxa solta e barra no comprimento inteiro"
+  },
+  "description": {
+    "en": "Relaxed indigo denim pants with a mid rise and room through the thigh. They are pants cut from denim, not a five-pocket jean.",
+    "pt-BR": "Calça de jeans folgada índigo, cós médio e espaço na coxa. É calça cortada em denim, não um jeans de cinco bolsos."
+  },
+  "price": {
+    "BRL": 620,
+    "USD": 128
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "relaxed denim pants with"
+    ],
+    "pt-BR": [
+      "calça jeans folgada ritmo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "denim"
+    }
+  ],
+  "defaultVariantId": "indigo-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "indigo",
+          "name": {
+            "en": "Indigo",
+            "pt-BR": "Índigo"
+          },
+          "hex": "#2C3E6B"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "indigo-s",
+      "sku": "RIT-IRD-S",
+      "options": {
+        "color": "indigo",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 620,
+        "USD": 128
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Indigo Relaxed Denim Pants with a Mid Rise, a Loose Thigh and a Full-Length Hem, front view",
+            "pt-BR": "Calça jeans folgada Ritmo índigo, cós médio, coxa solta e barra no comprimento inteiro, Índigo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "indigo-white.png",
+            "#f5f5f5": "indigo-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "indigo-m",
+      "sku": "RIT-IRD-M",
+      "options": {
+        "color": "indigo",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 620,
+        "USD": 128
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Indigo Relaxed Denim Pants with a Mid Rise, a Loose Thigh and a Full-Length Hem, front view",
+            "pt-BR": "Calça jeans folgada Ritmo índigo, cós médio, coxa solta e barra no comprimento inteiro, Índigo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "indigo-white.png",
+            "#f5f5f5": "indigo-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "indigo-l",
+      "sku": "RIT-IRD-L",
+      "options": {
+        "color": "indigo",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 620,
+        "USD": 128
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Indigo Relaxed Denim Pants with a Mid Rise, a Loose Thigh and a Full-Length Hem, front view",
+            "pt-BR": "Calça jeans folgada Ritmo índigo, cós médio, coxa solta e barra no comprimento inteiro, Índigo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "indigo-white.png",
+            "#f5f5f5": "indigo-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

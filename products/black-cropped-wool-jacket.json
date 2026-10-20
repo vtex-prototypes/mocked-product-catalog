@@ -1,0 +1,147 @@
+{
+  "id": "black-cropped-wool-jacket",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-casacos",
+  "name": {
+    "en": "Fio Puro Black Cropped Wool Jacket with a Zip Front, a Short Hem and a Small Collar",
+    "pt-BR": "Jaqueta cropped Fio Puro preta de lã, zíper na frente, barra curta e gola pequena"
+  },
+  "description": {
+    "en": "A black cropped wool jacket with a zip and a hem that ends at the hip. It layers over a high rise without covering the waist.",
+    "pt-BR": "Jaqueta cropped preta de lã, zíper e barra no quadril. Entra sobre um cós alto sem cobrir a cintura."
+  },
+  "price": {
+    "BRL": 1060,
+    "USD": 220
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black cropped wool jacket"
+    ],
+    "pt-BR": [
+      "jaqueta cropped fio puro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "wool"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-BCW-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1060,
+        "USD": 220
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Cropped Wool Jacket with a Zip Front, a Short Hem and a Small Collar, front view",
+            "pt-BR": "Jaqueta cropped Fio Puro preta de lã, zíper na frente, barra curta e gola pequena, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-BCW-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1060,
+        "USD": 220
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Cropped Wool Jacket with a Zip Front, a Short Hem and a Small Collar, front view",
+            "pt-BR": "Jaqueta cropped Fio Puro preta de lã, zíper na frente, barra curta e gola pequena, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-BCW-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1060,
+        "USD": 220
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Cropped Wool Jacket with a Zip Front, a Short Hem and a Small Collar, front view",
+            "pt-BR": "Jaqueta cropped Fio Puro preta de lã, zíper na frente, barra curta e gola pequena, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

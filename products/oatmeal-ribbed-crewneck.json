@@ -1,0 +1,147 @@
+{
+  "id": "oatmeal-ribbed-crewneck",
+  "brandId": "ritmo",
+  "categoryId": "roupa-malhas",
+  "name": {
+    "en": "Ritmo Oatmeal Ribbed Cotton Crewneck Sweater with Long Sleeves, a Fine Rib and a Relaxed Hem",
+    "pt-BR": "Suéter gola redonda Ritmo aveia de algodão canelado, manga longa, canela fina e barra solta"
+  },
+  "description": {
+    "en": "An oatmeal cotton crewneck with a fine rib at the neck, cuff and hem. The knit is even, without a cable or a print.",
+    "pt-BR": "Gola redonda de algodão aveia, com canela fina no decote, no punho e na barra. O tricô é liso, sem trança nem estampa."
+  },
+  "price": {
+    "BRL": 480,
+    "USD": 96
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "ribbed cotton crewneck sweater"
+    ],
+    "pt-BR": [
+      "suéter gola redonda ritmo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "oatmeal-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "oatmeal",
+          "name": {
+            "en": "Oatmeal",
+            "pt-BR": "Aveia"
+          },
+          "hex": "#E6D7C3"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "oatmeal-s",
+      "sku": "RIT-ORC-S",
+      "options": {
+        "color": "oatmeal",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 96
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Oatmeal Ribbed Cotton Crewneck Sweater with Long Sleeves, a Fine Rib and a Relaxed Hem, front view",
+            "pt-BR": "Suéter gola redonda Ritmo aveia de algodão canelado, manga longa, canela fina e barra solta, Aveia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "oatmeal-white.png",
+            "#f5f5f5": "oatmeal-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oatmeal-m",
+      "sku": "RIT-ORC-M",
+      "options": {
+        "color": "oatmeal",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 96
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Oatmeal Ribbed Cotton Crewneck Sweater with Long Sleeves, a Fine Rib and a Relaxed Hem, front view",
+            "pt-BR": "Suéter gola redonda Ritmo aveia de algodão canelado, manga longa, canela fina e barra solta, Aveia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "oatmeal-white.png",
+            "#f5f5f5": "oatmeal-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oatmeal-l",
+      "sku": "RIT-ORC-L",
+      "options": {
+        "color": "oatmeal",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 96
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Oatmeal Ribbed Cotton Crewneck Sweater with Long Sleeves, a Fine Rib and a Relaxed Hem, front view",
+            "pt-BR": "Suéter gola redonda Ritmo aveia de algodão canelado, manga longa, canela fina e barra solta, Aveia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "oatmeal-white.png",
+            "#f5f5f5": "oatmeal-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

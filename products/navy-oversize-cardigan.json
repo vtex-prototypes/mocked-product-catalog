@@ -1,0 +1,147 @@
+{
+  "id": "navy-oversize-cardigan",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-malhas",
+  "name": {
+    "en": "Fio Puro Navy Oversize Wool Cardigan with a Button Front, Patch Pockets and Dropped Shoulders",
+    "pt-BR": "Cardigã oversized Fio Puro marinho de lã, botões na frente, bolsos chapados e ombro caído"
+  },
+  "description": {
+    "en": "An oversize wool cardigan in navy, with patch pockets and a shoulder that drops off the joint. Buttons run the full front.",
+    "pt-BR": "Cardigã oversized de lã marinho, bolsos chapados e ombro que cai da junta. Os botões descem a frente inteira."
+  },
+  "price": {
+    "BRL": 920,
+    "USD": 188
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "navy oversize wool cardigan"
+    ],
+    "pt-BR": [
+      "cardigã oversized fio puro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "wool"
+    }
+  ],
+  "defaultVariantId": "navy-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "navy",
+          "name": {
+            "en": "Navy",
+            "pt-BR": "Marinho"
+          },
+          "hex": "#1B2A4A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "navy-s",
+      "sku": "FIO-NOC-S",
+      "options": {
+        "color": "navy",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 920,
+        "USD": 188
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy Oversize Wool Cardigan with a Button Front, Patch Pockets and Dropped Shoulders, front view",
+            "pt-BR": "Cardigã oversized Fio Puro marinho de lã, botões na frente, bolsos chapados e ombro caído, Marinho, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-m",
+      "sku": "FIO-NOC-M",
+      "options": {
+        "color": "navy",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 920,
+        "USD": 188
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy Oversize Wool Cardigan with a Button Front, Patch Pockets and Dropped Shoulders, front view",
+            "pt-BR": "Cardigã oversized Fio Puro marinho de lã, botões na frente, bolsos chapados e ombro caído, Marinho, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-l",
+      "sku": "FIO-NOC-L",
+      "options": {
+        "color": "navy",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 920,
+        "USD": 188
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy Oversize Wool Cardigan with a Button Front, Patch Pockets and Dropped Shoulders, front view",
+            "pt-BR": "Cardigã oversized Fio Puro marinho de lã, botões na frente, bolsos chapados e ombro caído, Marinho, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

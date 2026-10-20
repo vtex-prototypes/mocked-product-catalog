@@ -1,0 +1,147 @@
+{
+  "id": "cream-suede-ballet-flats",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Fio Puro Cream Suede Ballet Flats with a Round Toe, a Low Throat and a Flexible Sole",
+    "pt-BR": "Sapatilha Fio Puro creme de camurça, bico redondo, boca baixa e solado flexível"
+  },
+  "description": {
+    "en": "Cream suede ballet flats with a round toe and a low throat. The suede reads soft next to a sharper leather shoe.",
+    "pt-BR": "Sapatilha creme de camurça, bico redondo e boca baixa. A camurça fica macia ao lado de um couro mais seco."
+  },
+  "price": {
+    "BRL": 690,
+    "USD": 142
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cream suede ballet flats"
+    ],
+    "pt-BR": [
+      "sapatilha fio puro creme"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "suede"
+    }
+  ],
+  "defaultVariantId": "cream-36",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cream",
+          "name": {
+            "en": "Cream",
+            "pt-BR": "Creme"
+          },
+          "hex": "#F4EFE6"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "36",
+          "valueId": "36"
+        },
+        {
+          "id": "38",
+          "valueId": "38"
+        },
+        {
+          "id": "40",
+          "valueId": "40"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cream-36",
+      "sku": "FIO-CSF-36",
+      "options": {
+        "color": "cream",
+        "size": "36"
+      },
+      "price": {
+        "BRL": 690,
+        "USD": 142
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Suede Ballet Flats with a Round Toe, a Low Throat and a Flexible Sole, front view",
+            "pt-BR": "Sapatilha Fio Puro creme de camurça, bico redondo, boca baixa e solado flexível, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-38",
+      "sku": "FIO-CSF-38",
+      "options": {
+        "color": "cream",
+        "size": "38"
+      },
+      "price": {
+        "BRL": 690,
+        "USD": 142
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Suede Ballet Flats with a Round Toe, a Low Throat and a Flexible Sole, front view",
+            "pt-BR": "Sapatilha Fio Puro creme de camurça, bico redondo, boca baixa e solado flexível, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-40",
+      "sku": "FIO-CSF-40",
+      "options": {
+        "color": "cream",
+        "size": "40"
+      },
+      "price": {
+        "BRL": 690,
+        "USD": 142
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Suede Ballet Flats with a Round Toe, a Low Throat and a Flexible Sole, front view",
+            "pt-BR": "Sapatilha Fio Puro creme de camurça, bico redondo, boca baixa e solado flexível, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

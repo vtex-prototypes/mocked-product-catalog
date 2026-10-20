@@ -1,0 +1,163 @@
+{
+  "id": "olive-pleated-midi-skirt",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-saias",
+  "name": {
+    "en": "Fio Puro Olive Pleated Midi Skirt in Viscose with Soft Accordion Pleats and an Elastic Waist",
+    "pt-BR": "Saia midi plissada Fio Puro oliva de viscose, pregas sanfona macias e cós elástico"
+  },
+  "description": {
+    "en": "An olive pleated midi in viscose, with accordion pleats and an elastic waist. It pulls on and the pleats do the shaping.",
+    "pt-BR": "Midi plissada oliva de viscose, pregas sanfona e cós elástico. Entra sem zíper e a prega faz o corpo."
+  },
+  "price": {
+    "BRL": 540,
+    "USD": 110
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "olive pleated midi skirt"
+    ],
+    "pt-BR": [
+      "saia midi plissada fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "viscose"
+    }
+  ],
+  "defaultVariantId": "olive-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "olive",
+          "name": {
+            "en": "Olive",
+            "pt-BR": "Oliva"
+          },
+          "hex": "#5C6240"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "olive-s",
+      "sku": "FIO-OPM-S",
+      "options": {
+        "color": "olive",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 540,
+        "USD": 110
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Olive Pleated Midi Skirt in Viscose with Soft Accordion Pleats and an Elastic Waist, front view",
+            "pt-BR": "Saia midi plissada Fio Puro oliva de viscose, pregas sanfona macias e cós elástico, Oliva, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "olive-white.png",
+            "#f5f5f5": "olive-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 720,
+        "USD": 149
+      }
+    },
+    {
+      "id": "olive-m",
+      "sku": "FIO-OPM-M",
+      "options": {
+        "color": "olive",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 540,
+        "USD": 110
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Olive Pleated Midi Skirt in Viscose with Soft Accordion Pleats and an Elastic Waist, front view",
+            "pt-BR": "Saia midi plissada Fio Puro oliva de viscose, pregas sanfona macias e cós elástico, Oliva, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "olive-white.png",
+            "#f5f5f5": "olive-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 720,
+        "USD": 149
+      }
+    },
+    {
+      "id": "olive-l",
+      "sku": "FIO-OPM-L",
+      "options": {
+        "color": "olive",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 540,
+        "USD": 110
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Olive Pleated Midi Skirt in Viscose with Soft Accordion Pleats and an Elastic Waist, front view",
+            "pt-BR": "Saia midi plissada Fio Puro oliva de viscose, pregas sanfona macias e cós elástico, Oliva, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "olive-white.png",
+            "#f5f5f5": "olive-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 720,
+        "USD": 149
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 720,
+    "USD": 149
+  }
+}

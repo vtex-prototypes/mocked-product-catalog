@@ -1,0 +1,163 @@
+{
+  "id": "white-puff-sleeve-blouse",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Fio Puro White Cotton Puff Sleeve Blouse with a Round Collar, Elastic Cuffs and a Hip-Length Hem",
+    "pt-BR": "Blusa Fio Puro branca de algodão com manga bufante, decote redondo, punho elástico e barra no quadril"
+  },
+  "description": {
+    "en": "A white cotton blouse with a short puff sleeve and a round neck. The cuff elastic holds the volume without a cufflink.",
+    "pt-BR": "Blusa branca de algodão com manga bufante curta e decote redondo. O elástico do punho segura o volume sem abotoadura."
+  },
+  "price": {
+    "BRL": 460,
+    "USD": 96
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "white cotton puff sleeve"
+    ],
+    "pt-BR": [
+      "blusa fio puro branca"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "white-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F7F4EE"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-s",
+      "sku": "FIO-WPS-S",
+      "options": {
+        "color": "white",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 460,
+        "USD": 96
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Cotton Puff Sleeve Blouse with a Round Collar, Elastic Cuffs and a Hip-Length Hem, front view",
+            "pt-BR": "Blusa Fio Puro branca de algodão com manga bufante, decote redondo, punho elástico e barra no quadril, Branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 680,
+        "USD": 139
+      }
+    },
+    {
+      "id": "white-m",
+      "sku": "FIO-WPS-M",
+      "options": {
+        "color": "white",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 460,
+        "USD": 96
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Cotton Puff Sleeve Blouse with a Round Collar, Elastic Cuffs and a Hip-Length Hem, front view",
+            "pt-BR": "Blusa Fio Puro branca de algodão com manga bufante, decote redondo, punho elástico e barra no quadril, Branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 680,
+        "USD": 139
+      }
+    },
+    {
+      "id": "white-l",
+      "sku": "FIO-WPS-L",
+      "options": {
+        "color": "white",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 460,
+        "USD": 96
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Cotton Puff Sleeve Blouse with a Round Collar, Elastic Cuffs and a Hip-Length Hem, front view",
+            "pt-BR": "Blusa Fio Puro branca de algodão com manga bufante, decote redondo, punho elástico e barra no quadril, Branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 680,
+        "USD": 139
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 680,
+    "USD": 139
+  }
+}

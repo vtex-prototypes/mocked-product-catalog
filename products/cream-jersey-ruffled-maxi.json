@@ -1,0 +1,147 @@
+{
+  "id": "cream-jersey-ruffled-maxi",
+  "brandId": "ritmo",
+  "categoryId": "roupa-vestidos",
+  "name": {
+    "en": "Ritmo Cream Jersey Ruffled Maxi Dress with Ruffled Straps, a Soft Column and a Flounced Hem",
+    "pt-BR": "Vestido longo Ritmo creme de jersey, com alças de babado, coluna macia e barra em camadas leves"
+  },
+  "description": {
+    "en": "A cream jersey maxi with ruffled straps and a flounce at the hem. The knit column skims instead of clinging.",
+    "pt-BR": "Longo creme de jersey, alças de babado e folho na barra. A malha acompanha o corpo sem agarrar."
+  },
+  "price": {
+    "BRL": 560,
+    "USD": 118
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "jersey ruffled maxi dress"
+    ],
+    "pt-BR": [
+      "vestido longo ritmo creme"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "jersey"
+    }
+  ],
+  "defaultVariantId": "cream-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cream",
+          "name": {
+            "en": "Cream",
+            "pt-BR": "Creme"
+          },
+          "hex": "#F4EFE6"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cream-s",
+      "sku": "RIT-CJR-S",
+      "options": {
+        "color": "cream",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 560,
+        "USD": 118
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Jersey Ruffled Maxi Dress with Ruffled Straps, a Soft Column and a Flounced Hem, front view",
+            "pt-BR": "Vestido longo Ritmo creme de jersey, com alças de babado, coluna macia e barra em camadas leves, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-m",
+      "sku": "RIT-CJR-M",
+      "options": {
+        "color": "cream",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 560,
+        "USD": 118
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Jersey Ruffled Maxi Dress with Ruffled Straps, a Soft Column and a Flounced Hem, front view",
+            "pt-BR": "Vestido longo Ritmo creme de jersey, com alças de babado, coluna macia e barra em camadas leves, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-l",
+      "sku": "RIT-CJR-L",
+      "options": {
+        "color": "cream",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 560,
+        "USD": 118
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Jersey Ruffled Maxi Dress with Ruffled Straps, a Soft Column and a Flounced Hem, front view",
+            "pt-BR": "Vestido longo Ritmo creme de jersey, com alças de babado, coluna macia e barra em camadas leves, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

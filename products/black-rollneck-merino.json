@@ -1,0 +1,147 @@
+{
+  "id": "black-rollneck-merino",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-malhas",
+  "name": {
+    "en": "Fio Puro Black Merino Roll-Neck Sweater with a Folded Collar, Close Fit and Long Sleeves",
+    "pt-BR": "Suéter gola rolê Fio Puro preto de merino, gola dobrada, modelagem justa e manga longa"
+  },
+  "description": {
+    "en": "A black merino roll-neck, folded once at the collar and close through the arm. It layers under a jacket without bunching.",
+    "pt-BR": "Gola rolê preta de merino, dobrada uma vez, justa na manga. Entra sob uma jaqueta sem embaraçar."
+  },
+  "price": {
+    "BRL": 840,
+    "USD": 174
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black merino roll-neck sweater"
+    ],
+    "pt-BR": [
+      "suéter gola rolê fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "merino-wool"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-BRM-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 840,
+        "USD": 174
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Merino Roll-Neck Sweater with a Folded Collar, Close Fit and Long Sleeves, front view",
+            "pt-BR": "Suéter gola rolê Fio Puro preto de merino, gola dobrada, modelagem justa e manga longa, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-BRM-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 840,
+        "USD": 174
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Merino Roll-Neck Sweater with a Folded Collar, Close Fit and Long Sleeves, front view",
+            "pt-BR": "Suéter gola rolê Fio Puro preto de merino, gola dobrada, modelagem justa e manga longa, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-BRM-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 840,
+        "USD": 174
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Merino Roll-Neck Sweater with a Folded Collar, Close Fit and Long Sleeves, front view",
+            "pt-BR": "Suéter gola rolê Fio Puro preto de merino, gola dobrada, modelagem justa e manga longa, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

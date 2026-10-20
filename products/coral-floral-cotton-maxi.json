@@ -1,0 +1,163 @@
+{
+  "id": "coral-floral-cotton-maxi",
+  "brandId": "ritmo",
+  "categoryId": "roupa-vestidos",
+  "name": {
+    "en": "Ritmo Coral Floral Cotton Maxi Dress with Short Sleeves, a Gathered Skirt and a Modest Neckline",
+    "pt-BR": "Vestido longo floral Ritmo coral de algodão, manga curta, saia franzida e decote fechado para o dia"
+  },
+  "description": {
+    "en": "A cotton maxi in a coral floral print, with short sleeves and a skirt gathered at the waist. Light enough for a warm afternoon.",
+    "pt-BR": "Longo de algodão em floral coral, manga curta e saia franzida na cintura. Leve o bastante para uma tarde quente."
+  },
+  "price": {
+    "BRL": 640,
+    "USD": 132
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "floral cotton maxi dress"
+    ],
+    "pt-BR": [
+      "vestido longo floral ritmo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "coral-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "coral",
+          "name": {
+            "en": "Coral",
+            "pt-BR": "Coral"
+          },
+          "hex": "#E07A5F"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "coral-s",
+      "sku": "RIT-CFM-S",
+      "options": {
+        "color": "coral",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 640,
+        "USD": 132
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Coral Floral Cotton Maxi Dress with Short Sleeves, a Gathered Skirt and a Modest Neckline, front view",
+            "pt-BR": "Vestido longo floral Ritmo coral de algodão, manga curta, saia franzida e decote fechado para o dia, Coral, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "coral-white.png",
+            "#f5f5f5": "coral-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 860,
+        "USD": 179
+      }
+    },
+    {
+      "id": "coral-m",
+      "sku": "RIT-CFM-M",
+      "options": {
+        "color": "coral",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 640,
+        "USD": 132
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Coral Floral Cotton Maxi Dress with Short Sleeves, a Gathered Skirt and a Modest Neckline, front view",
+            "pt-BR": "Vestido longo floral Ritmo coral de algodão, manga curta, saia franzida e decote fechado para o dia, Coral, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "coral-white.png",
+            "#f5f5f5": "coral-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 860,
+        "USD": 179
+      }
+    },
+    {
+      "id": "coral-l",
+      "sku": "RIT-CFM-L",
+      "options": {
+        "color": "coral",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 640,
+        "USD": 132
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Coral Floral Cotton Maxi Dress with Short Sleeves, a Gathered Skirt and a Modest Neckline, front view",
+            "pt-BR": "Vestido longo floral Ritmo coral de algodão, manga curta, saia franzida e decote fechado para o dia, Coral, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "coral-white.png",
+            "#f5f5f5": "coral-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 860,
+        "USD": 179
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 860,
+    "USD": 179
+  }
+}

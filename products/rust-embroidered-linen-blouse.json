@@ -1,0 +1,147 @@
+{
+  "id": "rust-embroidered-linen-blouse",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Fio Puro Rust Embroidered Linen Blouse with Long Sleeves, a Stitched Yoke and a Covered Placket",
+    "pt-BR": "Blusa Fio Puro ferrugem de linho bordada, manga longa, ombro com ponto e vista coberta sem botão à mostra"
+  },
+  "description": {
+    "en": "A rust linen blouse with embroidery across the yoke and cuffs. The stitching is tonal, so it reads as texture before it reads as pattern.",
+    "pt-BR": "Blusa ferrugem de linho com bordado no ombro e nos punhos. O ponto é tom sobre tom e aparece como textura antes de desenho."
+  },
+  "price": {
+    "BRL": 1280,
+    "USD": 268
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "rust embroidered linen blouse"
+    ],
+    "pt-BR": [
+      "blusa fio puro ferrugem"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "linen"
+    }
+  ],
+  "defaultVariantId": "rust-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "rust",
+          "name": {
+            "en": "Rust",
+            "pt-BR": "Ferrugem"
+          },
+          "hex": "#C4623A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "rust-s",
+      "sku": "FIO-REL-S",
+      "options": {
+        "color": "rust",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1280,
+        "USD": 268
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rust Embroidered Linen Blouse with Long Sleeves, a Stitched Yoke and a Covered Placket, front view",
+            "pt-BR": "Blusa Fio Puro ferrugem de linho bordada, manga longa, ombro com ponto e vista coberta sem botão à mostra, Ferrugem, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "rust-white.png",
+            "#f5f5f5": "rust-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rust-m",
+      "sku": "FIO-REL-M",
+      "options": {
+        "color": "rust",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1280,
+        "USD": 268
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rust Embroidered Linen Blouse with Long Sleeves, a Stitched Yoke and a Covered Placket, front view",
+            "pt-BR": "Blusa Fio Puro ferrugem de linho bordada, manga longa, ombro com ponto e vista coberta sem botão à mostra, Ferrugem, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "rust-white.png",
+            "#f5f5f5": "rust-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rust-l",
+      "sku": "FIO-REL-L",
+      "options": {
+        "color": "rust",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1280,
+        "USD": 268
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rust Embroidered Linen Blouse with Long Sleeves, a Stitched Yoke and a Covered Placket, front view",
+            "pt-BR": "Blusa Fio Puro ferrugem de linho bordada, manga longa, ombro com ponto e vista coberta sem botão à mostra, Ferrugem, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "rust-white.png",
+            "#f5f5f5": "rust-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

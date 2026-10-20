@@ -1,0 +1,147 @@
+{
+  "id": "black-calfskin-satchel",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-bolsas",
+  "name": {
+    "en": "Fio Puro Black Calfskin Leather Satchel with a Structured Body, Top Handle and a Front Flap",
+    "pt-BR": "Pasta Fio Puro preta de couro de bezerro, corpo estruturado, alça de mão e aba na frente"
+  },
+  "description": {
+    "en": "A black calfskin satchel with a structured body, a top handle and a front flap. It stands up on its own when you set it down.",
+    "pt-BR": "Pasta preta de couro de bezerro, corpo estruturado, alça de mão e aba. Fica em pé sozinha quando pousa."
+  },
+  "price": {
+    "BRL": 1380,
+    "USD": 288
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black calfskin leather satchel"
+    ],
+    "pt-BR": [
+      "pasta fio puro preta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-BCS-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1380,
+        "USD": 288
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Calfskin Leather Satchel with a Structured Body, Top Handle and a Front Flap, front view",
+            "pt-BR": "Pasta Fio Puro preta de couro de bezerro, corpo estruturado, alça de mão e aba na frente, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-BCS-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1380,
+        "USD": 288
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Calfskin Leather Satchel with a Structured Body, Top Handle and a Front Flap, front view",
+            "pt-BR": "Pasta Fio Puro preta de couro de bezerro, corpo estruturado, alça de mão e aba na frente, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-BCS-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1380,
+        "USD": 288
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Calfskin Leather Satchel with a Structured Body, Top Handle and a Front Flap, front view",
+            "pt-BR": "Pasta Fio Puro preta de couro de bezerro, corpo estruturado, alça de mão e aba na frente, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "black-vneck-linen-blouse",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Fio Puro Black Linen V-Neck Blouse with Long Sleeves, a Deep Neckline and a Relaxed Hip-Length Hem",
+    "pt-BR": "Blusa Fio Puro preta de linho com decote V, manga longa e barra solta na altura do quadril"
+  },
+  "description": {
+    "en": "A black linen blouse with a deep V-neck and long sleeves. The body is relaxed, so it skims instead of pulling at the bust.",
+    "pt-BR": "Blusa preta de linho com decote V fundo e manga longa. O corpo é solto e passa no busto sem repuxar."
+  },
+  "price": {
+    "BRL": 1020,
+    "USD": 214
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black linen v-neck blouse"
+    ],
+    "pt-BR": [
+      "blusa fio puro preta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "linen"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-BVL-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1020,
+        "USD": 214
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Linen V-Neck Blouse with Long Sleeves, a Deep Neckline and a Relaxed Hip-Length Hem, front view",
+            "pt-BR": "Blusa Fio Puro preta de linho com decote V, manga longa e barra solta na altura do quadril, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-BVL-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1020,
+        "USD": 214
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Linen V-Neck Blouse with Long Sleeves, a Deep Neckline and a Relaxed Hip-Length Hem, front view",
+            "pt-BR": "Blusa Fio Puro preta de linho com decote V, manga longa e barra solta na altura do quadril, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-BVL-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1020,
+        "USD": 214
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Linen V-Neck Blouse with Long Sleeves, a Deep Neckline and a Relaxed Hip-Length Hem, front view",
+            "pt-BR": "Blusa Fio Puro preta de linho com decote V, manga longa e barra solta na altura do quadril, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "gray-oversize-cotton-cardigan",
+  "brandId": "ritmo",
+  "categoryId": "roupa-malhas",
+  "name": {
+    "en": "Ritmo Gray Oversize Cotton Cardigan with a Button Front, Dropped Shoulders and a Relaxed Body",
+    "pt-BR": "Cardigã oversized Ritmo cinza de algodão, botões na frente, ombro caído e corpo solto até o quadril"
+  },
+  "description": {
+    "en": "An oversize cotton cardigan in heather gray. It is lighter than wool, so it works as a layer when a coat is too much.",
+    "pt-BR": "Cardigã oversized de algodão cinza mescla. Mais leve que lã, serve de camada quando o casaco é demais."
+  },
+  "price": {
+    "BRL": 640,
+    "USD": 132
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "oversize cotton cardigan with"
+    ],
+    "pt-BR": [
+      "cardigã oversized ritmo cinza"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "gray-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#B7B7B7"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gray-s",
+      "sku": "RIT-GOC-S",
+      "options": {
+        "color": "gray",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 640,
+        "USD": 132
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray Oversize Cotton Cardigan with a Button Front, Dropped Shoulders and a Relaxed Body, front view",
+            "pt-BR": "Cardigã oversized Ritmo cinza de algodão, botões na frente, ombro caído e corpo solto até o quadril, Cinza, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 860,
+        "USD": 179
+      }
+    },
+    {
+      "id": "gray-m",
+      "sku": "RIT-GOC-M",
+      "options": {
+        "color": "gray",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 640,
+        "USD": 132
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray Oversize Cotton Cardigan with a Button Front, Dropped Shoulders and a Relaxed Body, front view",
+            "pt-BR": "Cardigã oversized Ritmo cinza de algodão, botões na frente, ombro caído e corpo solto até o quadril, Cinza, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 860,
+        "USD": 179
+      }
+    },
+    {
+      "id": "gray-l",
+      "sku": "RIT-GOC-L",
+      "options": {
+        "color": "gray",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 640,
+        "USD": 132
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray Oversize Cotton Cardigan with a Button Front, Dropped Shoulders and a Relaxed Body, front view",
+            "pt-BR": "Cardigã oversized Ritmo cinza de algodão, botões na frente, ombro caído e corpo solto até o quadril, Cinza, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 860,
+        "USD": 179
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 860,
+    "USD": 179
+  }
+}

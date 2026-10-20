@@ -1,0 +1,147 @@
+{
+  "id": "cream-cashmere-crewneck",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-malhas",
+  "name": {
+    "en": "Fio Puro Cream Cashmere Crewneck Sweater with a Fine Knit, Long Sleeves and Ribbed Trims",
+    "pt-BR": "Suéter de caxemira Fio Puro creme, gola redonda, tricô fino, manga longa e acabamento canelado nas bordas"
+  },
+  "description": {
+    "en": "A cream cashmere crewneck in a fine, even knit. It is light enough to sit under a coat and warm enough on its own.",
+    "pt-BR": "Gola redonda de caxemira creme, tricô fino e uniforme. Leve para ir sob um casaco e quente o bastante sozinha."
+  },
+  "price": {
+    "BRL": 1180,
+    "USD": 240
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cream cashmere crewneck sweater"
+    ],
+    "pt-BR": [
+      "suéter de caxemira fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cashmere"
+    }
+  ],
+  "defaultVariantId": "cream-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cream",
+          "name": {
+            "en": "Cream",
+            "pt-BR": "Creme"
+          },
+          "hex": "#F4EFE6"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cream-s",
+      "sku": "FIO-CCC-S",
+      "options": {
+        "color": "cream",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1180,
+        "USD": 240
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Cashmere Crewneck Sweater with a Fine Knit, Long Sleeves and Ribbed Trims, front view",
+            "pt-BR": "Suéter de caxemira Fio Puro creme, gola redonda, tricô fino, manga longa e acabamento canelado nas bordas, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-m",
+      "sku": "FIO-CCC-M",
+      "options": {
+        "color": "cream",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1180,
+        "USD": 240
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Cashmere Crewneck Sweater with a Fine Knit, Long Sleeves and Ribbed Trims, front view",
+            "pt-BR": "Suéter de caxemira Fio Puro creme, gola redonda, tricô fino, manga longa e acabamento canelado nas bordas, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-l",
+      "sku": "FIO-CCC-L",
+      "options": {
+        "color": "cream",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1180,
+        "USD": 240
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Cashmere Crewneck Sweater with a Fine Knit, Long Sleeves and Ribbed Trims, front view",
+            "pt-BR": "Suéter de caxemira Fio Puro creme, gola redonda, tricô fino, manga longa e acabamento canelado nas bordas, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

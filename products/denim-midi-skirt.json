@@ -1,0 +1,147 @@
+{
+  "id": "denim-midi-skirt",
+  "brandId": "ritmo",
+  "categoryId": "roupa-saias",
+  "name": {
+    "en": "Ritmo Indigo Denim Midi Skirt with a High Rise, a Button Front and an A-Line Hem",
+    "pt-BR": "Saia midi jeans Ritmo índigo, cós alto, botões na frente e barra evasê"
+  },
+  "description": {
+    "en": "An indigo denim midi with a high rise and a button front. The A-line hem moves more than a pencil would.",
+    "pt-BR": "Midi jeans índigo, cós alto e botões na frente. A barra evasê anda mais do que uma lápis andaria."
+  },
+  "price": {
+    "BRL": 480,
+    "USD": 96
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "denim midi skirt with"
+    ],
+    "pt-BR": [
+      "saia midi jeans ritmo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "denim"
+    }
+  ],
+  "defaultVariantId": "indigo-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "indigo",
+          "name": {
+            "en": "Indigo",
+            "pt-BR": "Índigo"
+          },
+          "hex": "#2C3E6B"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "indigo-s",
+      "sku": "RIT-DMS-S",
+      "options": {
+        "color": "indigo",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 96
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Indigo Denim Midi Skirt with a High Rise, a Button Front and an A-Line Hem, front view",
+            "pt-BR": "Saia midi jeans Ritmo índigo, cós alto, botões na frente e barra evasê, Índigo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "indigo-white.png",
+            "#f5f5f5": "indigo-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "indigo-m",
+      "sku": "RIT-DMS-M",
+      "options": {
+        "color": "indigo",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 96
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Indigo Denim Midi Skirt with a High Rise, a Button Front and an A-Line Hem, front view",
+            "pt-BR": "Saia midi jeans Ritmo índigo, cós alto, botões na frente e barra evasê, Índigo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "indigo-white.png",
+            "#f5f5f5": "indigo-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "indigo-l",
+      "sku": "RIT-DMS-L",
+      "options": {
+        "color": "indigo",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 96
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Indigo Denim Midi Skirt with a High Rise, a Button Front and an A-Line Hem, front view",
+            "pt-BR": "Saia midi jeans Ritmo índigo, cós alto, botões na frente e barra evasê, Índigo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "indigo-white.png",
+            "#f5f5f5": "indigo-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

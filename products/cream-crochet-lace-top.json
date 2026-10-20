@@ -1,0 +1,163 @@
+{
+  "id": "cream-crochet-lace-top",
+  "brandId": "ritmo",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Ritmo Cream Crochet Top with Lace Trim at the Collar, Short Sleeves and an Open Stitch Hem",
+    "pt-BR": "Blusa de crochê Ritmo creme com renda no decote, manga curta e barra em ponto aberto que deixa ver a pele"
+  },
+  "description": {
+    "en": "A cream crochet top with lace along the neckline and an open stitch at the hem. Short sleeves sit just past the shoulder.",
+    "pt-BR": "Blusa de crochê creme com renda no decote e ponto aberto na barra. A manga curta fica logo abaixo do ombro."
+  },
+  "price": {
+    "BRL": 360,
+    "USD": 74
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "crochet top with lace"
+    ],
+    "pt-BR": [
+      "blusa de crochê ritmo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "cream-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cream",
+          "name": {
+            "en": "Cream",
+            "pt-BR": "Creme"
+          },
+          "hex": "#F4EFE6"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cream-s",
+      "sku": "RIT-CCL-S",
+      "options": {
+        "color": "cream",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 360,
+        "USD": 74
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Crochet Top with Lace Trim at the Collar, Short Sleeves and an Open Stitch Hem, front view",
+            "pt-BR": "Blusa de crochê Ritmo creme com renda no decote, manga curta e barra em ponto aberto que deixa ver a pele, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 560,
+        "USD": 119
+      }
+    },
+    {
+      "id": "cream-m",
+      "sku": "RIT-CCL-M",
+      "options": {
+        "color": "cream",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 360,
+        "USD": 74
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Crochet Top with Lace Trim at the Collar, Short Sleeves and an Open Stitch Hem, front view",
+            "pt-BR": "Blusa de crochê Ritmo creme com renda no decote, manga curta e barra em ponto aberto que deixa ver a pele, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 560,
+        "USD": 119
+      }
+    },
+    {
+      "id": "cream-l",
+      "sku": "RIT-CCL-L",
+      "options": {
+        "color": "cream",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 360,
+        "USD": 74
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Crochet Top with Lace Trim at the Collar, Short Sleeves and an Open Stitch Hem, front view",
+            "pt-BR": "Blusa de crochê Ritmo creme com renda no decote, manga curta e barra em ponto aberto que deixa ver a pele, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 560,
+        "USD": 119
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 560,
+    "USD": 119
+  }
+}

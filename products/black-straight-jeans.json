@@ -1,0 +1,147 @@
+{
+  "id": "black-straight-jeans",
+  "brandId": "ritmo",
+  "categoryId": "roupa-jeans",
+  "name": {
+    "en": "Ritmo Black Straight-Leg Jeans in Denim with a Mid Rise, Five Pockets and a Full-Length Hem",
+    "pt-BR": "Jeans reto Ritmo preto de denim, cós médio, cinco bolsos e barra no comprimento inteiro"
+  },
+  "description": {
+    "en": "Black straight-leg jeans with a mid rise and five pockets. The wash is solid, so they read closer to trousers than to indigo denim.",
+    "pt-BR": "Jeans preto de perna reta, cós médio e cinco bolsos. A lavagem é chapada e fica mais perto de calça do que de índigo."
+  },
+  "price": {
+    "BRL": 540,
+    "USD": 110
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "straight-leg jeans in denim"
+    ],
+    "pt-BR": [
+      "jeans reto ritmo preto"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "denim"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "RIT-BSJ-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 540,
+        "USD": 110
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Straight-Leg Jeans in Denim with a Mid Rise, Five Pockets and a Full-Length Hem, front view",
+            "pt-BR": "Jeans reto Ritmo preto de denim, cós médio, cinco bolsos e barra no comprimento inteiro, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "RIT-BSJ-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 540,
+        "USD": 110
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Straight-Leg Jeans in Denim with a Mid Rise, Five Pockets and a Full-Length Hem, front view",
+            "pt-BR": "Jeans reto Ritmo preto de denim, cós médio, cinco bolsos e barra no comprimento inteiro, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "RIT-BSJ-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 540,
+        "USD": 110
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Straight-Leg Jeans in Denim with a Mid Rise, Five Pockets and a Full-Length Hem, front view",
+            "pt-BR": "Jeans reto Ritmo preto de denim, cós médio, cinco bolsos e barra no comprimento inteiro, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

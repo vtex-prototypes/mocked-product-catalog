@@ -1,0 +1,147 @@
+{
+  "id": "woven-straw-market-tote",
+  "brandId": "ritmo",
+  "categoryId": "roupa-bolsas",
+  "name": {
+    "en": "Ritmo Natural Woven Straw Tote with an Open Weave, Twin Handles and a Firm Rectangular Base",
+    "pt-BR": "Bolsa tote Ritmo de palha trançada, trama aberta, duas alças e base retangular firme para o mercado"
+  },
+  "description": {
+    "en": "A natural straw tote with an open woven body, twin handles and a firm base. It holds a market haul without folding in on itself.",
+    "pt-BR": "Tote de palha natural, trama aberta, duas alças e base firme. Aguenta a feira sem dobrar sobre si."
+  },
+  "price": {
+    "BRL": 420,
+    "USD": 88
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "woven straw tote with"
+    ],
+    "pt-BR": [
+      "bolsa tote ritmo de"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "straw"
+    }
+  ],
+  "defaultVariantId": "natural-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          },
+          "hex": "#E6D3A3"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "natural-s",
+      "sku": "RIT-WSM-S",
+      "options": {
+        "color": "natural",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 420,
+        "USD": 88
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Natural Woven Straw Tote with an Open Weave, Twin Handles and a Firm Rectangular Base, front view",
+            "pt-BR": "Bolsa tote Ritmo de palha trançada, trama aberta, duas alças e base retangular firme para o mercado, Natural, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "natural-white.png",
+            "#f5f5f5": "natural-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "natural-m",
+      "sku": "RIT-WSM-M",
+      "options": {
+        "color": "natural",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 420,
+        "USD": 88
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Natural Woven Straw Tote with an Open Weave, Twin Handles and a Firm Rectangular Base, front view",
+            "pt-BR": "Bolsa tote Ritmo de palha trançada, trama aberta, duas alças e base retangular firme para o mercado, Natural, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "natural-white.png",
+            "#f5f5f5": "natural-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "natural-l",
+      "sku": "RIT-WSM-L",
+      "options": {
+        "color": "natural",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 420,
+        "USD": 88
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Natural Woven Straw Tote with an Open Weave, Twin Handles and a Firm Rectangular Base, front view",
+            "pt-BR": "Bolsa tote Ritmo de palha trançada, trama aberta, duas alças e base retangular firme para o mercado, Natural, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "natural-white.png",
+            "#f5f5f5": "natural-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

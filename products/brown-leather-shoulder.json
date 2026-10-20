@@ -1,0 +1,147 @@
+{
+  "id": "brown-leather-shoulder",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-bolsas",
+  "name": {
+    "en": "Fio Puro Brown Leather Shoulder Bag with a Wide Strap and a Soft Structured Body",
+    "pt-BR": "Bolsa de ombro Fio Puro marrom de couro, alça larga e corpo macio que ainda guarda a forma"
+  },
+  "description": {
+    "en": "A brown leather shoulder bag with a wide strap. The body is soft but still structured enough to find a wallet inside.",
+    "pt-BR": "Bolsa de ombro marrom de couro, alça larga. O corpo é macio, mas ainda tem estrutura para achar a carteira."
+  },
+  "price": {
+    "BRL": 1370,
+    "USD": 286
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "brown leather shoulder bag"
+    ],
+    "pt-BR": [
+      "bolsa de ombro fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "brown-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "brown",
+          "name": {
+            "en": "Brown",
+            "pt-BR": "Marrom"
+          },
+          "hex": "#6B3E2A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "brown-s",
+      "sku": "FIO-BLS2-S",
+      "options": {
+        "color": "brown",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1370,
+        "USD": 286
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brown Leather Shoulder Bag with a Wide Strap and a Soft Structured Body, front view",
+            "pt-BR": "Bolsa de ombro Fio Puro marrom de couro, alça larga e corpo macio que ainda guarda a forma, Marrom, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brown-white.png",
+            "#f5f5f5": "brown-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "brown-m",
+      "sku": "FIO-BLS2-M",
+      "options": {
+        "color": "brown",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1370,
+        "USD": 286
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brown Leather Shoulder Bag with a Wide Strap and a Soft Structured Body, front view",
+            "pt-BR": "Bolsa de ombro Fio Puro marrom de couro, alça larga e corpo macio que ainda guarda a forma, Marrom, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brown-white.png",
+            "#f5f5f5": "brown-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "brown-l",
+      "sku": "FIO-BLS2-L",
+      "options": {
+        "color": "brown",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1370,
+        "USD": 286
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brown Leather Shoulder Bag with a Wide Strap and a Soft Structured Body, front view",
+            "pt-BR": "Bolsa de ombro Fio Puro marrom de couro, alça larga e corpo macio que ainda guarda a forma, Marrom, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brown-white.png",
+            "#f5f5f5": "brown-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

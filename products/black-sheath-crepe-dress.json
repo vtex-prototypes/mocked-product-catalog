@@ -1,0 +1,147 @@
+{
+  "id": "black-sheath-crepe-dress",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-vestidos",
+  "name": {
+    "en": "Fio Puro Black Sheath Dress in Crepe with a Sleeveless Column, Knee Length and a Modest Boat Neck",
+    "pt-BR": "Vestido reto Fio Puro preto em crepe, sem manga, no joelho, com decote canoa fechado e coluna estreita"
+  },
+  "description": {
+    "en": "A crepe sheath that falls in a narrow column to the knee. The boat neck keeps it covered for a long seated dinner.",
+    "pt-BR": "Sheath de crepe que desce reto até o joelho. O decote canoa cobre o bastante para um jantar sentado."
+  },
+  "price": {
+    "BRL": 1290,
+    "USD": 268
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black sheath dress in"
+    ],
+    "pt-BR": [
+      "vestido reto fio puro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "crepe"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-BSC-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1290,
+        "USD": 268
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Sheath Dress in Crepe with a Sleeveless Column, Knee Length and a Modest Boat Neck, front view",
+            "pt-BR": "Vestido reto Fio Puro preto em crepe, sem manga, no joelho, com decote canoa fechado e coluna estreita, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-BSC-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1290,
+        "USD": 268
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Sheath Dress in Crepe with a Sleeveless Column, Knee Length and a Modest Boat Neck, front view",
+            "pt-BR": "Vestido reto Fio Puro preto em crepe, sem manga, no joelho, com decote canoa fechado e coluna estreita, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-BSC-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1290,
+        "USD": 268
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Sheath Dress in Crepe with a Sleeveless Column, Knee Length and a Modest Boat Neck, front view",
+            "pt-BR": "Vestido reto Fio Puro preto em crepe, sem manga, no joelho, com decote canoa fechado e coluna estreita, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

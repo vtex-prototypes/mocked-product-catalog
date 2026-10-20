@@ -1,0 +1,147 @@
+{
+  "id": "brown-suede-knee-boots",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Fio Puro Brown Suede Knee Boots with a Slim Heel, a Side Zip and a Pointed Toe",
+    "pt-BR": "Botas de cano longo Fio Puro marrons de camurça, salto fino, zíper lateral e bico alongado"
+  },
+  "description": {
+    "en": "Brown suede boots that reach the knee, with a slim heel and a side zip. The shaft is cut to sit under a midi hem.",
+    "pt-BR": "Botas marrons de camurça até o joelho, salto fino e zíper lateral. O cano entra sob a barra de um midi."
+  },
+  "price": {
+    "BRL": 1860,
+    "USD": 388
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "brown suede knee boots"
+    ],
+    "pt-BR": [
+      "botas de cano longo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "suede"
+    }
+  ],
+  "defaultVariantId": "brown-36",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "brown",
+          "name": {
+            "en": "Brown",
+            "pt-BR": "Marrom"
+          },
+          "hex": "#6B3E2A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "36",
+          "valueId": "36"
+        },
+        {
+          "id": "38",
+          "valueId": "38"
+        },
+        {
+          "id": "40",
+          "valueId": "40"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "brown-36",
+      "sku": "FIO-BSK-36",
+      "options": {
+        "color": "brown",
+        "size": "36"
+      },
+      "price": {
+        "BRL": 1860,
+        "USD": 388
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brown Suede Knee Boots with a Slim Heel, a Side Zip and a Pointed Toe, front view",
+            "pt-BR": "Botas de cano longo Fio Puro marrons de camurça, salto fino, zíper lateral e bico alongado, Marrom, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brown-white.png",
+            "#f5f5f5": "brown-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "brown-38",
+      "sku": "FIO-BSK-38",
+      "options": {
+        "color": "brown",
+        "size": "38"
+      },
+      "price": {
+        "BRL": 1860,
+        "USD": 388
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brown Suede Knee Boots with a Slim Heel, a Side Zip and a Pointed Toe, front view",
+            "pt-BR": "Botas de cano longo Fio Puro marrons de camurça, salto fino, zíper lateral e bico alongado, Marrom, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brown-white.png",
+            "#f5f5f5": "brown-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "brown-40",
+      "sku": "FIO-BSK-40",
+      "options": {
+        "color": "brown",
+        "size": "40"
+      },
+      "price": {
+        "BRL": 1860,
+        "USD": 388
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brown Suede Knee Boots with a Slim Heel, a Side Zip and a Pointed Toe, front view",
+            "pt-BR": "Botas de cano longo Fio Puro marrons de camurça, salto fino, zíper lateral e bico alongado, Marrom, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brown-white.png",
+            "#f5f5f5": "brown-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

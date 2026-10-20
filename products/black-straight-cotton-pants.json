@@ -1,0 +1,163 @@
+{
+  "id": "black-straight-cotton-pants",
+  "brandId": "ritmo",
+  "categoryId": "roupa-calcas",
+  "name": {
+    "en": "Ritmo Black Straight Cotton Pants with a Mid Rise, a Clean Leg and a Full-Length Hem",
+    "pt-BR": "Calça reta Ritmo preta de algodão, cós médio, perna limpa e barra no comprimento inteiro"
+  },
+  "description": {
+    "en": "Black straight cotton pants with a mid rise and a clean leg. They sit easier than a tailored trouser and sharper than a sweatpant.",
+    "pt-BR": "Calça reta preta de algodão, cós médio e perna limpa. Mais fácil que um alfaiate e mais seca que um moletom."
+  },
+  "price": {
+    "BRL": 480,
+    "USD": 96
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "straight cotton pants with"
+    ],
+    "pt-BR": [
+      "calça reta ritmo preta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "RIT-BSC-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 96
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Straight Cotton Pants with a Mid Rise, a Clean Leg and a Full-Length Hem, front view",
+            "pt-BR": "Calça reta Ritmo preta de algodão, cós médio, perna limpa e barra no comprimento inteiro, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 640,
+        "USD": 129
+      }
+    },
+    {
+      "id": "black-m",
+      "sku": "RIT-BSC-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 96
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Straight Cotton Pants with a Mid Rise, a Clean Leg and a Full-Length Hem, front view",
+            "pt-BR": "Calça reta Ritmo preta de algodão, cós médio, perna limpa e barra no comprimento inteiro, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 640,
+        "USD": 129
+      }
+    },
+    {
+      "id": "black-l",
+      "sku": "RIT-BSC-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 96
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Straight Cotton Pants with a Mid Rise, a Clean Leg and a Full-Length Hem, front view",
+            "pt-BR": "Calça reta Ritmo preta de algodão, cós médio, perna limpa e barra no comprimento inteiro, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 640,
+        "USD": 129
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 640,
+    "USD": 129
+  }
+}

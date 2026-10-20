@@ -1,0 +1,163 @@
+{
+  "id": "cream-fairisle-crewneck",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-malhas",
+  "name": {
+    "en": "Fio Puro Cream Fairisle Crewneck Sweater in Wool with a Geometric Knit, Long Sleeves and Ribbed Hem",
+    "pt-BR": "Suéter gola redonda Fio Puro creme de lã em ponto fairisle, manga longa e barra canelada"
+  },
+  "description": {
+    "en": "A cream wool crewneck worked in a fairisle geometric knit of navy and rust. The pattern sits on the yoke, cuff and hem.",
+    "pt-BR": "Gola redonda de lã creme em fairisle geométrico, marinho e ferrugem. O desenho fica no ombro, no punho e na barra."
+  },
+  "price": {
+    "BRL": 690,
+    "USD": 142
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cream fairisle crewneck sweater"
+    ],
+    "pt-BR": [
+      "suéter gola redonda fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "wool"
+    }
+  ],
+  "defaultVariantId": "cream-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cream",
+          "name": {
+            "en": "Cream",
+            "pt-BR": "Creme"
+          },
+          "hex": "#F4EFE6"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cream-s",
+      "sku": "FIO-CFC-S",
+      "options": {
+        "color": "cream",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 690,
+        "USD": 142
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Fairisle Crewneck Sweater in Wool with a Geometric Knit, Long Sleeves and Ribbed Hem, front view",
+            "pt-BR": "Suéter gola redonda Fio Puro creme de lã em ponto fairisle, manga longa e barra canelada, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 920,
+        "USD": 189
+      }
+    },
+    {
+      "id": "cream-m",
+      "sku": "FIO-CFC-M",
+      "options": {
+        "color": "cream",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 690,
+        "USD": 142
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Fairisle Crewneck Sweater in Wool with a Geometric Knit, Long Sleeves and Ribbed Hem, front view",
+            "pt-BR": "Suéter gola redonda Fio Puro creme de lã em ponto fairisle, manga longa e barra canelada, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 920,
+        "USD": 189
+      }
+    },
+    {
+      "id": "cream-l",
+      "sku": "FIO-CFC-L",
+      "options": {
+        "color": "cream",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 690,
+        "USD": 142
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Fairisle Crewneck Sweater in Wool with a Geometric Knit, Long Sleeves and Ribbed Hem, front view",
+            "pt-BR": "Suéter gola redonda Fio Puro creme de lã em ponto fairisle, manga longa e barra canelada, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 920,
+        "USD": 189
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 920,
+    "USD": 189
+  }
+}
