@@ -1,0 +1,151 @@
+{
+  "id": "lace-trim-blouse",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Fio Puro Cream Cotton Blouse with Lace Trim at the Neckline, Short Sleeves and a Relaxed Fit",
+    "pt-BR": "Blusa Fio Puro de Algodão Cru com Renda na Gola, Manga Curta e Modelagem Relaxada"
+  },
+  "description": {
+    "en": "A cotton blouse with lace along the neckline and a relaxed body. It sits well on its own or layered under a jacket.",
+    "pt-BR": "Blusa de algodão com renda na gola e corpo folgado. Funciona sozinha ou por baixo de um casaco."
+  },
+  "price": {
+    "BRL": 420,
+    "USD": 98
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "lace blouse",
+      "cotton",
+      "cream"
+    ],
+    "pt-BR": [
+      "blusa de renda",
+      "algodão",
+      "cru"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "cream-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cream",
+          "name": {
+            "en": "Cream",
+            "pt-BR": "Cru"
+          },
+          "hex": "#F4EFE6"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cream-s",
+      "sku": "FIO-LTB-S",
+      "options": {
+        "color": "cream",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 420,
+        "USD": 98
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream cotton blouse with lace trim, front view",
+            "pt-BR": "Blusa de algodão cru com renda, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-m",
+      "sku": "FIO-LTB-M",
+      "options": {
+        "color": "cream",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 420,
+        "USD": 98
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream cotton blouse with lace trim, front view",
+            "pt-BR": "Blusa de algodão cru com renda, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-l",
+      "sku": "FIO-LTB-L",
+      "options": {
+        "color": "cream",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 420,
+        "USD": 98
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream cotton blouse with lace trim, front view",
+            "pt-BR": "Blusa de algodão cru com renda, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

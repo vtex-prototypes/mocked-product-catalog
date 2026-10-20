@@ -1,0 +1,151 @@
+{
+  "id": "leather-loafer",
+  "brandId": "ritmo",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Ritmo Cognac Leather Loafer with a Penny Strap, Almond Toe, Low Heel and a Cushioned Footbed",
+    "pt-BR": "Loafer Ritmo de Couro Conhaque com Tira, Bico Amendoado, Salto Baixo e Palmilha Acolchoada"
+  },
+  "description": {
+    "en": "A leather loafer with a penny strap, an almond toe and a low heel. The cushioned footbed is made for a full day of walking.",
+    "pt-BR": "Loafer de couro com tira, bico amendoado e salto baixo. A palmilha acolchoada aguenta um dia inteiro de caminhada."
+  },
+  "price": {
+    "BRL": 820,
+    "USD": 175
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "leather loafer",
+      "cognac",
+      "almond toe"
+    ],
+    "pt-BR": [
+      "loafer de couro",
+      "conhaque",
+      "bico amendoado"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "cognac-36",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cognac",
+          "name": {
+            "en": "Cognac",
+            "pt-BR": "Conhaque"
+          },
+          "hex": "#8C4A2F"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "36",
+          "valueId": "36"
+        },
+        {
+          "id": "38",
+          "valueId": "38"
+        },
+        {
+          "id": "40",
+          "valueId": "40"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cognac-36",
+      "sku": "RIT-LLF-36",
+      "options": {
+        "color": "cognac",
+        "size": "36"
+      },
+      "price": {
+        "BRL": 820,
+        "USD": 175
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cognac leather loafer, three-quarter view",
+            "pt-BR": "Loafer de couro conhaque, vista de três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cognac-38",
+      "sku": "RIT-LLF-38",
+      "options": {
+        "color": "cognac",
+        "size": "38"
+      },
+      "price": {
+        "BRL": 820,
+        "USD": 175
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cognac leather loafer, three-quarter view",
+            "pt-BR": "Loafer de couro conhaque, vista de três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cognac-40",
+      "sku": "RIT-LLF-40",
+      "options": {
+        "color": "cognac",
+        "size": "40"
+      },
+      "price": {
+        "BRL": 820,
+        "USD": 175
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cognac leather loafer, three-quarter view",
+            "pt-BR": "Loafer de couro conhaque, vista de três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

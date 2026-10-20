@@ -1,0 +1,151 @@
+{
+  "id": "ribbed-lounge-set",
+  "brandId": "ritmo",
+  "categoryId": "roupa-lingerie",
+  "name": {
+    "en": "Ritmo Heather Gray Ribbed Cotton Lounge Set with a Crewneck Top and Relaxed Pants for Time at Home",
+    "pt-BR": "Conjunto Ritmo de Malha Canelada Cinza Mescla com Blusa Gola Careca e Calça Relaxada para Casa"
+  },
+  "description": {
+    "en": "A ribbed cotton set with a crewneck top and relaxed pants. The knit has enough weight to wear around the house without feeling sheer.",
+    "pt-BR": "Conjunto de algodão canelado com blusa de gola careca e calça folgada. A malha tem corpo suficiente para usar em casa sem ficar transparente."
+  },
+  "price": {
+    "BRL": 289,
+    "USD": 64
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "loungewear",
+      "ribbed cotton",
+      "heather"
+    ],
+    "pt-BR": [
+      "homewear",
+      "algodão canelado",
+      "cinza mescla"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "heather-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "heather",
+          "name": {
+            "en": "Heather gray",
+            "pt-BR": "Cinza mescla"
+          },
+          "hex": "#C5C6C8"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "heather-s",
+      "sku": "RIT-RLS-S",
+      "options": {
+        "color": "heather",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 289,
+        "USD": 64
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Heather gray ribbed cotton lounge set, front view",
+            "pt-BR": "Conjunto de malha canelada cinza mescla, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "heather-white.png",
+            "#f5f5f5": "heather-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heather-m",
+      "sku": "RIT-RLS-M",
+      "options": {
+        "color": "heather",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 289,
+        "USD": 64
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Heather gray ribbed cotton lounge set, front view",
+            "pt-BR": "Conjunto de malha canelada cinza mescla, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "heather-white.png",
+            "#f5f5f5": "heather-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "heather-l",
+      "sku": "RIT-RLS-L",
+      "options": {
+        "color": "heather",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 289,
+        "USD": 64
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Heather gray ribbed cotton lounge set, front view",
+            "pt-BR": "Conjunto de malha canelada cinza mescla, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "heather-white.png",
+            "#f5f5f5": "heather-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

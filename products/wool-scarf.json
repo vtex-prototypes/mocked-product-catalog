@@ -1,0 +1,131 @@
+{
+  "id": "wool-scarf",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-acessorios-acessorios",
+  "name": {
+    "en": "Fio Puro Burgundy Wool Scarf with a Soft Hand, Ribbed Ends and Enough Length to Wrap Twice",
+    "pt-BR": "Cachecol Fio Puro Borgonha de Lã com Toque Macio, Pontas Caneladas e Comprimento para Duas Voltas"
+  },
+  "description": {
+    "en": "A wool scarf with a soft hand and ribbed ends. It is long enough to wrap twice without pulling at the neck.",
+    "pt-BR": "Cachecol de lã com toque macio e pontas caneladas. O comprimento dá para duas voltas sem apertar o pescoço."
+  },
+  "price": {
+    "BRL": 269,
+    "USD": 58
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "wool scarf",
+      "burgundy",
+      "accessory"
+    ],
+    "pt-BR": [
+      "cachecol de lã",
+      "borgonha",
+      "acessório"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "wool"
+    }
+  ],
+  "defaultVariantId": "burgundy-180cm",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "burgundy",
+          "name": {
+            "en": "Burgundy",
+            "pt-BR": "Borgonha"
+          },
+          "hex": "#7A2430"
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "180cm",
+          "name": {
+            "en": "70 in",
+            "pt-BR": "180 cm"
+          }
+        },
+        {
+          "id": "200cm",
+          "name": {
+            "en": "78 in",
+            "pt-BR": "200 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "burgundy-180cm",
+      "sku": "FIO-WSC-180CM",
+      "options": {
+        "color": "burgundy",
+        "length": "180cm"
+      },
+      "price": {
+        "BRL": 269,
+        "USD": 58
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Burgundy wool scarf, folded",
+            "pt-BR": "Cachecol de lã borgonha, dobrado"
+          },
+          "backgrounds": {
+            "#ffffff": "burgundy-white.png",
+            "#f5f5f5": "burgundy-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "burgundy-200cm",
+      "sku": "FIO-WSC-200CM",
+      "options": {
+        "color": "burgundy",
+        "length": "200cm"
+      },
+      "price": {
+        "BRL": 269,
+        "USD": 58
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Burgundy wool scarf, folded",
+            "pt-BR": "Cachecol de lã borgonha, dobrado"
+          },
+          "backgrounds": {
+            "#ffffff": "burgundy-white.png",
+            "#f5f5f5": "burgundy-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

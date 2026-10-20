@@ -1,0 +1,151 @@
+{
+  "id": "satin-camisole",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-lingerie",
+  "name": {
+    "en": "Fio Puro Champagne Satin Camisole with Adjustable Straps, a Soft V Neck and a Hip-Length Hem",
+    "pt-BR": "Camisola Fio Puro de Cetim Champagne com Alças Reguláveis, Decote V Suave e Barra no Quadril"
+  },
+  "description": {
+    "en": "A satin camisole with adjustable straps and a soft V neck. The hem falls at the hip and works as loungewear or under a jacket.",
+    "pt-BR": "Camisola de cetim com alças reguláveis e decote V suave. A barra cai no quadril e serve para casa ou sob um casaco."
+  },
+  "price": {
+    "BRL": 329,
+    "USD": 72
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "satin camisole",
+      "lingerie",
+      "champagne"
+    ],
+    "pt-BR": [
+      "camisola de cetim",
+      "lingerie",
+      "champagne"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "satin"
+    }
+  ],
+  "defaultVariantId": "champagne-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "champagne",
+          "name": {
+            "en": "Champagne",
+            "pt-BR": "Champagne"
+          },
+          "hex": "#E7D5BE"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "champagne-s",
+      "sku": "FIO-SCM-S",
+      "options": {
+        "color": "champagne",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 329,
+        "USD": 72
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Champagne satin camisole, front view",
+            "pt-BR": "Camisola de cetim champagne, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "champagne-white.png",
+            "#f5f5f5": "champagne-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "champagne-m",
+      "sku": "FIO-SCM-M",
+      "options": {
+        "color": "champagne",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 329,
+        "USD": 72
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Champagne satin camisole, front view",
+            "pt-BR": "Camisola de cetim champagne, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "champagne-white.png",
+            "#f5f5f5": "champagne-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "champagne-l",
+      "sku": "FIO-SCM-L",
+      "options": {
+        "color": "champagne",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 329,
+        "USD": 72
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Champagne satin camisole, front view",
+            "pt-BR": "Camisola de cetim champagne, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "champagne-white.png",
+            "#f5f5f5": "champagne-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "bike-shorts",
+  "brandId": "ritmo",
+  "categoryId": "roupa-esporte",
+  "name": {
+    "en": "Ritmo Black High-Rise Bike Shorts in Stretch Knit with a Wide Waistband and a Mid-Thigh Hem",
+    "pt-BR": "Bermuda Ritmo Preta de Ciclismo com Cintura Alta, Cós Largo e Barra no Meio da Coxa"
+  },
+  "description": {
+    "en": "High-rise bike shorts in stretch knit with a wide waistband. The hem ends at mid-thigh and does not roll.",
+    "pt-BR": "Bermuda de ciclismo de cintura alta, em malha com elastano e cós largo. A barra termina no meio da coxa e não enrola."
+  },
+  "price": {
+    "BRL": 219,
+    "USD": 48
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "bike shorts",
+      "activewear",
+      "black"
+    ],
+    "pt-BR": [
+      "bermuda de ciclismo",
+      "roupa esportiva",
+      "preta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton-blend"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1C1C1C"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "RIT-BKS-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 219,
+        "USD": 48
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black high-rise bike shorts, front view",
+            "pt-BR": "Bermuda preta de ciclismo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "RIT-BKS-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 219,
+        "USD": 48
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black high-rise bike shorts, front view",
+            "pt-BR": "Bermuda preta de ciclismo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "RIT-BKS-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 219,
+        "USD": 48
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black high-rise bike shorts, front view",
+            "pt-BR": "Bermuda preta de ciclismo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

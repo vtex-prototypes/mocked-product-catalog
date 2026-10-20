@@ -91,10 +91,66 @@
         }
       },
       {
+        "id": "brass",
+        "name": {
+          "en": "Brass",
+          "pt-BR": "Latão"
+        }
+      },
+      {
+        "id": "denim",
+        "name": {
+          "en": "Denim",
+          "pt-BR": "Jeans"
+        }
+      },
+      {
         "id": "leather",
         "name": {
           "en": "Leather",
           "pt-BR": "Couro"
+        }
+      },
+      {
+        "id": "linen",
+        "name": {
+          "en": "Linen",
+          "pt-BR": "Linho"
+        }
+      },
+      {
+        "id": "merino-wool",
+        "name": {
+          "en": "Merino wool",
+          "pt-BR": "Lã merino"
+        }
+      },
+      {
+        "id": "satin",
+        "name": {
+          "en": "Satin",
+          "pt-BR": "Cetim"
+        }
+      },
+      {
+        "id": "straw",
+        "name": {
+          "en": "Straw",
+          "pt-BR": "Palha"
+        }
+      },
+      {
+        "id": "viscose",
+        "name": {
+          "en": "Viscose",
+          "pt-BR": "Viscose"
+        }
+      },
+      {
+        "id": "wool",
+        "name": {
+          "en": "Wool",
+          "pt-BR": "Lã"
         }
       },
       {
