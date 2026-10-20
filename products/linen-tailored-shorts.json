@@ -1,0 +1,151 @@
+{
+  "id": "linen-tailored-shorts",
+  "brandId": "ritmo",
+  "categoryId": "roupa-calcas",
+  "name": {
+    "en": "Ritmo Sand Linen Tailored Shorts with a Mid Rise, Front Pleats and a Clean Mid-Thigh Hem",
+    "pt-BR": "Bermuda Ritmo de Linho Areia com Cintura Média, Pregas Frontais e Barra Limpa no Meio da Coxa"
+  },
+  "description": {
+    "en": "Tailored linen shorts with a mid rise and soft front pleats. The hem sits at mid-thigh and holds a crease through the day.",
+    "pt-BR": "Bermuda de linho alfaiatada, cintura média e pregas suaves na frente. A barra fica no meio da coxa e segura o vinco."
+  },
+  "price": {
+    "BRL": 349,
+    "USD": 78
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "linen shorts",
+      "sand",
+      "tailored"
+    ],
+    "pt-BR": [
+      "bermuda de linho",
+      "areia",
+      "alfaiatada"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "linen"
+    }
+  ],
+  "defaultVariantId": "sand-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "sand",
+          "name": {
+            "en": "Sand",
+            "pt-BR": "Areia"
+          },
+          "hex": "#D9C7A4"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "sand-s",
+      "sku": "RIT-LTS-S",
+      "options": {
+        "color": "sand",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 349,
+        "USD": 78
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sand linen tailored shorts, front view",
+            "pt-BR": "Bermuda de linho areia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sand-m",
+      "sku": "RIT-LTS-M",
+      "options": {
+        "color": "sand",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 349,
+        "USD": 78
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sand linen tailored shorts, front view",
+            "pt-BR": "Bermuda de linho areia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sand-l",
+      "sku": "RIT-LTS-L",
+      "options": {
+        "color": "sand",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 349,
+        "USD": 78
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sand linen tailored shorts, front view",
+            "pt-BR": "Bermuda de linho areia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

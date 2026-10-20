@@ -1,0 +1,151 @@
+{
+  "id": "wide-leg-trousers",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-calcas",
+  "name": {
+    "en": "Fio Puro Black Wide-Leg Trousers in Wool with a High Rise, Pressed Crease and Full-Length Hem",
+    "pt-BR": "Calça Fio Puro Preta de Perna Larga em Lã, com Cintura Alta, Vinco Marcado e Barra Longa"
+  },
+  "description": {
+    "en": "Wide-leg wool trousers with a high rise and a pressed crease. The full-length hem works with flats and with a low heel.",
+    "pt-BR": "Calça de lã com perna larga, cintura alta e vinco marcado. A barra longa funciona com rasteira e com salto baixo."
+  },
+  "price": {
+    "BRL": 780,
+    "USD": 165
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "wide-leg trousers",
+      "wool",
+      "black"
+    ],
+    "pt-BR": [
+      "calça pantalona",
+      "lã",
+      "preta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "wool"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1C1C1C"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-WLT-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 780,
+        "USD": 165
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black wide-leg wool trousers, front view",
+            "pt-BR": "Calça preta de lã com perna larga, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-WLT-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 780,
+        "USD": 165
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black wide-leg wool trousers, front view",
+            "pt-BR": "Calça preta de lã com perna larga, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-WLT-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 780,
+        "USD": 165
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black wide-leg wool trousers, front view",
+            "pt-BR": "Calça preta de lã com perna larga, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

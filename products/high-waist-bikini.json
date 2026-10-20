@@ -1,0 +1,151 @@
+{
+  "id": "high-waist-bikini",
+  "brandId": "ritmo",
+  "categoryId": "roupa-praia",
+  "name": {
+    "en": "Ritmo Terracotta High-Waist Bikini in Recycled Knit with a Triangle Top and a Supportive Brief",
+    "pt-BR": "Biquíni Ritmo Terracota de Cintura Alta em Malha Reciclada com Top Triângulo e Calcinha de Sustentação"
+  },
+  "description": {
+    "en": "A two-piece bikini with a triangle top and a high-waist brief. The recycled knit holds its shape when wet.",
+    "pt-BR": "Biquíni com top triângulo e calcinha de cintura alta. A malha reciclada mantém a forma molhada."
+  },
+  "price": {
+    "BRL": 359,
+    "USD": 78
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "bikini",
+      "high waist",
+      "terracotta"
+    ],
+    "pt-BR": [
+      "biquíni",
+      "cintura alta",
+      "terracota"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "recycled-polyester"
+    }
+  ],
+  "defaultVariantId": "terracotta-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "terracotta",
+          "name": {
+            "en": "Terracotta",
+            "pt-BR": "Terracota"
+          },
+          "hex": "#C46B4A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "terracotta-s",
+      "sku": "RIT-HWB-S",
+      "options": {
+        "color": "terracotta",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 359,
+        "USD": 78
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Terracotta high-waist bikini, front view",
+            "pt-BR": "Biquíni terracota de cintura alta, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "terracotta-m",
+      "sku": "RIT-HWB-M",
+      "options": {
+        "color": "terracotta",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 359,
+        "USD": 78
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Terracotta high-waist bikini, front view",
+            "pt-BR": "Biquíni terracota de cintura alta, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "terracotta-l",
+      "sku": "RIT-HWB-L",
+      "options": {
+        "color": "terracotta",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 359,
+        "USD": 78
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Terracotta high-waist bikini, front view",
+            "pt-BR": "Biquíni terracota de cintura alta, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

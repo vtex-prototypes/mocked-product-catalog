@@ -1,0 +1,151 @@
+{
+  "id": "studio-tank",
+  "brandId": "ritmo",
+  "categoryId": "roupa-esporte",
+  "name": {
+    "en": "Ritmo Black Studio Tank in Stretch Knit with a Racerback, Bound Neckline and a Close Fit for Training",
+    "pt-BR": "Regata Ritmo Preta de Malha com Elastano, Costa Nadador, Decote Acabado e Ajuste Próximo ao Corpo"
+  },
+  "description": {
+    "en": "A close-fitting studio tank with a racerback and a bound neckline. The stretch knit stays put through a class.",
+    "pt-BR": "Regata justa com costa nadador e decote acabado. A malha com elastano não sobe durante a aula."
+  },
+  "price": {
+    "BRL": 189,
+    "USD": 42
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "studio tank",
+      "activewear",
+      "black"
+    ],
+    "pt-BR": [
+      "regata de treino",
+      "roupa esportiva",
+      "preta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton-blend"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1C1C1C"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "RIT-STK-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 42
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black studio tank, front view",
+            "pt-BR": "Regata preta de treino, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "RIT-STK-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 42
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black studio tank, front view",
+            "pt-BR": "Regata preta de treino, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "RIT-STK-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 42
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black studio tank, front view",
+            "pt-BR": "Regata preta de treino, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

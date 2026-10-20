@@ -1,0 +1,151 @@
+{
+  "id": "denim-mini-skirt",
+  "brandId": "ritmo",
+  "categoryId": "roupa-saias",
+  "name": {
+    "en": "Ritmo Indigo Denim Mini Skirt with a High Rise, A-Line Shape and a Clean Hem for Everyday Wear",
+    "pt-BR": "Minissaia Ritmo Jeans Índigo com Cintura Alta, Corte Evasê e Barra Limpa para o Dia a Dia"
+  },
+  "description": {
+    "en": "A denim mini with a high rise and an A-line that skims the hip. The hem is clean, without a raw edge.",
+    "pt-BR": "Minissaia jeans de cintura alta e corte evasê, que passa pelo quadril sem marcar. A barra é limpa, sem fio desfiado."
+  },
+  "price": {
+    "BRL": 420,
+    "USD": 88
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "denim mini skirt",
+      "indigo",
+      "high rise"
+    ],
+    "pt-BR": [
+      "minissaia jeans",
+      "índigo",
+      "cintura alta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "denim"
+    }
+  ],
+  "defaultVariantId": "indigo-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "indigo",
+          "name": {
+            "en": "Indigo",
+            "pt-BR": "Índigo"
+          },
+          "hex": "#1E2A44"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "indigo-s",
+      "sku": "RIT-DMS-S",
+      "options": {
+        "color": "indigo",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 420,
+        "USD": 88
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Indigo denim mini skirt, front view",
+            "pt-BR": "Minissaia jeans índigo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "indigo-white.png",
+            "#f5f5f5": "indigo-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "indigo-m",
+      "sku": "RIT-DMS-M",
+      "options": {
+        "color": "indigo",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 420,
+        "USD": 88
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Indigo denim mini skirt, front view",
+            "pt-BR": "Minissaia jeans índigo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "indigo-white.png",
+            "#f5f5f5": "indigo-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "indigo-l",
+      "sku": "RIT-DMS-L",
+      "options": {
+        "color": "indigo",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 420,
+        "USD": 88
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Indigo denim mini skirt, front view",
+            "pt-BR": "Minissaia jeans índigo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "indigo-white.png",
+            "#f5f5f5": "indigo-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

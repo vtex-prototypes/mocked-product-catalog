@@ -1,0 +1,167 @@
+{
+  "id": "merino-turtleneck",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-malhas",
+  "name": {
+    "en": "Fio Puro Camel Merino Wool Turtleneck Sweater with a Fine Knit, Close Fit and Ribbed Trims",
+    "pt-BR": "Suéter Fio Puro Gola Alta Camel em Lã Merino, Tricô Fino, Modelagem Justa e Acabamento Canelado"
+  },
+  "description": {
+    "en": "A fine merino turtleneck that layers under coats without adding bulk. Ribbed trims keep the neck, cuffs and hem in place.",
+    "pt-BR": "Gola alta de merino fino, que entra sob o casaco sem volume. O canelado segura o decote, os punhos e a barra."
+  },
+  "price": {
+    "BRL": 620,
+    "USD": 128
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "turtleneck",
+      "merino",
+      "camel"
+    ],
+    "pt-BR": [
+      "gola alta",
+      "merino",
+      "camelo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "merino-wool"
+    }
+  ],
+  "defaultVariantId": "camel-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "camel",
+          "name": {
+            "en": "Camel",
+            "pt-BR": "Camelo"
+          },
+          "hex": "#C4A574"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "camel-s",
+      "sku": "FIO-MTN-S",
+      "options": {
+        "color": "camel",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 620,
+        "USD": 128
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Camel merino wool turtleneck sweater, front view",
+            "pt-BR": "Suéter gola alta camel de lã merino, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "camel-white.png",
+            "#f5f5f5": "camel-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 980,
+        "USD": 198
+      }
+    },
+    {
+      "id": "camel-m",
+      "sku": "FIO-MTN-M",
+      "options": {
+        "color": "camel",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 620,
+        "USD": 128
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Camel merino wool turtleneck sweater, front view",
+            "pt-BR": "Suéter gola alta camel de lã merino, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "camel-white.png",
+            "#f5f5f5": "camel-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 980,
+        "USD": 198
+      }
+    },
+    {
+      "id": "camel-l",
+      "sku": "FIO-MTN-L",
+      "options": {
+        "color": "camel",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 620,
+        "USD": 128
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Camel merino wool turtleneck sweater, front view",
+            "pt-BR": "Suéter gola alta camel de lã merino, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "camel-white.png",
+            "#f5f5f5": "camel-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 980,
+        "USD": 198
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 980,
+    "USD": 198
+  }
+}

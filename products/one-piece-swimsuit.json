@@ -1,0 +1,151 @@
+{
+  "id": "one-piece-swimsuit",
+  "brandId": "ritmo",
+  "categoryId": "roupa-praia",
+  "name": {
+    "en": "Ritmo Black One-Piece Swimsuit in Recycled Knit with a Scoop Neck, Moderate Coverage and Fixed Straps",
+    "pt-BR": "Maiô Ritmo Preto em Malha Reciclada com Decote Redondo, Cobertura Moderada e Alças Fixas"
+  },
+  "description": {
+    "en": "A one-piece swimsuit in recycled knit with a scoop neck and fixed straps. Coverage is moderate and the leg line sits at the hip.",
+    "pt-BR": "Maiô em malha reciclada com decote redondo e alças fixas. A cobertura é moderada e a cava fica na altura do quadril."
+  },
+  "price": {
+    "BRL": 449,
+    "USD": 96
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "one-piece swimsuit",
+      "black",
+      "swim"
+    ],
+    "pt-BR": [
+      "maiô",
+      "preto",
+      "praia"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "recycled-polyester"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1C1C1C"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "RIT-OPS-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 449,
+        "USD": 96
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black one-piece swimsuit, front view",
+            "pt-BR": "Maiô preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "RIT-OPS-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 449,
+        "USD": 96
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black one-piece swimsuit, front view",
+            "pt-BR": "Maiô preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "RIT-OPS-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 449,
+        "USD": 96
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black one-piece swimsuit, front view",
+            "pt-BR": "Maiô preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

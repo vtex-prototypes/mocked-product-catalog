@@ -1,0 +1,151 @@
+{
+  "id": "linen-shirt-dress",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-vestidos",
+  "name": {
+    "en": "Fio Puro Ivory Linen Shirt Dress with a Button Front, Point Collar, Self Belt and Midi Hem",
+    "pt-BR": "Chemise Fio Puro de Linho Marfim com Abotoamento, Gola Ponta, Cinto do Mesmo Tecido e Barra Midi"
+  },
+  "description": {
+    "en": "A linen shirt dress cut with a point collar and a full button front. The self belt defines the waist without making the skirt stiff.",
+    "pt-BR": "Chemise de linho com gola ponta e abotoamento completo. O cinto do mesmo tecido marca a cintura sem endurecer a saia."
+  },
+  "price": {
+    "BRL": 790,
+    "USD": 168
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "shirt dress",
+      "linen",
+      "ivory"
+    ],
+    "pt-BR": [
+      "chemise",
+      "linho",
+      "marfim"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "linen"
+    }
+  ],
+  "defaultVariantId": "ivory-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "ivory",
+          "name": {
+            "en": "Ivory",
+            "pt-BR": "Marfim"
+          },
+          "hex": "#F3EDE4"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "ivory-s",
+      "sku": "FIO-LSD-S",
+      "options": {
+        "color": "ivory",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 790,
+        "USD": 168
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ivory linen shirt dress, front view",
+            "pt-BR": "Chemise de linho marfim, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "ivory-white.png",
+            "#f5f5f5": "ivory-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ivory-m",
+      "sku": "FIO-LSD-M",
+      "options": {
+        "color": "ivory",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 790,
+        "USD": 168
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ivory linen shirt dress, front view",
+            "pt-BR": "Chemise de linho marfim, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "ivory-white.png",
+            "#f5f5f5": "ivory-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ivory-l",
+      "sku": "FIO-LSD-L",
+      "options": {
+        "color": "ivory",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 790,
+        "USD": 168
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ivory linen shirt dress, front view",
+            "pt-BR": "Chemise de linho marfim, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "ivory-white.png",
+            "#f5f5f5": "ivory-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

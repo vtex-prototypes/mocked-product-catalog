@@ -1,0 +1,131 @@
+{
+  "id": "gold-hoop-earrings",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-joias",
+  "name": {
+    "en": "Fio Puro Gold Brass Hoop Earrings with a Hinged Closure and a Smooth Polished Finish, Sold as a Pair",
+    "pt-BR": "Argolas Fio Puro Douradas de Latão com Fecho Articulado e Acabamento Polido, Vendidas em Par"
+  },
+  "description": {
+    "en": "A pair of polished brass hoops with a hinged closure. The gold finish is even, with no plating that flakes at the hinge.",
+    "pt-BR": "Par de argolas de latão polido com fecho articulado. O dourado é uniforme, sem banho que descasca na dobradiça."
+  },
+  "price": {
+    "BRL": 220,
+    "USD": 48
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "gold hoop earrings",
+      "brass",
+      "jewelry"
+    ],
+    "pt-BR": [
+      "argolas douradas",
+      "latão",
+      "joia"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "brass"
+    }
+  ],
+  "defaultVariantId": "gold-30mm",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gold",
+          "name": {
+            "en": "Gold",
+            "pt-BR": "Dourado"
+          },
+          "hex": "#D4AF37"
+        }
+      ]
+    },
+    {
+      "id": "diameter",
+      "name": {
+        "en": "Diameter",
+        "pt-BR": "Diâmetro"
+      },
+      "values": [
+        {
+          "id": "30mm",
+          "name": {
+            "en": "30 mm",
+            "pt-BR": "30 mm"
+          }
+        },
+        {
+          "id": "40mm",
+          "name": {
+            "en": "40 mm",
+            "pt-BR": "40 mm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gold-30mm",
+      "sku": "FIO-GHE-30MM",
+      "options": {
+        "color": "gold",
+        "diameter": "30mm"
+      },
+      "price": {
+        "BRL": 220,
+        "USD": 48
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gold brass hoop earrings, front view",
+            "pt-BR": "Argolas douradas de latão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gold-white.png",
+            "#f5f5f5": "gold-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gold-40mm",
+      "sku": "FIO-GHE-40MM",
+      "options": {
+        "color": "gold",
+        "diameter": "40mm"
+      },
+      "price": {
+        "BRL": 220,
+        "USD": 48
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gold brass hoop earrings, front view",
+            "pt-BR": "Argolas douradas de latão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gold-white.png",
+            "#f5f5f5": "gold-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

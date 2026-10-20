@@ -1,0 +1,122 @@
+{
+  "id": "woven-straw-tote",
+  "brandId": "ritmo",
+  "categoryId": "roupa-bolsas",
+  "name": {
+    "en": "Ritmo Natural Straw Tote with an Open Weave, Twin Handles and a Firm Base for Market Days",
+    "pt-BR": "Bolsa Tote Ritmo de Palha Natural com Trama Aberta, Alças Duplas e Base Firme para o Mercado"
+  },
+  "description": {
+    "en": "An open-weave straw tote with two short handles and a firm base. It stands up when you set it down.",
+    "pt-BR": "Tote de palha com trama aberta, duas alças curtas e base firme. A bolsa fica em pé quando apoiada."
+  },
+  "price": {
+    "BRL": 440,
+    "USD": 95
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "straw tote",
+      "natural",
+      "bag"
+    ],
+    "pt-BR": [
+      "tote de palha",
+      "natural",
+      "bolsa"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "straw"
+    }
+  ],
+  "defaultVariantId": "natural-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          },
+          "hex": "#E4D3B0"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "natural-s",
+      "sku": "RIT-WST-S",
+      "options": {
+        "color": "natural",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 440,
+        "USD": 95
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Natural straw tote bag, front view",
+            "pt-BR": "Bolsa tote de palha natural, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "natural-white.png",
+            "#f5f5f5": "natural-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "natural-m",
+      "sku": "RIT-WST-M",
+      "options": {
+        "color": "natural",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 440,
+        "USD": 95
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Natural straw tote bag, front view",
+            "pt-BR": "Bolsa tote de palha natural, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "natural-white.png",
+            "#f5f5f5": "natural-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

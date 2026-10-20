@@ -129,10 +129,66 @@
           }
         },
         {
+          "id": "brass",
+          "name": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        },
+        {
+          "id": "denim",
+          "name": {
+            "en": "Denim",
+            "pt-BR": "Jeans"
+          }
+        },
+        {
           "id": "leather",
           "name": {
             "en": "Leather",
             "pt-BR": "Couro"
+          }
+        },
+        {
+          "id": "linen",
+          "name": {
+            "en": "Linen",
+            "pt-BR": "Linho"
+          }
+        },
+        {
+          "id": "merino-wool",
+          "name": {
+            "en": "Merino wool",
+            "pt-BR": "Lã merino"
+          }
+        },
+        {
+          "id": "satin",
+          "name": {
+            "en": "Satin",
+            "pt-BR": "Cetim"
+          }
+        },
+        {
+          "id": "straw",
+          "name": {
+            "en": "Straw",
+            "pt-BR": "Palha"
+          }
+        },
+        {
+          "id": "viscose",
+          "name": {
+            "en": "Viscose",
+            "pt-BR": "Viscose"
+          }
+        },
+        {
+          "id": "wool",
+          "name": {
+            "en": "Wool",
+            "pt-BR": "Lã"
           }
         },
         {
@@ -336,6 +392,94 @@
       "name": {
         "en": "Formal Tops",
         "pt-BR": "Parte de cima formal"
+      },
+      "parent": "roupa-acessorios"
+    },
+    {
+      "id": "roupa-vestidos",
+      "name": {
+        "en": "Dresses",
+        "pt-BR": "Vestidos"
+      },
+      "parent": "roupa-acessorios"
+    },
+    {
+      "id": "roupa-malhas",
+      "name": {
+        "en": "Sweaters",
+        "pt-BR": "Malhas"
+      },
+      "parent": "roupa-acessorios"
+    },
+    {
+      "id": "roupa-calcas",
+      "name": {
+        "en": "Pants",
+        "pt-BR": "Calças"
+      },
+      "parent": "roupa-acessorios"
+    },
+    {
+      "id": "roupa-saias",
+      "name": {
+        "en": "Skirts",
+        "pt-BR": "Saias"
+      },
+      "parent": "roupa-acessorios"
+    },
+    {
+      "id": "roupa-jeans",
+      "name": {
+        "en": "Jeans",
+        "pt-BR": "Jeans"
+      },
+      "parent": "roupa-acessorios"
+    },
+    {
+      "id": "roupa-casacos",
+      "name": {
+        "en": "Outerwear",
+        "pt-BR": "Casacos"
+      },
+      "parent": "roupa-acessorios"
+    },
+    {
+      "id": "roupa-lingerie",
+      "name": {
+        "en": "Lingerie & Loungewear",
+        "pt-BR": "Lingerie e homewear"
+      },
+      "parent": "roupa-acessorios"
+    },
+    {
+      "id": "roupa-praia",
+      "name": {
+        "en": "Swimwear",
+        "pt-BR": "Moda praia"
+      },
+      "parent": "roupa-acessorios"
+    },
+    {
+      "id": "roupa-esporte",
+      "name": {
+        "en": "Activewear",
+        "pt-BR": "Roupa esportiva"
+      },
+      "parent": "roupa-acessorios"
+    },
+    {
+      "id": "roupa-bolsas",
+      "name": {
+        "en": "Bags",
+        "pt-BR": "Bolsas"
+      },
+      "parent": "roupa-acessorios"
+    },
+    {
+      "id": "roupa-joias",
+      "name": {
+        "en": "Jewelry",
+        "pt-BR": "Joias"
       },
       "parent": "roupa-acessorios"
     },
@@ -1034,6 +1178,200 @@
       ]
     },
     {
+      "id": "bike-shorts",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-esporte",
+      "name": {
+        "en": "Ritmo Black High-Rise Bike Shorts in Stretch Knit with a Wide Waistband and a Mid-Thigh Hem",
+        "pt-BR": "Bermuda Ritmo Preta de Ciclismo com Cintura Alta, Cós Largo e Barra no Meio da Coxa"
+      },
+      "description": {
+        "en": "High-rise bike shorts in stretch knit with a wide waistband. The hem ends at mid-thigh and does not roll.",
+        "pt-BR": "Bermuda de ciclismo de cintura alta, em malha com elastano e cós largo. A barra termina no meio da coxa e não enrola."
+      },
+      "price": {
+        "BRL": 219,
+        "USD": 48
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "bike shorts",
+          "activewear",
+          "black"
+        ],
+        "pt-BR": [
+          "bermuda de ciclismo",
+          "roupa esportiva",
+          "preta"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton-blend",
+          "value": {
+            "en": "Cotton blend",
+            "pt-BR": "Mistura de algodão"
+          }
+        }
+      ],
+      "defaultVariantId": "black-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#1C1C1C"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "black-s",
+          "sku": "RIT-BKS-S",
+          "options": {
+            "color": "black",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 219,
+            "USD": 48
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black high-rise bike shorts, front view",
+                "pt-BR": "Bermuda preta de ciclismo, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bike-shorts/black-white.webp",
+                "#f5f5f5": "images/bike-shorts/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-m",
+          "sku": "RIT-BKS-M",
+          "options": {
+            "color": "black",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 219,
+            "USD": 48
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black high-rise bike shorts, front view",
+                "pt-BR": "Bermuda preta de ciclismo, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bike-shorts/black-white.webp",
+                "#f5f5f5": "images/bike-shorts/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-l",
+          "sku": "RIT-BKS-L",
+          "options": {
+            "color": "black",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 219,
+            "USD": 48
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black high-rise bike shorts, front view",
+                "pt-BR": "Bermuda preta de ciclismo, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bike-shorts/black-white.webp",
+                "#f5f5f5": "images/bike-shorts/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "bluetooth-speaker",
       "categoryId": "eletro-casa-entretenimento",
       "name": {
@@ -1154,6 +1492,200 @@
               "src": {
                 "#ffffff": "images/bluetooth-speaker/black-white.webp",
                 "#f5f5f5": "images/bluetooth-speaker/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cable-crewneck-sweater",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-malhas",
+      "name": {
+        "en": "Fio Puro Cream Cable-Knit Crewneck Sweater in Wool with Ribbed Cuffs, Hem and a Relaxed Body",
+        "pt-BR": "Suéter Fio Puro Cru de Tricô Aran com Gola Careca, Lã, Punhos e Barra Canelados e Corpo Relaxado"
+      },
+      "description": {
+        "en": "A wool crewneck with cable stitch across the front and ribbing at the cuffs and hem. The body is relaxed enough to layer over a shirt.",
+        "pt-BR": "Gola careca de lã com trança na frente e canelado no punho e na barra. O corpo folgado aceita uma camisa por baixo."
+      },
+      "price": {
+        "BRL": 690,
+        "USD": 145
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "cable sweater",
+          "wool",
+          "cream"
+        ],
+        "pt-BR": [
+          "suéter de tricô",
+          "lã",
+          "cru"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "wool",
+          "value": {
+            "en": "Wool",
+            "pt-BR": "Lã"
+          }
+        }
+      ],
+      "defaultVariantId": "cream-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "cream",
+              "name": {
+                "en": "Cream",
+                "pt-BR": "Cru"
+              },
+              "hex": "#F4EFE6"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "cream-s",
+          "sku": "FIO-CCS-S",
+          "options": {
+            "color": "cream",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 690,
+            "USD": 145
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cream cable-knit wool crewneck sweater, front view",
+                "pt-BR": "Suéter de lã cru com tricô aran, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "cream-white.png",
+                "#f5f5f5": "cream-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/cable-crewneck-sweater/cream-white.webp",
+                "#f5f5f5": "images/cable-crewneck-sweater/cream-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cream-m",
+          "sku": "FIO-CCS-M",
+          "options": {
+            "color": "cream",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 690,
+            "USD": 145
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cream cable-knit wool crewneck sweater, front view",
+                "pt-BR": "Suéter de lã cru com tricô aran, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "cream-white.png",
+                "#f5f5f5": "cream-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/cable-crewneck-sweater/cream-white.webp",
+                "#f5f5f5": "images/cable-crewneck-sweater/cream-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cream-l",
+          "sku": "FIO-CCS-L",
+          "options": {
+            "color": "cream",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 690,
+            "USD": 145
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cream cable-knit wool crewneck sweater, front view",
+                "pt-BR": "Suéter de lã cru com tricô aran, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "cream-white.png",
+                "#f5f5f5": "cream-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/cable-crewneck-sweater/cream-white.webp",
+                "#f5f5f5": "images/cable-crewneck-sweater/cream-gray.webp"
               }
             }
           ]
@@ -1788,6 +2320,200 @@
         "BRL": 299.9,
         "USD": 68
       }
+    },
+    {
+      "id": "denim-mini-skirt",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-saias",
+      "name": {
+        "en": "Ritmo Indigo Denim Mini Skirt with a High Rise, A-Line Shape and a Clean Hem for Everyday Wear",
+        "pt-BR": "Minissaia Ritmo Jeans Índigo com Cintura Alta, Corte Evasê e Barra Limpa para o Dia a Dia"
+      },
+      "description": {
+        "en": "A denim mini with a high rise and an A-line that skims the hip. The hem is clean, without a raw edge.",
+        "pt-BR": "Minissaia jeans de cintura alta e corte evasê, que passa pelo quadril sem marcar. A barra é limpa, sem fio desfiado."
+      },
+      "price": {
+        "BRL": 420,
+        "USD": 88
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "denim mini skirt",
+          "indigo",
+          "high rise"
+        ],
+        "pt-BR": [
+          "minissaia jeans",
+          "índigo",
+          "cintura alta"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "denim",
+          "value": {
+            "en": "Denim",
+            "pt-BR": "Jeans"
+          }
+        }
+      ],
+      "defaultVariantId": "indigo-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "indigo",
+              "name": {
+                "en": "Indigo",
+                "pt-BR": "Índigo"
+              },
+              "hex": "#1E2A44"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "indigo-s",
+          "sku": "RIT-DMS-S",
+          "options": {
+            "color": "indigo",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 420,
+            "USD": 88
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Indigo denim mini skirt, front view",
+                "pt-BR": "Minissaia jeans índigo, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "indigo-white.png",
+                "#f5f5f5": "indigo-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/denim-mini-skirt/indigo-white.webp",
+                "#f5f5f5": "images/denim-mini-skirt/indigo-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "indigo-m",
+          "sku": "RIT-DMS-M",
+          "options": {
+            "color": "indigo",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 420,
+            "USD": 88
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Indigo denim mini skirt, front view",
+                "pt-BR": "Minissaia jeans índigo, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "indigo-white.png",
+                "#f5f5f5": "indigo-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/denim-mini-skirt/indigo-white.webp",
+                "#f5f5f5": "images/denim-mini-skirt/indigo-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "indigo-l",
+          "sku": "RIT-DMS-L",
+          "options": {
+            "color": "indigo",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 420,
+            "USD": 88
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Indigo denim mini skirt, front view",
+                "pt-BR": "Minissaia jeans índigo, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "indigo-white.png",
+                "#f5f5f5": "indigo-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/denim-mini-skirt/indigo-white.webp",
+                "#f5f5f5": "images/denim-mini-skirt/indigo-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "desk-fan",
@@ -3123,6 +3849,216 @@
       ]
     },
     {
+      "id": "floral-midi-dress",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-vestidos",
+      "name": {
+        "en": "Fio Puro Rust Floral Midi Dress in Cotton with Short Sleeves, a Gathered Skirt and a Soft Tie Waist",
+        "pt-BR": "Vestido Midi Fio Puro Floral Ferrugem em Algodão com Manga Curta, Saia Evasê e Amarração na Cintura"
+      },
+      "description": {
+        "en": "A printed cotton midi with short sleeves and a skirt that moves when you walk. The tie waist keeps the shape easy to adjust over a long day.",
+        "pt-BR": "Midi de algodão estampado, com manga curta e saia que acompanha o passo. A amarração na cintura deixa o caimento fácil de ajustar ao longo do dia."
+      },
+      "price": {
+        "BRL": 899,
+        "USD": 189
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "floral midi dress",
+          "cotton",
+          "rust"
+        ],
+        "pt-BR": [
+          "vestido midi floral",
+          "algodão",
+          "ferrugem"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton",
+          "value": {
+            "en": "Cotton",
+            "pt-BR": "Algodão"
+          }
+        }
+      ],
+      "defaultVariantId": "rust-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "rust",
+              "name": {
+                "en": "Rust",
+                "pt-BR": "Ferrugem"
+              },
+              "hex": "#C4623A"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "rust-s",
+          "sku": "FIO-FMD-S",
+          "options": {
+            "color": "rust",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 899,
+            "USD": 189
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Rust floral cotton midi dress, front view",
+                "pt-BR": "Vestido midi floral ferrugem de algodão, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "rust-white.png",
+                "#f5f5f5": "rust-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/floral-midi-dress/rust-white.webp",
+                "#f5f5f5": "images/floral-midi-dress/rust-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 1190,
+            "USD": 248
+          }
+        },
+        {
+          "id": "rust-m",
+          "sku": "FIO-FMD-M",
+          "options": {
+            "color": "rust",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 899,
+            "USD": 189
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Rust floral cotton midi dress, front view",
+                "pt-BR": "Vestido midi floral ferrugem de algodão, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "rust-white.png",
+                "#f5f5f5": "rust-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/floral-midi-dress/rust-white.webp",
+                "#f5f5f5": "images/floral-midi-dress/rust-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 1190,
+            "USD": 248
+          }
+        },
+        {
+          "id": "rust-l",
+          "sku": "FIO-FMD-L",
+          "options": {
+            "color": "rust",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 899,
+            "USD": 189
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Rust floral cotton midi dress, front view",
+                "pt-BR": "Vestido midi floral ferrugem de algodão, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "rust-white.png",
+                "#f5f5f5": "rust-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/floral-midi-dress/rust-white.webp",
+                "#f5f5f5": "images/floral-midi-dress/rust-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 1190,
+            "USD": 248
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1190,
+        "USD": 248
+      }
+    },
+    {
       "id": "game-controller",
       "categoryId": "eletro-acessorios",
       "name": {
@@ -3255,6 +4191,160 @@
               "src": {
                 "#ffffff": "images/game-controller/black-white.webp",
                 "#f5f5f5": "images/game-controller/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gold-hoop-earrings",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-joias",
+      "name": {
+        "en": "Fio Puro Gold Brass Hoop Earrings with a Hinged Closure and a Smooth Polished Finish, Sold as a Pair",
+        "pt-BR": "Argolas Fio Puro Douradas de Latão com Fecho Articulado e Acabamento Polido, Vendidas em Par"
+      },
+      "description": {
+        "en": "A pair of polished brass hoops with a hinged closure. The gold finish is even, with no plating that flakes at the hinge.",
+        "pt-BR": "Par de argolas de latão polido com fecho articulado. O dourado é uniforme, sem banho que descasca na dobradiça."
+      },
+      "price": {
+        "BRL": 220,
+        "USD": 48
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "gold hoop earrings",
+          "brass",
+          "jewelry"
+        ],
+        "pt-BR": [
+          "argolas douradas",
+          "latão",
+          "joia"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "brass",
+          "value": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        }
+      ],
+      "defaultVariantId": "gold-30mm",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gold",
+              "name": {
+                "en": "Gold",
+                "pt-BR": "Dourado"
+              },
+              "hex": "#D4AF37"
+            }
+          ]
+        },
+        {
+          "id": "diameter",
+          "name": {
+            "en": "Diameter",
+            "pt-BR": "Diâmetro"
+          },
+          "values": [
+            {
+              "id": "30mm",
+              "name": {
+                "en": "30 mm",
+                "pt-BR": "30 mm"
+              }
+            },
+            {
+              "id": "40mm",
+              "name": {
+                "en": "40 mm",
+                "pt-BR": "40 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gold-30mm",
+          "sku": "FIO-GHE-30MM",
+          "options": {
+            "color": "gold",
+            "diameter": "30mm"
+          },
+          "price": {
+            "BRL": 220,
+            "USD": 48
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gold brass hoop earrings, front view",
+                "pt-BR": "Argolas douradas de latão, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "gold-white.png",
+                "#f5f5f5": "gold-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gold-hoop-earrings/gold-white.webp",
+                "#f5f5f5": "images/gold-hoop-earrings/gold-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gold-40mm",
+          "sku": "FIO-GHE-40MM",
+          "options": {
+            "color": "gold",
+            "diameter": "40mm"
+          },
+          "price": {
+            "BRL": 220,
+            "USD": 48
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gold brass hoop earrings, front view",
+                "pt-BR": "Argolas douradas de latão, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "gold-white.png",
+                "#f5f5f5": "gold-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gold-hoop-earrings/gold-white.webp",
+                "#f5f5f5": "images/gold-hoop-earrings/gold-gray.webp"
               }
             }
           ]
@@ -3421,7 +4511,7 @@
           "pt-BR": "Fio Puro"
         }
       },
-      "categoryId": "roupa-parte-de-cima-formal",
+      "categoryId": "roupa-casacos",
       "name": {
         "en": "Fio Puro Black Harrington Jacket in Water-Resistant Cotton Blend with Zip Front, Point Collar and Regular Fit",
         "pt-BR": "Jaqueta Harrington Fio Puro Preta em Mistura de Algodão Resistente à Água com Zíper, Colarinho Pontudo e Caimento Reto"
@@ -3579,6 +4669,200 @@
               "src": {
                 "#ffffff": "images/harrington-jacket/black-white.webp",
                 "#f5f5f5": "images/harrington-jacket/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "high-waist-bikini",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-praia",
+      "name": {
+        "en": "Ritmo Terracotta High-Waist Bikini in Recycled Knit with a Triangle Top and a Supportive Brief",
+        "pt-BR": "Biquíni Ritmo Terracota de Cintura Alta em Malha Reciclada com Top Triângulo e Calcinha de Sustentação"
+      },
+      "description": {
+        "en": "A two-piece bikini with a triangle top and a high-waist brief. The recycled knit holds its shape when wet.",
+        "pt-BR": "Biquíni com top triângulo e calcinha de cintura alta. A malha reciclada mantém a forma molhada."
+      },
+      "price": {
+        "BRL": 359,
+        "USD": 78
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "bikini",
+          "high waist",
+          "terracotta"
+        ],
+        "pt-BR": [
+          "biquíni",
+          "cintura alta",
+          "terracota"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "recycled-polyester",
+          "value": {
+            "en": "Recycled polyester",
+            "pt-BR": "Poliéster reciclado"
+          }
+        }
+      ],
+      "defaultVariantId": "terracotta-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "terracotta",
+              "name": {
+                "en": "Terracotta",
+                "pt-BR": "Terracota"
+              },
+              "hex": "#C46B4A"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "terracotta-s",
+          "sku": "RIT-HWB-S",
+          "options": {
+            "color": "terracotta",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 359,
+            "USD": 78
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Terracotta high-waist bikini, front view",
+                "pt-BR": "Biquíni terracota de cintura alta, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "terracotta-white.png",
+                "#f5f5f5": "terracotta-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/high-waist-bikini/terracotta-white.webp",
+                "#f5f5f5": "images/high-waist-bikini/terracotta-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "terracotta-m",
+          "sku": "RIT-HWB-M",
+          "options": {
+            "color": "terracotta",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 359,
+            "USD": 78
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Terracotta high-waist bikini, front view",
+                "pt-BR": "Biquíni terracota de cintura alta, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "terracotta-white.png",
+                "#f5f5f5": "terracotta-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/high-waist-bikini/terracotta-white.webp",
+                "#f5f5f5": "images/high-waist-bikini/terracotta-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "terracotta-l",
+          "sku": "RIT-HWB-L",
+          "options": {
+            "color": "terracotta",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 359,
+            "USD": 78
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Terracotta high-waist bikini, front view",
+                "pt-BR": "Biquíni terracota de cintura alta, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "terracotta-white.png",
+                "#f5f5f5": "terracotta-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/high-waist-bikini/terracotta-white.webp",
+                "#f5f5f5": "images/high-waist-bikini/terracotta-gray.webp"
               }
             }
           ]
@@ -4729,6 +6013,200 @@
       ]
     },
     {
+      "id": "lace-trim-blouse",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-parte-de-cima-casual",
+      "name": {
+        "en": "Fio Puro Cream Cotton Blouse with Lace Trim at the Neckline, Short Sleeves and a Relaxed Fit",
+        "pt-BR": "Blusa Fio Puro de Algodão Cru com Renda na Gola, Manga Curta e Modelagem Relaxada"
+      },
+      "description": {
+        "en": "A cotton blouse with lace along the neckline and a relaxed body. It sits well on its own or layered under a jacket.",
+        "pt-BR": "Blusa de algodão com renda na gola e corpo folgado. Funciona sozinha ou por baixo de um casaco."
+      },
+      "price": {
+        "BRL": 420,
+        "USD": 98
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "lace blouse",
+          "cotton",
+          "cream"
+        ],
+        "pt-BR": [
+          "blusa de renda",
+          "algodão",
+          "cru"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton",
+          "value": {
+            "en": "Cotton",
+            "pt-BR": "Algodão"
+          }
+        }
+      ],
+      "defaultVariantId": "cream-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "cream",
+              "name": {
+                "en": "Cream",
+                "pt-BR": "Cru"
+              },
+              "hex": "#F4EFE6"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "cream-s",
+          "sku": "FIO-LTB-S",
+          "options": {
+            "color": "cream",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 420,
+            "USD": 98
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cream cotton blouse with lace trim, front view",
+                "pt-BR": "Blusa de algodão cru com renda, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "cream-white.png",
+                "#f5f5f5": "cream-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/lace-trim-blouse/cream-white.webp",
+                "#f5f5f5": "images/lace-trim-blouse/cream-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cream-m",
+          "sku": "FIO-LTB-M",
+          "options": {
+            "color": "cream",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 420,
+            "USD": 98
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cream cotton blouse with lace trim, front view",
+                "pt-BR": "Blusa de algodão cru com renda, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "cream-white.png",
+                "#f5f5f5": "cream-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/lace-trim-blouse/cream-white.webp",
+                "#f5f5f5": "images/lace-trim-blouse/cream-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cream-l",
+          "sku": "FIO-LTB-L",
+          "options": {
+            "color": "cream",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 420,
+            "USD": 98
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cream cotton blouse with lace trim, front view",
+                "pt-BR": "Blusa de algodão cru com renda, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "cream-white.png",
+                "#f5f5f5": "cream-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/lace-trim-blouse/cream-white.webp",
+                "#f5f5f5": "images/lace-trim-blouse/cream-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "laptop-backpack",
       "brandId": "altitude",
       "brand": {
@@ -5174,7 +6652,7 @@
           "pt-BR": "Fio Puro"
         }
       },
-      "categoryId": "roupa-parte-de-cima-formal",
+      "categoryId": "roupa-casacos",
       "name": {
         "en": "Fio Puro Black Leather Biker Jacket with Asymmetric Zip, Notched Lapels, Zip Pockets and Cropped Regular Fit",
         "pt-BR": "Jaqueta Biker Fio Puro Preta em Couro com Zíper Assimétrico, Lapelas, Bolsos com Zíper e Caimento Reto Curto"
@@ -5332,6 +6810,369 @@
               "src": {
                 "#ffffff": "images/leather-biker-jacket/black-white.webp",
                 "#f5f5f5": "images/leather-biker-jacket/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leather-crossbody-bag",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-bolsas",
+      "name": {
+        "en": "Fio Puro Cognac Leather Crossbody Bag with a Flap Closure, Adjustable Strap and a Structured Body",
+        "pt-BR": "Bolsa Transversal Fio Puro de Couro Conhaque com Aba, Alça Regulável e Corpo Estruturado"
+      },
+      "description": {
+        "en": "A structured leather crossbody with a flap closure and an adjustable strap. It holds a phone, a card case and a small wallet.",
+        "pt-BR": "Bolsa transversal de couro estruturado, com aba e alça regulável. Cabe um celular, um porta-cartões e uma carteira pequena."
+      },
+      "price": {
+        "BRL": 980,
+        "USD": 210
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "leather crossbody",
+          "cognac",
+          "bag"
+        ],
+        "pt-BR": [
+          "bolsa transversal de couro",
+          "conhaque",
+          "bolsa"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "leather",
+          "value": {
+            "en": "Leather",
+            "pt-BR": "Couro"
+          }
+        }
+      ],
+      "defaultVariantId": "cognac-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "cognac",
+              "name": {
+                "en": "Cognac",
+                "pt-BR": "Conhaque"
+              },
+              "hex": "#8C4A2F"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "cognac-s",
+          "sku": "FIO-LCB-S",
+          "options": {
+            "color": "cognac",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 980,
+            "USD": 210
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cognac leather crossbody bag, front view",
+                "pt-BR": "Bolsa transversal de couro conhaque, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "cognac-white.png",
+                "#f5f5f5": "cognac-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-crossbody-bag/cognac-white.webp",
+                "#f5f5f5": "images/leather-crossbody-bag/cognac-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 1290,
+            "USD": 280
+          }
+        },
+        {
+          "id": "cognac-m",
+          "sku": "FIO-LCB-M",
+          "options": {
+            "color": "cognac",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 980,
+            "USD": 210
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cognac leather crossbody bag, front view",
+                "pt-BR": "Bolsa transversal de couro conhaque, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "cognac-white.png",
+                "#f5f5f5": "cognac-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-crossbody-bag/cognac-white.webp",
+                "#f5f5f5": "images/leather-crossbody-bag/cognac-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 1290,
+            "USD": 280
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1290,
+        "USD": 280
+      }
+    },
+    {
+      "id": "leather-loafer",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-sapatos",
+      "name": {
+        "en": "Ritmo Cognac Leather Loafer with a Penny Strap, Almond Toe, Low Heel and a Cushioned Footbed",
+        "pt-BR": "Loafer Ritmo de Couro Conhaque com Tira, Bico Amendoado, Salto Baixo e Palmilha Acolchoada"
+      },
+      "description": {
+        "en": "A leather loafer with a penny strap, an almond toe and a low heel. The cushioned footbed is made for a full day of walking.",
+        "pt-BR": "Loafer de couro com tira, bico amendoado e salto baixo. A palmilha acolchoada aguenta um dia inteiro de caminhada."
+      },
+      "price": {
+        "BRL": 820,
+        "USD": 175
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "leather loafer",
+          "cognac",
+          "almond toe"
+        ],
+        "pt-BR": [
+          "loafer de couro",
+          "conhaque",
+          "bico amendoado"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "leather",
+          "value": {
+            "en": "Leather",
+            "pt-BR": "Couro"
+          }
+        }
+      ],
+      "defaultVariantId": "cognac-36",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "cognac",
+              "name": {
+                "en": "Cognac",
+                "pt-BR": "Conhaque"
+              },
+              "hex": "#8C4A2F"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "36",
+              "valueId": "36",
+              "name": {
+                "en": "36",
+                "pt-BR": "36"
+              }
+            },
+            {
+              "id": "38",
+              "valueId": "38",
+              "name": {
+                "en": "38",
+                "pt-BR": "38"
+              }
+            },
+            {
+              "id": "40",
+              "valueId": "40",
+              "name": {
+                "en": "40",
+                "pt-BR": "40"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "cognac-36",
+          "sku": "RIT-LLF-36",
+          "options": {
+            "color": "cognac",
+            "size": "36"
+          },
+          "price": {
+            "BRL": 820,
+            "USD": 175
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cognac leather loafer, three-quarter view",
+                "pt-BR": "Loafer de couro conhaque, vista de três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "cognac-white.png",
+                "#f5f5f5": "cognac-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-loafer/cognac-white.webp",
+                "#f5f5f5": "images/leather-loafer/cognac-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cognac-38",
+          "sku": "RIT-LLF-38",
+          "options": {
+            "color": "cognac",
+            "size": "38"
+          },
+          "price": {
+            "BRL": 820,
+            "USD": 175
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cognac leather loafer, three-quarter view",
+                "pt-BR": "Loafer de couro conhaque, vista de três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "cognac-white.png",
+                "#f5f5f5": "cognac-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-loafer/cognac-white.webp",
+                "#f5f5f5": "images/leather-loafer/cognac-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cognac-40",
+          "sku": "RIT-LLF-40",
+          "options": {
+            "color": "cognac",
+            "size": "40"
+          },
+          "price": {
+            "BRL": 820,
+            "USD": 175
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cognac leather loafer, three-quarter view",
+                "pt-BR": "Loafer de couro conhaque, vista de três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "cognac-white.png",
+                "#f5f5f5": "cognac-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-loafer/cognac-white.webp",
+                "#f5f5f5": "images/leather-loafer/cognac-gray.webp"
               }
             }
           ]
@@ -5522,7 +7363,7 @@
           "pt-BR": "Fio Puro"
         }
       },
-      "categoryId": "roupa-acessorios-acessorios",
+      "categoryId": "roupa-bolsas",
       "name": {
         "en": "Fio Puro Tan Structured Leather Satchel Bag with Top Handle, Removable Shoulder Strap and Interior Pocket",
         "pt-BR": "Bolsa Satchel Fio Puro Caramelo em Couro Estruturado com Alça de Mão, Alça de Ombro Removível e Bolso Interno"
@@ -5661,6 +7502,798 @@
         "BRL": 799.9,
         "USD": 185
       }
+    },
+    {
+      "id": "linen-shirt-dress",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-vestidos",
+      "name": {
+        "en": "Fio Puro Ivory Linen Shirt Dress with a Button Front, Point Collar, Self Belt and Midi Hem",
+        "pt-BR": "Chemise Fio Puro de Linho Marfim com Abotoamento, Gola Ponta, Cinto do Mesmo Tecido e Barra Midi"
+      },
+      "description": {
+        "en": "A linen shirt dress cut with a point collar and a full button front. The self belt defines the waist without making the skirt stiff.",
+        "pt-BR": "Chemise de linho com gola ponta e abotoamento completo. O cinto do mesmo tecido marca a cintura sem endurecer a saia."
+      },
+      "price": {
+        "BRL": 790,
+        "USD": 168
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "shirt dress",
+          "linen",
+          "ivory"
+        ],
+        "pt-BR": [
+          "chemise",
+          "linho",
+          "marfim"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "linen",
+          "value": {
+            "en": "Linen",
+            "pt-BR": "Linho"
+          }
+        }
+      ],
+      "defaultVariantId": "ivory-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "ivory",
+              "name": {
+                "en": "Ivory",
+                "pt-BR": "Marfim"
+              },
+              "hex": "#F3EDE4"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "ivory-s",
+          "sku": "FIO-LSD-S",
+          "options": {
+            "color": "ivory",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 790,
+            "USD": 168
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Ivory linen shirt dress, front view",
+                "pt-BR": "Chemise de linho marfim, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "ivory-white.png",
+                "#f5f5f5": "ivory-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/linen-shirt-dress/ivory-white.webp",
+                "#f5f5f5": "images/linen-shirt-dress/ivory-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ivory-m",
+          "sku": "FIO-LSD-M",
+          "options": {
+            "color": "ivory",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 790,
+            "USD": 168
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Ivory linen shirt dress, front view",
+                "pt-BR": "Chemise de linho marfim, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "ivory-white.png",
+                "#f5f5f5": "ivory-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/linen-shirt-dress/ivory-white.webp",
+                "#f5f5f5": "images/linen-shirt-dress/ivory-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ivory-l",
+          "sku": "FIO-LSD-L",
+          "options": {
+            "color": "ivory",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 790,
+            "USD": 168
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Ivory linen shirt dress, front view",
+                "pt-BR": "Chemise de linho marfim, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "ivory-white.png",
+                "#f5f5f5": "ivory-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/linen-shirt-dress/ivory-white.webp",
+                "#f5f5f5": "images/linen-shirt-dress/ivory-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linen-tailored-shorts",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-calcas",
+      "name": {
+        "en": "Ritmo Sand Linen Tailored Shorts with a Mid Rise, Front Pleats and a Clean Mid-Thigh Hem",
+        "pt-BR": "Bermuda Ritmo de Linho Areia com Cintura Média, Pregas Frontais e Barra Limpa no Meio da Coxa"
+      },
+      "description": {
+        "en": "Tailored linen shorts with a mid rise and soft front pleats. The hem sits at mid-thigh and holds a crease through the day.",
+        "pt-BR": "Bermuda de linho alfaiatada, cintura média e pregas suaves na frente. A barra fica no meio da coxa e segura o vinco."
+      },
+      "price": {
+        "BRL": 349,
+        "USD": 78
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "linen shorts",
+          "sand",
+          "tailored"
+        ],
+        "pt-BR": [
+          "bermuda de linho",
+          "areia",
+          "alfaiatada"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "linen",
+          "value": {
+            "en": "Linen",
+            "pt-BR": "Linho"
+          }
+        }
+      ],
+      "defaultVariantId": "sand-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "sand",
+              "name": {
+                "en": "Sand",
+                "pt-BR": "Areia"
+              },
+              "hex": "#D9C7A4"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "sand-s",
+          "sku": "RIT-LTS-S",
+          "options": {
+            "color": "sand",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 349,
+            "USD": 78
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Sand linen tailored shorts, front view",
+                "pt-BR": "Bermuda de linho areia, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "sand-white.png",
+                "#f5f5f5": "sand-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/linen-tailored-shorts/sand-white.webp",
+                "#f5f5f5": "images/linen-tailored-shorts/sand-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "sand-m",
+          "sku": "RIT-LTS-M",
+          "options": {
+            "color": "sand",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 349,
+            "USD": 78
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Sand linen tailored shorts, front view",
+                "pt-BR": "Bermuda de linho areia, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "sand-white.png",
+                "#f5f5f5": "sand-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/linen-tailored-shorts/sand-white.webp",
+                "#f5f5f5": "images/linen-tailored-shorts/sand-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "sand-l",
+          "sku": "RIT-LTS-L",
+          "options": {
+            "color": "sand",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 349,
+            "USD": 78
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Sand linen tailored shorts, front view",
+                "pt-BR": "Bermuda de linho areia, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "sand-white.png",
+                "#f5f5f5": "sand-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/linen-tailored-shorts/sand-white.webp",
+                "#f5f5f5": "images/linen-tailored-shorts/sand-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "merino-turtleneck",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-malhas",
+      "name": {
+        "en": "Fio Puro Camel Merino Wool Turtleneck Sweater with a Fine Knit, Close Fit and Ribbed Trims",
+        "pt-BR": "Suéter Fio Puro Gola Alta Camel em Lã Merino, Tricô Fino, Modelagem Justa e Acabamento Canelado"
+      },
+      "description": {
+        "en": "A fine merino turtleneck that layers under coats without adding bulk. Ribbed trims keep the neck, cuffs and hem in place.",
+        "pt-BR": "Gola alta de merino fino, que entra sob o casaco sem volume. O canelado segura o decote, os punhos e a barra."
+      },
+      "price": {
+        "BRL": 620,
+        "USD": 128
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "turtleneck",
+          "merino",
+          "camel"
+        ],
+        "pt-BR": [
+          "gola alta",
+          "merino",
+          "camelo"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "merino-wool",
+          "value": {
+            "en": "Merino wool",
+            "pt-BR": "Lã merino"
+          }
+        }
+      ],
+      "defaultVariantId": "camel-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "camel",
+              "name": {
+                "en": "Camel",
+                "pt-BR": "Camelo"
+              },
+              "hex": "#C4A574"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "camel-s",
+          "sku": "FIO-MTN-S",
+          "options": {
+            "color": "camel",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 620,
+            "USD": 128
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Camel merino wool turtleneck sweater, front view",
+                "pt-BR": "Suéter gola alta camel de lã merino, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "camel-white.png",
+                "#f5f5f5": "camel-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/merino-turtleneck/camel-white.webp",
+                "#f5f5f5": "images/merino-turtleneck/camel-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 980,
+            "USD": 198
+          }
+        },
+        {
+          "id": "camel-m",
+          "sku": "FIO-MTN-M",
+          "options": {
+            "color": "camel",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 620,
+            "USD": 128
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Camel merino wool turtleneck sweater, front view",
+                "pt-BR": "Suéter gola alta camel de lã merino, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "camel-white.png",
+                "#f5f5f5": "camel-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/merino-turtleneck/camel-white.webp",
+                "#f5f5f5": "images/merino-turtleneck/camel-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 980,
+            "USD": 198
+          }
+        },
+        {
+          "id": "camel-l",
+          "sku": "FIO-MTN-L",
+          "options": {
+            "color": "camel",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 620,
+            "USD": 128
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Camel merino wool turtleneck sweater, front view",
+                "pt-BR": "Suéter gola alta camel de lã merino, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "camel-white.png",
+                "#f5f5f5": "camel-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/merino-turtleneck/camel-white.webp",
+                "#f5f5f5": "images/merino-turtleneck/camel-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 980,
+            "USD": 198
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 980,
+        "USD": 198
+      }
+    },
+    {
+      "id": "one-piece-swimsuit",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-praia",
+      "name": {
+        "en": "Ritmo Black One-Piece Swimsuit in Recycled Knit with a Scoop Neck, Moderate Coverage and Fixed Straps",
+        "pt-BR": "Maiô Ritmo Preto em Malha Reciclada com Decote Redondo, Cobertura Moderada e Alças Fixas"
+      },
+      "description": {
+        "en": "A one-piece swimsuit in recycled knit with a scoop neck and fixed straps. Coverage is moderate and the leg line sits at the hip.",
+        "pt-BR": "Maiô em malha reciclada com decote redondo e alças fixas. A cobertura é moderada e a cava fica na altura do quadril."
+      },
+      "price": {
+        "BRL": 449,
+        "USD": 96
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "one-piece swimsuit",
+          "black",
+          "swim"
+        ],
+        "pt-BR": [
+          "maiô",
+          "preto",
+          "praia"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "recycled-polyester",
+          "value": {
+            "en": "Recycled polyester",
+            "pt-BR": "Poliéster reciclado"
+          }
+        }
+      ],
+      "defaultVariantId": "black-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#1C1C1C"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "black-s",
+          "sku": "RIT-OPS-S",
+          "options": {
+            "color": "black",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 449,
+            "USD": 96
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black one-piece swimsuit, front view",
+                "pt-BR": "Maiô preto, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/one-piece-swimsuit/black-white.webp",
+                "#f5f5f5": "images/one-piece-swimsuit/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-m",
+          "sku": "RIT-OPS-M",
+          "options": {
+            "color": "black",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 449,
+            "USD": 96
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black one-piece swimsuit, front view",
+                "pt-BR": "Maiô preto, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/one-piece-swimsuit/black-white.webp",
+                "#f5f5f5": "images/one-piece-swimsuit/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-l",
+          "sku": "RIT-OPS-L",
+          "options": {
+            "color": "black",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 449,
+            "USD": 96
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black one-piece swimsuit, front view",
+                "pt-BR": "Maiô preto, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/one-piece-swimsuit/black-white.webp",
+                "#f5f5f5": "images/one-piece-swimsuit/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "over-ear-headphones",
@@ -5974,6 +8607,172 @@
           ]
         }
       ]
+    },
+    {
+      "id": "pendant-necklace",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-joias",
+      "name": {
+        "en": "Fio Puro Gold Brass Pendant Necklace with a Fine Chain, an Oval Pendant and a Lobster Clasp",
+        "pt-BR": "Colar Fio Puro Dourado de Latão com Corrente Fina, Pingente Oval e Fecho Lagosta"
+      },
+      "description": {
+        "en": "A fine brass chain with a small oval pendant and a lobster clasp. The gold finish matches the hoop earrings in the same line.",
+        "pt-BR": "Corrente fina de latão com pingente oval pequeno e fecho lagosta. O dourado combina com as argolas da mesma linha."
+      },
+      "price": {
+        "BRL": 310,
+        "USD": 68
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "pendant necklace",
+          "gold",
+          "jewelry"
+        ],
+        "pt-BR": [
+          "colar com pingente",
+          "dourado",
+          "joia"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "brass",
+          "value": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        }
+      ],
+      "defaultVariantId": "gold-45cm",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gold",
+              "name": {
+                "en": "Gold",
+                "pt-BR": "Dourado"
+              },
+              "hex": "#D4AF37"
+            }
+          ]
+        },
+        {
+          "id": "length",
+          "name": {
+            "en": "Length",
+            "pt-BR": "Comprimento"
+          },
+          "values": [
+            {
+              "id": "45cm",
+              "name": {
+                "en": "18 in",
+                "pt-BR": "45 cm"
+              }
+            },
+            {
+              "id": "50cm",
+              "name": {
+                "en": "20 in",
+                "pt-BR": "50 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gold-45cm",
+          "sku": "FIO-PND-45CM",
+          "options": {
+            "color": "gold",
+            "length": "45cm"
+          },
+          "price": {
+            "BRL": 310,
+            "USD": 68
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gold brass pendant necklace, front view",
+                "pt-BR": "Colar dourado de latão com pingente, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "gold-white.png",
+                "#f5f5f5": "gold-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pendant-necklace/gold-white.webp",
+                "#f5f5f5": "images/pendant-necklace/gold-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 450,
+            "USD": 95
+          }
+        },
+        {
+          "id": "gold-50cm",
+          "sku": "FIO-PND-50CM",
+          "options": {
+            "color": "gold",
+            "length": "50cm"
+          },
+          "price": {
+            "BRL": 310,
+            "USD": 68
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gold brass pendant necklace, front view",
+                "pt-BR": "Colar dourado de latão com pingente, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "gold-white.png",
+                "#f5f5f5": "gold-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pendant-necklace/gold-white.webp",
+                "#f5f5f5": "images/pendant-necklace/gold-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 450,
+            "USD": 95
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 450,
+        "USD": 95
+      }
     },
     {
       "id": "phone-stand",
@@ -6438,6 +9237,200 @@
               "src": {
                 "#ffffff": "images/plaid-cushion/navy-white.webp",
                 "#f5f5f5": "images/plaid-cushion/navy-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pleated-midi-skirt",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-saias",
+      "name": {
+        "en": "Fio Puro Olive Pleated Midi Skirt in Viscose with an Elastic Waist and Soft Movement at the Hem",
+        "pt-BR": "Saia Midi Fio Puro Verde-Oliva Plissada em Viscose com Cós Elástico e Movimento Leve na Barra"
+      },
+      "description": {
+        "en": "A viscose midi skirt with fine pleats and an elastic waist. The hem moves without clinging when you walk.",
+        "pt-BR": "Saia midi de viscose com pregas finas e cós elástico. A barra se move sem grudar no corpo."
+      },
+      "price": {
+        "BRL": 560,
+        "USD": 120
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "pleated midi skirt",
+          "viscose",
+          "olive"
+        ],
+        "pt-BR": [
+          "saia midi plissada",
+          "viscose",
+          "verde-oliva"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "viscose",
+          "value": {
+            "en": "Viscose",
+            "pt-BR": "Viscose"
+          }
+        }
+      ],
+      "defaultVariantId": "olive-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "olive",
+              "name": {
+                "en": "Olive",
+                "pt-BR": "Verde-oliva"
+              },
+              "hex": "#5E6B45"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "olive-s",
+          "sku": "FIO-PMS-S",
+          "options": {
+            "color": "olive",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 560,
+            "USD": 120
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Olive pleated viscose midi skirt, front view",
+                "pt-BR": "Saia midi plissada verde-oliva de viscose, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "olive-white.png",
+                "#f5f5f5": "olive-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pleated-midi-skirt/olive-white.webp",
+                "#f5f5f5": "images/pleated-midi-skirt/olive-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "olive-m",
+          "sku": "FIO-PMS-M",
+          "options": {
+            "color": "olive",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 560,
+            "USD": 120
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Olive pleated viscose midi skirt, front view",
+                "pt-BR": "Saia midi plissada verde-oliva de viscose, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "olive-white.png",
+                "#f5f5f5": "olive-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pleated-midi-skirt/olive-white.webp",
+                "#f5f5f5": "images/pleated-midi-skirt/olive-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "olive-l",
+          "sku": "FIO-PMS-L",
+          "options": {
+            "color": "olive",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 560,
+            "USD": 120
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Olive pleated viscose midi skirt, front view",
+                "pt-BR": "Saia midi plissada verde-oliva de viscose, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "olive-white.png",
+                "#f5f5f5": "olive-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pleated-midi-skirt/olive-white.webp",
+                "#f5f5f5": "images/pleated-midi-skirt/olive-gray.webp"
               }
             }
           ]
@@ -7072,6 +10065,200 @@
       }
     },
     {
+      "id": "ribbed-lounge-set",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-lingerie",
+      "name": {
+        "en": "Ritmo Heather Gray Ribbed Cotton Lounge Set with a Crewneck Top and Relaxed Pants for Time at Home",
+        "pt-BR": "Conjunto Ritmo de Malha Canelada Cinza Mescla com Blusa Gola Careca e Calça Relaxada para Casa"
+      },
+      "description": {
+        "en": "A ribbed cotton set with a crewneck top and relaxed pants. The knit has enough weight to wear around the house without feeling sheer.",
+        "pt-BR": "Conjunto de algodão canelado com blusa de gola careca e calça folgada. A malha tem corpo suficiente para usar em casa sem ficar transparente."
+      },
+      "price": {
+        "BRL": 289,
+        "USD": 64
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "loungewear",
+          "ribbed cotton",
+          "heather"
+        ],
+        "pt-BR": [
+          "homewear",
+          "algodão canelado",
+          "cinza mescla"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton",
+          "value": {
+            "en": "Cotton",
+            "pt-BR": "Algodão"
+          }
+        }
+      ],
+      "defaultVariantId": "heather-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "heather",
+              "name": {
+                "en": "Heather gray",
+                "pt-BR": "Cinza mescla"
+              },
+              "hex": "#C5C6C8"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "heather-s",
+          "sku": "RIT-RLS-S",
+          "options": {
+            "color": "heather",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 289,
+            "USD": 64
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Heather gray ribbed cotton lounge set, front view",
+                "pt-BR": "Conjunto de malha canelada cinza mescla, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "heather-white.png",
+                "#f5f5f5": "heather-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ribbed-lounge-set/heather-white.webp",
+                "#f5f5f5": "images/ribbed-lounge-set/heather-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "heather-m",
+          "sku": "RIT-RLS-M",
+          "options": {
+            "color": "heather",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 289,
+            "USD": 64
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Heather gray ribbed cotton lounge set, front view",
+                "pt-BR": "Conjunto de malha canelada cinza mescla, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "heather-white.png",
+                "#f5f5f5": "heather-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ribbed-lounge-set/heather-white.webp",
+                "#f5f5f5": "images/ribbed-lounge-set/heather-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "heather-l",
+          "sku": "RIT-RLS-L",
+          "options": {
+            "color": "heather",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 289,
+            "USD": 64
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Heather gray ribbed cotton lounge set, front view",
+                "pt-BR": "Conjunto de malha canelada cinza mescla, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "heather-white.png",
+                "#f5f5f5": "heather-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ribbed-lounge-set/heather-white.webp",
+                "#f5f5f5": "images/ribbed-lounge-set/heather-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "robot-vacuum",
       "categoryId": "eletro-casa-praticos",
       "name": {
@@ -7481,6 +10668,200 @@
               "src": {
                 "#ffffff": "images/running-leggings/plum-white.webp",
                 "#f5f5f5": "images/running-leggings/plum-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "satin-camisole",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-lingerie",
+      "name": {
+        "en": "Fio Puro Champagne Satin Camisole with Adjustable Straps, a Soft V Neck and a Hip-Length Hem",
+        "pt-BR": "Camisola Fio Puro de Cetim Champagne com Alças Reguláveis, Decote V Suave e Barra no Quadril"
+      },
+      "description": {
+        "en": "A satin camisole with adjustable straps and a soft V neck. The hem falls at the hip and works as loungewear or under a jacket.",
+        "pt-BR": "Camisola de cetim com alças reguláveis e decote V suave. A barra cai no quadril e serve para casa ou sob um casaco."
+      },
+      "price": {
+        "BRL": 329,
+        "USD": 72
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "satin camisole",
+          "lingerie",
+          "champagne"
+        ],
+        "pt-BR": [
+          "camisola de cetim",
+          "lingerie",
+          "champagne"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "satin",
+          "value": {
+            "en": "Satin",
+            "pt-BR": "Cetim"
+          }
+        }
+      ],
+      "defaultVariantId": "champagne-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "champagne",
+              "name": {
+                "en": "Champagne",
+                "pt-BR": "Champagne"
+              },
+              "hex": "#E7D5BE"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "champagne-s",
+          "sku": "FIO-SCM-S",
+          "options": {
+            "color": "champagne",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 329,
+            "USD": 72
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Champagne satin camisole, front view",
+                "pt-BR": "Camisola de cetim champagne, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "champagne-white.png",
+                "#f5f5f5": "champagne-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/satin-camisole/champagne-white.webp",
+                "#f5f5f5": "images/satin-camisole/champagne-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "champagne-m",
+          "sku": "FIO-SCM-M",
+          "options": {
+            "color": "champagne",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 329,
+            "USD": 72
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Champagne satin camisole, front view",
+                "pt-BR": "Camisola de cetim champagne, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "champagne-white.png",
+                "#f5f5f5": "champagne-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/satin-camisole/champagne-white.webp",
+                "#f5f5f5": "images/satin-camisole/champagne-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "champagne-l",
+          "sku": "FIO-SCM-L",
+          "options": {
+            "color": "champagne",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 329,
+            "USD": 72
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Champagne satin camisole, front view",
+                "pt-BR": "Camisola de cetim champagne, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "champagne-white.png",
+                "#f5f5f5": "champagne-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/satin-camisole/champagne-white.webp",
+                "#f5f5f5": "images/satin-camisole/champagne-gray.webp"
               }
             }
           ]
@@ -8581,6 +11962,394 @@
       ]
     },
     {
+      "id": "straight-leg-jeans",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-jeans",
+      "name": {
+        "en": "Ritmo Indigo Straight-Leg Jeans in Stretch Denim with a High Rise, Five Pockets and a Full-Length Hem",
+        "pt-BR": "Calça Jeans Ritmo Reta Índigo com Elastano, Cintura Alta, Cinco Bolsos e Barra Longa"
+      },
+      "description": {
+        "en": "Straight-leg jeans in stretch denim with a high rise and five pockets. The hem is full length and sits cleanly over a shoe.",
+        "pt-BR": "Jeans de corte reto em denim com elastano, cintura alta e cinco bolsos. A barra longa cai limpa sobre o sapato."
+      },
+      "price": {
+        "BRL": 549,
+        "USD": 118
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "straight jeans",
+          "denim",
+          "indigo"
+        ],
+        "pt-BR": [
+          "jeans reto",
+          "denim",
+          "índigo"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "denim",
+          "value": {
+            "en": "Denim",
+            "pt-BR": "Jeans"
+          }
+        }
+      ],
+      "defaultVariantId": "indigo-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "indigo",
+              "name": {
+                "en": "Indigo",
+                "pt-BR": "Índigo"
+              },
+              "hex": "#1E2A44"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "indigo-s",
+          "sku": "RIT-SLJ-S",
+          "options": {
+            "color": "indigo",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 549,
+            "USD": 118
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Indigo straight-leg jeans, front view",
+                "pt-BR": "Calça jeans reta índigo, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "indigo-white.png",
+                "#f5f5f5": "indigo-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/straight-leg-jeans/indigo-white.webp",
+                "#f5f5f5": "images/straight-leg-jeans/indigo-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "indigo-m",
+          "sku": "RIT-SLJ-M",
+          "options": {
+            "color": "indigo",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 549,
+            "USD": 118
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Indigo straight-leg jeans, front view",
+                "pt-BR": "Calça jeans reta índigo, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "indigo-white.png",
+                "#f5f5f5": "indigo-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/straight-leg-jeans/indigo-white.webp",
+                "#f5f5f5": "images/straight-leg-jeans/indigo-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "indigo-l",
+          "sku": "RIT-SLJ-L",
+          "options": {
+            "color": "indigo",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 549,
+            "USD": 118
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Indigo straight-leg jeans, front view",
+                "pt-BR": "Calça jeans reta índigo, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "indigo-white.png",
+                "#f5f5f5": "indigo-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/straight-leg-jeans/indigo-white.webp",
+                "#f5f5f5": "images/straight-leg-jeans/indigo-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "studio-tank",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-esporte",
+      "name": {
+        "en": "Ritmo Black Studio Tank in Stretch Knit with a Racerback, Bound Neckline and a Close Fit for Training",
+        "pt-BR": "Regata Ritmo Preta de Malha com Elastano, Costa Nadador, Decote Acabado e Ajuste Próximo ao Corpo"
+      },
+      "description": {
+        "en": "A close-fitting studio tank with a racerback and a bound neckline. The stretch knit stays put through a class.",
+        "pt-BR": "Regata justa com costa nadador e decote acabado. A malha com elastano não sobe durante a aula."
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 42
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "studio tank",
+          "activewear",
+          "black"
+        ],
+        "pt-BR": [
+          "regata de treino",
+          "roupa esportiva",
+          "preta"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton-blend",
+          "value": {
+            "en": "Cotton blend",
+            "pt-BR": "Mistura de algodão"
+          }
+        }
+      ],
+      "defaultVariantId": "black-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#1C1C1C"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "black-s",
+          "sku": "RIT-STK-S",
+          "options": {
+            "color": "black",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 189,
+            "USD": 42
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black studio tank, front view",
+                "pt-BR": "Regata preta de treino, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/studio-tank/black-white.webp",
+                "#f5f5f5": "images/studio-tank/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-m",
+          "sku": "RIT-STK-M",
+          "options": {
+            "color": "black",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 189,
+            "USD": 42
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black studio tank, front view",
+                "pt-BR": "Regata preta de treino, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/studio-tank/black-white.webp",
+                "#f5f5f5": "images/studio-tank/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-l",
+          "sku": "RIT-STK-L",
+          "options": {
+            "color": "black",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 189,
+            "USD": 42
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black studio tank, front view",
+                "pt-BR": "Regata preta de treino, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/studio-tank/black-white.webp",
+                "#f5f5f5": "images/studio-tank/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "tactical-backpack",
       "brandId": "altitude",
       "brand": {
@@ -8739,7 +12508,7 @@
           "pt-BR": "Fio Puro"
         }
       },
-      "categoryId": "roupa-parte-de-cima-formal",
+      "categoryId": "roupa-casacos",
       "name": {
         "en": "Fio Puro Deep Navy Tailored Blazer in Cotton Blend with Notched Lapels, Patch Pockets and Regular Fit",
         "pt-BR": "Blazer Fio Puro Azul-Marinho Profundo em Mistura de Algodão com Lapelas, Bolsos Aplicados e Caimento Reto"
@@ -9768,6 +13537,410 @@
       ]
     },
     {
+      "id": "wide-leg-jeans",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-jeans",
+      "name": {
+        "en": "Ritmo Light-Wash Wide-Leg Jeans in Denim with a High Rise, Relaxed Thigh and a Full-Length Hem",
+        "pt-BR": "Calça Jeans Ritmo Perna Larga Lavagem Clara com Cintura Alta, Coxa Folgada e Barra Longa"
+      },
+      "description": {
+        "en": "Wide-leg jeans in a light wash, with room through the thigh and a high rise. The hem stays full length without a break.",
+        "pt-BR": "Jeans de perna larga em lavagem clara, com folga na coxa e cintura alta. A barra fica longa, sem quebrar no peito do pé."
+      },
+      "price": {
+        "BRL": 460,
+        "USD": 98
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "wide-leg jeans",
+          "light wash",
+          "denim"
+        ],
+        "pt-BR": [
+          "jeans perna larga",
+          "lavagem clara",
+          "denim"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "denim",
+          "value": {
+            "en": "Denim",
+            "pt-BR": "Jeans"
+          }
+        }
+      ],
+      "defaultVariantId": "light-wash-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "light-wash",
+              "name": {
+                "en": "Light wash",
+                "pt-BR": "Lavagem clara"
+              },
+              "hex": "#B7C9D6"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "light-wash-s",
+          "sku": "RIT-WLJ-S",
+          "options": {
+            "color": "light-wash",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 460,
+            "USD": 98
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Light-wash wide-leg jeans, front view",
+                "pt-BR": "Calça jeans perna larga lavagem clara, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "light-wash-white.png",
+                "#f5f5f5": "light-wash-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wide-leg-jeans/light-wash-white.webp",
+                "#f5f5f5": "images/wide-leg-jeans/light-wash-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 690,
+            "USD": 148
+          }
+        },
+        {
+          "id": "light-wash-m",
+          "sku": "RIT-WLJ-M",
+          "options": {
+            "color": "light-wash",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 460,
+            "USD": 98
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Light-wash wide-leg jeans, front view",
+                "pt-BR": "Calça jeans perna larga lavagem clara, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "light-wash-white.png",
+                "#f5f5f5": "light-wash-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wide-leg-jeans/light-wash-white.webp",
+                "#f5f5f5": "images/wide-leg-jeans/light-wash-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 690,
+            "USD": 148
+          }
+        },
+        {
+          "id": "light-wash-l",
+          "sku": "RIT-WLJ-L",
+          "options": {
+            "color": "light-wash",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 460,
+            "USD": 98
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Light-wash wide-leg jeans, front view",
+                "pt-BR": "Calça jeans perna larga lavagem clara, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "light-wash-white.png",
+                "#f5f5f5": "light-wash-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wide-leg-jeans/light-wash-white.webp",
+                "#f5f5f5": "images/wide-leg-jeans/light-wash-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 690,
+            "USD": 148
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 690,
+        "USD": 148
+      }
+    },
+    {
+      "id": "wide-leg-trousers",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-calcas",
+      "name": {
+        "en": "Fio Puro Black Wide-Leg Trousers in Wool with a High Rise, Pressed Crease and Full-Length Hem",
+        "pt-BR": "Calça Fio Puro Preta de Perna Larga em Lã, com Cintura Alta, Vinco Marcado e Barra Longa"
+      },
+      "description": {
+        "en": "Wide-leg wool trousers with a high rise and a pressed crease. The full-length hem works with flats and with a low heel.",
+        "pt-BR": "Calça de lã com perna larga, cintura alta e vinco marcado. A barra longa funciona com rasteira e com salto baixo."
+      },
+      "price": {
+        "BRL": 780,
+        "USD": 165
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "wide-leg trousers",
+          "wool",
+          "black"
+        ],
+        "pt-BR": [
+          "calça pantalona",
+          "lã",
+          "preta"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "wool",
+          "value": {
+            "en": "Wool",
+            "pt-BR": "Lã"
+          }
+        }
+      ],
+      "defaultVariantId": "black-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#1C1C1C"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "black-s",
+          "sku": "FIO-WLT-S",
+          "options": {
+            "color": "black",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 780,
+            "USD": 165
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black wide-leg wool trousers, front view",
+                "pt-BR": "Calça preta de lã com perna larga, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wide-leg-trousers/black-white.webp",
+                "#f5f5f5": "images/wide-leg-trousers/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-m",
+          "sku": "FIO-WLT-M",
+          "options": {
+            "color": "black",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 780,
+            "USD": 165
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black wide-leg wool trousers, front view",
+                "pt-BR": "Calça preta de lã com perna larga, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wide-leg-trousers/black-white.webp",
+                "#f5f5f5": "images/wide-leg-trousers/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-l",
+          "sku": "FIO-WLT-L",
+          "options": {
+            "color": "black",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 780,
+            "USD": 165
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black wide-leg wool trousers, front view",
+                "pt-BR": "Calça preta de lã com perna larga, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wide-leg-trousers/black-white.webp",
+                "#f5f5f5": "images/wide-leg-trousers/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wifi-router",
       "categoryId": "eletro-casa-praticos",
       "name": {
@@ -9904,7 +14077,7 @@
           "pt-BR": "Ritmo"
         }
       },
-      "categoryId": "roupa-parte-de-cima-casual",
+      "categoryId": "roupa-casacos",
       "name": {
         "en": "Ritmo Motion Red Lightweight Windbreaker Jacket in Recycled Fabric with Zip Front and Packable Water-Resistant Shell",
         "pt-BR": "Jaqueta Corta-Vento Ritmo Motion Vermelha em Tecido Reciclado Leve com Zíper e Estrutura Compactável Resistente à Água"
@@ -10467,6 +14640,527 @@
               "src": {
                 "#ffffff": "images/wireless-mouse/white-white.webp",
                 "#f5f5f5": "images/wireless-mouse/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wool-overcoat",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-casacos",
+      "name": {
+        "en": "Fio Puro Camel Wool Overcoat with Notched Lapels, Knee Length, Side Pockets and a Single-Breasted Front",
+        "pt-BR": "Sobretudo Fio Puro Camel de Lã com Lapela, Comprimento no Joelho, Bolsos Laterais e Abotoamento Simples"
+      },
+      "description": {
+        "en": "A wool overcoat cut to the knee with notched lapels and a single-breasted front. Side pockets sit at the hip and the shoulder stays clean.",
+        "pt-BR": "Sobretudo de lã até o joelho, com lapela e abotoamento simples. Os bolsos ficam no quadril e o ombro permanece limpo."
+      },
+      "price": {
+        "BRL": 1490,
+        "USD": 320
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "wool overcoat",
+          "camel",
+          "outerwear"
+        ],
+        "pt-BR": [
+          "sobretudo de lã",
+          "camelo",
+          "casaco"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "wool",
+          "value": {
+            "en": "Wool",
+            "pt-BR": "Lã"
+          }
+        }
+      ],
+      "defaultVariantId": "camel-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "camel",
+              "name": {
+                "en": "Camel",
+                "pt-BR": "Camelo"
+              },
+              "hex": "#C4A574"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "camel-s",
+          "sku": "FIO-WOC-S",
+          "options": {
+            "color": "camel",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 1490,
+            "USD": 320
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Camel wool overcoat, front view",
+                "pt-BR": "Sobretudo camel de lã, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "camel-white.png",
+                "#f5f5f5": "camel-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wool-overcoat/camel-white.webp",
+                "#f5f5f5": "images/wool-overcoat/camel-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 1980,
+            "USD": 420
+          }
+        },
+        {
+          "id": "camel-m",
+          "sku": "FIO-WOC-M",
+          "options": {
+            "color": "camel",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 1490,
+            "USD": 320
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Camel wool overcoat, front view",
+                "pt-BR": "Sobretudo camel de lã, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "camel-white.png",
+                "#f5f5f5": "camel-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wool-overcoat/camel-white.webp",
+                "#f5f5f5": "images/wool-overcoat/camel-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 1980,
+            "USD": 420
+          }
+        },
+        {
+          "id": "camel-l",
+          "sku": "FIO-WOC-L",
+          "options": {
+            "color": "camel",
+            "size": "l"
+          },
+          "price": {
+            "BRL": 1490,
+            "USD": 320
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Camel wool overcoat, front view",
+                "pt-BR": "Sobretudo camel de lã, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "camel-white.png",
+                "#f5f5f5": "camel-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wool-overcoat/camel-white.webp",
+                "#f5f5f5": "images/wool-overcoat/camel-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 1980,
+            "USD": 420
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1980,
+        "USD": 420
+      }
+    },
+    {
+      "id": "wool-scarf",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-acessorios-acessorios",
+      "name": {
+        "en": "Fio Puro Burgundy Wool Scarf with a Soft Hand, Ribbed Ends and Enough Length to Wrap Twice",
+        "pt-BR": "Cachecol Fio Puro Borgonha de Lã com Toque Macio, Pontas Caneladas e Comprimento para Duas Voltas"
+      },
+      "description": {
+        "en": "A wool scarf with a soft hand and ribbed ends. It is long enough to wrap twice without pulling at the neck.",
+        "pt-BR": "Cachecol de lã com toque macio e pontas caneladas. O comprimento dá para duas voltas sem apertar o pescoço."
+      },
+      "price": {
+        "BRL": 269,
+        "USD": 58
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "wool scarf",
+          "burgundy",
+          "accessory"
+        ],
+        "pt-BR": [
+          "cachecol de lã",
+          "borgonha",
+          "acessório"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "wool",
+          "value": {
+            "en": "Wool",
+            "pt-BR": "Lã"
+          }
+        }
+      ],
+      "defaultVariantId": "burgundy-180cm",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "burgundy",
+              "name": {
+                "en": "Burgundy",
+                "pt-BR": "Borgonha"
+              },
+              "hex": "#7A2430"
+            }
+          ]
+        },
+        {
+          "id": "length",
+          "name": {
+            "en": "Length",
+            "pt-BR": "Comprimento"
+          },
+          "values": [
+            {
+              "id": "180cm",
+              "name": {
+                "en": "70 in",
+                "pt-BR": "180 cm"
+              }
+            },
+            {
+              "id": "200cm",
+              "name": {
+                "en": "78 in",
+                "pt-BR": "200 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "burgundy-180cm",
+          "sku": "FIO-WSC-180CM",
+          "options": {
+            "color": "burgundy",
+            "length": "180cm"
+          },
+          "price": {
+            "BRL": 269,
+            "USD": 58
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Burgundy wool scarf, folded",
+                "pt-BR": "Cachecol de lã borgonha, dobrado"
+              },
+              "backgrounds": {
+                "#ffffff": "burgundy-white.png",
+                "#f5f5f5": "burgundy-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wool-scarf/burgundy-white.webp",
+                "#f5f5f5": "images/wool-scarf/burgundy-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "burgundy-200cm",
+          "sku": "FIO-WSC-200CM",
+          "options": {
+            "color": "burgundy",
+            "length": "200cm"
+          },
+          "price": {
+            "BRL": 269,
+            "USD": 58
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Burgundy wool scarf, folded",
+                "pt-BR": "Cachecol de lã borgonha, dobrado"
+              },
+              "backgrounds": {
+                "#ffffff": "burgundy-white.png",
+                "#f5f5f5": "burgundy-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wool-scarf/burgundy-white.webp",
+                "#f5f5f5": "images/wool-scarf/burgundy-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "woven-straw-tote",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-bolsas",
+      "name": {
+        "en": "Ritmo Natural Straw Tote with an Open Weave, Twin Handles and a Firm Base for Market Days",
+        "pt-BR": "Bolsa Tote Ritmo de Palha Natural com Trama Aberta, Alças Duplas e Base Firme para o Mercado"
+      },
+      "description": {
+        "en": "An open-weave straw tote with two short handles and a firm base. It stands up when you set it down.",
+        "pt-BR": "Tote de palha com trama aberta, duas alças curtas e base firme. A bolsa fica em pé quando apoiada."
+      },
+      "price": {
+        "BRL": 440,
+        "USD": 95
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "straw tote",
+          "natural",
+          "bag"
+        ],
+        "pt-BR": [
+          "tote de palha",
+          "natural",
+          "bolsa"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "straw",
+          "value": {
+            "en": "Straw",
+            "pt-BR": "Palha"
+          }
+        }
+      ],
+      "defaultVariantId": "natural-s",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              },
+              "hex": "#E4D3B0"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "natural-s",
+          "sku": "RIT-WST-S",
+          "options": {
+            "color": "natural",
+            "size": "s"
+          },
+          "price": {
+            "BRL": 440,
+            "USD": 95
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Natural straw tote bag, front view",
+                "pt-BR": "Bolsa tote de palha natural, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "natural-white.png",
+                "#f5f5f5": "natural-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/woven-straw-tote/natural-white.webp",
+                "#f5f5f5": "images/woven-straw-tote/natural-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "natural-m",
+          "sku": "RIT-WST-M",
+          "options": {
+            "color": "natural",
+            "size": "m"
+          },
+          "price": {
+            "BRL": 440,
+            "USD": 95
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Natural straw tote bag, front view",
+                "pt-BR": "Bolsa tote de palha natural, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "natural-white.png",
+                "#f5f5f5": "natural-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/woven-straw-tote/natural-white.webp",
+                "#f5f5f5": "images/woven-straw-tote/natural-gray.webp"
               }
             }
           ]

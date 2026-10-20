@@ -1,0 +1,134 @@
+{
+  "id": "leather-crossbody-bag",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-bolsas",
+  "name": {
+    "en": "Fio Puro Cognac Leather Crossbody Bag with a Flap Closure, Adjustable Strap and a Structured Body",
+    "pt-BR": "Bolsa Transversal Fio Puro de Couro Conhaque com Aba, Alça Regulável e Corpo Estruturado"
+  },
+  "description": {
+    "en": "A structured leather crossbody with a flap closure and an adjustable strap. It holds a phone, a card case and a small wallet.",
+    "pt-BR": "Bolsa transversal de couro estruturado, com aba e alça regulável. Cabe um celular, um porta-cartões e uma carteira pequena."
+  },
+  "price": {
+    "BRL": 980,
+    "USD": 210
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "leather crossbody",
+      "cognac",
+      "bag"
+    ],
+    "pt-BR": [
+      "bolsa transversal de couro",
+      "conhaque",
+      "bolsa"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "cognac-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cognac",
+          "name": {
+            "en": "Cognac",
+            "pt-BR": "Conhaque"
+          },
+          "hex": "#8C4A2F"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cognac-s",
+      "sku": "FIO-LCB-S",
+      "options": {
+        "color": "cognac",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 980,
+        "USD": 210
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cognac leather crossbody bag, front view",
+            "pt-BR": "Bolsa transversal de couro conhaque, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1290,
+        "USD": 280
+      }
+    },
+    {
+      "id": "cognac-m",
+      "sku": "FIO-LCB-M",
+      "options": {
+        "color": "cognac",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 980,
+        "USD": 210
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cognac leather crossbody bag, front view",
+            "pt-BR": "Bolsa transversal de couro conhaque, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1290,
+        "USD": 280
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 1290,
+    "USD": 280
+  }
+}

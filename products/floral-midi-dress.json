@@ -1,0 +1,167 @@
+{
+  "id": "floral-midi-dress",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-vestidos",
+  "name": {
+    "en": "Fio Puro Rust Floral Midi Dress in Cotton with Short Sleeves, a Gathered Skirt and a Soft Tie Waist",
+    "pt-BR": "Vestido Midi Fio Puro Floral Ferrugem em Algodão com Manga Curta, Saia Evasê e Amarração na Cintura"
+  },
+  "description": {
+    "en": "A printed cotton midi with short sleeves and a skirt that moves when you walk. The tie waist keeps the shape easy to adjust over a long day.",
+    "pt-BR": "Midi de algodão estampado, com manga curta e saia que acompanha o passo. A amarração na cintura deixa o caimento fácil de ajustar ao longo do dia."
+  },
+  "price": {
+    "BRL": 899,
+    "USD": 189
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "floral midi dress",
+      "cotton",
+      "rust"
+    ],
+    "pt-BR": [
+      "vestido midi floral",
+      "algodão",
+      "ferrugem"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "rust-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "rust",
+          "name": {
+            "en": "Rust",
+            "pt-BR": "Ferrugem"
+          },
+          "hex": "#C4623A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "rust-s",
+      "sku": "FIO-FMD-S",
+      "options": {
+        "color": "rust",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 899,
+        "USD": 189
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rust floral cotton midi dress, front view",
+            "pt-BR": "Vestido midi floral ferrugem de algodão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "rust-white.png",
+            "#f5f5f5": "rust-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1190,
+        "USD": 248
+      }
+    },
+    {
+      "id": "rust-m",
+      "sku": "FIO-FMD-M",
+      "options": {
+        "color": "rust",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 899,
+        "USD": 189
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rust floral cotton midi dress, front view",
+            "pt-BR": "Vestido midi floral ferrugem de algodão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "rust-white.png",
+            "#f5f5f5": "rust-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1190,
+        "USD": 248
+      }
+    },
+    {
+      "id": "rust-l",
+      "sku": "FIO-FMD-L",
+      "options": {
+        "color": "rust",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 899,
+        "USD": 189
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rust floral cotton midi dress, front view",
+            "pt-BR": "Vestido midi floral ferrugem de algodão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "rust-white.png",
+            "#f5f5f5": "rust-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1190,
+        "USD": 248
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 1190,
+    "USD": 248
+  }
+}

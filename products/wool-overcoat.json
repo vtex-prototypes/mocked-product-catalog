@@ -1,0 +1,167 @@
+{
+  "id": "wool-overcoat",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-casacos",
+  "name": {
+    "en": "Fio Puro Camel Wool Overcoat with Notched Lapels, Knee Length, Side Pockets and a Single-Breasted Front",
+    "pt-BR": "Sobretudo Fio Puro Camel de Lã com Lapela, Comprimento no Joelho, Bolsos Laterais e Abotoamento Simples"
+  },
+  "description": {
+    "en": "A wool overcoat cut to the knee with notched lapels and a single-breasted front. Side pockets sit at the hip and the shoulder stays clean.",
+    "pt-BR": "Sobretudo de lã até o joelho, com lapela e abotoamento simples. Os bolsos ficam no quadril e o ombro permanece limpo."
+  },
+  "price": {
+    "BRL": 1490,
+    "USD": 320
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "wool overcoat",
+      "camel",
+      "outerwear"
+    ],
+    "pt-BR": [
+      "sobretudo de lã",
+      "camelo",
+      "casaco"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "wool"
+    }
+  ],
+  "defaultVariantId": "camel-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "camel",
+          "name": {
+            "en": "Camel",
+            "pt-BR": "Camelo"
+          },
+          "hex": "#C4A574"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "camel-s",
+      "sku": "FIO-WOC-S",
+      "options": {
+        "color": "camel",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1490,
+        "USD": 320
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Camel wool overcoat, front view",
+            "pt-BR": "Sobretudo camel de lã, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "camel-white.png",
+            "#f5f5f5": "camel-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1980,
+        "USD": 420
+      }
+    },
+    {
+      "id": "camel-m",
+      "sku": "FIO-WOC-M",
+      "options": {
+        "color": "camel",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1490,
+        "USD": 320
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Camel wool overcoat, front view",
+            "pt-BR": "Sobretudo camel de lã, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "camel-white.png",
+            "#f5f5f5": "camel-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1980,
+        "USD": 420
+      }
+    },
+    {
+      "id": "camel-l",
+      "sku": "FIO-WOC-L",
+      "options": {
+        "color": "camel",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1490,
+        "USD": 320
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Camel wool overcoat, front view",
+            "pt-BR": "Sobretudo camel de lã, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "camel-white.png",
+            "#f5f5f5": "camel-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1980,
+        "USD": 420
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 1980,
+    "USD": 420
+  }
+}

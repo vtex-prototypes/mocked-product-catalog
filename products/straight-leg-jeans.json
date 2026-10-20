@@ -1,0 +1,151 @@
+{
+  "id": "straight-leg-jeans",
+  "brandId": "ritmo",
+  "categoryId": "roupa-jeans",
+  "name": {
+    "en": "Ritmo Indigo Straight-Leg Jeans in Stretch Denim with a High Rise, Five Pockets and a Full-Length Hem",
+    "pt-BR": "Calça Jeans Ritmo Reta Índigo com Elastano, Cintura Alta, Cinco Bolsos e Barra Longa"
+  },
+  "description": {
+    "en": "Straight-leg jeans in stretch denim with a high rise and five pockets. The hem is full length and sits cleanly over a shoe.",
+    "pt-BR": "Jeans de corte reto em denim com elastano, cintura alta e cinco bolsos. A barra longa cai limpa sobre o sapato."
+  },
+  "price": {
+    "BRL": 549,
+    "USD": 118
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "straight jeans",
+      "denim",
+      "indigo"
+    ],
+    "pt-BR": [
+      "jeans reto",
+      "denim",
+      "índigo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "denim"
+    }
+  ],
+  "defaultVariantId": "indigo-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "indigo",
+          "name": {
+            "en": "Indigo",
+            "pt-BR": "Índigo"
+          },
+          "hex": "#1E2A44"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "indigo-s",
+      "sku": "RIT-SLJ-S",
+      "options": {
+        "color": "indigo",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 549,
+        "USD": 118
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Indigo straight-leg jeans, front view",
+            "pt-BR": "Calça jeans reta índigo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "indigo-white.png",
+            "#f5f5f5": "indigo-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "indigo-m",
+      "sku": "RIT-SLJ-M",
+      "options": {
+        "color": "indigo",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 549,
+        "USD": 118
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Indigo straight-leg jeans, front view",
+            "pt-BR": "Calça jeans reta índigo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "indigo-white.png",
+            "#f5f5f5": "indigo-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "indigo-l",
+      "sku": "RIT-SLJ-L",
+      "options": {
+        "color": "indigo",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 549,
+        "USD": 118
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Indigo straight-leg jeans, front view",
+            "pt-BR": "Calça jeans reta índigo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "indigo-white.png",
+            "#f5f5f5": "indigo-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

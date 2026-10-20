@@ -1,0 +1,151 @@
+{
+  "id": "cable-crewneck-sweater",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-malhas",
+  "name": {
+    "en": "Fio Puro Cream Cable-Knit Crewneck Sweater in Wool with Ribbed Cuffs, Hem and a Relaxed Body",
+    "pt-BR": "Suéter Fio Puro Cru de Tricô Aran com Gola Careca, Lã, Punhos e Barra Canelados e Corpo Relaxado"
+  },
+  "description": {
+    "en": "A wool crewneck with cable stitch across the front and ribbing at the cuffs and hem. The body is relaxed enough to layer over a shirt.",
+    "pt-BR": "Gola careca de lã com trança na frente e canelado no punho e na barra. O corpo folgado aceita uma camisa por baixo."
+  },
+  "price": {
+    "BRL": 690,
+    "USD": 145
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cable sweater",
+      "wool",
+      "cream"
+    ],
+    "pt-BR": [
+      "suéter de tricô",
+      "lã",
+      "cru"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "wool"
+    }
+  ],
+  "defaultVariantId": "cream-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cream",
+          "name": {
+            "en": "Cream",
+            "pt-BR": "Cru"
+          },
+          "hex": "#F4EFE6"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cream-s",
+      "sku": "FIO-CCS-S",
+      "options": {
+        "color": "cream",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 690,
+        "USD": 145
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream cable-knit wool crewneck sweater, front view",
+            "pt-BR": "Suéter de lã cru com tricô aran, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-m",
+      "sku": "FIO-CCS-M",
+      "options": {
+        "color": "cream",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 690,
+        "USD": 145
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream cable-knit wool crewneck sweater, front view",
+            "pt-BR": "Suéter de lã cru com tricô aran, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-l",
+      "sku": "FIO-CCS-L",
+      "options": {
+        "color": "cream",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 690,
+        "USD": 145
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream cable-knit wool crewneck sweater, front view",
+            "pt-BR": "Suéter de lã cru com tricô aran, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
