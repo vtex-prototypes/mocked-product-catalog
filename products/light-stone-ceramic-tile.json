@@ -1,0 +1,142 @@
+{
+  "id": "light-stone-ceramic-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Light Stone-Look Ceramic Floor Tile, 18 by 18 Inches and 8 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Cerâmica Pedra Mineira Clara 45×45 cm com 8 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A light stone-look ceramic tile for outdoor floors. Slip resistance is R11 and scratch resistance is medium. The pale face stays easy to match with light walls. The price is for one square foot.",
+    "pt-BR": "Cerâmica clara com visual de pedra mineira para piso externo. O antiderrapante é R11 e a resistência a arranhão é média. O tom claro combina com parede clara. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 42.5,
+    "USD": 2.29
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "stone look ceramic",
+      "outdoor floor",
+      "light"
+    ],
+    "pt-BR": [
+      "cerâmica pedra mineira",
+      "piso externo",
+      "claro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r11"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "medium"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "stone-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "stone",
+          "name": {
+            "en": "Light stone",
+            "pt-BR": "Pedra clara"
+          },
+          "hex": "#D9C7A6"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "stone-natural",
+      "sku": "CON-LIGHTSTONE-NATURAL",
+      "options": {
+        "color": "stone",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 42.5,
+        "USD": 2.29
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Light stone-look ceramic floor tile",
+            "pt-BR": "Cerâmica clara com visual de pedra"
+          },
+          "backgrounds": {
+            "#ffffff": "stone-white.png",
+            "#f5f5f5": "stone-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stone-rectified",
+      "sku": "CON-LIGHTSTONE-RECTIFIED",
+      "options": {
+        "color": "stone",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 42.5,
+        "USD": 2.29
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Light stone-look ceramic floor tile",
+            "pt-BR": "Cerâmica clara com visual de pedra"
+          },
+          "backgrounds": {
+            "#ffffff": "stone-white.png",
+            "#f5f5f5": "stone-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

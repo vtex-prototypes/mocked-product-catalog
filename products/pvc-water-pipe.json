@@ -1,0 +1,138 @@
+{
+  "id": "pvc-water-pipe",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "Gray PVC Cold-Water Pipe, 1 Inch Diameter, Sold by the Length",
+    "pt-BR": "Tubo de PVC Cinza para Água Fria, 25 mm de Diâmetro, Vendido por Barra"
+  },
+  "description": {
+    "en": "A gray PVC pipe for cold-water lines indoors and outdoors. The 1 inch diameter is the everyday size for a branch line. The listed price is for the 3 meter length.",
+    "pt-BR": "Tubo de PVC cinza para água fria, em área interna e externa. O diâmetro de 25 mm é a medida comum de um ramal. O preço anunciado é da barra de 3 metros."
+  },
+  "price": {
+    "BRL": 18.9,
+    "USD": 7.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "pvc pipe",
+      "cold water",
+      "plumbing"
+    ],
+    "pt-BR": [
+      "tubo de pvc",
+      "água fria",
+      "hidráulica"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "pvc"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "gray-3m",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#9AA0A6"
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "3m",
+          "name": {
+            "en": "3 m",
+            "pt-BR": "3 m"
+          }
+        },
+        {
+          "id": "6m",
+          "name": {
+            "en": "6 m",
+            "pt-BR": "6 m"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gray-3m",
+      "sku": "CON-PVCWATERPI-3M",
+      "options": {
+        "color": "gray",
+        "length": "3m"
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 7.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC cold-water pipe",
+            "pt-BR": "Tubo de PVC cinza para água fria"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gray-6m",
+      "sku": "CON-PVCWATERPI-6M",
+      "options": {
+        "color": "gray",
+        "length": "6m"
+      },
+      "price": {
+        "BRL": 34.9,
+        "USD": 14.5
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC cold-water pipe",
+            "pt-BR": "Tubo de PVC cinza para água fria"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

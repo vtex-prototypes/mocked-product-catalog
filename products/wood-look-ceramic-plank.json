@@ -1,0 +1,142 @@
+{
+  "id": "wood-look-ceramic-plank",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Light Wood-Look Ceramic Deck Plank, 8 by 48 Inches and 9 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Deck Cerâmico Madeira Clara 20×120 cm com 9 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A light wood-look ceramic plank for outdoor decks. Slip resistance is R10 and scratch resistance is high. It reads as pale timber without the upkeep of real wood. The price is for one square foot.",
+    "pt-BR": "Régua cerâmica clara com efeito madeira para deck externo. O antiderrapante é R10 e a resistência a arranhão é alta. Parece madeira clara sem a manutenção da madeira de verdade. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 74.9,
+    "USD": 3.79
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "wood look ceramic",
+      "outdoor floor",
+      "light"
+    ],
+    "pt-BR": [
+      "deck cerâmico madeira",
+      "piso externo",
+      "claro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r10"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "oak-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "oak",
+          "name": {
+            "en": "Light oak",
+            "pt-BR": "Madeira clara"
+          },
+          "hex": "#C4A574"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "oak-natural",
+      "sku": "CON-WOODLOOKCE-NATURAL",
+      "options": {
+        "color": "oak",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 74.9,
+        "USD": 3.79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Light wood-look ceramic deck plank",
+            "pt-BR": "Deck cerâmico madeira clara"
+          },
+          "backgrounds": {
+            "#ffffff": "oak-white.png",
+            "#f5f5f5": "oak-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oak-rectified",
+      "sku": "CON-WOODLOOKCE-RECTIFIED",
+      "options": {
+        "color": "oak",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 74.9,
+        "USD": 3.79
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Light wood-look ceramic deck plank",
+            "pt-BR": "Deck cerâmico madeira clara"
+          },
+          "backgrounds": {
+            "#ffffff": "oak-white.png",
+            "#f5f5f5": "oak-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

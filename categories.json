@@ -48,5 +48,12 @@
   { "id": "esportes-shorts", "name": { "en": "Shorts", "pt-BR": "Shorts" }, "parent": "esportes" },
   { "id": "esportes-calcas", "name": { "en": "Pants", "pt-BR": "Calças" }, "parent": "esportes" },
   { "id": "esportes-acessorios", "name": { "en": "Accessories", "pt-BR": "Acessórios" }, "parent": "esportes" },
-  { "id": "esportes-mochilas", "name": { "en": "Backpacks", "pt-BR": "Mochilas" }, "parent": "esportes" }
+  { "id": "esportes-mochilas", "name": { "en": "Backpacks", "pt-BR": "Mochilas" }, "parent": "esportes" },
+
+  { "id": "construcao", "name": { "en": "Building Materials", "pt-BR": "Material de construção" }, "parent": null },
+  { "id": "construcao-pisos", "name": { "en": "Flooring", "pt-BR": "Pisos" }, "parent": "construcao" },
+  { "id": "construcao-revestimentos", "name": { "en": "Wall Tile", "pt-BR": "Revestimentos" }, "parent": "construcao" },
+  { "id": "construcao-tintas", "name": { "en": "Paint", "pt-BR": "Tintas" }, "parent": "construcao" },
+  { "id": "construcao-hidraulica", "name": { "en": "Plumbing", "pt-BR": "Hidráulica" }, "parent": "construcao" },
+  { "id": "construcao-rejuntes", "name": { "en": "Grout", "pt-BR": "Rejuntes" }, "parent": "construcao" }
 ]

@@ -1,0 +1,138 @@
+{
+  "id": "epoxy-graphite-grout",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Graphite Epoxy Grout for Stain-Resistant Indoor and Outdoor Tile Joints, Sold by the Tub",
+    "pt-BR": "Rejunte Epóxi Grafite para Juntas Internas e Externas Resistentes a Mancha, Vendido por Pote"
+  },
+  "description": {
+    "en": "A graphite epoxy grout for indoor and outdoor joints that need to resist stains. It is the most expensive grout and the one that stays dark and closed after it cures. The listed price is for the 1 kg tub.",
+    "pt-BR": "Rejunte epóxi grafite para juntas internas e externas que precisam resistir a mancha. É o rejunte mais caro e o que fica escuro e fechado depois de curar. O preço anunciado é do pote de 1 kg."
+  },
+  "price": {
+    "BRL": 59.9,
+    "USD": 27.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "epoxy grout",
+      "graphite",
+      "stain resistant"
+    ],
+    "pt-BR": [
+      "rejunte epóxi",
+      "grafite",
+      "resistente a mancha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "epoxy"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "graphite-1kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "graphite",
+          "name": {
+            "en": "Graphite",
+            "pt-BR": "Grafite"
+          },
+          "hex": "#3E4246"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "1kg",
+          "name": {
+            "en": "1 kg",
+            "pt-BR": "1 kg"
+          }
+        },
+        {
+          "id": "5kg",
+          "name": {
+            "en": "5 kg",
+            "pt-BR": "5 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "graphite-1kg",
+      "sku": "CON-EPOXYGRAPHI-1KG",
+      "options": {
+        "color": "graphite",
+        "weight": "1kg"
+      },
+      "price": {
+        "BRL": 59.9,
+        "USD": 27.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of graphite epoxy grout",
+            "pt-BR": "Pote de rejunte epóxi grafite"
+          },
+          "backgrounds": {
+            "#ffffff": "graphite-white.png",
+            "#f5f5f5": "graphite-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "graphite-5kg",
+      "sku": "CON-EPOXYGRAPHI-5KG",
+      "options": {
+        "color": "graphite",
+        "weight": "5kg"
+      },
+      "price": {
+        "BRL": 229,
+        "USD": 99
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of graphite epoxy grout",
+            "pt-BR": "Pote de rejunte epóxi grafite"
+          },
+          "backgrounds": {
+            "#ffffff": "graphite-white.png",
+            "#f5f5f5": "graphite-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

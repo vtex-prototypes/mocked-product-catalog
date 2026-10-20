@@ -1,0 +1,142 @@
+{
+  "id": "green-natural-stone-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Honed Green Natural Stone Floor Tile, 4 by 4 Inches and 10 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Pedra Natural Verde 10×10 cm com 10 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A honed green natural stone tile for outdoor floors. Slip resistance is R12 and scratch resistance is high. The small format and the stone face make it the most expensive outdoor option. The price is for one square foot.",
+    "pt-BR": "Pedra natural verde levigada para piso externo. O antiderrapante é R12 e a resistência a arranhão é alta. O formato pequeno e a face de pedra fazem dela a opção externa mais cara. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 189,
+    "USD": 12.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "green natural stone",
+      "outdoor floor",
+      "slip resistant"
+    ],
+    "pt-BR": [
+      "pedra natural verde",
+      "piso externo",
+      "antiderrapante"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "natural-stone"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r12"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "green-honed",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "green",
+          "name": {
+            "en": "Green",
+            "pt-BR": "Verde"
+          },
+          "hex": "#2F4F45"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "honed",
+          "name": {
+            "en": "Honed",
+            "pt-BR": "Levigado"
+          }
+        },
+        {
+          "id": "mesh-mounted",
+          "name": {
+            "en": "Mesh-mounted",
+            "pt-BR": "Tela"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "green-honed",
+      "sku": "CON-GREENNATURA-HONED",
+      "options": {
+        "color": "green",
+        "finish": "honed"
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 12.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Honed green natural stone floor tile",
+            "pt-BR": "Pedra natural verde levigada"
+          },
+          "backgrounds": {
+            "#ffffff": "green-white.png",
+            "#f5f5f5": "green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "green-mesh-mounted",
+      "sku": "CON-GREENNATURA-MESH-MOUNTED",
+      "options": {
+        "color": "green",
+        "finish": "mesh-mounted"
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 12.9
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Honed green natural stone floor tile",
+            "pt-BR": "Pedra natural verde levigada"
+          },
+          "backgrounds": {
+            "#ffffff": "green-white.png",
+            "#f5f5f5": "green-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

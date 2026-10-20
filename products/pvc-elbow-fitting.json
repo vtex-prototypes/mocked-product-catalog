@@ -1,0 +1,138 @@
+{
+  "id": "pvc-elbow-fitting",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "Gray PVC 90-Degree Elbow Fitting for 1 Inch Cold-Water Pipe, Sold by the Piece",
+    "pt-BR": "Joelho de PVC Cinza 90 Graus para Tubo de Água Fria de 25 mm, Vendido por Peça"
+  },
+  "description": {
+    "en": "A gray PVC 90-degree elbow for a 1 inch cold-water pipe. It turns a line at a corner indoors or outdoors and solvent-welds to the pipe. The listed price is for one piece.",
+    "pt-BR": "Joelho de PVC cinza de 90 graus para tubo de água fria de 25 mm. Vira a linha num canto, interno ou externo, e solda com adesivo no tubo. O preço anunciado é de uma peça."
+  },
+  "price": {
+    "BRL": 3.5,
+    "USD": 1.49
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "pvc elbow",
+      "cold water",
+      "plumbing"
+    ],
+    "pt-BR": [
+      "joelho de pvc",
+      "água fria",
+      "hidráulica"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "pvc"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "gray-single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#9AA0A6"
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "name": {
+        "en": "Quantity",
+        "pt-BR": "Quantidade"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 unidade"
+          }
+        },
+        {
+          "id": "pack-10",
+          "name": {
+            "en": "Pack of 10",
+            "pt-BR": "Pacote com 10"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gray-single",
+      "sku": "CON-PVCELBOWFI-SINGLE",
+      "options": {
+        "color": "gray",
+        "quantity": "single"
+      },
+      "price": {
+        "BRL": 3.5,
+        "USD": 1.49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC 90-degree elbow fitting",
+            "pt-BR": "Joelho de PVC cinza de 90 graus"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gray-pack-10",
+      "sku": "CON-PVCELBOWFI-PACK-10",
+      "options": {
+        "color": "gray",
+        "quantity": "pack-10"
+      },
+      "price": {
+        "BRL": 29.9,
+        "USD": 11.9
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC 90-degree elbow fitting",
+            "pt-BR": "Joelho de PVC cinza de 90 graus"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

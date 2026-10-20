@@ -1,0 +1,138 @@
+{
+  "id": "acrylic-beige-grout",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Acrylic Beige Grout for Indoor and Outdoor Tile Joints, Sold by the Tub",
+    "pt-BR": "Rejunte Acrílico Bege para Juntas de Piso Interno e Externo, Vendido por Pote"
+  },
+  "description": {
+    "en": "An acrylic beige grout for indoor and outdoor joints. The warm tone sits next to light stone and wood-look tile. It is ready to use, with no mixing. The listed price is for the 1 kg tub.",
+    "pt-BR": "Rejunte acrílico bege para juntas internas e externas. O tom quente acompanha pedra clara e piso com efeito madeira. Já vem pronto, sem mistura. O preço anunciado é do pote de 1 kg."
+  },
+  "price": {
+    "BRL": 22.5,
+    "USD": 11.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "acrylic grout",
+      "beige",
+      "ready to use"
+    ],
+    "pt-BR": [
+      "rejunte acrílico",
+      "bege",
+      "pronto para uso"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "beige-1kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "beige",
+          "name": {
+            "en": "Beige",
+            "pt-BR": "Bege"
+          },
+          "hex": "#D8C3A5"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "1kg",
+          "name": {
+            "en": "1 kg",
+            "pt-BR": "1 kg"
+          }
+        },
+        {
+          "id": "5kg",
+          "name": {
+            "en": "5 kg",
+            "pt-BR": "5 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "beige-1kg",
+      "sku": "CON-ACRYLICBEIG-1KG",
+      "options": {
+        "color": "beige",
+        "weight": "1kg"
+      },
+      "price": {
+        "BRL": 22.5,
+        "USD": 11.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of acrylic beige grout",
+            "pt-BR": "Pote de rejunte acrílico bege"
+          },
+          "backgrounds": {
+            "#ffffff": "beige-white.png",
+            "#f5f5f5": "beige-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beige-5kg",
+      "sku": "CON-ACRYLICBEIG-5KG",
+      "options": {
+        "color": "beige",
+        "weight": "5kg"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 42
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of acrylic beige grout",
+            "pt-BR": "Pote de rejunte acrílico bege"
+          },
+          "backgrounds": {
+            "#ffffff": "beige-white.png",
+            "#f5f5f5": "beige-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
