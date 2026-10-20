@@ -1,0 +1,147 @@
+{
+  "id": "cream-midi-skirt",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-saias",
+  "name": {
+    "en": "Fio Puro Cream Midi Skirt in Viscose with a Smooth A-Line, a Side Zip and a Clean Hem",
+    "pt-BR": "Saia midi Fio Puro creme de viscose, evasê liso, zíper lateral e barra limpa sem prega"
+  },
+  "description": {
+    "en": "A cream midi skirt in viscose with a smooth A-line and no pleat. A side zip keeps the waist clean.",
+    "pt-BR": "Saia midi creme de viscose, evasê liso, sem prega. O zíper lateral deixa a cintura limpa."
+  },
+  "price": {
+    "BRL": 680,
+    "USD": 140
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cream midi skirt in"
+    ],
+    "pt-BR": [
+      "saia midi fio puro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "viscose"
+    }
+  ],
+  "defaultVariantId": "cream-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cream",
+          "name": {
+            "en": "Cream",
+            "pt-BR": "Creme"
+          },
+          "hex": "#F4EFE6"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cream-s",
+      "sku": "FIO-CMS-S",
+      "options": {
+        "color": "cream",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 680,
+        "USD": 140
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Midi Skirt in Viscose with a Smooth A-Line, a Side Zip and a Clean Hem, front view",
+            "pt-BR": "Saia midi Fio Puro creme de viscose, evasê liso, zíper lateral e barra limpa sem prega, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-m",
+      "sku": "FIO-CMS-M",
+      "options": {
+        "color": "cream",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 680,
+        "USD": 140
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Midi Skirt in Viscose with a Smooth A-Line, a Side Zip and a Clean Hem, front view",
+            "pt-BR": "Saia midi Fio Puro creme de viscose, evasê liso, zíper lateral e barra limpa sem prega, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-l",
+      "sku": "FIO-CMS-L",
+      "options": {
+        "color": "cream",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 680,
+        "USD": 140
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Midi Skirt in Viscose with a Smooth A-Line, a Side Zip and a Clean Hem, front view",
+            "pt-BR": "Saia midi Fio Puro creme de viscose, evasê liso, zíper lateral e barra limpa sem prega, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "ivory-ribbed-turtleneck",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-malhas",
+  "name": {
+    "en": "Fio Puro Ivory Ribbed Merino Turtleneck Sweater with a Close Fit, Long Sleeves and a Folded Collar",
+    "pt-BR": "Gola alta canelada Fio Puro marfim de merino, modelagem justa, manga longa e gola dobrada sobre si"
+  },
+  "description": {
+    "en": "A ribbed merino turtleneck in ivory, cut close through the body. The folded neck sits high without choking.",
+    "pt-BR": "Gola alta canelada de merino marfim, justa no corpo. A gola dobrada sobe sem apertar."
+  },
+  "price": {
+    "BRL": 760,
+    "USD": 156
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "ivory ribbed merino turtleneck"
+    ],
+    "pt-BR": [
+      "gola alta canelada fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "merino-wool"
+    }
+  ],
+  "defaultVariantId": "ivory-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "ivory",
+          "name": {
+            "en": "Ivory",
+            "pt-BR": "Marfim"
+          },
+          "hex": "#F3EDE4"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "ivory-s",
+      "sku": "FIO-IRT-S",
+      "options": {
+        "color": "ivory",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 760,
+        "USD": 156
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ivory Ribbed Merino Turtleneck Sweater with a Close Fit, Long Sleeves and a Folded Collar, front view",
+            "pt-BR": "Gola alta canelada Fio Puro marfim de merino, modelagem justa, manga longa e gola dobrada sobre si, Marfim, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "ivory-white.png",
+            "#f5f5f5": "ivory-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ivory-m",
+      "sku": "FIO-IRT-M",
+      "options": {
+        "color": "ivory",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 760,
+        "USD": 156
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ivory Ribbed Merino Turtleneck Sweater with a Close Fit, Long Sleeves and a Folded Collar, front view",
+            "pt-BR": "Gola alta canelada Fio Puro marfim de merino, modelagem justa, manga longa e gola dobrada sobre si, Marfim, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "ivory-white.png",
+            "#f5f5f5": "ivory-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ivory-l",
+      "sku": "FIO-IRT-L",
+      "options": {
+        "color": "ivory",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 760,
+        "USD": 156
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ivory Ribbed Merino Turtleneck Sweater with a Close Fit, Long Sleeves and a Folded Collar, front view",
+            "pt-BR": "Gola alta canelada Fio Puro marfim de merino, modelagem justa, manga longa e gola dobrada sobre si, Marfim, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "ivory-white.png",
+            "#f5f5f5": "ivory-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

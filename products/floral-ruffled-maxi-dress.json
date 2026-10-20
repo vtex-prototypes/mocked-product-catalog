@@ -1,0 +1,147 @@
+{
+  "id": "floral-ruffled-maxi-dress",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-vestidos",
+  "name": {
+    "en": "Fio Puro Floral Ruffled Maxi Dress in Viscose with Tiered Flounces, Thin Straps and a Full Hem",
+    "pt-BR": "Vestido longo floral Fio Puro de viscose, com babados em camadas, alças finas e barra cheia que se mexe"
+  },
+  "description": {
+    "en": "A viscose maxi covered in flowers, with ruffled tiers that move when you walk. Thin straps leave the shoulder bare.",
+    "pt-BR": "Longo de viscose coberto de flores, com babados que se mexem no passo. As alças finas deixam o ombro livre."
+  },
+  "price": {
+    "BRL": 1120,
+    "USD": 236
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "floral ruffled maxi dress"
+    ],
+    "pt-BR": [
+      "vestido longo floral fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "viscose"
+    }
+  ],
+  "defaultVariantId": "floral-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "floral",
+          "name": {
+            "en": "Floral",
+            "pt-BR": "Floral"
+          },
+          "hex": "#8C3A32"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "floral-s",
+      "sku": "FIO-FRM-S",
+      "options": {
+        "color": "floral",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1120,
+        "USD": 236
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Floral Ruffled Maxi Dress in Viscose with Tiered Flounces, Thin Straps and a Full Hem, front view",
+            "pt-BR": "Vestido longo floral Fio Puro de viscose, com babados em camadas, alças finas e barra cheia que se mexe, Floral, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "floral-white.png",
+            "#f5f5f5": "floral-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "floral-m",
+      "sku": "FIO-FRM-M",
+      "options": {
+        "color": "floral",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1120,
+        "USD": 236
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Floral Ruffled Maxi Dress in Viscose with Tiered Flounces, Thin Straps and a Full Hem, front view",
+            "pt-BR": "Vestido longo floral Fio Puro de viscose, com babados em camadas, alças finas e barra cheia que se mexe, Floral, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "floral-white.png",
+            "#f5f5f5": "floral-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "floral-l",
+      "sku": "FIO-FRM-L",
+      "options": {
+        "color": "floral",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1120,
+        "USD": 236
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Floral Ruffled Maxi Dress in Viscose with Tiered Flounces, Thin Straps and a Full Hem, front view",
+            "pt-BR": "Vestido longo floral Fio Puro de viscose, com babados em camadas, alças finas e barra cheia que se mexe, Floral, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "floral-white.png",
+            "#f5f5f5": "floral-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

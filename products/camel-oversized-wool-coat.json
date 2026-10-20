@@ -1,0 +1,163 @@
+{
+  "id": "camel-oversized-wool-coat",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-casacos",
+  "name": {
+    "en": "Fio Puro Camel Oversized Wool Coat with Dropped Shoulders, Notched Lapels and a Knee Length",
+    "pt-BR": "Casaco oversized Fio Puro camelo de lã, ombro caído, lapela e comprimento no joelho"
+  },
+  "description": {
+    "en": "An oversized camel wool coat with dropped shoulders and notched lapels, cut to the knee. It is the neutral layer over a dress or a jean.",
+    "pt-BR": "Casaco oversized de lã camelo, ombro caído e lapela, no joelho. É a camada neutra sobre um vestido ou um jeans."
+  },
+  "price": {
+    "BRL": 1640,
+    "USD": 340
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "camel oversized wool coat"
+    ],
+    "pt-BR": [
+      "casaco oversized fio puro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "wool"
+    }
+  ],
+  "defaultVariantId": "camel-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "camel",
+          "name": {
+            "en": "Camel",
+            "pt-BR": "Camelo"
+          },
+          "hex": "#C4A574"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "camel-s",
+      "sku": "FIO-COW-S",
+      "options": {
+        "color": "camel",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1640,
+        "USD": 340
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Camel Oversized Wool Coat with Dropped Shoulders, Notched Lapels and a Knee Length, front view",
+            "pt-BR": "Casaco oversized Fio Puro camelo de lã, ombro caído, lapela e comprimento no joelho, Camelo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "camel-white.png",
+            "#f5f5f5": "camel-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1980,
+        "USD": 420
+      }
+    },
+    {
+      "id": "camel-m",
+      "sku": "FIO-COW-M",
+      "options": {
+        "color": "camel",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1640,
+        "USD": 340
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Camel Oversized Wool Coat with Dropped Shoulders, Notched Lapels and a Knee Length, front view",
+            "pt-BR": "Casaco oversized Fio Puro camelo de lã, ombro caído, lapela e comprimento no joelho, Camelo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "camel-white.png",
+            "#f5f5f5": "camel-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1980,
+        "USD": 420
+      }
+    },
+    {
+      "id": "camel-l",
+      "sku": "FIO-COW-L",
+      "options": {
+        "color": "camel",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1640,
+        "USD": 340
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Camel Oversized Wool Coat with Dropped Shoulders, Notched Lapels and a Knee Length, front view",
+            "pt-BR": "Casaco oversized Fio Puro camelo de lã, ombro caído, lapela e comprimento no joelho, Camelo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "camel-white.png",
+            "#f5f5f5": "camel-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1980,
+        "USD": 420
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 1980,
+    "USD": 420
+  }
+}

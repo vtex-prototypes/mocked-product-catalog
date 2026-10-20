@@ -1,0 +1,147 @@
+{
+  "id": "black-bomber-jacket",
+  "brandId": "ritmo",
+  "categoryId": "roupa-casacos",
+  "name": {
+    "en": "Ritmo Black Bomber Jacket in Cotton with Ribbed Collar, Cuffs and Hem and a Zip Front",
+    "pt-BR": "Jaqueta bomber Ritmo preta de algodão, gola, punho e barra canelados e zíper na frente"
+  },
+  "description": {
+    "en": "A black cotton bomber with ribbing at the collar, cuff and hem. The zip runs the full front and the body stays short.",
+    "pt-BR": "Bomber preta de algodão, canelado na gola, no punho e na barra. O zíper desce a frente e o corpo fica curto."
+  },
+  "price": {
+    "BRL": 960,
+    "USD": 198
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "bomber jacket in cotton"
+    ],
+    "pt-BR": [
+      "jaqueta bomber ritmo preta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "RIT-BBJ-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 960,
+        "USD": 198
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Bomber Jacket in Cotton with Ribbed Collar, Cuffs and Hem and a Zip Front, front view",
+            "pt-BR": "Jaqueta bomber Ritmo preta de algodão, gola, punho e barra canelados e zíper na frente, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "RIT-BBJ-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 960,
+        "USD": 198
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Bomber Jacket in Cotton with Ribbed Collar, Cuffs and Hem and a Zip Front, front view",
+            "pt-BR": "Jaqueta bomber Ritmo preta de algodão, gola, punho e barra canelados e zíper na frente, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "RIT-BBJ-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 960,
+        "USD": 198
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Bomber Jacket in Cotton with Ribbed Collar, Cuffs and Hem and a Zip Front, front view",
+            "pt-BR": "Jaqueta bomber Ritmo preta de algodão, gola, punho e barra canelados e zíper na frente, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

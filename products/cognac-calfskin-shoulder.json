@@ -1,0 +1,147 @@
+{
+  "id": "cognac-calfskin-shoulder",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-bolsas",
+  "name": {
+    "en": "Fio Puro Cognac Calfskin Leather Shoulder Bag with a Wide Strap and a Soft Structured Body",
+    "pt-BR": "Bolsa de ombro Fio Puro de couro de bezerro conhaque, alça larga e corpo macio com estrutura"
+  },
+  "description": {
+    "en": "A cognac calfskin shoulder bag with a wide strap. The leather is soft, and the body still holds a shape.",
+    "pt-BR": "Bolsa de ombro em couro de bezerro conhaque, alça larga. O couro é macio e o corpo ainda segura a forma."
+  },
+  "price": {
+    "BRL": 1490,
+    "USD": 310
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cognac calfskin leather shoulder"
+    ],
+    "pt-BR": [
+      "bolsa de ombro fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "cognac-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cognac",
+          "name": {
+            "en": "Cognac",
+            "pt-BR": "Conhaque"
+          },
+          "hex": "#8C4A2F"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cognac-s",
+      "sku": "FIO-CCS-S",
+      "options": {
+        "color": "cognac",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1490,
+        "USD": 310
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cognac Calfskin Leather Shoulder Bag with a Wide Strap and a Soft Structured Body, front view",
+            "pt-BR": "Bolsa de ombro Fio Puro de couro de bezerro conhaque, alça larga e corpo macio com estrutura, Conhaque, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cognac-m",
+      "sku": "FIO-CCS-M",
+      "options": {
+        "color": "cognac",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1490,
+        "USD": 310
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cognac Calfskin Leather Shoulder Bag with a Wide Strap and a Soft Structured Body, front view",
+            "pt-BR": "Bolsa de ombro Fio Puro de couro de bezerro conhaque, alça larga e corpo macio com estrutura, Conhaque, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cognac-l",
+      "sku": "FIO-CCS-L",
+      "options": {
+        "color": "cognac",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1490,
+        "USD": 310
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cognac Calfskin Leather Shoulder Bag with a Wide Strap and a Soft Structured Body, front view",
+            "pt-BR": "Bolsa de ombro Fio Puro de couro de bezerro conhaque, alça larga e corpo macio com estrutura, Conhaque, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

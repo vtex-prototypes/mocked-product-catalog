@@ -1,0 +1,147 @@
+{
+  "id": "navy-puff-sleeve-linen",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Fio Puro Navy Linen Puff Sleeve Blouse with a Round Collar, Gathered Shoulders and a Hip-Length Hem",
+    "pt-BR": "Blusa Fio Puro marinho de linho com manga bufante, decote redondo, ombro franzido e barra no quadril"
+  },
+  "description": {
+    "en": "A navy linen blouse with a full puff sleeve gathered at the shoulder. The cloth is substantial enough that the volume holds.",
+    "pt-BR": "Blusa marinho de linho com manga bufante franzida no ombro. O tecido tem corpo bastante para o volume ficar armado."
+  },
+  "price": {
+    "BRL": 1090,
+    "USD": 228
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "navy linen puff sleeve"
+    ],
+    "pt-BR": [
+      "blusa fio puro marinho"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "linen"
+    }
+  ],
+  "defaultVariantId": "navy-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "navy",
+          "name": {
+            "en": "Navy",
+            "pt-BR": "Marinho"
+          },
+          "hex": "#1B2A4A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "navy-s",
+      "sku": "FIO-NPL-S",
+      "options": {
+        "color": "navy",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1090,
+        "USD": 228
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy Linen Puff Sleeve Blouse with a Round Collar, Gathered Shoulders and a Hip-Length Hem, front view",
+            "pt-BR": "Blusa Fio Puro marinho de linho com manga bufante, decote redondo, ombro franzido e barra no quadril, Marinho, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-m",
+      "sku": "FIO-NPL-M",
+      "options": {
+        "color": "navy",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1090,
+        "USD": 228
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy Linen Puff Sleeve Blouse with a Round Collar, Gathered Shoulders and a Hip-Length Hem, front view",
+            "pt-BR": "Blusa Fio Puro marinho de linho com manga bufante, decote redondo, ombro franzido e barra no quadril, Marinho, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-l",
+      "sku": "FIO-NPL-L",
+      "options": {
+        "color": "navy",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1090,
+        "USD": 228
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy Linen Puff Sleeve Blouse with a Round Collar, Gathered Shoulders and a Hip-Length Hem, front view",
+            "pt-BR": "Blusa Fio Puro marinho de linho com manga bufante, decote redondo, ombro franzido e barra no quadril, Marinho, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

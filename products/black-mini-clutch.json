@@ -1,0 +1,163 @@
+{
+  "id": "black-mini-clutch",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-bolsas",
+  "name": {
+    "en": "Fio Puro Black Mini Leather Clutch with an Envelope Flap, No Strap and a Slim Profile",
+    "pt-BR": "Clutch mini Fio Puro preta de couro, aba envelope, sem alça e perfil fino para a noite"
+  },
+  "description": {
+    "en": "A black mini leather clutch with an envelope flap and no strap. It holds a phone, a card and a lipstick, and not much more.",
+    "pt-BR": "Clutch mini preta de couro, aba envelope, sem alça. Cabe um telefone, um cartão e um batom, e pouco mais."
+  },
+  "price": {
+    "BRL": 720,
+    "USD": 148
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black mini leather clutch"
+    ],
+    "pt-BR": [
+      "clutch mini fio puro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-BMC-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 720,
+        "USD": 148
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Mini Leather Clutch with an Envelope Flap, No Strap and a Slim Profile, front view",
+            "pt-BR": "Clutch mini Fio Puro preta de couro, aba envelope, sem alça e perfil fino para a noite, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 980,
+        "USD": 199
+      }
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-BMC-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 720,
+        "USD": 148
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Mini Leather Clutch with an Envelope Flap, No Strap and a Slim Profile, front view",
+            "pt-BR": "Clutch mini Fio Puro preta de couro, aba envelope, sem alça e perfil fino para a noite, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 980,
+        "USD": 199
+      }
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-BMC-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 720,
+        "USD": 148
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Mini Leather Clutch with an Envelope Flap, No Strap and a Slim Profile, front view",
+            "pt-BR": "Clutch mini Fio Puro preta de couro, aba envelope, sem alça e perfil fino para a noite, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 980,
+        "USD": 199
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 980,
+    "USD": 199
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "camel-vneck-cashmere",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-malhas",
+  "name": {
+    "en": "Fio Puro Camel Cashmere V-Neck Sweater with a Fine Knit, Long Sleeves and a Shallow Opening",
+    "pt-BR": "Suéter de caxemira Fio Puro camelo com decote V, tricô fino, manga longa e abertura rasa no peito"
+  },
+  "description": {
+    "en": "A camel cashmere sweater with a shallow V-neck. The fine knit lies flat, so it works under a blazer without bulk.",
+    "pt-BR": "Suéter camelo de caxemira com decote V raso. O tricô fino deita sem volume e entra sob um blazer."
+  },
+  "price": {
+    "BRL": 1060,
+    "USD": 220
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "camel cashmere v-neck sweater"
+    ],
+    "pt-BR": [
+      "suéter de caxemira fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cashmere"
+    }
+  ],
+  "defaultVariantId": "camel-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "camel",
+          "name": {
+            "en": "Camel",
+            "pt-BR": "Camelo"
+          },
+          "hex": "#C4A574"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "camel-s",
+      "sku": "FIO-CVC-S",
+      "options": {
+        "color": "camel",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1060,
+        "USD": 220
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Camel Cashmere V-Neck Sweater with a Fine Knit, Long Sleeves and a Shallow Opening, front view",
+            "pt-BR": "Suéter de caxemira Fio Puro camelo com decote V, tricô fino, manga longa e abertura rasa no peito, Camelo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "camel-white.png",
+            "#f5f5f5": "camel-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "camel-m",
+      "sku": "FIO-CVC-M",
+      "options": {
+        "color": "camel",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1060,
+        "USD": 220
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Camel Cashmere V-Neck Sweater with a Fine Knit, Long Sleeves and a Shallow Opening, front view",
+            "pt-BR": "Suéter de caxemira Fio Puro camelo com decote V, tricô fino, manga longa e abertura rasa no peito, Camelo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "camel-white.png",
+            "#f5f5f5": "camel-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "camel-l",
+      "sku": "FIO-CVC-L",
+      "options": {
+        "color": "camel",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1060,
+        "USD": 220
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Camel Cashmere V-Neck Sweater with a Fine Knit, Long Sleeves and a Shallow Opening, front view",
+            "pt-BR": "Suéter de caxemira Fio Puro camelo com decote V, tricô fino, manga longa e abertura rasa no peito, Camelo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "camel-white.png",
+            "#f5f5f5": "camel-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

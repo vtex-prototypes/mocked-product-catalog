@@ -1,0 +1,147 @@
+{
+  "id": "cognac-suede-hobo",
+  "brandId": "ritmo",
+  "categoryId": "roupa-bolsas",
+  "name": {
+    "en": "Ritmo Cognac Suede Hobo Bag with a Slouchy Body, a Single Strap and a Soft Nap",
+    "pt-BR": "Bolsa hobo Ritmo de camurça conhaque, corpo que tomba, uma alça e pelo macio"
+  },
+  "description": {
+    "en": "A cognac suede hobo with one strap and a body that slouches. The nap catches the light differently from smooth leather.",
+    "pt-BR": "Hobo de camurça conhaque, uma alça e corpo que tomba. O pelo pega a luz de um jeito diferente do couro liso."
+  },
+  "price": {
+    "BRL": 790,
+    "USD": 164
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "suede hobo bag with"
+    ],
+    "pt-BR": [
+      "bolsa hobo ritmo de"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "suede"
+    }
+  ],
+  "defaultVariantId": "cognac-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cognac",
+          "name": {
+            "en": "Cognac",
+            "pt-BR": "Conhaque"
+          },
+          "hex": "#8C4A2F"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cognac-s",
+      "sku": "RIT-CSH-S",
+      "options": {
+        "color": "cognac",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 790,
+        "USD": 164
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cognac Suede Hobo Bag with a Slouchy Body, a Single Strap and a Soft Nap, front view",
+            "pt-BR": "Bolsa hobo Ritmo de camurça conhaque, corpo que tomba, uma alça e pelo macio, Conhaque, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cognac-m",
+      "sku": "RIT-CSH-M",
+      "options": {
+        "color": "cognac",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 790,
+        "USD": 164
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cognac Suede Hobo Bag with a Slouchy Body, a Single Strap and a Soft Nap, front view",
+            "pt-BR": "Bolsa hobo Ritmo de camurça conhaque, corpo que tomba, uma alça e pelo macio, Conhaque, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cognac-l",
+      "sku": "RIT-CSH-L",
+      "options": {
+        "color": "cognac",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 790,
+        "USD": 164
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cognac Suede Hobo Bag with a Slouchy Body, a Single Strap and a Soft Nap, front view",
+            "pt-BR": "Bolsa hobo Ritmo de camurça conhaque, corpo que tomba, uma alça e pelo macio, Conhaque, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

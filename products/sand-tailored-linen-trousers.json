@@ -1,0 +1,147 @@
+{
+  "id": "sand-tailored-linen-trousers",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-calcas",
+  "name": {
+    "en": "Fio Puro Sand Tailored Linen Trousers with a Front Pleat, a Mid Rise and a Full-Length Hem",
+    "pt-BR": "Calça alfaiataria Fio Puro areia de linho, prega na frente, cós médio e barra no comprimento inteiro"
+  },
+  "description": {
+    "en": "Sand tailored linen trousers with a front pleat and a pressed line down the leg. The cloth creases, which is the point of linen.",
+    "pt-BR": "Calça de linho areia com prega e vinco na perna. O tecido amassa, e é essa a graça do linho."
+  },
+  "price": {
+    "BRL": 920,
+    "USD": 188
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "sand tailored linen trousers"
+    ],
+    "pt-BR": [
+      "calça alfaiataria fio puro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "linen"
+    }
+  ],
+  "defaultVariantId": "sand-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "sand",
+          "name": {
+            "en": "Sand",
+            "pt-BR": "Areia"
+          },
+          "hex": "#D9C7A6"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "sand-s",
+      "sku": "FIO-STL-S",
+      "options": {
+        "color": "sand",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 920,
+        "USD": 188
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sand Tailored Linen Trousers with a Front Pleat, a Mid Rise and a Full-Length Hem, front view",
+            "pt-BR": "Calça alfaiataria Fio Puro areia de linho, prega na frente, cós médio e barra no comprimento inteiro, Areia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sand-m",
+      "sku": "FIO-STL-M",
+      "options": {
+        "color": "sand",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 920,
+        "USD": 188
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sand Tailored Linen Trousers with a Front Pleat, a Mid Rise and a Full-Length Hem, front view",
+            "pt-BR": "Calça alfaiataria Fio Puro areia de linho, prega na frente, cós médio e barra no comprimento inteiro, Areia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sand-l",
+      "sku": "FIO-STL-L",
+      "options": {
+        "color": "sand",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 920,
+        "USD": 188
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sand Tailored Linen Trousers with a Front Pleat, a Mid Rise and a Full-Length Hem, front view",
+            "pt-BR": "Calça alfaiataria Fio Puro areia de linho, prega na frente, cós médio e barra no comprimento inteiro, Areia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "brown-suede-hobo",
+  "brandId": "ritmo",
+  "categoryId": "roupa-bolsas",
+  "name": {
+    "en": "Ritmo Brown Suede Hobo Bag with a Slouchy Crescent Body and a Single Shoulder Strap",
+    "pt-BR": "Bolsa hobo Ritmo marrom de camurça, corpo em meia-lua que tomba e uma alça só de ombro"
+  },
+  "description": {
+    "en": "A brown suede hobo with a crescent that slumps when you carry it. One strap, no hardware on the front.",
+    "pt-BR": "Hobo marrom de camurça, meia-lua que tomba no ombro. Uma alça só, sem metal na frente."
+  },
+  "price": {
+    "BRL": 860,
+    "USD": 176
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "suede hobo bag with"
+    ],
+    "pt-BR": [
+      "bolsa hobo ritmo marrom"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "suede"
+    }
+  ],
+  "defaultVariantId": "brown-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "brown",
+          "name": {
+            "en": "Brown",
+            "pt-BR": "Marrom"
+          },
+          "hex": "#6B3E2A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "brown-s",
+      "sku": "RIT-BSH-S",
+      "options": {
+        "color": "brown",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 860,
+        "USD": 176
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brown Suede Hobo Bag with a Slouchy Crescent Body and a Single Shoulder Strap, front view",
+            "pt-BR": "Bolsa hobo Ritmo marrom de camurça, corpo em meia-lua que tomba e uma alça só de ombro, Marrom, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brown-white.png",
+            "#f5f5f5": "brown-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1120,
+        "USD": 229
+      }
+    },
+    {
+      "id": "brown-m",
+      "sku": "RIT-BSH-M",
+      "options": {
+        "color": "brown",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 860,
+        "USD": 176
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brown Suede Hobo Bag with a Slouchy Crescent Body and a Single Shoulder Strap, front view",
+            "pt-BR": "Bolsa hobo Ritmo marrom de camurça, corpo em meia-lua que tomba e uma alça só de ombro, Marrom, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brown-white.png",
+            "#f5f5f5": "brown-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1120,
+        "USD": 229
+      }
+    },
+    {
+      "id": "brown-l",
+      "sku": "RIT-BSH-L",
+      "options": {
+        "color": "brown",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 860,
+        "USD": 176
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brown Suede Hobo Bag with a Slouchy Crescent Body and a Single Shoulder Strap, front view",
+            "pt-BR": "Bolsa hobo Ritmo marrom de camurça, corpo em meia-lua que tomba e uma alça só de ombro, Marrom, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brown-white.png",
+            "#f5f5f5": "brown-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1120,
+        "USD": 229
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 1120,
+    "USD": 229
+  }
+}

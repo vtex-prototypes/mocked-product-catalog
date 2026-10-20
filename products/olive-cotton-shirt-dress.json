@@ -1,0 +1,147 @@
+{
+  "id": "olive-cotton-shirt-dress",
+  "brandId": "ritmo",
+  "categoryId": "roupa-vestidos",
+  "name": {
+    "en": "Ritmo Olive Cotton Shirt Dress with Long Sleeves, a Button Front, Point Collar and a Midi Hem",
+    "pt-BR": "Chemisier midi Ritmo oliva de algodão, manga longa, botões na frente, gola pontuda e bolsos no peito"
+  },
+  "description": {
+    "en": "An olive cotton shirt dress with long sleeves and chest pockets. It reads as a shirtdress, not a costume, over flats or boots.",
+    "pt-BR": "Chemisier oliva de algodão, manga longa e bolsos no peito. Parece camisa-vestido de verdade, com sapatilha ou bota."
+  },
+  "price": {
+    "BRL": 680,
+    "USD": 142
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cotton shirt dress with"
+    ],
+    "pt-BR": [
+      "chemisier midi ritmo oliva"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "olive-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "olive",
+          "name": {
+            "en": "Olive",
+            "pt-BR": "Oliva"
+          },
+          "hex": "#5C6240"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "olive-s",
+      "sku": "RIT-OCS-S",
+      "options": {
+        "color": "olive",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 680,
+        "USD": 142
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Olive Cotton Shirt Dress with Long Sleeves, a Button Front, Point Collar and a Midi Hem, front view",
+            "pt-BR": "Chemisier midi Ritmo oliva de algodão, manga longa, botões na frente, gola pontuda e bolsos no peito, Oliva, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "olive-white.png",
+            "#f5f5f5": "olive-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "olive-m",
+      "sku": "RIT-OCS-M",
+      "options": {
+        "color": "olive",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 680,
+        "USD": 142
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Olive Cotton Shirt Dress with Long Sleeves, a Button Front, Point Collar and a Midi Hem, front view",
+            "pt-BR": "Chemisier midi Ritmo oliva de algodão, manga longa, botões na frente, gola pontuda e bolsos no peito, Oliva, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "olive-white.png",
+            "#f5f5f5": "olive-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "olive-l",
+      "sku": "RIT-OCS-L",
+      "options": {
+        "color": "olive",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 680,
+        "USD": 142
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Olive Cotton Shirt Dress with Long Sleeves, a Button Front, Point Collar and a Midi Hem, front view",
+            "pt-BR": "Chemisier midi Ritmo oliva de algodão, manga longa, botões na frente, gola pontuda e bolsos no peito, Oliva, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "olive-white.png",
+            "#f5f5f5": "olive-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

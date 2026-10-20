@@ -1,0 +1,147 @@
+{
+  "id": "burgundy-cashmere-turtleneck",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-malhas",
+  "name": {
+    "en": "Fio Puro Burgundy Cashmere Turtleneck Sweater with a Fine Knit, Long Sleeves and a Folded Collar",
+    "pt-BR": "Gola alta de caxemira Fio Puro borgonha, tricô fino, manga longa e gola dobrada macia"
+  },
+  "description": {
+    "en": "A burgundy cashmere turtleneck in a fine knit. The neck folds softly and the body stays light for the warmth it gives.",
+    "pt-BR": "Gola alta de caxemira borgonha, tricô fino. A gola dobra macia e o corpo continua leve para o calor que dá."
+  },
+  "price": {
+    "BRL": 1380,
+    "USD": 286
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "burgundy cashmere turtleneck sweater"
+    ],
+    "pt-BR": [
+      "gola alta de caxemira"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cashmere"
+    }
+  ],
+  "defaultVariantId": "burgundy-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "burgundy",
+          "name": {
+            "en": "Burgundy",
+            "pt-BR": "Borgonha"
+          },
+          "hex": "#7A2434"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "burgundy-s",
+      "sku": "FIO-BCT-S",
+      "options": {
+        "color": "burgundy",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1380,
+        "USD": 286
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Burgundy Cashmere Turtleneck Sweater with a Fine Knit, Long Sleeves and a Folded Collar, front view",
+            "pt-BR": "Gola alta de caxemira Fio Puro borgonha, tricô fino, manga longa e gola dobrada macia, Borgonha, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "burgundy-white.png",
+            "#f5f5f5": "burgundy-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "burgundy-m",
+      "sku": "FIO-BCT-M",
+      "options": {
+        "color": "burgundy",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1380,
+        "USD": 286
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Burgundy Cashmere Turtleneck Sweater with a Fine Knit, Long Sleeves and a Folded Collar, front view",
+            "pt-BR": "Gola alta de caxemira Fio Puro borgonha, tricô fino, manga longa e gola dobrada macia, Borgonha, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "burgundy-white.png",
+            "#f5f5f5": "burgundy-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "burgundy-l",
+      "sku": "FIO-BCT-L",
+      "options": {
+        "color": "burgundy",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1380,
+        "USD": 286
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Burgundy Cashmere Turtleneck Sweater with a Fine Knit, Long Sleeves and a Folded Collar, front view",
+            "pt-BR": "Gola alta de caxemira Fio Puro borgonha, tricô fino, manga longa e gola dobrada macia, Borgonha, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "burgundy-white.png",
+            "#f5f5f5": "burgundy-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

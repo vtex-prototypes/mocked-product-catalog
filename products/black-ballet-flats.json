@@ -1,0 +1,163 @@
+{
+  "id": "black-ballet-flats",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Fio Puro Black Leather Ballet Flats with a Round Toe, a Small Bow and a Flexible Sole",
+    "pt-BR": "Sapatilha Fio Puro preta de couro, bico redondo, laço pequeno e solado flexível para o dia"
+  },
+  "description": {
+    "en": "Black leather ballet flats with a round toe and a small bow. The sole flexes so they work for a full day out.",
+    "pt-BR": "Sapatilha preta de couro, bico redondo e laço pequeno. O solado flexiona e aguenta o dia fora."
+  },
+  "price": {
+    "BRL": 580,
+    "USD": 118
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black leather ballet flats"
+    ],
+    "pt-BR": [
+      "sapatilha fio puro preta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "black-36",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "36",
+          "valueId": "36"
+        },
+        {
+          "id": "38",
+          "valueId": "38"
+        },
+        {
+          "id": "40",
+          "valueId": "40"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-36",
+      "sku": "FIO-BBF-36",
+      "options": {
+        "color": "black",
+        "size": "36"
+      },
+      "price": {
+        "BRL": 580,
+        "USD": 118
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Leather Ballet Flats with a Round Toe, a Small Bow and a Flexible Sole, front view",
+            "pt-BR": "Sapatilha Fio Puro preta de couro, bico redondo, laço pequeno e solado flexível para o dia, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 780,
+        "USD": 159
+      }
+    },
+    {
+      "id": "black-38",
+      "sku": "FIO-BBF-38",
+      "options": {
+        "color": "black",
+        "size": "38"
+      },
+      "price": {
+        "BRL": 580,
+        "USD": 118
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Leather Ballet Flats with a Round Toe, a Small Bow and a Flexible Sole, front view",
+            "pt-BR": "Sapatilha Fio Puro preta de couro, bico redondo, laço pequeno e solado flexível para o dia, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 780,
+        "USD": 159
+      }
+    },
+    {
+      "id": "black-40",
+      "sku": "FIO-BBF-40",
+      "options": {
+        "color": "black",
+        "size": "40"
+      },
+      "price": {
+        "BRL": 580,
+        "USD": 118
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Leather Ballet Flats with a Round Toe, a Small Bow and a Flexible Sole, front view",
+            "pt-BR": "Sapatilha Fio Puro preta de couro, bico redondo, laço pequeno e solado flexível para o dia, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 780,
+        "USD": 159
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 780,
+    "USD": 159
+  }
+}

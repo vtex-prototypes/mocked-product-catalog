@@ -1,0 +1,163 @@
+{
+  "id": "navy-aline-cotton-midi",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-vestidos",
+  "name": {
+    "en": "Fio Puro Navy A-Line Midi Dress in Cotton with a Smart Casual Fit, Sleeveless Cut and Side Pockets",
+    "pt-BR": "Vestido midi evasê Fio Puro marinho de algodão, sem manga, social leve, com bolsos laterais e saia que abre no passo"
+  },
+  "description": {
+    "en": "A cotton A-line midi with a smart casual neckline and pockets set into the side seams. It dresses up with a heel and down with a sandal.",
+    "pt-BR": "Midi evasê de algodão, social leve, com bolsos nas laterais. Sobe o tom com salto e desce com sandália."
+  },
+  "price": {
+    "BRL": 690,
+    "USD": 149
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "navy a-line midi dress"
+    ],
+    "pt-BR": [
+      "vestido midi evasê fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "navy-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "navy",
+          "name": {
+            "en": "Navy",
+            "pt-BR": "Marinho"
+          },
+          "hex": "#1B2A4A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "navy-s",
+      "sku": "FIO-NAC-S",
+      "options": {
+        "color": "navy",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 690,
+        "USD": 149
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy A-Line Midi Dress in Cotton with a Smart Casual Fit, Sleeveless Cut and Side Pockets, front view",
+            "pt-BR": "Vestido midi evasê Fio Puro marinho de algodão, sem manga, social leve, com bolsos laterais e saia que abre no passo, Marinho, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 890,
+        "USD": 189
+      }
+    },
+    {
+      "id": "navy-m",
+      "sku": "FIO-NAC-M",
+      "options": {
+        "color": "navy",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 690,
+        "USD": 149
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy A-Line Midi Dress in Cotton with a Smart Casual Fit, Sleeveless Cut and Side Pockets, front view",
+            "pt-BR": "Vestido midi evasê Fio Puro marinho de algodão, sem manga, social leve, com bolsos laterais e saia que abre no passo, Marinho, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 890,
+        "USD": 189
+      }
+    },
+    {
+      "id": "navy-l",
+      "sku": "FIO-NAC-L",
+      "options": {
+        "color": "navy",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 690,
+        "USD": 149
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy A-Line Midi Dress in Cotton with a Smart Casual Fit, Sleeveless Cut and Side Pockets, front view",
+            "pt-BR": "Vestido midi evasê Fio Puro marinho de algodão, sem manga, social leve, com bolsos laterais e saia que abre no passo, Marinho, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 890,
+        "USD": 189
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 890,
+    "USD": 189
+  }
+}

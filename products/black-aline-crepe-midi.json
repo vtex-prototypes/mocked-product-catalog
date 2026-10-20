@@ -1,0 +1,147 @@
+{
+  "id": "black-aline-crepe-midi",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-vestidos",
+  "name": {
+    "en": "Fio Puro Black A-Line Midi Dress in Crepe with a Smart Casual Fit, Sleeveless Cut and a Clean Hem",
+    "pt-BR": "Vestido midi evasê Fio Puro preto em crepe, sem manga, com caimento social leve e barra limpa para o dia inteiro"
+  },
+  "description": {
+    "en": "A sleeveless crepe midi cut on an A-line, with a smart casual fit that keeps its shape from a desk day into dinner.",
+    "pt-BR": "Midi de crepe sem manga, evasê, com caimento social leve que segura a forma do expediente ao jantar."
+  },
+  "price": {
+    "BRL": 1090,
+    "USD": 228
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black a-line midi dress"
+    ],
+    "pt-BR": [
+      "vestido midi evasê fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "crepe"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-BAC-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1090,
+        "USD": 228
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black A-Line Midi Dress in Crepe with a Smart Casual Fit, Sleeveless Cut and a Clean Hem, front view",
+            "pt-BR": "Vestido midi evasê Fio Puro preto em crepe, sem manga, com caimento social leve e barra limpa para o dia inteiro, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-BAC-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1090,
+        "USD": 228
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black A-Line Midi Dress in Crepe with a Smart Casual Fit, Sleeveless Cut and a Clean Hem, front view",
+            "pt-BR": "Vestido midi evasê Fio Puro preto em crepe, sem manga, com caimento social leve e barra limpa para o dia inteiro, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-BAC-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1090,
+        "USD": 228
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black A-Line Midi Dress in Crepe with a Smart Casual Fit, Sleeveless Cut and a Clean Hem, front view",
+            "pt-BR": "Vestido midi evasê Fio Puro preto em crepe, sem manga, com caimento social leve e barra limpa para o dia inteiro, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

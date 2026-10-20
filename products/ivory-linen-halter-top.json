@@ -1,0 +1,147 @@
+{
+  "id": "ivory-linen-halter-top",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Fio Puro Ivory Linen Halter Top with a Soft Drape, a Tie at the Nape and a Hip-Length Hem",
+    "pt-BR": "Blusa frente única Fio Puro marfim de linho, caimento solto, amarração no pescoço e barra no quadril"
+  },
+  "description": {
+    "en": "An ivory linen halter that ties at the neck and drapes to the hip. The cloth is heavy enough not to turn sheer.",
+    "pt-BR": "Frente única de linho marfim, amarrada no pescoço, caindo até o quadril. O linho é pesado o bastante para não transparentar."
+  },
+  "price": {
+    "BRL": 1040,
+    "USD": 218
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "ivory linen halter top"
+    ],
+    "pt-BR": [
+      "blusa frente única fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "linen"
+    }
+  ],
+  "defaultVariantId": "ivory-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "ivory",
+          "name": {
+            "en": "Ivory",
+            "pt-BR": "Marfim"
+          },
+          "hex": "#F3EDE4"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "ivory-s",
+      "sku": "FIO-ILH-S",
+      "options": {
+        "color": "ivory",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1040,
+        "USD": 218
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ivory Linen Halter Top with a Soft Drape, a Tie at the Nape and a Hip-Length Hem, front view",
+            "pt-BR": "Blusa frente única Fio Puro marfim de linho, caimento solto, amarração no pescoço e barra no quadril, Marfim, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "ivory-white.png",
+            "#f5f5f5": "ivory-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ivory-m",
+      "sku": "FIO-ILH-M",
+      "options": {
+        "color": "ivory",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1040,
+        "USD": 218
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ivory Linen Halter Top with a Soft Drape, a Tie at the Nape and a Hip-Length Hem, front view",
+            "pt-BR": "Blusa frente única Fio Puro marfim de linho, caimento solto, amarração no pescoço e barra no quadril, Marfim, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "ivory-white.png",
+            "#f5f5f5": "ivory-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ivory-l",
+      "sku": "FIO-ILH-L",
+      "options": {
+        "color": "ivory",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1040,
+        "USD": 218
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ivory Linen Halter Top with a Soft Drape, a Tie at the Nape and a Hip-Length Hem, front view",
+            "pt-BR": "Blusa frente única Fio Puro marfim de linho, caimento solto, amarração no pescoço e barra no quadril, Marfim, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "ivory-white.png",
+            "#f5f5f5": "ivory-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "black-high-rise-shorts",
+  "brandId": "ritmo",
+  "categoryId": "roupa-calcas",
+  "name": {
+    "en": "Ritmo Black High-Rise Tailored Shorts in Cotton with a Mid-Thigh Hem and a Clean Front",
+    "pt-BR": "Shorts alfaiataria Ritmo preto de algodão, cós alto, barra no meio da coxa e frente limpa"
+  },
+  "description": {
+    "en": "Black high-rise tailored shorts in cotton, ending at mid-thigh. The rise stays put when you sit.",
+    "pt-BR": "Shorts pretos de alfaiataria em algodão, cós alto, barra no meio da coxa. O cós não desce quando você senta."
+  },
+  "price": {
+    "BRL": 360,
+    "USD": 72
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "high-rise tailored shorts in"
+    ],
+    "pt-BR": [
+      "shorts alfaiataria ritmo preto"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "RIT-BHR-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 360,
+        "USD": 72
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black High-Rise Tailored Shorts in Cotton with a Mid-Thigh Hem and a Clean Front, front view",
+            "pt-BR": "Shorts alfaiataria Ritmo preto de algodão, cós alto, barra no meio da coxa e frente limpa, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 490,
+        "USD": 99
+      }
+    },
+    {
+      "id": "black-m",
+      "sku": "RIT-BHR-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 360,
+        "USD": 72
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black High-Rise Tailored Shorts in Cotton with a Mid-Thigh Hem and a Clean Front, front view",
+            "pt-BR": "Shorts alfaiataria Ritmo preto de algodão, cós alto, barra no meio da coxa e frente limpa, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 490,
+        "USD": 99
+      }
+    },
+    {
+      "id": "black-l",
+      "sku": "RIT-BHR-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 360,
+        "USD": 72
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black High-Rise Tailored Shorts in Cotton with a Mid-Thigh Hem and a Clean Front, front view",
+            "pt-BR": "Shorts alfaiataria Ritmo preto de algodão, cós alto, barra no meio da coxa e frente limpa, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 490,
+        "USD": 99
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 490,
+    "USD": 99
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "black-linen-wrap-blouse",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Fio Puro Black Cropped Linen Wrap Blouse with a Surplice Opening, Self Tie and Three-Quarter Sleeves",
+    "pt-BR": "Blusa transpassada Fio Puro preta de linho, cropped, decote cruzado, amarração e manga três quartos"
+  },
+  "description": {
+    "en": "A cropped linen wrap in black, tied at the waist, with three-quarter sleeves. It ends at the hip so it stays put over a high rise.",
+    "pt-BR": "Transpassada de linho preta, cropped, amarrada na cintura, manga três quartos. Termina no quadril e fica no lugar sobre o cós alto."
+  },
+  "price": {
+    "BRL": 980,
+    "USD": 206
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black cropped linen wrap"
+    ],
+    "pt-BR": [
+      "blusa transpassada fio puro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "linen"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-BLW-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 980,
+        "USD": 206
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Cropped Linen Wrap Blouse with a Surplice Opening, Self Tie and Three-Quarter Sleeves, front view",
+            "pt-BR": "Blusa transpassada Fio Puro preta de linho, cropped, decote cruzado, amarração e manga três quartos, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-BLW-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 980,
+        "USD": 206
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Cropped Linen Wrap Blouse with a Surplice Opening, Self Tie and Three-Quarter Sleeves, front view",
+            "pt-BR": "Blusa transpassada Fio Puro preta de linho, cropped, decote cruzado, amarração e manga três quartos, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-BLW-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 980,
+        "USD": 206
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Cropped Linen Wrap Blouse with a Surplice Opening, Self Tie and Three-Quarter Sleeves, front view",
+            "pt-BR": "Blusa transpassada Fio Puro preta de linho, cropped, decote cruzado, amarração e manga três quartos, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

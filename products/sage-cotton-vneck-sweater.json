@@ -1,0 +1,163 @@
+{
+  "id": "sage-cotton-vneck-sweater",
+  "brandId": "ritmo",
+  "categoryId": "roupa-malhas",
+  "name": {
+    "en": "Ritmo Sage Cotton V-Neck Sweater with a Fine Knit, Long Sleeves and a Relaxed Body",
+    "pt-BR": "Suéter de algodão Ritmo sálvia com decote V, tricô fino, manga longa e corpo solto"
+  },
+  "description": {
+    "en": "A sage cotton sweater with a V-neck and a fine knit. It is light, so it works as a layer rather than a coat.",
+    "pt-BR": "Suéter sálvia de algodão com decote V e tricô fino. É leve e funciona como camada, não como casaco."
+  },
+  "price": {
+    "BRL": 390,
+    "USD": 78
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cotton v-neck sweater with"
+    ],
+    "pt-BR": [
+      "suéter de algodão ritmo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "sage-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "sage",
+          "name": {
+            "en": "Sage",
+            "pt-BR": "Sálvia"
+          },
+          "hex": "#8A9A84"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "sage-s",
+      "sku": "RIT-SCV-S",
+      "options": {
+        "color": "sage",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 390,
+        "USD": 78
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage Cotton V-Neck Sweater with a Fine Knit, Long Sleeves and a Relaxed Body, front view",
+            "pt-BR": "Suéter de algodão Ritmo sálvia com decote V, tricô fino, manga longa e corpo solto, Sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 580,
+        "USD": 119
+      }
+    },
+    {
+      "id": "sage-m",
+      "sku": "RIT-SCV-M",
+      "options": {
+        "color": "sage",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 390,
+        "USD": 78
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage Cotton V-Neck Sweater with a Fine Knit, Long Sleeves and a Relaxed Body, front view",
+            "pt-BR": "Suéter de algodão Ritmo sálvia com decote V, tricô fino, manga longa e corpo solto, Sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 580,
+        "USD": 119
+      }
+    },
+    {
+      "id": "sage-l",
+      "sku": "RIT-SCV-L",
+      "options": {
+        "color": "sage",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 390,
+        "USD": 78
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage Cotton V-Neck Sweater with a Fine Knit, Long Sleeves and a Relaxed Body, front view",
+            "pt-BR": "Suéter de algodão Ritmo sálvia com decote V, tricô fino, manga longa e corpo solto, Sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 580,
+        "USD": 119
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 580,
+    "USD": 119
+  }
+}

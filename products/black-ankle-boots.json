@@ -1,0 +1,147 @@
+{
+  "id": "black-ankle-boots",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Fio Puro Black Leather Ankle Boots with a Low Block Heel, a Side Zip and a Round Toe",
+    "pt-BR": "Botas curtidas Fio Puro pretas de couro, salto bloco baixo, zíper lateral e bico redondo"
+  },
+  "description": {
+    "en": "Black leather ankle boots with a low block heel and a side zip. The shaft stops above the ankle bone.",
+    "pt-BR": "Botas de cano curto pretas de couro, salto bloco baixo e zíper lateral. O cano para acima do osso do tornozelo."
+  },
+  "price": {
+    "BRL": 1640,
+    "USD": 342
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black leather ankle boots"
+    ],
+    "pt-BR": [
+      "botas curtidas fio puro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "black-36",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "36",
+          "valueId": "36"
+        },
+        {
+          "id": "38",
+          "valueId": "38"
+        },
+        {
+          "id": "40",
+          "valueId": "40"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-36",
+      "sku": "FIO-BAB-36",
+      "options": {
+        "color": "black",
+        "size": "36"
+      },
+      "price": {
+        "BRL": 1640,
+        "USD": 342
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Leather Ankle Boots with a Low Block Heel, a Side Zip and a Round Toe, front view",
+            "pt-BR": "Botas curtidas Fio Puro pretas de couro, salto bloco baixo, zíper lateral e bico redondo, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-38",
+      "sku": "FIO-BAB-38",
+      "options": {
+        "color": "black",
+        "size": "38"
+      },
+      "price": {
+        "BRL": 1640,
+        "USD": 342
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Leather Ankle Boots with a Low Block Heel, a Side Zip and a Round Toe, front view",
+            "pt-BR": "Botas curtidas Fio Puro pretas de couro, salto bloco baixo, zíper lateral e bico redondo, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-40",
+      "sku": "FIO-BAB-40",
+      "options": {
+        "color": "black",
+        "size": "40"
+      },
+      "price": {
+        "BRL": 1640,
+        "USD": 342
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Leather Ankle Boots with a Low Block Heel, a Side Zip and a Round Toe, front view",
+            "pt-BR": "Botas curtidas Fio Puro pretas de couro, salto bloco baixo, zíper lateral e bico redondo, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

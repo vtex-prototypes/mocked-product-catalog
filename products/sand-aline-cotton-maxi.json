@@ -1,0 +1,163 @@
+{
+  "id": "sand-aline-cotton-maxi",
+  "brandId": "ritmo",
+  "categoryId": "roupa-vestidos",
+  "name": {
+    "en": "Ritmo Sand A-Line Cotton Maxi Dress with a Smart Casual Fit, Sleeveless Cut and a Full Skirt",
+    "pt-BR": "Vestido longo evasê Ritmo areia de algodão, social leve, sem manga, com saia cheia e decote quadrado baixo"
+  },
+  "description": {
+    "en": "A sand cotton maxi on an A-line, sleeveless, with a smart casual neckline. The skirt has enough body to walk in without clinging.",
+    "pt-BR": "Longo evasê de algodão areia, sem manga, social leve. A saia tem corpo bastante para caminhar sem grudar."
+  },
+  "price": {
+    "BRL": 620,
+    "USD": 128
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "a-line cotton maxi dress"
+    ],
+    "pt-BR": [
+      "vestido longo evasê ritmo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "sand-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "sand",
+          "name": {
+            "en": "Sand",
+            "pt-BR": "Areia"
+          },
+          "hex": "#D9C7A6"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "sand-s",
+      "sku": "RIT-SAM-S",
+      "options": {
+        "color": "sand",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 620,
+        "USD": 128
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sand A-Line Cotton Maxi Dress with a Smart Casual Fit, Sleeveless Cut and a Full Skirt, front view",
+            "pt-BR": "Vestido longo evasê Ritmo areia de algodão, social leve, sem manga, com saia cheia e decote quadrado baixo, Areia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 820,
+        "USD": 169
+      }
+    },
+    {
+      "id": "sand-m",
+      "sku": "RIT-SAM-M",
+      "options": {
+        "color": "sand",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 620,
+        "USD": 128
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sand A-Line Cotton Maxi Dress with a Smart Casual Fit, Sleeveless Cut and a Full Skirt, front view",
+            "pt-BR": "Vestido longo evasê Ritmo areia de algodão, social leve, sem manga, com saia cheia e decote quadrado baixo, Areia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 820,
+        "USD": 169
+      }
+    },
+    {
+      "id": "sand-l",
+      "sku": "RIT-SAM-L",
+      "options": {
+        "color": "sand",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 620,
+        "USD": 128
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sand A-Line Cotton Maxi Dress with a Smart Casual Fit, Sleeveless Cut and a Full Skirt, front view",
+            "pt-BR": "Vestido longo evasê Ritmo areia de algodão, social leve, sem manga, com saia cheia e decote quadrado baixo, Areia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 820,
+        "USD": 169
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 820,
+    "USD": 169
+  }
+}

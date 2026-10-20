@@ -1,0 +1,163 @@
+{
+  "id": "white-off-shoulder-top",
+  "brandId": "ritmo",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Ritmo White Cotton Off-Shoulder Top with an Elastic Opening, Short Sleeves and a Hip-Length Hem",
+    "pt-BR": "Blusa ombro a ombro Ritmo branca de algodão, decote elástico, manga curta e barra na altura do quadril"
+  },
+  "description": {
+    "en": "A white cotton off-shoulder top with elastic at the neckline so it stays put. Short sleeves end above the elbow.",
+    "pt-BR": "Blusa branca de algodão ombro a ombro, com elástico no decote para não escorregar. A manga curta termina acima do cotovelo."
+  },
+  "price": {
+    "BRL": 420,
+    "USD": 88
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cotton off-shoulder top with"
+    ],
+    "pt-BR": [
+      "blusa ombro a ombro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "white-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F7F4EE"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-s",
+      "sku": "RIT-WOS-S",
+      "options": {
+        "color": "white",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 420,
+        "USD": 88
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Cotton Off-Shoulder Top with an Elastic Opening, Short Sleeves and a Hip-Length Hem, front view",
+            "pt-BR": "Blusa ombro a ombro Ritmo branca de algodão, decote elástico, manga curta e barra na altura do quadril, Branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 620,
+        "USD": 129
+      }
+    },
+    {
+      "id": "white-m",
+      "sku": "RIT-WOS-M",
+      "options": {
+        "color": "white",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 420,
+        "USD": 88
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Cotton Off-Shoulder Top with an Elastic Opening, Short Sleeves and a Hip-Length Hem, front view",
+            "pt-BR": "Blusa ombro a ombro Ritmo branca de algodão, decote elástico, manga curta e barra na altura do quadril, Branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 620,
+        "USD": 129
+      }
+    },
+    {
+      "id": "white-l",
+      "sku": "RIT-WOS-L",
+      "options": {
+        "color": "white",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 420,
+        "USD": 88
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Cotton Off-Shoulder Top with an Elastic Opening, Short Sleeves and a Hip-Length Hem, front view",
+            "pt-BR": "Blusa ombro a ombro Ritmo branca de algodão, decote elástico, manga curta e barra na altura do quadril, Branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 620,
+        "USD": 129
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 620,
+    "USD": 129
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "plum-paisley-wrap-dress",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-vestidos",
+  "name": {
+    "en": "Fio Puro Plum Paisley Wrap Midi Dress in Viscose with a Surplice Opening, Self Tie and Three-Quarter Sleeves",
+    "pt-BR": "Vestido midi transpassado Fio Puro ameixa com paisley, viscose, decote cruzado, amarração e manga três quartos"
+  },
+  "description": {
+    "en": "A viscose wrap midi in plum paisley, tied at the waist, with three-quarter sleeves. The print stays small enough to read as one color from across a room.",
+    "pt-BR": "Midi transpassado de viscose em paisley ameixa, amarrado na cintura, manga três quartos. A estampa lê como uma cor só de longe."
+  },
+  "price": {
+    "BRL": 1220,
+    "USD": 256
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "plum paisley wrap midi"
+    ],
+    "pt-BR": [
+      "vestido midi transpassado fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "viscose"
+    }
+  ],
+  "defaultVariantId": "plum-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "plum",
+          "name": {
+            "en": "Plum",
+            "pt-BR": "Ameixa"
+          },
+          "hex": "#6A3A55"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "plum-s",
+      "sku": "FIO-PPW-S",
+      "options": {
+        "color": "plum",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1220,
+        "USD": 256
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Plum Paisley Wrap Midi Dress in Viscose with a Surplice Opening, Self Tie and Three-Quarter Sleeves, front view",
+            "pt-BR": "Vestido midi transpassado Fio Puro ameixa com paisley, viscose, decote cruzado, amarração e manga três quartos, Ameixa, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "plum-white.png",
+            "#f5f5f5": "plum-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plum-m",
+      "sku": "FIO-PPW-M",
+      "options": {
+        "color": "plum",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1220,
+        "USD": 256
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Plum Paisley Wrap Midi Dress in Viscose with a Surplice Opening, Self Tie and Three-Quarter Sleeves, front view",
+            "pt-BR": "Vestido midi transpassado Fio Puro ameixa com paisley, viscose, decote cruzado, amarração e manga três quartos, Ameixa, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "plum-white.png",
+            "#f5f5f5": "plum-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plum-l",
+      "sku": "FIO-PPW-L",
+      "options": {
+        "color": "plum",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1220,
+        "USD": 256
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Plum Paisley Wrap Midi Dress in Viscose with a Surplice Opening, Self Tie and Three-Quarter Sleeves, front view",
+            "pt-BR": "Vestido midi transpassado Fio Puro ameixa com paisley, viscose, decote cruzado, amarração e manga três quartos, Ameixa, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "plum-white.png",
+            "#f5f5f5": "plum-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

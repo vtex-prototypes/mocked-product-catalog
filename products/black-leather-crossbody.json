@@ -1,0 +1,147 @@
+{
+  "id": "black-leather-crossbody",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-bolsas",
+  "name": {
+    "en": "Fio Puro Black Leather Crossbody Bag with a Flap Closure, a Slim Strap and a Structured Body",
+    "pt-BR": "Bolsa transversal Fio Puro preta de couro, aba, alça fina e corpo estruturado que não amassa"
+  },
+  "description": {
+    "en": "A black leather crossbody with a flap and a slim strap. The body is structured, so it keeps a rectangle when it is empty.",
+    "pt-BR": "Transversal preta de couro, com aba e alça fina. O corpo é estruturado e continua retangular mesmo vazio."
+  },
+  "price": {
+    "BRL": 1290,
+    "USD": 268
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black leather crossbody bag"
+    ],
+    "pt-BR": [
+      "bolsa transversal fio puro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-BLC-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1290,
+        "USD": 268
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Leather Crossbody Bag with a Flap Closure, a Slim Strap and a Structured Body, front view",
+            "pt-BR": "Bolsa transversal Fio Puro preta de couro, aba, alça fina e corpo estruturado que não amassa, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-BLC-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1290,
+        "USD": 268
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Leather Crossbody Bag with a Flap Closure, a Slim Strap and a Structured Body, front view",
+            "pt-BR": "Bolsa transversal Fio Puro preta de couro, aba, alça fina e corpo estruturado que não amassa, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-BLC-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1290,
+        "USD": 268
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Leather Crossbody Bag with a Flap Closure, a Slim Strap and a Structured Body, front view",
+            "pt-BR": "Bolsa transversal Fio Puro preta de couro, aba, alça fina e corpo estruturado que não amassa, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

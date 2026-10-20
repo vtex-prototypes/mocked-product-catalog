@@ -1,0 +1,163 @@
+{
+  "id": "gold-embroidered-sandal",
+  "brandId": "ritmo",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Ritmo Gold Embroidered Leather Sandals with a Flat Sole, an Open Toe and Floral Stitching",
+    "pt-BR": "Sandálias Ritmo douradas de couro bordadas, solado flat, dedo aberto e ponto floral nas tiras"
+  },
+  "description": {
+    "en": "Gold leather sandals with embroidery along the straps and a flat sole. The open toe keeps them easy in warm weather.",
+    "pt-BR": "Sandálias douradas de couro com bordado nas tiras e solado flat. O dedo aberto deixa o pé livre no calor."
+  },
+  "price": {
+    "BRL": 480,
+    "USD": 96
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "embroidered leather sandals with"
+    ],
+    "pt-BR": [
+      "sandálias ritmo douradas de"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "gold-36",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gold",
+          "name": {
+            "en": "Gold",
+            "pt-BR": "Dourado"
+          },
+          "hex": "#C6A15B"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "36",
+          "valueId": "36"
+        },
+        {
+          "id": "38",
+          "valueId": "38"
+        },
+        {
+          "id": "40",
+          "valueId": "40"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gold-36",
+      "sku": "RIT-GES-36",
+      "options": {
+        "color": "gold",
+        "size": "36"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 96
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gold Embroidered Leather Sandals with a Flat Sole, an Open Toe and Floral Stitching, front view",
+            "pt-BR": "Sandálias Ritmo douradas de couro bordadas, solado flat, dedo aberto e ponto floral nas tiras, Dourado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gold-white.png",
+            "#f5f5f5": "gold-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 680,
+        "USD": 139
+      }
+    },
+    {
+      "id": "gold-38",
+      "sku": "RIT-GES-38",
+      "options": {
+        "color": "gold",
+        "size": "38"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 96
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gold Embroidered Leather Sandals with a Flat Sole, an Open Toe and Floral Stitching, front view",
+            "pt-BR": "Sandálias Ritmo douradas de couro bordadas, solado flat, dedo aberto e ponto floral nas tiras, Dourado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gold-white.png",
+            "#f5f5f5": "gold-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 680,
+        "USD": 139
+      }
+    },
+    {
+      "id": "gold-40",
+      "sku": "RIT-GES-40",
+      "options": {
+        "color": "gold",
+        "size": "40"
+      },
+      "price": {
+        "BRL": 480,
+        "USD": 96
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gold Embroidered Leather Sandals with a Flat Sole, an Open Toe and Floral Stitching, front view",
+            "pt-BR": "Sandálias Ritmo douradas de couro bordadas, solado flat, dedo aberto e ponto floral nas tiras, Dourado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gold-white.png",
+            "#f5f5f5": "gold-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 680,
+        "USD": 139
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 680,
+    "USD": 139
+  }
+}

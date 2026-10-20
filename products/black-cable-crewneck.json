@@ -1,0 +1,147 @@
+{
+  "id": "black-cable-crewneck",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-malhas",
+  "name": {
+    "en": "Fio Puro Black Cable-Knit Crewneck Sweater in Wool with Ribbed Cuffs, Hem and a Relaxed Body",
+    "pt-BR": "Suéter de tricô trançado Fio Puro preto de lã, gola redonda, punho e barra canelados e corpo folgado"
+  },
+  "description": {
+    "en": "A black wool crewneck with cable knit down the front. Ribbed cuffs and hem keep the relaxed body from sliding.",
+    "pt-BR": "Gola redonda de lã preta com trança na frente. Punho e barra canelados seguram o corpo folgado."
+  },
+  "price": {
+    "BRL": 820,
+    "USD": 168
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black cable-knit crewneck sweater"
+    ],
+    "pt-BR": [
+      "suéter de tricô trançado"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "wool"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-BCC-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 820,
+        "USD": 168
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Cable-Knit Crewneck Sweater in Wool with Ribbed Cuffs, Hem and a Relaxed Body, front view",
+            "pt-BR": "Suéter de tricô trançado Fio Puro preto de lã, gola redonda, punho e barra canelados e corpo folgado, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-BCC-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 820,
+        "USD": 168
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Cable-Knit Crewneck Sweater in Wool with Ribbed Cuffs, Hem and a Relaxed Body, front view",
+            "pt-BR": "Suéter de tricô trançado Fio Puro preto de lã, gola redonda, punho e barra canelados e corpo folgado, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-BCC-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 820,
+        "USD": 168
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Cable-Knit Crewneck Sweater in Wool with Ribbed Cuffs, Hem and a Relaxed Body, front view",
+            "pt-BR": "Suéter de tricô trançado Fio Puro preto de lã, gola redonda, punho e barra canelados e corpo folgado, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

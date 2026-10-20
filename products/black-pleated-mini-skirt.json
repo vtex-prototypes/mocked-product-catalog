@@ -1,0 +1,163 @@
+{
+  "id": "black-pleated-mini-skirt",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-saias",
+  "name": {
+    "en": "Fio Puro Black Pleated Mini Skirt in Viscose with Sharp Knife Pleats and a High Rise",
+    "pt-BR": "Saia mini plissada Fio Puro preta de viscose, pregas retas e cós alto que fica no lugar"
+  },
+  "description": {
+    "en": "A black pleated mini in viscose, with knife pleats that hold a line. The rise sits at the natural waist.",
+    "pt-BR": "Mini plissada preta de viscose, com pregas que seguram o risco. O cós fica na cintura natural."
+  },
+  "price": {
+    "BRL": 390,
+    "USD": 78
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black pleated mini skirt"
+    ],
+    "pt-BR": [
+      "saia mini plissada fio"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "viscose"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-BPM-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 390,
+        "USD": 78
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Pleated Mini Skirt in Viscose with Sharp Knife Pleats and a High Rise, front view",
+            "pt-BR": "Saia mini plissada Fio Puro preta de viscose, pregas retas e cós alto que fica no lugar, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 540,
+        "USD": 109
+      }
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-BPM-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 390,
+        "USD": 78
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Pleated Mini Skirt in Viscose with Sharp Knife Pleats and a High Rise, front view",
+            "pt-BR": "Saia mini plissada Fio Puro preta de viscose, pregas retas e cós alto que fica no lugar, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 540,
+        "USD": 109
+      }
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-BPM-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 390,
+        "USD": 78
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Pleated Mini Skirt in Viscose with Sharp Knife Pleats and a High Rise, front view",
+            "pt-BR": "Saia mini plissada Fio Puro preta de viscose, pregas retas e cós alto que fica no lugar, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 540,
+        "USD": 109
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 540,
+    "USD": 109
+  }
+}

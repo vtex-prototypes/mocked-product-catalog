@@ -1,0 +1,147 @@
+{
+  "id": "stone-neutral-coat",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-casacos",
+  "name": {
+    "en": "Fio Puro Stone Neutral Tailored Wool Coat with Notched Lapels, a Knee Length and a Clean Front",
+    "pt-BR": "Casaco alfaiataria Fio Puro pedra, neutro, de lã, com lapela, comprimento no joelho e frente limpa"
+  },
+  "description": {
+    "en": "A stone wool coat in a neutral tone, tailored through the shoulder, with notched lapels and a knee length. It goes over black without competing.",
+    "pt-BR": "Casaco de lã pedra, tom neutro, ombro alfaiatado, lapela e comprimento no joelho. Entra sobre preto sem disputar."
+  },
+  "price": {
+    "BRL": 1260,
+    "USD": 260
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "stone neutral tailored wool"
+    ],
+    "pt-BR": [
+      "casaco alfaiataria fio puro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "wool"
+    }
+  ],
+  "defaultVariantId": "stone-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "stone",
+          "name": {
+            "en": "Stone",
+            "pt-BR": "Pedra"
+          },
+          "hex": "#C8BEB0"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "stone-s",
+      "sku": "FIO-SNC-S",
+      "options": {
+        "color": "stone",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1260,
+        "USD": 260
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stone Neutral Tailored Wool Coat with Notched Lapels, a Knee Length and a Clean Front, front view",
+            "pt-BR": "Casaco alfaiataria Fio Puro pedra, neutro, de lã, com lapela, comprimento no joelho e frente limpa, Pedra, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "stone-white.png",
+            "#f5f5f5": "stone-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stone-m",
+      "sku": "FIO-SNC-M",
+      "options": {
+        "color": "stone",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1260,
+        "USD": 260
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stone Neutral Tailored Wool Coat with Notched Lapels, a Knee Length and a Clean Front, front view",
+            "pt-BR": "Casaco alfaiataria Fio Puro pedra, neutro, de lã, com lapela, comprimento no joelho e frente limpa, Pedra, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "stone-white.png",
+            "#f5f5f5": "stone-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stone-l",
+      "sku": "FIO-SNC-L",
+      "options": {
+        "color": "stone",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1260,
+        "USD": 260
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stone Neutral Tailored Wool Coat with Notched Lapels, a Knee Length and a Clean Front, front view",
+            "pt-BR": "Casaco alfaiataria Fio Puro pedra, neutro, de lã, com lapela, comprimento no joelho e frente limpa, Pedra, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "stone-white.png",
+            "#f5f5f5": "stone-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

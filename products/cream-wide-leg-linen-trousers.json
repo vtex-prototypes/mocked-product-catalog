@@ -1,0 +1,147 @@
+{
+  "id": "cream-wide-leg-linen-trousers",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-calcas",
+  "name": {
+    "en": "Fio Puro Cream Wide-Leg Linen Trousers with a High Rise, a Full Length and a Soft Pleat",
+    "pt-BR": "Calça pantalona Fio Puro creme de linho, cós alto, comprimento inteiro e prega macia na frente"
+  },
+  "description": {
+    "en": "Cream wide-leg linen trousers with a high rise and a soft pleat. The leg is full enough to move and still breaks clean at the shoe.",
+    "pt-BR": "Pantalona creme de linho, cós alto e prega macia. A perna é larga o bastante para andar e quebra limpa no sapato."
+  },
+  "price": {
+    "BRL": 1060,
+    "USD": 220
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cream wide-leg linen trousers"
+    ],
+    "pt-BR": [
+      "calça pantalona fio puro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "linen"
+    }
+  ],
+  "defaultVariantId": "cream-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cream",
+          "name": {
+            "en": "Cream",
+            "pt-BR": "Creme"
+          },
+          "hex": "#F4EFE6"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cream-s",
+      "sku": "FIO-CWL-S",
+      "options": {
+        "color": "cream",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1060,
+        "USD": 220
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Wide-Leg Linen Trousers with a High Rise, a Full Length and a Soft Pleat, front view",
+            "pt-BR": "Calça pantalona Fio Puro creme de linho, cós alto, comprimento inteiro e prega macia na frente, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-m",
+      "sku": "FIO-CWL-M",
+      "options": {
+        "color": "cream",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1060,
+        "USD": 220
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Wide-Leg Linen Trousers with a High Rise, a Full Length and a Soft Pleat, front view",
+            "pt-BR": "Calça pantalona Fio Puro creme de linho, cós alto, comprimento inteiro e prega macia na frente, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-l",
+      "sku": "FIO-CWL-L",
+      "options": {
+        "color": "cream",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1060,
+        "USD": 220
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Wide-Leg Linen Trousers with a High Rise, a Full Length and a Soft Pleat, front view",
+            "pt-BR": "Calça pantalona Fio Puro creme de linho, cós alto, comprimento inteiro e prega macia na frente, Creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

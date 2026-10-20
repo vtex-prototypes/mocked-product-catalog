@@ -1,0 +1,147 @@
+{
+  "id": "rust-cable-cardigan",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-malhas",
+  "name": {
+    "en": "Fio Puro Rust Cable-Knit Wool Cardigan with a Button Front, Long Sleeves and Ribbed Trims",
+    "pt-BR": "Cardigã de tricô trançado Fio Puro ferrugem de lã, botões na frente, manga longa e bordas caneladas"
+  },
+  "description": {
+    "en": "A rust wool cardigan with cable knit across the body and buttons down the front. Ribbed trims finish the cuff and hem.",
+    "pt-BR": "Cardigã de lã ferrugem com trança no corpo e botões na frente. O canelado fecha punho e barra."
+  },
+  "price": {
+    "BRL": 960,
+    "USD": 198
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "rust cable-knit wool cardigan"
+    ],
+    "pt-BR": [
+      "cardigã de tricô trançado"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "wool"
+    }
+  ],
+  "defaultVariantId": "rust-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "rust",
+          "name": {
+            "en": "Rust",
+            "pt-BR": "Ferrugem"
+          },
+          "hex": "#C4623A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "rust-s",
+      "sku": "FIO-RCC-S",
+      "options": {
+        "color": "rust",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 960,
+        "USD": 198
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rust Cable-Knit Wool Cardigan with a Button Front, Long Sleeves and Ribbed Trims, front view",
+            "pt-BR": "Cardigã de tricô trançado Fio Puro ferrugem de lã, botões na frente, manga longa e bordas caneladas, Ferrugem, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "rust-white.png",
+            "#f5f5f5": "rust-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rust-m",
+      "sku": "FIO-RCC-M",
+      "options": {
+        "color": "rust",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 960,
+        "USD": 198
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rust Cable-Knit Wool Cardigan with a Button Front, Long Sleeves and Ribbed Trims, front view",
+            "pt-BR": "Cardigã de tricô trançado Fio Puro ferrugem de lã, botões na frente, manga longa e bordas caneladas, Ferrugem, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "rust-white.png",
+            "#f5f5f5": "rust-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rust-l",
+      "sku": "FIO-RCC-L",
+      "options": {
+        "color": "rust",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 960,
+        "USD": 198
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rust Cable-Knit Wool Cardigan with a Button Front, Long Sleeves and Ribbed Trims, front view",
+            "pt-BR": "Cardigã de tricô trançado Fio Puro ferrugem de lã, botões na frente, manga longa e bordas caneladas, Ferrugem, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "rust-white.png",
+            "#f5f5f5": "rust-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

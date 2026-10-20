@@ -1,0 +1,147 @@
+{
+  "id": "sage-ruffled-linen-blouse",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Fio Puro Sage Ruffled Linen Blouse with Long Sleeves, a Ruffled Placket and Ruffled Cuffs",
+    "pt-BR": "Blusa Fio Puro sálvia de linho com babados, manga longa, babado na vista e punhos franzidos"
+  },
+  "description": {
+    "en": "A sage linen blouse with a ruffle down the placket and again at the cuff. Long sleeves keep it easy to layer.",
+    "pt-BR": "Blusa sálvia de linho com babado na vista e de novo no punho. A manga longa facilita sobrepor."
+  },
+  "price": {
+    "BRL": 1110,
+    "USD": 232
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "sage ruffled linen blouse"
+    ],
+    "pt-BR": [
+      "blusa fio puro sálvia"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "linen"
+    }
+  ],
+  "defaultVariantId": "sage-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "sage",
+          "name": {
+            "en": "Sage",
+            "pt-BR": "Sálvia"
+          },
+          "hex": "#8A9A84"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "sage-s",
+      "sku": "FIO-SRL-S",
+      "options": {
+        "color": "sage",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1110,
+        "USD": 232
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage Ruffled Linen Blouse with Long Sleeves, a Ruffled Placket and Ruffled Cuffs, front view",
+            "pt-BR": "Blusa Fio Puro sálvia de linho com babados, manga longa, babado na vista e punhos franzidos, Sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-m",
+      "sku": "FIO-SRL-M",
+      "options": {
+        "color": "sage",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1110,
+        "USD": 232
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage Ruffled Linen Blouse with Long Sleeves, a Ruffled Placket and Ruffled Cuffs, front view",
+            "pt-BR": "Blusa Fio Puro sálvia de linho com babados, manga longa, babado na vista e punhos franzidos, Sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-l",
+      "sku": "FIO-SRL-L",
+      "options": {
+        "color": "sage",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1110,
+        "USD": 232
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage Ruffled Linen Blouse with Long Sleeves, a Ruffled Placket and Ruffled Cuffs, front view",
+            "pt-BR": "Blusa Fio Puro sálvia de linho com babados, manga longa, babado na vista e punhos franzidos, Sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

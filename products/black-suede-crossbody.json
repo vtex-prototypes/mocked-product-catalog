@@ -1,0 +1,163 @@
+{
+  "id": "black-suede-crossbody",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-bolsas",
+  "name": {
+    "en": "Fio Puro Black Suede Crossbody Bag with a Flap Closure, a Thin Strap and a Soft Matte Body",
+    "pt-BR": "Bolsa transversal Fio Puro preta de camurça, aba, alça fina e corpo fosco que marca menos o uso"
+  },
+  "description": {
+    "en": "A black suede crossbody with a flap and a thin strap. The matte nap hides scuffs better than smooth leather.",
+    "pt-BR": "Transversal preta de camurça, aba e alça fina. O pelo fosco esconde marca de uso melhor que o couro liso."
+  },
+  "price": {
+    "BRL": 1120,
+    "USD": 232
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "black suede crossbody bag"
+    ],
+    "pt-BR": [
+      "bolsa transversal fio puro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "suede"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-BSCB-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1120,
+        "USD": 232
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Suede Crossbody Bag with a Flap Closure, a Thin Strap and a Soft Matte Body, front view",
+            "pt-BR": "Bolsa transversal Fio Puro preta de camurça, aba, alça fina e corpo fosco que marca menos o uso, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1450,
+        "USD": 299
+      }
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-BSCB-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1120,
+        "USD": 232
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Suede Crossbody Bag with a Flap Closure, a Thin Strap and a Soft Matte Body, front view",
+            "pt-BR": "Bolsa transversal Fio Puro preta de camurça, aba, alça fina e corpo fosco que marca menos o uso, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1450,
+        "USD": 299
+      }
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-BSCB-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1120,
+        "USD": 232
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Suede Crossbody Bag with a Flap Closure, a Thin Strap and a Soft Matte Body, front view",
+            "pt-BR": "Bolsa transversal Fio Puro preta de camurça, aba, alça fina e corpo fosco que marca menos o uso, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 1450,
+        "USD": 299
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 1450,
+    "USD": 299
+  }
+}

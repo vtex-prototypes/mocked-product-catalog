@@ -1,0 +1,163 @@
+{
+  "id": "black-cropped-halter",
+  "brandId": "ritmo",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Ritmo Black Cropped Halter Top in Stretch Jersey with a Crossed Strap, Open Back and a Banded Hem",
+    "pt-BR": "Top cropped Ritmo preto de jersey, frente única, tiras cruzadas, costas abertas e barra com elástico"
+  },
+  "description": {
+    "en": "A cropped black halter in stretch jersey, with straps that cross at the neck and a band that sits above the waist.",
+    "pt-BR": "Halter cropped preto de jersey, com tiras que cruzam no pescoço e uma barra que fica acima da cintura."
+  },
+  "price": {
+    "BRL": 320,
+    "USD": 64
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cropped halter top in"
+    ],
+    "pt-BR": [
+      "top cropped ritmo preto"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "jersey"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "RIT-BCH-S",
+      "options": {
+        "color": "black",
+        "size": "s"
+      },
+      "price": {
+        "BRL": 320,
+        "USD": 64
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Cropped Halter Top in Stretch Jersey with a Crossed Strap, Open Back and a Banded Hem, front view",
+            "pt-BR": "Top cropped Ritmo preto de jersey, frente única, tiras cruzadas, costas abertas e barra com elástico, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 480,
+        "USD": 99
+      }
+    },
+    {
+      "id": "black-m",
+      "sku": "RIT-BCH-M",
+      "options": {
+        "color": "black",
+        "size": "m"
+      },
+      "price": {
+        "BRL": 320,
+        "USD": 64
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Cropped Halter Top in Stretch Jersey with a Crossed Strap, Open Back and a Banded Hem, front view",
+            "pt-BR": "Top cropped Ritmo preto de jersey, frente única, tiras cruzadas, costas abertas e barra com elástico, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 480,
+        "USD": 99
+      }
+    },
+    {
+      "id": "black-l",
+      "sku": "RIT-BCH-L",
+      "options": {
+        "color": "black",
+        "size": "l"
+      },
+      "price": {
+        "BRL": 320,
+        "USD": 64
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Cropped Halter Top in Stretch Jersey with a Crossed Strap, Open Back and a Banded Hem, front view",
+            "pt-BR": "Top cropped Ritmo preto de jersey, frente única, tiras cruzadas, costas abertas e barra com elástico, Preto, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 480,
+        "USD": 99
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 480,
+    "USD": 99
+  }
+}
