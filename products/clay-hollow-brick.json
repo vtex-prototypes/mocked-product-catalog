@@ -1,0 +1,138 @@
+{
+  "id": "clay-hollow-brick",
+  "categoryId": "construcao-basicos",
+  "name": {
+    "en": "Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
+    "pt-BR": "Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"
+  },
+  "description": {
+    "en": "A red clay hollow brick for a structural wall. It is the block the plaster goes on, not a thin brick slip. The listed price is for one brick.",
+    "pt-BR": "Tijolo furado de barro para parede estrutural. É o bloco que recebe o reboco, não o tijolinho de revestimento. O preço anunciado é de uma peça."
+  },
+  "price": {
+    "BRL": 1.9,
+    "USD": 0.8
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "hollow brick",
+      "clay",
+      "wall"
+    ],
+    "pt-BR": [
+      "tijolo furado",
+      "barro",
+      "parede"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "clay"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "clay",
+          "name": {
+            "en": "Clay red",
+            "pt-BR": "Barro"
+          },
+          "hex": "#A33B2B"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-CLAY-HOLLOW-BRICK-SINGLE",
+      "options": {
+        "color": "clay",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 1.9,
+        "USD": 0.8
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red clay hollow brick, front view",
+            "pt-BR": "Tijolo furado de barro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-CLAY-HOLLOW-BRICK-TEN",
+      "options": {
+        "color": "clay",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 16.9,
+        "USD": 6.5
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red clay hollow brick, front view",
+            "pt-BR": "Tijolo furado de barro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

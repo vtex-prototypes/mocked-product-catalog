@@ -316,6 +316,41 @@
             "en": "Suede",
             "pt-BR": "Camurça"
           }
+        },
+        {
+          "id": "copper",
+          "name": {
+            "en": "Copper",
+            "pt-BR": "Cobre"
+          }
+        },
+        {
+          "id": "clay",
+          "name": {
+            "en": "Clay",
+            "pt-BR": "Barro"
+          }
+        },
+        {
+          "id": "steel",
+          "name": {
+            "en": "Steel",
+            "pt-BR": "Aço"
+          }
+        },
+        {
+          "id": "cork",
+          "name": {
+            "en": "Cork",
+            "pt-BR": "Cortiça"
+          }
+        },
+        {
+          "id": "sand",
+          "name": {
+            "en": "Sand",
+            "pt-BR": "Areia"
+          }
         }
       ]
     },
@@ -1133,6 +1168,30 @@
         "pt-BR": "Argamassas"
       },
       "parent": "construcao"
+    },
+    {
+      "id": "construcao-eletrica",
+      "name": {
+        "en": "Electrical",
+        "pt-BR": "Elétrica"
+      },
+      "parent": "construcao"
+    },
+    {
+      "id": "construcao-basicos",
+      "name": {
+        "en": "Basic Materials",
+        "pt-BR": "Materiais básicos"
+      },
+      "parent": "construcao"
+    },
+    {
+      "id": "construcao-banheiro",
+      "name": {
+        "en": "Bathroom",
+        "pt-BR": "Banheiro"
+      },
+      "parent": "construcao"
     }
   ],
   "products": [
@@ -1458,6 +1517,176 @@
               "src": {
                 "#ffffff": "images/ac2-tile-mortar/gray-white.webp",
                 "#f5f5f5": "images/ac2-tile-mortar/gray-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ac2-white-mortar",
+      "categoryId": "construcao-argamassas",
+      "name": {
+        "en": "Type II White Thinset Mortar for Outdoor Ceramic Floors and Light Facades, 44 Pound Bag",
+        "pt-BR": "Argamassa Colante AC-II Branca para Cerâmica em Área Externa e Fachada Leve, Saco de 20 kg"
+      },
+      "description": {
+        "en": "A white type II thinset for ceramic tile on an outdoor floor or a light facade. It is not the one for porcelain. The listed price is for one 44 pound bag.",
+        "pt-BR": "Argamassa colante AC-II branca para cerâmica em piso externo ou fachada leve. Não é a indicada para porcelanato. O preço anunciado é de um saco de 20 kg."
+      },
+      "price": {
+        "BRL": 34.9,
+        "USD": 16
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "thinset",
+          "white",
+          "outdoor"
+        ],
+        "pt-BR": [
+          "argamassa ac-ii",
+          "branca",
+          "área externa"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "one",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F3F1EC"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Weight",
+            "pt-BR": "Peso"
+          },
+          "values": [
+            {
+              "id": "20kg",
+              "name": {
+                "en": "44 lb",
+                "pt-BR": "20 kg"
+              }
+            },
+            {
+              "id": "five",
+              "name": {
+                "en": "5 bags",
+                "pt-BR": "5 sacos"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "one",
+          "sku": "CON-AC2-WHITE-MORTAR-ONE",
+          "options": {
+            "color": "white",
+            "weight": "20kg"
+          },
+          "price": {
+            "BRL": 34.9,
+            "USD": 16
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bag of white type II thinset mortar",
+                "pt-BR": "Saco de argamassa AC-II branca"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ac2-white-mortar/white-white.webp",
+                "#f5f5f5": "images/ac2-white-mortar/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "five",
+          "sku": "CON-AC2-WHITE-MORTAR-FIVE",
+          "options": {
+            "color": "white",
+            "weight": "five"
+          },
+          "price": {
+            "BRL": 159,
+            "USD": 72
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bag of white type II thinset mortar",
+                "pt-BR": "Saco de argamassa AC-II branca"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ac2-white-mortar/white-white.webp",
+                "#f5f5f5": "images/ac2-white-mortar/white-gray.webp"
               }
             }
           ]
@@ -1992,6 +2221,358 @@
               "src": {
                 "#ffffff": "images/acrylic-sand-grout-tube/sand-white.webp",
                 "#f5f5f5": "images/acrylic-sand-grout-tube/sand-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acrylic-wall-primer",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "White Acrylic Wall Primer for Indoor Drywall and Plaster, Sold by the Can, Before the Color Coat",
+        "pt-BR": "Fundo Acrílico Branco para Parede Interna de Gesso e Reboco, Vendido por Lata, antes da Tinta"
+      },
+      "description": {
+        "en": "A white acrylic primer that seals new drywall and plaster before the color coat. One coat is enough on a sound wall. The listed price is for the smaller can.",
+        "pt-BR": "Fundo acrílico branco que sela gesso e reboco novos antes da tinta de cor. Uma demão basta em parede firme. O preço anunciado é da lata menor."
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 28
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "primer",
+          "white",
+          "acrylic"
+        ],
+        "pt-BR": [
+          "fundo",
+          "branco",
+          "acrílico"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "white-small",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F3F1EC"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "small",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "large",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-small",
+          "sku": "CON-ACRYLIC-WALL-PRIMER-WHITE-SMALL",
+          "options": {
+            "color": "white",
+            "volume": "small"
+          },
+          "price": {
+            "BRL": 69.9,
+            "USD": 28
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of white acrylic wall primer",
+                "pt-BR": "Lata de fundo acrílico branco"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/acrylic-wall-primer/white-white.webp",
+                "#f5f5f5": "images/acrylic-wall-primer/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "white-large",
+          "sku": "CON-ACRYLIC-WALL-PRIMER-WHITE-LARGE",
+          "options": {
+            "color": "white",
+            "volume": "large"
+          },
+          "price": {
+            "BRL": 199,
+            "USD": 80
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of white acrylic wall primer",
+                "pt-BR": "Lata de fundo acrílico branco"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/acrylic-wall-primer/white-white.webp",
+                "#f5f5f5": "images/acrylic-wall-primer/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acrylic-white-grout",
+      "categoryId": "construcao-rejuntes",
+      "name": {
+        "en": "Acrylic White Grout for Indoor Tile Joints, Ready to Use from the Tub, Sold by the Tub",
+        "pt-BR": "Rejunte Acrílico Branco para Juntas Internas, Pronto no Pote, Vendido por Pote"
+      },
+      "description": {
+        "en": "A ready-to-use white acrylic grout for dry indoor joints. It is not the one for a shower floor. The listed price is for the 1 kg tub.",
+        "pt-BR": "Rejunte acrílico branco pronto para junta interna seca. Não é o indicado para o piso do box. O preço anunciado é do pote de 1 kg."
+      },
+      "price": {
+        "BRL": 22.9,
+        "USD": 11
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "acrylic grout",
+          "white",
+          "indoor"
+        ],
+        "pt-BR": [
+          "rejunte acrílico",
+          "branco",
+          "área interna"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "white-1kg",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Weight",
+            "pt-BR": "Peso"
+          },
+          "values": [
+            {
+              "id": "1kg",
+              "name": {
+                "en": "1 kg",
+                "pt-BR": "1 kg"
+              }
+            },
+            {
+              "id": "5kg",
+              "name": {
+                "en": "5 kg",
+                "pt-BR": "5 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-1kg",
+          "sku": "CON-ACRYLIC-WHITE-GROUT-WHITE-1KG",
+          "options": {
+            "color": "white",
+            "weight": "1kg"
+          },
+          "price": {
+            "BRL": 22.9,
+            "USD": 11
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tub of white acrylic grout",
+                "pt-BR": "Pote de rejunte acrílico branco"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/acrylic-white-grout/white-white.webp",
+                "#f5f5f5": "images/acrylic-white-grout/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "white-5kg",
+          "sku": "CON-ACRYLIC-WHITE-GROUT-WHITE-5KG",
+          "options": {
+            "color": "white",
+            "weight": "5kg"
+          },
+          "price": {
+            "BRL": 94.9,
+            "USD": 42
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tub of white acrylic grout",
+                "pt-BR": "Pote de rejunte acrílico branco"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/acrylic-white-grout/white-white.webp",
+                "#f5f5f5": "images/acrylic-white-grout/white-gray.webp"
               }
             }
           ]
@@ -2662,6 +3243,188 @@
               "src": {
                 "#ffffff": "images/beige-concrete-porcelain-tile/light-beige-white.webp",
                 "#f5f5f5": "images/beige-concrete-porcelain-tile/light-beige-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beige-marble-wall-tile",
+      "categoryId": "construcao-revestimentos",
+      "name": {
+        "en": "Glossy Beige Marble-Look Porcelain Wall Tile, 24 by 48 Inches, for a Bathroom Wall, Priced per Square Foot",
+        "pt-BR": "Porcelanato de Parede Efeito Mármore Bege Brilhante 60×120 cm para Banheiro, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A large glossy beige marble-look porcelain tile for a bathroom wall. The vein is soft and the face is polished. The listed price is for one square foot.",
+        "pt-BR": "Porcelanato grande de parede, bege brilhante com veio de mármore, para banheiro. O veio é discreto e a face é polida. O preço anunciado é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 48
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "marble look",
+          "glossy",
+          "beige"
+        ],
+        "pt-BR": [
+          "mármore",
+          "brilhante",
+          "bege"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "porcelain",
+          "value": {
+            "en": "Porcelain",
+            "pt-BR": "Porcelanato"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "marble",
+          "value": {
+            "en": "Marble",
+            "pt-BR": "Mármore"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "beige-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "beige",
+              "name": {
+                "en": "Beige",
+                "pt-BR": "Bege"
+              },
+              "hex": "#E4D7C4"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "beige-natural",
+          "sku": "CON-BEIGE-MARBLE-WALL-TILE-BEIGE-NATURAL",
+          "options": {
+            "color": "beige",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 119.9,
+            "USD": 48
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Glossy beige marble-look wall tile, front view",
+                "pt-BR": "Porcelanato de parede mármore bege, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "beige-white.png",
+                "#f5f5f5": "beige-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/beige-marble-wall-tile/beige-white.webp",
+                "#f5f5f5": "images/beige-marble-wall-tile/beige-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "beige-rectified",
+          "sku": "CON-BEIGE-MARBLE-WALL-TILE-BEIGE-RECTIFIED",
+          "options": {
+            "color": "beige",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 139.9,
+            "USD": 56
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Glossy beige marble-look wall tile, front view",
+                "pt-BR": "Porcelanato de parede mármore bege, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "beige-white.png",
+                "#f5f5f5": "beige-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/beige-marble-wall-tile/beige-white.webp",
+                "#f5f5f5": "images/beige-marble-wall-tile/beige-gray.webp"
               }
             }
           ]
@@ -7057,6 +7820,188 @@
       ]
     },
     {
+      "id": "black-rubber-garage-tile",
+      "categoryId": "construcao-pisos",
+      "name": {
+        "en": "Black Interlocking Rubber Garage Floor Tile, 20 by 20 Inches, a Textured Mat, Priced per Square Foot",
+        "pt-BR": "Piso de Borracha Preta com Encaixe para Garagem, Placa de 50×50 cm, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A black interlocking rubber tile for a garage or a workshop floor. It lays over concrete and comes back up. The listed price is for one square foot.",
+        "pt-BR": "Placa de borracha preta com encaixe para garagem ou oficina. Assenta sobre o concreto e sai depois. O preço anunciado é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 36
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "rubber tile",
+          "garage",
+          "interlocking"
+        ],
+        "pt-BR": [
+          "piso de borracha",
+          "garagem",
+          "encaixe"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "rubber",
+          "value": {
+            "en": "Rubber",
+            "pt-BR": "Borracha"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "black-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#1C1C1C"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "black-natural",
+          "sku": "CON-BLACK-RUBBER-GARAGE-TILE-BLACK-NATURAL",
+          "options": {
+            "color": "black",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 36
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black interlocking rubber garage tile, front view",
+                "pt-BR": "Piso de borracha preta para garagem, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/black-rubber-garage-tile/black-white.webp",
+                "#f5f5f5": "images/black-rubber-garage-tile/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-rectified",
+          "sku": "CON-BLACK-RUBBER-GARAGE-TILE-BLACK-RECTIFIED",
+          "options": {
+            "color": "black",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 99.9,
+            "USD": 40
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black interlocking rubber garage tile, front view",
+                "pt-BR": "Piso de borracha preta para garagem, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/black-rubber-garage-tile/black-white.webp",
+                "#f5f5f5": "images/black-rubber-garage-tile/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "black-sheath-crepe-dress",
       "brandId": "fio-puro",
       "brand": {
@@ -8213,6 +9158,200 @@
       ]
     },
     {
+      "id": "black-subway-wall-tile",
+      "categoryId": "construcao-revestimentos",
+      "name": {
+        "en": "Glossy Black Ceramic Subway Wall Tile, 3 by 6 Inches, for Kitchen and Bathroom Walls, Priced per Square Foot",
+        "pt-BR": "Revestimento Cerâmico Subway Preto Brilhante 7,5×15 cm para Cozinha e Banheiro, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A glossy black subway tile for a kitchen backsplash or a bathroom wall. The face is smooth and the edge is beveled. The listed price is for one square foot.",
+        "pt-BR": "Subway preto brilhante para a parede da cozinha ou do banheiro. A face é lisa e a borda é bisotada. O preço anunciado é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 32
+      },
+      "listPrice": {
+        "BRL": 95.9,
+        "USD": 38.4
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "subway tile",
+          "glossy",
+          "black"
+        ],
+        "pt-BR": [
+          "subway",
+          "brilhante",
+          "preto"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "ceramic",
+          "value": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "black-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#1A1A1A"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "black-natural",
+          "sku": "CON-BLACK-SUBWAY-WALL-TILE-BLACK-NATURAL",
+          "options": {
+            "color": "black",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 79.9,
+            "USD": 32
+          },
+          "listPrice": {
+            "BRL": 95.9,
+            "USD": 38.4
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Glossy black subway wall tile, front view",
+                "pt-BR": "Revestimento subway preto brilhante, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/black-subway-wall-tile/black-white.webp",
+                "#f5f5f5": "images/black-subway-wall-tile/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-rectified",
+          "sku": "CON-BLACK-SUBWAY-WALL-TILE-BLACK-RECTIFIED",
+          "options": {
+            "color": "black",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 36
+          },
+          "listPrice": {
+            "BRL": 107.9,
+            "USD": 43.2
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Glossy black subway wall tile, front view",
+                "pt-BR": "Revestimento subway preto brilhante, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/black-subway-wall-tile/black-white.webp",
+                "#f5f5f5": "images/black-subway-wall-tile/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "black-suede-crossbody",
       "brandId": "fio-puro",
       "brand": {
@@ -8930,6 +10069,164 @@
       ]
     },
     {
+      "id": "brass-ball-valve",
+      "categoryId": "construcao-hidraulica",
+      "name": {
+        "en": "Brass Ball Valve with a Lever Handle for Cold and Hot Water, Threaded Ends, Sold by the Piece",
+        "pt-BR": "Registro de Esfera de Latão com Alavanca para Água Fria e Quente, Rosca nas Pontas, Vendido por Peça"
+      },
+      "description": {
+        "en": "A brass ball valve with a lever, for a cold or hot water line you want to shut by hand. Both ends are threaded. The listed price is for one valve.",
+        "pt-BR": "Registro de esfera de latão com alavanca, para fechar água fria ou quente na mão. As duas pontas têm rosca. O preço anunciado é de uma peça."
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 22
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "ball valve",
+          "brass",
+          "shutoff"
+        ],
+        "pt-BR": [
+          "registro de esfera",
+          "latão",
+          "água"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "brass",
+          "value": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "brass",
+              "name": {
+                "en": "Brass",
+                "pt-BR": "Latão"
+              },
+              "hex": "#C6A15B"
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 piece",
+                "pt-BR": "1 peça"
+              }
+            },
+            {
+              "id": "ten",
+              "name": {
+                "en": "10 pieces",
+                "pt-BR": "10 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-BRASS-BALL-VALVE-SINGLE",
+          "options": {
+            "color": "brass",
+            "pack": "single"
+          },
+          "price": {
+            "BRL": 49.9,
+            "USD": 22
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brass ball valve with a lever, front view",
+                "pt-BR": "Registro de esfera de latão, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "brass-white.png",
+                "#f5f5f5": "brass-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brass-ball-valve/brass-white.webp",
+                "#f5f5f5": "images/brass-ball-valve/brass-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ten",
+          "sku": "CON-BRASS-BALL-VALVE-TEN",
+          "options": {
+            "color": "brass",
+            "pack": "ten"
+          },
+          "price": {
+            "BRL": 429,
+            "USD": 189
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brass ball valve with a lever, front view",
+                "pt-BR": "Registro de esfera de latão, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "brass-white.png",
+                "#f5f5f5": "brass-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brass-ball-valve/brass-white.webp",
+                "#f5f5f5": "images/brass-ball-valve/brass-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "brass-gate-valve",
       "categoryId": "construcao-hidraulica",
       "name": {
@@ -9093,6 +10390,188 @@
               "src": {
                 "#ffffff": "images/brass-gate-valve/brass-white.webp",
                 "#f5f5f5": "images/brass-gate-valve/brass-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brick-slip-wall-tile",
+      "categoryId": "construcao-revestimentos",
+      "name": {
+        "en": "Matte Terracotta Brick-Slip Wall Tile, about 2 by 8 Inches, for an Indoor Feature Wall, Priced per Square Foot",
+        "pt-BR": "Revestimento Tijolinho de Barro Terracota Fosco para Parede Interna, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A matte clay brick slip for an indoor feature wall. It is thinner than a structural brick and bonds with tile mortar. The listed price is for one square foot.",
+        "pt-BR": "Tijolinho de barro fosco para parede interna. É mais fino que um tijolo estrutural e assenta com argamassa colante. O preço anunciado é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 64.9,
+        "USD": 26
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "brick slip",
+          "matte",
+          "terracotta"
+        ],
+        "pt-BR": [
+          "tijolinho",
+          "fosco",
+          "terracota"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "clay",
+          "value": {
+            "en": "Clay",
+            "pt-BR": "Barro"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "terracotta-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "terracotta",
+              "name": {
+                "en": "Terracotta",
+                "pt-BR": "Terracota"
+              },
+              "hex": "#A24B32"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "terracotta-natural",
+          "sku": "CON-BRICK-SLIP-WALL-TILE-TERRACOTTA-NATURAL",
+          "options": {
+            "color": "terracotta",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 64.9,
+            "USD": 26
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte terracotta brick-slip wall tile, front view",
+                "pt-BR": "Tijolinho terracota fosco, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "terracotta-white.png",
+                "#f5f5f5": "terracotta-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brick-slip-wall-tile/terracotta-white.webp",
+                "#f5f5f5": "images/brick-slip-wall-tile/terracotta-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "terracotta-rectified",
+          "sku": "CON-BRICK-SLIP-WALL-TILE-TERRACOTTA-RECTIFIED",
+          "options": {
+            "color": "terracotta",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 74.9,
+            "USD": 30
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte terracotta brick-slip wall tile, front view",
+                "pt-BR": "Tijolinho terracota fosco, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "terracotta-white.png",
+                "#f5f5f5": "terracotta-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brick-slip-wall-tile/terracotta-white.webp",
+                "#f5f5f5": "images/brick-slip-wall-tile/terracotta-gray.webp"
               }
             }
           ]
@@ -10794,6 +12273,868 @@
       ]
     },
     {
+      "id": "ceiling-white-acrylic-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Ceiling White Acrylic Paint with a Flat Matte Finish, for Indoor Ceilings, Sold by the Can",
+        "pt-BR": "Tinta Acrílica Branca Fosca para Teto Interno, Acabamento Sem Brilho, Vendida por Lata"
+      },
+      "description": {
+        "en": "A flat white acrylic paint made for indoor ceilings. The matte face hides roller lines. The listed price is for the smaller can.",
+        "pt-BR": "Tinta acrílica branca fosca feita para teto interno. O fosco esconde a marca do rolo. O preço anunciado é da lata menor."
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 32
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "ceiling paint",
+          "white",
+          "matte"
+        ],
+        "pt-BR": [
+          "tinta para teto",
+          "branca",
+          "fosca"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "white-small",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F7F7F4"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "small",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "large",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-small",
+          "sku": "CON-CEILING-WHITE-ACRYLIC-PAINT-WHITE-SMALL",
+          "options": {
+            "color": "white",
+            "volume": "small"
+          },
+          "price": {
+            "BRL": 79.9,
+            "USD": 32
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of flat white ceiling paint",
+                "pt-BR": "Lata de tinta branca fosca para teto"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ceiling-white-acrylic-paint/white-white.webp",
+                "#f5f5f5": "images/ceiling-white-acrylic-paint/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "white-large",
+          "sku": "CON-CEILING-WHITE-ACRYLIC-PAINT-WHITE-LARGE",
+          "options": {
+            "color": "white",
+            "volume": "large"
+          },
+          "price": {
+            "BRL": 229,
+            "USD": 92
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of flat white ceiling paint",
+                "pt-BR": "Lata de tinta branca fosca para teto"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ceiling-white-acrylic-paint/white-white.webp",
+                "#f5f5f5": "images/ceiling-white-acrylic-paint/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cement-basecoat-plaster",
+      "categoryId": "construcao-argamassas",
+      "name": {
+        "en": "Gray Cement Basecoat Plaster for Indoor Masonry Walls, a Rough Coat before Paint, 44 Pound Bag",
+        "pt-BR": "Argamassa de Reboco Cimentício Cinza para Parede Interna de Alvenaria, antes da Tinta, Saco de 20 kg"
+      },
+      "description": {
+        "en": "A gray cement plaster for a rough coat on indoor masonry. It is the layer under primer and paint, not a tile mortar. The listed price is for one 44 pound bag.",
+        "pt-BR": "Reboco cimentício cinza para o emboço de parede interna de alvenaria. É a camada debaixo do fundo e da tinta, não a argamassa de piso. O preço anunciado é de um saco de 20 kg."
+      },
+      "price": {
+        "BRL": 22.9,
+        "USD": 10
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "plaster",
+          "cement",
+          "indoor"
+        ],
+        "pt-BR": [
+          "reboco",
+          "cimentício",
+          "parede interna"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "one",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#C2C2BC"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Weight",
+            "pt-BR": "Peso"
+          },
+          "values": [
+            {
+              "id": "20kg",
+              "name": {
+                "en": "44 lb",
+                "pt-BR": "20 kg"
+              }
+            },
+            {
+              "id": "five",
+              "name": {
+                "en": "5 bags",
+                "pt-BR": "5 sacos"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "one",
+          "sku": "CON-CEMENT-BASECOAT-PLASTER-ONE",
+          "options": {
+            "color": "gray",
+            "weight": "20kg"
+          },
+          "price": {
+            "BRL": 22.9,
+            "USD": 10
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bag of gray cement basecoat plaster",
+                "pt-BR": "Saco de reboco cimentício cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/cement-basecoat-plaster/gray-white.webp",
+                "#f5f5f5": "images/cement-basecoat-plaster/gray-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "five",
+          "sku": "CON-CEMENT-BASECOAT-PLASTER-FIVE",
+          "options": {
+            "color": "gray",
+            "weight": "five"
+          },
+          "price": {
+            "BRL": 99.9,
+            "USD": 42
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bag of gray cement basecoat plaster",
+                "pt-BR": "Saco de reboco cimentício cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/cement-basecoat-plaster/gray-white.webp",
+                "#f5f5f5": "images/cement-basecoat-plaster/gray-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chrome-rain-shower-head",
+      "categoryId": "construcao-banheiro",
+      "name": {
+        "en": "Round Chrome Rain Shower Head, 8 Inches Across, a Face of Spray Nozzles, Sold by the Piece",
+        "pt-BR": "Chuveiro Redondo Cromado Tipo Rainha, 20 cm, com Furos de Jato na Face, Vendido por Peça"
+      },
+      "description": {
+        "en": "A round chrome rain shower head. It needs an arm and a mixer behind the wall. The listed price is for the head alone.",
+        "pt-BR": "Chuveiro redondo cromado, tipo chuva. Pede braço e misturador atrás da parede. O preço anunciado é só da peça."
+      },
+      "price": {
+        "BRL": 129,
+        "USD": 55
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "shower head",
+          "chrome",
+          "rain"
+        ],
+        "pt-BR": [
+          "chuveiro",
+          "cromado",
+          "chuva"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "stainless-steel",
+          "value": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "standard",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "chrome",
+              "name": {
+                "en": "Chrome",
+                "pt-BR": "Cromado"
+              },
+              "hex": "#D8DADC"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Drain",
+            "pt-BR": "Saída"
+          },
+          "values": [
+            {
+              "id": "standard",
+              "name": {
+                "en": "Standard",
+                "pt-BR": "Padrão"
+              }
+            },
+            {
+              "id": "alt",
+              "name": {
+                "en": "Alternate",
+                "pt-BR": "Alternativa"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "standard",
+          "sku": "CON-CHROME-RAIN-SHOWER-HEAD-STANDARD",
+          "options": {
+            "color": "chrome",
+            "install": "standard"
+          },
+          "price": {
+            "BRL": 129,
+            "USD": 55
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Round chrome rain shower head, front view",
+                "pt-BR": "Chuveiro cromado redondo, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "chrome-white.png",
+                "#f5f5f5": "chrome-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/chrome-rain-shower-head/chrome-white.webp",
+                "#f5f5f5": "images/chrome-rain-shower-head/chrome-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "alt",
+          "sku": "CON-CHROME-RAIN-SHOWER-HEAD-ALT",
+          "options": {
+            "color": "chrome",
+            "install": "alt"
+          },
+          "price": {
+            "BRL": 159,
+            "USD": 68
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Round chrome rain shower head, front view",
+                "pt-BR": "Chuveiro cromado redondo, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "chrome-white.png",
+                "#f5f5f5": "chrome-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/chrome-rain-shower-head/chrome-white.webp",
+                "#f5f5f5": "images/chrome-rain-shower-head/chrome-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chrome-single-lever-faucet",
+      "categoryId": "construcao-banheiro",
+      "name": {
+        "en": "Chrome Single-Lever Bathroom Faucet with a Short Spout, for a Basin, Sold by the Piece",
+        "pt-BR": "Torneira de Banheiro Cromada com Alavanca Única e Bica Curta, para Cuba, Vendida por Peça"
+      },
+      "description": {
+        "en": "A chrome single-lever faucet for a bathroom basin. The spout is short, so measure the basin first. The listed price is for the faucet alone.",
+        "pt-BR": "Torneira cromada de alavanca única para cuba de banheiro. A bica é curta, então meça a cuba antes. O preço anunciado é só da torneira."
+      },
+      "price": {
+        "BRL": 159,
+        "USD": 69
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "chrome",
+          "single lever"
+        ],
+        "pt-BR": [
+          "torneira",
+          "cromada",
+          "alavanca"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "stainless-steel",
+          "value": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "standard",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "chrome",
+              "name": {
+                "en": "Chrome",
+                "pt-BR": "Cromado"
+              },
+              "hex": "#D5D7D8"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Drain",
+            "pt-BR": "Saída"
+          },
+          "values": [
+            {
+              "id": "standard",
+              "name": {
+                "en": "Standard",
+                "pt-BR": "Padrão"
+              }
+            },
+            {
+              "id": "alt",
+              "name": {
+                "en": "Alternate",
+                "pt-BR": "Alternativa"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "standard",
+          "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-STANDARD",
+          "options": {
+            "color": "chrome",
+            "install": "standard"
+          },
+          "price": {
+            "BRL": 159,
+            "USD": 69
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Chrome single-lever bathroom faucet, front view",
+                "pt-BR": "Torneira de banheiro cromada, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "chrome-white.png",
+                "#f5f5f5": "chrome-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/chrome-single-lever-faucet/chrome-white.webp",
+                "#f5f5f5": "images/chrome-single-lever-faucet/chrome-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "alt",
+          "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-ALT",
+          "options": {
+            "color": "chrome",
+            "install": "alt"
+          },
+          "price": {
+            "BRL": 189,
+            "USD": 82
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Chrome single-lever bathroom faucet, front view",
+                "pt-BR": "Torneira de banheiro cromada, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "chrome-white.png",
+                "#f5f5f5": "chrome-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/chrome-single-lever-faucet/chrome-white.webp",
+                "#f5f5f5": "images/chrome-single-lever-faucet/chrome-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clay-hollow-brick",
+      "categoryId": "construcao-basicos",
+      "name": {
+        "en": "Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
+        "pt-BR": "Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"
+      },
+      "description": {
+        "en": "A red clay hollow brick for a structural wall. It is the block the plaster goes on, not a thin brick slip. The listed price is for one brick.",
+        "pt-BR": "Tijolo furado de barro para parede estrutural. É o bloco que recebe o reboco, não o tijolinho de revestimento. O preço anunciado é de uma peça."
+      },
+      "price": {
+        "BRL": 1.9,
+        "USD": 0.8
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "hollow brick",
+          "clay",
+          "wall"
+        ],
+        "pt-BR": [
+          "tijolo furado",
+          "barro",
+          "parede"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "clay",
+          "value": {
+            "en": "Clay",
+            "pt-BR": "Barro"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "clay",
+              "name": {
+                "en": "Clay red",
+                "pt-BR": "Barro"
+              },
+              "hex": "#A33B2B"
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 piece",
+                "pt-BR": "1 peça"
+              }
+            },
+            {
+              "id": "ten",
+              "name": {
+                "en": "10 pieces",
+                "pt-BR": "10 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-CLAY-HOLLOW-BRICK-SINGLE",
+          "options": {
+            "color": "clay",
+            "pack": "single"
+          },
+          "price": {
+            "BRL": 1.9,
+            "USD": 0.8
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Red clay hollow brick, front view",
+                "pt-BR": "Tijolo furado de barro, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "clay-white.png",
+                "#f5f5f5": "clay-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/clay-hollow-brick/clay-white.webp",
+                "#f5f5f5": "images/clay-hollow-brick/clay-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ten",
+          "sku": "CON-CLAY-HOLLOW-BRICK-TEN",
+          "options": {
+            "color": "clay",
+            "pack": "ten"
+          },
+          "price": {
+            "BRL": 16.9,
+            "USD": 6.5
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Red clay hollow brick, front view",
+                "pt-BR": "Tijolo furado de barro, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "clay-white.png",
+                "#f5f5f5": "clay-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/clay-hollow-brick/clay-white.webp",
+                "#f5f5f5": "images/clay-hollow-brick/clay-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cognac-calfskin-shoulder",
       "brandId": "fio-puro",
       "brand": {
@@ -11507,6 +13848,164 @@
       ]
     },
     {
+      "id": "copper-building-wire",
+      "categoryId": "construcao-eletrica",
+      "name": {
+        "en": "Bare Copper Building Wire, 2.5 Square Millimeters, a Coil for Indoor Branch Circuits, Sold by the Roll",
+        "pt-BR": "Fio de Cobre para Instalação de 2,5 mm², Rolo para Circuito Interno, Vendido por Rolo"
+      },
+      "description": {
+        "en": "A coil of copper building wire for an indoor branch circuit. Confirm the gauge with the load before you buy the roll. The listed price is for the shorter roll.",
+        "pt-BR": "Rolo de fio de cobre para circuito interno. Confira a seção com a carga antes de fechar o rolo. O preço anunciado é do rolo menor."
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 22
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "copper wire",
+          "building wire",
+          "coil"
+        ],
+        "pt-BR": [
+          "fio de cobre",
+          "instalação",
+          "rolo"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "copper",
+          "value": {
+            "en": "Copper",
+            "pt-BR": "Cobre"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "short",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "copper",
+              "name": {
+                "en": "Copper",
+                "pt-BR": "Cobre"
+              },
+              "hex": "#B87333"
+            }
+          ]
+        },
+        {
+          "id": "length",
+          "name": {
+            "en": "Length",
+            "pt-BR": "Comprimento"
+          },
+          "values": [
+            {
+              "id": "short",
+              "name": {
+                "en": "50 ft",
+                "pt-BR": "15 m"
+              }
+            },
+            {
+              "id": "long",
+              "name": {
+                "en": "100 ft",
+                "pt-BR": "30 m"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "short",
+          "sku": "CON-COPPER-BUILDING-WIRE-SHORT",
+          "options": {
+            "color": "copper",
+            "length": "short"
+          },
+          "price": {
+            "BRL": 49.9,
+            "USD": 22
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Coil of copper building wire",
+                "pt-BR": "Rolo de fio de cobre"
+              },
+              "backgrounds": {
+                "#ffffff": "copper-white.png",
+                "#f5f5f5": "copper-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/copper-building-wire/copper-white.webp",
+                "#f5f5f5": "images/copper-building-wire/copper-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "long",
+          "sku": "CON-COPPER-BUILDING-WIRE-LONG",
+          "options": {
+            "color": "copper",
+            "length": "long"
+          },
+          "price": {
+            "BRL": 189,
+            "USD": 78
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Coil of copper building wire",
+                "pt-BR": "Rolo de fio de cobre"
+              },
+              "backgrounds": {
+                "#ffffff": "copper-white.png",
+                "#f5f5f5": "copper-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/copper-building-wire/copper-white.webp",
+                "#f5f5f5": "images/copper-building-wire/copper-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "coral-floral-cotton-maxi",
       "brandId": "ritmo",
       "brand": {
@@ -11711,6 +14210,200 @@
         "BRL": 860,
         "USD": 179
       }
+    },
+    {
+      "id": "cork-click-floor-plank",
+      "categoryId": "construcao-pisos",
+      "name": {
+        "en": "Natural Cork Click Floor Plank, 7 by 48 Inches, for Dry Indoor Rooms, Priced per Square Foot",
+        "pt-BR": "Piso de Cortiça Natural com Encaixe Click 18×122 cm para Área Interna Seca, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A natural cork click plank for a dry indoor room. It feels warm underfoot and does not like standing water. The listed price is for one square foot.",
+        "pt-BR": "Piso de cortiça natural com encaixe click para área interna seca. É quente no pé e não gosta de água empoçada. O preço anunciado é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 149,
+        "USD": 62
+      },
+      "listPrice": {
+        "BRL": 178.8,
+        "USD": 74.4
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "cork floor",
+          "click",
+          "indoor"
+        ],
+        "pt-BR": [
+          "piso de cortiça",
+          "click",
+          "área interna"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cork",
+          "value": {
+            "en": "Cork",
+            "pt-BR": "Cortiça"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "wood",
+          "value": {
+            "en": "Wood",
+            "pt-BR": "Madeira"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "cork-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "cork",
+              "name": {
+                "en": "Natural cork",
+                "pt-BR": "Cortiça"
+              },
+              "hex": "#C4A06A"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "cork-natural",
+          "sku": "CON-CORK-CLICK-FLOOR-PLANK-CORK-NATURAL",
+          "options": {
+            "color": "cork",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 149,
+            "USD": 62
+          },
+          "listPrice": {
+            "BRL": 178.8,
+            "USD": 74.4
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Natural cork click floor plank, front view",
+                "pt-BR": "Piso de cortiça com encaixe click, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "cork-white.png",
+                "#f5f5f5": "cork-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/cork-click-floor-plank/cork-white.webp",
+                "#f5f5f5": "images/cork-click-floor-plank/cork-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cork-rectified",
+          "sku": "CON-CORK-CLICK-FLOOR-PLANK-CORK-RECTIFIED",
+          "options": {
+            "color": "cork",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 169,
+            "USD": 72
+          },
+          "listPrice": {
+            "BRL": 202.8,
+            "USD": 86.4
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Natural cork click floor plank, front view",
+                "pt-BR": "Piso de cortiça com encaixe click, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "cork-white.png",
+                "#f5f5f5": "cork-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/cork-click-floor-plank/cork-white.webp",
+                "#f5f5f5": "images/cork-click-floor-plank/cork-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "cotto-clay-floor-tile",
@@ -12705,6 +15398,188 @@
         "BRL": 920,
         "USD": 189
       }
+    },
+    {
+      "id": "cream-glass-mosaic-tile",
+      "categoryId": "construcao-revestimentos",
+      "name": {
+        "en": "Cream Glass Mosaic Tile Sheet on Mesh, 12 by 12 Inches, for Wet Walls and Shower Niches",
+        "pt-BR": "Pastilha de Vidro Creme em Placa com Tela 30×30 cm para Parede Molhada e Nicho de Box"
+      },
+      "description": {
+        "en": "A sheet of small cream glass mosaic on mesh, for a shower niche or a wet wall. The sheet is about 12 inches square. The listed price is for one sheet.",
+        "pt-BR": "Placa de pastilha de vidro creme sobre tela, para nicho de box ou parede molhada. A placa tem cerca de 30 cm. O preço anunciado é de uma placa."
+      },
+      "price": {
+        "BRL": 24.9,
+        "USD": 11
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "mosaic",
+          "glass",
+          "cream"
+        ],
+        "pt-BR": [
+          "pastilha",
+          "vidro",
+          "creme"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "glass",
+          "value": {
+            "en": "Glass",
+            "pt-BR": "Vidro"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "cream-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "cream",
+              "name": {
+                "en": "Cream",
+                "pt-BR": "Creme"
+              },
+              "hex": "#E7E0D2"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "cream-natural",
+          "sku": "CON-CREAM-GLASS-MOSAIC-TILE-CREAM-NATURAL",
+          "options": {
+            "color": "cream",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 24.9,
+            "USD": 11
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cream glass mosaic tile sheet, front view",
+                "pt-BR": "Pastilha de vidro creme, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "cream-white.png",
+                "#f5f5f5": "cream-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/cream-glass-mosaic-tile/cream-white.webp",
+                "#f5f5f5": "images/cream-glass-mosaic-tile/cream-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cream-rectified",
+          "sku": "CON-CREAM-GLASS-MOSAIC-TILE-CREAM-RECTIFIED",
+          "options": {
+            "color": "cream",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 28.9,
+            "USD": 13
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cream glass mosaic tile sheet, front view",
+                "pt-BR": "Pastilha de vidro creme, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "cream-white.png",
+                "#f5f5f5": "cream-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/cream-glass-mosaic-tile/cream-white.webp",
+                "#f5f5f5": "images/cream-glass-mosaic-tile/cream-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "cream-jersey-ruffled-maxi",
@@ -16625,6 +19500,188 @@
       ]
     },
     {
+      "id": "exterior-white-acrylic-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Exterior White Acrylic Masonry Paint with a Matte Finish, for Outdoor Walls, Sold by the Can",
+        "pt-BR": "Tinta Acrílica Branca Fosca para Alvenaria Externa, Vendida por Lata"
+      },
+      "description": {
+        "en": "A matte white acrylic paint for outdoor masonry. It needs a dry wall and a sound base. The listed price is for the smaller can.",
+        "pt-BR": "Tinta acrílica branca fosca para alvenaria externa. Pede parede seca e base firme. O preço anunciado é da lata menor."
+      },
+      "price": {
+        "BRL": 129,
+        "USD": 52
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "exterior paint",
+          "white",
+          "matte"
+        ],
+        "pt-BR": [
+          "tinta externa",
+          "branca",
+          "fosca"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "white-small",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F1"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "small",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "large",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-small",
+          "sku": "CON-EXTERIOR-WHITE-ACRYLIC-PAINT-WHITE-SMALL",
+          "options": {
+            "color": "white",
+            "volume": "small"
+          },
+          "price": {
+            "BRL": 129,
+            "USD": 52
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of matte white exterior paint",
+                "pt-BR": "Lata de tinta branca fosca para exterior"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/exterior-white-acrylic-paint/white-white.webp",
+                "#f5f5f5": "images/exterior-white-acrylic-paint/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "white-large",
+          "sku": "CON-EXTERIOR-WHITE-ACRYLIC-PAINT-WHITE-LARGE",
+          "options": {
+            "color": "white",
+            "volume": "large"
+          },
+          "price": {
+            "BRL": 359,
+            "USD": 144
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of matte white exterior paint",
+                "pt-BR": "Lata de tinta branca fosca para exterior"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/exterior-white-acrylic-paint/white-white.webp",
+                "#f5f5f5": "images/exterior-white-acrylic-paint/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "fleece-jogger-pants",
       "brandId": "ritmo",
       "brand": {
@@ -16947,6 +20004,382 @@
               "src": {
                 "#ffffff": "images/fleece-jogger-pants/heather-white.webp",
                 "#f5f5f5": "images/fleece-jogger-pants/heather-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flexible-beige-grout",
+      "categoryId": "construcao-rejuntes",
+      "name": {
+        "en": "Flexible Beige Cement Grout for Indoor and Outdoor Tile Joints, Sold by the Tub",
+        "pt-BR": "Rejunte Flexível Bege para Juntas de Piso Interno e Externo, Vendido por Pote"
+      },
+      "description": {
+        "en": "A flexible beige cement grout that disappears next to a sand or beige tile. It works indoors and outdoors. The listed price is for the 1 kg tub.",
+        "pt-BR": "Rejunte cimentício bege e flexível, que some ao lado de piso areia ou bege. Serve dentro e fora. O preço anunciado é do pote de 1 kg."
+      },
+      "price": {
+        "BRL": 16.9,
+        "USD": 8.5
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "flexible grout",
+          "beige",
+          "outdoor"
+        ],
+        "pt-BR": [
+          "rejunte flexível",
+          "bege",
+          "área externa"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "beige-1kg",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "beige",
+              "name": {
+                "en": "Beige",
+                "pt-BR": "Bege"
+              },
+              "hex": "#D7CBB6"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Weight",
+            "pt-BR": "Peso"
+          },
+          "values": [
+            {
+              "id": "1kg",
+              "name": {
+                "en": "1 kg",
+                "pt-BR": "1 kg"
+              }
+            },
+            {
+              "id": "5kg",
+              "name": {
+                "en": "5 kg",
+                "pt-BR": "5 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "beige-1kg",
+          "sku": "CON-FLEXIBLE-BEIGE-GROUT-BEIGE-1KG",
+          "options": {
+            "color": "beige",
+            "weight": "1kg"
+          },
+          "price": {
+            "BRL": 16.9,
+            "USD": 8.5
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tub of flexible beige grout",
+                "pt-BR": "Pote de rejunte flexível bege"
+              },
+              "backgrounds": {
+                "#ffffff": "beige-white.png",
+                "#f5f5f5": "beige-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flexible-beige-grout/beige-white.webp",
+                "#f5f5f5": "images/flexible-beige-grout/beige-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "beige-5kg",
+          "sku": "CON-FLEXIBLE-BEIGE-GROUT-BEIGE-5KG",
+          "options": {
+            "color": "beige",
+            "weight": "5kg"
+          },
+          "price": {
+            "BRL": 69.9,
+            "USD": 32
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tub of flexible beige grout",
+                "pt-BR": "Pote de rejunte flexível bege"
+              },
+              "backgrounds": {
+                "#ffffff": "beige-white.png",
+                "#f5f5f5": "beige-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flexible-beige-grout/beige-white.webp",
+                "#f5f5f5": "images/flexible-beige-grout/beige-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flexible-black-grout",
+      "categoryId": "construcao-rejuntes",
+      "name": {
+        "en": "Flexible Black Cement Grout for Indoor and Outdoor Tile Joints, Sold by the Tub",
+        "pt-BR": "Rejunte Flexível Preto para Juntas de Piso Interno e Externo, Vendido por Pote"
+      },
+      "description": {
+        "en": "A flexible black cement grout for joints that need a dark line, indoors or on a covered balcony. The listed price is for the 1 kg tub.",
+        "pt-BR": "Rejunte cimentício preto e flexível para junta que pede um risco escuro, dentro de casa ou em varanda coberta. O preço anunciado é do pote de 1 kg."
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 9.5
+      },
+      "listPrice": {
+        "BRL": 22.7,
+        "USD": 11.4
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "flexible grout",
+          "black",
+          "outdoor"
+        ],
+        "pt-BR": [
+          "rejunte flexível",
+          "preto",
+          "área externa"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "black-1kg",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#2A2A28"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Weight",
+            "pt-BR": "Peso"
+          },
+          "values": [
+            {
+              "id": "1kg",
+              "name": {
+                "en": "1 kg",
+                "pt-BR": "1 kg"
+              }
+            },
+            {
+              "id": "5kg",
+              "name": {
+                "en": "5 kg",
+                "pt-BR": "5 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "black-1kg",
+          "sku": "CON-FLEXIBLE-BLACK-GROUT-BLACK-1KG",
+          "options": {
+            "color": "black",
+            "weight": "1kg"
+          },
+          "price": {
+            "BRL": 18.9,
+            "USD": 9.5
+          },
+          "listPrice": {
+            "BRL": 22.7,
+            "USD": 11.4
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tub of flexible black grout",
+                "pt-BR": "Pote de rejunte flexível preto"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flexible-black-grout/black-white.webp",
+                "#f5f5f5": "images/flexible-black-grout/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-5kg",
+          "sku": "CON-FLEXIBLE-BLACK-GROUT-BLACK-5KG",
+          "options": {
+            "color": "black",
+            "weight": "5kg"
+          },
+          "price": {
+            "BRL": 79.9,
+            "USD": 36
+          },
+          "listPrice": {
+            "BRL": 95.9,
+            "USD": 43.2
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tub of flexible black grout",
+                "pt-BR": "Pote de rejunte flexível preto"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flexible-black-grout/black-white.webp",
+                "#f5f5f5": "images/flexible-black-grout/black-gray.webp"
               }
             }
           ]
@@ -17311,6 +20744,188 @@
               "src": {
                 "#ffffff": "images/flexible-gray-grout/gray-white.webp",
                 "#f5f5f5": "images/flexible-gray-grout/gray-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flexible-terracotta-grout",
+      "categoryId": "construcao-rejuntes",
+      "name": {
+        "en": "Flexible Terracotta Cement Grout for Indoor and Outdoor Joints next to Clay Tile, Sold by the Tub",
+        "pt-BR": "Rejunte Flexível Terracota para Juntas Internas e Externas ao lado de Piso de Barro, Vendido por Pote"
+      },
+      "description": {
+        "en": "A flexible terracotta cement grout for joints beside cotto or brick-look tile. It works indoors and outdoors. The listed price is for the 1 kg tub.",
+        "pt-BR": "Rejunte cimentício terracota e flexível para junta ao lado de piso de barro ou tijolinho. Serve dentro e fora. O preço anunciado é do pote de 1 kg."
+      },
+      "price": {
+        "BRL": 17.9,
+        "USD": 9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "flexible grout",
+          "terracotta",
+          "outdoor"
+        ],
+        "pt-BR": [
+          "rejunte flexível",
+          "terracota",
+          "área externa"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "terracotta-1kg",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "terracotta",
+              "name": {
+                "en": "Terracotta",
+                "pt-BR": "Terracota"
+              },
+              "hex": "#C15A3A"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Weight",
+            "pt-BR": "Peso"
+          },
+          "values": [
+            {
+              "id": "1kg",
+              "name": {
+                "en": "1 kg",
+                "pt-BR": "1 kg"
+              }
+            },
+            {
+              "id": "5kg",
+              "name": {
+                "en": "5 kg",
+                "pt-BR": "5 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "terracotta-1kg",
+          "sku": "CON-FLEXIBLE-TERRACOTTA-GROUT-TERRACOTTA-1KG",
+          "options": {
+            "color": "terracotta",
+            "weight": "1kg"
+          },
+          "price": {
+            "BRL": 17.9,
+            "USD": 9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tub of flexible terracotta grout",
+                "pt-BR": "Pote de rejunte flexível terracota"
+              },
+              "backgrounds": {
+                "#ffffff": "terracotta-white.png",
+                "#f5f5f5": "terracotta-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flexible-terracotta-grout/terracotta-white.webp",
+                "#f5f5f5": "images/flexible-terracotta-grout/terracotta-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "terracotta-5kg",
+          "sku": "CON-FLEXIBLE-TERRACOTTA-GROUT-TERRACOTTA-5KG",
+          "options": {
+            "color": "terracotta",
+            "weight": "5kg"
+          },
+          "price": {
+            "BRL": 74.9,
+            "USD": 34
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tub of flexible terracotta grout",
+                "pt-BR": "Pote de rejunte flexível terracota"
+              },
+              "backgrounds": {
+                "#ffffff": "terracotta-white.png",
+                "#f5f5f5": "terracotta-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flexible-terracotta-grout/terracotta-white.webp",
+                "#f5f5f5": "images/flexible-terracotta-grout/terracotta-gray.webp"
               }
             }
           ]
@@ -20009,6 +23624,322 @@
         "BRL": 860,
         "USD": 179
       }
+    },
+    {
+      "id": "gray-pvc-coupling",
+      "categoryId": "construcao-hidraulica",
+      "name": {
+        "en": "Gray PVC Coupling for 1 Inch Cold-Water Pipe, a Straight Sleeve, Sold by the Piece",
+        "pt-BR": "Luva de PVC Cinza para Tubo de Água Fria de 25 mm, Emenda Reta, Vendida por Peça"
+      },
+      "description": {
+        "en": "A gray PVC coupling that joins two lengths of 1 inch cold-water pipe. Both sockets take solvent cement. The listed price is for one coupling.",
+        "pt-BR": "Luva de PVC cinza que emenda duas barras de tubo de água fria de 25 mm. As duas bolsas levam adesivo. O preço anunciado é de uma peça."
+      },
+      "price": {
+        "BRL": 2.9,
+        "USD": 1.2
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "pvc coupling",
+          "cold water",
+          "fitting"
+        ],
+        "pt-BR": [
+          "luva de pvc",
+          "água fria",
+          "conexão"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "pvc",
+          "value": {
+            "en": "PVC",
+            "pt-BR": "PVC"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#8E8E8A"
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 piece",
+                "pt-BR": "1 peça"
+              }
+            },
+            {
+              "id": "ten",
+              "name": {
+                "en": "10 pieces",
+                "pt-BR": "10 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-GRAY-PVC-COUPLING-SINGLE",
+          "options": {
+            "color": "gray",
+            "pack": "single"
+          },
+          "price": {
+            "BRL": 2.9,
+            "USD": 1.2
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray PVC pipe coupling, front view",
+                "pt-BR": "Luva de PVC cinza, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gray-pvc-coupling/gray-white.webp",
+                "#f5f5f5": "images/gray-pvc-coupling/gray-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ten",
+          "sku": "CON-GRAY-PVC-COUPLING-TEN",
+          "options": {
+            "color": "gray",
+            "pack": "ten"
+          },
+          "price": {
+            "BRL": 24.9,
+            "USD": 9.5
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray PVC pipe coupling, front view",
+                "pt-BR": "Luva de PVC cinza, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gray-pvc-coupling/gray-white.webp",
+                "#f5f5f5": "images/gray-pvc-coupling/gray-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gray-pvc-tee",
+      "categoryId": "construcao-hidraulica",
+      "name": {
+        "en": "Gray PVC Tee Fitting for 1 Inch Cold-Water Pipe, Three Openings, Sold by the Piece",
+        "pt-BR": "Tê de PVC Cinza para Tubo de Água Fria de 25 mm, Três Saídas, Vendido por Peça"
+      },
+      "description": {
+        "en": "A gray PVC tee that splits a 1 inch cold-water line into three. It needs solvent cement on each socket. The listed price is for one fitting.",
+        "pt-BR": "Tê de PVC cinza que divide uma linha de água fria de 25 mm em três saídas. Cada bolsa pede adesivo. O preço anunciado é de uma peça."
+      },
+      "price": {
+        "BRL": 4.9,
+        "USD": 1.9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "pvc tee",
+          "cold water",
+          "fitting"
+        ],
+        "pt-BR": [
+          "tê de pvc",
+          "água fria",
+          "conexão"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "pvc",
+          "value": {
+            "en": "PVC",
+            "pt-BR": "PVC"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#8E8E8A"
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 piece",
+                "pt-BR": "1 peça"
+              }
+            },
+            {
+              "id": "ten",
+              "name": {
+                "en": "10 pieces",
+                "pt-BR": "10 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-GRAY-PVC-TEE-SINGLE",
+          "options": {
+            "color": "gray",
+            "pack": "single"
+          },
+          "price": {
+            "BRL": 4.9,
+            "USD": 1.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray PVC tee fitting, front view",
+                "pt-BR": "Tê de PVC cinza, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gray-pvc-tee/gray-white.webp",
+                "#f5f5f5": "images/gray-pvc-tee/gray-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ten",
+          "sku": "CON-GRAY-PVC-TEE-TEN",
+          "options": {
+            "color": "gray",
+            "pack": "ten"
+          },
+          "price": {
+            "BRL": 39.9,
+            "USD": 15
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray PVC tee fitting, front view",
+                "pt-BR": "Tê de PVC cinza, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gray-pvc-tee/gray-white.webp",
+                "#f5f5f5": "images/gray-pvc-tee/gray-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "gray-stone-wall-tile",
@@ -23111,6 +27042,564 @@
               "src": {
                 "#ffffff": "images/insulated-snow-pants/red-white.webp",
                 "#f5f5f5": "images/insulated-snow-pants/red-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interior-clay-acrylic-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Interior Clay Acrylic Wall Paint with a Matte Finish, a Warm Terracotta Tone, Sold by the Can",
+        "pt-BR": "Tinta Acrílica Terracota Fosca para Parede Interna, Tom de Barro Quente, Vendida por Lata"
+      },
+      "description": {
+        "en": "A matte clay acrylic paint for indoor walls that need a warm tone. Two coats cover white. The listed price is for the smaller can.",
+        "pt-BR": "Tinta acrílica terracota fosca para parede interna que pede um tom quente. Duas demãos cobrem o branco. O preço anunciado é da lata menor."
+      },
+      "price": {
+        "BRL": 109.9,
+        "USD": 44
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "interior paint",
+          "clay",
+          "matte"
+        ],
+        "pt-BR": [
+          "tinta interna",
+          "terracota",
+          "fosca"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "clay-small",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "clay",
+              "name": {
+                "en": "Clay",
+                "pt-BR": "Terracota"
+              },
+              "hex": "#C46A45"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "small",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "large",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "clay-small",
+          "sku": "CON-INTERIOR-CLAY-ACRYLIC-PAINT-CLAY-SMALL",
+          "options": {
+            "color": "clay",
+            "volume": "small"
+          },
+          "price": {
+            "BRL": 109.9,
+            "USD": 44
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of matte clay interior paint",
+                "pt-BR": "Lata de tinta interna terracota fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "clay-white.png",
+                "#f5f5f5": "clay-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-clay-acrylic-paint/clay-white.webp",
+                "#f5f5f5": "images/interior-clay-acrylic-paint/clay-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "clay-large",
+          "sku": "CON-INTERIOR-CLAY-ACRYLIC-PAINT-CLAY-LARGE",
+          "options": {
+            "color": "clay",
+            "volume": "large"
+          },
+          "price": {
+            "BRL": 309,
+            "USD": 124
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of matte clay interior paint",
+                "pt-BR": "Lata de tinta interna terracota fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "clay-white.png",
+                "#f5f5f5": "clay-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-clay-acrylic-paint/clay-white.webp",
+                "#f5f5f5": "images/interior-clay-acrylic-paint/clay-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interior-greige-acrylic-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Interior Greige Acrylic Wall Paint with a Matte Finish, a Soft Gray Beige, Sold by the Can",
+        "pt-BR": "Tinta Acrílica Greige Fosca para Parede Interna, um Bege Acinzentado Suave, Vendida por Lata"
+      },
+      "description": {
+        "en": "A matte greige acrylic paint for indoor walls. It sits between gray and beige and hides small marks. The listed price is for the smaller can.",
+        "pt-BR": "Tinta acrílica greige fosca para parede interna. Fica entre o cinza e o bege e disfarça marca pequena. O preço anunciado é da lata menor."
+      },
+      "price": {
+        "BRL": 104.9,
+        "USD": 42
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "interior paint",
+          "greige",
+          "matte"
+        ],
+        "pt-BR": [
+          "tinta interna",
+          "greige",
+          "fosca"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "greige-small",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "greige",
+              "name": {
+                "en": "Greige",
+                "pt-BR": "Greige"
+              },
+              "hex": "#C8C0B4"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "small",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "large",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "greige-small",
+          "sku": "CON-INTERIOR-GREIGE-ACRYLIC-PAINT-GREIGE-SMALL",
+          "options": {
+            "color": "greige",
+            "volume": "small"
+          },
+          "price": {
+            "BRL": 104.9,
+            "USD": 42
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of matte greige interior paint",
+                "pt-BR": "Lata de tinta interna greige fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "greige-white.png",
+                "#f5f5f5": "greige-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-greige-acrylic-paint/greige-white.webp",
+                "#f5f5f5": "images/interior-greige-acrylic-paint/greige-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "greige-large",
+          "sku": "CON-INTERIOR-GREIGE-ACRYLIC-PAINT-GREIGE-LARGE",
+          "options": {
+            "color": "greige",
+            "volume": "large"
+          },
+          "price": {
+            "BRL": 299,
+            "USD": 120
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of matte greige interior paint",
+                "pt-BR": "Lata de tinta interna greige fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "greige-white.png",
+                "#f5f5f5": "greige-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-greige-acrylic-paint/greige-white.webp",
+                "#f5f5f5": "images/interior-greige-acrylic-paint/greige-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interior-navy-acrylic-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Interior Navy Acrylic Wall Paint with a Matte Finish, for Dry Indoor Walls, Sold by the Can",
+        "pt-BR": "Tinta Acrílica Azul Marinho Fosca para Parede Interna Seca, Vendida por Lata"
+      },
+      "description": {
+        "en": "A matte navy acrylic paint for dry indoor walls. Two coats cover a light wall. It is not for a wet shower. The listed price is for the smaller can.",
+        "pt-BR": "Tinta acrílica azul marinho fosca para parede interna seca. Duas demãos cobrem parede clara. Não serve para box molhado. O preço anunciado é da lata menor."
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 48
+      },
+      "listPrice": {
+        "BRL": 142.8,
+        "USD": 57.6
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "interior paint",
+          "navy",
+          "matte"
+        ],
+        "pt-BR": [
+          "tinta interna",
+          "azul marinho",
+          "fosca"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "navy-small",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "navy",
+              "name": {
+                "en": "Navy",
+                "pt-BR": "Azul marinho"
+              },
+              "hex": "#1E3A5F"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "small",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "large",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "navy-small",
+          "sku": "CON-INTERIOR-NAVY-ACRYLIC-PAINT-NAVY-SMALL",
+          "options": {
+            "color": "navy",
+            "volume": "small"
+          },
+          "price": {
+            "BRL": 119,
+            "USD": 48
+          },
+          "listPrice": {
+            "BRL": 142.8,
+            "USD": 57.6
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of matte navy interior paint",
+                "pt-BR": "Lata de tinta interna azul marinho fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-navy-acrylic-paint/navy-white.webp",
+                "#f5f5f5": "images/interior-navy-acrylic-paint/navy-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "navy-large",
+          "sku": "CON-INTERIOR-NAVY-ACRYLIC-PAINT-NAVY-LARGE",
+          "options": {
+            "color": "navy",
+            "volume": "large"
+          },
+          "price": {
+            "BRL": 329,
+            "USD": 132
+          },
+          "listPrice": {
+            "BRL": 394.8,
+            "USD": 158.4
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of matte navy interior paint",
+                "pt-BR": "Lata de tinta interna azul marinho fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-navy-acrylic-paint/navy-white.webp",
+                "#f5f5f5": "images/interior-navy-acrylic-paint/navy-gray.webp"
               }
             }
           ]
@@ -27049,6 +31538,164 @@
       }
     },
     {
+      "id": "miniature-circuit-breaker",
+      "categoryId": "construcao-eletrica",
+      "name": {
+        "en": "White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
+        "pt-BR": "Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+      },
+      "description": {
+        "en": "A single-pole miniature breaker for an indoor panel. Match the amp rating to the circuit before it goes in the rail. The listed price is for one module.",
+        "pt-BR": "Disjuntor unipolar para quadro interno. A corrente tem que casar com o circuito antes de entrar no trilho. O preço anunciado é de um módulo."
+      },
+      "price": {
+        "BRL": 28.9,
+        "USD": 12
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "circuit breaker",
+          "panel",
+          "indoor"
+        ],
+        "pt-BR": [
+          "disjuntor",
+          "quadro",
+          "interno"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "polycarbonate",
+          "value": {
+            "en": "Polycarbonate",
+            "pt-BR": "Policarbonato"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 piece",
+                "pt-BR": "1 peça"
+              }
+            },
+            {
+              "id": "ten",
+              "name": {
+                "en": "10 pieces",
+                "pt-BR": "10 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-MINIATURE-CIRCUIT-BREAKER-SINGLE",
+          "options": {
+            "color": "white",
+            "pack": "single"
+          },
+          "price": {
+            "BRL": 28.9,
+            "USD": 12
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White miniature circuit breaker, front view",
+                "pt-BR": "Disjuntor miniatura branco, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/miniature-circuit-breaker/white-white.webp",
+                "#f5f5f5": "images/miniature-circuit-breaker/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ten",
+          "sku": "CON-MINIATURE-CIRCUIT-BREAKER-TEN",
+          "options": {
+            "color": "white",
+            "pack": "ten"
+          },
+          "price": {
+            "BRL": 249,
+            "USD": 99
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White miniature circuit breaker, front view",
+                "pt-BR": "Disjuntor miniatura branco, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/miniature-circuit-breaker/white-white.webp",
+                "#f5f5f5": "images/miniature-circuit-breaker/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "natural-wood-porcelain-deck",
       "categoryId": "construcao-pisos",
       "name": {
@@ -29297,6 +33944,188 @@
         "BRL": 720,
         "USD": 149
       }
+    },
+    {
+      "id": "olive-porcelain-floor-tile",
+      "categoryId": "construcao-pisos",
+      "name": {
+        "en": "Matte Olive Porcelain Floor Tile, 24 by 24 Inches and 9 Millimeters Thick, for Indoor Rooms, Priced per Square Foot",
+        "pt-BR": "Porcelanato Oliva Fosco 60×60 cm com 9 mm para Área Interna, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A matte olive porcelain floor tile for a dry indoor room. The color is a muted green, not a print. The listed price is for one square foot.",
+        "pt-BR": "Porcelanato oliva fosco para área interna seca. A cor é um verde fechado, sem estampa. O preço anunciado é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 32
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "porcelain",
+          "olive",
+          "matte"
+        ],
+        "pt-BR": [
+          "porcelanato",
+          "oliva",
+          "fosco"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "porcelain",
+          "value": {
+            "en": "Porcelain",
+            "pt-BR": "Porcelanato"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "olive-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "olive",
+              "name": {
+                "en": "Olive",
+                "pt-BR": "Oliva"
+              },
+              "hex": "#6E7356"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "olive-natural",
+          "sku": "CON-OLIVE-PORCELAIN-FLOOR-TILE-OLIVE-NATURAL",
+          "options": {
+            "color": "olive",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 79.9,
+            "USD": 32
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte olive porcelain floor tile, front view",
+                "pt-BR": "Porcelanato oliva fosco, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "olive-white.png",
+                "#f5f5f5": "olive-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/olive-porcelain-floor-tile/olive-white.webp",
+                "#f5f5f5": "images/olive-porcelain-floor-tile/olive-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "olive-rectified",
+          "sku": "CON-OLIVE-PORCELAIN-FLOOR-TILE-OLIVE-RECTIFIED",
+          "options": {
+            "color": "olive",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 36
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte olive porcelain floor tile, front view",
+                "pt-BR": "Porcelanato oliva fosco, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "olive-white.png",
+                "#f5f5f5": "olive-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/olive-porcelain-floor-tile/olive-white.webp",
+                "#f5f5f5": "images/olive-porcelain-floor-tile/olive-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "olive-relaxed-cotton-trousers",
@@ -31819,6 +36648,176 @@
       ]
     },
     {
+      "id": "portland-cement-bag",
+      "categoryId": "construcao-basicos",
+      "name": {
+        "en": "Portland Cement for General Concrete and Mortar Mixes, a 94 Pound Paper Bag, Sold by the Bag",
+        "pt-BR": "Cimento Portland para Concreto e Argamassa em Geral, Saco de Papel de 50 kg, Vendido por Saco"
+      },
+      "description": {
+        "en": "A bag of portland cement for site-mixed concrete and mortar. It is the binder, not a ready thinset. The listed price is for one bag.",
+        "pt-BR": "Saco de cimento Portland para concreto e argamassa virados na obra. É o aglomerante, não a argamassa colante pronta. O preço anunciado é de um saco."
+      },
+      "price": {
+        "BRL": 42.9,
+        "USD": 14
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "portland cement",
+          "bag",
+          "concrete"
+        ],
+        "pt-BR": [
+          "cimento",
+          "saco",
+          "concreto"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "one",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "kraft",
+              "name": {
+                "en": "Kraft",
+                "pt-BR": "Kraft"
+              },
+              "hex": "#C4A574"
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "one",
+              "name": {
+                "en": "1 bag",
+                "pt-BR": "1 saco"
+              }
+            },
+            {
+              "id": "five",
+              "name": {
+                "en": "5 bags",
+                "pt-BR": "5 sacos"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "one",
+          "sku": "CON-PORTLAND-CEMENT-BAG-ONE",
+          "options": {
+            "color": "kraft",
+            "pack": "one"
+          },
+          "price": {
+            "BRL": 42.9,
+            "USD": 14
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Paper bag of portland cement",
+                "pt-BR": "Saco de cimento Portland"
+              },
+              "backgrounds": {
+                "#ffffff": "kraft-white.png",
+                "#f5f5f5": "kraft-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/portland-cement-bag/kraft-white.webp",
+                "#f5f5f5": "images/portland-cement-bag/kraft-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "five",
+          "sku": "CON-PORTLAND-CEMENT-BAG-FIVE",
+          "options": {
+            "color": "kraft",
+            "pack": "five"
+          },
+          "price": {
+            "BRL": 199,
+            "USD": 64
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Paper bag of portland cement",
+                "pt-BR": "Saco de cimento Portland"
+              },
+              "backgrounds": {
+                "#ffffff": "kraft-white.png",
+                "#f5f5f5": "kraft-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/portland-cement-bag/kraft-white.webp",
+                "#f5f5f5": "images/portland-cement-bag/kraft-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "pvc-elbow-fitting",
       "categoryId": "construcao-hidraulica",
       "name": {
@@ -31982,6 +36981,164 @@
               "src": {
                 "#ffffff": "images/pvc-elbow-fitting/gray-white.webp",
                 "#f5f5f5": "images/pvc-elbow-fitting/gray-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pvc-solvent-cement",
+      "categoryId": "construcao-hidraulica",
+      "name": {
+        "en": "PVC Solvent Cement with a Brush Cap, for Gray and White PVC Pipe, Sold by the Can",
+        "pt-BR": "Adesivo para PVC com Pincel na Tampa, para Tubo Cinza e Branco, Vendido por Lata"
+      },
+      "description": {
+        "en": "A can of PVC solvent cement with a brush in the cap. It welds gray cold-water pipe and white drain pipe. The listed price is for the small can.",
+        "pt-BR": "Lata de adesivo para PVC com pincel na tampa. Solda tubo cinza de água fria e tubo branco de esgoto. O preço anunciado é da lata pequena."
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 8
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "solvent cement",
+          "pvc",
+          "brush"
+        ],
+        "pt-BR": [
+          "adesivo para pvc",
+          "pincel",
+          "solda"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "pvc",
+          "value": {
+            "en": "PVC",
+            "pt-BR": "PVC"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "small",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "amber",
+              "name": {
+                "en": "Amber",
+                "pt-BR": "Âmbar"
+              },
+              "hex": "#C4A36A"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "small",
+              "name": {
+                "en": "4 oz",
+                "pt-BR": "175 ml"
+              }
+            },
+            {
+              "id": "large",
+              "name": {
+                "en": "16 oz",
+                "pt-BR": "500 ml"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "small",
+          "sku": "CON-PVC-SOLVENT-CEMENT-SMALL",
+          "options": {
+            "color": "amber",
+            "volume": "small"
+          },
+          "price": {
+            "BRL": 18.9,
+            "USD": 8
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of PVC solvent cement with a brush cap",
+                "pt-BR": "Lata de adesivo para PVC com pincel"
+              },
+              "backgrounds": {
+                "#ffffff": "amber-white.png",
+                "#f5f5f5": "amber-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pvc-solvent-cement/amber-white.webp",
+                "#f5f5f5": "images/pvc-solvent-cement/amber-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "large",
+          "sku": "CON-PVC-SOLVENT-CEMENT-LARGE",
+          "options": {
+            "color": "amber",
+            "volume": "large"
+          },
+          "price": {
+            "BRL": 42.9,
+            "USD": 18
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of PVC solvent cement with a brush cap",
+                "pt-BR": "Lata de adesivo para PVC com pincel"
+              },
+              "backgrounds": {
+                "#ffffff": "amber-white.png",
+                "#f5f5f5": "amber-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pvc-solvent-cement/amber-white.webp",
+                "#f5f5f5": "images/pvc-solvent-cement/amber-gray.webp"
               }
             }
           ]
@@ -33988,6 +39145,188 @@
         "BRL": 580,
         "USD": 119
       }
+    },
+    {
+      "id": "sage-fish-scale-wall-tile",
+      "categoryId": "construcao-revestimentos",
+      "name": {
+        "en": "Glossy Sage Green Fish-Scale Ceramic Wall Tile for a Bathroom Feature Wall, Priced per Square Foot",
+        "pt-BR": "Revestimento Cerâmico Escama Verde Sálvia Brilhante para Parede de Banheiro, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A glossy sage fish-scale tile for a small feature wall. The scalloped edge needs a steady layout. The listed price is for one square foot.",
+        "pt-BR": "Escama verde sálvia brilhante para uma parede de destaque no banheiro. A borda ondulada pede um assentamento caprichado. O preço anunciado é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 94.9,
+        "USD": 38
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "fish scale",
+          "glossy",
+          "sage"
+        ],
+        "pt-BR": [
+          "escama",
+          "brilhante",
+          "verde"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "ceramic",
+          "value": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "sage-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "sage",
+              "name": {
+                "en": "Sage",
+                "pt-BR": "Verde sálvia"
+              },
+              "hex": "#8FA58B"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "sage-natural",
+          "sku": "CON-SAGE-FISH-SCALE-WALL-TILE-SAGE-NATURAL",
+          "options": {
+            "color": "sage",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 94.9,
+            "USD": 38
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Glossy sage fish-scale wall tile, front view",
+                "pt-BR": "Revestimento escama verde sálvia, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "sage-white.png",
+                "#f5f5f5": "sage-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/sage-fish-scale-wall-tile/sage-white.webp",
+                "#f5f5f5": "images/sage-fish-scale-wall-tile/sage-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "sage-rectified",
+          "sku": "CON-SAGE-FISH-SCALE-WALL-TILE-SAGE-RECTIFIED",
+          "options": {
+            "color": "sage",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 109.9,
+            "USD": 44
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Glossy sage fish-scale wall tile, front view",
+                "pt-BR": "Revestimento escama verde sálvia, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "sage-white.png",
+                "#f5f5f5": "sage-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/sage-fish-scale-wall-tile/sage-white.webp",
+                "#f5f5f5": "images/sage-fish-scale-wall-tile/sage-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "sage-hexagonal-wall-tile",
@@ -36327,6 +41666,176 @@
       ]
     },
     {
+      "id": "self-leveling-floor-compound",
+      "categoryId": "construcao-argamassas",
+      "name": {
+        "en": "Gray Self-Leveling Floor Compound for Indoor Concrete before Tile or Vinyl, Sold by the Bucket",
+        "pt-BR": "Argamassa Autonivelante Cinza para Contrapiso Interno antes de Piso ou Vinílico, Vendida por Balde"
+      },
+      "description": {
+        "en": "A gray self-leveling compound that flattens an indoor concrete slab before tile or vinyl. It is not a finished floor. The listed price is for one bucket.",
+        "pt-BR": "Argamassa autonivelante cinza que apruma o contrapiso interno antes de piso ou vinílico. Não é o piso acabado. O preço anunciado é de um balde."
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 32
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "self leveling",
+          "indoor",
+          "concrete"
+        ],
+        "pt-BR": [
+          "autonivelante",
+          "interno",
+          "contrapiso"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "one",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#B7B7B2"
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "one",
+              "name": {
+                "en": "1 bucket",
+                "pt-BR": "1 balde"
+              }
+            },
+            {
+              "id": "five",
+              "name": {
+                "en": "5 buckets",
+                "pt-BR": "5 baldes"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "one",
+          "sku": "CON-SELF-LEVELING-FLOOR-COMPOUND-ONE",
+          "options": {
+            "color": "gray",
+            "pack": "one"
+          },
+          "price": {
+            "BRL": 79.9,
+            "USD": 32
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bucket of gray self-leveling floor compound",
+                "pt-BR": "Argamassa autonivelante cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/self-leveling-floor-compound/gray-white.webp",
+                "#f5f5f5": "images/self-leveling-floor-compound/gray-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "five",
+          "sku": "CON-SELF-LEVELING-FLOOR-COMPOUND-FIVE",
+          "options": {
+            "color": "gray",
+            "pack": "five"
+          },
+          "price": {
+            "BRL": 369,
+            "USD": 148
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bucket of gray self-leveling floor compound",
+                "pt-BR": "Argamassa autonivelante cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/self-leveling-floor-compound/gray-white.webp",
+                "#f5f5f5": "images/self-leveling-floor-compound/gray-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "sheet-set",
       "brandId": "fio-puro",
       "brand": {
@@ -37511,6 +43020,164 @@
       ]
     },
     {
+      "id": "stainless-braided-hose",
+      "categoryId": "construcao-hidraulica",
+      "name": {
+        "en": "Stainless Steel Braided Supply Hose, 12 Inches, for a Faucet or Toilet, Sold by the Piece",
+        "pt-BR": "Engate Flexível de Inox de 30 cm para Torneira ou Vaso Sanitário, Vendido por Peça"
+      },
+      "description": {
+        "en": "A short braided stainless hose that connects a shutoff to a faucet or a toilet. Both ends have a plain hex nut. The listed price is for one hose.",
+        "pt-BR": "Engate flexível de inox curto, que liga o registro à torneira ou ao vaso. As duas pontas têm porca sextavada lisa. O preço anunciado é de uma peça."
+      },
+      "price": {
+        "BRL": 24.9,
+        "USD": 11
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "braided hose",
+          "stainless",
+          "supply"
+        ],
+        "pt-BR": [
+          "engate flexível",
+          "inox",
+          "ligação"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "stainless-steel",
+          "value": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "steel",
+              "name": {
+                "en": "Stainless steel",
+                "pt-BR": "Inox"
+              },
+              "hex": "#C5C7C8"
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 piece",
+                "pt-BR": "1 peça"
+              }
+            },
+            {
+              "id": "ten",
+              "name": {
+                "en": "10 pieces",
+                "pt-BR": "10 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-STAINLESS-BRAIDED-HOSE-SINGLE",
+          "options": {
+            "color": "steel",
+            "pack": "single"
+          },
+          "price": {
+            "BRL": 24.9,
+            "USD": 11
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless braided supply hose, front view",
+                "pt-BR": "Engate flexível de inox, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "steel-white.png",
+                "#f5f5f5": "steel-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/stainless-braided-hose/steel-white.webp",
+                "#f5f5f5": "images/stainless-braided-hose/steel-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ten",
+          "sku": "CON-STAINLESS-BRAIDED-HOSE-TEN",
+          "options": {
+            "color": "steel",
+            "pack": "ten"
+          },
+          "price": {
+            "BRL": 199,
+            "USD": 85
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless braided supply hose, front view",
+                "pt-BR": "Engate flexível de inox, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "steel-white.png",
+                "#f5f5f5": "steel-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/stainless-braided-hose/steel-white.webp",
+                "#f5f5f5": "images/stainless-braided-hose/steel-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "stainless-linear-floor-drain",
       "categoryId": "construcao-hidraulica",
       "name": {
@@ -37844,6 +43511,176 @@
               "src": {
                 "#ffffff": "images/standard-gray-grout/gray-white.webp",
                 "#f5f5f5": "images/standard-gray-grout/gray-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steel-rebar-bar",
+      "categoryId": "construcao-basicos",
+      "name": {
+        "en": "Deformed Steel Rebar, 3/8 Inch Diameter and 10 Feet Long, for Concrete, Sold by the Bar",
+        "pt-BR": "Vergalhão de Aço Nervurado de 10 mm com 3 m de Comprimento, para Concreto, Vendido por Barra"
+      },
+      "description": {
+        "en": "A ribbed steel rebar bar for reinforcing concrete. The ribs grip the mix. It is not a smooth rod. The listed price is for one bar.",
+        "pt-BR": "Barra de vergalhão nervurado para armar concreto. A nervura agarra a massa. Não é barra lisa. O preço anunciado é de uma barra."
+      },
+      "price": {
+        "BRL": 32.9,
+        "USD": 12
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "rebar",
+          "steel",
+          "concrete"
+        ],
+        "pt-BR": [
+          "vergalhão",
+          "aço",
+          "concreto"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "steel",
+          "value": {
+            "en": "Steel",
+            "pt-BR": "Aço"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "one",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "steel",
+              "name": {
+                "en": "Steel",
+                "pt-BR": "Aço"
+              },
+              "hex": "#8A8D90"
+            }
+          ]
+        },
+        {
+          "id": "length",
+          "name": {
+            "en": "Length",
+            "pt-BR": "Comprimento"
+          },
+          "values": [
+            {
+              "id": "one",
+              "name": {
+                "en": "1 bar",
+                "pt-BR": "1 barra"
+              }
+            },
+            {
+              "id": "six",
+              "name": {
+                "en": "6 bars",
+                "pt-BR": "6 barras"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "one",
+          "sku": "CON-STEEL-REBAR-BAR-ONE",
+          "options": {
+            "color": "steel",
+            "length": "one"
+          },
+          "price": {
+            "BRL": 32.9,
+            "USD": 12
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Ribbed steel rebar bar, front view",
+                "pt-BR": "Vergalhão de aço nervurado, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "steel-white.png",
+                "#f5f5f5": "steel-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/steel-rebar-bar/steel-white.webp",
+                "#f5f5f5": "images/steel-rebar-bar/steel-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "six",
+          "sku": "CON-STEEL-REBAR-BAR-SIX",
+          "options": {
+            "color": "steel",
+            "length": "six"
+          },
+          "price": {
+            "BRL": 179,
+            "USD": 64
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Ribbed steel rebar bar, front view",
+                "pt-BR": "Vergalhão de aço nervurado, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "steel-white.png",
+                "#f5f5f5": "steel-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/steel-rebar-bar/steel-white.webp",
+                "#f5f5f5": "images/steel-rebar-bar/steel-gray.webp"
               }
             }
           ]
@@ -39548,6 +45385,188 @@
       ]
     },
     {
+      "id": "terracotta-subway-wall-tile",
+      "categoryId": "construcao-revestimentos",
+      "name": {
+        "en": "Glossy Terracotta Ceramic Subway Wall Tile, 3 by 6 Inches, for a Warm Kitchen Backsplash, Priced per Square Foot",
+        "pt-BR": "Revestimento Cerâmico Subway Terracota Brilhante 7,5×15 cm para Cozinha, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A glossy terracotta subway tile that warms a kitchen wall without a busy pattern. It wipes clean. The listed price is for one square foot.",
+        "pt-BR": "Subway terracota brilhante para esquentar a parede da cozinha sem estampa. Limpa com pano úmido. O preço anunciado é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 28
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "subway tile",
+          "glossy",
+          "terracotta"
+        ],
+        "pt-BR": [
+          "subway",
+          "brilhante",
+          "terracota"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "ceramic",
+          "value": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "terracotta-natural",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "terracotta",
+              "name": {
+                "en": "Terracotta",
+                "pt-BR": "Terracota"
+              },
+              "hex": "#C4623A"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "natural",
+              "name": {
+                "en": "Natural",
+                "pt-BR": "Natural"
+              }
+            },
+            {
+              "id": "rectified",
+              "name": {
+                "en": "Rectified",
+                "pt-BR": "Retificado"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "terracotta-natural",
+          "sku": "CON-TERRACOTTA-SUBWAY-WALL-TILE-TERRACOTTA-NATURAL",
+          "options": {
+            "color": "terracotta",
+            "finish": "natural"
+          },
+          "price": {
+            "BRL": 69.9,
+            "USD": 28
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Glossy terracotta subway wall tile, front view",
+                "pt-BR": "Revestimento subway terracota brilhante, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "terracotta-white.png",
+                "#f5f5f5": "terracotta-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/terracotta-subway-wall-tile/terracotta-white.webp",
+                "#f5f5f5": "images/terracotta-subway-wall-tile/terracotta-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "terracotta-rectified",
+          "sku": "CON-TERRACOTTA-SUBWAY-WALL-TILE-TERRACOTTA-RECTIFIED",
+          "options": {
+            "color": "terracotta",
+            "finish": "rectified"
+          },
+          "price": {
+            "BRL": 79.9,
+            "USD": 32
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Glossy terracotta subway wall tile, front view",
+                "pt-BR": "Revestimento subway terracota brilhante, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "terracotta-white.png",
+                "#f5f5f5": "terracotta-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/terracotta-subway-wall-tile/terracotta-white.webp",
+                "#f5f5f5": "images/terracotta-subway-wall-tile/terracotta-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "thermal-blanket",
       "brandId": "casa-norte",
       "brand": {
@@ -40503,6 +46522,176 @@
       ]
     },
     {
+      "id": "washed-medium-sand",
+      "categoryId": "construcao-basicos",
+      "name": {
+        "en": "Washed Medium Sand for Mortar and Bedding, a 44 Pound Bag, Clean of Clay, Sold by the Bag",
+        "pt-BR": "Areia Média Lavada para Argamassa e Assentamento, Saco de 20 kg, sem Barro, Vendida por Saco"
+      },
+      "description": {
+        "en": "A bag of washed medium sand for mixing mortar or bedding a paver. It is not play sand. The listed price is for one bag.",
+        "pt-BR": "Saco de areia média lavada para virar argamassa ou assentar bloco. Não é areia de caixa de brincar. O preço anunciado é de um saco."
+      },
+      "price": {
+        "BRL": 12.9,
+        "USD": 6
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "washed sand",
+          "mortar",
+          "bedding"
+        ],
+        "pt-BR": [
+          "areia lavada",
+          "argamassa",
+          "assentamento"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "sand",
+          "value": {
+            "en": "Sand",
+            "pt-BR": "Areia"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "one",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "tan",
+              "name": {
+                "en": "Tan",
+                "pt-BR": "Areia"
+              },
+              "hex": "#C8B48A"
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "one",
+              "name": {
+                "en": "1 bag",
+                "pt-BR": "1 saco"
+              }
+            },
+            {
+              "id": "five",
+              "name": {
+                "en": "5 bags",
+                "pt-BR": "5 sacos"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "one",
+          "sku": "CON-WASHED-MEDIUM-SAND-ONE",
+          "options": {
+            "color": "tan",
+            "pack": "one"
+          },
+          "price": {
+            "BRL": 12.9,
+            "USD": 6
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bag of washed medium sand",
+                "pt-BR": "Saco de areia média lavada"
+              },
+              "backgrounds": {
+                "#ffffff": "tan-white.png",
+                "#f5f5f5": "tan-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/washed-medium-sand/tan-white.webp",
+                "#f5f5f5": "images/washed-medium-sand/tan-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "five",
+          "sku": "CON-WASHED-MEDIUM-SAND-FIVE",
+          "options": {
+            "color": "tan",
+            "pack": "five"
+          },
+          "price": {
+            "BRL": 54.9,
+            "USD": 24
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bag of washed medium sand",
+                "pt-BR": "Saco de areia média lavada"
+              },
+              "backgrounds": {
+                "#ffffff": "tan-white.png",
+                "#f5f5f5": "tan-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/washed-medium-sand/tan-white.webp",
+                "#f5f5f5": "images/washed-medium-sand/tan-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "webcam",
       "categoryId": "eletro-acessorios",
       "name": {
@@ -40805,6 +46994,164 @@
               "src": {
                 "#ffffff": "images/white-3d-wave-wall-tile/white-white.webp",
                 "#f5f5f5": "images/white-3d-wave-wall-tile/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white-duplex-outlet",
+      "categoryId": "construcao-eletrica",
+      "name": {
+        "en": "White Duplex Wall Outlet for an Indoor Branch Circuit, a Blank Cover, Sold by the Piece",
+        "pt-BR": "Tomada de Parede Branca para Circuito Interno, Espelho Liso, Vendida por Peça"
+      },
+      "description": {
+        "en": "A white wall outlet for an indoor circuit. It needs a box and a matching breaker behind it. The listed price is for one outlet.",
+        "pt-BR": "Tomada de parede branca para circuito interno. Pede caixa e disjuntor compatível atrás dela. O preço anunciado é de uma peça."
+      },
+      "price": {
+        "BRL": 14.9,
+        "USD": 6.5
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "outlet",
+          "wall",
+          "white"
+        ],
+        "pt-BR": [
+          "tomada",
+          "parede",
+          "branca"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "polycarbonate",
+          "value": {
+            "en": "Polycarbonate",
+            "pt-BR": "Policarbonato"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F7F7F5"
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 piece",
+                "pt-BR": "1 peça"
+              }
+            },
+            {
+              "id": "ten",
+              "name": {
+                "en": "10 pieces",
+                "pt-BR": "10 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-WHITE-DUPLEX-OUTLET-SINGLE",
+          "options": {
+            "color": "white",
+            "pack": "single"
+          },
+          "price": {
+            "BRL": 14.9,
+            "USD": 6.5
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White wall outlet, front view",
+                "pt-BR": "Tomada de parede branca, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-duplex-outlet/white-white.webp",
+                "#f5f5f5": "images/white-duplex-outlet/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ten",
+          "sku": "CON-WHITE-DUPLEX-OUTLET-TEN",
+          "options": {
+            "color": "white",
+            "pack": "ten"
+          },
+          "price": {
+            "BRL": 119,
+            "USD": 48
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White wall outlet, front view",
+                "pt-BR": "Tomada de parede branca, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-duplex-outlet/white-white.webp",
+                "#f5f5f5": "images/white-duplex-outlet/white-gray.webp"
               }
             }
           ]
@@ -42012,6 +48359,322 @@
       ]
     },
     {
+      "id": "white-pvc-sink-trap",
+      "categoryId": "construcao-hidraulica",
+      "name": {
+        "en": "White PVC Sink Trap with Slip Nuts, a P-Bend for a Bathroom Basin, Sold by the Piece",
+        "pt-BR": "Sifão de PVC Branco com Porcas, Curva para Cuba de Banheiro, Vendido por Peça"
+      },
+      "description": {
+        "en": "A white PVC P-trap for a bathroom basin. The slip nuts tighten by hand. It is not a sewer pipe. The listed price is for one trap.",
+        "pt-BR": "Sifão de PVC branco para cuba de banheiro. As porcas apertam na mão. Não substitui o tubo de esgoto. O preço anunciado é de uma peça."
+      },
+      "price": {
+        "BRL": 28.9,
+        "USD": 12
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "sink trap",
+          "pvc",
+          "bathroom"
+        ],
+        "pt-BR": [
+          "sifão",
+          "pvc",
+          "banheiro"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "pvc",
+          "value": {
+            "en": "PVC",
+            "pt-BR": "PVC"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F2F2F0"
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 piece",
+                "pt-BR": "1 peça"
+              }
+            },
+            {
+              "id": "ten",
+              "name": {
+                "en": "10 pieces",
+                "pt-BR": "10 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-WHITE-PVC-SINK-TRAP-SINGLE",
+          "options": {
+            "color": "white",
+            "pack": "single"
+          },
+          "price": {
+            "BRL": 28.9,
+            "USD": 12
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White PVC sink trap, front view",
+                "pt-BR": "Sifão de PVC branco, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-pvc-sink-trap/white-white.webp",
+                "#f5f5f5": "images/white-pvc-sink-trap/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ten",
+          "sku": "CON-WHITE-PVC-SINK-TRAP-TEN",
+          "options": {
+            "color": "white",
+            "pack": "ten"
+          },
+          "price": {
+            "BRL": 249,
+            "USD": 99
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White PVC sink trap, front view",
+                "pt-BR": "Sifão de PVC branco, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-pvc-sink-trap/white-white.webp",
+                "#f5f5f5": "images/white-pvc-sink-trap/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white-rocker-switch",
+      "categoryId": "construcao-eletrica",
+      "name": {
+        "en": "White Rocker Light Switch for an Indoor Wall, a Single Rocker, Sold by the Piece",
+        "pt-BR": "Interruptor de Parede Branco com Tecla Simples para Área Interna, Vendido por Peça"
+      },
+      "description": {
+        "en": "A white single rocker switch for an indoor light. It sits in a standard box next to the outlet. The listed price is for one switch.",
+        "pt-BR": "Interruptor branco de tecla simples para luz interna. Entra na caixa ao lado da tomada. O preço anunciado é de uma peça."
+      },
+      "price": {
+        "BRL": 12.9,
+        "USD": 5.5
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "light switch",
+          "rocker",
+          "white"
+        ],
+        "pt-BR": [
+          "interruptor",
+          "tecla",
+          "branco"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "polycarbonate",
+          "value": {
+            "en": "Polycarbonate",
+            "pt-BR": "Policarbonato"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F7F7F5"
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 piece",
+                "pt-BR": "1 peça"
+              }
+            },
+            {
+              "id": "ten",
+              "name": {
+                "en": "10 pieces",
+                "pt-BR": "10 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-WHITE-ROCKER-SWITCH-SINGLE",
+          "options": {
+            "color": "white",
+            "pack": "single"
+          },
+          "price": {
+            "BRL": 12.9,
+            "USD": 5.5
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White rocker light switch, front view",
+                "pt-BR": "Interruptor branco de tecla, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-rocker-switch/white-white.webp",
+                "#f5f5f5": "images/white-rocker-switch/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ten",
+          "sku": "CON-WHITE-ROCKER-SWITCH-TEN",
+          "options": {
+            "color": "white",
+            "pack": "ten"
+          },
+          "price": {
+            "BRL": 99,
+            "USD": 42
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White rocker light switch, front view",
+                "pt-BR": "Interruptor branco de tecla, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-rocker-switch/white-white.webp",
+                "#f5f5f5": "images/white-rocker-switch/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "white-subway-wall-tile",
       "categoryId": "construcao-revestimentos",
       "name": {
@@ -42199,6 +48862,358 @@
               "src": {
                 "#ffffff": "images/white-subway-wall-tile/white-white.webp",
                 "#f5f5f5": "images/white-subway-wall-tile/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white-two-piece-toilet",
+      "categoryId": "construcao-banheiro",
+      "name": {
+        "en": "White Ceramic Two-Piece Toilet with a Closed Seat, a Floor-Mounted Bowl for a Bathroom, Sold by the Set",
+        "pt-BR": "Vaso Sanitário Branco de Cerâmica com Caixa Acoplada e Assento, para Banheiro, Vendido por Conjunto"
+      },
+      "description": {
+        "en": "A white two-piece toilet with the seat closed. Check the drain height on site before the box goes in. The listed price is for the set.",
+        "pt-BR": "Vaso branco com caixa acoplada e assento fechado. Confira a altura da saída no banheiro antes de levar a caixa. O preço anunciado é do conjunto."
+      },
+      "price": {
+        "BRL": 449,
+        "USD": 189
+      },
+      "listPrice": {
+        "BRL": 538.8,
+        "USD": 226.8
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "toilet",
+          "two piece",
+          "white"
+        ],
+        "pt-BR": [
+          "vaso sanitário",
+          "caixa acoplada",
+          "branco"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "ceramic",
+          "value": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "standard",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F6F6F4"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Drain",
+            "pt-BR": "Saída"
+          },
+          "values": [
+            {
+              "id": "standard",
+              "name": {
+                "en": "Standard",
+                "pt-BR": "Padrão"
+              }
+            },
+            {
+              "id": "alt",
+              "name": {
+                "en": "Alternate",
+                "pt-BR": "Alternativa"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "standard",
+          "sku": "CON-WHITE-TWO-PIECE-TOILET-STANDARD",
+          "options": {
+            "color": "white",
+            "install": "standard"
+          },
+          "price": {
+            "BRL": 449,
+            "USD": 189
+          },
+          "listPrice": {
+            "BRL": 538.8,
+            "USD": 226.8
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White two-piece toilet, front view",
+                "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-two-piece-toilet/white-white.webp",
+                "#f5f5f5": "images/white-two-piece-toilet/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "alt",
+          "sku": "CON-WHITE-TWO-PIECE-TOILET-ALT",
+          "options": {
+            "color": "white",
+            "install": "alt"
+          },
+          "price": {
+            "BRL": 529,
+            "USD": 229
+          },
+          "listPrice": {
+            "BRL": 634.8,
+            "USD": 274.8
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White two-piece toilet, front view",
+                "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-two-piece-toilet/white-white.webp",
+                "#f5f5f5": "images/white-two-piece-toilet/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white-wall-basin",
+      "categoryId": "construcao-banheiro",
+      "name": {
+        "en": "White Ceramic Wall-Hung Bathroom Basin with One Faucet Hole, Sold by the Piece",
+        "pt-BR": "Cuba de Banheiro Branca de Cerâmica para Parede, com um Furo de Torneira, Vendida por Peça"
+      },
+      "description": {
+        "en": "A white wall-hung basin with a single faucet hole. It needs a bracket and a trap under it. The listed price is for the basin alone.",
+        "pt-BR": "Cuba branca de parede com um furo de torneira. Pede mão francesa e sifão embaixo. O preço anunciado é só da cuba."
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 79
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "basin",
+          "wall hung",
+          "white"
+        ],
+        "pt-BR": [
+          "cuba",
+          "parede",
+          "branca"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "ceramic",
+          "value": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "standard",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F6F6F4"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Drain",
+            "pt-BR": "Saída"
+          },
+          "values": [
+            {
+              "id": "standard",
+              "name": {
+                "en": "Standard",
+                "pt-BR": "Padrão"
+              }
+            },
+            {
+              "id": "alt",
+              "name": {
+                "en": "Alternate",
+                "pt-BR": "Alternativa"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "standard",
+          "sku": "CON-WHITE-WALL-BASIN-STANDARD",
+          "options": {
+            "color": "white",
+            "install": "standard"
+          },
+          "price": {
+            "BRL": 189,
+            "USD": 79
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White wall-hung bathroom basin, front view",
+                "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-wall-basin/white-white.webp",
+                "#f5f5f5": "images/white-wall-basin/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "alt",
+          "sku": "CON-WHITE-WALL-BASIN-ALT",
+          "options": {
+            "color": "white",
+            "install": "alt"
+          },
+          "price": {
+            "BRL": 219,
+            "USD": 92
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White wall-hung bathroom basin, front view",
+                "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-wall-basin/white-white.webp",
+                "#f5f5f5": "images/white-wall-basin/white-gray.webp"
               }
             }
           ]

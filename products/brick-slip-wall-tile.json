@@ -1,0 +1,142 @@
+{
+  "id": "brick-slip-wall-tile",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Matte Terracotta Brick-Slip Wall Tile, about 2 by 8 Inches, for an Indoor Feature Wall, Priced per Square Foot",
+    "pt-BR": "Revestimento Tijolinho de Barro Terracota Fosco para Parede Interna, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A matte clay brick slip for an indoor feature wall. It is thinner than a structural brick and bonds with tile mortar. The listed price is for one square foot.",
+    "pt-BR": "Tijolinho de barro fosco para parede interna. É mais fino que um tijolo estrutural e assenta com argamassa colante. O preço anunciado é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 64.9,
+    "USD": 26
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "brick slip",
+      "matte",
+      "terracotta"
+    ],
+    "pt-BR": [
+      "tijolinho",
+      "fosco",
+      "terracota"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "clay"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "terracotta-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "terracotta",
+          "name": {
+            "en": "Terracotta",
+            "pt-BR": "Terracota"
+          },
+          "hex": "#A24B32"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "terracotta-natural",
+      "sku": "CON-BRICK-SLIP-WALL-TILE-TERRACOTTA-NATURAL",
+      "options": {
+        "color": "terracotta",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 64.9,
+        "USD": 26
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte terracotta brick-slip wall tile, front view",
+            "pt-BR": "Tijolinho terracota fosco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "terracotta-rectified",
+      "sku": "CON-BRICK-SLIP-WALL-TILE-TERRACOTTA-RECTIFIED",
+      "options": {
+        "color": "terracotta",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 74.9,
+        "USD": 30
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte terracotta brick-slip wall tile, front view",
+            "pt-BR": "Tijolinho terracota fosco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

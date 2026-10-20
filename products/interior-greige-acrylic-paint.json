@@ -1,0 +1,142 @@
+{
+  "id": "interior-greige-acrylic-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Interior Greige Acrylic Wall Paint with a Matte Finish, a Soft Gray Beige, Sold by the Can",
+    "pt-BR": "Tinta Acrílica Greige Fosca para Parede Interna, um Bege Acinzentado Suave, Vendida por Lata"
+  },
+  "description": {
+    "en": "A matte greige acrylic paint for indoor walls. It sits between gray and beige and hides small marks. The listed price is for the smaller can.",
+    "pt-BR": "Tinta acrílica greige fosca para parede interna. Fica entre o cinza e o bege e disfarça marca pequena. O preço anunciado é da lata menor."
+  },
+  "price": {
+    "BRL": 104.9,
+    "USD": 42
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "interior paint",
+      "greige",
+      "matte"
+    ],
+    "pt-BR": [
+      "tinta interna",
+      "greige",
+      "fosca"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "greige-small",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "greige",
+          "name": {
+            "en": "Greige",
+            "pt-BR": "Greige"
+          },
+          "hex": "#C8C0B4"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "small",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "large",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "greige-small",
+      "sku": "CON-INTERIOR-GREIGE-ACRYLIC-PAINT-GREIGE-SMALL",
+      "options": {
+        "color": "greige",
+        "volume": "small"
+      },
+      "price": {
+        "BRL": 104.9,
+        "USD": 42
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte greige interior paint",
+            "pt-BR": "Lata de tinta interna greige fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "greige-white.png",
+            "#f5f5f5": "greige-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "greige-large",
+      "sku": "CON-INTERIOR-GREIGE-ACRYLIC-PAINT-GREIGE-LARGE",
+      "options": {
+        "color": "greige",
+        "volume": "large"
+      },
+      "price": {
+        "BRL": 299,
+        "USD": 120
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte greige interior paint",
+            "pt-BR": "Lata de tinta interna greige fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "greige-white.png",
+            "#f5f5f5": "greige-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "cork-click-floor-plank",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Natural Cork Click Floor Plank, 7 by 48 Inches, for Dry Indoor Rooms, Priced per Square Foot",
+    "pt-BR": "Piso de Cortiça Natural com Encaixe Click 18×122 cm para Área Interna Seca, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A natural cork click plank for a dry indoor room. It feels warm underfoot and does not like standing water. The listed price is for one square foot.",
+    "pt-BR": "Piso de cortiça natural com encaixe click para área interna seca. É quente no pé e não gosta de água empoçada. O preço anunciado é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 149,
+    "USD": 62
+  },
+  "listPrice": {
+    "BRL": 178.8,
+    "USD": 74.4
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cork floor",
+      "click",
+      "indoor"
+    ],
+    "pt-BR": [
+      "piso de cortiça",
+      "click",
+      "área interna"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cork"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "wood"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "cork-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cork",
+          "name": {
+            "en": "Natural cork",
+            "pt-BR": "Cortiça"
+          },
+          "hex": "#C4A06A"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cork-natural",
+      "sku": "CON-CORK-CLICK-FLOOR-PLANK-CORK-NATURAL",
+      "options": {
+        "color": "cork",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 149,
+        "USD": 62
+      },
+      "listPrice": {
+        "BRL": 178.8,
+        "USD": 74.4
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Natural cork click floor plank, front view",
+            "pt-BR": "Piso de cortiça com encaixe click, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cork-white.png",
+            "#f5f5f5": "cork-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cork-rectified",
+      "sku": "CON-CORK-CLICK-FLOOR-PLANK-CORK-RECTIFIED",
+      "options": {
+        "color": "cork",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 169,
+        "USD": 72
+      },
+      "listPrice": {
+        "BRL": 202.8,
+        "USD": 86.4
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Natural cork click floor plank, front view",
+            "pt-BR": "Piso de cortiça com encaixe click, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cork-white.png",
+            "#f5f5f5": "cork-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

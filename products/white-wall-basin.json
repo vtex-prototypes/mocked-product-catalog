@@ -1,0 +1,138 @@
+{
+  "id": "white-wall-basin",
+  "categoryId": "construcao-banheiro",
+  "name": {
+    "en": "White Ceramic Wall-Hung Bathroom Basin with One Faucet Hole, Sold by the Piece",
+    "pt-BR": "Cuba de Banheiro Branca de Cerâmica para Parede, com um Furo de Torneira, Vendida por Peça"
+  },
+  "description": {
+    "en": "A white wall-hung basin with a single faucet hole. It needs a bracket and a trap under it. The listed price is for the basin alone.",
+    "pt-BR": "Cuba branca de parede com um furo de torneira. Pede mão francesa e sifão embaixo. O preço anunciado é só da cuba."
+  },
+  "price": {
+    "BRL": 189,
+    "USD": 79
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "basin",
+      "wall hung",
+      "white"
+    ],
+    "pt-BR": [
+      "cuba",
+      "parede",
+      "branca"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "standard",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F6F6F4"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Drain",
+        "pt-BR": "Saída"
+      },
+      "values": [
+        {
+          "id": "standard",
+          "name": {
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        },
+        {
+          "id": "alt",
+          "name": {
+            "en": "Alternate",
+            "pt-BR": "Alternativa"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "sku": "CON-WHITE-WALL-BASIN-STANDARD",
+      "options": {
+        "color": "white",
+        "install": "standard"
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alt",
+      "sku": "CON-WHITE-WALL-BASIN-ALT",
+      "options": {
+        "color": "white",
+        "install": "alt"
+      },
+      "price": {
+        "BRL": 219,
+        "USD": 92
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

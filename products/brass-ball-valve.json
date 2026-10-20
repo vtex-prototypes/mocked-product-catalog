@@ -1,0 +1,134 @@
+{
+  "id": "brass-ball-valve",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "Brass Ball Valve with a Lever Handle for Cold and Hot Water, Threaded Ends, Sold by the Piece",
+    "pt-BR": "Registro de Esfera de Latão com Alavanca para Água Fria e Quente, Rosca nas Pontas, Vendido por Peça"
+  },
+  "description": {
+    "en": "A brass ball valve with a lever, for a cold or hot water line you want to shut by hand. Both ends are threaded. The listed price is for one valve.",
+    "pt-BR": "Registro de esfera de latão com alavanca, para fechar água fria ou quente na mão. As duas pontas têm rosca. O preço anunciado é de uma peça."
+  },
+  "price": {
+    "BRL": 49.9,
+    "USD": 22
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "ball valve",
+      "brass",
+      "shutoff"
+    ],
+    "pt-BR": [
+      "registro de esfera",
+      "latão",
+      "água"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "brass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "brass",
+          "name": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          },
+          "hex": "#C6A15B"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-BRASS-BALL-VALVE-SINGLE",
+      "options": {
+        "color": "brass",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 22
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass ball valve with a lever, front view",
+            "pt-BR": "Registro de esfera de latão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brass-white.png",
+            "#f5f5f5": "brass-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-BRASS-BALL-VALVE-TEN",
+      "options": {
+        "color": "brass",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 429,
+        "USD": 189
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass ball valve with a lever, front view",
+            "pt-BR": "Registro de esfera de latão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brass-white.png",
+            "#f5f5f5": "brass-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

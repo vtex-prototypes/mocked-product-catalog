@@ -1,0 +1,142 @@
+{
+  "id": "flexible-terracotta-grout",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Flexible Terracotta Cement Grout for Indoor and Outdoor Joints next to Clay Tile, Sold by the Tub",
+    "pt-BR": "Rejunte Flexível Terracota para Juntas Internas e Externas ao lado de Piso de Barro, Vendido por Pote"
+  },
+  "description": {
+    "en": "A flexible terracotta cement grout for joints beside cotto or brick-look tile. It works indoors and outdoors. The listed price is for the 1 kg tub.",
+    "pt-BR": "Rejunte cimentício terracota e flexível para junta ao lado de piso de barro ou tijolinho. Serve dentro e fora. O preço anunciado é do pote de 1 kg."
+  },
+  "price": {
+    "BRL": 17.9,
+    "USD": 9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "flexible grout",
+      "terracotta",
+      "outdoor"
+    ],
+    "pt-BR": [
+      "rejunte flexível",
+      "terracota",
+      "área externa"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "terracotta-1kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "terracotta",
+          "name": {
+            "en": "Terracotta",
+            "pt-BR": "Terracota"
+          },
+          "hex": "#C15A3A"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "1kg",
+          "name": {
+            "en": "1 kg",
+            "pt-BR": "1 kg"
+          }
+        },
+        {
+          "id": "5kg",
+          "name": {
+            "en": "5 kg",
+            "pt-BR": "5 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "terracotta-1kg",
+      "sku": "CON-FLEXIBLE-TERRACOTTA-GROUT-TERRACOTTA-1KG",
+      "options": {
+        "color": "terracotta",
+        "weight": "1kg"
+      },
+      "price": {
+        "BRL": 17.9,
+        "USD": 9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of flexible terracotta grout",
+            "pt-BR": "Pote de rejunte flexível terracota"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "terracotta-5kg",
+      "sku": "CON-FLEXIBLE-TERRACOTTA-GROUT-TERRACOTTA-5KG",
+      "options": {
+        "color": "terracotta",
+        "weight": "5kg"
+      },
+      "price": {
+        "BRL": 74.9,
+        "USD": 34
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of flexible terracotta grout",
+            "pt-BR": "Pote de rejunte flexível terracota"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

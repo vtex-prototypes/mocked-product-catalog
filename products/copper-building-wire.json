@@ -1,0 +1,134 @@
+{
+  "id": "copper-building-wire",
+  "categoryId": "construcao-eletrica",
+  "name": {
+    "en": "Bare Copper Building Wire, 2.5 Square Millimeters, a Coil for Indoor Branch Circuits, Sold by the Roll",
+    "pt-BR": "Fio de Cobre para Instalação de 2,5 mm², Rolo para Circuito Interno, Vendido por Rolo"
+  },
+  "description": {
+    "en": "A coil of copper building wire for an indoor branch circuit. Confirm the gauge with the load before you buy the roll. The listed price is for the shorter roll.",
+    "pt-BR": "Rolo de fio de cobre para circuito interno. Confira a seção com a carga antes de fechar o rolo. O preço anunciado é do rolo menor."
+  },
+  "price": {
+    "BRL": 49.9,
+    "USD": 22
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "copper wire",
+      "building wire",
+      "coil"
+    ],
+    "pt-BR": [
+      "fio de cobre",
+      "instalação",
+      "rolo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "copper"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "short",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "copper",
+          "name": {
+            "en": "Copper",
+            "pt-BR": "Cobre"
+          },
+          "hex": "#B87333"
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "short",
+          "name": {
+            "en": "50 ft",
+            "pt-BR": "15 m"
+          }
+        },
+        {
+          "id": "long",
+          "name": {
+            "en": "100 ft",
+            "pt-BR": "30 m"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "short",
+      "sku": "CON-COPPER-BUILDING-WIRE-SHORT",
+      "options": {
+        "color": "copper",
+        "length": "short"
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 22
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Coil of copper building wire",
+            "pt-BR": "Rolo de fio de cobre"
+          },
+          "backgrounds": {
+            "#ffffff": "copper-white.png",
+            "#f5f5f5": "copper-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "long",
+      "sku": "CON-COPPER-BUILDING-WIRE-LONG",
+      "options": {
+        "color": "copper",
+        "length": "long"
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 78
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Coil of copper building wire",
+            "pt-BR": "Rolo de fio de cobre"
+          },
+          "backgrounds": {
+            "#ffffff": "copper-white.png",
+            "#f5f5f5": "copper-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

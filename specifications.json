@@ -278,6 +278,41 @@
           "en": "Suede",
           "pt-BR": "Camurça"
         }
+      },
+      {
+        "id": "copper",
+        "name": {
+          "en": "Copper",
+          "pt-BR": "Cobre"
+        }
+      },
+      {
+        "id": "clay",
+        "name": {
+          "en": "Clay",
+          "pt-BR": "Barro"
+        }
+      },
+      {
+        "id": "steel",
+        "name": {
+          "en": "Steel",
+          "pt-BR": "Aço"
+        }
+      },
+      {
+        "id": "cork",
+        "name": {
+          "en": "Cork",
+          "pt-BR": "Cortiça"
+        }
+      },
+      {
+        "id": "sand",
+        "name": {
+          "en": "Sand",
+          "pt-BR": "Areia"
+        }
       }
     ]
   },

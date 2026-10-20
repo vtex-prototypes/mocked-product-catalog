@@ -1,0 +1,142 @@
+{
+  "id": "terracotta-subway-wall-tile",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Glossy Terracotta Ceramic Subway Wall Tile, 3 by 6 Inches, for a Warm Kitchen Backsplash, Priced per Square Foot",
+    "pt-BR": "Revestimento Cerâmico Subway Terracota Brilhante 7,5×15 cm para Cozinha, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A glossy terracotta subway tile that warms a kitchen wall without a busy pattern. It wipes clean. The listed price is for one square foot.",
+    "pt-BR": "Subway terracota brilhante para esquentar a parede da cozinha sem estampa. Limpa com pano úmido. O preço anunciado é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 69.9,
+    "USD": 28
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "subway tile",
+      "glossy",
+      "terracotta"
+    ],
+    "pt-BR": [
+      "subway",
+      "brilhante",
+      "terracota"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "terracotta-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "terracotta",
+          "name": {
+            "en": "Terracotta",
+            "pt-BR": "Terracota"
+          },
+          "hex": "#C4623A"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "terracotta-natural",
+      "sku": "CON-TERRACOTTA-SUBWAY-WALL-TILE-TERRACOTTA-NATURAL",
+      "options": {
+        "color": "terracotta",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy terracotta subway wall tile, front view",
+            "pt-BR": "Revestimento subway terracota brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "terracotta-rectified",
+      "sku": "CON-TERRACOTTA-SUBWAY-WALL-TILE-TERRACOTTA-RECTIFIED",
+      "options": {
+        "color": "terracotta",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 32
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy terracotta subway wall tile, front view",
+            "pt-BR": "Revestimento subway terracota brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

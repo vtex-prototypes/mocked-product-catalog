@@ -1,0 +1,134 @@
+{
+  "id": "pvc-solvent-cement",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "PVC Solvent Cement with a Brush Cap, for Gray and White PVC Pipe, Sold by the Can",
+    "pt-BR": "Adesivo para PVC com Pincel na Tampa, para Tubo Cinza e Branco, Vendido por Lata"
+  },
+  "description": {
+    "en": "A can of PVC solvent cement with a brush in the cap. It welds gray cold-water pipe and white drain pipe. The listed price is for the small can.",
+    "pt-BR": "Lata de adesivo para PVC com pincel na tampa. Solda tubo cinza de água fria e tubo branco de esgoto. O preço anunciado é da lata pequena."
+  },
+  "price": {
+    "BRL": 18.9,
+    "USD": 8
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "solvent cement",
+      "pvc",
+      "brush"
+    ],
+    "pt-BR": [
+      "adesivo para pvc",
+      "pincel",
+      "solda"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "pvc"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "small",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "amber",
+          "name": {
+            "en": "Amber",
+            "pt-BR": "Âmbar"
+          },
+          "hex": "#C4A36A"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "small",
+          "name": {
+            "en": "4 oz",
+            "pt-BR": "175 ml"
+          }
+        },
+        {
+          "id": "large",
+          "name": {
+            "en": "16 oz",
+            "pt-BR": "500 ml"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "small",
+      "sku": "CON-PVC-SOLVENT-CEMENT-SMALL",
+      "options": {
+        "color": "amber",
+        "volume": "small"
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 8
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of PVC solvent cement with a brush cap",
+            "pt-BR": "Lata de adesivo para PVC com pincel"
+          },
+          "backgrounds": {
+            "#ffffff": "amber-white.png",
+            "#f5f5f5": "amber-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large",
+      "sku": "CON-PVC-SOLVENT-CEMENT-LARGE",
+      "options": {
+        "color": "amber",
+        "volume": "large"
+      },
+      "price": {
+        "BRL": 42.9,
+        "USD": 18
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of PVC solvent cement with a brush cap",
+            "pt-BR": "Lata de adesivo para PVC com pincel"
+          },
+          "backgrounds": {
+            "#ffffff": "amber-white.png",
+            "#f5f5f5": "amber-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

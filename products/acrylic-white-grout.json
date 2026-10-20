@@ -1,0 +1,138 @@
+{
+  "id": "acrylic-white-grout",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Acrylic White Grout for Indoor Tile Joints, Ready to Use from the Tub, Sold by the Tub",
+    "pt-BR": "Rejunte Acrílico Branco para Juntas Internas, Pronto no Pote, Vendido por Pote"
+  },
+  "description": {
+    "en": "A ready-to-use white acrylic grout for dry indoor joints. It is not the one for a shower floor. The listed price is for the 1 kg tub.",
+    "pt-BR": "Rejunte acrílico branco pronto para junta interna seca. Não é o indicado para o piso do box. O preço anunciado é do pote de 1 kg."
+  },
+  "price": {
+    "BRL": 22.9,
+    "USD": 11
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "acrylic grout",
+      "white",
+      "indoor"
+    ],
+    "pt-BR": [
+      "rejunte acrílico",
+      "branco",
+      "área interna"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "white-1kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F2"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "1kg",
+          "name": {
+            "en": "1 kg",
+            "pt-BR": "1 kg"
+          }
+        },
+        {
+          "id": "5kg",
+          "name": {
+            "en": "5 kg",
+            "pt-BR": "5 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-1kg",
+      "sku": "CON-ACRYLIC-WHITE-GROUT-WHITE-1KG",
+      "options": {
+        "color": "white",
+        "weight": "1kg"
+      },
+      "price": {
+        "BRL": 22.9,
+        "USD": 11
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of white acrylic grout",
+            "pt-BR": "Pote de rejunte acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-5kg",
+      "sku": "CON-ACRYLIC-WHITE-GROUT-WHITE-5KG",
+      "options": {
+        "color": "white",
+        "weight": "5kg"
+      },
+      "price": {
+        "BRL": 94.9,
+        "USD": 42
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of white acrylic grout",
+            "pt-BR": "Pote de rejunte acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

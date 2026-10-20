@@ -1,0 +1,138 @@
+{
+  "id": "self-leveling-floor-compound",
+  "categoryId": "construcao-argamassas",
+  "name": {
+    "en": "Gray Self-Leveling Floor Compound for Indoor Concrete before Tile or Vinyl, Sold by the Bucket",
+    "pt-BR": "Argamassa Autonivelante Cinza para Contrapiso Interno antes de Piso ou Vinílico, Vendida por Balde"
+  },
+  "description": {
+    "en": "A gray self-leveling compound that flattens an indoor concrete slab before tile or vinyl. It is not a finished floor. The listed price is for one bucket.",
+    "pt-BR": "Argamassa autonivelante cinza que apruma o contrapiso interno antes de piso ou vinílico. Não é o piso acabado. O preço anunciado é de um balde."
+  },
+  "price": {
+    "BRL": 79.9,
+    "USD": 32
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "self leveling",
+      "indoor",
+      "concrete"
+    ],
+    "pt-BR": [
+      "autonivelante",
+      "interno",
+      "contrapiso"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "one",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#B7B7B2"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "one",
+          "name": {
+            "en": "1 bucket",
+            "pt-BR": "1 balde"
+          }
+        },
+        {
+          "id": "five",
+          "name": {
+            "en": "5 buckets",
+            "pt-BR": "5 baldes"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one",
+      "sku": "CON-SELF-LEVELING-FLOOR-COMPOUND-ONE",
+      "options": {
+        "color": "gray",
+        "pack": "one"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 32
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bucket of gray self-leveling floor compound",
+            "pt-BR": "Argamassa autonivelante cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "five",
+      "sku": "CON-SELF-LEVELING-FLOOR-COMPOUND-FIVE",
+      "options": {
+        "color": "gray",
+        "pack": "five"
+      },
+      "price": {
+        "BRL": 369,
+        "USD": 148
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bucket of gray self-leveling floor compound",
+            "pt-BR": "Argamassa autonivelante cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

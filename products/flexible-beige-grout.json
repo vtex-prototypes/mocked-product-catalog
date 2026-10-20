@@ -1,0 +1,142 @@
+{
+  "id": "flexible-beige-grout",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Flexible Beige Cement Grout for Indoor and Outdoor Tile Joints, Sold by the Tub",
+    "pt-BR": "Rejunte Flexível Bege para Juntas de Piso Interno e Externo, Vendido por Pote"
+  },
+  "description": {
+    "en": "A flexible beige cement grout that disappears next to a sand or beige tile. It works indoors and outdoors. The listed price is for the 1 kg tub.",
+    "pt-BR": "Rejunte cimentício bege e flexível, que some ao lado de piso areia ou bege. Serve dentro e fora. O preço anunciado é do pote de 1 kg."
+  },
+  "price": {
+    "BRL": 16.9,
+    "USD": 8.5
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "flexible grout",
+      "beige",
+      "outdoor"
+    ],
+    "pt-BR": [
+      "rejunte flexível",
+      "bege",
+      "área externa"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "beige-1kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "beige",
+          "name": {
+            "en": "Beige",
+            "pt-BR": "Bege"
+          },
+          "hex": "#D7CBB6"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "1kg",
+          "name": {
+            "en": "1 kg",
+            "pt-BR": "1 kg"
+          }
+        },
+        {
+          "id": "5kg",
+          "name": {
+            "en": "5 kg",
+            "pt-BR": "5 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "beige-1kg",
+      "sku": "CON-FLEXIBLE-BEIGE-GROUT-BEIGE-1KG",
+      "options": {
+        "color": "beige",
+        "weight": "1kg"
+      },
+      "price": {
+        "BRL": 16.9,
+        "USD": 8.5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of flexible beige grout",
+            "pt-BR": "Pote de rejunte flexível bege"
+          },
+          "backgrounds": {
+            "#ffffff": "beige-white.png",
+            "#f5f5f5": "beige-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beige-5kg",
+      "sku": "CON-FLEXIBLE-BEIGE-GROUT-BEIGE-5KG",
+      "options": {
+        "color": "beige",
+        "weight": "5kg"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 32
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tub of flexible beige grout",
+            "pt-BR": "Pote de rejunte flexível bege"
+          },
+          "backgrounds": {
+            "#ffffff": "beige-white.png",
+            "#f5f5f5": "beige-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

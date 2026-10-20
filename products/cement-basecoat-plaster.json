@@ -1,0 +1,138 @@
+{
+  "id": "cement-basecoat-plaster",
+  "categoryId": "construcao-argamassas",
+  "name": {
+    "en": "Gray Cement Basecoat Plaster for Indoor Masonry Walls, a Rough Coat before Paint, 44 Pound Bag",
+    "pt-BR": "Argamassa de Reboco Cimentício Cinza para Parede Interna de Alvenaria, antes da Tinta, Saco de 20 kg"
+  },
+  "description": {
+    "en": "A gray cement plaster for a rough coat on indoor masonry. It is the layer under primer and paint, not a tile mortar. The listed price is for one 44 pound bag.",
+    "pt-BR": "Reboco cimentício cinza para o emboço de parede interna de alvenaria. É a camada debaixo do fundo e da tinta, não a argamassa de piso. O preço anunciado é de um saco de 20 kg."
+  },
+  "price": {
+    "BRL": 22.9,
+    "USD": 10
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "plaster",
+      "cement",
+      "indoor"
+    ],
+    "pt-BR": [
+      "reboco",
+      "cimentício",
+      "parede interna"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "one",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#C2C2BC"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "20kg",
+          "name": {
+            "en": "44 lb",
+            "pt-BR": "20 kg"
+          }
+        },
+        {
+          "id": "five",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one",
+      "sku": "CON-CEMENT-BASECOAT-PLASTER-ONE",
+      "options": {
+        "color": "gray",
+        "weight": "20kg"
+      },
+      "price": {
+        "BRL": 22.9,
+        "USD": 10
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bag of gray cement basecoat plaster",
+            "pt-BR": "Saco de reboco cimentício cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "five",
+      "sku": "CON-CEMENT-BASECOAT-PLASTER-FIVE",
+      "options": {
+        "color": "gray",
+        "weight": "five"
+      },
+      "price": {
+        "BRL": 99.9,
+        "USD": 42
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bag of gray cement basecoat plaster",
+            "pt-BR": "Saco de reboco cimentício cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

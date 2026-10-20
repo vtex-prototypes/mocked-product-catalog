@@ -1,0 +1,134 @@
+{
+  "id": "gray-pvc-tee",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "Gray PVC Tee Fitting for 1 Inch Cold-Water Pipe, Three Openings, Sold by the Piece",
+    "pt-BR": "Tê de PVC Cinza para Tubo de Água Fria de 25 mm, Três Saídas, Vendido por Peça"
+  },
+  "description": {
+    "en": "A gray PVC tee that splits a 1 inch cold-water line into three. It needs solvent cement on each socket. The listed price is for one fitting.",
+    "pt-BR": "Tê de PVC cinza que divide uma linha de água fria de 25 mm em três saídas. Cada bolsa pede adesivo. O preço anunciado é de uma peça."
+  },
+  "price": {
+    "BRL": 4.9,
+    "USD": 1.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "pvc tee",
+      "cold water",
+      "fitting"
+    ],
+    "pt-BR": [
+      "tê de pvc",
+      "água fria",
+      "conexão"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "pvc"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#8E8E8A"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-GRAY-PVC-TEE-SINGLE",
+      "options": {
+        "color": "gray",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 4.9,
+        "USD": 1.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC tee fitting, front view",
+            "pt-BR": "Tê de PVC cinza, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-GRAY-PVC-TEE-TEN",
+      "options": {
+        "color": "gray",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 39.9,
+        "USD": 15
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC tee fitting, front view",
+            "pt-BR": "Tê de PVC cinza, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
