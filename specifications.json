@@ -1,51 +1,262 @@
 [
   {
     "id": "material",
-    "name": { "en": "Material", "pt-BR": "Material" },
+    "name": {
+      "en": "Material",
+      "pt-BR": "Material"
+    },
     "values": [
-      { "id": "acrylic", "name": { "en": "Acrylic", "pt-BR": "Acrílico" } },
-      { "id": "coated-fabric", "name": { "en": "Coated fabric", "pt-BR": "Tecido emborrachado" } },
-      { "id": "compression-knit", "name": { "en": "Compression knit", "pt-BR": "Malha compressiva" } },
-      { "id": "cotton", "name": { "en": "Cotton", "pt-BR": "Algodão" } },
-      { "id": "cotton-blend", "name": { "en": "Cotton blend", "pt-BR": "Mistura de algodão" } },
-      { "id": "down", "name": { "en": "Down", "pt-BR": "Pluma" } },
-      { "id": "fleece", "name": { "en": "Fleece", "pt-BR": "Fleece" } },
-      { "id": "nylon-900d", "name": { "en": "900D nylon", "pt-BR": "Náilon 900D" } },
-      { "id": "quick-dry-knit", "name": { "en": "Quick-dry knit", "pt-BR": "Malha de secagem rápida" } },
-      { "id": "recycled-polyester", "name": { "en": "Recycled polyester", "pt-BR": "Poliéster reciclado" } },
-      { "id": "recycled-synthetic", "name": { "en": "Recycled synthetic", "pt-BR": "Sintético reciclado" } },
-      { "id": "softshell", "name": { "en": "Softshell", "pt-BR": "Softshell" } }
+      {
+        "id": "acrylic",
+        "name": {
+          "en": "Acrylic",
+          "pt-BR": "Acrílico"
+        }
+      },
+      {
+        "id": "coated-fabric",
+        "name": {
+          "en": "Coated fabric",
+          "pt-BR": "Tecido emborrachado"
+        }
+      },
+      {
+        "id": "compression-knit",
+        "name": {
+          "en": "Compression knit",
+          "pt-BR": "Malha compressiva"
+        }
+      },
+      {
+        "id": "cotton",
+        "name": {
+          "en": "Cotton",
+          "pt-BR": "Algodão"
+        }
+      },
+      {
+        "id": "cotton-blend",
+        "name": {
+          "en": "Cotton blend",
+          "pt-BR": "Mistura de algodão"
+        }
+      },
+      {
+        "id": "down",
+        "name": {
+          "en": "Down",
+          "pt-BR": "Pluma"
+        }
+      },
+      {
+        "id": "fleece",
+        "name": {
+          "en": "Fleece",
+          "pt-BR": "Fleece"
+        }
+      },
+      {
+        "id": "nylon-900d",
+        "name": {
+          "en": "900D nylon",
+          "pt-BR": "Náilon 900D"
+        }
+      },
+      {
+        "id": "quick-dry-knit",
+        "name": {
+          "en": "Quick-dry knit",
+          "pt-BR": "Malha de secagem rápida"
+        }
+      },
+      {
+        "id": "recycled-polyester",
+        "name": {
+          "en": "Recycled polyester",
+          "pt-BR": "Poliéster reciclado"
+        }
+      },
+      {
+        "id": "recycled-synthetic",
+        "name": {
+          "en": "Recycled synthetic",
+          "pt-BR": "Sintético reciclado"
+        }
+      },
+      {
+        "id": "softshell",
+        "name": {
+          "en": "Softshell",
+          "pt-BR": "Softshell"
+        }
+      },
+      {
+        "id": "leather",
+        "name": {
+          "en": "Leather",
+          "pt-BR": "Couro"
+        }
+      },
+      {
+        "id": "rubber",
+        "name": {
+          "en": "Rubber",
+          "pt-BR": "Borracha"
+        }
+      },
+      {
+        "id": "polycarbonate",
+        "name": {
+          "en": "Polycarbonate",
+          "pt-BR": "Policarbonato"
+        }
+      }
     ]
   },
   {
     "id": "size",
-    "name": { "en": "Size", "pt-BR": "Tamanho" },
+    "name": {
+      "en": "Size",
+      "pt-BR": "Tamanho"
+    },
     "values": [
-      { "id": "s", "name": { "en": "S", "pt-BR": "P" } },
-      { "id": "m", "name": { "en": "M", "pt-BR": "M" } },
-      { "id": "l", "name": { "en": "L", "pt-BR": "G" } },
-      { "id": "pillow-standard", "name": { "en": "Standard 20x28 in", "pt-BR": "Padrão 50x70 cm" } },
-      { "id": "pillow-queen", "name": { "en": "Queen 20x30 in", "pt-BR": "Queen 50x76 cm" } }
+      {
+        "id": "s",
+        "name": {
+          "en": "S",
+          "pt-BR": "P"
+        }
+      },
+      {
+        "id": "m",
+        "name": {
+          "en": "M",
+          "pt-BR": "M"
+        }
+      },
+      {
+        "id": "l",
+        "name": {
+          "en": "L",
+          "pt-BR": "G"
+        }
+      },
+      {
+        "id": "pillow-standard",
+        "name": {
+          "en": "Standard 20x28 in",
+          "pt-BR": "Padrão 50x70 cm"
+        }
+      },
+      {
+        "id": "pillow-queen",
+        "name": {
+          "en": "Queen 20x30 in",
+          "pt-BR": "Queen 50x76 cm"
+        }
+      },
+      {
+        "id": "36",
+        "name": {
+          "en": "36",
+          "pt-BR": "36"
+        }
+      },
+      {
+        "id": "38",
+        "name": {
+          "en": "38",
+          "pt-BR": "38"
+        }
+      },
+      {
+        "id": "40",
+        "name": {
+          "en": "40",
+          "pt-BR": "40"
+        }
+      }
     ]
   },
   {
     "id": "capacity",
-    "name": { "en": "Capacity", "pt-BR": "Capacidade" },
+    "name": {
+      "en": "Capacity",
+      "pt-BR": "Capacidade"
+    },
     "values": [
-      { "id": "18-l", "name": { "en": "18 L", "pt-BR": "18 L" } },
-      { "id": "22-l", "name": { "en": "22 L", "pt-BR": "22 L" } },
-      { "id": "35-l", "name": { "en": "35 L", "pt-BR": "35 L" } }
+      {
+        "id": "18-l",
+        "name": {
+          "en": "18 L",
+          "pt-BR": "18 L"
+        }
+      },
+      {
+        "id": "22-l",
+        "name": {
+          "en": "22 L",
+          "pt-BR": "22 L"
+        }
+      },
+      {
+        "id": "35-l",
+        "name": {
+          "en": "35 L",
+          "pt-BR": "35 L"
+        }
+      },
+      {
+        "id": "45-l",
+        "name": {
+          "en": "45 L",
+          "pt-BR": "45 L"
+        }
+      }
     ]
   },
   {
     "id": "connectivity",
-    "name": { "en": "Connectivity", "pt-BR": "Conectividade" },
+    "name": {
+      "en": "Connectivity",
+      "pt-BR": "Conectividade"
+    },
     "values": [
-      { "id": "bluetooth", "name": { "en": "Bluetooth", "pt-BR": "Bluetooth" } },
-      { "id": "wi-fi", "name": { "en": "Wi-Fi", "pt-BR": "Wi-Fi" } },
-      { "id": "usb-receiver", "name": { "en": "2.4 GHz USB receiver", "pt-BR": "Receptor USB 2,4 GHz" } },
-      { "id": "usb-a", "name": { "en": "USB-A", "pt-BR": "USB-A" } },
-      { "id": "usb-c", "name": { "en": "USB-C", "pt-BR": "USB-C" } }
+      {
+        "id": "bluetooth",
+        "name": {
+          "en": "Bluetooth",
+          "pt-BR": "Bluetooth"
+        }
+      },
+      {
+        "id": "wi-fi",
+        "name": {
+          "en": "Wi-Fi",
+          "pt-BR": "Wi-Fi"
+        }
+      },
+      {
+        "id": "usb-receiver",
+        "name": {
+          "en": "2.4 GHz USB receiver",
+          "pt-BR": "Receptor USB 2,4 GHz"
+        }
+      },
+      {
+        "id": "usb-a",
+        "name": {
+          "en": "USB-A",
+          "pt-BR": "USB-A"
+        }
+      },
+      {
+        "id": "usb-c",
+        "name": {
+          "en": "USB-C",
+          "pt-BR": "USB-C"
+        }
+      }
     ]
   }
 ]

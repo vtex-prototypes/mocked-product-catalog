@@ -1,0 +1,131 @@
+{
+  "id": "oxford-dress-shoe",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Fio Puro Cognac Leather Oxford Dress Shoes with Cap Toe, Blake-Stitched Sole and Cushioned Lining",
+    "pt-BR": "Sapato Oxford Fio Puro Conhaque em Couro com Biqueira Lisa, Solado Costurado e Forro Interno Acolchoado"
+  },
+  "description": {
+    "en": "Classic lace-up Oxford shoes in smooth leather with a clean cap toe and stitched sole. A cushioned lining makes the formal silhouette comfortable for long workdays and events.",
+    "pt-BR": "Sapato Oxford clássico de amarrar em couro liso, com biqueira limpa e solado costurado. O forro acolchoado traz conforto para dias de trabalho e eventos prolongados."
+  },
+  "price": {
+    "BRL": 549.9,
+    "USD": 128
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "Oxford shoes",
+      "dress shoes",
+      "cognac leather"
+    ],
+    "pt-BR": [
+      "sapato Oxford",
+      "sapato social",
+      "couro conhaque"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "cognac-36",
+  "options": [
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "36",
+          "valueId": "36"
+        },
+        {
+          "id": "38",
+          "valueId": "38"
+        },
+        {
+          "id": "40",
+          "valueId": "40"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cognac-36",
+      "sku": "FIO-ODS-36",
+      "options": {
+        "size": "36"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 128
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pair of cognac leather Oxford dress shoes",
+            "pt-BR": "Par de sapatos Oxford em couro conhaque"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cognac-38",
+      "sku": "FIO-ODS-38",
+      "options": {
+        "size": "38"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 128
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pair of cognac leather Oxford dress shoes",
+            "pt-BR": "Par de sapatos Oxford em couro conhaque"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cognac-40",
+      "sku": "FIO-ODS-40",
+      "options": {
+        "size": "40"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 128
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pair of cognac leather Oxford dress shoes",
+            "pt-BR": "Par de sapatos Oxford em couro conhaque"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

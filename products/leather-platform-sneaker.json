@@ -1,0 +1,131 @@
+{
+  "id": "leather-platform-sneaker",
+  "brandId": "ritmo",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Ritmo Form White Leather Platform Sneakers with Cushioned Insole, Tonal Laces and Flexible Rubber Cupsole",
+    "pt-BR": "Tênis Ritmo Form Branco em Couro com Plataforma, Palmilha Macia, Cadarços Tonais e Solado Flexível de Borracha"
+  },
+  "description": {
+    "en": "Minimal low-top sneakers in smooth leather with a supportive platform cupsole and cushioned insole. The tonal finish makes them easy to pair with denim, tailoring and dresses.",
+    "pt-BR": "Tênis minimalista de cano baixo em couro liso, com solado plataforma de suporte e palmilha macia. O acabamento tonal combina facilmente com jeans, alfaiataria e vestidos."
+  },
+  "price": {
+    "BRL": 399.9,
+    "USD": 92
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "platform sneakers",
+      "white leather",
+      "low top"
+    ],
+    "pt-BR": [
+      "tênis plataforma",
+      "couro branco",
+      "cano baixo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "white-36",
+  "options": [
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "36",
+          "valueId": "36"
+        },
+        {
+          "id": "38",
+          "valueId": "38"
+        },
+        {
+          "id": "40",
+          "valueId": "40"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-36",
+      "sku": "RIT-LPS-36",
+      "options": {
+        "size": "36"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 92
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White leather platform sneaker in three-quarter view",
+            "pt-BR": "Tênis plataforma branco de couro em vista de três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-38",
+      "sku": "RIT-LPS-38",
+      "options": {
+        "size": "38"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 92
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White leather platform sneaker in three-quarter view",
+            "pt-BR": "Tênis plataforma branco de couro em vista de três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-40",
+      "sku": "RIT-LPS-40",
+      "options": {
+        "size": "40"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 92
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White leather platform sneaker in three-quarter view",
+            "pt-BR": "Tênis plataforma branco de couro em vista de três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

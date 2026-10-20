@@ -127,6 +127,27 @@
             "en": "Softshell",
             "pt-BR": "Softshell"
           }
+        },
+        {
+          "id": "leather",
+          "name": {
+            "en": "Leather",
+            "pt-BR": "Couro"
+          }
+        },
+        {
+          "id": "rubber",
+          "name": {
+            "en": "Rubber",
+            "pt-BR": "Borracha"
+          }
+        },
+        {
+          "id": "polycarbonate",
+          "name": {
+            "en": "Polycarbonate",
+            "pt-BR": "Policarbonato"
+          }
         }
       ]
     },
@@ -171,6 +192,27 @@
             "en": "Queen 20x30 in",
             "pt-BR": "Queen 50x76 cm"
           }
+        },
+        {
+          "id": "36",
+          "name": {
+            "en": "36",
+            "pt-BR": "36"
+          }
+        },
+        {
+          "id": "38",
+          "name": {
+            "en": "38",
+            "pt-BR": "38"
+          }
+        },
+        {
+          "id": "40",
+          "name": {
+            "en": "40",
+            "pt-BR": "40"
+          }
         }
       ]
     },
@@ -200,6 +242,13 @@
           "name": {
             "en": "35 L",
             "pt-BR": "35 L"
+          }
+        },
+        {
+          "id": "45-l",
+          "name": {
+            "en": "45 L",
+            "pt-BR": "45 L"
           }
         }
       ]
@@ -658,6 +707,196 @@
       ]
     },
     {
+      "id": "baseball-cap",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-acessorios-acessorios",
+      "name": {
+        "en": "Ritmo Everyday Navy Baseball Cap in Recycled Performance Fabric with Breathable Mesh Back and Adjustable Fit",
+        "pt-BR": "Boné Ritmo Everyday Azul-Marinho em Tecido Esportivo Reciclado com Tela Respirável Traseira e Ajuste Regulável"
+      },
+      "description": {
+        "en": "A lightweight six-panel cap with a curved brim and breathable mesh back. The adjustable construction keeps the fit comfortable for commutes, walks and weekends.",
+        "pt-BR": "Boné leve de seis gomos com aba curva e tela respirável na parte traseira. A construção ajustável mantém o conforto em deslocamentos, caminhadas e fins de semana."
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 29
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "baseball cap",
+          "navy",
+          "accessories"
+        ],
+        "pt-BR": [
+          "boné",
+          "azul-marinho",
+          "acessórios"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "recycled-polyester",
+          "value": {
+            "en": "Recycled polyester",
+            "pt-BR": "Poliéster reciclado"
+          }
+        }
+      ],
+      "defaultVariantId": "navy-s",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "navy-s",
+          "sku": "RIT-BC-S",
+          "options": {
+            "size": "s"
+          },
+          "price": {
+            "BRL": 129.9,
+            "USD": 29
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Navy baseball cap with curved brim and mesh back",
+                "pt-BR": "Boné azul-marinho com aba curva e tela traseira"
+              },
+              "backgrounds": {
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/baseball-cap/navy-white.webp",
+                "#f5f5f5": "images/baseball-cap/navy-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 159.9,
+            "USD": 36
+          }
+        },
+        {
+          "id": "navy-m",
+          "sku": "RIT-BC-M",
+          "options": {
+            "size": "m"
+          },
+          "price": {
+            "BRL": 129.9,
+            "USD": 29
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Navy baseball cap with curved brim and mesh back",
+                "pt-BR": "Boné azul-marinho com aba curva e tela traseira"
+              },
+              "backgrounds": {
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/baseball-cap/navy-white.webp",
+                "#f5f5f5": "images/baseball-cap/navy-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 159.9,
+            "USD": 36
+          }
+        },
+        {
+          "id": "navy-l",
+          "sku": "RIT-BC-L",
+          "options": {
+            "size": "l"
+          },
+          "price": {
+            "BRL": 129.9,
+            "USD": 29
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Navy baseball cap with curved brim and mesh back",
+                "pt-BR": "Boné azul-marinho com aba curva e tela traseira"
+              },
+              "backgrounds": {
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/baseball-cap/navy-white.webp",
+                "#f5f5f5": "images/baseball-cap/navy-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 159.9,
+            "USD": 36
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 159.9,
+        "USD": 36
+      }
+    },
+    {
       "id": "bath-towel",
       "brandId": "fio-puro",
       "brand": {
@@ -922,6 +1161,144 @@
       ]
     },
     {
+      "id": "canvas-backpack",
+      "brandId": "trilha-livre",
+      "brand": {
+        "id": "trilha-livre",
+        "name": {
+          "en": "Trilha Livre",
+          "pt-BR": "Trilha Livre"
+        }
+      },
+      "categoryId": "roupa-acessorios-acessorios",
+      "name": {
+        "en": "Trilha Livre Sand Canvas Everyday Backpack with Padded Laptop Sleeve, Front Pocket and Water Bottle Pockets",
+        "pt-BR": "Mochila Trilha Livre de Lona Areia para o Dia a Dia com Compartimento Acolchoado para Notebook, Bolso Frontal e Porta-Garrafas"
+      },
+      "description": {
+        "en": "A clean everyday backpack made from sturdy canvas with a padded laptop sleeve, zipped front pocket and two bottle pockets. Wide straps distribute weight on longer days.",
+        "pt-BR": "Mochila de uso diário em lona resistente, com compartimento acolchoado para notebook, bolso frontal com zíper e dois porta-garrafas. As alças largas distribuem melhor o peso."
+      },
+      "price": {
+        "BRL": 349.9,
+        "USD": 79
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "canvas backpack",
+          "laptop bag",
+          "travel"
+        ],
+        "pt-BR": [
+          "mochila de lona",
+          "bolsa para notebook",
+          "viagem"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton-blend",
+          "value": {
+            "en": "Cotton blend",
+            "pt-BR": "Mistura de algodão"
+          }
+        }
+      ],
+      "defaultVariantId": "sand-18-l",
+      "options": [
+        {
+          "id": "capacity",
+          "specificationId": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "values": [
+            {
+              "id": "18-l",
+              "valueId": "18-l",
+              "name": {
+                "en": "18 L",
+                "pt-BR": "18 L"
+              }
+            },
+            {
+              "id": "22-l",
+              "valueId": "22-l",
+              "name": {
+                "en": "22 L",
+                "pt-BR": "22 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "sand-18-l",
+          "sku": "TRI-CB-18-L",
+          "options": {
+            "capacity": "18-l"
+          },
+          "price": {
+            "BRL": 349.9,
+            "USD": 79
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Sand canvas backpack with front zip pocket and side pockets",
+                "pt-BR": "Mochila de lona areia com bolso frontal e bolsos laterais"
+              },
+              "backgrounds": {
+                "#ffffff": "sand-white.png",
+                "#f5f5f5": "sand-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/canvas-backpack/sand-white.webp",
+                "#f5f5f5": "images/canvas-backpack/sand-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "sand-22-l",
+          "sku": "TRI-CB-22-L",
+          "options": {
+            "capacity": "22-l"
+          },
+          "price": {
+            "BRL": 349.9,
+            "USD": 79
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Sand canvas backpack with front zip pocket and side pockets",
+                "pt-BR": "Mochila de lona areia com bolso frontal e bolsos laterais"
+              },
+              "backgrounds": {
+                "#ffffff": "sand-white.png",
+                "#f5f5f5": "sand-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/canvas-backpack/sand-white.webp",
+                "#f5f5f5": "images/canvas-backpack/sand-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "compact-wall-charger",
       "categoryId": "eletro-acessorios",
       "name": {
@@ -1047,6 +1424,370 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cotton-t-shirt",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-parte-de-cima-casual",
+      "name": {
+        "en": "Fio Puro Essential Sunshine Yellow Cotton Crewneck T-Shirt with Relaxed Unisex Fit and Soft Jersey Finish",
+        "pt-BR": "Camiseta Fio Puro Essential Amarela em Algodão com Gola Careca, Modelagem Unissex Relaxada e Malha Macia"
+      },
+      "description": {
+        "en": "A soft cotton jersey T-shirt cut with a relaxed body, classic crewneck and clean straight hem. Midweight fabric makes it substantial enough to wear alone throughout the year.",
+        "pt-BR": "Camiseta de malha de algodão macia, com corpo relaxado, gola careca clássica e barra reta. O tecido de gramatura média permite usar a peça sozinha o ano inteiro."
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 28
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "cotton T-shirt",
+          "crewneck",
+          "yellow"
+        ],
+        "pt-BR": [
+          "camiseta de algodão",
+          "gola careca",
+          "amarela"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton",
+          "value": {
+            "en": "Cotton",
+            "pt-BR": "Algodão"
+          }
+        }
+      ],
+      "defaultVariantId": "yellow-s",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "yellow-s",
+          "sku": "FIO-CTS-S",
+          "options": {
+            "size": "s"
+          },
+          "price": {
+            "BRL": 119.9,
+            "USD": 28
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Sunshine yellow cotton crewneck T-shirt, front view",
+                "pt-BR": "Camiseta amarela de algodão com gola careca, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "yellow-white.png",
+                "#f5f5f5": "yellow-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/cotton-t-shirt/yellow-white.webp",
+                "#f5f5f5": "images/cotton-t-shirt/yellow-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "yellow-m",
+          "sku": "FIO-CTS-M",
+          "options": {
+            "size": "m"
+          },
+          "price": {
+            "BRL": 119.9,
+            "USD": 28
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Sunshine yellow cotton crewneck T-shirt, front view",
+                "pt-BR": "Camiseta amarela de algodão com gola careca, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "yellow-white.png",
+                "#f5f5f5": "yellow-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/cotton-t-shirt/yellow-white.webp",
+                "#f5f5f5": "images/cotton-t-shirt/yellow-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "yellow-l",
+          "sku": "FIO-CTS-L",
+          "options": {
+            "size": "l"
+          },
+          "price": {
+            "BRL": 119.9,
+            "USD": 28
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Sunshine yellow cotton crewneck T-shirt, front view",
+                "pt-BR": "Camiseta amarela de algodão com gola careca, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "yellow-white.png",
+                "#f5f5f5": "yellow-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/cotton-t-shirt/yellow-white.webp",
+                "#f5f5f5": "images/cotton-t-shirt/yellow-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crewneck-sweatshirt",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-parte-de-cima-casual",
+      "name": {
+        "en": "Fio Puro Cloud Gray Cotton-Blend Crewneck Sweatshirt with Brushed Interior, Ribbed Cuffs and Relaxed Fit",
+        "pt-BR": "Moletom Fio Puro Cinza-Nuvem em Mistura de Algodão com Interior Flanelado, Punhos Canelados e Caimento Relaxado"
+      },
+      "description": {
+        "en": "A versatile crewneck sweatshirt with a softly brushed interior and durable ribbed finishes. The relaxed shape layers easily over a tee without feeling bulky.",
+        "pt-BR": "Moletom versátil de gola careca com interior macio e acabamentos canelados resistentes. A modelagem relaxada permite sobrepor uma camiseta sem criar volume excessivo."
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 58
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "crewneck sweatshirt",
+          "cotton blend",
+          "gray"
+        ],
+        "pt-BR": [
+          "moletom gola careca",
+          "mistura de algodão",
+          "cinza"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton-blend",
+          "value": {
+            "en": "Cotton blend",
+            "pt-BR": "Mistura de algodão"
+          }
+        }
+      ],
+      "defaultVariantId": "gray-s",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gray-s",
+          "sku": "FIO-CS-S",
+          "options": {
+            "size": "s"
+          },
+          "price": {
+            "BRL": 249.9,
+            "USD": 58
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cloud gray crewneck sweatshirt with ribbed cuffs and hem",
+                "pt-BR": "Moletom cinza-nuvem com punhos e barra canelados"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/crewneck-sweatshirt/gray-white.webp",
+                "#f5f5f5": "images/crewneck-sweatshirt/gray-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 299.9,
+            "USD": 68
+          }
+        },
+        {
+          "id": "gray-m",
+          "sku": "FIO-CS-M",
+          "options": {
+            "size": "m"
+          },
+          "price": {
+            "BRL": 249.9,
+            "USD": 58
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cloud gray crewneck sweatshirt with ribbed cuffs and hem",
+                "pt-BR": "Moletom cinza-nuvem com punhos e barra canelados"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/crewneck-sweatshirt/gray-white.webp",
+                "#f5f5f5": "images/crewneck-sweatshirt/gray-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 299.9,
+            "USD": 68
+          }
+        },
+        {
+          "id": "gray-l",
+          "sku": "FIO-CS-L",
+          "options": {
+            "size": "l"
+          },
+          "price": {
+            "BRL": 249.9,
+            "USD": 58
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cloud gray crewneck sweatshirt with ribbed cuffs and hem",
+                "pt-BR": "Moletom cinza-nuvem com punhos e barra canelados"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/crewneck-sweatshirt/gray-white.webp",
+                "#f5f5f5": "images/crewneck-sweatshirt/gray-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 299.9,
+            "USD": 68
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 299.9,
+        "USD": 68
+      }
     },
     {
       "id": "desk-fan",
@@ -1444,6 +2185,180 @@
               "src": {
                 "#ffffff": "images/down-puffer-jacket/navy-white.webp",
                 "#f5f5f5": "images/down-puffer-jacket/navy-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dress-shirt",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-parte-de-cima-formal",
+      "name": {
+        "en": "Fio Puro Crisp White Cotton Dress Shirt with Point Collar, Button Cuffs and Regular Tailored Fit",
+        "pt-BR": "Camisa Social Fio Puro Branca em Algodão com Colarinho Pontudo, Punhos Abotoados e Caimento Reto de Alfaiataria"
+      },
+      "description": {
+        "en": "A crisp cotton dress shirt with a structured point collar, button cuffs and a regular tailored fit. The smooth weave stays polished under a blazer and comfortable on its own.",
+        "pt-BR": "Camisa social de algodão com colarinho pontudo estruturado, punhos abotoados e corte reto de alfaiataria. A trama lisa fica elegante sob o blazer e confortável sozinha."
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 76
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "dress shirt",
+          "white shirt",
+          "cotton"
+        ],
+        "pt-BR": [
+          "camisa social",
+          "camisa branca",
+          "algodão"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton",
+          "value": {
+            "en": "Cotton",
+            "pt-BR": "Algodão"
+          }
+        }
+      ],
+      "defaultVariantId": "white-s",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-s",
+          "sku": "FIO-DS-S",
+          "options": {
+            "size": "s"
+          },
+          "price": {
+            "BRL": 329.9,
+            "USD": 76
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White cotton dress shirt folded to show collar and cuffs",
+                "pt-BR": "Camisa social branca de algodão dobrada com colarinho e punhos visíveis"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dress-shirt/white-white.webp",
+                "#f5f5f5": "images/dress-shirt/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "white-m",
+          "sku": "FIO-DS-M",
+          "options": {
+            "size": "m"
+          },
+          "price": {
+            "BRL": 329.9,
+            "USD": 76
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White cotton dress shirt folded to show collar and cuffs",
+                "pt-BR": "Camisa social branca de algodão dobrada com colarinho e punhos visíveis"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dress-shirt/white-white.webp",
+                "#f5f5f5": "images/dress-shirt/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "white-l",
+          "sku": "FIO-DS-L",
+          "options": {
+            "size": "l"
+          },
+          "price": {
+            "BRL": 329.9,
+            "USD": 76
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White cotton dress shirt folded to show collar and cuffs",
+                "pt-BR": "Camisa social branca de algodão dobrada com colarinho e punhos visíveis"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dress-shirt/white-white.webp",
+                "#f5f5f5": "images/dress-shirt/white-gray.webp"
               }
             }
           ]
@@ -2034,6 +2949,180 @@
       ]
     },
     {
+      "id": "flip-flops",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-sapatos",
+      "name": {
+        "en": "Ritmo Coast Yellow and Blue Cushioned Rubber Flip-Flops with Textured Footbed and Flexible Non-Slip Sole",
+        "pt-BR": "Chinelo Ritmo Coast Amarelo e Azul em Borracha Macia com Palmilha Texturizada e Solado Flexível Antiderrapante"
+      },
+      "description": {
+        "en": "Lightweight flip-flops with a cushioned textured footbed and flexible rubber straps. The grippy sole is designed for pool days, beach trips and casual warm-weather errands.",
+        "pt-BR": "Chinelo leve com palmilha texturizada macia e tiras flexíveis de borracha. O solado aderente funciona bem na piscina, na praia e em passeios casuais nos dias quentes."
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 18
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "flip-flops",
+          "rubber sandals",
+          "beach"
+        ],
+        "pt-BR": [
+          "chinelo",
+          "sandália de borracha",
+          "praia"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "rubber",
+          "value": {
+            "en": "Rubber",
+            "pt-BR": "Borracha"
+          }
+        }
+      ],
+      "defaultVariantId": "yellow-blue-36",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "36",
+              "valueId": "36",
+              "name": {
+                "en": "36",
+                "pt-BR": "36"
+              }
+            },
+            {
+              "id": "38",
+              "valueId": "38",
+              "name": {
+                "en": "38",
+                "pt-BR": "38"
+              }
+            },
+            {
+              "id": "40",
+              "valueId": "40",
+              "name": {
+                "en": "40",
+                "pt-BR": "40"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "yellow-blue-36",
+          "sku": "RIT-FF-36",
+          "options": {
+            "size": "36"
+          },
+          "price": {
+            "BRL": 79.9,
+            "USD": 18
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Yellow and blue rubber flip-flops viewed from above",
+                "pt-BR": "Chinelos amarelos e azuis de borracha vistos de cima"
+              },
+              "backgrounds": {
+                "#ffffff": "yellow-blue-white.png",
+                "#f5f5f5": "yellow-blue-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flip-flops/yellow-blue-white.webp",
+                "#f5f5f5": "images/flip-flops/yellow-blue-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "yellow-blue-38",
+          "sku": "RIT-FF-38",
+          "options": {
+            "size": "38"
+          },
+          "price": {
+            "BRL": 79.9,
+            "USD": 18
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Yellow and blue rubber flip-flops viewed from above",
+                "pt-BR": "Chinelos amarelos e azuis de borracha vistos de cima"
+              },
+              "backgrounds": {
+                "#ffffff": "yellow-blue-white.png",
+                "#f5f5f5": "yellow-blue-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flip-flops/yellow-blue-white.webp",
+                "#f5f5f5": "images/flip-flops/yellow-blue-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "yellow-blue-40",
+          "sku": "RIT-FF-40",
+          "options": {
+            "size": "40"
+          },
+          "price": {
+            "BRL": 79.9,
+            "USD": 18
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Yellow and blue rubber flip-flops viewed from above",
+                "pt-BR": "Chinelos amarelos e azuis de borracha vistos de cima"
+              },
+              "backgrounds": {
+                "#ffffff": "yellow-blue-white.png",
+                "#f5f5f5": "yellow-blue-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flip-flops/yellow-blue-white.webp",
+                "#f5f5f5": "images/flip-flops/yellow-blue-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "game-controller",
       "categoryId": "eletro-acessorios",
       "name": {
@@ -2166,6 +3255,330 @@
               "src": {
                 "#ffffff": "images/game-controller/black-white.webp",
                 "#f5f5f5": "images/game-controller/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hardside-carry-on-suitcase",
+      "brandId": "trilha-livre",
+      "brand": {
+        "id": "trilha-livre",
+        "name": {
+          "en": "Trilha Livre",
+          "pt-BR": "Trilha Livre"
+        }
+      },
+      "categoryId": "roupa-acessorios-acessorios",
+      "name": {
+        "en": "Trilha Livre Silver Hardside Carry-On Suitcase with Expandable Polycarbonate Shell, Spinner Wheels and TSA Lock",
+        "pt-BR": "Mala de Bordo Trilha Livre Prata com Casco Rígido Expansível em Policarbonato, Rodas Giratórias e Cadeado TSA"
+      },
+      "description": {
+        "en": "A lightweight hardside carry-on with an expandable polycarbonate shell, smooth spinner wheels and organized interior. The telescopic handle locks at two heights for easier airport transfers.",
+        "pt-BR": "Mala de bordo rígida e leve, com casco expansível em policarbonato, rodas giratórias suaves e interior organizado. A alça telescópica trava em duas alturas para facilitar o transporte."
+      },
+      "price": {
+        "BRL": 699.9,
+        "USD": 159
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "carry-on suitcase",
+          "hardside luggage",
+          "travel"
+        ],
+        "pt-BR": [
+          "mala de bordo",
+          "bagagem rígida",
+          "viagem"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "polycarbonate",
+          "value": {
+            "en": "Polycarbonate",
+            "pt-BR": "Policarbonato"
+          }
+        }
+      ],
+      "defaultVariantId": "silver-35-l",
+      "options": [
+        {
+          "id": "capacity",
+          "specificationId": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "values": [
+            {
+              "id": "35-l",
+              "valueId": "35-l",
+              "name": {
+                "en": "35 L",
+                "pt-BR": "35 L"
+              }
+            },
+            {
+              "id": "45-l",
+              "valueId": "45-l",
+              "name": {
+                "en": "45 L",
+                "pt-BR": "45 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "silver-35-l",
+          "sku": "TRI-HCOS-35-L",
+          "options": {
+            "capacity": "35-l"
+          },
+          "price": {
+            "BRL": 699.9,
+            "USD": 159
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Silver hardside carry-on suitcase with extended handle",
+                "pt-BR": "Mala de bordo rígida prata com alça estendida"
+              },
+              "backgrounds": {
+                "#ffffff": "silver-white.png",
+                "#f5f5f5": "silver-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/hardside-carry-on-suitcase/silver-white.webp",
+                "#f5f5f5": "images/hardside-carry-on-suitcase/silver-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 849.9,
+            "USD": 189
+          }
+        },
+        {
+          "id": "silver-45-l",
+          "sku": "TRI-HCOS-45-L",
+          "options": {
+            "capacity": "45-l"
+          },
+          "price": {
+            "BRL": 699.9,
+            "USD": 159
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Silver hardside carry-on suitcase with extended handle",
+                "pt-BR": "Mala de bordo rígida prata com alça estendida"
+              },
+              "backgrounds": {
+                "#ffffff": "silver-white.png",
+                "#f5f5f5": "silver-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/hardside-carry-on-suitcase/silver-white.webp",
+                "#f5f5f5": "images/hardside-carry-on-suitcase/silver-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 849.9,
+            "USD": 189
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 849.9,
+        "USD": 189
+      }
+    },
+    {
+      "id": "harrington-jacket",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-parte-de-cima-formal",
+      "name": {
+        "en": "Fio Puro Black Harrington Jacket in Water-Resistant Cotton Blend with Zip Front, Point Collar and Regular Fit",
+        "pt-BR": "Jaqueta Harrington Fio Puro Preta em Mistura de Algodão Resistente à Água com Zíper, Colarinho Pontudo e Caimento Reto"
+      },
+      "description": {
+        "en": "A clean Harrington jacket with a point collar, full zip and discreet welt pockets. The water-resistant cotton blend is light enough for transitional weather and polished enough for work.",
+        "pt-BR": "Jaqueta Harrington de linhas limpas, com colarinho pontudo, zíper frontal e bolsos discretos. A mistura de algodão resistente à água é leve e adequada para meia-estação."
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 138
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Harrington jacket",
+          "black jacket",
+          "water resistant"
+        ],
+        "pt-BR": [
+          "jaqueta Harrington",
+          "jaqueta preta",
+          "resistente à água"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton-blend",
+          "value": {
+            "en": "Cotton blend",
+            "pt-BR": "Mistura de algodão"
+          }
+        }
+      ],
+      "defaultVariantId": "black-s",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "black-s",
+          "sku": "FIO-HJ-S",
+          "options": {
+            "size": "s"
+          },
+          "price": {
+            "BRL": 599.9,
+            "USD": 138
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black Harrington jacket with point collar and front zip",
+                "pt-BR": "Jaqueta Harrington preta com colarinho pontudo e zíper frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/harrington-jacket/black-white.webp",
+                "#f5f5f5": "images/harrington-jacket/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-m",
+          "sku": "FIO-HJ-M",
+          "options": {
+            "size": "m"
+          },
+          "price": {
+            "BRL": 599.9,
+            "USD": 138
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black Harrington jacket with point collar and front zip",
+                "pt-BR": "Jaqueta Harrington preta com colarinho pontudo e zíper frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/harrington-jacket/black-white.webp",
+                "#f5f5f5": "images/harrington-jacket/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-l",
+          "sku": "FIO-HJ-L",
+          "options": {
+            "size": "l"
+          },
+          "price": {
+            "BRL": 599.9,
+            "USD": 138
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black Harrington jacket with point collar and front zip",
+                "pt-BR": "Jaqueta Harrington preta com colarinho pontudo e zíper frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/harrington-jacket/black-white.webp",
+                "#f5f5f5": "images/harrington-jacket/black-gray.webp"
               }
             }
           ]
@@ -3578,6 +4991,678 @@
       ]
     },
     {
+      "id": "leather-belt",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-acessorios-acessorios",
+      "name": {
+        "en": "Fio Puro Cognac Full-Grain Leather Belt with Brushed Metal Buckle, Rounded Edge and Adjustable Classic Fit",
+        "pt-BR": "Cinto Fio Puro Conhaque em Couro Integral com Fivela de Metal Escovado, Borda Arredondada e Ajuste Clássico"
+      },
+      "description": {
+        "en": "A versatile full-grain leather belt finished with tonal stitching and a brushed metal buckle. The medium width works with denim, chinos and tailored trousers.",
+        "pt-BR": "Cinto versátil em couro integral com pesponto tonal e fivela de metal escovado. A largura média combina com jeans, sarja e calças de alfaiataria."
+      },
+      "price": {
+        "BRL": 189.9,
+        "USD": 44
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "leather belt",
+          "cognac",
+          "accessories"
+        ],
+        "pt-BR": [
+          "cinto de couro",
+          "conhaque",
+          "acessórios"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "leather",
+          "value": {
+            "en": "Leather",
+            "pt-BR": "Couro"
+          }
+        }
+      ],
+      "defaultVariantId": "cognac-s",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "cognac-s",
+          "sku": "FIO-LB-S",
+          "options": {
+            "size": "s"
+          },
+          "price": {
+            "BRL": 189.9,
+            "USD": 44
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cognac leather belt with brushed metal buckle",
+                "pt-BR": "Cinto de couro conhaque com fivela de metal escovado"
+              },
+              "backgrounds": {
+                "#ffffff": "cognac-white.png",
+                "#f5f5f5": "cognac-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-belt/cognac-white.webp",
+                "#f5f5f5": "images/leather-belt/cognac-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cognac-m",
+          "sku": "FIO-LB-M",
+          "options": {
+            "size": "m"
+          },
+          "price": {
+            "BRL": 189.9,
+            "USD": 44
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cognac leather belt with brushed metal buckle",
+                "pt-BR": "Cinto de couro conhaque com fivela de metal escovado"
+              },
+              "backgrounds": {
+                "#ffffff": "cognac-white.png",
+                "#f5f5f5": "cognac-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-belt/cognac-white.webp",
+                "#f5f5f5": "images/leather-belt/cognac-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cognac-l",
+          "sku": "FIO-LB-L",
+          "options": {
+            "size": "l"
+          },
+          "price": {
+            "BRL": 189.9,
+            "USD": 44
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cognac leather belt with brushed metal buckle",
+                "pt-BR": "Cinto de couro conhaque com fivela de metal escovado"
+              },
+              "backgrounds": {
+                "#ffffff": "cognac-white.png",
+                "#f5f5f5": "cognac-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-belt/cognac-white.webp",
+                "#f5f5f5": "images/leather-belt/cognac-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leather-biker-jacket",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-parte-de-cima-formal",
+      "name": {
+        "en": "Fio Puro Black Leather Biker Jacket with Asymmetric Zip, Notched Lapels, Zip Pockets and Cropped Regular Fit",
+        "pt-BR": "Jaqueta Biker Fio Puro Preta em Couro com Zíper Assimétrico, Lapelas, Bolsos com Zíper e Caimento Reto Curto"
+      },
+      "description": {
+        "en": "A streamlined biker jacket in supple leather with an asymmetric closure, notched lapels and zipped pockets. The clean hardware keeps the classic shape easy to dress up or down.",
+        "pt-BR": "Jaqueta biker de couro macio com fechamento assimétrico, lapelas e bolsos com zíper. As ferragens discretas deixam o formato clássico fácil de combinar em diferentes ocasiões."
+      },
+      "price": {
+        "BRL": 1499.9,
+        "USD": 348
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "leather jacket",
+          "biker jacket",
+          "black"
+        ],
+        "pt-BR": [
+          "jaqueta de couro",
+          "jaqueta biker",
+          "preta"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "leather",
+          "value": {
+            "en": "Leather",
+            "pt-BR": "Couro"
+          }
+        }
+      ],
+      "defaultVariantId": "black-s",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "black-s",
+          "sku": "FIO-LBJ-S",
+          "options": {
+            "size": "s"
+          },
+          "price": {
+            "BRL": 1499.9,
+            "USD": 348
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black leather biker jacket with asymmetric zipper",
+                "pt-BR": "Jaqueta biker preta de couro com zíper assimétrico"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-biker-jacket/black-white.webp",
+                "#f5f5f5": "images/leather-biker-jacket/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-m",
+          "sku": "FIO-LBJ-M",
+          "options": {
+            "size": "m"
+          },
+          "price": {
+            "BRL": 1499.9,
+            "USD": 348
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black leather biker jacket with asymmetric zipper",
+                "pt-BR": "Jaqueta biker preta de couro com zíper assimétrico"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-biker-jacket/black-white.webp",
+                "#f5f5f5": "images/leather-biker-jacket/black-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "black-l",
+          "sku": "FIO-LBJ-L",
+          "options": {
+            "size": "l"
+          },
+          "price": {
+            "BRL": 1499.9,
+            "USD": 348
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black leather biker jacket with asymmetric zipper",
+                "pt-BR": "Jaqueta biker preta de couro com zíper assimétrico"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-biker-jacket/black-white.webp",
+                "#f5f5f5": "images/leather-biker-jacket/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leather-platform-sneaker",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-sapatos",
+      "name": {
+        "en": "Ritmo Form White Leather Platform Sneakers with Cushioned Insole, Tonal Laces and Flexible Rubber Cupsole",
+        "pt-BR": "Tênis Ritmo Form Branco em Couro com Plataforma, Palmilha Macia, Cadarços Tonais e Solado Flexível de Borracha"
+      },
+      "description": {
+        "en": "Minimal low-top sneakers in smooth leather with a supportive platform cupsole and cushioned insole. The tonal finish makes them easy to pair with denim, tailoring and dresses.",
+        "pt-BR": "Tênis minimalista de cano baixo em couro liso, com solado plataforma de suporte e palmilha macia. O acabamento tonal combina facilmente com jeans, alfaiataria e vestidos."
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 92
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "platform sneakers",
+          "white leather",
+          "low top"
+        ],
+        "pt-BR": [
+          "tênis plataforma",
+          "couro branco",
+          "cano baixo"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "leather",
+          "value": {
+            "en": "Leather",
+            "pt-BR": "Couro"
+          }
+        }
+      ],
+      "defaultVariantId": "white-36",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "36",
+              "valueId": "36",
+              "name": {
+                "en": "36",
+                "pt-BR": "36"
+              }
+            },
+            {
+              "id": "38",
+              "valueId": "38",
+              "name": {
+                "en": "38",
+                "pt-BR": "38"
+              }
+            },
+            {
+              "id": "40",
+              "valueId": "40",
+              "name": {
+                "en": "40",
+                "pt-BR": "40"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-36",
+          "sku": "RIT-LPS-36",
+          "options": {
+            "size": "36"
+          },
+          "price": {
+            "BRL": 399.9,
+            "USD": 92
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White leather platform sneaker in three-quarter view",
+                "pt-BR": "Tênis plataforma branco de couro em vista de três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-platform-sneaker/white-white.webp",
+                "#f5f5f5": "images/leather-platform-sneaker/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "white-38",
+          "sku": "RIT-LPS-38",
+          "options": {
+            "size": "38"
+          },
+          "price": {
+            "BRL": 399.9,
+            "USD": 92
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White leather platform sneaker in three-quarter view",
+                "pt-BR": "Tênis plataforma branco de couro em vista de três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-platform-sneaker/white-white.webp",
+                "#f5f5f5": "images/leather-platform-sneaker/white-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "white-40",
+          "sku": "RIT-LPS-40",
+          "options": {
+            "size": "40"
+          },
+          "price": {
+            "BRL": 399.9,
+            "USD": 92
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White leather platform sneaker in three-quarter view",
+                "pt-BR": "Tênis plataforma branco de couro em vista de três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-platform-sneaker/white-white.webp",
+                "#f5f5f5": "images/leather-platform-sneaker/white-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leather-satchel-bag",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-acessorios-acessorios",
+      "name": {
+        "en": "Fio Puro Tan Structured Leather Satchel Bag with Top Handle, Removable Shoulder Strap and Interior Pocket",
+        "pt-BR": "Bolsa Satchel Fio Puro Caramelo em Couro Estruturado com Alça de Mão, Alça de Ombro Removível e Bolso Interno"
+      },
+      "description": {
+        "en": "A structured leather satchel with a top handle, removable shoulder strap and secure flap closure. The lined interior keeps everyday essentials organized without adding bulk.",
+        "pt-BR": "Bolsa satchel estruturada em couro, com alça de mão, alça de ombro removível e fechamento seguro por aba. O interior forrado organiza os itens essenciais sem criar volume."
+      },
+      "price": {
+        "BRL": 649.9,
+        "USD": 149
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "satchel bag",
+          "leather handbag",
+          "tan"
+        ],
+        "pt-BR": [
+          "bolsa satchel",
+          "bolsa de couro",
+          "caramelo"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "leather",
+          "value": {
+            "en": "Leather",
+            "pt-BR": "Couro"
+          }
+        }
+      ],
+      "defaultVariantId": "tan-s",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "tan-s",
+          "sku": "FIO-LSB-S",
+          "options": {
+            "size": "s"
+          },
+          "price": {
+            "BRL": 649.9,
+            "USD": 149
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tan structured leather satchel bag with top handle",
+                "pt-BR": "Bolsa satchel estruturada em couro caramelo com alça de mão"
+              },
+              "backgrounds": {
+                "#ffffff": "tan-white.png",
+                "#f5f5f5": "tan-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-satchel-bag/tan-white.webp",
+                "#f5f5f5": "images/leather-satchel-bag/tan-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 799.9,
+            "USD": 185
+          }
+        },
+        {
+          "id": "tan-m",
+          "sku": "FIO-LSB-M",
+          "options": {
+            "size": "m"
+          },
+          "price": {
+            "BRL": 649.9,
+            "USD": 149
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tan structured leather satchel bag with top handle",
+                "pt-BR": "Bolsa satchel estruturada em couro caramelo com alça de mão"
+              },
+              "backgrounds": {
+                "#ffffff": "tan-white.png",
+                "#f5f5f5": "tan-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/leather-satchel-bag/tan-white.webp",
+                "#f5f5f5": "images/leather-satchel-bag/tan-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 799.9,
+            "USD": 185
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 799.9,
+        "USD": 185
+      }
+    },
+    {
       "id": "over-ear-headphones",
       "categoryId": "eletro-pessoais",
       "name": {
@@ -3710,6 +5795,180 @@
               "src": {
                 "#ffffff": "images/over-ear-headphones/black-white.webp",
                 "#f5f5f5": "images/over-ear-headphones/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oxford-dress-shoe",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-sapatos",
+      "name": {
+        "en": "Fio Puro Cognac Leather Oxford Dress Shoes with Cap Toe, Blake-Stitched Sole and Cushioned Lining",
+        "pt-BR": "Sapato Oxford Fio Puro Conhaque em Couro com Biqueira Lisa, Solado Costurado e Forro Interno Acolchoado"
+      },
+      "description": {
+        "en": "Classic lace-up Oxford shoes in smooth leather with a clean cap toe and stitched sole. A cushioned lining makes the formal silhouette comfortable for long workdays and events.",
+        "pt-BR": "Sapato Oxford clássico de amarrar em couro liso, com biqueira limpa e solado costurado. O forro acolchoado traz conforto para dias de trabalho e eventos prolongados."
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 128
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Oxford shoes",
+          "dress shoes",
+          "cognac leather"
+        ],
+        "pt-BR": [
+          "sapato Oxford",
+          "sapato social",
+          "couro conhaque"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "leather",
+          "value": {
+            "en": "Leather",
+            "pt-BR": "Couro"
+          }
+        }
+      ],
+      "defaultVariantId": "cognac-36",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "36",
+              "valueId": "36",
+              "name": {
+                "en": "36",
+                "pt-BR": "36"
+              }
+            },
+            {
+              "id": "38",
+              "valueId": "38",
+              "name": {
+                "en": "38",
+                "pt-BR": "38"
+              }
+            },
+            {
+              "id": "40",
+              "valueId": "40",
+              "name": {
+                "en": "40",
+                "pt-BR": "40"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "cognac-36",
+          "sku": "FIO-ODS-36",
+          "options": {
+            "size": "36"
+          },
+          "price": {
+            "BRL": 549.9,
+            "USD": 128
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Pair of cognac leather Oxford dress shoes",
+                "pt-BR": "Par de sapatos Oxford em couro conhaque"
+              },
+              "backgrounds": {
+                "#ffffff": "cognac-white.png",
+                "#f5f5f5": "cognac-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/oxford-dress-shoe/cognac-white.webp",
+                "#f5f5f5": "images/oxford-dress-shoe/cognac-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cognac-38",
+          "sku": "FIO-ODS-38",
+          "options": {
+            "size": "38"
+          },
+          "price": {
+            "BRL": 549.9,
+            "USD": 128
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Pair of cognac leather Oxford dress shoes",
+                "pt-BR": "Par de sapatos Oxford em couro conhaque"
+              },
+              "backgrounds": {
+                "#ffffff": "cognac-white.png",
+                "#f5f5f5": "cognac-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/oxford-dress-shoe/cognac-white.webp",
+                "#f5f5f5": "images/oxford-dress-shoe/cognac-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "cognac-40",
+          "sku": "FIO-ODS-40",
+          "options": {
+            "size": "40"
+          },
+          "price": {
+            "BRL": 549.9,
+            "USD": 128
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Pair of cognac leather Oxford dress shoes",
+                "pt-BR": "Par de sapatos Oxford em couro conhaque"
+              },
+              "backgrounds": {
+                "#ffffff": "cognac-white.png",
+                "#f5f5f5": "cognac-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/oxford-dress-shoe/cognac-white.webp",
+                "#f5f5f5": "images/oxford-dress-shoe/cognac-gray.webp"
               }
             }
           ]
@@ -4621,6 +6880,196 @@
           ]
         }
       ]
+    },
+    {
+      "id": "quilted-slip-on-shoe",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-sapatos",
+      "name": {
+        "en": "Ritmo Cabin Rust Quilted Slip-On Shoes with Warm Lining, Cushioned Footbed and Lightweight Rubber Sole",
+        "pt-BR": "Sapato Slip-On Ritmo Cabin Ferrugem com Matelassê, Forro Aconchegante, Palmilha Macia e Solado Leve de Borracha"
+      },
+      "description": {
+        "en": "Warm quilted slip-ons with a soft lining, cushioned footbed and flexible rubber sole. The easy-on shape works indoors, on trips and for quick cold-weather errands.",
+        "pt-BR": "Slip-on acolchoado com forro macio, palmilha confortável e solado flexível de borracha. O formato fácil de calçar funciona em casa, em viagens e em saídas rápidas no frio."
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 68
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "slip-on shoes",
+          "quilted",
+          "warm lining"
+        ],
+        "pt-BR": [
+          "sapato slip-on",
+          "matelassê",
+          "forro quente"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "recycled-synthetic",
+          "value": {
+            "en": "Recycled synthetic",
+            "pt-BR": "Sintético reciclado"
+          }
+        }
+      ],
+      "defaultVariantId": "rust-36",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "36",
+              "valueId": "36",
+              "name": {
+                "en": "36",
+                "pt-BR": "36"
+              }
+            },
+            {
+              "id": "38",
+              "valueId": "38",
+              "name": {
+                "en": "38",
+                "pt-BR": "38"
+              }
+            },
+            {
+              "id": "40",
+              "valueId": "40",
+              "name": {
+                "en": "40",
+                "pt-BR": "40"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "rust-36",
+          "sku": "RIT-QSOS-36",
+          "options": {
+            "size": "36"
+          },
+          "price": {
+            "BRL": 299.9,
+            "USD": 68
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Rust quilted slip-on shoes with dark rubber soles",
+                "pt-BR": "Sapatos slip-on ferrugem matelassados com solado escuro"
+              },
+              "backgrounds": {
+                "#ffffff": "rust-white.png",
+                "#f5f5f5": "rust-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/quilted-slip-on-shoe/rust-white.webp",
+                "#f5f5f5": "images/quilted-slip-on-shoe/rust-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 369.9,
+            "USD": 84
+          }
+        },
+        {
+          "id": "rust-38",
+          "sku": "RIT-QSOS-38",
+          "options": {
+            "size": "38"
+          },
+          "price": {
+            "BRL": 299.9,
+            "USD": 68
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Rust quilted slip-on shoes with dark rubber soles",
+                "pt-BR": "Sapatos slip-on ferrugem matelassados com solado escuro"
+              },
+              "backgrounds": {
+                "#ffffff": "rust-white.png",
+                "#f5f5f5": "rust-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/quilted-slip-on-shoe/rust-white.webp",
+                "#f5f5f5": "images/quilted-slip-on-shoe/rust-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 369.9,
+            "USD": 84
+          }
+        },
+        {
+          "id": "rust-40",
+          "sku": "RIT-QSOS-40",
+          "options": {
+            "size": "40"
+          },
+          "price": {
+            "BRL": 299.9,
+            "USD": 68
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Rust quilted slip-on shoes with dark rubber soles",
+                "pt-BR": "Sapatos slip-on ferrugem matelassados com solado escuro"
+              },
+              "backgrounds": {
+                "#ffffff": "rust-white.png",
+                "#f5f5f5": "rust-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/quilted-slip-on-shoe/rust-white.webp",
+                "#f5f5f5": "images/quilted-slip-on-shoe/rust-gray.webp"
+              }
+            }
+          ],
+          "listPrice": {
+            "BRL": 369.9,
+            "USD": 84
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 369.9,
+        "USD": 84
+      }
     },
     {
       "id": "robot-vacuum",
@@ -6281,6 +8730,180 @@
       ]
     },
     {
+      "id": "tailored-blazer",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-parte-de-cima-formal",
+      "name": {
+        "en": "Fio Puro Deep Navy Tailored Blazer in Cotton Blend with Notched Lapels, Patch Pockets and Regular Fit",
+        "pt-BR": "Blazer Fio Puro Azul-Marinho Profundo em Mistura de Algodão com Lapelas, Bolsos Aplicados e Caimento Reto"
+      },
+      "description": {
+        "en": "A softly structured blazer with notched lapels, patch pockets and a comfortable regular fit. The cotton-blend fabric bridges polished workwear and relaxed weekend dressing.",
+        "pt-BR": "Blazer de estrutura leve com lapelas, bolsos aplicados e corte reto confortável. O tecido em mistura de algodão transita entre produções de trabalho e combinações casuais."
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 208
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "tailored blazer",
+          "navy",
+          "cotton blend"
+        ],
+        "pt-BR": [
+          "blazer de alfaiataria",
+          "azul-marinho",
+          "mistura de algodão"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton-blend",
+          "value": {
+            "en": "Cotton blend",
+            "pt-BR": "Mistura de algodão"
+          }
+        }
+      ],
+      "defaultVariantId": "navy-s",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "navy-s",
+          "sku": "FIO-TB-S",
+          "options": {
+            "size": "s"
+          },
+          "price": {
+            "BRL": 899.9,
+            "USD": 208
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Deep navy tailored blazer with notched lapels",
+                "pt-BR": "Blazer de alfaiataria azul-marinho com lapelas"
+              },
+              "backgrounds": {
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/tailored-blazer/navy-white.webp",
+                "#f5f5f5": "images/tailored-blazer/navy-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "navy-m",
+          "sku": "FIO-TB-M",
+          "options": {
+            "size": "m"
+          },
+          "price": {
+            "BRL": 899.9,
+            "USD": 208
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Deep navy tailored blazer with notched lapels",
+                "pt-BR": "Blazer de alfaiataria azul-marinho com lapelas"
+              },
+              "backgrounds": {
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/tailored-blazer/navy-white.webp",
+                "#f5f5f5": "images/tailored-blazer/navy-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "navy-l",
+          "sku": "FIO-TB-L",
+          "options": {
+            "size": "l"
+          },
+          "price": {
+            "BRL": 899.9,
+            "USD": 208
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Deep navy tailored blazer with notched lapels",
+                "pt-BR": "Blazer de alfaiataria azul-marinho com lapelas"
+              },
+              "backgrounds": {
+                "#ffffff": "navy-white.png",
+                "#f5f5f5": "navy-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/tailored-blazer/navy-white.webp",
+                "#f5f5f5": "images/tailored-blazer/navy-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "thermal-blanket",
       "brandId": "casa-norte",
       "brand": {
@@ -6844,6 +9467,180 @@
       ]
     },
     {
+      "id": "utility-overshirt",
+      "brandId": "fio-puro",
+      "brand": {
+        "id": "fio-puro",
+        "name": {
+          "en": "Fio Puro",
+          "pt-BR": "Fio Puro"
+        }
+      },
+      "categoryId": "roupa-parte-de-cima-formal",
+      "name": {
+        "en": "Fio Puro Olive Cotton Utility Overshirt with Point Collar, Button Front, Patch Pockets and Relaxed Fit",
+        "pt-BR": "Sobrecamisa Utilitária Fio Puro Verde-Oliva em Algodão com Colarinho, Botões, Bolsos Aplicados e Caimento Relaxado"
+      },
+      "description": {
+        "en": "A midweight cotton overshirt with generous patch pockets and a relaxed straight fit. Wear it buttoned as a shirt or open over a tee as a light transitional layer.",
+        "pt-BR": "Sobrecamisa de algodão de gramatura média, com bolsos aplicados amplos e corte reto relaxado. Pode ser usada fechada ou aberta sobre uma camiseta como camada leve."
+      },
+      "price": {
+        "BRL": 449.9,
+        "USD": 104
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "utility overshirt",
+          "olive shirt",
+          "cotton"
+        ],
+        "pt-BR": [
+          "sobrecamisa utilitária",
+          "camisa verde-oliva",
+          "algodão"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cotton",
+          "value": {
+            "en": "Cotton",
+            "pt-BR": "Algodão"
+          }
+        }
+      ],
+      "defaultVariantId": "olive-s",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "olive-s",
+          "sku": "FIO-UO-S",
+          "options": {
+            "size": "s"
+          },
+          "price": {
+            "BRL": 449.9,
+            "USD": 104
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Olive cotton utility overshirt with front patch pockets",
+                "pt-BR": "Sobrecamisa utilitária verde-oliva de algodão com bolsos frontais"
+              },
+              "backgrounds": {
+                "#ffffff": "olive-white.png",
+                "#f5f5f5": "olive-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/utility-overshirt/olive-white.webp",
+                "#f5f5f5": "images/utility-overshirt/olive-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "olive-m",
+          "sku": "FIO-UO-M",
+          "options": {
+            "size": "m"
+          },
+          "price": {
+            "BRL": 449.9,
+            "USD": 104
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Olive cotton utility overshirt with front patch pockets",
+                "pt-BR": "Sobrecamisa utilitária verde-oliva de algodão com bolsos frontais"
+              },
+              "backgrounds": {
+                "#ffffff": "olive-white.png",
+                "#f5f5f5": "olive-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/utility-overshirt/olive-white.webp",
+                "#f5f5f5": "images/utility-overshirt/olive-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "olive-l",
+          "sku": "FIO-UO-L",
+          "options": {
+            "size": "l"
+          },
+          "price": {
+            "BRL": 449.9,
+            "USD": 104
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Olive cotton utility overshirt with front patch pockets",
+                "pt-BR": "Sobrecamisa utilitária verde-oliva de algodão com bolsos frontais"
+              },
+              "backgrounds": {
+                "#ffffff": "olive-white.png",
+                "#f5f5f5": "olive-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/utility-overshirt/olive-white.webp",
+                "#f5f5f5": "images/utility-overshirt/olive-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "webcam",
       "categoryId": "eletro-acessorios",
       "name": {
@@ -7091,6 +9888,180 @@
               "src": {
                 "#ffffff": "images/wifi-router/black-white.webp",
                 "#f5f5f5": "images/wifi-router/black-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "windbreaker-jacket",
+      "brandId": "ritmo",
+      "brand": {
+        "id": "ritmo",
+        "name": {
+          "en": "Ritmo",
+          "pt-BR": "Ritmo"
+        }
+      },
+      "categoryId": "roupa-parte-de-cima-casual",
+      "name": {
+        "en": "Ritmo Motion Red Lightweight Windbreaker Jacket in Recycled Fabric with Zip Front and Packable Water-Resistant Shell",
+        "pt-BR": "Jaqueta Corta-Vento Ritmo Motion Vermelha em Tecido Reciclado Leve com Zíper e Estrutura Compactável Resistente à Água"
+      },
+      "description": {
+        "en": "A lightweight windbreaker with a high collar, full zip and elasticated cuffs. The water-resistant recycled shell packs down easily for commutes, travel and changing weather.",
+        "pt-BR": "Jaqueta corta-vento leve com gola alta, zíper frontal e punhos elásticos. O tecido reciclado resistente à água é fácil de guardar para deslocamentos, viagens e mudanças de clima."
+      },
+      "price": {
+        "BRL": 379.9,
+        "USD": 88
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "windbreaker",
+          "red jacket",
+          "water resistant"
+        ],
+        "pt-BR": [
+          "corta-vento",
+          "jaqueta vermelha",
+          "resistente à água"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "recycled-polyester",
+          "value": {
+            "en": "Recycled polyester",
+            "pt-BR": "Poliéster reciclado"
+          }
+        }
+      ],
+      "defaultVariantId": "red-s",
+      "options": [
+        {
+          "id": "size",
+          "specificationId": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "s",
+              "valueId": "s",
+              "name": {
+                "en": "S",
+                "pt-BR": "P"
+              }
+            },
+            {
+              "id": "m",
+              "valueId": "m",
+              "name": {
+                "en": "M",
+                "pt-BR": "M"
+              }
+            },
+            {
+              "id": "l",
+              "valueId": "l",
+              "name": {
+                "en": "L",
+                "pt-BR": "G"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "red-s",
+          "sku": "RIT-WJ-S",
+          "options": {
+            "size": "s"
+          },
+          "price": {
+            "BRL": 379.9,
+            "USD": 88
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Red lightweight windbreaker jacket with high collar",
+                "pt-BR": "Jaqueta corta-vento vermelha leve com gola alta"
+              },
+              "backgrounds": {
+                "#ffffff": "red-white.png",
+                "#f5f5f5": "red-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/windbreaker-jacket/red-white.webp",
+                "#f5f5f5": "images/windbreaker-jacket/red-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "red-m",
+          "sku": "RIT-WJ-M",
+          "options": {
+            "size": "m"
+          },
+          "price": {
+            "BRL": 379.9,
+            "USD": 88
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Red lightweight windbreaker jacket with high collar",
+                "pt-BR": "Jaqueta corta-vento vermelha leve com gola alta"
+              },
+              "backgrounds": {
+                "#ffffff": "red-white.png",
+                "#f5f5f5": "red-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/windbreaker-jacket/red-white.webp",
+                "#f5f5f5": "images/windbreaker-jacket/red-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "red-l",
+          "sku": "RIT-WJ-L",
+          "options": {
+            "size": "l"
+          },
+          "price": {
+            "BRL": 379.9,
+            "USD": 88
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Red lightweight windbreaker jacket with high collar",
+                "pt-BR": "Jaqueta corta-vento vermelha leve com gola alta"
+              },
+              "backgrounds": {
+                "#ffffff": "red-white.png",
+                "#f5f5f5": "red-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/windbreaker-jacket/red-white.webp",
+                "#f5f5f5": "images/windbreaker-jacket/red-gray.webp"
               }
             }
           ]

@@ -1,0 +1,131 @@
+{
+  "id": "flip-flops",
+  "brandId": "ritmo",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Ritmo Coast Yellow and Blue Cushioned Rubber Flip-Flops with Textured Footbed and Flexible Non-Slip Sole",
+    "pt-BR": "Chinelo Ritmo Coast Amarelo e Azul em Borracha Macia com Palmilha Texturizada e Solado Flexível Antiderrapante"
+  },
+  "description": {
+    "en": "Lightweight flip-flops with a cushioned textured footbed and flexible rubber straps. The grippy sole is designed for pool days, beach trips and casual warm-weather errands.",
+    "pt-BR": "Chinelo leve com palmilha texturizada macia e tiras flexíveis de borracha. O solado aderente funciona bem na piscina, na praia e em passeios casuais nos dias quentes."
+  },
+  "price": {
+    "BRL": 79.9,
+    "USD": 18
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "flip-flops",
+      "rubber sandals",
+      "beach"
+    ],
+    "pt-BR": [
+      "chinelo",
+      "sandália de borracha",
+      "praia"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "rubber"
+    }
+  ],
+  "defaultVariantId": "yellow-blue-36",
+  "options": [
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "36",
+          "valueId": "36"
+        },
+        {
+          "id": "38",
+          "valueId": "38"
+        },
+        {
+          "id": "40",
+          "valueId": "40"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "yellow-blue-36",
+      "sku": "RIT-FF-36",
+      "options": {
+        "size": "36"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 18
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Yellow and blue rubber flip-flops viewed from above",
+            "pt-BR": "Chinelos amarelos e azuis de borracha vistos de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "yellow-blue-white.png",
+            "#f5f5f5": "yellow-blue-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yellow-blue-38",
+      "sku": "RIT-FF-38",
+      "options": {
+        "size": "38"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 18
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Yellow and blue rubber flip-flops viewed from above",
+            "pt-BR": "Chinelos amarelos e azuis de borracha vistos de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "yellow-blue-white.png",
+            "#f5f5f5": "yellow-blue-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yellow-blue-40",
+      "sku": "RIT-FF-40",
+      "options": {
+        "size": "40"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 18
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Yellow and blue rubber flip-flops viewed from above",
+            "pt-BR": "Chinelos amarelos e azuis de borracha vistos de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "yellow-blue-white.png",
+            "#f5f5f5": "yellow-blue-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

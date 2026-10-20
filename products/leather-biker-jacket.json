@@ -1,0 +1,131 @@
+{
+  "id": "leather-biker-jacket",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-formal",
+  "name": {
+    "en": "Fio Puro Black Leather Biker Jacket with Asymmetric Zip, Notched Lapels, Zip Pockets and Cropped Regular Fit",
+    "pt-BR": "Jaqueta Biker Fio Puro Preta em Couro com Zíper Assimétrico, Lapelas, Bolsos com Zíper e Caimento Reto Curto"
+  },
+  "description": {
+    "en": "A streamlined biker jacket in supple leather with an asymmetric closure, notched lapels and zipped pockets. The clean hardware keeps the classic shape easy to dress up or down.",
+    "pt-BR": "Jaqueta biker de couro macio com fechamento assimétrico, lapelas e bolsos com zíper. As ferragens discretas deixam o formato clássico fácil de combinar em diferentes ocasiões."
+  },
+  "price": {
+    "BRL": 1499.9,
+    "USD": 348
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "leather jacket",
+      "biker jacket",
+      "black"
+    ],
+    "pt-BR": [
+      "jaqueta de couro",
+      "jaqueta biker",
+      "preta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-LBJ-S",
+      "options": {
+        "size": "s"
+      },
+      "price": {
+        "BRL": 1499.9,
+        "USD": 348
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black leather biker jacket with asymmetric zipper",
+            "pt-BR": "Jaqueta biker preta de couro com zíper assimétrico"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-LBJ-M",
+      "options": {
+        "size": "m"
+      },
+      "price": {
+        "BRL": 1499.9,
+        "USD": 348
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black leather biker jacket with asymmetric zipper",
+            "pt-BR": "Jaqueta biker preta de couro com zíper assimétrico"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-LBJ-L",
+      "options": {
+        "size": "l"
+      },
+      "price": {
+        "BRL": 1499.9,
+        "USD": 348
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black leather biker jacket with asymmetric zipper",
+            "pt-BR": "Jaqueta biker preta de couro com zíper assimétrico"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

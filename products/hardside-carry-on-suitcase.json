@@ -1,0 +1,115 @@
+{
+  "id": "hardside-carry-on-suitcase",
+  "brandId": "trilha-livre",
+  "categoryId": "roupa-acessorios-acessorios",
+  "name": {
+    "en": "Trilha Livre Silver Hardside Carry-On Suitcase with Expandable Polycarbonate Shell, Spinner Wheels and TSA Lock",
+    "pt-BR": "Mala de Bordo Trilha Livre Prata com Casco Rígido Expansível em Policarbonato, Rodas Giratórias e Cadeado TSA"
+  },
+  "description": {
+    "en": "A lightweight hardside carry-on with an expandable polycarbonate shell, smooth spinner wheels and organized interior. The telescopic handle locks at two heights for easier airport transfers.",
+    "pt-BR": "Mala de bordo rígida e leve, com casco expansível em policarbonato, rodas giratórias suaves e interior organizado. A alça telescópica trava em duas alturas para facilitar o transporte."
+  },
+  "price": {
+    "BRL": 699.9,
+    "USD": 159
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "carry-on suitcase",
+      "hardside luggage",
+      "travel"
+    ],
+    "pt-BR": [
+      "mala de bordo",
+      "bagagem rígida",
+      "viagem"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polycarbonate"
+    }
+  ],
+  "defaultVariantId": "silver-35-l",
+  "options": [
+    {
+      "id": "capacity",
+      "specificationId": "capacity",
+      "values": [
+        {
+          "id": "35-l",
+          "valueId": "35-l"
+        },
+        {
+          "id": "45-l",
+          "valueId": "45-l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "silver-35-l",
+      "sku": "TRI-HCOS-35-L",
+      "options": {
+        "capacity": "35-l"
+      },
+      "price": {
+        "BRL": 699.9,
+        "USD": 159
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Silver hardside carry-on suitcase with extended handle",
+            "pt-BR": "Mala de bordo rígida prata com alça estendida"
+          },
+          "backgrounds": {
+            "#ffffff": "silver-white.png",
+            "#f5f5f5": "silver-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 849.9,
+        "USD": 189
+      }
+    },
+    {
+      "id": "silver-45-l",
+      "sku": "TRI-HCOS-45-L",
+      "options": {
+        "capacity": "45-l"
+      },
+      "price": {
+        "BRL": 699.9,
+        "USD": 159
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Silver hardside carry-on suitcase with extended handle",
+            "pt-BR": "Mala de bordo rígida prata com alça estendida"
+          },
+          "backgrounds": {
+            "#ffffff": "silver-white.png",
+            "#f5f5f5": "silver-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 849.9,
+        "USD": 189
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 849.9,
+    "USD": 189
+  }
+}

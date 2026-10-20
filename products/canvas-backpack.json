@@ -1,0 +1,103 @@
+{
+  "id": "canvas-backpack",
+  "brandId": "trilha-livre",
+  "categoryId": "roupa-acessorios-acessorios",
+  "name": {
+    "en": "Trilha Livre Sand Canvas Everyday Backpack with Padded Laptop Sleeve, Front Pocket and Water Bottle Pockets",
+    "pt-BR": "Mochila Trilha Livre de Lona Areia para o Dia a Dia com Compartimento Acolchoado para Notebook, Bolso Frontal e Porta-Garrafas"
+  },
+  "description": {
+    "en": "A clean everyday backpack made from sturdy canvas with a padded laptop sleeve, zipped front pocket and two bottle pockets. Wide straps distribute weight on longer days.",
+    "pt-BR": "Mochila de uso diário em lona resistente, com compartimento acolchoado para notebook, bolso frontal com zíper e dois porta-garrafas. As alças largas distribuem melhor o peso."
+  },
+  "price": {
+    "BRL": 349.9,
+    "USD": 79
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "canvas backpack",
+      "laptop bag",
+      "travel"
+    ],
+    "pt-BR": [
+      "mochila de lona",
+      "bolsa para notebook",
+      "viagem"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton-blend"
+    }
+  ],
+  "defaultVariantId": "sand-18-l",
+  "options": [
+    {
+      "id": "capacity",
+      "specificationId": "capacity",
+      "values": [
+        {
+          "id": "18-l",
+          "valueId": "18-l"
+        },
+        {
+          "id": "22-l",
+          "valueId": "22-l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "sand-18-l",
+      "sku": "TRI-CB-18-L",
+      "options": {
+        "capacity": "18-l"
+      },
+      "price": {
+        "BRL": 349.9,
+        "USD": 79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sand canvas backpack with front zip pocket and side pockets",
+            "pt-BR": "Mochila de lona areia com bolso frontal e bolsos laterais"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sand-22-l",
+      "sku": "TRI-CB-22-L",
+      "options": {
+        "capacity": "22-l"
+      },
+      "price": {
+        "BRL": 349.9,
+        "USD": 79
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sand canvas backpack with front zip pocket and side pockets",
+            "pt-BR": "Mochila de lona areia com bolso frontal e bolsos laterais"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
