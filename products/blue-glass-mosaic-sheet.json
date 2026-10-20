@@ -1,0 +1,146 @@
+{
+  "id": "blue-glass-mosaic-sheet",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Pool Blue Glass Mosaic Tile Sheet on Mesh for Pools and Wet Walls, 12 by 12 Inches",
+    "pt-BR": "Pastilha de Vidro Azul Piscina em Placa com Tela para Piscina e Parede Molhada, 30×30 cm"
+  },
+  "description": {
+    "en": "A mesh-mounted sheet of small glass squares in mixed pool blues, for pools, showers and outdoor wet walls. The listed price is for one 12 by 12 inch sheet.",
+    "pt-BR": "Placa de pastilhas de vidro em tons de azul piscina montadas em tela, para piscina, box e parede externa molhada. O preço anunciado é de uma placa de 30×30 cm."
+  },
+  "price": {
+    "BRL": 14.9,
+    "USD": 8.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "glass mosaic",
+      "pool tile",
+      "blue"
+    ],
+    "pt-BR": [
+      "pastilha de vidro",
+      "piscina",
+      "azul"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "glass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "pool-blue-single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "pool-blue",
+          "name": {
+            "en": "Pool blue",
+            "pt-BR": "Azul piscina"
+          },
+          "hex": "#3FB6C8"
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "name": {
+        "en": "Quantity",
+        "pt-BR": "Quantidade"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 sheet",
+            "pt-BR": "1 placa"
+          }
+        },
+        {
+          "id": "box-11",
+          "name": {
+            "en": "Box of 11 sheets",
+            "pt-BR": "Caixa com 11 placas"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "pool-blue-single",
+      "sku": "CON-BLUE-GLASS-MOSAIC-SHEET-SINGLE",
+      "options": {
+        "color": "pool-blue",
+        "quantity": "single"
+      },
+      "price": {
+        "BRL": 14.9,
+        "USD": 8.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sheet of pool blue glass mosaic",
+            "pt-BR": "Placa de pastilha de vidro azul piscina"
+          },
+          "backgrounds": {
+            "#ffffff": "pool-blue-white.png",
+            "#f5f5f5": "pool-blue-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-blue-box-11",
+      "sku": "CON-BLUE-GLASS-MOSAIC-SHEET-BOX-11",
+      "options": {
+        "color": "pool-blue",
+        "quantity": "box-11"
+      },
+      "price": {
+        "BRL": 149,
+        "USD": 89
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sheet of pool blue glass mosaic",
+            "pt-BR": "Placa de pastilha de vidro azul piscina"
+          },
+          "backgrounds": {
+            "#ffffff": "pool-blue-white.png",
+            "#f5f5f5": "pool-blue-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

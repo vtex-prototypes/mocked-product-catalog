@@ -42,6 +42,18 @@
     {
       "id": "application",
       "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "wood"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    },
+    {
+      "id": "thickness",
+      "valueId": "5-mm"
     }
   ],
   "defaultVariantId": "oak-click",

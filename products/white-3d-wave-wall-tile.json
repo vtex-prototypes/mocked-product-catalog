@@ -1,0 +1,142 @@
+{
+  "id": "white-3d-wave-wall-tile",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Matte White Ceramic 3D Wave Relief Wall Tile for Feature Walls, Priced per Square Foot",
+    "pt-BR": "Revestimento Cerâmico 3D Ondas Branco Fosco para Parede de Destaque, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A matte white ceramic tile with a raised wave relief, for one feature wall in a living room or behind a bed. Side light brings out the waves. The price is for one square foot.",
+    "pt-BR": "Revestimento cerâmico branco fosco com relevo de ondas, para uma parede de destaque na sala ou atrás da cama. Luz lateral realça as ondas. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 79.9,
+    "USD": 4.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "3d wall tile",
+      "white",
+      "feature wall"
+    ],
+    "pt-BR": [
+      "revestimento 3d",
+      "branco",
+      "parede de destaque"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "white-matte",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F3F3F1"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "matte",
+          "name": {
+            "en": "Matte",
+            "pt-BR": "Fosco"
+          }
+        },
+        {
+          "id": "satin",
+          "name": {
+            "en": "Satin",
+            "pt-BR": "Acetinado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-matte",
+      "sku": "CON-WHITE-3D-WAVE-WALL-TILE-MATTE",
+      "options": {
+        "color": "white",
+        "finish": "matte"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 4.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White 3D wave relief wall tile",
+            "pt-BR": "Revestimento 3D ondas branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-satin",
+      "sku": "CON-WHITE-3D-WAVE-WALL-TILE-SATIN",
+      "options": {
+        "color": "white",
+        "finish": "satin"
+      },
+      "price": {
+        "BRL": 84.9,
+        "USD": 5.29
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White 3D wave relief wall tile",
+            "pt-BR": "Revestimento 3D ondas branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

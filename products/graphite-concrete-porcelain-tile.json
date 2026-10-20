@@ -42,6 +42,18 @@
     {
       "id": "application",
       "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "concrete"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    },
+    {
+      "id": "thickness",
+      "valueId": "9-mm"
     }
   ],
   "defaultVariantId": "graphite-natural",

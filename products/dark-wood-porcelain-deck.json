@@ -1,0 +1,154 @@
+{
+  "id": "dark-wood-porcelain-deck",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Dark Hardwood-Look Porcelain Deck Plank, 10 by 42 Inches and 10 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Deck Porcelanato Madeira Escura 26×106 cm com 10 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A wide porcelain plank with a dark, deeply marked hardwood grain. It can go outdoors. Slip resistance is R11 and scratch resistance is high. It stays grippy in direct rain. The price is for one square foot.",
+    "pt-BR": "Régua larga de porcelanato com veio de madeira escura e marcada. Pode ir em área externa. O antiderrapante é R11 e a resistência a arranhão é alta. Aguenta chuva direta sem ficar liso. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 99.9,
+    "USD": 4.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "porcelain tile",
+      "outdoor floor",
+      "R11"
+    ],
+    "pt-BR": [
+      "porcelanato",
+      "piso externo",
+      "antiderrapante R11"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r11"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "wood"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    },
+    {
+      "id": "thickness",
+      "valueId": "10-mm"
+    }
+  ],
+  "defaultVariantId": "dark-wood-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "dark-wood",
+          "name": {
+            "en": "Dark wood",
+            "pt-BR": "Madeira escura"
+          },
+          "hex": "#4A2A22"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "dark-wood-natural",
+      "sku": "CON-DARK-WOOD-PORCELAIN-DECK-NATURAL",
+      "options": {
+        "color": "dark-wood",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 99.9,
+        "USD": 4.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Dark Hardwood-Look Porcelain Deck Plank",
+            "pt-BR": "Deck Porcelanato Madeira Escura 26×106 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "dark-wood-white.png",
+            "#f5f5f5": "dark-wood-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dark-wood-rectified",
+      "sku": "CON-DARK-WOOD-PORCELAIN-DECK-RECTIFIED",
+      "options": {
+        "color": "dark-wood",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 103.9,
+        "USD": 5.19
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Dark Hardwood-Look Porcelain Deck Plank",
+            "pt-BR": "Deck Porcelanato Madeira Escura 26×106 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "dark-wood-white.png",
+            "#f5f5f5": "dark-wood-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

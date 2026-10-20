@@ -1,0 +1,138 @@
+{
+  "id": "pvc-three-way-corner-fitting",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "Gray PVC Three-Way Corner Fitting for 1 Inch Cold-Water Pipe, Sold by the Piece",
+    "pt-BR": "Conexão de Canto de PVC Cinza com Três Saídas para Tubo de 25 mm, Vendida por Peça"
+  },
+  "description": {
+    "en": "A gray PVC corner fitting with three openings, for joining 1 inch cold-water pipes at a right-angle corner in two directions. The listed price is for one piece.",
+    "pt-BR": "Conexão de canto de PVC cinza com três saídas, para unir tubos de água fria de 25 mm num canto em duas direções. O preço anunciado é de uma peça."
+  },
+  "price": {
+    "BRL": 4.9,
+    "USD": 1.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "pvc fitting",
+      "cold water",
+      "plumbing"
+    ],
+    "pt-BR": [
+      "conexão de pvc",
+      "água fria",
+      "hidráulica"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "pvc"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "gray-single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#9AA0A6"
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "name": {
+        "en": "Quantity",
+        "pt-BR": "Quantidade"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 unidade"
+          }
+        },
+        {
+          "id": "pack-10",
+          "name": {
+            "en": "Pack of 10",
+            "pt-BR": "Pacote com 10"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gray-single",
+      "sku": "CON-PVC-THREE-WAY-CORNER-FITTING-SINGLE",
+      "options": {
+        "color": "gray",
+        "quantity": "single"
+      },
+      "price": {
+        "BRL": 4.9,
+        "USD": 1.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC three-way corner fitting",
+            "pt-BR": "Conexão de canto de PVC cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gray-pack-10",
+      "sku": "CON-PVC-THREE-WAY-CORNER-FITTING-PACK-10",
+      "options": {
+        "color": "gray",
+        "quantity": "pack-10"
+      },
+      "price": {
+        "BRL": 39.9,
+        "USD": 15.9
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC three-way corner fitting",
+            "pt-BR": "Conexão de canto de PVC cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

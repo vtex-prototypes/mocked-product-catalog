@@ -38,6 +38,10 @@
     {
       "id": "application",
       "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
     }
   ],
   "defaultVariantId": "beige-1kg",

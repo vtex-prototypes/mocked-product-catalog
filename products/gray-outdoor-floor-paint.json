@@ -1,0 +1,138 @@
+{
+  "id": "gray-outdoor-floor-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Gray Acrylic Floor Paint for Patios, Garages and Concrete Slabs, Matte Finish, Sold by the Can",
+    "pt-BR": "Tinta Acrílica para Piso Cinza Fosca para Quintal, Garagem e Contrapiso, Vendida por Lata"
+  },
+  "description": {
+    "en": "A matte gray acrylic paint for concrete floors outdoors, from patios to garages. It is the low-cost way to refresh a balcony without new tile. The listed price is for the 3.6 liter can.",
+    "pt-BR": "Tinta acrílica cinza fosca para piso de cimento em área externa, de quintal a garagem. É o jeito barato de renovar a varanda sem trocar o piso. O preço anunciado é da lata de 3,6 litros."
+  },
+  "price": {
+    "BRL": 99.9,
+    "USD": 39
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "floor paint",
+      "gray",
+      "outdoor"
+    ],
+    "pt-BR": [
+      "tinta para piso",
+      "cinza",
+      "área externa"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "concrete-gray-3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "concrete-gray",
+          "name": {
+            "en": "Concrete gray",
+            "pt-BR": "Cinza concreto"
+          },
+          "hex": "#8E8F8C"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "3.6 L",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "18 L",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "concrete-gray-3-6-l",
+      "sku": "CON-GRAY-OUTDOOR-FLOOR-PAINT-3-6-L",
+      "options": {
+        "color": "concrete-gray",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 99.9,
+        "USD": 39
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of gray acrylic floor paint",
+            "pt-BR": "Lata de tinta acrílica para piso cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "concrete-gray-white.png",
+            "#f5f5f5": "concrete-gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "concrete-gray-18-l",
+      "sku": "CON-GRAY-OUTDOOR-FLOOR-PAINT-18-L",
+      "options": {
+        "color": "concrete-gray",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 319,
+        "USD": 129
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of gray acrylic floor paint",
+            "pt-BR": "Lata de tinta acrílica para piso cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "concrete-gray-white.png",
+            "#f5f5f5": "concrete-gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

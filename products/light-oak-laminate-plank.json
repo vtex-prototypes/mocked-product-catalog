@@ -1,0 +1,166 @@
+{
+  "id": "light-oak-laminate-plank",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Light Oak Laminate Floor Plank with a Click Edge, 7.5 by 53 Inches and 7 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Piso Laminado Carvalho Claro 19×135 cm com 7 mm e Encaixe Click, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A light oak click laminate for bedrooms and living rooms. It cannot get wet. It is meant for indoor rooms. Slip resistance is R9 and scratch resistance is medium. The price is for one square foot.",
+    "pt-BR": "Laminado carvalho claro de encaixe click para quarto e sala. Não pode molhar. É indicado para área interna. O antiderrapante é R9 e a resistência a arranhão é média. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 64.9,
+    "USD": 2.19
+  },
+  "listPrice": {
+    "BRL": 79.9,
+    "USD": 2.69
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "laminate floor",
+      "indoor floor",
+      "R9"
+    ],
+    "pt-BR": [
+      "piso laminado",
+      "piso interno",
+      "antiderrapante R9"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "laminate"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r9"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "medium"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "wood"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    },
+    {
+      "id": "thickness",
+      "valueId": "7-mm"
+    }
+  ],
+  "defaultVariantId": "light-oak-without-underlay",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "light-oak",
+          "name": {
+            "en": "Light oak",
+            "pt-BR": "Carvalho claro"
+          },
+          "hex": "#D9C4A3"
+        }
+      ]
+    },
+    {
+      "id": "underlay",
+      "name": {
+        "en": "Underlay",
+        "pt-BR": "Manta"
+      },
+      "values": [
+        {
+          "id": "without-underlay",
+          "name": {
+            "en": "Without underlay",
+            "pt-BR": "Sem manta"
+          }
+        },
+        {
+          "id": "with-underlay",
+          "name": {
+            "en": "With acoustic underlay",
+            "pt-BR": "Com manta acústica"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "light-oak-without-underlay",
+      "sku": "CON-LIGHT-OAK-LAMINATE-PLANK-WITHOUT-UNDERLAY",
+      "options": {
+        "color": "light-oak",
+        "underlay": "without-underlay"
+      },
+      "price": {
+        "BRL": 64.9,
+        "USD": 2.19
+      },
+      "listPrice": {
+        "BRL": 79.9,
+        "USD": 2.69
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Light Oak Laminate Floor Plank with a Click Edge",
+            "pt-BR": "Piso Laminado Carvalho Claro 19×135 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "light-oak-white.png",
+            "#f5f5f5": "light-oak-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "light-oak-with-underlay",
+      "sku": "CON-LIGHT-OAK-LAMINATE-PLANK-WITH-UNDERLAY",
+      "options": {
+        "color": "light-oak",
+        "underlay": "with-underlay"
+      },
+      "price": {
+        "BRL": 68.9,
+        "USD": 2.39
+      },
+      "listPrice": {
+        "BRL": 83.9,
+        "USD": 2.89
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Light Oak Laminate Floor Plank with a Click Edge",
+            "pt-BR": "Piso Laminado Carvalho Claro 19×135 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "light-oak-white.png",
+            "#f5f5f5": "light-oak-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

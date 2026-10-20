@@ -1,0 +1,138 @@
+{
+  "id": "stainless-linear-floor-drain",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "Brushed Stainless Steel Linear Floor Drain with a Slotted Grate for Balconies and Showers",
+    "pt-BR": "Ralo Linear de Inox Escovado com Grelha Vazada para Varanda e Box"
+  },
+  "description": {
+    "en": "A long brushed stainless drain with a slotted grate, for a balcony that takes rain or a curbless shower. It lets the floor slope in one direction. The listed price is for the 20 inch drain.",
+    "pt-BR": "Ralo linear longo de inox escovado com grelha vazada, para varanda que pega chuva ou box sem degrau. Deixa o caimento do piso numa direção só. O preço anunciado é do ralo de 50 cm."
+  },
+  "price": {
+    "BRL": 189,
+    "USD": 59
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "linear drain",
+      "stainless steel",
+      "balcony"
+    ],
+    "pt-BR": [
+      "ralo linear",
+      "inox",
+      "varanda"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "brushed-steel-50cm",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "brushed-steel",
+          "name": {
+            "en": "Brushed steel",
+            "pt-BR": "Inox escovado"
+          },
+          "hex": "#B9BCBE"
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "50cm",
+          "name": {
+            "en": "20 in",
+            "pt-BR": "50 cm"
+          }
+        },
+        {
+          "id": "70cm",
+          "name": {
+            "en": "28 in",
+            "pt-BR": "70 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "brushed-steel-50cm",
+      "sku": "CON-STAINLESS-LINEAR-FLOOR-DRAIN-50CM",
+      "options": {
+        "color": "brushed-steel",
+        "length": "50cm"
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 59
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brushed stainless steel linear floor drain",
+            "pt-BR": "Ralo linear de inox escovado"
+          },
+          "backgrounds": {
+            "#ffffff": "brushed-steel-white.png",
+            "#f5f5f5": "brushed-steel-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "brushed-steel-70cm",
+      "sku": "CON-STAINLESS-LINEAR-FLOOR-DRAIN-70CM",
+      "options": {
+        "color": "brushed-steel",
+        "length": "70cm"
+      },
+      "price": {
+        "BRL": 239,
+        "USD": 79
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brushed stainless steel linear floor drain",
+            "pt-BR": "Ralo linear de inox escovado"
+          },
+          "backgrounds": {
+            "#ffffff": "brushed-steel-white.png",
+            "#f5f5f5": "brushed-steel-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

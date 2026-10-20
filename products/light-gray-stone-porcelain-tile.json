@@ -1,0 +1,154 @@
+{
+  "id": "light-gray-stone-porcelain-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Light Gray Stone-Look Outdoor Porcelain Floor Tile, 24 by 24 Inches and 9 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Porcelanato Pedra Cinza Claro Externo 60×60 cm com 9 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A light gray stone-look porcelain tile that stays cooler in the sun. It can go outdoors. Slip resistance is R11 and scratch resistance is high. It stays grippy in direct rain. The price is for one square foot.",
+    "pt-BR": "Porcelanato com textura de pedra cinza clara, que esquenta menos no sol. Pode ir em área externa. O antiderrapante é R11 e a resistência a arranhão é alta. Aguenta chuva direta sem ficar liso. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 72.9,
+    "USD": 3.59
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "porcelain tile",
+      "outdoor floor",
+      "R11"
+    ],
+    "pt-BR": [
+      "porcelanato",
+      "piso externo",
+      "antiderrapante R11"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r11"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "stone"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    },
+    {
+      "id": "thickness",
+      "valueId": "9-mm"
+    }
+  ],
+  "defaultVariantId": "light-gray-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "light-gray",
+          "name": {
+            "en": "Light gray",
+            "pt-BR": "Cinza claro"
+          },
+          "hex": "#C9C9C4"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "light-gray-natural",
+      "sku": "CON-LIGHT-GRAY-STONE-PORCELAIN-TILE-NATURAL",
+      "options": {
+        "color": "light-gray",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 72.9,
+        "USD": 3.59
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Light Gray Stone-Look Outdoor Porcelain Floor Tile",
+            "pt-BR": "Porcelanato Pedra Cinza Claro Externo 60×60 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "light-gray-white.png",
+            "#f5f5f5": "light-gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "light-gray-rectified",
+      "sku": "CON-LIGHT-GRAY-STONE-PORCELAIN-TILE-RECTIFIED",
+      "options": {
+        "color": "light-gray",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 76.9,
+        "USD": 3.79
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Light Gray Stone-Look Outdoor Porcelain Floor Tile",
+            "pt-BR": "Porcelanato Pedra Cinza Claro Externo 60×60 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "light-gray-white.png",
+            "#f5f5f5": "light-gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

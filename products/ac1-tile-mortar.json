@@ -1,0 +1,134 @@
+{
+  "id": "ac1-tile-mortar",
+  "categoryId": "construcao-argamassas",
+  "name": {
+    "en": "Type I Gray Thinset Mortar for Indoor Ceramic Floors and Walls, 44 Pound Bag",
+    "pt-BR": "Argamassa Colante AC-I Cinza para Cerâmica em Piso e Parede Internos, Saco de 20 kg"
+  },
+  "description": {
+    "en": "A basic gray thinset for ceramic tile on dry indoor floors and walls. It does not hold porcelain or outdoor tile. The listed price is for one 44 pound bag.",
+    "pt-BR": "Argamassa colante básica cinza para cerâmica em piso e parede internos e secos. Não segura porcelanato nem piso externo. O preço anunciado é de um saco de 20 kg."
+  },
+  "price": {
+    "BRL": 19.9,
+    "USD": 14.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "thinset mortar",
+      "indoor",
+      "ceramic"
+    ],
+    "pt-BR": [
+      "argamassa ac-i",
+      "área interna",
+      "cerâmica"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "gray-single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#B5B5B2"
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "name": {
+        "en": "Quantity",
+        "pt-BR": "Quantidade"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "pack-5",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gray-single",
+      "sku": "CON-AC1-TILE-MORTAR-SINGLE",
+      "options": {
+        "color": "gray",
+        "quantity": "single"
+      },
+      "price": {
+        "BRL": 19.9,
+        "USD": 14.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bag of gray Type I thinset mortar",
+            "pt-BR": "Saco de argamassa AC-I cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gray-pack-5",
+      "sku": "CON-AC1-TILE-MORTAR-PACK-5",
+      "options": {
+        "color": "gray",
+        "quantity": "pack-5"
+      },
+      "price": {
+        "BRL": 94.5,
+        "USD": 69.9
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bag of gray Type I thinset mortar",
+            "pt-BR": "Saco de argamassa AC-I cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

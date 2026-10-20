@@ -1,0 +1,142 @@
+{
+  "id": "dark-marble-look-wall-tile",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Glossy Dark Green Marble-Look Porcelain Wall Tile with White Veins, 24 by 48 Inches, Priced per Square Foot",
+    "pt-BR": "Porcelanato de Parede Efeito Mármore Verde Escuro com Veios Brancos 60×120 cm, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A large glossy porcelain wall tile in a deep green marble look with thin white veins, for a bathroom or a fireplace wall. The price is for one square foot.",
+    "pt-BR": "Placa grande de porcelanato brilhante para parede, com efeito de mármore verde escuro e veios brancos finos, para banheiro ou parede de lareira. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 119.9,
+    "USD": 7.49
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "marble look wall tile",
+      "dark green",
+      "large format"
+    ],
+    "pt-BR": [
+      "porcelanato efeito mármore",
+      "verde escuro",
+      "grande formato"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "marble"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "dark-green-polished",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "dark-green",
+          "name": {
+            "en": "Dark green",
+            "pt-BR": "Verde escuro"
+          },
+          "hex": "#1F2A24"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "polished",
+          "name": {
+            "en": "Polished",
+            "pt-BR": "Polido"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "dark-green-polished",
+      "sku": "CON-DARK-MARBLE-LOOK-WALL-TILE-POLISHED",
+      "options": {
+        "color": "dark-green",
+        "finish": "polished"
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 7.49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Dark green marble-look porcelain wall tile",
+            "pt-BR": "Porcelanato de parede mármore verde escuro"
+          },
+          "backgrounds": {
+            "#ffffff": "dark-green-white.png",
+            "#f5f5f5": "dark-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dark-green-rectified",
+      "sku": "CON-DARK-MARBLE-LOOK-WALL-TILE-RECTIFIED",
+      "options": {
+        "color": "dark-green",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 123.9,
+        "USD": 7.69
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Dark green marble-look porcelain wall tile",
+            "pt-BR": "Porcelanato de parede mármore verde escuro"
+          },
+          "backgrounds": {
+            "#ffffff": "dark-green-white.png",
+            "#f5f5f5": "dark-green-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

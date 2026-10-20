@@ -1,0 +1,154 @@
+{
+  "id": "gray-natural-stone-cobble",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Gray Natural Stone Cobble Pavers for Walkways and Driveways, 4 by 4 Inches, Priced per Square Foot",
+    "pt-BR": "Cubo de Pedra Natural Cinza 10×10 cm para Calçada e Garagem, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A natural stone cobble for walkways and driveways, laid on sand. It can go outdoors. Slip resistance is R12 and scratch resistance is high. It stays grippy in direct rain. The price is for one square foot.",
+    "pt-BR": "Cubo de pedra natural para calçada e garagem, assentado sobre areia. Pode ir em área externa. O antiderrapante é R12 e a resistência a arranhão é alta. Aguenta chuva direta sem ficar liso. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 49.9,
+    "USD": 3.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "natural stone",
+      "outdoor floor",
+      "R12"
+    ],
+    "pt-BR": [
+      "pedra natural",
+      "piso externo",
+      "antiderrapante R12"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "natural-stone"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r12"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "stone"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    },
+    {
+      "id": "thickness",
+      "valueId": "80-mm"
+    }
+  ],
+  "defaultVariantId": "gray-brown-split",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray-brown",
+          "name": {
+            "en": "Gray brown",
+            "pt-BR": "Cinza amarronzado"
+          },
+          "hex": "#7D766C"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "split",
+          "name": {
+            "en": "Split face",
+            "pt-BR": "Bruto"
+          }
+        },
+        {
+          "id": "sawn",
+          "name": {
+            "en": "Sawn face",
+            "pt-BR": "Serrado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gray-brown-split",
+      "sku": "CON-GRAY-NATURAL-STONE-COBBLE-SPLIT",
+      "options": {
+        "color": "gray-brown",
+        "finish": "split"
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 3.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray Natural Stone Cobble Pavers for Walkways and Driveways",
+            "pt-BR": "Cubo de Pedra Natural Cinza 10×10 cm para Calçada e Garagem"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-brown-white.png",
+            "#f5f5f5": "gray-brown-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gray-brown-sawn",
+      "sku": "CON-GRAY-NATURAL-STONE-COBBLE-SAWN",
+      "options": {
+        "color": "gray-brown",
+        "finish": "sawn"
+      },
+      "price": {
+        "BRL": 53.9,
+        "USD": 4.1
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray Natural Stone Cobble Pavers for Walkways and Driveways",
+            "pt-BR": "Cubo de Pedra Natural Cinza 10×10 cm para Calçada e Garagem"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-brown-white.png",
+            "#f5f5f5": "gray-brown-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

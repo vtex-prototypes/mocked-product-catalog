@@ -1,0 +1,154 @@
+{
+  "id": "beige-travertine-porcelain-tile",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Beige Travertine-Look Outdoor Porcelain Floor Tile, 24 by 48 Inches and 10 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Porcelanato Travertino Bege Externo 60×120 cm com 10 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A large-format porcelain tile with the soft horizontal veins of travertine. It can go outdoors. Slip resistance is R10 and scratch resistance is high. It works best under a roof. The price is for one square foot.",
+    "pt-BR": "Placa grande de porcelanato com veios horizontais de travertino. Pode ir em área externa. O antiderrapante é R10 e a resistência a arranhão é alta. Funciona melhor em área coberta. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 139.9,
+    "USD": 6.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "porcelain tile",
+      "outdoor floor",
+      "R10"
+    ],
+    "pt-BR": [
+      "porcelanato",
+      "piso externo",
+      "antiderrapante R10"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r10"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "stone"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    },
+    {
+      "id": "thickness",
+      "valueId": "10-mm"
+    }
+  ],
+  "defaultVariantId": "travertine-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "travertine",
+          "name": {
+            "en": "Travertine beige",
+            "pt-BR": "Travertino bege"
+          },
+          "hex": "#D6C6A8"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "travertine-natural",
+      "sku": "CON-BEIGE-TRAVERTINE-PORCELAIN-TILE-NATURAL",
+      "options": {
+        "color": "travertine",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 139.9,
+        "USD": 6.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Beige Travertine-Look Outdoor Porcelain Floor Tile",
+            "pt-BR": "Porcelanato Travertino Bege Externo 60×120 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "travertine-white.png",
+            "#f5f5f5": "travertine-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "travertine-rectified",
+      "sku": "CON-BEIGE-TRAVERTINE-PORCELAIN-TILE-RECTIFIED",
+      "options": {
+        "color": "travertine",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 143.9,
+        "USD": 7.19
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Beige Travertine-Look Outdoor Porcelain Floor Tile",
+            "pt-BR": "Porcelanato Travertino Bege Externo 60×120 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "travertine-white.png",
+            "#f5f5f5": "travertine-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "white-pvc-sewer-pipe",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "White PVC Drain and Sewer Pipe with a Bell End, 4 Inch Diameter, Sold by the Length",
+    "pt-BR": "Tubo de PVC Branco para Esgoto com Ponta e Bolsa, 100 mm de Diâmetro, Vendido por Barra"
+  },
+  "description": {
+    "en": "A white PVC drain pipe with a bell end, for the main sewer line of a bathroom or a balcony drain. The listed price is for the 3 meter length.",
+    "pt-BR": "Tubo de PVC branco com ponta e bolsa para a linha principal de esgoto do banheiro ou o ralo da varanda. O preço anunciado é da barra de 3 metros."
+  },
+  "price": {
+    "BRL": 49.9,
+    "USD": 18.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "sewer pipe",
+      "pvc",
+      "drain"
+    ],
+    "pt-BR": [
+      "tubo de esgoto",
+      "pvc",
+      "ralo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "pvc"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "white-3m",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F1F1EF"
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "3m",
+          "name": {
+            "en": "3 m",
+            "pt-BR": "3 m"
+          }
+        },
+        {
+          "id": "6m",
+          "name": {
+            "en": "6 m",
+            "pt-BR": "6 m"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-3m",
+      "sku": "CON-WHITE-PVC-SEWER-PIPE-3M",
+      "options": {
+        "color": "white",
+        "length": "3m"
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 18.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White PVC sewer pipe with a bell end",
+            "pt-BR": "Tubo de PVC branco para esgoto"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-6m",
+      "sku": "CON-WHITE-PVC-SEWER-PIPE-6M",
+      "options": {
+        "color": "white",
+        "length": "6m"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 34.9
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White PVC sewer pipe with a bell end",
+            "pt-BR": "Tubo de PVC branco para esgoto"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

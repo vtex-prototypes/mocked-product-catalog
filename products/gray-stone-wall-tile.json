@@ -38,6 +38,14 @@
     {
       "id": "application",
       "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "stone"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
     }
   ],
   "defaultVariantId": "gray-natural",

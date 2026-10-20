@@ -38,6 +38,10 @@
     {
       "id": "application",
       "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
     }
   ],
   "defaultVariantId": "gray-1kg",

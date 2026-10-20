@@ -1,0 +1,154 @@
+{
+  "id": "oak-wood-porcelain-plank",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Satin Oak Wood-Look Porcelain Plank for Indoor Rooms, 8 by 48 Inches and 9 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Porcelanato Madeira Carvalho Acetinado 20×120 cm com 9 mm para Área Interna, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A satin oak porcelain plank that handles pets indoors. It is meant for indoor rooms. Slip resistance is R10 and scratch resistance is high. The price is for one square foot.",
+    "pt-BR": "Régua de porcelanato carvalho acetinado, que aguenta pet dentro de casa. É indicado para área interna. O antiderrapante é R10 e a resistência a arranhão é alta. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 64.9,
+    "USD": 3.29
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "porcelain tile",
+      "indoor floor",
+      "R10"
+    ],
+    "pt-BR": [
+      "porcelanato",
+      "piso interno",
+      "antiderrapante R10"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r10"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "wood"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    },
+    {
+      "id": "thickness",
+      "valueId": "9-mm"
+    }
+  ],
+  "defaultVariantId": "warm-oak-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "warm-oak",
+          "name": {
+            "en": "Warm oak",
+            "pt-BR": "Carvalho"
+          },
+          "hex": "#B98552"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "warm-oak-natural",
+      "sku": "CON-OAK-WOOD-PORCELAIN-PLANK-NATURAL",
+      "options": {
+        "color": "warm-oak",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 64.9,
+        "USD": 3.29
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Satin Oak Wood-Look Porcelain Plank for Indoor Rooms",
+            "pt-BR": "Porcelanato Madeira Carvalho Acetinado 20×120 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "warm-oak-white.png",
+            "#f5f5f5": "warm-oak-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "warm-oak-rectified",
+      "sku": "CON-OAK-WOOD-PORCELAIN-PLANK-RECTIFIED",
+      "options": {
+        "color": "warm-oak",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 68.9,
+        "USD": 3.49
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Satin Oak Wood-Look Porcelain Plank for Indoor Rooms",
+            "pt-BR": "Porcelanato Madeira Carvalho Acetinado 20×120 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "warm-oak-white.png",
+            "#f5f5f5": "warm-oak-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

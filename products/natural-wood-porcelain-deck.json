@@ -1,0 +1,154 @@
+{
+  "id": "natural-wood-porcelain-deck",
+  "categoryId": "construcao-pisos",
+  "name": {
+    "en": "Natural Wood-Look Porcelain Deck Plank, 8 by 48 Inches and 9 Millimeters Thick, Priced per Square Foot",
+    "pt-BR": "Deck Porcelanato Madeira Natural 20×120 cm com 9 mm de Espessura, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "A medium natural wood-look porcelain plank, the lowest-priced porcelain deck. It can go outdoors. Slip resistance is R10 and scratch resistance is high. It works best under a roof. The price is for one square foot.",
+    "pt-BR": "Régua de porcelanato em madeira natural média, o deck de porcelanato mais em conta. Pode ir em área externa. O antiderrapante é R10 e a resistência a arranhão é alta. Funciona melhor em área coberta. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 69.9,
+    "USD": 3.49
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "porcelain tile",
+      "outdoor floor",
+      "R10"
+    ],
+    "pt-BR": [
+      "porcelanato",
+      "piso externo",
+      "antiderrapante R10"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "slip-resistance",
+      "valueId": "r10"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "wood"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    },
+    {
+      "id": "thickness",
+      "valueId": "9-mm"
+    }
+  ],
+  "defaultVariantId": "natural-wood-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "natural-wood",
+          "name": {
+            "en": "Natural wood",
+            "pt-BR": "Madeira natural"
+          },
+          "hex": "#8A6542"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "natural-wood-natural",
+      "sku": "CON-NATURAL-WOOD-PORCELAIN-DECK-NATURAL",
+      "options": {
+        "color": "natural-wood",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 3.49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Natural Wood-Look Porcelain Deck Plank",
+            "pt-BR": "Deck Porcelanato Madeira Natural 20×120 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "natural-wood-white.png",
+            "#f5f5f5": "natural-wood-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "natural-wood-rectified",
+      "sku": "CON-NATURAL-WOOD-PORCELAIN-DECK-RECTIFIED",
+      "options": {
+        "color": "natural-wood",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 73.9,
+        "USD": 3.69
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Natural Wood-Look Porcelain Deck Plank",
+            "pt-BR": "Deck Porcelanato Madeira Natural 20×120 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "natural-wood-white.png",
+            "#f5f5f5": "natural-wood-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

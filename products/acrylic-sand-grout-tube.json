@@ -1,0 +1,142 @@
+{
+  "id": "acrylic-sand-grout-tube",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Sand Acrylic Grout in a Squeeze Tube for Touch-Ups on Indoor and Outdoor Joints",
+    "pt-BR": "Rejunte Acrílico Areia em Bisnaga para Retoque de Juntas Internas e Externas"
+  },
+  "description": {
+    "en": "A ready-to-use sand acrylic grout in a squeeze tube, for fixing a few cracked joints without mixing a whole batch. The listed price is for the 250 g tube.",
+    "pt-BR": "Rejunte acrílico areia pronto em bisnaga, para consertar poucas juntas trincadas sem preparar uma massa inteira. O preço anunciado é da bisnaga de 250 g."
+  },
+  "price": {
+    "BRL": 18.9,
+    "USD": 7.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "acrylic grout",
+      "touch-up",
+      "sand"
+    ],
+    "pt-BR": [
+      "rejunte acrílico",
+      "retoque",
+      "areia"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "sand-250g",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "sand",
+          "name": {
+            "en": "Sand",
+            "pt-BR": "Areia"
+          },
+          "hex": "#C9AE8C"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "250g",
+          "name": {
+            "en": "250 g",
+            "pt-BR": "250 g"
+          }
+        },
+        {
+          "id": "500g",
+          "name": {
+            "en": "500 g",
+            "pt-BR": "500 g"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "sand-250g",
+      "sku": "CON-ACRYLIC-SAND-GROUT-TUBE-250G",
+      "options": {
+        "color": "sand",
+        "weight": "250g"
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 7.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Squeeze tube of sand acrylic grout",
+            "pt-BR": "Bisnaga de rejunte acrílico areia"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sand-500g",
+      "sku": "CON-ACRYLIC-SAND-GROUT-TUBE-500G",
+      "options": {
+        "color": "sand",
+        "weight": "500g"
+      },
+      "price": {
+        "BRL": 32.9,
+        "USD": 12.9
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Squeeze tube of sand acrylic grout",
+            "pt-BR": "Bisnaga de rejunte acrílico areia"
+          },
+          "backgrounds": {
+            "#ffffff": "sand-white.png",
+            "#f5f5f5": "sand-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

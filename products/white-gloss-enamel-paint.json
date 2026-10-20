@@ -1,0 +1,142 @@
+{
+  "id": "white-gloss-enamel-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "White Gloss Alkyd Enamel Paint for Wood and Metal, Indoor and Outdoor, Sold by the Can",
+    "pt-BR": "Esmalte Sintético Branco Brilhante para Madeira e Metal, Interno e Externo, Vendido por Lata"
+  },
+  "description": {
+    "en": "A glossy white alkyd enamel for doors, railings and window frames, inside or out. It levels to a hard shine and cleans with a damp cloth. The listed price is for the 0.9 liter can.",
+    "pt-BR": "Esmalte sintético branco brilhante para porta, grade e batente, dentro ou fora de casa. Nivela num brilho duro e limpa com pano úmido. O preço anunciado é da lata de 0,9 litro."
+  },
+  "price": {
+    "BRL": 49.9,
+    "USD": 19.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "enamel paint",
+      "white",
+      "gloss"
+    ],
+    "pt-BR": [
+      "esmalte sintético",
+      "branco",
+      "brilhante"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "alkyd"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "white-0-9-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#FAFAF8"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "0-9-l",
+          "name": {
+            "en": "0.9 L",
+            "pt-BR": "0,9 L"
+          }
+        },
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "3.6 L",
+            "pt-BR": "3,6 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-0-9-l",
+      "sku": "CON-WHITE-GLOSS-ENAMEL-PAINT-0-9-L",
+      "options": {
+        "color": "white",
+        "volume": "0-9-l"
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 19.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of white gloss enamel with a brush",
+            "pt-BR": "Lata de esmalte branco com pincel"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-3-6-l",
+      "sku": "CON-WHITE-GLOSS-ENAMEL-PAINT-3-6-L",
+      "options": {
+        "color": "white",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 149.9,
+        "USD": 59
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of white gloss enamel with a brush",
+            "pt-BR": "Lata de esmalte branco com pincel"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
