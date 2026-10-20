@@ -1,0 +1,131 @@
+{
+  "id": "leather-belt",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-acessorios-acessorios",
+  "name": {
+    "en": "Fio Puro Cognac Full-Grain Leather Belt with Brushed Metal Buckle, Rounded Edge and Adjustable Classic Fit",
+    "pt-BR": "Cinto Fio Puro Conhaque em Couro Integral com Fivela de Metal Escovado, Borda Arredondada e Ajuste Clássico"
+  },
+  "description": {
+    "en": "A versatile full-grain leather belt finished with tonal stitching and a brushed metal buckle. The medium width works with denim, chinos and tailored trousers.",
+    "pt-BR": "Cinto versátil em couro integral com pesponto tonal e fivela de metal escovado. A largura média combina com jeans, sarja e calças de alfaiataria."
+  },
+  "price": {
+    "BRL": 189.9,
+    "USD": 44
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "leather belt",
+      "cognac",
+      "accessories"
+    ],
+    "pt-BR": [
+      "cinto de couro",
+      "conhaque",
+      "acessórios"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "cognac-s",
+  "options": [
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cognac-s",
+      "sku": "FIO-LB-S",
+      "options": {
+        "size": "s"
+      },
+      "price": {
+        "BRL": 189.9,
+        "USD": 44
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cognac leather belt with brushed metal buckle",
+            "pt-BR": "Cinto de couro conhaque com fivela de metal escovado"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cognac-m",
+      "sku": "FIO-LB-M",
+      "options": {
+        "size": "m"
+      },
+      "price": {
+        "BRL": 189.9,
+        "USD": 44
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cognac leather belt with brushed metal buckle",
+            "pt-BR": "Cinto de couro conhaque com fivela de metal escovado"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cognac-l",
+      "sku": "FIO-LB-L",
+      "options": {
+        "size": "l"
+      },
+      "price": {
+        "BRL": 189.9,
+        "USD": 44
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cognac leather belt with brushed metal buckle",
+            "pt-BR": "Cinto de couro conhaque com fivela de metal escovado"
+          },
+          "backgrounds": {
+            "#ffffff": "cognac-white.png",
+            "#f5f5f5": "cognac-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

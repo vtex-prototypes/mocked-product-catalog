@@ -1,0 +1,131 @@
+{
+  "id": "harrington-jacket",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-formal",
+  "name": {
+    "en": "Fio Puro Black Harrington Jacket in Water-Resistant Cotton Blend with Zip Front, Point Collar and Regular Fit",
+    "pt-BR": "Jaqueta Harrington Fio Puro Preta em Mistura de Algodão Resistente à Água com Zíper, Colarinho Pontudo e Caimento Reto"
+  },
+  "description": {
+    "en": "A clean Harrington jacket with a point collar, full zip and discreet welt pockets. The water-resistant cotton blend is light enough for transitional weather and polished enough for work.",
+    "pt-BR": "Jaqueta Harrington de linhas limpas, com colarinho pontudo, zíper frontal e bolsos discretos. A mistura de algodão resistente à água é leve e adequada para meia-estação."
+  },
+  "price": {
+    "BRL": 599.9,
+    "USD": 138
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "Harrington jacket",
+      "black jacket",
+      "water resistant"
+    ],
+    "pt-BR": [
+      "jaqueta Harrington",
+      "jaqueta preta",
+      "resistente à água"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton-blend"
+    }
+  ],
+  "defaultVariantId": "black-s",
+  "options": [
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-s",
+      "sku": "FIO-HJ-S",
+      "options": {
+        "size": "s"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 138
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Harrington jacket with point collar and front zip",
+            "pt-BR": "Jaqueta Harrington preta com colarinho pontudo e zíper frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-m",
+      "sku": "FIO-HJ-M",
+      "options": {
+        "size": "m"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 138
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Harrington jacket with point collar and front zip",
+            "pt-BR": "Jaqueta Harrington preta com colarinho pontudo e zíper frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-l",
+      "sku": "FIO-HJ-L",
+      "options": {
+        "size": "l"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 138
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black Harrington jacket with point collar and front zip",
+            "pt-BR": "Jaqueta Harrington preta com colarinho pontudo e zíper frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

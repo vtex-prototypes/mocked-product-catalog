@@ -1,0 +1,131 @@
+{
+  "id": "dress-shirt",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-formal",
+  "name": {
+    "en": "Fio Puro Crisp White Cotton Dress Shirt with Point Collar, Button Cuffs and Regular Tailored Fit",
+    "pt-BR": "Camisa Social Fio Puro Branca em Algodão com Colarinho Pontudo, Punhos Abotoados e Caimento Reto de Alfaiataria"
+  },
+  "description": {
+    "en": "A crisp cotton dress shirt with a structured point collar, button cuffs and a regular tailored fit. The smooth weave stays polished under a blazer and comfortable on its own.",
+    "pt-BR": "Camisa social de algodão com colarinho pontudo estruturado, punhos abotoados e corte reto de alfaiataria. A trama lisa fica elegante sob o blazer e confortável sozinha."
+  },
+  "price": {
+    "BRL": 329.9,
+    "USD": 76
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "dress shirt",
+      "white shirt",
+      "cotton"
+    ],
+    "pt-BR": [
+      "camisa social",
+      "camisa branca",
+      "algodão"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "white-s",
+  "options": [
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-s",
+      "sku": "FIO-DS-S",
+      "options": {
+        "size": "s"
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 76
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White cotton dress shirt folded to show collar and cuffs",
+            "pt-BR": "Camisa social branca de algodão dobrada com colarinho e punhos visíveis"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-m",
+      "sku": "FIO-DS-M",
+      "options": {
+        "size": "m"
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 76
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White cotton dress shirt folded to show collar and cuffs",
+            "pt-BR": "Camisa social branca de algodão dobrada com colarinho e punhos visíveis"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-l",
+      "sku": "FIO-DS-L",
+      "options": {
+        "size": "l"
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 76
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White cotton dress shirt folded to show collar and cuffs",
+            "pt-BR": "Camisa social branca de algodão dobrada com colarinho e punhos visíveis"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

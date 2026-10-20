@@ -1,0 +1,131 @@
+{
+  "id": "cotton-t-shirt",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Fio Puro Essential Sunshine Yellow Cotton Crewneck T-Shirt with Relaxed Unisex Fit and Soft Jersey Finish",
+    "pt-BR": "Camiseta Fio Puro Essential Amarela em Algodão com Gola Careca, Modelagem Unissex Relaxada e Malha Macia"
+  },
+  "description": {
+    "en": "A soft cotton jersey T-shirt cut with a relaxed body, classic crewneck and clean straight hem. Midweight fabric makes it substantial enough to wear alone throughout the year.",
+    "pt-BR": "Camiseta de malha de algodão macia, com corpo relaxado, gola careca clássica e barra reta. O tecido de gramatura média permite usar a peça sozinha o ano inteiro."
+  },
+  "price": {
+    "BRL": 119.9,
+    "USD": 28
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cotton T-shirt",
+      "crewneck",
+      "yellow"
+    ],
+    "pt-BR": [
+      "camiseta de algodão",
+      "gola careca",
+      "amarela"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton"
+    }
+  ],
+  "defaultVariantId": "yellow-s",
+  "options": [
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "yellow-s",
+      "sku": "FIO-CTS-S",
+      "options": {
+        "size": "s"
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sunshine yellow cotton crewneck T-shirt, front view",
+            "pt-BR": "Camiseta amarela de algodão com gola careca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "yellow-white.png",
+            "#f5f5f5": "yellow-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yellow-m",
+      "sku": "FIO-CTS-M",
+      "options": {
+        "size": "m"
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sunshine yellow cotton crewneck T-shirt, front view",
+            "pt-BR": "Camiseta amarela de algodão com gola careca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "yellow-white.png",
+            "#f5f5f5": "yellow-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "yellow-l",
+      "sku": "FIO-CTS-L",
+      "options": {
+        "size": "l"
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 28
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sunshine yellow cotton crewneck T-shirt, front view",
+            "pt-BR": "Camiseta amarela de algodão com gola careca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "yellow-white.png",
+            "#f5f5f5": "yellow-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

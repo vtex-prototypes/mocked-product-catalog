@@ -1,0 +1,147 @@
+{
+  "id": "crewneck-sweatshirt",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Fio Puro Cloud Gray Cotton-Blend Crewneck Sweatshirt with Brushed Interior, Ribbed Cuffs and Relaxed Fit",
+    "pt-BR": "Moletom Fio Puro Cinza-Nuvem em Mistura de Algodão com Interior Flanelado, Punhos Canelados e Caimento Relaxado"
+  },
+  "description": {
+    "en": "A versatile crewneck sweatshirt with a softly brushed interior and durable ribbed finishes. The relaxed shape layers easily over a tee without feeling bulky.",
+    "pt-BR": "Moletom versátil de gola careca com interior macio e acabamentos canelados resistentes. A modelagem relaxada permite sobrepor uma camiseta sem criar volume excessivo."
+  },
+  "price": {
+    "BRL": 249.9,
+    "USD": 58
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "crewneck sweatshirt",
+      "cotton blend",
+      "gray"
+    ],
+    "pt-BR": [
+      "moletom gola careca",
+      "mistura de algodão",
+      "cinza"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton-blend"
+    }
+  ],
+  "defaultVariantId": "gray-s",
+  "options": [
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gray-s",
+      "sku": "FIO-CS-S",
+      "options": {
+        "size": "s"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 58
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cloud gray crewneck sweatshirt with ribbed cuffs and hem",
+            "pt-BR": "Moletom cinza-nuvem com punhos e barra canelados"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 299.9,
+        "USD": 68
+      }
+    },
+    {
+      "id": "gray-m",
+      "sku": "FIO-CS-M",
+      "options": {
+        "size": "m"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 58
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cloud gray crewneck sweatshirt with ribbed cuffs and hem",
+            "pt-BR": "Moletom cinza-nuvem com punhos e barra canelados"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 299.9,
+        "USD": 68
+      }
+    },
+    {
+      "id": "gray-l",
+      "sku": "FIO-CS-L",
+      "options": {
+        "size": "l"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 58
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cloud gray crewneck sweatshirt with ribbed cuffs and hem",
+            "pt-BR": "Moletom cinza-nuvem com punhos e barra canelados"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 299.9,
+        "USD": 68
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 299.9,
+    "USD": 68
+  }
+}

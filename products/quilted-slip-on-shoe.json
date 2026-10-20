@@ -1,0 +1,147 @@
+{
+  "id": "quilted-slip-on-shoe",
+  "brandId": "ritmo",
+  "categoryId": "roupa-sapatos",
+  "name": {
+    "en": "Ritmo Cabin Rust Quilted Slip-On Shoes with Warm Lining, Cushioned Footbed and Lightweight Rubber Sole",
+    "pt-BR": "Sapato Slip-On Ritmo Cabin Ferrugem com Matelassê, Forro Aconchegante, Palmilha Macia e Solado Leve de Borracha"
+  },
+  "description": {
+    "en": "Warm quilted slip-ons with a soft lining, cushioned footbed and flexible rubber sole. The easy-on shape works indoors, on trips and for quick cold-weather errands.",
+    "pt-BR": "Slip-on acolchoado com forro macio, palmilha confortável e solado flexível de borracha. O formato fácil de calçar funciona em casa, em viagens e em saídas rápidas no frio."
+  },
+  "price": {
+    "BRL": 299.9,
+    "USD": 68
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "slip-on shoes",
+      "quilted",
+      "warm lining"
+    ],
+    "pt-BR": [
+      "sapato slip-on",
+      "matelassê",
+      "forro quente"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "recycled-synthetic"
+    }
+  ],
+  "defaultVariantId": "rust-36",
+  "options": [
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "36",
+          "valueId": "36"
+        },
+        {
+          "id": "38",
+          "valueId": "38"
+        },
+        {
+          "id": "40",
+          "valueId": "40"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "rust-36",
+      "sku": "RIT-QSOS-36",
+      "options": {
+        "size": "36"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 68
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rust quilted slip-on shoes with dark rubber soles",
+            "pt-BR": "Sapatos slip-on ferrugem matelassados com solado escuro"
+          },
+          "backgrounds": {
+            "#ffffff": "rust-white.png",
+            "#f5f5f5": "rust-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 369.9,
+        "USD": 84
+      }
+    },
+    {
+      "id": "rust-38",
+      "sku": "RIT-QSOS-38",
+      "options": {
+        "size": "38"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 68
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rust quilted slip-on shoes with dark rubber soles",
+            "pt-BR": "Sapatos slip-on ferrugem matelassados com solado escuro"
+          },
+          "backgrounds": {
+            "#ffffff": "rust-white.png",
+            "#f5f5f5": "rust-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 369.9,
+        "USD": 84
+      }
+    },
+    {
+      "id": "rust-40",
+      "sku": "RIT-QSOS-40",
+      "options": {
+        "size": "40"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 68
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rust quilted slip-on shoes with dark rubber soles",
+            "pt-BR": "Sapatos slip-on ferrugem matelassados com solado escuro"
+          },
+          "backgrounds": {
+            "#ffffff": "rust-white.png",
+            "#f5f5f5": "rust-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 369.9,
+        "USD": 84
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 369.9,
+    "USD": 84
+  }
+}

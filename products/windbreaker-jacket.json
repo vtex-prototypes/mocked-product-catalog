@@ -1,0 +1,131 @@
+{
+  "id": "windbreaker-jacket",
+  "brandId": "ritmo",
+  "categoryId": "roupa-parte-de-cima-casual",
+  "name": {
+    "en": "Ritmo Motion Red Lightweight Windbreaker Jacket in Recycled Fabric with Zip Front and Packable Water-Resistant Shell",
+    "pt-BR": "Jaqueta Corta-Vento Ritmo Motion Vermelha em Tecido Reciclado Leve com Zíper e Estrutura Compactável Resistente à Água"
+  },
+  "description": {
+    "en": "A lightweight windbreaker with a high collar, full zip and elasticated cuffs. The water-resistant recycled shell packs down easily for commutes, travel and changing weather.",
+    "pt-BR": "Jaqueta corta-vento leve com gola alta, zíper frontal e punhos elásticos. O tecido reciclado resistente à água é fácil de guardar para deslocamentos, viagens e mudanças de clima."
+  },
+  "price": {
+    "BRL": 379.9,
+    "USD": 88
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "windbreaker",
+      "red jacket",
+      "water resistant"
+    ],
+    "pt-BR": [
+      "corta-vento",
+      "jaqueta vermelha",
+      "resistente à água"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "recycled-polyester"
+    }
+  ],
+  "defaultVariantId": "red-s",
+  "options": [
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "red-s",
+      "sku": "RIT-WJ-S",
+      "options": {
+        "size": "s"
+      },
+      "price": {
+        "BRL": 379.9,
+        "USD": 88
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red lightweight windbreaker jacket with high collar",
+            "pt-BR": "Jaqueta corta-vento vermelha leve com gola alta"
+          },
+          "backgrounds": {
+            "#ffffff": "red-white.png",
+            "#f5f5f5": "red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "red-m",
+      "sku": "RIT-WJ-M",
+      "options": {
+        "size": "m"
+      },
+      "price": {
+        "BRL": 379.9,
+        "USD": 88
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red lightweight windbreaker jacket with high collar",
+            "pt-BR": "Jaqueta corta-vento vermelha leve com gola alta"
+          },
+          "backgrounds": {
+            "#ffffff": "red-white.png",
+            "#f5f5f5": "red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "red-l",
+      "sku": "RIT-WJ-L",
+      "options": {
+        "size": "l"
+      },
+      "price": {
+        "BRL": 379.9,
+        "USD": 88
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red lightweight windbreaker jacket with high collar",
+            "pt-BR": "Jaqueta corta-vento vermelha leve com gola alta"
+          },
+          "backgrounds": {
+            "#ffffff": "red-white.png",
+            "#f5f5f5": "red-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

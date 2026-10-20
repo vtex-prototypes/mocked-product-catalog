@@ -1,0 +1,115 @@
+{
+  "id": "leather-satchel-bag",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-acessorios-acessorios",
+  "name": {
+    "en": "Fio Puro Tan Structured Leather Satchel Bag with Top Handle, Removable Shoulder Strap and Interior Pocket",
+    "pt-BR": "Bolsa Satchel Fio Puro Caramelo em Couro Estruturado com Alça de Mão, Alça de Ombro Removível e Bolso Interno"
+  },
+  "description": {
+    "en": "A structured leather satchel with a top handle, removable shoulder strap and secure flap closure. The lined interior keeps everyday essentials organized without adding bulk.",
+    "pt-BR": "Bolsa satchel estruturada em couro, com alça de mão, alça de ombro removível e fechamento seguro por aba. O interior forrado organiza os itens essenciais sem criar volume."
+  },
+  "price": {
+    "BRL": 649.9,
+    "USD": 149
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "satchel bag",
+      "leather handbag",
+      "tan"
+    ],
+    "pt-BR": [
+      "bolsa satchel",
+      "bolsa de couro",
+      "caramelo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "leather"
+    }
+  ],
+  "defaultVariantId": "tan-s",
+  "options": [
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "tan-s",
+      "sku": "FIO-LSB-S",
+      "options": {
+        "size": "s"
+      },
+      "price": {
+        "BRL": 649.9,
+        "USD": 149
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tan structured leather satchel bag with top handle",
+            "pt-BR": "Bolsa satchel estruturada em couro caramelo com alça de mão"
+          },
+          "backgrounds": {
+            "#ffffff": "tan-white.png",
+            "#f5f5f5": "tan-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 799.9,
+        "USD": 185
+      }
+    },
+    {
+      "id": "tan-m",
+      "sku": "FIO-LSB-M",
+      "options": {
+        "size": "m"
+      },
+      "price": {
+        "BRL": 649.9,
+        "USD": 149
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tan structured leather satchel bag with top handle",
+            "pt-BR": "Bolsa satchel estruturada em couro caramelo com alça de mão"
+          },
+          "backgrounds": {
+            "#ffffff": "tan-white.png",
+            "#f5f5f5": "tan-gray.png"
+          }
+        }
+      ],
+      "listPrice": {
+        "BRL": 799.9,
+        "USD": 185
+      }
+    }
+  ],
+  "listPrice": {
+    "BRL": 799.9,
+    "USD": 185
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "tailored-blazer",
+  "brandId": "fio-puro",
+  "categoryId": "roupa-parte-de-cima-formal",
+  "name": {
+    "en": "Fio Puro Deep Navy Tailored Blazer in Cotton Blend with Notched Lapels, Patch Pockets and Regular Fit",
+    "pt-BR": "Blazer Fio Puro Azul-Marinho Profundo em Mistura de Algodão com Lapelas, Bolsos Aplicados e Caimento Reto"
+  },
+  "description": {
+    "en": "A softly structured blazer with notched lapels, patch pockets and a comfortable regular fit. The cotton-blend fabric bridges polished workwear and relaxed weekend dressing.",
+    "pt-BR": "Blazer de estrutura leve com lapelas, bolsos aplicados e corte reto confortável. O tecido em mistura de algodão transita entre produções de trabalho e combinações casuais."
+  },
+  "price": {
+    "BRL": 899.9,
+    "USD": 208
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "tailored blazer",
+      "navy",
+      "cotton blend"
+    ],
+    "pt-BR": [
+      "blazer de alfaiataria",
+      "azul-marinho",
+      "mistura de algodão"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cotton-blend"
+    }
+  ],
+  "defaultVariantId": "navy-s",
+  "options": [
+    {
+      "id": "size",
+      "specificationId": "size",
+      "values": [
+        {
+          "id": "s",
+          "valueId": "s"
+        },
+        {
+          "id": "m",
+          "valueId": "m"
+        },
+        {
+          "id": "l",
+          "valueId": "l"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "navy-s",
+      "sku": "FIO-TB-S",
+      "options": {
+        "size": "s"
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 208
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Deep navy tailored blazer with notched lapels",
+            "pt-BR": "Blazer de alfaiataria azul-marinho com lapelas"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-m",
+      "sku": "FIO-TB-M",
+      "options": {
+        "size": "m"
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 208
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Deep navy tailored blazer with notched lapels",
+            "pt-BR": "Blazer de alfaiataria azul-marinho com lapelas"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-l",
+      "sku": "FIO-TB-L",
+      "options": {
+        "size": "l"
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 208
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Deep navy tailored blazer with notched lapels",
+            "pt-BR": "Blazer de alfaiataria azul-marinho com lapelas"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

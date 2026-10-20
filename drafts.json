@@ -67,17 +67,6 @@
       "src": "drafts/baking-sheet.jpg"
     },
     {
-      "id": "baseball-cap",
-      "categoryId": "roupa-acessorios-acessorios",
-      "name": {
-        "en": "Baseball cap",
-        "pt-BR": "Boné"
-      },
-      "photo": "baseball-cap.jpg",
-      "figmaNode": "136:5607",
-      "src": "drafts/baseball-cap.jpg"
-    },
-    {
       "id": "basketball",
       "categoryId": "esportes-acessorios",
       "name": {
@@ -153,17 +142,6 @@
       "photo": "butter-block.jpg",
       "figmaNode": "134:5625",
       "src": "drafts/butter-block.jpg"
-    },
-    {
-      "id": "canvas-backpack",
-      "categoryId": "roupa-acessorios-acessorios",
-      "name": {
-        "en": "Canvas backpack",
-        "pt-BR": "Mochila de lona"
-      },
-      "photo": "canvas-backpack.jpg",
-      "figmaNode": "132:5597",
-      "src": "drafts/canvas-backpack.jpg"
     },
     {
       "id": "canvas-hiking-boot",
@@ -320,28 +298,6 @@
       "src": "drafts/cooler-box.jpg"
     },
     {
-      "id": "cotton-t-shirt",
-      "categoryId": "roupa-parte-de-cima-casual",
-      "name": {
-        "en": "Cotton T-shirt",
-        "pt-BR": "Camiseta de algodão"
-      },
-      "photo": "cotton-t-shirt.jpg",
-      "figmaNode": "151:6557",
-      "src": "drafts/cotton-t-shirt.jpg"
-    },
-    {
-      "id": "crewneck-sweatshirt",
-      "categoryId": "roupa-parte-de-cima-casual",
-      "name": {
-        "en": "Crewneck sweatshirt",
-        "pt-BR": "Moletom gola careca"
-      },
-      "photo": "crewneck-sweatshirt.jpg",
-      "figmaNode": "151:6558",
-      "src": "drafts/crewneck-sweatshirt.jpg"
-    },
-    {
       "id": "cutlery-set",
       "categoryId": "casa-acessorios-cozinha",
       "name": {
@@ -384,17 +340,6 @@
       "photo": "drawer-organizer.jpg",
       "figmaNode": "136:5605",
       "src": "drafts/drawer-organizer.jpg"
-    },
-    {
-      "id": "dress-shirt",
-      "categoryId": "roupa-parte-de-cima-formal",
-      "name": {
-        "en": "Dress shirt",
-        "pt-BR": "Camisa social"
-      },
-      "photo": "dress-shirt.jpg",
-      "figmaNode": "134:5653",
-      "src": "drafts/dress-shirt.jpg"
     },
     {
       "id": "dslr-camera",
@@ -516,17 +461,6 @@
       "photo": "fleece-winter-sneaker.jpg",
       "figmaNode": "136:5631",
       "src": "drafts/fleece-winter-sneaker.jpg"
-    },
-    {
-      "id": "flip-flops",
-      "categoryId": "roupa-sapatos",
-      "name": {
-        "en": "Flip-flops",
-        "pt-BR": "Chinelo de dedo"
-      },
-      "photo": "flip-flops.jpg",
-      "figmaNode": "134:5675",
-      "src": "drafts/flip-flops.jpg"
     },
     {
       "id": "fondue-set",
@@ -717,28 +651,6 @@
       "src": "drafts/hamburger-buns.jpg"
     },
     {
-      "id": "hardside-carry-on-suitcase",
-      "categoryId": "roupa-acessorios-acessorios",
-      "name": {
-        "en": "Hardside carry-on suitcase",
-        "pt-BR": "Mala de bordo rígida"
-      },
-      "photo": "hardside-carry-on-suitcase.jpg",
-      "figmaNode": "134:5708",
-      "src": "drafts/hardside-carry-on-suitcase.jpg"
-    },
-    {
-      "id": "harrington-jacket",
-      "categoryId": "roupa-parte-de-cima-formal",
-      "name": {
-        "en": "Harrington jacket",
-        "pt-BR": "Jaqueta Harrington"
-      },
-      "photo": "harrington-jacket.jpg",
-      "figmaNode": "136:5588",
-      "src": "drafts/harrington-jacket.jpg"
-    },
-    {
       "id": "honey-jar",
       "categoryId": "mercado-temperos-molhos",
       "name": {
@@ -915,28 +827,6 @@
       "src": "drafts/laundry-detergent.jpg"
     },
     {
-      "id": "leather-belt",
-      "categoryId": "roupa-acessorios-acessorios",
-      "name": {
-        "en": "Leather belt",
-        "pt-BR": "Cinto de couro"
-      },
-      "photo": "leather-belt.jpg",
-      "figmaNode": "136:5582",
-      "src": "drafts/leather-belt.jpg"
-    },
-    {
-      "id": "leather-biker-jacket",
-      "categoryId": "roupa-parte-de-cima-formal",
-      "name": {
-        "en": "Leather biker jacket",
-        "pt-BR": "Jaqueta de couro estilo motociclista"
-      },
-      "photo": "leather-biker-jacket.jpg",
-      "figmaNode": "136:5589",
-      "src": "drafts/leather-biker-jacket.jpg"
-    },
-    {
       "id": "leather-high-top-sneaker",
       "categoryId": "esportes-sapatos",
       "name": {
@@ -946,29 +836,6 @@
       "photo": "leather-high-top-sneaker.jpg",
       "figmaNode": "136:5639",
       "src": "drafts/leather-high-top-sneaker.jpg"
-    },
-    {
-      "id": "leather-platform-sneaker",
-      "categoryId": "roupa-sapatos",
-      "name": {
-        "en": "Leather platform sneaker",
-        "pt-BR": "Tênis de couro com plataforma"
-      },
-      "photo": "leather-platform-sneaker.jpg",
-      "figmaNode": "129:5571",
-      "notes": "Source photo has a black background",
-      "src": "drafts/leather-platform-sneaker.jpg"
-    },
-    {
-      "id": "leather-satchel-bag",
-      "categoryId": "roupa-acessorios-acessorios",
-      "name": {
-        "en": "Leather satchel bag",
-        "pt-BR": "Bolsa satchel de couro"
-      },
-      "photo": "leather-satchel-bag.jpg",
-      "figmaNode": "136:5622",
-      "src": "drafts/leather-satchel-bag.jpg"
     },
     {
       "id": "led-headlamp",
@@ -1224,17 +1091,6 @@
       "src": "drafts/orange.jpg"
     },
     {
-      "id": "oxford-dress-shoe",
-      "categoryId": "roupa-sapatos",
-      "name": {
-        "en": "Oxford dress shoe",
-        "pt-BR": "Sapato Oxford"
-      },
-      "photo": "oxford-dress-shoe.jpg",
-      "figmaNode": "136:5580",
-      "src": "drafts/oxford-dress-shoe.jpg"
-    },
-    {
       "id": "parmesan-wedge",
       "categoryId": "mercado-pao-leite-ovos",
       "name": {
@@ -1354,17 +1210,6 @@
       "photo": "pumpkin.jpg",
       "figmaNode": "134:5672",
       "src": "drafts/pumpkin.jpg"
-    },
-    {
-      "id": "quilted-slip-on-shoe",
-      "categoryId": "roupa-sapatos",
-      "name": {
-        "en": "Quilted slip-on shoe",
-        "pt-BR": "Sapato slip-on matelassê"
-      },
-      "photo": "quilted-slip-on-shoe.jpg",
-      "figmaNode": "136:5659",
-      "src": "drafts/quilted-slip-on-shoe.jpg"
     },
     {
       "id": "quilted-snow-boot",
@@ -1775,17 +1620,6 @@
       "src": "drafts/tahini.jpg"
     },
     {
-      "id": "tailored-blazer",
-      "categoryId": "roupa-parte-de-cima-formal",
-      "name": {
-        "en": "Tailored blazer",
-        "pt-BR": "Blazer de alfaiataria"
-      },
-      "photo": "tailored-blazer.jpg",
-      "figmaNode": "136:5581",
-      "src": "drafts/tailored-blazer.jpg"
-    },
-    {
       "id": "telescopic-hiking-pole",
       "categoryId": "esportes-acessorios",
       "name": {
@@ -1872,17 +1706,6 @@
       "photo": "upright-vacuum.jpg",
       "figmaNode": "134:5746",
       "src": "drafts/upright-vacuum.jpg"
-    },
-    {
-      "id": "utility-overshirt",
-      "categoryId": "roupa-parte-de-cima-formal",
-      "name": {
-        "en": "Utility overshirt",
-        "pt-BR": "Sobrecamisa utilitária"
-      },
-      "photo": "utility-overshirt.jpg",
-      "figmaNode": "134:5631",
-      "src": "drafts/utility-overshirt.jpg"
     },
     {
       "id": "wafer-cookies",
@@ -1972,17 +1795,6 @@
       "figmaNode": "136:5612",
       "notes": "Source photo has printed text (\"HEADLAMP\")",
       "src": "drafts/wide-beam-headlamp.jpg"
-    },
-    {
-      "id": "windbreaker-jacket",
-      "categoryId": "roupa-parte-de-cima-casual",
-      "name": {
-        "en": "Windbreaker jacket",
-        "pt-BR": "Jaqueta corta-vento"
-      },
-      "photo": "windbreaker-jacket.jpg",
-      "figmaNode": "151:6559",
-      "src": "drafts/windbreaker-jacket.jpg"
     },
     {
       "id": "wine-cooler",
