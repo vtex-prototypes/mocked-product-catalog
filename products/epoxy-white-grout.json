@@ -110,6 +110,16 @@
             "#ffffff": "white-white.png",
             "#f5f5f5": "white-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Epoxy Grout for Stain-Resistant Indoor and Outdoor Tile Joints, Sold by the Tub",
+            "pt-BR": "Detalhe aproximado de Rejunte Epóxi Branco para Juntas Internas e Externas Resistentes a Mancha, Vendido por Pote"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -134,6 +144,16 @@
           "backgrounds": {
             "#ffffff": "white-white.png",
             "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Epoxy Grout for Stain-Resistant Indoor and Outdoor Tile Joints, Sold by the Tub",
+            "pt-BR": "Detalhe aproximado de Rejunte Epóxi Branco para Juntas Internas e Externas Resistentes a Mancha, Vendido por Pote"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

@@ -90,6 +90,16 @@
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Fio Puro Black Pleated Mini Skirt in Viscose with Sharp Knife Pleats and a High Rise",
+            "pt-BR": "Detalhe aproximado de Saia mini plissada Fio Puro preta de viscose, pregas retas e cós alto que fica no lugar"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ],
       "listPrice": {
@@ -119,6 +129,16 @@
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Fio Puro Black Pleated Mini Skirt in Viscose with Sharp Knife Pleats and a High Rise",
+            "pt-BR": "Detalhe aproximado de Saia mini plissada Fio Puro preta de viscose, pregas retas e cós alto que fica no lugar"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ],
       "listPrice": {
@@ -147,6 +167,16 @@
           "backgrounds": {
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Fio Puro Black Pleated Mini Skirt in Viscose with Sharp Knife Pleats and a High Rise",
+            "pt-BR": "Detalhe aproximado de Saia mini plissada Fio Puro preta de viscose, pregas retas e cós alto que fica no lugar"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ],

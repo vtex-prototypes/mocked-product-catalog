@@ -110,6 +110,16 @@
             "#ffffff": "olive-white.png",
             "#f5f5f5": "olive-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Matte Olive Porcelain Floor Tile, 24 by 24 Inches and 9 Millimeters Thick, for Indoor Rooms, Priced per Square Foot",
+            "pt-BR": "Detalhe aproximado de Porcelanato Oliva Fosco 60×60 cm com 9 mm para Área Interna, Preço por Metro Quadrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -134,6 +144,16 @@
           "backgrounds": {
             "#ffffff": "olive-white.png",
             "#f5f5f5": "olive-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Matte Olive Porcelain Floor Tile, 24 by 24 Inches and 9 Millimeters Thick, for Indoor Rooms, Priced per Square Foot",
+            "pt-BR": "Detalhe aproximado de Porcelanato Oliva Fosco 60×60 cm com 9 mm para Área Interna, Preço por Metro Quadrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

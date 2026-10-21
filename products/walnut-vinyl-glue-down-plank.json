@@ -122,6 +122,16 @@
             "#ffffff": "walnut-white.png",
             "#f5f5f5": "walnut-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Walnut Wood-Look Vinyl Floor Plank, 7 by 48 Inches and 3 Millimeters Thick, Priced per Square Foot",
+            "pt-BR": "Detalhe aproximado de Piso Vinílico Nogueira 18×122 cm com 3 mm, Preço por Metro Quadrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -146,6 +156,16 @@
           "backgrounds": {
             "#ffffff": "walnut-white.png",
             "#f5f5f5": "walnut-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Walnut Wood-Look Vinyl Floor Plank, 7 by 48 Inches and 3 Millimeters Thick, Priced per Square Foot",
+            "pt-BR": "Detalhe aproximado de Piso Vinílico Nogueira 18×122 cm com 3 mm, Preço por Metro Quadrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

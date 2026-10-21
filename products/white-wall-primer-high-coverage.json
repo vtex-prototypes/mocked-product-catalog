@@ -110,6 +110,16 @@
             "#ffffff": "main-white.png",
             "#f5f5f5": "main-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Acrylic Wall Primer for Masonry and Drywall, High Coverage for Renovation Coats, Sold in Two Project Packs",
+            "pt-BR": "Detalhe aproximado de Fundo Preparador Acrílico Branco para Parede, Alta Cobertura para Pintura de Renovação, Vendido em Duas Opções de Embalagem"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -134,6 +144,16 @@
           "backgrounds": {
             "#ffffff": "main-white.png",
             "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Acrylic Wall Primer for Masonry and Drywall, High Coverage for Renovation Coats, Sold in Two Project Packs",
+            "pt-BR": "Detalhe aproximado de Fundo Preparador Acrílico Branco para Parede, Alta Cobertura para Pintura de Renovação, Vendido em Duas Opções de Embalagem"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

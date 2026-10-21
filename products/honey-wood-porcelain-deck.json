@@ -122,6 +122,16 @@
             "#ffffff": "honey-white.png",
             "#f5f5f5": "honey-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Honey Wood-Look Porcelain Deck Plank, 8 by 48 Inches and 9 Millimeters Thick, Priced per Square Foot",
+            "pt-BR": "Detalhe aproximado de Deck Porcelanato Madeira Mel 20×120 cm com 9 mm de Espessura, Preço por Metro Quadrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -146,6 +156,16 @@
           "backgrounds": {
             "#ffffff": "honey-white.png",
             "#f5f5f5": "honey-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Honey Wood-Look Porcelain Deck Plank, 8 by 48 Inches and 9 Millimeters Thick, Priced per Square Foot",
+            "pt-BR": "Detalhe aproximado de Deck Porcelanato Madeira Mel 20×120 cm com 9 mm de Espessura, Preço por Metro Quadrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

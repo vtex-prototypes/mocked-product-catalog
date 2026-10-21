@@ -106,6 +106,16 @@
             "#ffffff": "concrete-gray-white.png",
             "#f5f5f5": "concrete-gray-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Gray Acrylic Floor Paint for Patios, Garages and Concrete Slabs, Matte Finish, Sold by the Can",
+            "pt-BR": "Detalhe aproximado de Tinta Acrílica para Piso Cinza Fosca para Quintal, Garagem e Contrapiso, Vendida por Lata"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -130,6 +140,16 @@
           "backgrounds": {
             "#ffffff": "concrete-gray-white.png",
             "#f5f5f5": "concrete-gray-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Gray Acrylic Floor Paint for Patios, Garages and Concrete Slabs, Matte Finish, Sold by the Can",
+            "pt-BR": "Detalhe aproximado de Tinta Acrílica para Piso Cinza Fosca para Quintal, Garagem e Contrapiso, Vendida por Lata"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

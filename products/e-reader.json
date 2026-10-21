@@ -80,6 +80,16 @@
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of E-Reader with 6-Inch Glare-Free Display and Adjustable Warm Light, Black, Wi-Fi, Waterproof IPX8, Weeks of Battery on One Charge, Lightweight for Reading in Bed, at the Beach or on the Go",
+            "pt-BR": "Detalhe aproximado de Leitor de Livros Digitais com Tela de 6 Polegadas sem Reflexo e Luz Quente Ajustável, Preto, Wi-Fi, À Prova d'Água IPX8, Bateria para Semanas, Leve para Ler na Cama, na Praia ou em Viagem"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -103,6 +113,16 @@
           "backgrounds": {
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of E-Reader with 6-Inch Glare-Free Display and Adjustable Warm Light, Black, Wi-Fi, Waterproof IPX8, Weeks of Battery on One Charge, Lightweight for Reading in Bed, at the Beach or on the Go",
+            "pt-BR": "Detalhe aproximado de Leitor de Livros Digitais com Tela de 6 Polegadas sem Reflexo e Luz Quente Ajustável, Preto, Wi-Fi, À Prova d'Água IPX8, Bateria para Semanas, Leve para Ler na Cama, na Praia ou em Viagem"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

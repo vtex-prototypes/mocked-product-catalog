@@ -90,6 +90,16 @@
             "#ffffff": "wine-white.png",
             "#f5f5f5": "wine-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Fio Puro Wine Sheath Dress in Viscose with a Sleeveless Cut, Knee Length and a Soft V Opening",
+            "pt-BR": "Detalhe aproximado de Vestido reto Fio Puro vinho de viscose, sem manga, no joelho, com abertura em V baixa e caimento justo"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -115,6 +125,16 @@
             "#ffffff": "wine-white.png",
             "#f5f5f5": "wine-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Fio Puro Wine Sheath Dress in Viscose with a Sleeveless Cut, Knee Length and a Soft V Opening",
+            "pt-BR": "Detalhe aproximado de Vestido reto Fio Puro vinho de viscose, sem manga, no joelho, com abertura em V baixa e caimento justo"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -139,6 +159,16 @@
           "backgrounds": {
             "#ffffff": "wine-white.png",
             "#f5f5f5": "wine-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Fio Puro Wine Sheath Dress in Viscose with a Sleeveless Cut, Knee Length and a Soft V Opening",
+            "pt-BR": "Detalhe aproximado de Vestido reto Fio Puro vinho de viscose, sem manga, no joelho, com abertura em V baixa e caimento justo"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

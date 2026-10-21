@@ -106,6 +106,16 @@
             "#ffffff": "chrome-white.png",
             "#f5f5f5": "chrome-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Chrome Single-Lever Bathroom Faucet with a Short Spout, for a Basin, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Torneira de Banheiro Cromada com Alavanca Única e Bica Curta, para Cuba, Vendida por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -130,6 +140,16 @@
           "backgrounds": {
             "#ffffff": "chrome-white.png",
             "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Chrome Single-Lever Bathroom Faucet with a Short Spout, for a Basin, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Torneira de Banheiro Cromada com Alavanca Única e Bica Curta, para Cuba, Vendida por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

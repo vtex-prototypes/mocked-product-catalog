@@ -102,6 +102,16 @@
             "#ffffff": "main-white.png",
             "#f5f5f5": "main-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Brass Ball Valve with Lever for Water Lines, One-Inch Thread for Higher Flow, Sold in Two Project Packs",
+            "pt-BR": "Detalhe aproximado de Registro de Esfera em Latão com Alavanca, Rosca de Uma Polegada para Maior Vazão, Vendido em Duas Opções de Embalagem"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -126,6 +136,16 @@
           "backgrounds": {
             "#ffffff": "main-white.png",
             "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Brass Ball Valve with Lever for Water Lines, One-Inch Thread for Higher Flow, Sold in Two Project Packs",
+            "pt-BR": "Detalhe aproximado de Registro de Esfera em Latão com Alavanca, Rosca de Uma Polegada para Maior Vazão, Vendido em Duas Opções de Embalagem"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

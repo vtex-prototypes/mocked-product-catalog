@@ -80,6 +80,16 @@
             "#ffffff": "white-white.png",
             "#f5f5f5": "white-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Compact USB-C Wall Charger with Fast Charging, Glossy White, GaN Technology, Charges Phones, Tablets, Wireless Earbuds and Laptops, Universal Voltage for Travel",
+            "pt-BR": "Detalhe aproximado de Carregador de Parede USB-C Compacto com Carga Rápida, Branco Brilhante, Tecnologia GaN, Carrega Celular, Tablet, Fones sem Fio e Notebook, Bivolt para Viagem"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -103,6 +113,16 @@
           "backgrounds": {
             "#ffffff": "white-white.png",
             "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Compact USB-C Wall Charger with Fast Charging, Glossy White, GaN Technology, Charges Phones, Tablets, Wireless Earbuds and Laptops, Universal Voltage for Travel",
+            "pt-BR": "Detalhe aproximado de Carregador de Parede USB-C Compacto com Carga Rápida, Branco Brilhante, Tecnologia GaN, Carrega Celular, Tablet, Fones sem Fio e Notebook, Bivolt para Viagem"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

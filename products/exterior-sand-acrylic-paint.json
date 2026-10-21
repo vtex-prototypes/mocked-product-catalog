@@ -102,6 +102,16 @@
             "#ffffff": "sand-white.png",
             "#f5f5f5": "sand-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Exterior Sand Acrylic Masonry Paint with a Matte Finish, Sold by the Can",
+            "pt-BR": "Detalhe aproximado de Tinta Acrílica Areia Fosca para Alvenaria Externa, Vendida por Lata"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -126,6 +136,16 @@
           "backgrounds": {
             "#ffffff": "sand-white.png",
             "#f5f5f5": "sand-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Exterior Sand Acrylic Masonry Paint with a Matte Finish, Sold by the Can",
+            "pt-BR": "Detalhe aproximado de Tinta Acrílica Areia Fosca para Alvenaria Externa, Vendida por Lata"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

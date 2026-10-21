@@ -90,6 +90,16 @@
             "#ffffff": "brown-white.png",
             "#f5f5f5": "brown-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Ritmo Brown Leather Loafer with a Round Toe, a Low Heel and a Plain Apron",
+            "pt-BR": "Detalhe aproximado de Loafer Ritmo marrom de couro com bico redondo, salto baixo e gáspea lisa sem enfeite"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -115,6 +125,16 @@
             "#ffffff": "brown-white.png",
             "#f5f5f5": "brown-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Ritmo Brown Leather Loafer with a Round Toe, a Low Heel and a Plain Apron",
+            "pt-BR": "Detalhe aproximado de Loafer Ritmo marrom de couro com bico redondo, salto baixo e gáspea lisa sem enfeite"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -139,6 +159,16 @@
           "backgrounds": {
             "#ffffff": "brown-white.png",
             "#f5f5f5": "brown-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Ritmo Brown Leather Loafer with a Round Toe, a Low Heel and a Plain Apron",
+            "pt-BR": "Detalhe aproximado de Loafer Ritmo marrom de couro com bico redondo, salto baixo e gáspea lisa sem enfeite"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

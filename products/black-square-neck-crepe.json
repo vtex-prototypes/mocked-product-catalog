@@ -90,6 +90,16 @@
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Fio Puro Black Crepe Top with a Square Neck, Wide Straps and a Clean Hip-Length Hem",
+            "pt-BR": "Detalhe aproximado de Blusa Fio Puro preta de crepe com decote quadrado, alças largas e barra reta na altura do quadril"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -115,6 +125,16 @@
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Fio Puro Black Crepe Top with a Square Neck, Wide Straps and a Clean Hip-Length Hem",
+            "pt-BR": "Detalhe aproximado de Blusa Fio Puro preta de crepe com decote quadrado, alças largas e barra reta na altura do quadril"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -139,6 +159,16 @@
           "backgrounds": {
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Fio Puro Black Crepe Top with a Square Neck, Wide Straps and a Clean Hip-Length Hem",
+            "pt-BR": "Detalhe aproximado de Blusa Fio Puro preta de crepe com decote quadrado, alças largas e barra reta na altura do quadril"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

@@ -122,6 +122,16 @@
             "#ffffff": "oak-white.png",
             "#f5f5f5": "oak-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Light Wood-Look Ceramic Deck Plank, 8 by 48 Inches and 9 Millimeters Thick, Priced per Square Foot",
+            "pt-BR": "Detalhe aproximado de Deck Cerâmico Madeira Clara 20×120 cm com 9 mm de Espessura, Preço por Metro Quadrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -146,6 +156,16 @@
           "backgrounds": {
             "#ffffff": "oak-white.png",
             "#f5f5f5": "oak-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Light Wood-Look Ceramic Deck Plank, 8 by 48 Inches and 9 Millimeters Thick, Priced per Square Foot",
+            "pt-BR": "Detalhe aproximado de Deck Cerâmico Madeira Clara 20×120 cm com 9 mm de Espessura, Preço por Metro Quadrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

@@ -90,6 +90,16 @@
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Fio Puro Black Sheath Dress in Crepe with a Sleeveless Column, Knee Length and a Modest Boat Neck",
+            "pt-BR": "Detalhe aproximado de Vestido reto Fio Puro preto em crepe, sem manga, no joelho, com decote canoa fechado e coluna estreita"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -115,6 +125,16 @@
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Fio Puro Black Sheath Dress in Crepe with a Sleeveless Column, Knee Length and a Modest Boat Neck",
+            "pt-BR": "Detalhe aproximado de Vestido reto Fio Puro preto em crepe, sem manga, no joelho, com decote canoa fechado e coluna estreita"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -139,6 +159,16 @@
           "backgrounds": {
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Fio Puro Black Sheath Dress in Crepe with a Sleeveless Column, Knee Length and a Modest Boat Neck",
+            "pt-BR": "Detalhe aproximado de Vestido reto Fio Puro preto em crepe, sem manga, no joelho, com decote canoa fechado e coluna estreita"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

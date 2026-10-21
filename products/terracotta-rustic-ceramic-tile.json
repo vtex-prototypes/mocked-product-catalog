@@ -122,6 +122,16 @@
             "#ffffff": "terracotta-white.png",
             "#f5f5f5": "terracotta-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Rustic Terracotta Ceramic Floor Tile, 20 by 20 Inches and 8 Millimeters Thick, Priced per Square Foot",
+            "pt-BR": "Detalhe aproximado de Cerâmica Rústica Terracota 50×50 cm com 8 mm de Espessura, Preço por Metro Quadrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -146,6 +156,16 @@
           "backgrounds": {
             "#ffffff": "terracotta-white.png",
             "#f5f5f5": "terracotta-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Rustic Terracotta Ceramic Floor Tile, 20 by 20 Inches and 8 Millimeters Thick, Priced per Square Foot",
+            "pt-BR": "Detalhe aproximado de Cerâmica Rústica Terracota 50×50 cm com 8 mm de Espessura, Preço por Metro Quadrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]
