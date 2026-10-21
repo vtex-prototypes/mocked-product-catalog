@@ -110,6 +110,16 @@
             "#ffffff": "sand-white.png",
             "#f5f5f5": "sand-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Sand Acrylic Grout in a Squeeze Tube for Touch-Ups on Indoor and Outdoor Joints",
+            "pt-BR": "Detalhe aproximado de Rejunte Acrílico Areia em Bisnaga para Retoque de Juntas Internas e Externas"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -134,6 +144,16 @@
           "backgrounds": {
             "#ffffff": "sand-white.png",
             "#f5f5f5": "sand-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Sand Acrylic Grout in a Squeeze Tube for Touch-Ups on Indoor and Outdoor Joints",
+            "pt-BR": "Detalhe aproximado de Rejunte Acrílico Areia em Bisnaga para Retoque de Juntas Internas e Externas"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

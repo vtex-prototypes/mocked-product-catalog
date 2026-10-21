@@ -99,6 +99,16 @@
             "#ffffff": "gold-white.png",
             "#f5f5f5": "gold-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Fio Puro Gold Brass Hoop Earrings with a Hinged Closure and a Smooth Polished Finish, Sold as a Pair",
+            "pt-BR": "Detalhe aproximado de Argolas Fio Puro Douradas de Latão com Fecho Articulado e Acabamento Polido, Vendidas em Par"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -123,6 +133,16 @@
           "backgrounds": {
             "#ffffff": "gold-white.png",
             "#f5f5f5": "gold-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Fio Puro Gold Brass Hoop Earrings with a Hinged Closure and a Smooth Polished Finish, Sold as a Pair",
+            "pt-BR": "Detalhe aproximado de Argolas Fio Puro Douradas de Latão com Fecho Articulado e Acabamento Polido, Vendidas em Par"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

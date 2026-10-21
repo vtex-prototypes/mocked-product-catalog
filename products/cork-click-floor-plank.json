@@ -118,6 +118,16 @@
             "#ffffff": "cork-white.png",
             "#f5f5f5": "cork-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Natural Cork Click Floor Plank, 7 by 48 Inches, for Dry Indoor Rooms, Priced per Square Foot",
+            "pt-BR": "Detalhe aproximado de Piso de Cortiça Natural com Encaixe Click 18×122 cm para Área Interna Seca, Preço por Metro Quadrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -146,6 +156,16 @@
           "backgrounds": {
             "#ffffff": "cork-white.png",
             "#f5f5f5": "cork-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Natural Cork Click Floor Plank, 7 by 48 Inches, for Dry Indoor Rooms, Priced per Square Foot",
+            "pt-BR": "Detalhe aproximado de Piso de Cortiça Natural com Encaixe Click 18×122 cm para Área Interna Seca, Preço por Metro Quadrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

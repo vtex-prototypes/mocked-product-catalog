@@ -122,6 +122,16 @@
             "#ffffff": "white-white.png",
             "#f5f5f5": "white-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Glossy White Glazed Ceramic Floor Tile, 24 by 24 Inches and 7 Millimeters Thick, Priced per Square Foot",
+            "pt-BR": "Detalhe aproximado de Cerâmica Esmaltada Branca 60×60 cm com 7 mm de Espessura, Preço por Metro Quadrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -146,6 +156,16 @@
           "backgrounds": {
             "#ffffff": "white-white.png",
             "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Glossy White Glazed Ceramic Floor Tile, 24 by 24 Inches and 7 Millimeters Thick, Priced per Square Foot",
+            "pt-BR": "Detalhe aproximado de Cerâmica Esmaltada Branca 60×60 cm com 7 mm de Espessura, Preço por Metro Quadrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

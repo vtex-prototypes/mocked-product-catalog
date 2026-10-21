@@ -102,6 +102,16 @@
             "#ffffff": "amber-white.png",
             "#f5f5f5": "amber-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of PVC Solvent Cement with a Brush Cap, for Gray and White PVC Pipe, Sold by the Can",
+            "pt-BR": "Detalhe aproximado de Adesivo para PVC com Pincel na Tampa, para Tubo Cinza e Branco, Vendido por Lata"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -126,6 +136,16 @@
           "backgrounds": {
             "#ffffff": "amber-white.png",
             "#f5f5f5": "amber-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of PVC Solvent Cement with a Brush Cap, for Gray and White PVC Pipe, Sold by the Can",
+            "pt-BR": "Detalhe aproximado de Adesivo para PVC com Pincel na Tampa, para Tubo Cinza e Branco, Vendido por Lata"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

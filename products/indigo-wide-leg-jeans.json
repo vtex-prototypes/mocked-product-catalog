@@ -90,6 +90,16 @@
             "#ffffff": "indigo-white.png",
             "#f5f5f5": "indigo-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Ritmo Indigo Wide-Leg Jeans in Denim with a Mid Rise, a Full Thigh and a Full-Length Hem",
+            "pt-BR": "Detalhe aproximado de Jeans wide Ritmo índigo de denim, cós médio, coxa cheia e barra no comprimento inteiro"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -115,6 +125,16 @@
             "#ffffff": "indigo-white.png",
             "#f5f5f5": "indigo-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Ritmo Indigo Wide-Leg Jeans in Denim with a Mid Rise, a Full Thigh and a Full-Length Hem",
+            "pt-BR": "Detalhe aproximado de Jeans wide Ritmo índigo de denim, cós médio, coxa cheia e barra no comprimento inteiro"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -139,6 +159,16 @@
           "backgrounds": {
             "#ffffff": "indigo-white.png",
             "#f5f5f5": "indigo-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Ritmo Indigo Wide-Leg Jeans in Denim with a Mid Rise, a Full Thigh and a Full-Length Hem",
+            "pt-BR": "Detalhe aproximado de Jeans wide Ritmo índigo de denim, cós médio, coxa cheia e barra no comprimento inteiro"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

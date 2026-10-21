@@ -74,6 +74,16 @@
             "#ffffff": "white-white.png",
             "#f5f5f5": "white-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Adjustable Desk Phone Stand, White ABS with Non-Slip Silicone Pads, Tilts and Extends for Video Calls and Recipes, Fits Phones and Small Tablets, Folds Flat for Travel",
+            "pt-BR": "Detalhe aproximado de Suporte de Mesa Ajustável para Celular, ABS Branco com Apoios de Silicone Antiderrapantes, Inclina e Estende para Videochamadas e Receitas, Para Celulares e Tablets Pequenos, Dobrável para Viagem"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -97,6 +107,16 @@
           "backgrounds": {
             "#ffffff": "white-white.png",
             "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Adjustable Desk Phone Stand, White ABS with Non-Slip Silicone Pads, Tilts and Extends for Video Calls and Recipes, Fits Phones and Small Tablets, Folds Flat for Travel",
+            "pt-BR": "Detalhe aproximado de Suporte de Mesa Ajustável para Celular, ABS Branco com Apoios de Silicone Antiderrapantes, Inclina e Estende para Videochamadas e Receitas, Para Celulares e Tablets Pequenos, Dobrável para Viagem"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

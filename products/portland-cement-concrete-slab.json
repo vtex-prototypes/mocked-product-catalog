@@ -106,6 +106,16 @@
             "#ffffff": "main-white.png",
             "#f5f5f5": "main-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Portland Cement for Concrete and General Masonry, Selected for Small Concrete Slabs, Sold in Two Project Packs",
+            "pt-BR": "Detalhe aproximado de Cimento Portland para Concreto e Alvenaria em Geral, Selecionado para Pequenas Lajes de Concreto, Vendido em Duas Opções de Embalagem"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -130,6 +140,16 @@
           "backgrounds": {
             "#ffffff": "main-white.png",
             "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Portland Cement for Concrete and General Masonry, Selected for Small Concrete Slabs, Sold in Two Project Packs",
+            "pt-BR": "Detalhe aproximado de Cimento Portland para Concreto e Alvenaria em Geral, Selecionado para Pequenas Lajes de Concreto, Vendido em Duas Opções de Embalagem"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

@@ -110,6 +110,16 @@
             "#ffffff": "main-white.png",
             "#f5f5f5": "main-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Matte Terracotta Ceramic Subway Wall Tile, Standard Format for Balanced Wall Layouts, Sold in Two Project Packs",
+            "pt-BR": "Detalhe aproximado de Revestimento Cerâmico Subway Terracota Fosco, Formato Padrão para Paginações Equilibradas, Vendido em Duas Opções de Embalagem"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -134,6 +144,16 @@
           "backgrounds": {
             "#ffffff": "main-white.png",
             "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Matte Terracotta Ceramic Subway Wall Tile, Standard Format for Balanced Wall Layouts, Sold in Two Project Packs",
+            "pt-BR": "Detalhe aproximado de Revestimento Cerâmico Subway Terracota Fosco, Formato Padrão para Paginações Equilibradas, Vendido em Duas Opções de Embalagem"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

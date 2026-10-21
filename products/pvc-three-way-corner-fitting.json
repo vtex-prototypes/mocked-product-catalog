@@ -106,6 +106,16 @@
             "#ffffff": "gray-white.png",
             "#f5f5f5": "gray-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Gray PVC Three-Way Corner Fitting for 1 Inch Cold-Water Pipe, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Conexão de Canto de PVC Cinza com Três Saídas para Tubo de 25 mm, Vendida por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -130,6 +140,16 @@
           "backgrounds": {
             "#ffffff": "gray-white.png",
             "#f5f5f5": "gray-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Gray PVC Three-Way Corner Fitting for 1 Inch Cold-Water Pipe, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Conexão de Canto de PVC Cinza com Três Saídas para Tubo de 25 mm, Vendida por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

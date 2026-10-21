@@ -74,6 +74,16 @@
             "#ffffff": "navy-white.png",
             "#f5f5f5": "navy-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Padded Laptop Sleeve with Zip Closure, Navy Water-Repellent Fabric, Soft Fleece Lining, Elastic Strap and Front Pocket for Charger and Wireless Mouse, Slim Enough for Any Backpack",
+            "pt-BR": "Detalhe aproximado de Capa Acolchoada para Notebook com Zíper, Tecido Azul Marinho Repelente à Água, Forro Macio de Fleece, Elástico e Bolso Frontal para Carregador e Mouse sem Fio, Fina para Qualquer Mochila"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -97,6 +107,16 @@
           "backgrounds": {
             "#ffffff": "navy-white.png",
             "#f5f5f5": "navy-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Padded Laptop Sleeve with Zip Closure, Navy Water-Repellent Fabric, Soft Fleece Lining, Elastic Strap and Front Pocket for Charger and Wireless Mouse, Slim Enough for Any Backpack",
+            "pt-BR": "Detalhe aproximado de Capa Acolchoada para Notebook com Zíper, Tecido Azul Marinho Repelente à Água, Forro Macio de Fleece, Elástico e Bolso Frontal para Carregador e Mouse sem Fio, Fina para Qualquer Mochila"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

@@ -84,6 +84,16 @@
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Over-Ear Bluetooth Headphones with Active Noise Cancelling, Matte Black, Memory Foam Ear Cushions, 40-Hour Battery, Fast Charging over USB-C, Foldable Design with Built-In Microphone",
+            "pt-BR": "Detalhe aproximado de Headphone Bluetooth Over-Ear com Cancelamento de Ruído Ativo, Preto Fosco, Almofadas de Espuma Viscoelástica, Bateria de 40 Horas, Carga Rápida USB-C, Dobrável com Microfone Integrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -107,6 +117,16 @@
           "backgrounds": {
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Over-Ear Bluetooth Headphones with Active Noise Cancelling, Matte Black, Memory Foam Ear Cushions, 40-Hour Battery, Fast Charging over USB-C, Foldable Design with Built-In Microphone",
+            "pt-BR": "Detalhe aproximado de Headphone Bluetooth Over-Ear com Cancelamento de Ruído Ativo, Preto Fosco, Almofadas de Espuma Viscoelástica, Bateria de 40 Horas, Carga Rápida USB-C, Dobrável com Microfone Integrado"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

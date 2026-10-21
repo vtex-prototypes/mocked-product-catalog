@@ -80,6 +80,16 @@
             "#ffffff": "white-white.png",
             "#f5f5f5": "white-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Dual USB Wall Charger, 2 USB-A Ports, 12 W Total, Glossy White, Charge a Phone and Wireless Earbuds at the Same Time, Overheat Protection, Universal Voltage",
+            "pt-BR": "Detalhe aproximado de Carregador de Parede com 2 Portas USB-A, 12 W no Total, Branco Brilhante, Carregue Celular e Fones sem Fio ao Mesmo Tempo, Proteção contra Superaquecimento, Bivolt"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -103,6 +113,16 @@
           "backgrounds": {
             "#ffffff": "white-white.png",
             "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Dual USB Wall Charger, 2 USB-A Ports, 12 W Total, Glossy White, Charge a Phone and Wireless Earbuds at the Same Time, Overheat Protection, Universal Voltage",
+            "pt-BR": "Detalhe aproximado de Carregador de Parede com 2 Portas USB-A, 12 W no Total, Branco Brilhante, Carregue Celular e Fones sem Fio ao Mesmo Tempo, Proteção contra Superaquecimento, Bivolt"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

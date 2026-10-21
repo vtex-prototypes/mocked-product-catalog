@@ -90,6 +90,16 @@
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Ritmo Black Bomber Jacket in Cotton with Ribbed Collar, Cuffs and Hem and a Zip Front",
+            "pt-BR": "Detalhe aproximado de Jaqueta bomber Ritmo preta de algodão, gola, punho e barra canelados e zíper na frente"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -115,6 +125,16 @@
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Ritmo Black Bomber Jacket in Cotton with Ribbed Collar, Cuffs and Hem and a Zip Front",
+            "pt-BR": "Detalhe aproximado de Jaqueta bomber Ritmo preta de algodão, gola, punho e barra canelados e zíper na frente"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -139,6 +159,16 @@
           "backgrounds": {
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Ritmo Black Bomber Jacket in Cotton with Ribbed Collar, Cuffs and Hem and a Zip Front",
+            "pt-BR": "Detalhe aproximado de Jaqueta bomber Ritmo preta de algodão, gola, punho e barra canelados e zíper na frente"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]

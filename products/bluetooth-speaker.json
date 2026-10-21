@@ -80,6 +80,16 @@
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Portable Bluetooth Speaker, Waterproof IPX7, Charcoal Fabric Grille, Rich Stereo Sound, 12-Hour Battery, Built-In Microphone for Calls, Compact Size for Travel, Beach and Pool",
+            "pt-BR": "Detalhe aproximado de Caixa de Som Bluetooth Portátil à Prova d'Água IPX7, Grade de Tecido Grafite, Som Estéreo Encorpado, Bateria de 12 Horas, Microfone para Chamadas, Compacta para Viagem, Praia e Piscina"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
         }
       ]
     },
@@ -103,6 +113,16 @@
           "backgrounds": {
             "#ffffff": "black-white.png",
             "#f5f5f5": "black-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Portable Bluetooth Speaker, Waterproof IPX7, Charcoal Fabric Grille, Rich Stereo Sound, 12-Hour Battery, Built-In Microphone for Calls, Compact Size for Travel, Beach and Pool",
+            "pt-BR": "Detalhe aproximado de Caixa de Som Bluetooth Portátil à Prova d'Água IPX7, Grade de Tecido Grafite, Som Estéreo Encorpado, Bateria de 12 Horas, Microfone para Chamadas, Compacta para Viagem, Praia e Piscina"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
           }
         }
       ]
