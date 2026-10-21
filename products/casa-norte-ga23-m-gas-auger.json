@@ -1,0 +1,155 @@
+{
+  "id": "casa-norte-ga23-m-gas-auger",
+  "brandId": "casa-norte",
+  "categoryId": "construcao-ferramentas-eletricas",
+  "name": {
+    "en": "Casa Norte GA23-M Gasoline Fence-Post Auger with Engine and Spiral Bit",
+    "pt-BR": "Furadeira de Mourão a Gasolina Casa Norte GA23-M com Motor e Broca Espiral"
+  },
+  "description": {
+    "en": "A gasoline auger for fence-post holes. The two-stroke engine sits above the handles and turns a spiral bit that lifts soil as it goes down. It does not plug into a wall outlet.",
+    "pt-BR": "Perfurador de mourão a gasolina para buracos de cerca. O motor dois tempos fica acima dos manetes e gira uma broca espiral que sobe a terra conforme desce. Não liga na tomada."
+  },
+  "price": {
+    "BRL": 1890,
+    "USD": 449
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "Casa Norte GA23-M",
+      "gasoline post auger",
+      "fence auger"
+    ],
+    "pt-BR": [
+      "Casa Norte GA23-M",
+      "furadeira de mourão",
+      "perfurador de solo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "tool-type",
+      "valueId": "earth-auger"
+    },
+    {
+      "id": "power-source",
+      "valueId": "gasoline"
+    }
+  ],
+  "defaultVariantId": "150-mm",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "engine-green",
+          "name": {
+            "en": "Engine green",
+            "pt-BR": "Verde motor"
+          },
+          "hex": "#1E4A32"
+        }
+      ]
+    },
+    {
+      "id": "bit-diameter",
+      "name": {
+        "en": "Bit diameter",
+        "pt-BR": "Diâmetro da broca"
+      },
+      "values": [
+        {
+          "id": "150-mm",
+          "name": {
+            "en": "150 mm",
+            "pt-BR": "150 mm"
+          }
+        },
+        {
+          "id": "200-mm",
+          "name": {
+            "en": "200 mm",
+            "pt-BR": "200 mm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "150-mm",
+      "sku": "CON-GA23M-150-MM",
+      "options": {
+        "color": "engine-green",
+        "bit-diameter": "150-mm"
+      },
+      "price": {
+        "BRL": 1890,
+        "USD": 449
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte GA23-M gasoline fence-post auger, isolated product view",
+            "pt-BR": "Furadeira de mourão Casa Norte GA23-M, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte GA23-M boring a post hole with its spiral bit in the soil",
+            "pt-BR": "Casa Norte GA23-M abrindo um buraco de mourão com a broca espiral na terra"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "200-mm",
+      "sku": "CON-GA23M-200-MM",
+      "options": {
+        "color": "engine-green",
+        "bit-diameter": "200-mm"
+      },
+      "price": {
+        "BRL": 2090,
+        "USD": 499
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte GA23-M gasoline fence-post auger, isolated product view",
+            "pt-BR": "Furadeira de mourão Casa Norte GA23-M, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte GA23-M boring a post hole with its spiral bit in the soil",
+            "pt-BR": "Casa Norte GA23-M abrindo um buraco de mourão com a broca espiral na terra"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

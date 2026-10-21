@@ -1,0 +1,154 @@
+{
+  "id": "casa-norte-dp16-b-bench-drill",
+  "brandId": "casa-norte",
+  "categoryId": "construcao-ferramentas-eletricas",
+  "name": {
+    "en": "Casa Norte DP16-B Floor-Standing Bench Drill Press with Column and Downward Chuck",
+    "pt-BR": "Furadeira de Bancada Casa Norte DP16-B com Coluna Mesa Redonda e Mandril para Baixo"
+  },
+  "description": {
+    "en": "A floor-standing drill press for repeat holes in steel, wood, and plastic. The chuck points straight down at a round table, and the column keeps the bit square so each hole lands in the same place.",
+    "pt-BR": "Furadeira de bancada para furos repetidos em aço, madeira e plástico. O mandril aponta para baixo, sobre a mesa redonda, e a coluna mantém a broca no prumo para o furo sair sempre no mesmo lugar."
+  },
+  "price": {
+    "BRL": 979.9,
+    "USD": 269
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "Casa Norte DP16-B",
+      "bench drill press",
+      "drill press"
+    ],
+    "pt-BR": [
+      "Casa Norte DP16-B",
+      "furadeira de bancada",
+      "furadeira de coluna"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "tool-type",
+      "valueId": "bench-drill"
+    },
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    },
+    {
+      "id": "voltage",
+      "valueId": "127-v"
+    },
+    {
+      "id": "voltage",
+      "valueId": "220-v"
+    }
+  ],
+  "defaultVariantId": "127-v",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "graphite",
+          "name": {
+            "en": "Graphite",
+            "pt-BR": "Grafite"
+          },
+          "hex": "#5C6166"
+        }
+      ]
+    },
+    {
+      "id": "voltage",
+      "specificationId": "voltage",
+      "values": [
+        {
+          "id": "127-v",
+          "valueId": "127-v"
+        },
+        {
+          "id": "220-v",
+          "valueId": "220-v"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "127-v",
+      "sku": "CON-DP16B-127-V",
+      "options": {
+        "color": "graphite",
+        "voltage": "127-v"
+      },
+      "price": {
+        "BRL": 979.9,
+        "USD": 269
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte DP16-B floor-standing bench drill press, isolated product view",
+            "pt-BR": "Furadeira de bancada Casa Norte DP16-B, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte DP16-B drilling a steel plate on its round table",
+            "pt-BR": "Casa Norte DP16-B furando uma chapa de aço na mesa redonda"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "220-v",
+      "sku": "CON-DP16B-220-V",
+      "options": {
+        "color": "graphite",
+        "voltage": "220-v"
+      },
+      "price": {
+        "BRL": 999.9,
+        "USD": 279
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte DP16-B floor-standing bench drill press, isolated product view",
+            "pt-BR": "Furadeira de bancada Casa Norte DP16-B, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte DP16-B drilling a steel plate on its round table",
+            "pt-BR": "Casa Norte DP16-B furando uma chapa de aço na mesa redonda"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

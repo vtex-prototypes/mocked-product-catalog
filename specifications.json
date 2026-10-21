@@ -753,6 +753,62 @@
           "en": "Rotary hammer",
           "pt-BR": "Martelete perfurador"
         }
+      },
+      {
+        "id": "bench-drill",
+        "name": {
+          "en": "Bench drill press",
+          "pt-BR": "Furadeira de bancada"
+        }
+      },
+      {
+        "id": "impact-driver",
+        "name": {
+          "en": "Hex impact driver",
+          "pt-BR": "Parafusadeira de impacto"
+        }
+      },
+      {
+        "id": "drywall-driver",
+        "name": {
+          "en": "Drywall screw gun",
+          "pt-BR": "Parafusadeira de drywall"
+        }
+      },
+      {
+        "id": "inline-drill",
+        "name": {
+          "en": "Inline stick drill",
+          "pt-BR": "Furadeira tipo palito"
+        }
+      },
+      {
+        "id": "earth-auger",
+        "name": {
+          "en": "Post-hole auger",
+          "pt-BR": "Furadeira de mourão"
+        }
+      },
+      {
+        "id": "demolition-hammer",
+        "name": {
+          "en": "Demolition hammer",
+          "pt-BR": "Rompedor"
+        }
+      },
+      {
+        "id": "drill-kit",
+        "name": {
+          "en": "Drill kit",
+          "pt-BR": "Kit de furadeira"
+        }
+      },
+      {
+        "id": "angle-grinder",
+        "name": {
+          "en": "Angle grinder",
+          "pt-BR": "Esmerilhadeira"
+        }
       }
     ]
   },
@@ -775,6 +831,13 @@
         "name": {
           "en": "Corded",
           "pt-BR": "Com fio"
+        }
+      },
+      {
+        "id": "gasoline",
+        "name": {
+          "en": "Gasoline",
+          "pt-BR": "Gasolina"
         }
       }
     ]
