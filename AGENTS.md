@@ -43,4 +43,6 @@ Work on a branch. Generate the white PNG with the prompt in the README, with the
 
 Open the PR with `gh pr create` and fill in the template. Confirm by eye: no shadow, no text, no logo, no trademark.
 
+Each new product needs a photo a person can tell apart at a glance: a different object, color, shape, material, or angle. A different size, pack, gauge, rating, or install note on the same picture is not variety. Variants of one product may share a photo when that difference would not show. If a request only works by shipping lookalike photos, stop before generating files and say how many products would look alike and in which categories. The default is to skip those and add only products with their own photo. A count target is not permission. Continue with lookalike photos only after the person explicitly confirms that warning.
+
 Regenerate a photo that fails the white-edge check. Cutting the background out by hand produces a worse image. Paint extra background colors with `npm run backgrounds`; that pass is cheap. Keep the white PNG as the original.
