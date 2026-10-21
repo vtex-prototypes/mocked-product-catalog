@@ -1,0 +1,142 @@
+{
+  "id": "sage-fish-scale-standard-format",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Sage Green Fish-Scale Ceramic Wall Tile, Standard Format for Balanced Wall Layouts, Sold in Two Project Packs",
+    "pt-BR": "Revestimento Cerâmico Escama Verde Sálvia, Formato Padrão para Paginações Equilibradas, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A coordinated wall covering for kitchens, bathrooms and feature walls. The listed format helps plan cuts, while the finish is easy to combine with grout and trim. This listing is for sage green fish-scale ceramic wall tile, standard format for balanced wall layouts.",
+    "pt-BR": "Um revestimento coordenado para cozinhas, banheiros e paredes de destaque. O formato indicado ajuda a planejar os recortes e combina com rejunte e acabamento. Este anúncio apresenta revestimento cerâmico escama verde sálvia, formato padrão para paginações equilibradas."
+  },
+  "price": {
+    "BRL": 100.59,
+    "USD": 40.28
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "sage green fish-scale ceramic wall tile",
+      "standard format for balanced wall layouts",
+      "construction"
+    ],
+    "pt-BR": [
+      "revestimento cerâmico escama verde sálvia",
+      "formato padrão para paginações equilibradas",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "sage-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "sage",
+          "name": {
+            "en": "Sage",
+            "pt-BR": "Verde sálvia"
+          },
+          "hex": "#8FA58B"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "sage-natural",
+      "sku": "CON-SAGE-FISH-SCALE-STANDARD-FORMAT-SAGE-NATURAL",
+      "options": {
+        "color": "sage",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 100.59,
+        "USD": 40.28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage Green Fish-Scale Ceramic Wall Tile, Standard Format for Balanced Wall Layouts, isolated product view",
+            "pt-BR": "Revestimento Cerâmico Escama Verde Sálvia, Formato Padrão para Paginações Equilibradas, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-rectified",
+      "sku": "CON-SAGE-FISH-SCALE-STANDARD-FORMAT-SAGE-RECTIFIED",
+      "options": {
+        "color": "sage",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 125.81,
+        "USD": 50.37
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage Green Fish-Scale Ceramic Wall Tile, Standard Format for Balanced Wall Layouts, isolated product view",
+            "pt-BR": "Revestimento Cerâmico Escama Verde Sálvia, Formato Padrão para Paginações Equilibradas, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

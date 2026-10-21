@@ -1,0 +1,138 @@
+{
+  "id": "white-two-piece-toilet-raised-seat",
+  "categoryId": "construcao-banheiro",
+  "name": {
+    "en": "White Ceramic Two-Piece Toilet with Closed Seat, Raised Seat Height for Easier Use, Sold in Two Project Packs",
+    "pt-BR": "Vaso Sanitário Branco com Caixa Acoplada e Assento, Altura de Assento Elevada para Facilitar o Uso, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A bathroom fixture sized for a common residential installation. The mounting or connection detail distinguishes the product before checking clearances and plumbing on site. This listing is for white ceramic two-piece toilet with closed seat, raised seat height for easier use.",
+    "pt-BR": "Uma peça de banheiro dimensionada para instalação residencial comum. O detalhe de fixação ou conexão diferencia o produto antes de conferir espaço e hidráulica no local. Este anúncio apresenta vaso sanitário branco com caixa acoplada e assento, altura de assento elevada para facilitar o uso."
+  },
+  "price": {
+    "BRL": 529.82,
+    "USD": 223.02
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "white ceramic two-piece toilet with closed seat",
+      "raised seat height for easier use",
+      "construction"
+    ],
+    "pt-BR": [
+      "vaso sanitário branco com caixa acoplada e assento",
+      "altura de assento elevada para facilitar o uso",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "standard",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F6F6F4"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Drain",
+        "pt-BR": "Saída"
+      },
+      "values": [
+        {
+          "id": "standard",
+          "name": {
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        },
+        {
+          "id": "alt",
+          "name": {
+            "en": "Alternate",
+            "pt-BR": "Alternativa"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-RAISED-SEAT-STANDARD",
+      "options": {
+        "color": "white",
+        "install": "standard"
+      },
+      "price": {
+        "BRL": 529.82,
+        "USD": 223.02
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Ceramic Two-Piece Toilet with Closed Seat, Raised Seat Height for Easier Use, isolated product view",
+            "pt-BR": "Vaso Sanitário Branco com Caixa Acoplada e Assento, Altura de Assento Elevada para Facilitar o Uso, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alt",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-RAISED-SEAT-ALT",
+      "options": {
+        "color": "white",
+        "install": "alt"
+      },
+      "price": {
+        "BRL": 674.16,
+        "USD": 291.84
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Ceramic Two-Piece Toilet with Closed Seat, Raised Seat Height for Easier Use, isolated product view",
+            "pt-BR": "Vaso Sanitário Branco com Caixa Acoplada e Assento, Altura de Assento Elevada para Facilitar o Uso, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

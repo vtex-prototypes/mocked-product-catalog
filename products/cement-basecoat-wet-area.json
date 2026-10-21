@@ -1,0 +1,138 @@
+{
+  "id": "cement-basecoat-wet-area",
+  "categoryId": "construcao-argamassas",
+  "name": {
+    "en": "Gray Cement Basecoat Plaster for Masonry Walls, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",
+    "pt-BR": "Reboco Cimentício Cinza para Parede de Alvenaria, para Cozinhas e Áreas Molhadas Residenciais, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A cement-based preparation for a specific stage of a residential build. The application label separates tile setting, leveling and wall preparation for more accurate material lists. This listing is for gray cement basecoat plaster for masonry walls, for residential kitchens and wet areas.",
+    "pt-BR": "Uma preparação cimentícia para uma etapa específica da obra residencial. A indicação de uso separa assentamento, nivelamento e preparo de parede para listas mais precisas. Este anúncio apresenta reboco cimentício cinza para parede de alvenaria, para cozinhas e áreas molhadas residenciais."
+  },
+  "price": {
+    "BRL": 27.02,
+    "USD": 11.8
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "gray cement basecoat plaster for masonry walls",
+      "for residential kitchens and wet areas",
+      "construction"
+    ],
+    "pt-BR": [
+      "reboco cimentício cinza para parede de alvenaria",
+      "para cozinhas e áreas molhadas residenciais",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "one",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#C2C2BC"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "20kg",
+          "name": {
+            "en": "44 lb",
+            "pt-BR": "20 kg"
+          }
+        },
+        {
+          "id": "five",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one",
+      "sku": "CON-CEMENT-BASECOAT-WET-AREA-ONE",
+      "options": {
+        "color": "gray",
+        "weight": "20kg"
+      },
+      "price": {
+        "BRL": 27.02,
+        "USD": 11.8
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray Cement Basecoat Plaster for Masonry Walls, for Residential Kitchens and Wet Areas, isolated product view",
+            "pt-BR": "Reboco Cimentício Cinza para Parede de Alvenaria, para Cozinhas e Áreas Molhadas Residenciais, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "five",
+      "sku": "CON-CEMENT-BASECOAT-WET-AREA-FIVE",
+      "options": {
+        "color": "gray",
+        "weight": "five"
+      },
+      "price": {
+        "BRL": 127.31,
+        "USD": 53.52
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray Cement Basecoat Plaster for Masonry Walls, for Residential Kitchens and Wet Areas, isolated product view",
+            "pt-BR": "Reboco Cimentício Cinza para Parede de Alvenaria, para Cozinhas e Áreas Molhadas Residenciais, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

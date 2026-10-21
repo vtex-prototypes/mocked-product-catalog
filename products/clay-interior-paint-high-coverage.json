@@ -1,0 +1,142 @@
+{
+  "id": "clay-interior-paint-high-coverage",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Warm Clay Acrylic Paint for Indoor Walls, High Coverage for Renovation Coats, Sold in Two Project Packs",
+    "pt-BR": "Tinta Acrílica Terracota para Parede Interna, Alta Cobertura para Pintura de Renovação, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A water-based coating prepared for an even residential finish. The performance level identifies where it works best and supports realistic coverage and budget comparisons. This listing is for warm clay acrylic paint for indoor walls, high coverage for renovation coats.",
+    "pt-BR": "Um revestimento à base de água preparado para acabamento uniforme em obras residenciais. O nível de desempenho indica o melhor uso e ajuda a comparar rendimento e orçamento. Este anúncio apresenta tinta acrílica terracota para parede interna, alta cobertura para pintura de renovação."
+  },
+  "price": {
+    "BRL": 123.09,
+    "USD": 49.28
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "warm clay acrylic paint for indoor walls",
+      "high coverage for renovation coats",
+      "construction"
+    ],
+    "pt-BR": [
+      "tinta acrílica terracota para parede interna",
+      "alta cobertura para pintura de renovação",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "clay-small",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "clay",
+          "name": {
+            "en": "Clay",
+            "pt-BR": "Terracota"
+          },
+          "hex": "#C46A45"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "small",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "large",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "clay-small",
+      "sku": "CON-CLAY-INTERIOR-PAINT-HIGH-COVERAGE-CLAY-SMALL",
+      "options": {
+        "color": "clay",
+        "volume": "small"
+      },
+      "price": {
+        "BRL": 123.09,
+        "USD": 49.28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Warm Clay Acrylic Paint for Indoor Walls, High Coverage for Renovation Coats, isolated product view",
+            "pt-BR": "Tinta Acrílica Terracota para Parede Interna, Alta Cobertura para Pintura de Renovação, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "clay-large",
+      "sku": "CON-CLAY-INTERIOR-PAINT-HIGH-COVERAGE-CLAY-LARGE",
+      "options": {
+        "color": "clay",
+        "volume": "large"
+      },
+      "price": {
+        "BRL": 373.77,
+        "USD": 149.99
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Warm Clay Acrylic Paint for Indoor Walls, High Coverage for Renovation Coats, isolated product view",
+            "pt-BR": "Tinta Acrílica Terracota para Parede Interna, Alta Cobertura para Pintura de Renovação, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

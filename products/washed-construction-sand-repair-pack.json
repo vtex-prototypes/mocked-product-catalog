@@ -1,0 +1,138 @@
+{
+  "id": "washed-construction-sand-repair-pack",
+  "categoryId": "construcao-basicos",
+  "name": {
+    "en": "Washed Construction Sand for Mortar and Concrete, Compact Pack for Residential Repairs, Sold in Two Project Packs",
+    "pt-BR": "Areia Lavada para Argamassa e Concreto, Embalagem Compacta para Reparos Residenciais, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A basic construction material for masonry or reinforced concrete work. The grade, size or intended mix helps estimate quantities without treating every foundation task as the same. This listing is for washed construction sand for mortar and concrete, compact pack for residential repairs.",
+    "pt-BR": "Um material básico para serviços de alvenaria ou concreto armado. A classe, medida ou traço indicado ajuda a estimar quantidades sem tratar toda etapa estrutural como igual. Este anúncio apresenta areia lavada para argamassa e concreto, embalagem compacta para reparos residenciais."
+  },
+  "price": {
+    "BRL": 16,
+    "USD": 7.44
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "washed construction sand for mortar and concrete",
+      "compact pack for residential repairs",
+      "construction"
+    ],
+    "pt-BR": [
+      "areia lavada para argamassa e concreto",
+      "embalagem compacta para reparos residenciais",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "sand"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "one",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "tan",
+          "name": {
+            "en": "Tan",
+            "pt-BR": "Areia"
+          },
+          "hex": "#C8B48A"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "one",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "five",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one",
+      "sku": "CON-WASHED-CONSTRUCTION-SAND-REPAIR-PACK-ONE",
+      "options": {
+        "color": "tan",
+        "pack": "one"
+      },
+      "price": {
+        "BRL": 16,
+        "USD": 7.44
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Washed Construction Sand for Mortar and Concrete, Compact Pack for Residential Repairs, isolated product view",
+            "pt-BR": "Areia Lavada para Argamassa e Concreto, Embalagem Compacta para Reparos Residenciais, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "five",
+      "sku": "CON-WASHED-CONSTRUCTION-SAND-REPAIR-PACK-FIVE",
+      "options": {
+        "color": "tan",
+        "pack": "five"
+      },
+      "price": {
+        "BRL": 73.52,
+        "USD": 32.14
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Washed Construction Sand for Mortar and Concrete, Compact Pack for Residential Repairs, isolated product view",
+            "pt-BR": "Areia Lavada para Argamassa e Concreto, Embalagem Compacta para Reparos Residenciais, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

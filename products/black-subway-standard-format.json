@@ -1,0 +1,142 @@
+{
+  "id": "black-subway-standard-format",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Glossy Black Ceramic Subway Wall Tile, Standard Format for Balanced Wall Layouts, Sold in Two Project Packs",
+    "pt-BR": "Revestimento Cerâmico Subway Preto Brilhante, Formato Padrão para Paginações Equilibradas, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A coordinated wall covering for kitchens, bathrooms and feature walls. The listed format helps plan cuts, while the finish is easy to combine with grout and trim. This listing is for glossy black ceramic subway wall tile, standard format for balanced wall layouts.",
+    "pt-BR": "Um revestimento coordenado para cozinhas, banheiros e paredes de destaque. O formato indicado ajuda a planejar os recortes e combina com rejunte e acabamento. Este anúncio apresenta revestimento cerâmico subway preto brilhante, formato padrão para paginações equilibradas."
+  },
+  "price": {
+    "BRL": 75.11,
+    "USD": 30.08
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "glossy black ceramic subway wall tile",
+      "standard format for balanced wall layouts",
+      "construction"
+    ],
+    "pt-BR": [
+      "revestimento cerâmico subway preto brilhante",
+      "formato padrão para paginações equilibradas",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "black-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "black-natural",
+      "sku": "CON-BLACK-SUBWAY-STANDARD-FORMAT-BLACK-NATURAL",
+      "options": {
+        "color": "black",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 75.11,
+        "USD": 30.08
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy Black Ceramic Subway Wall Tile, Standard Format for Balanced Wall Layouts, isolated product view",
+            "pt-BR": "Revestimento Cerâmico Subway Preto Brilhante, Formato Padrão para Paginações Equilibradas, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-rectified",
+      "sku": "CON-BLACK-SUBWAY-STANDARD-FORMAT-BLACK-RECTIFIED",
+      "options": {
+        "color": "black",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 91.27,
+        "USD": 36.55
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy Black Ceramic Subway Wall Tile, Standard Format for Balanced Wall Layouts, isolated product view",
+            "pt-BR": "Revestimento Cerâmico Subway Preto Brilhante, Formato Padrão para Paginações Equilibradas, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

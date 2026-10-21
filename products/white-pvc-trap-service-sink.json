@@ -1,0 +1,134 @@
+{
+  "id": "white-pvc-trap-service-sink",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "White PVC Bottle Trap for Bathroom and Kitchen Sinks, Extended Configuration for Service Sinks, Sold in Two Project Packs",
+    "pt-BR": "Sifão de PVC Branco para Pia e Lavatório, Configuração Estendida para Tanque de Serviço, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A generic plumbing component for residential installation and repair. Check the nominal size against the existing line before ordering and follow the local installation practice. This listing is for white pvc bottle trap for bathroom and kitchen sinks, extended configuration for service sinks.",
+    "pt-BR": "Um componente hidráulico genérico para instalação e reparo residencial. Confira a medida nominal da tubulação antes de pedir e siga a prática local de instalação. Este anúncio apresenta sifão de pvc branco para pia e lavatório, configuração estendida para tanque de serviço."
+  },
+  "price": {
+    "BRL": 32.37,
+    "USD": 13.44
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "white pvc bottle trap for bathroom and kitchen sinks",
+      "extended configuration for service sinks",
+      "construction"
+    ],
+    "pt-BR": [
+      "sifão de pvc branco para pia e lavatório",
+      "configuração estendida para tanque de serviço",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "pvc"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F2F0"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-WHITE-PVC-TRAP-SERVICE-SINK-SINGLE",
+      "options": {
+        "color": "white",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 32.37,
+        "USD": 13.44
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White PVC Bottle Trap for Bathroom and Kitchen Sinks, Extended Configuration for Service Sinks, isolated product view",
+            "pt-BR": "Sifão de PVC Branco para Pia e Lavatório, Configuração Estendida para Tanque de Serviço, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-WHITE-PVC-TRAP-SERVICE-SINK-TEN",
+      "options": {
+        "color": "white",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 301.19,
+        "USD": 119.75
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White PVC Bottle Trap for Bathroom and Kitchen Sinks, Extended Configuration for Service Sinks, isolated product view",
+            "pt-BR": "Sifão de PVC Branco para Pia e Lavatório, Configuração Estendida para Tanque de Serviço, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

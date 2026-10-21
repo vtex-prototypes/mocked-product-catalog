@@ -1,0 +1,134 @@
+{
+  "id": "single-pole-breaker-32-amp",
+  "categoryId": "construcao-eletrica",
+  "name": {
+    "en": "Single-Pole Miniature Circuit Breaker for DIN Panels, 32 Amp Rating for Residential Circuits, Sold in Two Project Packs",
+    "pt-BR": "Disjuntor Miniatura Unipolar para Quadro DIN, Corrente de 32 Ampères para Circuito Residencial, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A generic electrical component for dry indoor residential circuits. Match the stated gauge, current or module configuration to the project and have the installation checked locally. This listing is for single-pole miniature circuit breaker for din panels, 32 amp rating for residential circuits.",
+    "pt-BR": "Um componente elétrico genérico para circuitos residenciais internos e secos. Confira bitola, corrente ou configuração do módulo no projeto e valide a instalação no local. Este anúncio apresenta disjuntor miniatura unipolar para quadro din, corrente de 32 ampères para circuito residencial."
+  },
+  "price": {
+    "BRL": 32.37,
+    "USD": 13.44
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "single-pole miniature circuit breaker for din panels",
+      "32 amp rating for residential circuits",
+      "construction"
+    ],
+    "pt-BR": [
+      "disjuntor miniatura unipolar para quadro din",
+      "corrente de 32 ampères para circuito residencial",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polycarbonate"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F2"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-SINGLE-POLE-BREAKER-32-AMP-SINGLE",
+      "options": {
+        "color": "white",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 32.37,
+        "USD": 13.44
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Single-Pole Miniature Circuit Breaker for DIN Panels, 32 Amp Rating for Residential Circuits, isolated product view",
+            "pt-BR": "Disjuntor Miniatura Unipolar para Quadro DIN, Corrente de 32 Ampères para Circuito Residencial, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-SINGLE-POLE-BREAKER-32-AMP-TEN",
+      "options": {
+        "color": "white",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 301.19,
+        "USD": 119.75
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Single-Pole Miniature Circuit Breaker for DIN Panels, 32 Amp Rating for Residential Circuits, isolated product view",
+            "pt-BR": "Disjuntor Miniatura Unipolar para Quadro DIN, Corrente de 32 Ampères para Circuito Residencial, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

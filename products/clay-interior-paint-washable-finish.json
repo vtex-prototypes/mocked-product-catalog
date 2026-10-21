@@ -1,0 +1,142 @@
+{
+  "id": "clay-interior-paint-washable-finish",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Warm Clay Acrylic Paint for Indoor Walls, Washable Finish for Busy Residential Rooms, Sold in Two Project Packs",
+    "pt-BR": "Tinta Acrílica Terracota para Parede Interna, Acabamento Lavável para Ambientes Residenciais, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A water-based coating prepared for an even residential finish. The performance level identifies where it works best and supports realistic coverage and budget comparisons. This listing is for warm clay acrylic paint for indoor walls, washable finish for busy residential rooms.",
+    "pt-BR": "Um revestimento à base de água preparado para acabamento uniforme em obras residenciais. O nível de desempenho indica o melhor uso e ajuda a comparar rendimento e orçamento. Este anúncio apresenta tinta acrílica terracota para parede interna, acabamento lavável para ambientes residenciais."
+  },
+  "price": {
+    "BRL": 129.68,
+    "USD": 51.92
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "warm clay acrylic paint for indoor walls",
+      "washable finish for busy residential rooms",
+      "construction"
+    ],
+    "pt-BR": [
+      "tinta acrílica terracota para parede interna",
+      "acabamento lavável para ambientes residenciais",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "clay-small",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "clay",
+          "name": {
+            "en": "Clay",
+            "pt-BR": "Terracota"
+          },
+          "hex": "#C46A45"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "small",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "large",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "clay-small",
+      "sku": "CON-CLAY-INTERIOR-PAINT-WASHABLE-FINISH-CLAY-SMALL",
+      "options": {
+        "color": "clay",
+        "volume": "small"
+      },
+      "price": {
+        "BRL": 129.68,
+        "USD": 51.92
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Warm Clay Acrylic Paint for Indoor Walls, Washable Finish for Busy Residential Rooms, isolated product view",
+            "pt-BR": "Tinta Acrílica Terracota para Parede Interna, Acabamento Lavável para Ambientes Residenciais, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "clay-large",
+      "sku": "CON-CLAY-INTERIOR-PAINT-WASHABLE-FINISH-CLAY-LARGE",
+      "options": {
+        "color": "clay",
+        "volume": "large"
+      },
+      "price": {
+        "BRL": 393.79,
+        "USD": 158.03
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Warm Clay Acrylic Paint for Indoor Walls, Washable Finish for Busy Residential Rooms, isolated product view",
+            "pt-BR": "Tinta Acrílica Terracota para Parede Interna, Acabamento Lavável para Ambientes Residenciais, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

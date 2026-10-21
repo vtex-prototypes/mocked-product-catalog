@@ -1,0 +1,138 @@
+{
+  "id": "chrome-rain-shower-twenty-five-cm",
+  "categoryId": "construcao-banheiro",
+  "name": {
+    "en": "Round Chrome Rain Shower Head for Bathrooms, 10 Inch Face for Broader Rain Coverage, Sold in Two Project Packs",
+    "pt-BR": "Chuveiro Redondo Cromado com Jato de Chuva, Face de 25 Centímetros para Cobertura Ampla, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A bathroom fixture sized for a common residential installation. The mounting or connection detail distinguishes the product before checking clearances and plumbing on site. This listing is for round chrome rain shower head for bathrooms, 10 inch face for broader rain coverage.",
+    "pt-BR": "Uma peça de banheiro dimensionada para instalação residencial comum. O detalhe de fixação ou conexão diferencia o produto antes de conferir espaço e hidráulica no local. Este anúncio apresenta chuveiro redondo cromado com jato de chuva, face de 25 centímetros para cobertura ampla."
+  },
+  "price": {
+    "BRL": 121.26,
+    "USD": 51.7
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "round chrome rain shower head for bathrooms",
+      "10 inch face for broader rain coverage",
+      "construction"
+    ],
+    "pt-BR": [
+      "chuveiro redondo cromado com jato de chuva",
+      "face de 25 centímetros para cobertura ampla",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "standard",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "chrome",
+          "name": {
+            "en": "Chrome",
+            "pt-BR": "Cromado"
+          },
+          "hex": "#D8DADC"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Drain",
+        "pt-BR": "Saída"
+      },
+      "values": [
+        {
+          "id": "standard",
+          "name": {
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        },
+        {
+          "id": "alt",
+          "name": {
+            "en": "Alternate",
+            "pt-BR": "Alternativa"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "sku": "CON-CHROME-RAIN-SHOWER-TWENTY-FIVE-CM-STANDARD",
+      "options": {
+        "color": "chrome",
+        "install": "standard"
+      },
+      "price": {
+        "BRL": 121.26,
+        "USD": 51.7
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round Chrome Rain Shower Head for Bathrooms, 10 Inch Face for Broader Rain Coverage, isolated product view",
+            "pt-BR": "Chuveiro Redondo Cromado com Jato de Chuva, Face de 25 Centímetros para Cobertura Ampla, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alt",
+      "sku": "CON-CHROME-RAIN-SHOWER-TWENTY-FIVE-CM-ALT",
+      "options": {
+        "color": "chrome",
+        "install": "alt"
+      },
+      "price": {
+        "BRL": 161.42,
+        "USD": 69.03
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round Chrome Rain Shower Head for Bathrooms, 10 Inch Face for Broader Rain Coverage, isolated product view",
+            "pt-BR": "Chuveiro Redondo Cromado com Jato de Chuva, Face de 25 Centímetros para Cobertura Ampla, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

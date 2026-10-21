@@ -1,0 +1,142 @@
+{
+  "id": "terracotta-brick-slip-compact-format",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Matte Terracotta Brick-Slip Wall Tile, Compact Format for Detailed Layouts, Sold in Two Project Packs",
+    "pt-BR": "Revestimento Tijolinho Terracota Fosco para Parede, Formato Compacto para Paginações Detalhadas, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A coordinated wall covering for kitchens, bathrooms and feature walls. The listed format helps plan cuts, while the finish is easy to combine with grout and trim. This listing is for matte terracotta brick-slip wall tile, compact format for detailed layouts.",
+    "pt-BR": "Um revestimento coordenado para cozinhas, banheiros e paredes de destaque. O formato indicado ajuda a planejar os recortes e combina com rejunte e acabamento. Este anúncio apresenta revestimento tijolinho terracota fosco para parede, formato compacto para paginações detalhadas."
+  },
+  "price": {
+    "BRL": 76.58,
+    "USD": 30.68
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "matte terracotta brick-slip wall tile",
+      "compact format for detailed layouts",
+      "construction"
+    ],
+    "pt-BR": [
+      "revestimento tijolinho terracota fosco para parede",
+      "formato compacto para paginações detalhadas",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "clay"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "terracotta-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "terracotta",
+          "name": {
+            "en": "Terracotta",
+            "pt-BR": "Terracota"
+          },
+          "hex": "#A24B32"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "terracotta-natural",
+      "sku": "CON-TERRACOTTA-BRICK-SLIP-COMPACT-FORMAT-TERRACOTTA-NATURAL",
+      "options": {
+        "color": "terracotta",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 76.58,
+        "USD": 30.68
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte Terracotta Brick-Slip Wall Tile, Compact Format for Detailed Layouts, isolated product view",
+            "pt-BR": "Revestimento Tijolinho Terracota Fosco para Parede, Formato Compacto para Paginações Detalhadas, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "terracotta-rectified",
+      "sku": "CON-TERRACOTTA-BRICK-SLIP-COMPACT-FORMAT-TERRACOTTA-RECTIFIED",
+      "options": {
+        "color": "terracotta",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 95.45,
+        "USD": 38.23
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte Terracotta Brick-Slip Wall Tile, Compact Format for Detailed Layouts, isolated product view",
+            "pt-BR": "Revestimento Tijolinho Terracota Fosco para Parede, Formato Compacto para Paginações Detalhadas, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

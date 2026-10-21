@@ -1,0 +1,134 @@
+{
+  "id": "brass-ball-valve-one-inch",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "Brass Ball Valve with Lever for Water Lines, One-Inch Thread for Higher Flow, Sold in Two Project Packs",
+    "pt-BR": "Registro de Esfera em Latão com Alavanca, Rosca de Uma Polegada para Maior Vazão, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A generic plumbing component for residential installation and repair. Check the nominal size against the existing line before ordering and follow the local installation practice. This listing is for brass ball valve with lever for water lines, one-inch thread for higher flow.",
+    "pt-BR": "Um componente hidráulico genérico para instalação e reparo residencial. Confira a medida nominal da tubulação antes de pedir e siga a prática local de instalação. Este anúncio apresenta registro de esfera em latão com alavanca, rosca de uma polegada para maior vazão."
+  },
+  "price": {
+    "BRL": 46.91,
+    "USD": 20.68
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "brass ball valve with lever for water lines",
+      "one-inch thread for higher flow",
+      "construction"
+    ],
+    "pt-BR": [
+      "registro de esfera em latão com alavanca",
+      "rosca de uma polegada para maior vazão",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "brass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "brass",
+          "name": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          },
+          "hex": "#C6A15B"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-BRASS-BALL-VALVE-ONE-INCH-SINGLE",
+      "options": {
+        "color": "brass",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 46.91,
+        "USD": 20.68
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass Ball Valve with Lever for Water Lines, One-Inch Thread for Higher Flow, isolated product view",
+            "pt-BR": "Registro de Esfera em Latão com Alavanca, Rosca de Uma Polegada para Maior Vazão, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-BRASS-BALL-VALVE-ONE-INCH-TEN",
+      "options": {
+        "color": "brass",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 435.52,
+        "USD": 191.87
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass Ball Valve with Lever for Water Lines, One-Inch Thread for Higher Flow, isolated product view",
+            "pt-BR": "Registro de Esfera em Latão com Alavanca, Rosca de Uma Polegada para Maior Vazão, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

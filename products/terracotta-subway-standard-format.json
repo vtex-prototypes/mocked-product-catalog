@@ -1,0 +1,142 @@
+{
+  "id": "terracotta-subway-standard-format",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Matte Terracotta Ceramic Subway Wall Tile, Standard Format for Balanced Wall Layouts, Sold in Two Project Packs",
+    "pt-BR": "Revestimento Cerâmico Subway Terracota Fosco, Formato Padrão para Paginações Equilibradas, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A coordinated wall covering for kitchens, bathrooms and feature walls. The listed format helps plan cuts, while the finish is easy to combine with grout and trim. This listing is for matte terracotta ceramic subway wall tile, standard format for balanced wall layouts.",
+    "pt-BR": "Um revestimento coordenado para cozinhas, banheiros e paredes de destaque. O formato indicado ajuda a planejar os recortes e combina com rejunte e acabamento. Este anúncio apresenta revestimento cerâmico subway terracota fosco, formato padrão para paginações equilibradas."
+  },
+  "price": {
+    "BRL": 78.29,
+    "USD": 31.36
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "matte terracotta ceramic subway wall tile",
+      "standard format for balanced wall layouts",
+      "construction"
+    ],
+    "pt-BR": [
+      "revestimento cerâmico subway terracota fosco",
+      "formato padrão para paginações equilibradas",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "terracotta-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "terracotta",
+          "name": {
+            "en": "Terracotta",
+            "pt-BR": "Terracota"
+          },
+          "hex": "#C4623A"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "terracotta-natural",
+      "sku": "CON-TERRACOTTA-SUBWAY-STANDARD-FORMAT-TERRACOTTA-NATURAL",
+      "options": {
+        "color": "terracotta",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 78.29,
+        "USD": 31.36
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte Terracotta Ceramic Subway Wall Tile, Standard Format for Balanced Wall Layouts, isolated product view",
+            "pt-BR": "Revestimento Cerâmico Subway Terracota Fosco, Formato Padrão para Paginações Equilibradas, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "terracotta-rectified",
+      "sku": "CON-TERRACOTTA-SUBWAY-STANDARD-FORMAT-TERRACOTTA-RECTIFIED",
+      "options": {
+        "color": "terracotta",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 96.65,
+        "USD": 38.71
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte Terracotta Ceramic Subway Wall Tile, Standard Format for Balanced Wall Layouts, isolated product view",
+            "pt-BR": "Revestimento Cerâmico Subway Terracota Fosco, Formato Padrão para Paginações Equilibradas, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

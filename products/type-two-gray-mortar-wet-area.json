@@ -1,0 +1,138 @@
+{
+  "id": "type-two-gray-mortar-wet-area",
+  "categoryId": "construcao-argamassas",
+  "name": {
+    "en": "Type II Gray Thinset Mortar for Ceramic Tile, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",
+    "pt-BR": "Argamassa Colante Cinza AC-II para Cerâmica, para Cozinhas e Áreas Molhadas Residenciais, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A cement-based preparation for a specific stage of a residential build. The application label separates tile setting, leveling and wall preparation for more accurate material lists. This listing is for type ii gray thinset mortar for ceramic tile, for residential kitchens and wet areas.",
+    "pt-BR": "Uma preparação cimentícia para uma etapa específica da obra residencial. A indicação de uso separa assentamento, nivelamento e preparo de parede para listas mais precisas. Este anúncio apresenta argamassa colante cinza ac-ii para cerâmica, para cozinhas e áreas molhadas residenciais."
+  },
+  "price": {
+    "BRL": 26.31,
+    "USD": 17.51
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "type ii gray thinset mortar for ceramic tile",
+      "for residential kitchens and wet areas",
+      "construction"
+    ],
+    "pt-BR": [
+      "argamassa colante cinza ac-ii para cerâmica",
+      "para cozinhas e áreas molhadas residenciais",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "gray-single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#A9A9A5"
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "name": {
+        "en": "Quantity",
+        "pt-BR": "Quantidade"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "pack-5",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gray-single",
+      "sku": "CON-TYPE-TWO-GRAY-MORTAR-WET-AREA-GRAY-SINGLE",
+      "options": {
+        "color": "gray",
+        "quantity": "single"
+      },
+      "price": {
+        "BRL": 26.31,
+        "USD": 17.51
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Type II Gray Thinset Mortar for Ceramic Tile, for Residential Kitchens and Wet Areas, isolated product view",
+            "pt-BR": "Argamassa Colante Cinza AC-II para Cerâmica, para Cozinhas e Áreas Molhadas Residenciais, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gray-pack-5",
+      "sku": "CON-TYPE-TWO-GRAY-MORTAR-WET-AREA-GRAY-PACK-5",
+      "options": {
+        "color": "gray",
+        "quantity": "pack-5"
+      },
+      "price": {
+        "BRL": 134.96,
+        "USD": 89.81
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Type II Gray Thinset Mortar for Ceramic Tile, for Residential Kitchens and Wet Areas, isolated product view",
+            "pt-BR": "Argamassa Colante Cinza AC-II para Cerâmica, para Cozinhas e Áreas Molhadas Residenciais, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

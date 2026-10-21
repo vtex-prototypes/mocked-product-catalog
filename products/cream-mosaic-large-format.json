@@ -1,0 +1,142 @@
+{
+  "id": "cream-mosaic-large-format",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Cream Glass Mosaic Wall Tile Sheet, Large Format for Fewer Visible Joints, Sold in Two Project Packs",
+    "pt-BR": "Pastilha de Vidro Creme em Placa para Parede, Formato Grande para Menos Juntas Visíveis, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A coordinated wall covering for kitchens, bathrooms and feature walls. The listed format helps plan cuts, while the finish is easy to combine with grout and trim. This listing is for cream glass mosaic wall tile sheet, large format for fewer visible joints.",
+    "pt-BR": "Um revestimento coordenado para cozinhas, banheiros e paredes de destaque. O formato indicado ajuda a planejar os recortes e combina com rejunte e acabamento. Este anúncio apresenta pastilha de vidro creme em placa para parede, formato grande para menos juntas visíveis."
+  },
+  "price": {
+    "BRL": 23.41,
+    "USD": 10.34
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cream glass mosaic wall tile sheet",
+      "large format for fewer visible joints",
+      "construction"
+    ],
+    "pt-BR": [
+      "pastilha de vidro creme em placa para parede",
+      "formato grande para menos juntas visíveis",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "glass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "cream-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cream",
+          "name": {
+            "en": "Cream",
+            "pt-BR": "Creme"
+          },
+          "hex": "#E7E0D2"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "cream-natural",
+      "sku": "CON-CREAM-MOSAIC-LARGE-FORMAT-CREAM-NATURAL",
+      "options": {
+        "color": "cream",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 23.41,
+        "USD": 10.34
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Glass Mosaic Wall Tile Sheet, Large Format for Fewer Visible Joints, isolated product view",
+            "pt-BR": "Pastilha de Vidro Creme em Placa para Parede, Formato Grande para Menos Juntas Visíveis, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cream-rectified",
+      "sku": "CON-CREAM-MOSAIC-LARGE-FORMAT-CREAM-RECTIFIED",
+      "options": {
+        "color": "cream",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 29.34,
+        "USD": 13.2
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream Glass Mosaic Wall Tile Sheet, Large Format for Fewer Visible Joints, isolated product view",
+            "pt-BR": "Pastilha de Vidro Creme em Placa para Parede, Formato Grande para Menos Juntas Visíveis, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

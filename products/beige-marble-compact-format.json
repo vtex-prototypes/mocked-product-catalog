@@ -1,0 +1,142 @@
+{
+  "id": "beige-marble-compact-format",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Beige Marble-Look Porcelain Wall Tile, Compact Format for Detailed Layouts, Sold in Two Project Packs",
+    "pt-BR": "Porcelanato de Parede com Visual de Mármore Bege, Formato Compacto para Paginações Detalhadas, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A coordinated wall covering for kitchens, bathrooms and feature walls. The listed format helps plan cuts, while the finish is easy to combine with grout and trim. This listing is for beige marble-look porcelain wall tile, compact format for detailed layouts.",
+    "pt-BR": "Um revestimento coordenado para cozinhas, banheiros e paredes de destaque. O formato indicado ajuda a planejar os recortes e combina com rejunte e acabamento. Este anúncio apresenta porcelanato de parede com visual de mármore bege, formato compacto para paginações detalhadas."
+  },
+  "price": {
+    "BRL": 112.71,
+    "USD": 45.12
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "beige marble-look porcelain wall tile",
+      "compact format for detailed layouts",
+      "construction"
+    ],
+    "pt-BR": [
+      "porcelanato de parede com visual de mármore bege",
+      "formato compacto para paginações detalhadas",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "marble"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "beige-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "beige",
+          "name": {
+            "en": "Beige",
+            "pt-BR": "Bege"
+          },
+          "hex": "#E4D7C4"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "beige-natural",
+      "sku": "CON-BEIGE-MARBLE-COMPACT-FORMAT-BEIGE-NATURAL",
+      "options": {
+        "color": "beige",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 112.71,
+        "USD": 45.12
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Beige Marble-Look Porcelain Wall Tile, Compact Format for Detailed Layouts, isolated product view",
+            "pt-BR": "Porcelanato de Parede com Visual de Mármore Bege, Formato Compacto para Paginações Detalhadas, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beige-rectified",
+      "sku": "CON-BEIGE-MARBLE-COMPACT-FORMAT-BEIGE-RECTIFIED",
+      "options": {
+        "color": "beige",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 142.03,
+        "USD": 56.85
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Beige Marble-Look Porcelain Wall Tile, Compact Format for Detailed Layouts, isolated product view",
+            "pt-BR": "Porcelanato de Parede com Visual de Mármore Bege, Formato Compacto para Paginações Detalhadas, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

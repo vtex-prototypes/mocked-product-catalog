@@ -1,0 +1,142 @@
+{
+  "id": "gray-flexible-grout-standard-joints",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Flexible Gray Cement Grout for Tile Joints, for Standard 2 to 5 Millimeter Joints, Sold in Two Project Packs",
+    "pt-BR": "Rejunte Cimentício Flexível Cinza para Juntas, para Juntas Padrão de 2 a 5 Milímetros, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A grout option sized for common residential tile joints. Its stated joint range and application make it easier to compare colors, flexibility and cleaning needs before installation. This listing is for flexible gray cement grout for tile joints, for standard 2 to 5 millimeter joints.",
+    "pt-BR": "Uma opção de rejunte para juntas comuns em obras residenciais. A faixa de junta e o uso indicado facilitam comparar cor, flexibilidade e limpeza antes do assentamento. Este anúncio apresenta rejunte cimentício flexível cinza para juntas, para juntas padrão de 2 a 5 milímetros."
+  },
+  "price": {
+    "BRL": 14.9,
+    "USD": 8.5
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "flexible gray cement grout for tile joints",
+      "for standard 2 to 5 millimeter joints",
+      "construction"
+    ],
+    "pt-BR": [
+      "rejunte cimentício flexível cinza para juntas",
+      "para juntas padrão de 2 a 5 milímetros",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "gray-1kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#B7B7B4"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "1kg",
+          "name": {
+            "en": "1 kg",
+            "pt-BR": "1 kg"
+          }
+        },
+        {
+          "id": "5kg",
+          "name": {
+            "en": "5 kg",
+            "pt-BR": "5 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gray-1kg",
+      "sku": "CON-GRAY-FLEXIBLE-GROUT-STANDARD-JOINTS-GRAY-1KG",
+      "options": {
+        "color": "gray",
+        "weight": "1kg"
+      },
+      "price": {
+        "BRL": 14.9,
+        "USD": 8.5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Flexible Gray Cement Grout for Tile Joints, for Standard 2 to 5 Millimeter Joints, isolated product view",
+            "pt-BR": "Rejunte Cimentício Flexível Cinza para Juntas, para Juntas Padrão de 2 a 5 Milímetros, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gray-5kg",
+      "sku": "CON-GRAY-FLEXIBLE-GROUT-STANDARD-JOINTS-GRAY-5KG",
+      "options": {
+        "color": "gray",
+        "weight": "5kg"
+      },
+      "price": {
+        "BRL": 64.69,
+        "USD": 32.29
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Flexible Gray Cement Grout for Tile Joints, for Standard 2 to 5 Millimeter Joints, isolated product view",
+            "pt-BR": "Rejunte Cimentício Flexível Cinza para Juntas, para Juntas Padrão de 2 a 5 Milímetros, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

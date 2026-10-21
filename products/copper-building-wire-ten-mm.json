@@ -1,0 +1,134 @@
+{
+  "id": "copper-building-wire-ten-mm",
+  "categoryId": "construcao-eletrica",
+  "name": {
+    "en": "Copper Building Wire for Indoor Branch Circuits, 10 Square Millimeter Gauge for Feeders, Sold in Two Project Packs",
+    "pt-BR": "Fio de Cobre para Circuito Elétrico Interno, Bitola de 10 Milímetros Quadrados para Alimentadores, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A generic electrical component for dry indoor residential circuits. Match the stated gauge, current or module configuration to the project and have the installation checked locally. This listing is for copper building wire for indoor branch circuits, 10 square millimeter gauge for feeders.",
+    "pt-BR": "Um componente elétrico genérico para circuitos residenciais internos e secos. Confira bitola, corrente ou configuração do módulo no projeto e valide a instalação no local. Este anúncio apresenta fio de cobre para circuito elétrico interno, bitola de 10 milímetros quadrados para alimentadores."
+  },
+  "price": {
+    "BRL": 55.89,
+    "USD": 24.64
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "copper building wire for indoor branch circuits",
+      "10 square millimeter gauge for feeders",
+      "construction"
+    ],
+    "pt-BR": [
+      "fio de cobre para circuito elétrico interno",
+      "bitola de 10 milímetros quadrados para alimentadores",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "copper"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "short",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "copper",
+          "name": {
+            "en": "Copper",
+            "pt-BR": "Cobre"
+          },
+          "hex": "#B87333"
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "short",
+          "name": {
+            "en": "50 ft",
+            "pt-BR": "15 m"
+          }
+        },
+        {
+          "id": "long",
+          "name": {
+            "en": "100 ft",
+            "pt-BR": "30 m"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "short",
+      "sku": "CON-COPPER-BUILDING-WIRE-TEN-MM-SHORT",
+      "options": {
+        "color": "copper",
+        "length": "short"
+      },
+      "price": {
+        "BRL": 55.89,
+        "USD": 24.64
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Copper Building Wire for Indoor Branch Circuits, 10 Square Millimeter Gauge for Feeders, isolated product view",
+            "pt-BR": "Fio de Cobre para Circuito Elétrico Interno, Bitola de 10 Milímetros Quadrados para Alimentadores, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "long",
+      "sku": "CON-COPPER-BUILDING-WIRE-TEN-MM-LONG",
+      "options": {
+        "color": "copper",
+        "length": "long"
+      },
+      "price": {
+        "BRL": 228.61,
+        "USD": 94.35
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Copper Building Wire for Indoor Branch Circuits, 10 Square Millimeter Gauge for Feeders, isolated product view",
+            "pt-BR": "Fio de Cobre para Circuito Elétrico Interno, Bitola de 10 Milímetros Quadrados para Alimentadores, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

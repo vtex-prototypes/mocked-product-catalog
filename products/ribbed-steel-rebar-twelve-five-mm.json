@@ -1,0 +1,138 @@
+{
+  "id": "ribbed-steel-rebar-twelve-five-mm",
+  "categoryId": "construcao-basicos",
+  "name": {
+    "en": "Ribbed Steel Reinforcing Bar for Concrete Structures, 12.5 Millimeter Diameter for Higher Loads, Sold in Two Project Packs",
+    "pt-BR": "Vergalhão Nervurado de Aço para Estrutura de Concreto, Diâmetro de 12,5 Milímetros para Cargas Maiores, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A basic construction material for masonry or reinforced concrete work. The grade, size or intended mix helps estimate quantities without treating every foundation task as the same. This listing is for ribbed steel reinforcing bar for concrete structures, 12.5 millimeter diameter for higher loads.",
+    "pt-BR": "Um material básico para serviços de alvenaria ou concreto armado. A classe, medida ou traço indicado ajuda a estimar quantidades sem tratar toda etapa estrutural como igual. Este anúncio apresenta vergalhão nervurado de aço para estrutura de concreto, diâmetro de 12,5 milímetros para cargas maiores."
+  },
+  "price": {
+    "BRL": 34.87,
+    "USD": 12.72
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "ribbed steel reinforcing bar for concrete structures",
+      "12.5 millimeter diameter for higher loads",
+      "construction"
+    ],
+    "pt-BR": [
+      "vergalhão nervurado de aço para estrutura de concreto",
+      "diâmetro de 12,5 milímetros para cargas maiores",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "steel"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "one",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "steel",
+          "name": {
+            "en": "Steel",
+            "pt-BR": "Aço"
+          },
+          "hex": "#8A8D90"
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "one",
+          "name": {
+            "en": "1 bar",
+            "pt-BR": "1 barra"
+          }
+        },
+        {
+          "id": "six",
+          "name": {
+            "en": "6 bars",
+            "pt-BR": "6 barras"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one",
+      "sku": "CON-RIBBED-STEEL-REBAR-TWELVE-FIVE-MM-ONE",
+      "options": {
+        "color": "steel",
+        "length": "one"
+      },
+      "price": {
+        "BRL": 34.87,
+        "USD": 12.72
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ribbed Steel Reinforcing Bar for Concrete Structures, 12.5 Millimeter Diameter for Higher Loads, isolated product view",
+            "pt-BR": "Vergalhão Nervurado de Aço para Estrutura de Concreto, Diâmetro de 12,5 Milímetros para Cargas Maiores, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "six",
+      "sku": "CON-RIBBED-STEEL-REBAR-TWELVE-FIVE-MM-SIX",
+      "options": {
+        "color": "steel",
+        "length": "six"
+      },
+      "price": {
+        "BRL": 204.92,
+        "USD": 73.27
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ribbed Steel Reinforcing Bar for Concrete Structures, 12.5 Millimeter Diameter for Higher Loads, isolated product view",
+            "pt-BR": "Vergalhão Nervurado de Aço para Estrutura de Concreto, Diâmetro de 12,5 Milímetros para Cargas Maiores, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
