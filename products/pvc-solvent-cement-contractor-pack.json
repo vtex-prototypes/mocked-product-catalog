@@ -1,0 +1,134 @@
+{
+  "id": "pvc-solvent-cement-contractor-pack",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "PVC Solvent Cement with Applicator for Pipe Joints, Large Bottle for Repeated Pipe Joints, Sold in Two Project Packs",
+    "pt-BR": "Adesivo para PVC com Aplicador para Juntas de Tubo, Frasco Grande para Várias Juntas de Tubo, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A generic plumbing component for residential installation and repair. Check the nominal size against the existing line before ordering and follow the local installation practice. This listing is for pvc solvent cement with applicator for pipe joints, large bottle for repeated pipe joints.",
+    "pt-BR": "Um componente hidráulico genérico para instalação e reparo residencial. Confira a medida nominal da tubulação antes de pedir e siga a prática local de instalação. Este anúncio apresenta adesivo para pvc com aplicador para juntas de tubo, frasco grande para várias juntas de tubo."
+  },
+  "price": {
+    "BRL": 20.03,
+    "USD": 8.48
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "pvc solvent cement with applicator for pipe joints",
+      "large bottle for repeated pipe joints",
+      "construction"
+    ],
+    "pt-BR": [
+      "adesivo para pvc com aplicador para juntas de tubo",
+      "frasco grande para várias juntas de tubo",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "pvc"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "small",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "amber",
+          "name": {
+            "en": "Amber",
+            "pt-BR": "Âmbar"
+          },
+          "hex": "#C4A36A"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "small",
+          "name": {
+            "en": "4 oz",
+            "pt-BR": "175 ml"
+          }
+        },
+        {
+          "id": "large",
+          "name": {
+            "en": "16 oz",
+            "pt-BR": "500 ml"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "small",
+      "sku": "CON-PVC-SOLVENT-CEMENT-CONTRACTOR-PACK-SMALL",
+      "options": {
+        "color": "amber",
+        "volume": "small"
+      },
+      "price": {
+        "BRL": 20.03,
+        "USD": 8.48
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "PVC Solvent Cement with Applicator for Pipe Joints, Large Bottle for Repeated Pipe Joints, isolated product view",
+            "pt-BR": "Adesivo para PVC com Aplicador para Juntas de Tubo, Frasco Grande para Várias Juntas de Tubo, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large",
+      "sku": "CON-PVC-SOLVENT-CEMENT-CONTRACTOR-PACK-LARGE",
+      "options": {
+        "color": "amber",
+        "volume": "large"
+      },
+      "price": {
+        "BRL": 49.11,
+        "USD": 20.61
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "PVC Solvent Cement with Applicator for Pipe Joints, Large Bottle for Repeated Pipe Joints, isolated product view",
+            "pt-BR": "Adesivo para PVC com Aplicador para Juntas de Tubo, Frasco Grande para Várias Juntas de Tubo, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

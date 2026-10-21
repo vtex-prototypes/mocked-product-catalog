@@ -1,0 +1,134 @@
+{
+  "id": "copper-building-wire-two-five-mm",
+  "categoryId": "construcao-eletrica",
+  "name": {
+    "en": "Copper Building Wire for Indoor Branch Circuits, 2.5 Square Millimeter Gauge for Outlets, Sold in Two Project Packs",
+    "pt-BR": "Fio de Cobre para Circuito Elétrico Interno, Bitola de 2,5 Milímetros Quadrados para Tomadas, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A generic electrical component for dry indoor residential circuits. Match the stated gauge, current or module configuration to the project and have the installation checked locally. This listing is for copper building wire for indoor branch circuits, 2.5 square millimeter gauge for outlets.",
+    "pt-BR": "Um componente elétrico genérico para circuitos residenciais internos e secos. Confira bitola, corrente ou configuração do módulo no projeto e valide a instalação no local. Este anúncio apresenta fio de cobre para circuito elétrico interno, bitola de 2,5 milímetros quadrados para tomadas."
+  },
+  "price": {
+    "BRL": 46.91,
+    "USD": 20.68
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "copper building wire for indoor branch circuits",
+      "2.5 square millimeter gauge for outlets",
+      "construction"
+    ],
+    "pt-BR": [
+      "fio de cobre para circuito elétrico interno",
+      "bitola de 2,5 milímetros quadrados para tomadas",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "copper"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "short",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "copper",
+          "name": {
+            "en": "Copper",
+            "pt-BR": "Cobre"
+          },
+          "hex": "#B87333"
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "short",
+          "name": {
+            "en": "50 ft",
+            "pt-BR": "15 m"
+          }
+        },
+        {
+          "id": "long",
+          "name": {
+            "en": "100 ft",
+            "pt-BR": "30 m"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "short",
+      "sku": "CON-COPPER-BUILDING-WIRE-TWO-FIVE-MM-SHORT",
+      "options": {
+        "color": "copper",
+        "length": "short"
+      },
+      "price": {
+        "BRL": 46.91,
+        "USD": 20.68
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Copper Building Wire for Indoor Branch Circuits, 2.5 Square Millimeter Gauge for Outlets, isolated product view",
+            "pt-BR": "Fio de Cobre para Circuito Elétrico Interno, Bitola de 2,5 Milímetros Quadrados para Tomadas, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "long",
+      "sku": "CON-COPPER-BUILDING-WIRE-TWO-FIVE-MM-LONG",
+      "options": {
+        "color": "copper",
+        "length": "long"
+      },
+      "price": {
+        "BRL": 191.87,
+        "USD": 79.19
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Copper Building Wire for Indoor Branch Circuits, 2.5 Square Millimeter Gauge for Outlets, isolated product view",
+            "pt-BR": "Fio de Cobre para Circuito Elétrico Interno, Bitola de 2,5 Milímetros Quadrados para Tomadas, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

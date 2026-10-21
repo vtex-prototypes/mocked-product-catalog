@@ -1,0 +1,142 @@
+{
+  "id": "sage-fish-scale-large-format",
+  "categoryId": "construcao-revestimentos",
+  "name": {
+    "en": "Sage Green Fish-Scale Ceramic Wall Tile, Large Format for Fewer Visible Joints, Sold in Two Project Packs",
+    "pt-BR": "Revestimento Cerâmico Escama Verde Sálvia, Formato Grande para Menos Juntas Visíveis, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A coordinated wall covering for kitchens, bathrooms and feature walls. The listed format helps plan cuts, while the finish is easy to combine with grout and trim. This listing is for sage green fish-scale ceramic wall tile, large format for fewer visible joints.",
+    "pt-BR": "Um revestimento coordenado para cozinhas, banheiros e paredes de destaque. O formato indicado ajuda a planejar os recortes e combina com rejunte e acabamento. Este anúncio apresenta revestimento cerâmico escama verde sálvia, formato grande para menos juntas visíveis."
+  },
+  "price": {
+    "BRL": 106.29,
+    "USD": 42.56
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "sage green fish-scale ceramic wall tile",
+      "large format for fewer visible joints",
+      "construction"
+    ],
+    "pt-BR": [
+      "revestimento cerâmico escama verde sálvia",
+      "formato grande para menos juntas visíveis",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "sage-natural",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "sage",
+          "name": {
+            "en": "Sage",
+            "pt-BR": "Verde sálvia"
+          },
+          "hex": "#8FA58B"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "natural",
+          "name": {
+            "en": "Natural",
+            "pt-BR": "Natural"
+          }
+        },
+        {
+          "id": "rectified",
+          "name": {
+            "en": "Rectified",
+            "pt-BR": "Retificado"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "sage-natural",
+      "sku": "CON-SAGE-FISH-SCALE-LARGE-FORMAT-SAGE-NATURAL",
+      "options": {
+        "color": "sage",
+        "finish": "natural"
+      },
+      "price": {
+        "BRL": 106.29,
+        "USD": 42.56
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage Green Fish-Scale Ceramic Wall Tile, Large Format for Fewer Visible Joints, isolated product view",
+            "pt-BR": "Revestimento Cerâmico Escama Verde Sálvia, Formato Grande para Menos Juntas Visíveis, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-rectified",
+      "sku": "CON-SAGE-FISH-SCALE-LARGE-FORMAT-SAGE-RECTIFIED",
+      "options": {
+        "color": "sage",
+        "finish": "rectified"
+      },
+      "price": {
+        "BRL": 132.94,
+        "USD": 53.22
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage Green Fish-Scale Ceramic Wall Tile, Large Format for Fewer Visible Joints, isolated product view",
+            "pt-BR": "Revestimento Cerâmico Escama Verde Sálvia, Formato Grande para Menos Juntas Visíveis, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

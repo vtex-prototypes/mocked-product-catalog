@@ -1,0 +1,142 @@
+{
+  "id": "graphite-epoxy-grout-narrow-joints",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Graphite Epoxy Grout for Stain-Resistant Joints, for Narrow 1 to 3 Millimeter Joints, Sold in Two Project Packs",
+    "pt-BR": "Rejunte Epóxi Grafite para Juntas Resistentes a Mancha, para Juntas Estreitas de 1 a 3 Milímetros, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A grout option sized for common residential tile joints. Its stated joint range and application make it easier to compare colors, flexibility and cleaning needs before installation. This listing is for graphite epoxy grout for stain-resistant joints, for narrow 1 to 3 millimeter joints.",
+    "pt-BR": "Uma opção de rejunte para juntas comuns em obras residenciais. A faixa de junta e o uso indicado facilitam comparar cor, flexibilidade e limpeza antes do assentamento. Este anúncio apresenta rejunte epóxi grafite para juntas resistentes a mancha, para juntas estreitas de 1 a 3 milímetros."
+  },
+  "price": {
+    "BRL": 70.68,
+    "USD": 32.92
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "graphite epoxy grout for stain-resistant joints",
+      "for narrow 1 to 3 millimeter joints",
+      "construction"
+    ],
+    "pt-BR": [
+      "rejunte epóxi grafite para juntas resistentes a mancha",
+      "para juntas estreitas de 1 a 3 milímetros",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "epoxy"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "graphite-1kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "graphite",
+          "name": {
+            "en": "Graphite",
+            "pt-BR": "Grafite"
+          },
+          "hex": "#3E4246"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Weight",
+        "pt-BR": "Peso"
+      },
+      "values": [
+        {
+          "id": "1kg",
+          "name": {
+            "en": "1 kg",
+            "pt-BR": "1 kg"
+          }
+        },
+        {
+          "id": "5kg",
+          "name": {
+            "en": "5 kg",
+            "pt-BR": "5 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "graphite-1kg",
+      "sku": "CON-GRAPHITE-EPOXY-GROUT-NARROW-JOINTS-GRAPHITE-1KG",
+      "options": {
+        "color": "graphite",
+        "weight": "1kg"
+      },
+      "price": {
+        "BRL": 70.68,
+        "USD": 32.92
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Graphite Epoxy Grout for Stain-Resistant Joints, for Narrow 1 to 3 Millimeter Joints, isolated product view",
+            "pt-BR": "Rejunte Epóxi Grafite para Juntas Resistentes a Mancha, para Juntas Estreitas de 1 a 3 Milímetros, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "graphite-5kg",
+      "sku": "CON-GRAPHITE-EPOXY-GROUT-NARROW-JOINTS-GRAPHITE-5KG",
+      "options": {
+        "color": "graphite",
+        "weight": "5kg"
+      },
+      "price": {
+        "BRL": 291.84,
+        "USD": 126.17
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Graphite Epoxy Grout for Stain-Resistant Joints, for Narrow 1 to 3 Millimeter Joints, isolated product view",
+            "pt-BR": "Rejunte Epóxi Grafite para Juntas Resistentes a Mancha, para Juntas Estreitas de 1 a 3 Milímetros, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

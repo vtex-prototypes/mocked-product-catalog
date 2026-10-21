@@ -1,0 +1,134 @@
+{
+  "id": "stainless-braided-hose-40-cm",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "Stainless Braided Flexible Connector for Faucets, 16 Inch Length for Standard Connections, Sold in Two Project Packs",
+    "pt-BR": "Engate Flexível com Malha de Aço Inox para Torneira, Comprimento de 40 Centímetros para Ligação Padrão, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A generic plumbing component for residential installation and repair. Check the nominal size against the existing line before ordering and follow the local installation practice. This listing is for stainless braided flexible connector for faucets, 16 inch length for standard connections.",
+    "pt-BR": "Um componente hidráulico genérico para instalação e reparo residencial. Confira a medida nominal da tubulação antes de pedir e siga a prática local de instalação. Este anúncio apresenta engate flexível com malha de aço inox para torneira, comprimento de 40 centímetros para ligação padrão."
+  },
+  "price": {
+    "BRL": 30.88,
+    "USD": 13.64
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "stainless braided flexible connector for faucets",
+      "16 inch length for standard connections",
+      "construction"
+    ],
+    "pt-BR": [
+      "engate flexível com malha de aço inox para torneira",
+      "comprimento de 40 centímetros para ligação padrão",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "steel",
+          "name": {
+            "en": "Stainless steel",
+            "pt-BR": "Inox"
+          },
+          "hex": "#C5C7C8"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-STAINLESS-BRAIDED-HOSE-40-CM-SINGLE",
+      "options": {
+        "color": "steel",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 30.88,
+        "USD": 13.64
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless Braided Flexible Connector for Faucets, 16 Inch Length for Standard Connections, isolated product view",
+            "pt-BR": "Engate Flexível com Malha de Aço Inox para Torneira, Comprimento de 40 Centímetros para Ligação Padrão, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-STAINLESS-BRAIDED-HOSE-40-CM-TEN",
+      "options": {
+        "color": "steel",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 266.5,
+        "USD": 113.83
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless Braided Flexible Connector for Faucets, 16 Inch Length for Standard Connections, isolated product view",
+            "pt-BR": "Engate Flexível com Malha de Aço Inox para Torneira, Comprimento de 40 Centímetros para Ligação Padrão, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

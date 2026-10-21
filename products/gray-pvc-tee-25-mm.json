@@ -1,0 +1,134 @@
+{
+  "id": "gray-pvc-tee-25-mm",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "Gray PVC Tee Fitting for Cold-Water Lines, 25 Millimeter Nominal Size, Sold in Two Project Packs",
+    "pt-BR": "Tê de PVC Cinza para Linha de Água Fria, Bitola Nominal de 25 Milímetros, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A generic plumbing component for residential installation and repair. Check the nominal size against the existing line before ordering and follow the local installation practice. This listing is for gray pvc tee fitting for cold-water lines, 25 millimeter nominal size.",
+    "pt-BR": "Um componente hidráulico genérico para instalação e reparo residencial. Confira a medida nominal da tubulação antes de pedir e siga a prática local de instalação. Este anúncio apresenta tê de pvc cinza para linha de água fria, bitola nominal de 25 milímetros."
+  },
+  "price": {
+    "BRL": 4.61,
+    "USD": 1.79
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "gray pvc tee fitting for cold-water lines",
+      "25 millimeter nominal size",
+      "construction"
+    ],
+    "pt-BR": [
+      "tê de pvc cinza para linha de água fria",
+      "bitola nominal de 25 milímetros",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "pvc"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#8E8E8A"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-GRAY-PVC-TEE-25-MM-SINGLE",
+      "options": {
+        "color": "gray",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 4.61,
+        "USD": 1.79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC Tee Fitting for Cold-Water Lines, 25 Millimeter Nominal Size, isolated product view",
+            "pt-BR": "Tê de PVC Cinza para Linha de Água Fria, Bitola Nominal de 25 Milímetros, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-GRAY-PVC-TEE-25-MM-TEN",
+      "options": {
+        "color": "gray",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 40.51,
+        "USD": 15.23
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC Tee Fitting for Cold-Water Lines, 25 Millimeter Nominal Size, isolated product view",
+            "pt-BR": "Tê de PVC Cinza para Linha de Água Fria, Bitola Nominal de 25 Milímetros, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

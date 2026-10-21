@@ -1,0 +1,134 @@
+{
+  "id": "copper-building-wire-four-mm",
+  "categoryId": "construcao-eletrica",
+  "name": {
+    "en": "Copper Building Wire for Indoor Branch Circuits, 4 Square Millimeter Gauge for Dedicated Loads, Sold in Two Project Packs",
+    "pt-BR": "Fio de Cobre para Circuito Elétrico Interno, Bitola de 4 Milímetros Quadrados para Carga Dedicada, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A generic electrical component for dry indoor residential circuits. Match the stated gauge, current or module configuration to the project and have the installation checked locally. This listing is for copper building wire for indoor branch circuits, 4 square millimeter gauge for dedicated loads.",
+    "pt-BR": "Um componente elétrico genérico para circuitos residenciais internos e secos. Confira bitola, corrente ou configuração do módulo no projeto e valide a instalação no local. Este anúncio apresenta fio de cobre para circuito elétrico interno, bitola de 4 milímetros quadrados para carga dedicada."
+  },
+  "price": {
+    "BRL": 49.9,
+    "USD": 22
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "copper building wire for indoor branch circuits",
+      "4 square millimeter gauge for dedicated loads",
+      "construction"
+    ],
+    "pt-BR": [
+      "fio de cobre para circuito elétrico interno",
+      "bitola de 4 milímetros quadrados para carga dedicada",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "copper"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "short",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "copper",
+          "name": {
+            "en": "Copper",
+            "pt-BR": "Cobre"
+          },
+          "hex": "#B87333"
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "short",
+          "name": {
+            "en": "50 ft",
+            "pt-BR": "15 m"
+          }
+        },
+        {
+          "id": "long",
+          "name": {
+            "en": "100 ft",
+            "pt-BR": "30 m"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "short",
+      "sku": "CON-COPPER-BUILDING-WIRE-FOUR-MM-SHORT",
+      "options": {
+        "color": "copper",
+        "length": "short"
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 22
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Copper Building Wire for Indoor Branch Circuits, 4 Square Millimeter Gauge for Dedicated Loads, isolated product view",
+            "pt-BR": "Fio de Cobre para Circuito Elétrico Interno, Bitola de 4 Milímetros Quadrados para Carga Dedicada, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "long",
+      "sku": "CON-COPPER-BUILDING-WIRE-FOUR-MM-LONG",
+      "options": {
+        "color": "copper",
+        "length": "long"
+      },
+      "price": {
+        "BRL": 204.12,
+        "USD": 84.24
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Copper Building Wire for Indoor Branch Circuits, 4 Square Millimeter Gauge for Dedicated Loads, isolated product view",
+            "pt-BR": "Fio de Cobre para Circuito Elétrico Interno, Bitola de 4 Milímetros Quadrados para Carga Dedicada, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

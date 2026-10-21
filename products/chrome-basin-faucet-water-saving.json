@@ -1,0 +1,138 @@
+{
+  "id": "chrome-basin-faucet-water-saving",
+  "categoryId": "construcao-banheiro",
+  "name": {
+    "en": "Chrome Single-Lever Faucet for Bathroom Basins, Controlled Flow for Everyday Water Savings, Sold in Two Project Packs",
+    "pt-BR": "Torneira Cromada Monocomando para Lavatório, Vazão Controlada para Economia no Uso Diário, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A bathroom fixture sized for a common residential installation. The mounting or connection detail distinguishes the product before checking clearances and plumbing on site. This listing is for chrome single-lever faucet for bathroom basins, controlled flow for everyday water savings.",
+    "pt-BR": "Uma peça de banheiro dimensionada para instalação residencial comum. O detalhe de fixação ou conexão diferencia o produto antes de conferir espaço e hidráulica no local. Este anúncio apresenta torneira cromada monocomando para lavatório, vazão controlada para economia no uso diário."
+  },
+  "price": {
+    "BRL": 187.62,
+    "USD": 81.42
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "chrome single-lever faucet for bathroom basins",
+      "controlled flow for everyday water savings",
+      "construction"
+    ],
+    "pt-BR": [
+      "torneira cromada monocomando para lavatório",
+      "vazão controlada para economia no uso diário",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "standard",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "chrome",
+          "name": {
+            "en": "Chrome",
+            "pt-BR": "Cromado"
+          },
+          "hex": "#D5D7D8"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Drain",
+        "pt-BR": "Saída"
+      },
+      "values": [
+        {
+          "id": "standard",
+          "name": {
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        },
+        {
+          "id": "alt",
+          "name": {
+            "en": "Alternate",
+            "pt-BR": "Alternativa"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "sku": "CON-CHROME-BASIN-FAUCET-WATER-SAVING-STANDARD",
+      "options": {
+        "color": "chrome",
+        "install": "standard"
+      },
+      "price": {
+        "BRL": 187.62,
+        "USD": 81.42
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome Single-Lever Faucet for Bathroom Basins, Controlled Flow for Everyday Water Savings, isolated product view",
+            "pt-BR": "Torneira Cromada Monocomando para Lavatório, Vazão Controlada para Economia no Uso Diário, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alt",
+      "sku": "CON-CHROME-BASIN-FAUCET-WATER-SAVING-ALT",
+      "options": {
+        "color": "chrome",
+        "install": "alt"
+      },
+      "price": {
+        "BRL": 240.86,
+        "USD": 104.5
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome Single-Lever Faucet for Bathroom Basins, Controlled Flow for Everyday Water Savings, isolated product view",
+            "pt-BR": "Torneira Cromada Monocomando para Lavatório, Vazão Controlada para Economia no Uso Diário, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

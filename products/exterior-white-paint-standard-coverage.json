@@ -1,0 +1,142 @@
+{
+  "id": "exterior-white-paint-standard-coverage",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "White Acrylic Masonry Paint for Exterior Walls, Standard Coverage for Prepared Surfaces, Sold in Two Project Packs",
+    "pt-BR": "Tinta Acrílica Branca para Alvenaria Externa, Cobertura Padrão para Superfície Preparada, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A water-based coating prepared for an even residential finish. The performance level identifies where it works best and supports realistic coverage and budget comparisons. This listing is for white acrylic masonry paint for exterior walls, standard coverage for prepared surfaces.",
+    "pt-BR": "Um revestimento à base de água preparado para acabamento uniforme em obras residenciais. O nível de desempenho indica o melhor uso e ajuda a comparar rendimento e orçamento. Este anúncio apresenta tinta acrílica branca para alvenaria externa, cobertura padrão para superfície preparada."
+  },
+  "price": {
+    "BRL": 152.22,
+    "USD": 61.36
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "white acrylic masonry paint for exterior walls",
+      "standard coverage for prepared surfaces",
+      "construction"
+    ],
+    "pt-BR": [
+      "tinta acrílica branca para alvenaria externa",
+      "cobertura padrão para superfície preparada",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "white-small",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F1"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "small",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "large",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-small",
+      "sku": "CON-EXTERIOR-WHITE-PAINT-STANDARD-COVERAGE-WHITE-SMALL",
+      "options": {
+        "color": "white",
+        "volume": "small"
+      },
+      "price": {
+        "BRL": 152.22,
+        "USD": 61.36
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Acrylic Masonry Paint for Exterior Walls, Standard Coverage for Prepared Surfaces, isolated product view",
+            "pt-BR": "Tinta Acrílica Branca para Alvenaria Externa, Cobertura Padrão para Superfície Preparada, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-large",
+      "sku": "CON-EXTERIOR-WHITE-PAINT-STANDARD-COVERAGE-WHITE-LARGE",
+      "options": {
+        "color": "white",
+        "volume": "large"
+      },
+      "price": {
+        "BRL": 457.51,
+        "USD": 183.51
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Acrylic Masonry Paint for Exterior Walls, Standard Coverage for Prepared Surfaces, isolated product view",
+            "pt-BR": "Tinta Acrílica Branca para Alvenaria Externa, Cobertura Padrão para Superfície Preparada, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

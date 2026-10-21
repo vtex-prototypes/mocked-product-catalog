@@ -1,0 +1,134 @@
+{
+  "id": "white-wall-outlet-double-module",
+  "categoryId": "construcao-eletrica",
+  "name": {
+    "en": "White Wall Outlet for Residential Branch Circuits, Double Module for Shared Wall Boxes, Sold in Two Project Packs",
+    "pt-BR": "Tomada Branca de Parede para Circuito Residencial, Módulo Duplo para Caixa de Parede Compartilhada, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A generic electrical component for dry indoor residential circuits. Match the stated gauge, current or module configuration to the project and have the installation checked locally. This listing is for white wall outlet for residential branch circuits, double module for shared wall boxes.",
+    "pt-BR": "Um componente elétrico genérico para circuitos residenciais internos e secos. Confira bitola, corrente ou configuração do módulo no projeto e valide a instalação no local. Este anúncio apresenta tomada branca de parede para circuito residencial, módulo duplo para caixa de parede compartilhada."
+  },
+  "price": {
+    "BRL": 14.01,
+    "USD": 6.11
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "white wall outlet for residential branch circuits",
+      "double module for shared wall boxes",
+      "construction"
+    ],
+    "pt-BR": [
+      "tomada branca de parede para circuito residencial",
+      "módulo duplo para caixa de parede compartilhada",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polycarbonate"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F7F7F5"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-WHITE-WALL-OUTLET-DOUBLE-MODULE-SINGLE",
+      "options": {
+        "color": "white",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 14.01,
+        "USD": 6.11
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Wall Outlet for Residential Branch Circuits, Double Module for Shared Wall Boxes, isolated product view",
+            "pt-BR": "Tomada Branca de Parede para Circuito Residencial, Módulo Duplo para Caixa de Parede Compartilhada, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-WHITE-WALL-OUTLET-DOUBLE-MODULE-TEN",
+      "options": {
+        "color": "white",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 120.81,
+        "USD": 48.73
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Wall Outlet for Residential Branch Circuits, Double Module for Shared Wall Boxes, isolated product view",
+            "pt-BR": "Tomada Branca de Parede para Circuito Residencial, Módulo Duplo para Caixa de Parede Compartilhada, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

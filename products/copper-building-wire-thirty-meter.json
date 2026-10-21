@@ -1,0 +1,134 @@
+{
+  "id": "copper-building-wire-thirty-meter",
+  "categoryId": "construcao-eletrica",
+  "name": {
+    "en": "Copper Building Wire for Indoor Branch Circuits, 30 Meter Roll for Residential Projects, Sold in Two Project Packs",
+    "pt-BR": "Fio de Cobre para Circuito Elétrico Interno, Rolo de 30 Metros para Projetos Residenciais, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A generic electrical component for dry indoor residential circuits. Match the stated gauge, current or module configuration to the project and have the installation checked locally. This listing is for copper building wire for indoor branch circuits, 30 meter roll for residential projects.",
+    "pt-BR": "Um componente elétrico genérico para circuitos residenciais internos e secos. Confira bitola, corrente ou configuração do módulo no projeto e valide a instalação no local. Este anúncio apresenta fio de cobre para circuito elétrico interno, rolo de 30 metros para projetos residenciais."
+  },
+  "price": {
+    "BRL": 61.88,
+    "USD": 27.28
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "copper building wire for indoor branch circuits",
+      "30 meter roll for residential projects",
+      "construction"
+    ],
+    "pt-BR": [
+      "fio de cobre para circuito elétrico interno",
+      "rolo de 30 metros para projetos residenciais",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "copper"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "short",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "copper",
+          "name": {
+            "en": "Copper",
+            "pt-BR": "Cobre"
+          },
+          "hex": "#B87333"
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "short",
+          "name": {
+            "en": "50 ft",
+            "pt-BR": "15 m"
+          }
+        },
+        {
+          "id": "long",
+          "name": {
+            "en": "100 ft",
+            "pt-BR": "30 m"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "short",
+      "sku": "CON-COPPER-BUILDING-WIRE-THIRTY-METER-SHORT",
+      "options": {
+        "color": "copper",
+        "length": "short"
+      },
+      "price": {
+        "BRL": 61.88,
+        "USD": 27.28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Copper Building Wire for Indoor Branch Circuits, 30 Meter Roll for Residential Projects, isolated product view",
+            "pt-BR": "Fio de Cobre para Circuito Elétrico Interno, Rolo de 30 Metros para Projetos Residenciais, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "long",
+      "sku": "CON-COPPER-BUILDING-WIRE-THIRTY-METER-LONG",
+      "options": {
+        "color": "copper",
+        "length": "long"
+      },
+      "price": {
+        "BRL": 253.11,
+        "USD": 104.46
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Copper Building Wire for Indoor Branch Circuits, 30 Meter Roll for Residential Projects, isolated product view",
+            "pt-BR": "Fio de Cobre para Circuito Elétrico Interno, Rolo de 30 Metros para Projetos Residenciais, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

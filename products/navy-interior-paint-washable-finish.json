@@ -1,0 +1,142 @@
+{
+  "id": "navy-interior-paint-washable-finish",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Navy Acrylic Paint for Indoor Walls, Washable Finish for Busy Residential Rooms, Sold in Two Project Packs",
+    "pt-BR": "Tinta Acrílica Azul-Marinho para Parede Interna, Acabamento Lavável para Ambientes Residenciais, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A water-based coating prepared for an even residential finish. The performance level identifies where it works best and supports realistic coverage and budget comparisons. This listing is for navy acrylic paint for indoor walls, washable finish for busy residential rooms.",
+    "pt-BR": "Um revestimento à base de água preparado para acabamento uniforme em obras residenciais. O nível de desempenho indica o melhor uso e ajuda a comparar rendimento e orçamento. Este anúncio apresenta tinta acrílica azul-marinho para parede interna, acabamento lavável para ambientes residenciais."
+  },
+  "price": {
+    "BRL": 119,
+    "USD": 48
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "navy acrylic paint for indoor walls",
+      "washable finish for busy residential rooms",
+      "construction"
+    ],
+    "pt-BR": [
+      "tinta acrílica azul-marinho para parede interna",
+      "acabamento lavável para ambientes residenciais",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "navy-small",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "navy",
+          "name": {
+            "en": "Navy",
+            "pt-BR": "Azul marinho"
+          },
+          "hex": "#1E3A5F"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "small",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "large",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "navy-small",
+      "sku": "CON-NAVY-INTERIOR-PAINT-WASHABLE-FINISH-NAVY-SMALL",
+      "options": {
+        "color": "navy",
+        "volume": "small"
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 48
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy Acrylic Paint for Indoor Walls, Washable Finish for Busy Residential Rooms, isolated product view",
+            "pt-BR": "Tinta Acrílica Azul-Marinho para Parede Interna, Acabamento Lavável para Ambientes Residenciais, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "navy-large",
+      "sku": "CON-NAVY-INTERIOR-PAINT-WASHABLE-FINISH-NAVY-LARGE",
+      "options": {
+        "color": "navy",
+        "volume": "large"
+      },
+      "price": {
+        "BRL": 355.32,
+        "USD": 142.56
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Navy Acrylic Paint for Indoor Walls, Washable Finish for Busy Residential Rooms, isolated product view",
+            "pt-BR": "Tinta Acrílica Azul-Marinho para Parede Interna, Acabamento Lavável para Ambientes Residenciais, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

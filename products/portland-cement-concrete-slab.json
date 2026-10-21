@@ -1,0 +1,138 @@
+{
+  "id": "portland-cement-concrete-slab",
+  "categoryId": "construcao-basicos",
+  "name": {
+    "en": "Portland Cement for Concrete and General Masonry, Selected for Small Concrete Slabs, Sold in Two Project Packs",
+    "pt-BR": "Cimento Portland para Concreto e Alvenaria em Geral, Selecionado para Pequenas Lajes de Concreto, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A basic construction material for masonry or reinforced concrete work. The grade, size or intended mix helps estimate quantities without treating every foundation task as the same. This listing is for portland cement for concrete and general masonry, selected for small concrete slabs.",
+    "pt-BR": "Um material básico para serviços de alvenaria ou concreto armado. A classe, medida ou traço indicado ajuda a estimar quantidades sem tratar toda etapa estrutural como igual. Este anúncio apresenta cimento portland para concreto e alvenaria em geral, selecionado para pequenas lajes de concreto."
+  },
+  "price": {
+    "BRL": 45.47,
+    "USD": 14.84
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "portland cement for concrete and general masonry",
+      "selected for small concrete slabs",
+      "construction"
+    ],
+    "pt-BR": [
+      "cimento portland para concreto e alvenaria em geral",
+      "selecionado para pequenas lajes de concreto",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "one",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "kraft",
+          "name": {
+            "en": "Kraft",
+            "pt-BR": "Kraft"
+          },
+          "hex": "#C4A574"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "one",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "five",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one",
+      "sku": "CON-PORTLAND-CEMENT-CONCRETE-SLAB-ONE",
+      "options": {
+        "color": "kraft",
+        "pack": "one"
+      },
+      "price": {
+        "BRL": 45.47,
+        "USD": 14.84
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Portland Cement for Concrete and General Masonry, Selected for Small Concrete Slabs, isolated product view",
+            "pt-BR": "Cimento Portland para Concreto e Alvenaria em Geral, Selecionado para Pequenas Lajes de Concreto, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "five",
+      "sku": "CON-PORTLAND-CEMENT-CONCRETE-SLAB-FIVE",
+      "options": {
+        "color": "kraft",
+        "pack": "five"
+      },
+      "price": {
+        "BRL": 227.82,
+        "USD": 73.27
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Portland Cement for Concrete and General Masonry, Selected for Small Concrete Slabs, isolated product view",
+            "pt-BR": "Cimento Portland para Concreto e Alvenaria em Geral, Selecionado para Pequenas Lajes de Concreto, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

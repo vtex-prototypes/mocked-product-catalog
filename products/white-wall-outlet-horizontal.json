@@ -1,0 +1,134 @@
+{
+  "id": "white-wall-outlet-horizontal",
+  "categoryId": "construcao-eletrica",
+  "name": {
+    "en": "White Wall Outlet for Residential Branch Circuits, Horizontal Plate for Standard Installations, Sold in Two Project Packs",
+    "pt-BR": "Tomada Branca de Parede para Circuito Residencial, Placa Horizontal para Instalação Padrão, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A generic electrical component for dry indoor residential circuits. Match the stated gauge, current or module configuration to the project and have the installation checked locally. This listing is for white wall outlet for residential branch circuits, horizontal plate for standard installations.",
+    "pt-BR": "Um componente elétrico genérico para circuitos residenciais internos e secos. Confira bitola, corrente ou configuração do módulo no projeto e valide a instalação no local. Este anúncio apresenta tomada branca de parede para circuito residencial, placa horizontal para instalação padrão."
+  },
+  "price": {
+    "BRL": 16.69,
+    "USD": 7.28
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "white wall outlet for residential branch circuits",
+      "horizontal plate for standard installations",
+      "construction"
+    ],
+    "pt-BR": [
+      "tomada branca de parede para circuito residencial",
+      "placa horizontal para instalação padrão",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polycarbonate"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F7F7F5"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-WHITE-WALL-OUTLET-HORIZONTAL-SINGLE",
+      "options": {
+        "color": "white",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 16.69,
+        "USD": 7.28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Wall Outlet for Residential Branch Circuits, Horizontal Plate for Standard Installations, isolated product view",
+            "pt-BR": "Tomada Branca de Parede para Circuito Residencial, Placa Horizontal para Instalação Padrão, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-WHITE-WALL-OUTLET-HORIZONTAL-TEN",
+      "options": {
+        "color": "white",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 143.94,
+        "USD": 58.06
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Wall Outlet for Residential Branch Circuits, Horizontal Plate for Standard Installations, isolated product view",
+            "pt-BR": "Tomada Branca de Parede para Circuito Residencial, Placa Horizontal para Instalação Padrão, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

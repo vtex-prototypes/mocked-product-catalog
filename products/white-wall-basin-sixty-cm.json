@@ -1,0 +1,138 @@
+{
+  "id": "white-wall-basin-sixty-cm",
+  "categoryId": "construcao-banheiro",
+  "name": {
+    "en": "White Ceramic Wall Basin with Faucet Hole, 24 Inch Width for Larger Counter Areas, Sold in Two Project Packs",
+    "pt-BR": "Lavatório Branco de Cerâmica com Furo para Torneira, Largura de 60 Centímetros para Bancada Maior, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A bathroom fixture sized for a common residential installation. The mounting or connection detail distinguishes the product before checking clearances and plumbing on site. This listing is for white ceramic wall basin with faucet hole, 24 inch width for larger counter areas.",
+    "pt-BR": "Uma peça de banheiro dimensionada para instalação residencial comum. O detalhe de fixação ou conexão diferencia o produto antes de conferir espaço e hidráulica no local. Este anúncio apresenta lavatório branco de cerâmica com furo para torneira, largura de 60 centímetros para bancada maior."
+  },
+  "price": {
+    "BRL": 189,
+    "USD": 79
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "white ceramic wall basin with faucet hole",
+      "24 inch width for larger counter areas",
+      "construction"
+    ],
+    "pt-BR": [
+      "lavatório branco de cerâmica com furo para torneira",
+      "largura de 60 centímetros para bancada maior",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "standard",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F6F6F4"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Drain",
+        "pt-BR": "Saída"
+      },
+      "values": [
+        {
+          "id": "standard",
+          "name": {
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        },
+        {
+          "id": "alt",
+          "name": {
+            "en": "Alternate",
+            "pt-BR": "Alternativa"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "sku": "CON-WHITE-WALL-BASIN-SIXTY-CM-STANDARD",
+      "options": {
+        "color": "white",
+        "install": "standard"
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Ceramic Wall Basin with Faucet Hole, 24 Inch Width for Larger Counter Areas, isolated product view",
+            "pt-BR": "Lavatório Branco de Cerâmica com Furo para Torneira, Largura de 60 Centímetros para Bancada Maior, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alt",
+      "sku": "CON-WHITE-WALL-BASIN-SIXTY-CM-ALT",
+      "options": {
+        "color": "white",
+        "install": "alt"
+      },
+      "price": {
+        "BRL": 236.52,
+        "USD": 99.36
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Ceramic Wall Basin with Faucet Hole, 24 Inch Width for Larger Counter Areas, isolated product view",
+            "pt-BR": "Lavatório Branco de Cerâmica com Furo para Torneira, Largura de 60 Centímetros para Bancada Maior, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

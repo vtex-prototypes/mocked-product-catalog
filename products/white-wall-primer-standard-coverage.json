@@ -1,0 +1,142 @@
+{
+  "id": "white-wall-primer-standard-coverage",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "White Acrylic Wall Primer for Masonry and Drywall, Standard Coverage for Prepared Surfaces, Sold in Two Project Packs",
+    "pt-BR": "Fundo Preparador Acrílico Branco para Parede, Cobertura Padrão para Superfície Preparada, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A water-based coating prepared for an even residential finish. The performance level identifies where it works best and supports realistic coverage and budget comparisons. This listing is for white acrylic wall primer for masonry and drywall, standard coverage for prepared surfaces.",
+    "pt-BR": "Um revestimento à base de água preparado para acabamento uniforme em obras residenciais. O nível de desempenho indica o melhor uso e ajuda a comparar rendimento e orçamento. Este anúncio apresenta fundo preparador acrílico branco para parede, cobertura padrão para superfície preparada."
+  },
+  "price": {
+    "BRL": 65.71,
+    "USD": 26.32
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "white acrylic wall primer for masonry and drywall",
+      "standard coverage for prepared surfaces",
+      "construction"
+    ],
+    "pt-BR": [
+      "fundo preparador acrílico branco para parede",
+      "cobertura padrão para superfície preparada",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "white-small",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F3F1EC"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "small",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "large",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-small",
+      "sku": "CON-WHITE-WALL-PRIMER-STANDARD-COVERAGE-WHITE-SMALL",
+      "options": {
+        "color": "white",
+        "volume": "small"
+      },
+      "price": {
+        "BRL": 65.71,
+        "USD": 26.32
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Acrylic Wall Primer for Masonry and Drywall, Standard Coverage for Prepared Surfaces, isolated product view",
+            "pt-BR": "Fundo Preparador Acrílico Branco para Parede, Cobertura Padrão para Superfície Preparada, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-large",
+      "sku": "CON-WHITE-WALL-PRIMER-STANDARD-COVERAGE-WHITE-LARGE",
+      "options": {
+        "color": "white",
+        "volume": "large"
+      },
+      "price": {
+        "BRL": 202.02,
+        "USD": 81.22
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Acrylic Wall Primer for Masonry and Drywall, Standard Coverage for Prepared Surfaces, isolated product view",
+            "pt-BR": "Fundo Preparador Acrílico Branco para Parede, Cobertura Padrão para Superfície Preparada, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

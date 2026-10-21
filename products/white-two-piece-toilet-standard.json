@@ -1,0 +1,138 @@
+{
+  "id": "white-two-piece-toilet-standard",
+  "categoryId": "construcao-banheiro",
+  "name": {
+    "en": "White Ceramic Two-Piece Toilet with Closed Seat, Standard Bowl for Residential Bathrooms, Sold in Two Project Packs",
+    "pt-BR": "Vaso Sanitário Branco com Caixa Acoplada e Assento, Bacia Padrão para Banheiro Residencial, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A bathroom fixture sized for a common residential installation. The mounting or connection detail distinguishes the product before checking clearances and plumbing on site. This listing is for white ceramic two-piece toilet with closed seat, standard bowl for residential bathrooms.",
+    "pt-BR": "Uma peça de banheiro dimensionada para instalação residencial comum. O detalhe de fixação ou conexão diferencia o produto antes de conferir espaço e hidráulica no local. Este anúncio apresenta vaso sanitário branco com caixa acoplada e assento, bacia padrão para banheiro residencial."
+  },
+  "price": {
+    "BRL": 422.06,
+    "USD": 177.66
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "white ceramic two-piece toilet with closed seat",
+      "standard bowl for residential bathrooms",
+      "construction"
+    ],
+    "pt-BR": [
+      "vaso sanitário branco com caixa acoplada e assento",
+      "bacia padrão para banheiro residencial",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "standard",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F6F6F4"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Drain",
+        "pt-BR": "Saída"
+      },
+      "values": [
+        {
+          "id": "standard",
+          "name": {
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        },
+        {
+          "id": "alt",
+          "name": {
+            "en": "Alternate",
+            "pt-BR": "Alternativa"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-STANDARD-STANDARD",
+      "options": {
+        "color": "white",
+        "install": "standard"
+      },
+      "price": {
+        "BRL": 422.06,
+        "USD": 177.66
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Ceramic Two-Piece Toilet with Closed Seat, Standard Bowl for Residential Bathrooms, isolated product view",
+            "pt-BR": "Vaso Sanitário Branco com Caixa Acoplada e Assento, Bacia Padrão para Banheiro Residencial, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alt",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-STANDARD-ALT",
+      "options": {
+        "color": "white",
+        "install": "alt"
+      },
+      "price": {
+        "BRL": 537.04,
+        "USD": 232.48
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White Ceramic Two-Piece Toilet with Closed Seat, Standard Bowl for Residential Bathrooms, isolated product view",
+            "pt-BR": "Vaso Sanitário Branco com Caixa Acoplada e Assento, Bacia Padrão para Banheiro Residencial, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

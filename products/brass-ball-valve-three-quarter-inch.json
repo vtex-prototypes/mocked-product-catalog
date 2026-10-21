@@ -1,0 +1,134 @@
+{
+  "id": "brass-ball-valve-three-quarter-inch",
+  "categoryId": "construcao-hidraulica",
+  "name": {
+    "en": "Brass Ball Valve with Lever for Water Lines, Three-Quarter-Inch Thread for Supply Lines, Sold in Two Project Packs",
+    "pt-BR": "Registro de Esfera em Latão com Alavanca, Rosca de Três Quartos para Alimentação, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A generic plumbing component for residential installation and repair. Check the nominal size against the existing line before ordering and follow the local installation practice. This listing is for brass ball valve with lever for water lines, three-quarter-inch thread for supply lines.",
+    "pt-BR": "Um componente hidráulico genérico para instalação e reparo residencial. Confira a medida nominal da tubulação antes de pedir e siga a prática local de instalação. Este anúncio apresenta registro de esfera em latão com alavanca, rosca de três quartos para alimentação."
+  },
+  "price": {
+    "BRL": 43.91,
+    "USD": 19.36
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "brass ball valve with lever for water lines",
+      "three-quarter-inch thread for supply lines",
+      "construction"
+    ],
+    "pt-BR": [
+      "registro de esfera em latão com alavanca",
+      "rosca de três quartos para alimentação",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "brass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "brass",
+          "name": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          },
+          "hex": "#C6A15B"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-BRASS-BALL-VALVE-THREE-QUARTER-INCH-SINGLE",
+      "options": {
+        "color": "brass",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 43.91,
+        "USD": 19.36
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass Ball Valve with Lever for Water Lines, Three-Quarter-Inch Thread for Supply Lines, isolated product view",
+            "pt-BR": "Registro de Esfera em Latão com Alavanca, Rosca de Três Quartos para Alimentação, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-BRASS-BALL-VALVE-THREE-QUARTER-INCH-TEN",
+      "options": {
+        "color": "brass",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 407.72,
+        "USD": 179.63
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass Ball Valve with Lever for Water Lines, Three-Quarter-Inch Thread for Supply Lines, isolated product view",
+            "pt-BR": "Registro de Esfera em Latão com Alavanca, Rosca de Três Quartos para Alimentação, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

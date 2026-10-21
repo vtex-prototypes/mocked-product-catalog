@@ -1,0 +1,138 @@
+{
+  "id": "clay-hollow-brick-eleven-cm",
+  "categoryId": "construcao-basicos",
+  "name": {
+    "en": "Hollow Clay Masonry Brick for Residential Walls, 11 Centimeter Width for Standard Walls, Sold in Two Project Packs",
+    "pt-BR": "Tijolo Cerâmico Furado para Parede Residencial, Largura de 11 Centímetros para Parede Padrão, Vendido em Duas Opções de Embalagem"
+  },
+  "description": {
+    "en": "A basic construction material for masonry or reinforced concrete work. The grade, size or intended mix helps estimate quantities without treating every foundation task as the same. This listing is for hollow clay masonry brick for residential walls, 11 centimeter width for standard walls.",
+    "pt-BR": "Um material básico para serviços de alvenaria ou concreto armado. A classe, medida ou traço indicado ajuda a estimar quantidades sem tratar toda etapa estrutural como igual. Este anúncio apresenta tijolo cerâmico furado para parede residencial, largura de 11 centímetros para parede padrão."
+  },
+  "price": {
+    "BRL": 2.01,
+    "USD": 0.85
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "hollow clay masonry brick for residential walls",
+      "11 centimeter width for standard walls",
+      "construction"
+    ],
+    "pt-BR": [
+      "tijolo cerâmico furado para parede residencial",
+      "largura de 11 centímetros para parede padrão",
+      "construção"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "clay"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "clay",
+          "name": {
+            "en": "Clay red",
+            "pt-BR": "Barro"
+          },
+          "hex": "#A33B2B"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 piece",
+            "pt-BR": "1 peça"
+          }
+        },
+        {
+          "id": "ten",
+          "name": {
+            "en": "10 pieces",
+            "pt-BR": "10 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-CLAY-HOLLOW-BRICK-ELEVEN-CM-SINGLE",
+      "options": {
+        "color": "clay",
+        "pack": "single"
+      },
+      "price": {
+        "BRL": 2.01,
+        "USD": 0.85
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Hollow Clay Masonry Brick for Residential Walls, 11 Centimeter Width for Standard Walls, isolated product view",
+            "pt-BR": "Tijolo Cerâmico Furado para Parede Residencial, Largura de 11 Centímetros para Parede Padrão, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ten",
+      "sku": "CON-CLAY-HOLLOW-BRICK-ELEVEN-CM-TEN",
+      "options": {
+        "color": "clay",
+        "pack": "ten"
+      },
+      "price": {
+        "BRL": 19.35,
+        "USD": 7.44
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Hollow Clay Masonry Brick for Residential Walls, 11 Centimeter Width for Standard Walls, isolated product view",
+            "pt-BR": "Tijolo Cerâmico Furado para Parede Residencial, Largura de 11 Centímetros para Parede Padrão, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
