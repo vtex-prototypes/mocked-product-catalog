@@ -128,6 +128,16 @@
             "#ffffff": "detail-white.png",
             "#f5f5f5": "detail-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Home study with a matte navy feature wall",
+            "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
         }
       ]
     },
@@ -166,6 +176,16 @@
           "backgrounds": {
             "#ffffff": "detail-white.png",
             "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Home study with a matte navy feature wall",
+            "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
           }
         }
       ]

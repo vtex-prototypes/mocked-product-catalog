@@ -1,0 +1,154 @@
+{
+  "id": "casa-norte-sds900-r-rotary-hammer",
+  "brandId": "casa-norte",
+  "categoryId": "construcao-ferramentas-eletricas",
+  "name": {
+    "en": "Casa Norte SDS900-R 900-Watt SDS-Plus Rotary Hammer with Auxiliary Handle for Concrete",
+    "pt-BR": "Martelete Perfurador Casa Norte SDS900-R 900 W SDS-Plus com Empunhadura Auxiliar para Concreto"
+  },
+  "description": {
+    "en": "A corded SDS-Plus rotary hammer for deep holes in concrete and masonry during heavier renovation work. Its long body and large auxiliary handle support controlled two-hand drilling with masonry bits.",
+    "pt-BR": "Martelete perfurador com fio e encaixe SDS-Plus para furos profundos em concreto e alvenaria em reformas pesadas. O corpo longo e a empunhadura auxiliar ampla dão controle com as duas mãos."
+  },
+  "price": {
+    "BRL": 749.9,
+    "USD": 209
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "Casa Norte SDS900-R",
+      "SDS Plus rotary hammer",
+      "concrete drilling"
+    ],
+    "pt-BR": [
+      "Casa Norte SDS900-R",
+      "martelete SDS Plus",
+      "perfuração em concreto"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "tool-type",
+      "valueId": "rotary-hammer"
+    },
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    },
+    {
+      "id": "voltage",
+      "valueId": "127-v"
+    },
+    {
+      "id": "voltage",
+      "valueId": "220-v"
+    }
+  ],
+  "defaultVariantId": "127-v",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "orange",
+          "name": {
+            "en": "Orange",
+            "pt-BR": "Laranja"
+          },
+          "hex": "#F26C21"
+        }
+      ]
+    },
+    {
+      "id": "voltage",
+      "specificationId": "voltage",
+      "values": [
+        {
+          "id": "127-v",
+          "valueId": "127-v"
+        },
+        {
+          "id": "220-v",
+          "valueId": "220-v"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "127-v",
+      "sku": "CON-SDS900R-127-V",
+      "options": {
+        "color": "orange",
+        "voltage": "127-v"
+      },
+      "price": {
+        "BRL": 749.9,
+        "USD": 209
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte SDS900-R 900-Watt SDS-Plus Rotary Hammer with Auxiliary Handle for Concrete, isolated product view",
+            "pt-BR": "Martelete Perfurador Casa Norte SDS900-R 900 W SDS-Plus com Empunhadura Auxiliar para Concreto, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte SDS900-R rotary hammer drilling into concrete",
+            "pt-BR": "Martelete Casa Norte SDS900-R perfurando concreto"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "220-v",
+      "sku": "CON-SDS900R-220-V",
+      "options": {
+        "color": "orange",
+        "voltage": "220-v"
+      },
+      "price": {
+        "BRL": 769.9,
+        "USD": 215
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte SDS900-R 900-Watt SDS-Plus Rotary Hammer with Auxiliary Handle for Concrete, isolated product view",
+            "pt-BR": "Martelete Perfurador Casa Norte SDS900-R 900 W SDS-Plus com Empunhadura Auxiliar para Concreto, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte SDS900-R rotary hammer drilling into concrete",
+            "pt-BR": "Martelete Casa Norte SDS900-R perfurando concreto"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -120,6 +120,16 @@
             "#ffffff": "detail-white.png",
             "#f5f5f5": "detail-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Rendered house facade painted exterior white",
+            "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
         }
       ]
     },
@@ -154,6 +164,16 @@
           "backgrounds": {
             "#ffffff": "detail-white.png",
             "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Rendered house facade painted exterior white",
+            "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
           }
         }
       ]
