@@ -120,6 +120,16 @@
             "#ffffff": "detail-white.png",
             "#f5f5f5": "detail-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Living room ceiling painted smooth matte white",
+            "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
         }
       ]
     },
@@ -154,6 +164,16 @@
           "backgrounds": {
             "#ffffff": "detail-white.png",
             "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Living room ceiling painted smooth matte white",
+            "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
           }
         }
       ]

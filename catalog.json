@@ -742,6 +742,124 @@
           }
         }
       ]
+    },
+    {
+      "id": "tool-type",
+      "name": {
+        "en": "Tool type",
+        "pt-BR": "Tipo de ferramenta"
+      },
+      "values": [
+        {
+          "id": "drill-driver",
+          "name": {
+            "en": "Drill driver",
+            "pt-BR": "Furadeira e parafusadeira"
+          }
+        },
+        {
+          "id": "hammer-drill",
+          "name": {
+            "en": "Hammer drill",
+            "pt-BR": "Furadeira de impacto"
+          }
+        },
+        {
+          "id": "brushless-drill",
+          "name": {
+            "en": "Brushless drill driver",
+            "pt-BR": "Furadeira e parafusadeira sem escovas"
+          }
+        },
+        {
+          "id": "corded-impact-drill",
+          "name": {
+            "en": "Corded impact drill",
+            "pt-BR": "Furadeira de impacto com fio"
+          }
+        },
+        {
+          "id": "right-angle-drill",
+          "name": {
+            "en": "Right-angle drill",
+            "pt-BR": "Furadeira angular"
+          }
+        },
+        {
+          "id": "rotary-hammer",
+          "name": {
+            "en": "Rotary hammer",
+            "pt-BR": "Martelete perfurador"
+          }
+        }
+      ]
+    },
+    {
+      "id": "power-source",
+      "name": {
+        "en": "Power source",
+        "pt-BR": "Alimentação"
+      },
+      "values": [
+        {
+          "id": "battery",
+          "name": {
+            "en": "Battery",
+            "pt-BR": "Bateria"
+          }
+        },
+        {
+          "id": "corded",
+          "name": {
+            "en": "Corded",
+            "pt-BR": "Com fio"
+          }
+        }
+      ]
+    },
+    {
+      "id": "voltage",
+      "name": {
+        "en": "Voltage",
+        "pt-BR": "Tensão"
+      },
+      "values": [
+        {
+          "id": "12-v",
+          "name": {
+            "en": "12 V",
+            "pt-BR": "12 V"
+          }
+        },
+        {
+          "id": "18-v",
+          "name": {
+            "en": "18 V",
+            "pt-BR": "18 V"
+          }
+        },
+        {
+          "id": "20-v",
+          "name": {
+            "en": "20 V",
+            "pt-BR": "20 V"
+          }
+        },
+        {
+          "id": "127-v",
+          "name": {
+            "en": "127 V",
+            "pt-BR": "127 V"
+          }
+        },
+        {
+          "id": "220-v",
+          "name": {
+            "en": "220 V",
+            "pt-BR": "220 V"
+          }
+        }
+      ]
     }
   ],
   "categories": [
@@ -1190,6 +1308,14 @@
       "name": {
         "en": "Bathroom",
         "pt-BR": "Banheiro"
+      },
+      "parent": "construcao"
+    },
+    {
+      "id": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Power Tools",
+        "pt-BR": "Ferramentas elétricas"
       },
       "parent": "construcao"
     }
@@ -2557,6 +2683,20 @@
                 "#ffffff": "images/acrylic-wall-primer/detail-white.webp",
                 "#f5f5f5": "images/acrylic-wall-primer/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Interior wall prepared with an even coat of white acrylic primer",
+                "pt-BR": "Parede interna preparada com uma camada uniforme de fundo acrílico branco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/acrylic-wall-primer/application-white.webp",
+                "#f5f5f5": "images/acrylic-wall-primer/application-gray.webp"
+              }
             }
           ]
         },
@@ -2599,6 +2739,20 @@
               "src": {
                 "#ffffff": "images/acrylic-wall-primer/detail-white.webp",
                 "#f5f5f5": "images/acrylic-wall-primer/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Interior wall prepared with an even coat of white acrylic primer",
+                "pt-BR": "Parede interna preparada com uma camada uniforme de fundo acrílico branco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/acrylic-wall-primer/application-white.webp",
+                "#f5f5f5": "images/acrylic-wall-primer/application-gray.webp"
               }
             }
           ]
@@ -17437,6 +17591,1272 @@
       ]
     },
     {
+      "id": "casa-norte-b20-p-brushless-drill-driver",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Casa Norte B20-P 20-Volt Brushless Cordless Drill Driver with Metal 1/2-Inch Chuck",
+        "pt-BR": "Furadeira e Parafusadeira sem Escovas Casa Norte B20-P 20 V com Mandril Metálico de 13 mm"
+      },
+      "description": {
+        "en": "A high-torque brushless drill driver for repeated holes and fasteners in hardwood, sheet metal, and framing lumber. The metal chuck and vented motor housing suit longer workshop sessions.",
+        "pt-BR": "Furadeira e parafusadeira sem escovas de alto torque para furos e fixações repetidas em madeira dura, chapa metálica e caibros. O mandril metálico e a carcaça ventilada atendem jornadas maiores."
+      },
+      "price": {
+        "BRL": 799.9,
+        "USD": 219
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Casa Norte B20-P",
+          "brushless drill driver",
+          "high torque"
+        ],
+        "pt-BR": [
+          "Casa Norte B20-P",
+          "furadeira sem escovas",
+          "alto torque"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "tool-type",
+          "name": {
+            "en": "Tool type",
+            "pt-BR": "Tipo de ferramenta"
+          },
+          "valueId": "brushless-drill",
+          "value": {
+            "en": "Brushless drill driver",
+            "pt-BR": "Furadeira e parafusadeira sem escovas"
+          }
+        },
+        {
+          "id": "power-source",
+          "name": {
+            "en": "Power source",
+            "pt-BR": "Alimentação"
+          },
+          "valueId": "battery",
+          "value": {
+            "en": "Battery",
+            "pt-BR": "Bateria"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "20-v",
+          "value": {
+            "en": "20 V",
+            "pt-BR": "20 V"
+          }
+        }
+      ],
+      "defaultVariantId": "tool-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "dark-red",
+              "name": {
+                "en": "Dark red",
+                "pt-BR": "Vermelho escuro"
+              },
+              "hex": "#8E2933"
+            }
+          ]
+        },
+        {
+          "id": "package",
+          "name": {
+            "en": "Package",
+            "pt-BR": "Conjunto"
+          },
+          "values": [
+            {
+              "id": "tool-only",
+              "name": {
+                "en": "Tool only",
+                "pt-BR": "Somente ferramenta"
+              }
+            },
+            {
+              "id": "battery-kit",
+              "name": {
+                "en": "Battery and charger kit",
+                "pt-BR": "Kit com bateria e carregador"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "tool-only",
+          "sku": "CON-B20P-TOOL-ONLY",
+          "options": {
+            "color": "dark-red",
+            "package": "tool-only"
+          },
+          "price": {
+            "BRL": 799.9,
+            "USD": 219
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte B20-P 20-Volt Brushless Cordless Drill Driver with Metal 1/2-Inch Chuck, isolated product view",
+                "pt-BR": "Furadeira e Parafusadeira sem Escovas Casa Norte B20-P 20 V com Mandril Metálico de 13 mm, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-b20-p-brushless-drill-driver/main-white.webp",
+                "#f5f5f5": "images/casa-norte-b20-p-brushless-drill-driver/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte B20-P drilling a thick hardwood workpiece",
+                "pt-BR": "Casa Norte B20-P perfurando uma peça espessa de madeira dura"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-b20-p-brushless-drill-driver/application-white.webp",
+                "#f5f5f5": "images/casa-norte-b20-p-brushless-drill-driver/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "battery-kit",
+          "sku": "CON-B20P-BATTERY-KIT",
+          "options": {
+            "color": "dark-red",
+            "package": "battery-kit"
+          },
+          "price": {
+            "BRL": 1049.9,
+            "USD": 299
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte B20-P 20-Volt Brushless Cordless Drill Driver with Metal 1/2-Inch Chuck, isolated product view",
+                "pt-BR": "Furadeira e Parafusadeira sem Escovas Casa Norte B20-P 20 V com Mandril Metálico de 13 mm, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-b20-p-brushless-drill-driver/main-white.webp",
+                "#f5f5f5": "images/casa-norte-b20-p-brushless-drill-driver/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte B20-P drilling a thick hardwood workpiece",
+                "pt-BR": "Casa Norte B20-P perfurando uma peça espessa de madeira dura"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-b20-p-brushless-drill-driver/application-white.webp",
+                "#f5f5f5": "images/casa-norte-b20-p-brushless-drill-driver/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "casa-norte-h18-x-cordless-hammer-drill",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Casa Norte H18-X 18-Volt Cordless Hammer Drill with Side Handle and 1/2-Inch Chuck",
+        "pt-BR": "Furadeira de Impacto Casa Norte H18-X 18 V com Empunhadura Lateral e Mandril de 13 mm"
+      },
+      "description": {
+        "en": "A cordless hammer drill for brick, block, wood, and metal around renovation jobs. The auxiliary handle gives both hands control in masonry mode, while the 1/2-inch chuck takes larger bits.",
+        "pt-BR": "Furadeira de impacto a bateria para tijolo, bloco, madeira e metal em reformas. A empunhadura auxiliar dá controle com as duas mãos no modo impacto, e o mandril de 13 mm recebe brocas maiores."
+      },
+      "price": {
+        "BRL": 649.9,
+        "USD": 179
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Casa Norte H18-X",
+          "cordless hammer drill",
+          "brick drilling"
+        ],
+        "pt-BR": [
+          "Casa Norte H18-X",
+          "furadeira de impacto a bateria",
+          "perfuração em tijolo"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "tool-type",
+          "name": {
+            "en": "Tool type",
+            "pt-BR": "Tipo de ferramenta"
+          },
+          "valueId": "hammer-drill",
+          "value": {
+            "en": "Hammer drill",
+            "pt-BR": "Furadeira de impacto"
+          }
+        },
+        {
+          "id": "power-source",
+          "name": {
+            "en": "Power source",
+            "pt-BR": "Alimentação"
+          },
+          "valueId": "battery",
+          "value": {
+            "en": "Battery",
+            "pt-BR": "Bateria"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "18-v",
+          "value": {
+            "en": "18 V",
+            "pt-BR": "18 V"
+          }
+        }
+      ],
+      "defaultVariantId": "tool-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "safety-yellow",
+              "name": {
+                "en": "Safety yellow",
+                "pt-BR": "Amarelo segurança"
+              },
+              "hex": "#F5C223"
+            }
+          ]
+        },
+        {
+          "id": "package",
+          "name": {
+            "en": "Package",
+            "pt-BR": "Conjunto"
+          },
+          "values": [
+            {
+              "id": "tool-only",
+              "name": {
+                "en": "Tool only",
+                "pt-BR": "Somente ferramenta"
+              }
+            },
+            {
+              "id": "battery-kit",
+              "name": {
+                "en": "Battery and charger kit",
+                "pt-BR": "Kit com bateria e carregador"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "tool-only",
+          "sku": "CON-H18X-TOOL-ONLY",
+          "options": {
+            "color": "safety-yellow",
+            "package": "tool-only"
+          },
+          "price": {
+            "BRL": 649.9,
+            "USD": 179
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte H18-X 18-Volt Cordless Hammer Drill with Side Handle and 1/2-Inch Chuck, isolated product view",
+                "pt-BR": "Furadeira de Impacto Casa Norte H18-X 18 V com Empunhadura Lateral e Mandril de 13 mm, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-h18-x-cordless-hammer-drill/main-white.webp",
+                "#f5f5f5": "images/casa-norte-h18-x-cordless-hammer-drill/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte H18-X drilling into a brick wall with its side handle",
+                "pt-BR": "Casa Norte H18-X perfurando uma parede de tijolos com empunhadura lateral"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-h18-x-cordless-hammer-drill/application-white.webp",
+                "#f5f5f5": "images/casa-norte-h18-x-cordless-hammer-drill/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "battery-kit",
+          "sku": "CON-H18X-BATTERY-KIT",
+          "options": {
+            "color": "safety-yellow",
+            "package": "battery-kit"
+          },
+          "price": {
+            "BRL": 849.9,
+            "USD": 239
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte H18-X 18-Volt Cordless Hammer Drill with Side Handle and 1/2-Inch Chuck, isolated product view",
+                "pt-BR": "Furadeira de Impacto Casa Norte H18-X 18 V com Empunhadura Lateral e Mandril de 13 mm, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-h18-x-cordless-hammer-drill/main-white.webp",
+                "#f5f5f5": "images/casa-norte-h18-x-cordless-hammer-drill/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte H18-X drilling into a brick wall with its side handle",
+                "pt-BR": "Casa Norte H18-X perfurando uma parede de tijolos com empunhadura lateral"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-h18-x-cordless-hammer-drill/application-white.webp",
+                "#f5f5f5": "images/casa-norte-h18-x-cordless-hammer-drill/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "casa-norte-i650-c-corded-impact-drill",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Casa Norte I650-C 650-Watt Corded Impact Drill with Side Handle and 1/2-Inch Chuck",
+        "pt-BR": "Furadeira de Impacto com Fio Casa Norte I650-C 650 W com Empunhadura Lateral e Mandril de 13 mm"
+      },
+      "description": {
+        "en": "A 650-watt corded impact drill for steady work in concrete block, brick, wood, and steel. Continuous mains power suits jobs that run longer than one battery, and the side handle steadies masonry drilling.",
+        "pt-BR": "Furadeira de impacto com fio de 650 W para trabalho contínuo em bloco de concreto, tijolo, madeira e aço. A alimentação na tomada atende serviços longos, e a empunhadura lateral estabiliza a perfuração."
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 79
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Casa Norte I650-C",
+          "corded impact drill",
+          "650 watt drill"
+        ],
+        "pt-BR": [
+          "Casa Norte I650-C",
+          "furadeira de impacto com fio",
+          "furadeira 650 W"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "tool-type",
+          "name": {
+            "en": "Tool type",
+            "pt-BR": "Tipo de ferramenta"
+          },
+          "valueId": "corded-impact-drill",
+          "value": {
+            "en": "Corded impact drill",
+            "pt-BR": "Furadeira de impacto com fio"
+          }
+        },
+        {
+          "id": "power-source",
+          "name": {
+            "en": "Power source",
+            "pt-BR": "Alimentação"
+          },
+          "valueId": "corded",
+          "value": {
+            "en": "Corded",
+            "pt-BR": "Com fio"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "127-v",
+          "value": {
+            "en": "127 V",
+            "pt-BR": "127 V"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "220-v",
+          "value": {
+            "en": "220 V",
+            "pt-BR": "220 V"
+          }
+        }
+      ],
+      "defaultVariantId": "127-v",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "cyan",
+              "name": {
+                "en": "Cyan",
+                "pt-BR": "Ciano"
+              },
+              "hex": "#20BBDD"
+            }
+          ]
+        },
+        {
+          "id": "voltage",
+          "specificationId": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "values": [
+            {
+              "id": "127-v",
+              "valueId": "127-v",
+              "name": {
+                "en": "127 V",
+                "pt-BR": "127 V"
+              }
+            },
+            {
+              "id": "220-v",
+              "valueId": "220-v",
+              "name": {
+                "en": "220 V",
+                "pt-BR": "220 V"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "127-v",
+          "sku": "CON-I650C-127-V",
+          "options": {
+            "color": "cyan",
+            "voltage": "127-v"
+          },
+          "price": {
+            "BRL": 299.9,
+            "USD": 79
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte I650-C 650-Watt Corded Impact Drill with Side Handle and 1/2-Inch Chuck, isolated product view",
+                "pt-BR": "Furadeira de Impacto com Fio Casa Norte I650-C 650 W com Empunhadura Lateral e Mandril de 13 mm, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-i650-c-corded-impact-drill/main-white.webp",
+                "#f5f5f5": "images/casa-norte-i650-c-corded-impact-drill/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte I650-C drilling into a concrete block wall",
+                "pt-BR": "Casa Norte I650-C perfurando uma parede de blocos de concreto"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-i650-c-corded-impact-drill/application-white.webp",
+                "#f5f5f5": "images/casa-norte-i650-c-corded-impact-drill/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "220-v",
+          "sku": "CON-I650C-220-V",
+          "options": {
+            "color": "cyan",
+            "voltage": "220-v"
+          },
+          "price": {
+            "BRL": 309.9,
+            "USD": 82
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte I650-C 650-Watt Corded Impact Drill with Side Handle and 1/2-Inch Chuck, isolated product view",
+                "pt-BR": "Furadeira de Impacto com Fio Casa Norte I650-C 650 W com Empunhadura Lateral e Mandril de 13 mm, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-i650-c-corded-impact-drill/main-white.webp",
+                "#f5f5f5": "images/casa-norte-i650-c-corded-impact-drill/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte I650-C drilling into a concrete block wall",
+                "pt-BR": "Casa Norte I650-C perfurando uma parede de blocos de concreto"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-i650-c-corded-impact-drill/application-white.webp",
+                "#f5f5f5": "images/casa-norte-i650-c-corded-impact-drill/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "casa-norte-ra12-l-right-angle-drill",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Casa Norte RA12-L Compact 12-Volt Right-Angle Cordless Drill for Cabinets and Tight Spaces",
+        "pt-BR": "Furadeira Angular a Bateria Casa Norte RA12-L Compacta 12 V para Armários e Espaços Estreitos"
+      },
+      "description": {
+        "en": "A right-angle drill made to place holes and screws between shelves, joists, and cabinet sides. Its low head reaches where a standard pistol drill cannot, while the slim battery keeps the grip compact.",
+        "pt-BR": "Furadeira angular feita para abrir furos e colocar parafusos entre prateleiras, vigas e laterais de armário. A cabeça baixa alcança onde uma furadeira comum não entra, e a bateria estreita reduz o volume."
+      },
+      "price": {
+        "BRL": 529.9,
+        "USD": 149
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Casa Norte RA12-L",
+          "right angle drill",
+          "tight spaces"
+        ],
+        "pt-BR": [
+          "Casa Norte RA12-L",
+          "furadeira angular",
+          "espaços estreitos"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "tool-type",
+          "name": {
+            "en": "Tool type",
+            "pt-BR": "Tipo de ferramenta"
+          },
+          "valueId": "right-angle-drill",
+          "value": {
+            "en": "Right-angle drill",
+            "pt-BR": "Furadeira angular"
+          }
+        },
+        {
+          "id": "power-source",
+          "name": {
+            "en": "Power source",
+            "pt-BR": "Alimentação"
+          },
+          "valueId": "battery",
+          "value": {
+            "en": "Battery",
+            "pt-BR": "Bateria"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "12-v",
+          "value": {
+            "en": "12 V",
+            "pt-BR": "12 V"
+          }
+        }
+      ],
+      "defaultVariantId": "tool-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "forest-green",
+              "name": {
+                "en": "Forest green",
+                "pt-BR": "Verde floresta"
+              },
+              "hex": "#214D3D"
+            }
+          ]
+        },
+        {
+          "id": "package",
+          "name": {
+            "en": "Package",
+            "pt-BR": "Conjunto"
+          },
+          "values": [
+            {
+              "id": "tool-only",
+              "name": {
+                "en": "Tool only",
+                "pt-BR": "Somente ferramenta"
+              }
+            },
+            {
+              "id": "battery-kit",
+              "name": {
+                "en": "Battery and charger kit",
+                "pt-BR": "Kit com bateria e carregador"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "tool-only",
+          "sku": "CON-RA12L-TOOL-ONLY",
+          "options": {
+            "color": "forest-green",
+            "package": "tool-only"
+          },
+          "price": {
+            "BRL": 529.9,
+            "USD": 149
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte RA12-L Compact 12-Volt Right-Angle Cordless Drill for Cabinets and Tight Spaces, isolated product view",
+                "pt-BR": "Furadeira Angular a Bateria Casa Norte RA12-L Compacta 12 V para Armários e Espaços Estreitos, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-ra12-l-right-angle-drill/main-white.webp",
+                "#f5f5f5": "images/casa-norte-ra12-l-right-angle-drill/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte RA12-L fastening inside a narrow cabinet corner",
+                "pt-BR": "Casa Norte RA12-L fazendo uma fixação dentro de um canto estreito de armário"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-ra12-l-right-angle-drill/application-white.webp",
+                "#f5f5f5": "images/casa-norte-ra12-l-right-angle-drill/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "battery-kit",
+          "sku": "CON-RA12L-BATTERY-KIT",
+          "options": {
+            "color": "forest-green",
+            "package": "battery-kit"
+          },
+          "price": {
+            "BRL": 699.9,
+            "USD": 199
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte RA12-L Compact 12-Volt Right-Angle Cordless Drill for Cabinets and Tight Spaces, isolated product view",
+                "pt-BR": "Furadeira Angular a Bateria Casa Norte RA12-L Compacta 12 V para Armários e Espaços Estreitos, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-ra12-l-right-angle-drill/main-white.webp",
+                "#f5f5f5": "images/casa-norte-ra12-l-right-angle-drill/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte RA12-L fastening inside a narrow cabinet corner",
+                "pt-BR": "Casa Norte RA12-L fazendo uma fixação dentro de um canto estreito de armário"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-ra12-l-right-angle-drill/application-white.webp",
+                "#f5f5f5": "images/casa-norte-ra12-l-right-angle-drill/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "casa-norte-sds900-r-rotary-hammer",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Casa Norte SDS900-R 900-Watt SDS-Plus Rotary Hammer with Auxiliary Handle for Concrete",
+        "pt-BR": "Martelete Perfurador Casa Norte SDS900-R 900 W SDS-Plus com Empunhadura Auxiliar para Concreto"
+      },
+      "description": {
+        "en": "A corded SDS-Plus rotary hammer for deep holes in concrete and masonry during heavier renovation work. Its long body and large auxiliary handle support controlled two-hand drilling with masonry bits.",
+        "pt-BR": "Martelete perfurador com fio e encaixe SDS-Plus para furos profundos em concreto e alvenaria em reformas pesadas. O corpo longo e a empunhadura auxiliar ampla dão controle com as duas mãos."
+      },
+      "price": {
+        "BRL": 749.9,
+        "USD": 209
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Casa Norte SDS900-R",
+          "SDS Plus rotary hammer",
+          "concrete drilling"
+        ],
+        "pt-BR": [
+          "Casa Norte SDS900-R",
+          "martelete SDS Plus",
+          "perfuração em concreto"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "tool-type",
+          "name": {
+            "en": "Tool type",
+            "pt-BR": "Tipo de ferramenta"
+          },
+          "valueId": "rotary-hammer",
+          "value": {
+            "en": "Rotary hammer",
+            "pt-BR": "Martelete perfurador"
+          }
+        },
+        {
+          "id": "power-source",
+          "name": {
+            "en": "Power source",
+            "pt-BR": "Alimentação"
+          },
+          "valueId": "corded",
+          "value": {
+            "en": "Corded",
+            "pt-BR": "Com fio"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "127-v",
+          "value": {
+            "en": "127 V",
+            "pt-BR": "127 V"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "220-v",
+          "value": {
+            "en": "220 V",
+            "pt-BR": "220 V"
+          }
+        }
+      ],
+      "defaultVariantId": "127-v",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "orange",
+              "name": {
+                "en": "Orange",
+                "pt-BR": "Laranja"
+              },
+              "hex": "#F26C21"
+            }
+          ]
+        },
+        {
+          "id": "voltage",
+          "specificationId": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "values": [
+            {
+              "id": "127-v",
+              "valueId": "127-v",
+              "name": {
+                "en": "127 V",
+                "pt-BR": "127 V"
+              }
+            },
+            {
+              "id": "220-v",
+              "valueId": "220-v",
+              "name": {
+                "en": "220 V",
+                "pt-BR": "220 V"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "127-v",
+          "sku": "CON-SDS900R-127-V",
+          "options": {
+            "color": "orange",
+            "voltage": "127-v"
+          },
+          "price": {
+            "BRL": 749.9,
+            "USD": 209
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte SDS900-R 900-Watt SDS-Plus Rotary Hammer with Auxiliary Handle for Concrete, isolated product view",
+                "pt-BR": "Martelete Perfurador Casa Norte SDS900-R 900 W SDS-Plus com Empunhadura Auxiliar para Concreto, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-sds900-r-rotary-hammer/main-white.webp",
+                "#f5f5f5": "images/casa-norte-sds900-r-rotary-hammer/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte SDS900-R rotary hammer drilling into concrete",
+                "pt-BR": "Martelete Casa Norte SDS900-R perfurando concreto"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-sds900-r-rotary-hammer/application-white.webp",
+                "#f5f5f5": "images/casa-norte-sds900-r-rotary-hammer/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "220-v",
+          "sku": "CON-SDS900R-220-V",
+          "options": {
+            "color": "orange",
+            "voltage": "220-v"
+          },
+          "price": {
+            "BRL": 769.9,
+            "USD": 215
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte SDS900-R 900-Watt SDS-Plus Rotary Hammer with Auxiliary Handle for Concrete, isolated product view",
+                "pt-BR": "Martelete Perfurador Casa Norte SDS900-R 900 W SDS-Plus com Empunhadura Auxiliar para Concreto, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-sds900-r-rotary-hammer/main-white.webp",
+                "#f5f5f5": "images/casa-norte-sds900-r-rotary-hammer/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte SDS900-R rotary hammer drilling into concrete",
+                "pt-BR": "Martelete Casa Norte SDS900-R perfurando concreto"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-sds900-r-rotary-hammer/application-white.webp",
+                "#f5f5f5": "images/casa-norte-sds900-r-rotary-hammer/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "casa-norte-t12-c-compact-drill-driver",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Casa Norte T12-C Compact 12-Volt Cordless Drill Driver with 3/8-Inch Keyless Chuck",
+        "pt-BR": "Furadeira e Parafusadeira Casa Norte T12-C Compacta 12 V com Mandril sem Chave de 10 mm"
+      },
+      "description": {
+        "en": "A short, light drill driver for furniture assembly, pilot holes, and everyday fastening in wood or metal. Its compact body reaches between cabinet panels, and the 3/8-inch chuck accepts common household bits.",
+        "pt-BR": "Furadeira e parafusadeira curta e leve para montar móveis, abrir furos-guia e fazer fixações em madeira ou metal. O corpo compacto entra entre painéis de armário, e o mandril de 10 mm aceita brocas comuns."
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 89
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Casa Norte T12-C",
+          "compact cordless drill",
+          "cabinet assembly"
+        ],
+        "pt-BR": [
+          "Casa Norte T12-C",
+          "furadeira compacta a bateria",
+          "montagem de móveis"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "tool-type",
+          "name": {
+            "en": "Tool type",
+            "pt-BR": "Tipo de ferramenta"
+          },
+          "valueId": "drill-driver",
+          "value": {
+            "en": "Drill driver",
+            "pt-BR": "Furadeira e parafusadeira"
+          }
+        },
+        {
+          "id": "power-source",
+          "name": {
+            "en": "Power source",
+            "pt-BR": "Alimentação"
+          },
+          "valueId": "battery",
+          "value": {
+            "en": "Battery",
+            "pt-BR": "Bateria"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "12-v",
+          "value": {
+            "en": "12 V",
+            "pt-BR": "12 V"
+          }
+        }
+      ],
+      "defaultVariantId": "tool-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "cobalt-blue",
+              "name": {
+                "en": "Cobalt blue",
+                "pt-BR": "Azul cobalto"
+              },
+              "hex": "#245FD1"
+            }
+          ]
+        },
+        {
+          "id": "package",
+          "name": {
+            "en": "Package",
+            "pt-BR": "Conjunto"
+          },
+          "values": [
+            {
+              "id": "tool-only",
+              "name": {
+                "en": "Tool only",
+                "pt-BR": "Somente ferramenta"
+              }
+            },
+            {
+              "id": "battery-kit",
+              "name": {
+                "en": "Battery and charger kit",
+                "pt-BR": "Kit com bateria e carregador"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "tool-only",
+          "sku": "CON-T12C-TOOL-ONLY",
+          "options": {
+            "color": "cobalt-blue",
+            "package": "tool-only"
+          },
+          "price": {
+            "BRL": 329.9,
+            "USD": 89
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte T12-C Compact 12-Volt Cordless Drill Driver with 3/8-Inch Keyless Chuck, isolated product view",
+                "pt-BR": "Furadeira e Parafusadeira Casa Norte T12-C Compacta 12 V com Mandril sem Chave de 10 mm, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-t12-c-compact-drill-driver/main-white.webp",
+                "#f5f5f5": "images/casa-norte-t12-c-compact-drill-driver/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte T12-C driving a screw while assembling a cabinet",
+                "pt-BR": "Casa Norte T12-C parafusando durante a montagem de um armário"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-t12-c-compact-drill-driver/application-white.webp",
+                "#f5f5f5": "images/casa-norte-t12-c-compact-drill-driver/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "battery-kit",
+          "sku": "CON-T12C-BATTERY-KIT",
+          "options": {
+            "color": "cobalt-blue",
+            "package": "battery-kit"
+          },
+          "price": {
+            "BRL": 499.9,
+            "USD": 139
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte T12-C Compact 12-Volt Cordless Drill Driver with 3/8-Inch Keyless Chuck, isolated product view",
+                "pt-BR": "Furadeira e Parafusadeira Casa Norte T12-C Compacta 12 V com Mandril sem Chave de 10 mm, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-t12-c-compact-drill-driver/main-white.webp",
+                "#f5f5f5": "images/casa-norte-t12-c-compact-drill-driver/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte T12-C driving a screw while assembling a cabinet",
+                "pt-BR": "Casa Norte T12-C parafusando durante a montagem de um armário"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-t12-c-compact-drill-driver/application-white.webp",
+                "#f5f5f5": "images/casa-norte-t12-c-compact-drill-driver/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ceiling-white-acrylic-paint",
       "categoryId": "construcao-tintas",
       "name": {
@@ -17598,6 +19018,20 @@
                 "#ffffff": "images/ceiling-white-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/ceiling-white-acrylic-paint/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Living room ceiling painted smooth matte white",
+                "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ceiling-white-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/ceiling-white-acrylic-paint/application-gray.webp"
+              }
             }
           ]
         },
@@ -17640,6 +19074,20 @@
               "src": {
                 "#ffffff": "images/ceiling-white-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/ceiling-white-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Living room ceiling painted smooth matte white",
+                "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ceiling-white-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/ceiling-white-acrylic-paint/application-gray.webp"
               }
             }
           ]
@@ -17808,6 +19256,20 @@
                 "#ffffff": "images/ceiling-white-paint-high-coverage/detail-white.webp",
                 "#f5f5f5": "images/ceiling-white-paint-high-coverage/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Living room ceiling painted smooth matte white",
+                "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ceiling-white-paint-high-coverage/application-white.webp",
+                "#f5f5f5": "images/ceiling-white-paint-high-coverage/application-gray.webp"
+              }
             }
           ]
         },
@@ -17850,6 +19312,20 @@
               "src": {
                 "#ffffff": "images/ceiling-white-paint-high-coverage/detail-white.webp",
                 "#f5f5f5": "images/ceiling-white-paint-high-coverage/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Living room ceiling painted smooth matte white",
+                "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ceiling-white-paint-high-coverage/application-white.webp",
+                "#f5f5f5": "images/ceiling-white-paint-high-coverage/application-gray.webp"
               }
             }
           ]
@@ -18018,6 +19494,20 @@
                 "#ffffff": "images/ceiling-white-paint-standard-coverage/detail-white.webp",
                 "#f5f5f5": "images/ceiling-white-paint-standard-coverage/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Living room ceiling painted smooth matte white",
+                "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ceiling-white-paint-standard-coverage/application-white.webp",
+                "#f5f5f5": "images/ceiling-white-paint-standard-coverage/application-gray.webp"
+              }
             }
           ]
         },
@@ -18060,6 +19550,20 @@
               "src": {
                 "#ffffff": "images/ceiling-white-paint-standard-coverage/detail-white.webp",
                 "#f5f5f5": "images/ceiling-white-paint-standard-coverage/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Living room ceiling painted smooth matte white",
+                "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ceiling-white-paint-standard-coverage/application-white.webp",
+                "#f5f5f5": "images/ceiling-white-paint-standard-coverage/application-gray.webp"
               }
             }
           ]
@@ -18228,6 +19732,20 @@
                 "#ffffff": "images/ceiling-white-paint-washable-finish/detail-white.webp",
                 "#f5f5f5": "images/ceiling-white-paint-washable-finish/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Living room ceiling painted smooth matte white",
+                "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ceiling-white-paint-washable-finish/application-white.webp",
+                "#f5f5f5": "images/ceiling-white-paint-washable-finish/application-gray.webp"
+              }
             }
           ]
         },
@@ -18270,6 +19788,20 @@
               "src": {
                 "#ffffff": "images/ceiling-white-paint-washable-finish/detail-white.webp",
                 "#f5f5f5": "images/ceiling-white-paint-washable-finish/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Living room ceiling painted smooth matte white",
+                "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ceiling-white-paint-washable-finish/application-white.webp",
+                "#f5f5f5": "images/ceiling-white-paint-washable-finish/application-gray.webp"
               }
             }
           ]
@@ -23586,6 +25118,20 @@
                 "#ffffff": "images/clay-interior-paint-high-coverage/detail-white.webp",
                 "#f5f5f5": "images/clay-interior-paint-high-coverage/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Dining room with a matte clay terracotta feature wall",
+                "pt-BR": "Sala de jantar com parede de destaque terracota fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/clay-interior-paint-high-coverage/application-white.webp",
+                "#f5f5f5": "images/clay-interior-paint-high-coverage/application-gray.webp"
+              }
             }
           ]
         },
@@ -23628,6 +25174,20 @@
               "src": {
                 "#ffffff": "images/clay-interior-paint-high-coverage/detail-white.webp",
                 "#f5f5f5": "images/clay-interior-paint-high-coverage/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Dining room with a matte clay terracotta feature wall",
+                "pt-BR": "Sala de jantar com parede de destaque terracota fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/clay-interior-paint-high-coverage/application-white.webp",
+                "#f5f5f5": "images/clay-interior-paint-high-coverage/application-gray.webp"
               }
             }
           ]
@@ -23796,6 +25356,20 @@
                 "#ffffff": "images/clay-interior-paint-standard-coverage/detail-white.webp",
                 "#f5f5f5": "images/clay-interior-paint-standard-coverage/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Dining room with a matte clay terracotta feature wall",
+                "pt-BR": "Sala de jantar com parede de destaque terracota fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/clay-interior-paint-standard-coverage/application-white.webp",
+                "#f5f5f5": "images/clay-interior-paint-standard-coverage/application-gray.webp"
+              }
             }
           ]
         },
@@ -23838,6 +25412,20 @@
               "src": {
                 "#ffffff": "images/clay-interior-paint-standard-coverage/detail-white.webp",
                 "#f5f5f5": "images/clay-interior-paint-standard-coverage/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Dining room with a matte clay terracotta feature wall",
+                "pt-BR": "Sala de jantar com parede de destaque terracota fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/clay-interior-paint-standard-coverage/application-white.webp",
+                "#f5f5f5": "images/clay-interior-paint-standard-coverage/application-gray.webp"
               }
             }
           ]
@@ -24006,6 +25594,20 @@
                 "#ffffff": "images/clay-interior-paint-washable-finish/detail-white.webp",
                 "#f5f5f5": "images/clay-interior-paint-washable-finish/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Dining room with a matte clay terracotta feature wall",
+                "pt-BR": "Sala de jantar com parede de destaque terracota fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/clay-interior-paint-washable-finish/application-white.webp",
+                "#f5f5f5": "images/clay-interior-paint-washable-finish/application-gray.webp"
+              }
             }
           ]
         },
@@ -24048,6 +25650,20 @@
               "src": {
                 "#ffffff": "images/clay-interior-paint-washable-finish/detail-white.webp",
                 "#f5f5f5": "images/clay-interior-paint-washable-finish/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Dining room with a matte clay terracotta feature wall",
+                "pt-BR": "Sala de jantar com parede de destaque terracota fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/clay-interior-paint-washable-finish/application-white.webp",
+                "#f5f5f5": "images/clay-interior-paint-washable-finish/application-gray.webp"
               }
             }
           ]
@@ -33342,6 +34958,244 @@
       ]
     },
     {
+      "id": "eucalyptus-green-interior-acrylic-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Eucalyptus Green Interior Acrylic Wall Paint with a Matte Finish, Sold in Two Can Sizes",
+        "pt-BR": "Tinta Acrílica Verde Eucalipto Fosca para Parede Interna, Vendida em Dois Tamanhos de Lata"
+      },
+      "description": {
+        "en": "A muted eucalyptus green acrylic paint for living rooms, bedrooms, and calm feature walls. The matte finish keeps reflections low, while the two can sizes cover either an accent wall or a larger room.",
+        "pt-BR": "Tinta acrílica verde eucalipto suave para salas, quartos e paredes de destaque tranquilas. O acabamento fosco reduz reflexos, e os dois tamanhos atendem desde uma parede até um cômodo maior."
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 46
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "green interior paint",
+          "eucalyptus green",
+          "matte wall paint"
+        ],
+        "pt-BR": [
+          "tinta verde interna",
+          "verde eucalipto",
+          "tinta fosca para parede"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "eucalyptus-green-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "eucalyptus-green",
+              "name": {
+                "en": "Eucalyptus green",
+                "pt-BR": "Verde eucalipto"
+              },
+              "hex": "#708675"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "eucalyptus-green-3-6-l",
+          "sku": "CON-EUCALYPTUS-GREEN-INTERIOR-ACRYLIC-PAINT-3-6-L",
+          "options": {
+            "color": "eucalyptus-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 119.9,
+            "USD": 46
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of eucalyptus green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde eucalipto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/eucalyptus-green-interior-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/eucalyptus-green-interior-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/eucalyptus-green-interior-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/eucalyptus-green-interior-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Living room with a matte eucalyptus green feature wall",
+                "pt-BR": "Sala com parede de destaque verde eucalipto fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/eucalyptus-green-interior-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/eucalyptus-green-interior-acrylic-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "eucalyptus-green-18-l",
+          "sku": "CON-EUCALYPTUS-GREEN-INTERIOR-ACRYLIC-PAINT-18-L",
+          "options": {
+            "color": "eucalyptus-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 379,
+            "USD": 152
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of eucalyptus green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde eucalipto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/eucalyptus-green-interior-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/eucalyptus-green-interior-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/eucalyptus-green-interior-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/eucalyptus-green-interior-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Living room with a matte eucalyptus green feature wall",
+                "pt-BR": "Sala com parede de destaque verde eucalipto fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/eucalyptus-green-interior-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/eucalyptus-green-interior-acrylic-paint/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "exterior-sand-acrylic-paint",
       "categoryId": "construcao-tintas",
       "name": {
@@ -33479,6 +35333,20 @@
                 "#ffffff": "images/exterior-sand-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/exterior-sand-acrylic-paint/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "House facade painted warm sand beige",
+                "pt-BR": "Fachada de casa pintada de bege areia quente"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/exterior-sand-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/exterior-sand-acrylic-paint/application-gray.webp"
+              }
             }
           ]
         },
@@ -33521,6 +35389,20 @@
               "src": {
                 "#ffffff": "images/exterior-sand-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/exterior-sand-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "House facade painted warm sand beige",
+                "pt-BR": "Fachada de casa pintada de bege areia quente"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/exterior-sand-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/exterior-sand-acrylic-paint/application-gray.webp"
               }
             }
           ]
@@ -33689,6 +35571,20 @@
                 "#ffffff": "images/exterior-white-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/exterior-white-acrylic-paint/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Rendered house facade painted exterior white",
+                "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/exterior-white-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/exterior-white-acrylic-paint/application-gray.webp"
+              }
             }
           ]
         },
@@ -33731,6 +35627,20 @@
               "src": {
                 "#ffffff": "images/exterior-white-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/exterior-white-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Rendered house facade painted exterior white",
+                "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/exterior-white-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/exterior-white-acrylic-paint/application-gray.webp"
               }
             }
           ]
@@ -33899,6 +35809,20 @@
                 "#ffffff": "images/exterior-white-paint-high-coverage/detail-white.webp",
                 "#f5f5f5": "images/exterior-white-paint-high-coverage/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Rendered house facade painted exterior white",
+                "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/exterior-white-paint-high-coverage/application-white.webp",
+                "#f5f5f5": "images/exterior-white-paint-high-coverage/application-gray.webp"
+              }
             }
           ]
         },
@@ -33941,6 +35865,20 @@
               "src": {
                 "#ffffff": "images/exterior-white-paint-high-coverage/detail-white.webp",
                 "#f5f5f5": "images/exterior-white-paint-high-coverage/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Rendered house facade painted exterior white",
+                "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/exterior-white-paint-high-coverage/application-white.webp",
+                "#f5f5f5": "images/exterior-white-paint-high-coverage/application-gray.webp"
               }
             }
           ]
@@ -34109,6 +36047,20 @@
                 "#ffffff": "images/exterior-white-paint-standard-coverage/detail-white.webp",
                 "#f5f5f5": "images/exterior-white-paint-standard-coverage/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Rendered house facade painted exterior white",
+                "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/exterior-white-paint-standard-coverage/application-white.webp",
+                "#f5f5f5": "images/exterior-white-paint-standard-coverage/application-gray.webp"
+              }
             }
           ]
         },
@@ -34151,6 +36103,20 @@
               "src": {
                 "#ffffff": "images/exterior-white-paint-standard-coverage/detail-white.webp",
                 "#f5f5f5": "images/exterior-white-paint-standard-coverage/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Rendered house facade painted exterior white",
+                "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/exterior-white-paint-standard-coverage/application-white.webp",
+                "#f5f5f5": "images/exterior-white-paint-standard-coverage/application-gray.webp"
               }
             }
           ]
@@ -34319,6 +36285,20 @@
                 "#ffffff": "images/exterior-white-paint-washable-finish/detail-white.webp",
                 "#f5f5f5": "images/exterior-white-paint-washable-finish/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Rendered house facade painted exterior white",
+                "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/exterior-white-paint-washable-finish/application-white.webp",
+                "#f5f5f5": "images/exterior-white-paint-washable-finish/application-gray.webp"
+              }
             }
           ]
         },
@@ -34361,6 +36341,20 @@
               "src": {
                 "#ffffff": "images/exterior-white-paint-washable-finish/detail-white.webp",
                 "#f5f5f5": "images/exterior-white-paint-washable-finish/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Rendered house facade painted exterior white",
+                "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/exterior-white-paint-washable-finish/application-white.webp",
+                "#f5f5f5": "images/exterior-white-paint-washable-finish/application-gray.webp"
               }
             }
           ]
@@ -36662,6 +38656,244 @@
               "src": {
                 "#ffffff": "images/floral-ruffled-maxi-dress/detail-white.webp",
                 "#f5f5f5": "images/floral-ruffled-maxi-dress/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forest-green-washable-interior-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Forest Green Washable Interior Acrylic Paint with a Satin Finish, Sold in Two Can Sizes",
+        "pt-BR": "Tinta Acrílica Verde Floresta Lavável Acetinada para Interior, Vendida em Dois Tamanhos de Lata"
+      },
+      "description": {
+        "en": "A deep forest green washable acrylic for hallways, entries, and other interior walls that need regular cleaning. The satin finish gives the dark color a restrained highlight instead of a flat look.",
+        "pt-BR": "Tinta acrílica lavável verde floresta profunda para corredores, entradas e paredes internas que pedem limpeza frequente. O acabamento acetinado dá um brilho contido ao tom escuro."
+      },
+      "price": {
+        "BRL": 139.9,
+        "USD": 54
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "dark green paint",
+          "washable interior paint",
+          "satin finish"
+        ],
+        "pt-BR": [
+          "tinta verde escura",
+          "tinta interna lavável",
+          "acabamento acetinado"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "forest-green-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "forest-green",
+              "name": {
+                "en": "Forest green",
+                "pt-BR": "Verde floresta"
+              },
+              "hex": "#244A38"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "forest-green-3-6-l",
+          "sku": "CON-FOREST-GREEN-WASHABLE-INTERIOR-PAINT-3-6-L",
+          "options": {
+            "color": "forest-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 139.9,
+            "USD": 54
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of forest green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde floresta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/forest-green-washable-interior-paint/main-white.webp",
+                "#f5f5f5": "images/forest-green-washable-interior-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/forest-green-washable-interior-paint/detail-white.webp",
+                "#f5f5f5": "images/forest-green-washable-interior-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Entry walls painted washable satin forest green",
+                "pt-BR": "Paredes de entrada pintadas de verde floresta acetinado lavável"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/forest-green-washable-interior-paint/application-white.webp",
+                "#f5f5f5": "images/forest-green-washable-interior-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "forest-green-18-l",
+          "sku": "CON-FOREST-GREEN-WASHABLE-INTERIOR-PAINT-18-L",
+          "options": {
+            "color": "forest-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 429,
+            "USD": 169
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of forest green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde floresta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/forest-green-washable-interior-paint/main-white.webp",
+                "#f5f5f5": "images/forest-green-washable-interior-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/forest-green-washable-interior-paint/detail-white.webp",
+                "#f5f5f5": "images/forest-green-washable-interior-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Entry walls painted washable satin forest green",
+                "pt-BR": "Paredes de entrada pintadas de verde floresta acetinado lavável"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/forest-green-washable-interior-paint/application-white.webp",
+                "#f5f5f5": "images/forest-green-washable-interior-paint/application-gray.webp"
               }
             }
           ]
@@ -39891,6 +42123,20 @@
                 "#ffffff": "images/gray-outdoor-floor-paint/detail-white.webp",
                 "#f5f5f5": "images/gray-outdoor-floor-paint/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Garage concrete floor coated in satin gray floor paint",
+                "pt-BR": "Piso de concreto da garagem revestido com tinta cinza acetinada"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gray-outdoor-floor-paint/application-white.webp",
+                "#f5f5f5": "images/gray-outdoor-floor-paint/application-gray.webp"
+              }
             }
           ]
         },
@@ -39933,6 +42179,20 @@
               "src": {
                 "#ffffff": "images/gray-outdoor-floor-paint/detail-white.webp",
                 "#f5f5f5": "images/gray-outdoor-floor-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Garage concrete floor coated in satin gray floor paint",
+                "pt-BR": "Piso de concreto da garagem revestido com tinta cinza acetinada"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gray-outdoor-floor-paint/application-white.webp",
+                "#f5f5f5": "images/gray-outdoor-floor-paint/application-gray.webp"
               }
             }
           ]
@@ -42551,6 +44811,20 @@
                 "#ffffff": "images/greige-interior-paint-high-coverage/detail-white.webp",
                 "#f5f5f5": "images/greige-interior-paint-high-coverage/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Bedroom walls painted warm matte greige",
+                "pt-BR": "Paredes de quarto pintadas de greige quente fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/greige-interior-paint-high-coverage/application-white.webp",
+                "#f5f5f5": "images/greige-interior-paint-high-coverage/application-gray.webp"
+              }
             }
           ]
         },
@@ -42593,6 +44867,20 @@
               "src": {
                 "#ffffff": "images/greige-interior-paint-high-coverage/detail-white.webp",
                 "#f5f5f5": "images/greige-interior-paint-high-coverage/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bedroom walls painted warm matte greige",
+                "pt-BR": "Paredes de quarto pintadas de greige quente fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/greige-interior-paint-high-coverage/application-white.webp",
+                "#f5f5f5": "images/greige-interior-paint-high-coverage/application-gray.webp"
               }
             }
           ]
@@ -42761,6 +45049,20 @@
                 "#ffffff": "images/greige-interior-paint-standard-coverage/detail-white.webp",
                 "#f5f5f5": "images/greige-interior-paint-standard-coverage/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Bedroom walls painted warm matte greige",
+                "pt-BR": "Paredes de quarto pintadas de greige quente fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/greige-interior-paint-standard-coverage/application-white.webp",
+                "#f5f5f5": "images/greige-interior-paint-standard-coverage/application-gray.webp"
+              }
             }
           ]
         },
@@ -42803,6 +45105,20 @@
               "src": {
                 "#ffffff": "images/greige-interior-paint-standard-coverage/detail-white.webp",
                 "#f5f5f5": "images/greige-interior-paint-standard-coverage/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bedroom walls painted warm matte greige",
+                "pt-BR": "Paredes de quarto pintadas de greige quente fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/greige-interior-paint-standard-coverage/application-white.webp",
+                "#f5f5f5": "images/greige-interior-paint-standard-coverage/application-gray.webp"
               }
             }
           ]
@@ -42971,6 +45287,20 @@
                 "#ffffff": "images/greige-interior-paint-washable-finish/detail-white.webp",
                 "#f5f5f5": "images/greige-interior-paint-washable-finish/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Bedroom walls painted warm matte greige",
+                "pt-BR": "Paredes de quarto pintadas de greige quente fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/greige-interior-paint-washable-finish/application-white.webp",
+                "#f5f5f5": "images/greige-interior-paint-washable-finish/application-gray.webp"
+              }
             }
           ]
         },
@@ -43013,6 +45343,20 @@
               "src": {
                 "#ffffff": "images/greige-interior-paint-washable-finish/detail-white.webp",
                 "#f5f5f5": "images/greige-interior-paint-washable-finish/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bedroom walls painted warm matte greige",
+                "pt-BR": "Paredes de quarto pintadas de greige quente fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/greige-interior-paint-washable-finish/application-white.webp",
+                "#f5f5f5": "images/greige-interior-paint-washable-finish/application-gray.webp"
               }
             }
           ]
@@ -45938,6 +48282,20 @@
                 "#ffffff": "images/interior-clay-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/interior-clay-acrylic-paint/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Dining room with a matte clay terracotta feature wall",
+                "pt-BR": "Sala de jantar com parede de destaque terracota fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-clay-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/interior-clay-acrylic-paint/application-gray.webp"
+              }
             }
           ]
         },
@@ -45980,6 +48338,20 @@
               "src": {
                 "#ffffff": "images/interior-clay-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/interior-clay-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Dining room with a matte clay terracotta feature wall",
+                "pt-BR": "Sala de jantar com parede de destaque terracota fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-clay-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/interior-clay-acrylic-paint/application-gray.webp"
               }
             }
           ]
@@ -46148,6 +48520,20 @@
                 "#ffffff": "images/interior-greige-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/interior-greige-acrylic-paint/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Bedroom walls painted warm matte greige",
+                "pt-BR": "Paredes de quarto pintadas de greige quente fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-greige-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/interior-greige-acrylic-paint/application-gray.webp"
+              }
             }
           ]
         },
@@ -46190,6 +48576,20 @@
               "src": {
                 "#ffffff": "images/interior-greige-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/interior-greige-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bedroom walls painted warm matte greige",
+                "pt-BR": "Paredes de quarto pintadas de greige quente fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-greige-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/interior-greige-acrylic-paint/application-gray.webp"
               }
             }
           ]
@@ -46366,6 +48766,20 @@
                 "#ffffff": "images/interior-navy-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/interior-navy-acrylic-paint/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Home study with a matte navy feature wall",
+                "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-navy-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/interior-navy-acrylic-paint/application-gray.webp"
+              }
             }
           ]
         },
@@ -46412,6 +48826,20 @@
               "src": {
                 "#ffffff": "images/interior-navy-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/interior-navy-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Home study with a matte navy feature wall",
+                "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-navy-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/interior-navy-acrylic-paint/application-gray.webp"
               }
             }
           ]
@@ -46556,6 +48984,20 @@
                 "#ffffff": "images/interior-white-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/interior-white-acrylic-paint/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Bedroom walls painted clean matte white",
+                "pt-BR": "Paredes de quarto pintadas de branco fosco uniforme"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-white-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/interior-white-acrylic-paint/application-gray.webp"
+              }
             }
           ]
         },
@@ -46598,6 +49040,20 @@
               "src": {
                 "#ffffff": "images/interior-white-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/interior-white-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bedroom walls painted clean matte white",
+                "pt-BR": "Paredes de quarto pintadas de branco fosco uniforme"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/interior-white-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/interior-white-acrylic-paint/application-gray.webp"
               }
             }
           ]
@@ -51250,6 +53706,244 @@
       ]
     },
     {
+      "id": "mint-green-kitchen-bathroom-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Mint Green Moisture-Resistant Acrylic Paint for Kitchens and Bathrooms, Eggshell Finish",
+        "pt-BR": "Tinta Acrílica Verde Menta Resistente à Umidade para Cozinhas e Banheiros, Acabamento Semibrilho"
+      },
+      "description": {
+        "en": "A light mint green acrylic paint for bathroom and kitchen walls exposed to humidity and frequent wiping. Its eggshell finish reflects enough light to show a soft sheen without looking glossy.",
+        "pt-BR": "Tinta acrílica verde menta clara para paredes de cozinhas e banheiros sujeitas a umidade e limpeza frequente. O acabamento semibrilho reflete luz com suavidade, sem parecer brilhante demais."
+      },
+      "price": {
+        "BRL": 149.9,
+        "USD": 58
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "mint green paint",
+          "bathroom wall paint",
+          "moisture resistant"
+        ],
+        "pt-BR": [
+          "tinta verde menta",
+          "tinta para banheiro",
+          "resistente à umidade"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "mint-green-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "mint-green",
+              "name": {
+                "en": "Mint green",
+                "pt-BR": "Verde menta"
+              },
+              "hex": "#B7D9C9"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "mint-green-3-6-l",
+          "sku": "CON-MINT-GREEN-KITCHEN-BATHROOM-PAINT-3-6-L",
+          "options": {
+            "color": "mint-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 149.9,
+            "USD": 58
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of mint green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde menta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-green-kitchen-bathroom-paint/main-white.webp",
+                "#f5f5f5": "images/mint-green-kitchen-bathroom-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-green-kitchen-bathroom-paint/detail-white.webp",
+                "#f5f5f5": "images/mint-green-kitchen-bathroom-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom walls painted moisture-resistant mint green",
+                "pt-BR": "Paredes de banheiro pintadas de verde menta resistente à umidade"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-green-kitchen-bathroom-paint/application-white.webp",
+                "#f5f5f5": "images/mint-green-kitchen-bathroom-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "mint-green-18-l",
+          "sku": "CON-MINT-GREEN-KITCHEN-BATHROOM-PAINT-18-L",
+          "options": {
+            "color": "mint-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 449,
+            "USD": 178
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of mint green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde menta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-green-kitchen-bathroom-paint/main-white.webp",
+                "#f5f5f5": "images/mint-green-kitchen-bathroom-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-green-kitchen-bathroom-paint/detail-white.webp",
+                "#f5f5f5": "images/mint-green-kitchen-bathroom-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom walls painted moisture-resistant mint green",
+                "pt-BR": "Paredes de banheiro pintadas de verde menta resistente à umidade"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-green-kitchen-bathroom-paint/application-white.webp",
+                "#f5f5f5": "images/mint-green-kitchen-bathroom-paint/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "natural-wood-porcelain-deck",
       "categoryId": "construcao-pisos",
       "name": {
@@ -51905,6 +54599,20 @@
                 "#ffffff": "images/navy-interior-paint-high-coverage/detail-white.webp",
                 "#f5f5f5": "images/navy-interior-paint-high-coverage/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Home study with a matte navy feature wall",
+                "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/navy-interior-paint-high-coverage/application-white.webp",
+                "#f5f5f5": "images/navy-interior-paint-high-coverage/application-gray.webp"
+              }
             }
           ]
         },
@@ -51947,6 +54655,20 @@
               "src": {
                 "#ffffff": "images/navy-interior-paint-high-coverage/detail-white.webp",
                 "#f5f5f5": "images/navy-interior-paint-high-coverage/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Home study with a matte navy feature wall",
+                "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/navy-interior-paint-high-coverage/application-white.webp",
+                "#f5f5f5": "images/navy-interior-paint-high-coverage/application-gray.webp"
               }
             }
           ]
@@ -52115,6 +54837,20 @@
                 "#ffffff": "images/navy-interior-paint-standard-coverage/detail-white.webp",
                 "#f5f5f5": "images/navy-interior-paint-standard-coverage/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Home study with a matte navy feature wall",
+                "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/navy-interior-paint-standard-coverage/application-white.webp",
+                "#f5f5f5": "images/navy-interior-paint-standard-coverage/application-gray.webp"
+              }
             }
           ]
         },
@@ -52157,6 +54893,20 @@
               "src": {
                 "#ffffff": "images/navy-interior-paint-standard-coverage/detail-white.webp",
                 "#f5f5f5": "images/navy-interior-paint-standard-coverage/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Home study with a matte navy feature wall",
+                "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/navy-interior-paint-standard-coverage/application-white.webp",
+                "#f5f5f5": "images/navy-interior-paint-standard-coverage/application-gray.webp"
               }
             }
           ]
@@ -52325,6 +55075,20 @@
                 "#ffffff": "images/navy-interior-paint-washable-finish/detail-white.webp",
                 "#f5f5f5": "images/navy-interior-paint-washable-finish/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Home study with a matte navy feature wall",
+                "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/navy-interior-paint-washable-finish/application-white.webp",
+                "#f5f5f5": "images/navy-interior-paint-washable-finish/application-gray.webp"
+              }
             }
           ]
         },
@@ -52367,6 +55131,20 @@
               "src": {
                 "#ffffff": "images/navy-interior-paint-washable-finish/detail-white.webp",
                 "#f5f5f5": "images/navy-interior-paint-washable-finish/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Home study with a matte navy feature wall",
+                "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/navy-interior-paint-washable-finish/application-white.webp",
+                "#f5f5f5": "images/navy-interior-paint-washable-finish/application-gray.webp"
               }
             }
           ]
@@ -54281,6 +57059,244 @@
               "src": {
                 "#ffffff": "images/olive-cotton-shirt-dress/detail-white.webp",
                 "#f5f5f5": "images/olive-cotton-shirt-dress/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olive-green-exterior-acrylic-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Olive Green Exterior Acrylic Masonry Paint with a Low-Sheen Finish, Sold in Two Sizes",
+        "pt-BR": "Tinta Acrílica Verde Oliva para Fachada e Alvenaria Externa com Baixo Brilho, Dois Tamanhos"
+      },
+      "description": {
+        "en": "An earthy olive green exterior acrylic for rendered masonry and sheltered facade walls. The low-sheen finish shows the wall texture without a wet gloss, and two sizes cover touch-ups or a full elevation.",
+        "pt-BR": "Tinta acrílica externa verde oliva terrosa para alvenaria rebocada e fachadas protegidas. O baixo brilho revela a textura sem aspecto molhado, e os dois tamanhos atendem retoques ou uma fachada."
+      },
+      "price": {
+        "BRL": 159.9,
+        "USD": 62
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "olive exterior paint",
+          "green facade paint",
+          "low sheen acrylic"
+        ],
+        "pt-BR": [
+          "tinta externa verde oliva",
+          "tinta verde para fachada",
+          "acrílica de baixo brilho"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "olive-green-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "olive-green",
+              "name": {
+                "en": "Olive green",
+                "pt-BR": "Verde oliva"
+              },
+              "hex": "#6D7449"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "olive-green-3-6-l",
+          "sku": "CON-OLIVE-GREEN-EXTERIOR-ACRYLIC-PAINT-3-6-L",
+          "options": {
+            "color": "olive-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 159.9,
+            "USD": 62
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of olive green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde oliva"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/olive-green-exterior-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/olive-green-exterior-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/olive-green-exterior-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/olive-green-exterior-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "House facade painted low-sheen olive green",
+                "pt-BR": "Fachada de casa pintada de verde oliva com baixo brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/olive-green-exterior-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/olive-green-exterior-acrylic-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "olive-green-18-l",
+          "sku": "CON-OLIVE-GREEN-EXTERIOR-ACRYLIC-PAINT-18-L",
+          "options": {
+            "color": "olive-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 489,
+            "USD": 192
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of olive green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde oliva"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/olive-green-exterior-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/olive-green-exterior-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/olive-green-exterior-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/olive-green-exterior-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "House facade painted low-sheen olive green",
+                "pt-BR": "Fachada de casa pintada de verde oliva com baixo brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/olive-green-exterior-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/olive-green-exterior-acrylic-paint/application-gray.webp"
               }
             }
           ]
@@ -64908,6 +67924,20 @@
                 "#ffffff": "images/sage-interior-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/sage-interior-acrylic-paint/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Bedroom with a soft matte sage green wall",
+                "pt-BR": "Quarto com parede verde sálvia suave e fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/sage-interior-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/sage-interior-acrylic-paint/application-gray.webp"
+              }
             }
           ]
         },
@@ -64950,6 +67980,20 @@
               "src": {
                 "#ffffff": "images/sage-interior-acrylic-paint/detail-white.webp",
                 "#f5f5f5": "images/sage-interior-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bedroom with a soft matte sage green wall",
+                "pt-BR": "Quarto com parede verde sálvia suave e fosca"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/sage-interior-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/sage-interior-acrylic-paint/application-gray.webp"
               }
             }
           ]
@@ -74572,6 +77616,20 @@
                 "#ffffff": "images/terracotta-facade-texture/detail-white.webp",
                 "#f5f5f5": "images/terracotta-facade-texture/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "House entrance with a textured terracotta facade",
+                "pt-BR": "Entrada de casa com fachada terracota texturizada"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/terracotta-facade-texture/application-white.webp",
+                "#f5f5f5": "images/terracotta-facade-texture/application-gray.webp"
+              }
             }
           ]
         },
@@ -74614,6 +77672,20 @@
               "src": {
                 "#ffffff": "images/terracotta-facade-texture/detail-white.webp",
                 "#f5f5f5": "images/terracotta-facade-texture/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "House entrance with a textured terracotta facade",
+                "pt-BR": "Entrada de casa com fachada terracota texturizada"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/terracotta-facade-texture/application-white.webp",
+                "#f5f5f5": "images/terracotta-facade-texture/application-gray.webp"
               }
             }
           ]
@@ -83618,6 +86690,20 @@
                 "#ffffff": "images/white-gloss-enamel-paint/detail-white.webp",
                 "#f5f5f5": "images/white-gloss-enamel-paint/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Paneled wooden door finished in smooth white gloss enamel",
+                "pt-BR": "Porta de madeira almofadada com esmalte branco brilhante uniforme"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-gloss-enamel-paint/application-white.webp",
+                "#f5f5f5": "images/white-gloss-enamel-paint/application-gray.webp"
+              }
             }
           ]
         },
@@ -83660,6 +86746,20 @@
               "src": {
                 "#ffffff": "images/white-gloss-enamel-paint/detail-white.webp",
                 "#f5f5f5": "images/white-gloss-enamel-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Paneled wooden door finished in smooth white gloss enamel",
+                "pt-BR": "Porta de madeira almofadada com esmalte branco brilhante uniforme"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-gloss-enamel-paint/application-white.webp",
+                "#f5f5f5": "images/white-gloss-enamel-paint/application-gray.webp"
               }
             }
           ]
@@ -91332,6 +94432,20 @@
                 "#ffffff": "images/white-wall-primer-high-coverage/detail-white.webp",
                 "#f5f5f5": "images/white-wall-primer-high-coverage/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Interior wall prepared with an even coat of white acrylic primer",
+                "pt-BR": "Parede interna preparada com uma camada uniforme de fundo acrílico branco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-wall-primer-high-coverage/application-white.webp",
+                "#f5f5f5": "images/white-wall-primer-high-coverage/application-gray.webp"
+              }
             }
           ]
         },
@@ -91374,6 +94488,20 @@
               "src": {
                 "#ffffff": "images/white-wall-primer-high-coverage/detail-white.webp",
                 "#f5f5f5": "images/white-wall-primer-high-coverage/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Interior wall prepared with an even coat of white acrylic primer",
+                "pt-BR": "Parede interna preparada com uma camada uniforme de fundo acrílico branco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-wall-primer-high-coverage/application-white.webp",
+                "#f5f5f5": "images/white-wall-primer-high-coverage/application-gray.webp"
               }
             }
           ]
@@ -91542,6 +94670,20 @@
                 "#ffffff": "images/white-wall-primer-standard-coverage/detail-white.webp",
                 "#f5f5f5": "images/white-wall-primer-standard-coverage/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Interior wall prepared with an even coat of white acrylic primer",
+                "pt-BR": "Parede interna preparada com uma camada uniforme de fundo acrílico branco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-wall-primer-standard-coverage/application-white.webp",
+                "#f5f5f5": "images/white-wall-primer-standard-coverage/application-gray.webp"
+              }
             }
           ]
         },
@@ -91584,6 +94726,20 @@
               "src": {
                 "#ffffff": "images/white-wall-primer-standard-coverage/detail-white.webp",
                 "#f5f5f5": "images/white-wall-primer-standard-coverage/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Interior wall prepared with an even coat of white acrylic primer",
+                "pt-BR": "Parede interna preparada com uma camada uniforme de fundo acrílico branco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-wall-primer-standard-coverage/application-white.webp",
+                "#f5f5f5": "images/white-wall-primer-standard-coverage/application-gray.webp"
               }
             }
           ]
@@ -91752,6 +94908,20 @@
                 "#ffffff": "images/white-wall-primer-washable-finish/detail-white.webp",
                 "#f5f5f5": "images/white-wall-primer-washable-finish/detail-gray.webp"
               }
+            },
+            {
+              "alt": {
+                "en": "Interior wall prepared with an even coat of white acrylic primer",
+                "pt-BR": "Parede interna preparada com uma camada uniforme de fundo acrílico branco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-wall-primer-washable-finish/application-white.webp",
+                "#f5f5f5": "images/white-wall-primer-washable-finish/application-gray.webp"
+              }
             }
           ]
         },
@@ -91794,6 +94964,20 @@
               "src": {
                 "#ffffff": "images/white-wall-primer-washable-finish/detail-white.webp",
                 "#f5f5f5": "images/white-wall-primer-washable-finish/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Interior wall prepared with an even coat of white acrylic primer",
+                "pt-BR": "Parede interna preparada com uma camada uniforme de fundo acrílico branco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-wall-primer-washable-finish/application-white.webp",
+                "#f5f5f5": "images/white-wall-primer-washable-finish/application-gray.webp"
               }
             }
           ]

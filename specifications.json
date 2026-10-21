@@ -704,5 +704,123 @@
         }
       }
     ]
+  },
+  {
+    "id": "tool-type",
+    "name": {
+      "en": "Tool type",
+      "pt-BR": "Tipo de ferramenta"
+    },
+    "values": [
+      {
+        "id": "drill-driver",
+        "name": {
+          "en": "Drill driver",
+          "pt-BR": "Furadeira e parafusadeira"
+        }
+      },
+      {
+        "id": "hammer-drill",
+        "name": {
+          "en": "Hammer drill",
+          "pt-BR": "Furadeira de impacto"
+        }
+      },
+      {
+        "id": "brushless-drill",
+        "name": {
+          "en": "Brushless drill driver",
+          "pt-BR": "Furadeira e parafusadeira sem escovas"
+        }
+      },
+      {
+        "id": "corded-impact-drill",
+        "name": {
+          "en": "Corded impact drill",
+          "pt-BR": "Furadeira de impacto com fio"
+        }
+      },
+      {
+        "id": "right-angle-drill",
+        "name": {
+          "en": "Right-angle drill",
+          "pt-BR": "Furadeira angular"
+        }
+      },
+      {
+        "id": "rotary-hammer",
+        "name": {
+          "en": "Rotary hammer",
+          "pt-BR": "Martelete perfurador"
+        }
+      }
+    ]
+  },
+  {
+    "id": "power-source",
+    "name": {
+      "en": "Power source",
+      "pt-BR": "Alimentação"
+    },
+    "values": [
+      {
+        "id": "battery",
+        "name": {
+          "en": "Battery",
+          "pt-BR": "Bateria"
+        }
+      },
+      {
+        "id": "corded",
+        "name": {
+          "en": "Corded",
+          "pt-BR": "Com fio"
+        }
+      }
+    ]
+  },
+  {
+    "id": "voltage",
+    "name": {
+      "en": "Voltage",
+      "pt-BR": "Tensão"
+    },
+    "values": [
+      {
+        "id": "12-v",
+        "name": {
+          "en": "12 V",
+          "pt-BR": "12 V"
+        }
+      },
+      {
+        "id": "18-v",
+        "name": {
+          "en": "18 V",
+          "pt-BR": "18 V"
+        }
+      },
+      {
+        "id": "20-v",
+        "name": {
+          "en": "20 V",
+          "pt-BR": "20 V"
+        }
+      },
+      {
+        "id": "127-v",
+        "name": {
+          "en": "127 V",
+          "pt-BR": "127 V"
+        }
+      },
+      {
+        "id": "220-v",
+        "name": {
+          "en": "220 V",
+          "pt-BR": "220 V"
+        }
+      }
+    ]
   }
 ]

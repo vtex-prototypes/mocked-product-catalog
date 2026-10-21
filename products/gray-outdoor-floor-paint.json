@@ -116,6 +116,16 @@
             "#ffffff": "detail-white.png",
             "#f5f5f5": "detail-gray.png"
           }
+        },
+        {
+          "alt": {
+            "en": "Garage concrete floor coated in satin gray floor paint",
+            "pt-BR": "Piso de concreto da garagem revestido com tinta cinza acetinada"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
         }
       ]
     },
@@ -150,6 +160,16 @@
           "backgrounds": {
             "#ffffff": "detail-white.png",
             "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Garage concrete floor coated in satin gray floor paint",
+            "pt-BR": "Piso de concreto da garagem revestido com tinta cinza acetinada"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
           }
         }
       ]

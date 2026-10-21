@@ -1,0 +1,159 @@
+{
+  "id": "casa-norte-b20-p-brushless-drill-driver",
+  "brandId": "casa-norte",
+  "categoryId": "construcao-ferramentas-eletricas",
+  "name": {
+    "en": "Casa Norte B20-P 20-Volt Brushless Cordless Drill Driver with Metal 1/2-Inch Chuck",
+    "pt-BR": "Furadeira e Parafusadeira sem Escovas Casa Norte B20-P 20 V com Mandril Metálico de 13 mm"
+  },
+  "description": {
+    "en": "A high-torque brushless drill driver for repeated holes and fasteners in hardwood, sheet metal, and framing lumber. The metal chuck and vented motor housing suit longer workshop sessions.",
+    "pt-BR": "Furadeira e parafusadeira sem escovas de alto torque para furos e fixações repetidas em madeira dura, chapa metálica e caibros. O mandril metálico e a carcaça ventilada atendem jornadas maiores."
+  },
+  "price": {
+    "BRL": 799.9,
+    "USD": 219
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "Casa Norte B20-P",
+      "brushless drill driver",
+      "high torque"
+    ],
+    "pt-BR": [
+      "Casa Norte B20-P",
+      "furadeira sem escovas",
+      "alto torque"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "tool-type",
+      "valueId": "brushless-drill"
+    },
+    {
+      "id": "power-source",
+      "valueId": "battery"
+    },
+    {
+      "id": "voltage",
+      "valueId": "20-v"
+    }
+  ],
+  "defaultVariantId": "tool-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "dark-red",
+          "name": {
+            "en": "Dark red",
+            "pt-BR": "Vermelho escuro"
+          },
+          "hex": "#8E2933"
+        }
+      ]
+    },
+    {
+      "id": "package",
+      "name": {
+        "en": "Package",
+        "pt-BR": "Conjunto"
+      },
+      "values": [
+        {
+          "id": "tool-only",
+          "name": {
+            "en": "Tool only",
+            "pt-BR": "Somente ferramenta"
+          }
+        },
+        {
+          "id": "battery-kit",
+          "name": {
+            "en": "Battery and charger kit",
+            "pt-BR": "Kit com bateria e carregador"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "tool-only",
+      "sku": "CON-B20P-TOOL-ONLY",
+      "options": {
+        "color": "dark-red",
+        "package": "tool-only"
+      },
+      "price": {
+        "BRL": 799.9,
+        "USD": 219
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte B20-P 20-Volt Brushless Cordless Drill Driver with Metal 1/2-Inch Chuck, isolated product view",
+            "pt-BR": "Furadeira e Parafusadeira sem Escovas Casa Norte B20-P 20 V com Mandril Metálico de 13 mm, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte B20-P drilling a thick hardwood workpiece",
+            "pt-BR": "Casa Norte B20-P perfurando uma peça espessa de madeira dura"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "battery-kit",
+      "sku": "CON-B20P-BATTERY-KIT",
+      "options": {
+        "color": "dark-red",
+        "package": "battery-kit"
+      },
+      "price": {
+        "BRL": 1049.9,
+        "USD": 299
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte B20-P 20-Volt Brushless Cordless Drill Driver with Metal 1/2-Inch Chuck, isolated product view",
+            "pt-BR": "Furadeira e Parafusadeira sem Escovas Casa Norte B20-P 20 V com Mandril Metálico de 13 mm, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte B20-P drilling a thick hardwood workpiece",
+            "pt-BR": "Casa Norte B20-P perfurando uma peça espessa de madeira dura"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
