@@ -1,0 +1,126 @@
+{
+  "id": "square-notch-tiling-trowel",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "Square-Notch Tiling Trowel for Thinset under Floor and Wall Tile, Sold by the Piece",
+    "pt-BR": "Desempenadeira Dentada para Argamassa sob Piso e Parede, Vendida por Peça"
+  },
+  "description": {
+    "en": "A square-notch trowel that combs thinset to a set depth. The smaller notch is for ceramic wall tile, and the larger notch beds porcelain floor tile.",
+    "pt-BR": "Desempenadeira de dente quadrado que penteia a argamassa numa altura certa. O dente menor é para cerâmica de parede, e o maior assenta porcelanato de piso."
+  },
+  "price": {
+    "BRL": 34.9,
+    "USD": 13
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "notched trowel",
+      "for floors",
+      "for wall tile",
+      "for mortar"
+    ],
+    "pt-BR": [
+      "desempenadeira",
+      "para piso",
+      "para argamassa"
+    ]
+  },
+  "defaultVariantId": "6-mm",
+  "options": [
+    {
+      "id": "notch",
+      "name": {
+        "en": "Notch",
+        "pt-BR": "Dente"
+      },
+      "values": [
+        {
+          "id": "6-mm",
+          "name": {
+            "en": "1/4 inch notch",
+            "pt-BR": "Dente de 6 mm"
+          }
+        },
+        {
+          "id": "10-mm",
+          "name": {
+            "en": "3/8 inch notch",
+            "pt-BR": "Dente de 10 mm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "6-mm",
+      "sku": "CON-TROWEL-6",
+      "options": {
+        "notch": "6-mm"
+      },
+      "price": {
+        "BRL": 34.9,
+        "USD": 13
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Square-notch trowel with a black handle",
+            "pt-BR": "Desempenadeira dentada com cabo preto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Notched trowel combing gray thinset",
+            "pt-BR": "Desempenadeira penteando argamassa cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10-mm",
+      "sku": "CON-TROWEL-10",
+      "options": {
+        "notch": "10-mm"
+      },
+      "price": {
+        "BRL": 42,
+        "USD": 16
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Square-notch trowel with a black handle",
+            "pt-BR": "Desempenadeira dentada com cabo preto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Notched trowel combing gray thinset",
+            "pt-BR": "Desempenadeira penteando argamassa cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

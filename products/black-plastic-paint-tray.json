@@ -1,0 +1,105 @@
+{
+  "id": "black-plastic-paint-tray",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "Black Plastic Paint Tray with a Ribbed Ramp for Rollers, Sold by the Piece",
+    "pt-BR": "Bandeja Plástica Preta com Rampa para Rolo de Pintura, Vendida por Peça"
+  },
+  "description": {
+    "en": "A deep paint tray with a ribbed ramp that loads the roller evenly. The smaller tray suits a 4-inch roller, and the larger one holds enough paint for a full wall.",
+    "pt-BR": "Bandeja funda com rampa que carrega o rolo por igual. A menor combina com o rolo de 10 cm, e a maior comporta tinta para uma parede inteira."
+  },
+  "price": {
+    "BRL": 12.9,
+    "USD": 5
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "paint tray",
+      "for paint",
+      "roller"
+    ],
+    "pt-BR": [
+      "bandeja de tinta",
+      "para tinta",
+      "rolo"
+    ]
+  },
+  "defaultVariantId": "small",
+  "options": [
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "small",
+          "name": {
+            "en": "Small",
+            "pt-BR": "Pequena"
+          }
+        },
+        {
+          "id": "large",
+          "name": {
+            "en": "Large",
+            "pt-BR": "Grande"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "small",
+      "sku": "CON-TRAY-SMALL",
+      "options": {
+        "size": "small"
+      },
+      "price": {
+        "BRL": 12.9,
+        "USD": 5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black plastic paint tray with a ribbed ramp",
+            "pt-BR": "Bandeja plástica preta com rampa"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large",
+      "sku": "CON-TRAY-LARGE",
+      "options": {
+        "size": "large"
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 7
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black plastic paint tray with a ribbed ramp",
+            "pt-BR": "Bandeja plástica preta com rampa"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

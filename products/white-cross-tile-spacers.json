@@ -1,0 +1,125 @@
+{
+  "id": "white-cross-tile-spacers",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "White Cross Tile Spacers for Even Floor and Wall Joints, Sold by the Bag",
+    "pt-BR": "Espaçadores de Piso e Parede em Cruz Branca, Vendidos por Pacote"
+  },
+  "description": {
+    "en": "Cross spacers that keep floor and wall tile joints even while the thinset sets. The 2 mm bag is for rectified tile, and the 3 mm bag leaves a joint that takes standard grout.",
+    "pt-BR": "Espaçadores em cruz que mantêm a junta de piso e parede regular enquanto a argamassa puxa. O pacote de 2 mm é para peça retificada, e o de 3 mm deixa junta para rejunte comum."
+  },
+  "price": {
+    "BRL": 7.9,
+    "USD": 3
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "tile spacer",
+      "for floors",
+      "for wall tile"
+    ],
+    "pt-BR": [
+      "espaçador",
+      "para piso",
+      "para revestimento"
+    ]
+  },
+  "defaultVariantId": "2-mm",
+  "options": [
+    {
+      "id": "joint",
+      "name": {
+        "en": "Joint",
+        "pt-BR": "Junta"
+      },
+      "values": [
+        {
+          "id": "2-mm",
+          "name": {
+            "en": "1/16 inch, 200 pieces",
+            "pt-BR": "2 mm, 200 peças"
+          }
+        },
+        {
+          "id": "3-mm",
+          "name": {
+            "en": "1/8 inch, 200 pieces",
+            "pt-BR": "3 mm, 200 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "2-mm",
+      "sku": "CON-SPACERS-2",
+      "options": {
+        "joint": "2-mm"
+      },
+      "price": {
+        "BRL": 7.9,
+        "USD": 3
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White cross spacers for tile joints",
+            "pt-BR": "Espaçadores brancos em cruz para juntas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Cross spacers set in the joints of a light tile floor",
+            "pt-BR": "Espaçadores nas juntas de um piso claro"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-mm",
+      "sku": "CON-SPACERS-3",
+      "options": {
+        "joint": "3-mm"
+      },
+      "price": {
+        "BRL": 9.9,
+        "USD": 3.8
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White cross spacers for tile joints",
+            "pt-BR": "Espaçadores brancos em cruz para juntas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Cross spacers set in the joints of a light tile floor",
+            "pt-BR": "Espaçadores nas juntas de um piso claro"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

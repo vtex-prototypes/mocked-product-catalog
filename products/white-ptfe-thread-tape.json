@@ -1,0 +1,105 @@
+{
+  "id": "white-ptfe-thread-tape",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "White PTFE Thread-Seal Tape for Pipe Threads, Sold by the Roll",
+    "pt-BR": "Fita Veda-Rosca de PTFE Branca para Rosca de Tubo, Vendida por Rolo"
+  },
+  "description": {
+    "en": "Thin PTFE tape for sealing threaded pipe and faucet connections. One roll covers a few fittings, and the three-roll pack is enough for a bathroom rough-in.",
+    "pt-BR": "Fita fina de PTFE para vedar rosca de tubo e de torneira. Um rolo cobre algumas conexões, e o pacote com três dá para o ponto de um banheiro."
+  },
+  "price": {
+    "BRL": 4.5,
+    "USD": 1.8
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "thread tape",
+      "for plumbing",
+      "ptfe"
+    ],
+    "pt-BR": [
+      "veda-rosca",
+      "para hidráulica",
+      "ptfe"
+    ]
+  },
+  "defaultVariantId": "one-roll",
+  "options": [
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "one-roll",
+          "name": {
+            "en": "1 roll",
+            "pt-BR": "1 rolo"
+          }
+        },
+        {
+          "id": "three-rolls",
+          "name": {
+            "en": "3 rolls",
+            "pt-BR": "3 rolos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one-roll",
+      "sku": "CON-PTFE-1",
+      "options": {
+        "pack": "one-roll"
+      },
+      "price": {
+        "BRL": 4.5,
+        "USD": 1.8
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Small spool of white PTFE thread-seal tape",
+            "pt-BR": "Carretel pequeno de fita veda-rosca branca"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "three-rolls",
+      "sku": "CON-PTFE-3",
+      "options": {
+        "pack": "three-rolls"
+      },
+      "price": {
+        "BRL": 11.9,
+        "USD": 4
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Small spool of white PTFE thread-seal tape",
+            "pt-BR": "Carretel pequeno de fita veda-rosca branca"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

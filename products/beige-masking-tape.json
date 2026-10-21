@@ -1,0 +1,105 @@
+{
+  "id": "beige-masking-tape",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "Beige Masking Tape for Paint Edges on Trim and Glass, Sold by the Roll",
+    "pt-BR": "Fita Crepe Bege para Recorte de Pintura em Marco e Vidro, Vendida por Rolo"
+  },
+  "description": {
+    "en": "Crepe masking tape that lifts off trim and glass after the paint dries. The narrow roll follows curves, and the wide roll protects a baseboard in one pass.",
+    "pt-BR": "Fita crepe que solta de marco e vidro depois que a tinta seca. O rolo estreito acompanha curvas, e o largo protege o rodapé de uma vez."
+  },
+  "price": {
+    "BRL": 8.9,
+    "USD": 3.5
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "masking tape",
+      "for paint",
+      "trim"
+    ],
+    "pt-BR": [
+      "fita crepe",
+      "para tinta",
+      "rodapé"
+    ]
+  },
+  "defaultVariantId": "24-mm",
+  "options": [
+    {
+      "id": "width",
+      "name": {
+        "en": "Width",
+        "pt-BR": "Largura"
+      },
+      "values": [
+        {
+          "id": "24-mm",
+          "name": {
+            "en": "1 inch",
+            "pt-BR": "24 mm"
+          }
+        },
+        {
+          "id": "48-mm",
+          "name": {
+            "en": "2 inches",
+            "pt-BR": "48 mm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "24-mm",
+      "sku": "CON-MASKING-24",
+      "options": {
+        "width": "24-mm"
+      },
+      "price": {
+        "BRL": 8.9,
+        "USD": 3.5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Roll of beige masking tape",
+            "pt-BR": "Rolo de fita crepe bege"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "48-mm",
+      "sku": "CON-MASKING-48",
+      "options": {
+        "width": "48-mm"
+      },
+      "price": {
+        "BRL": 14.9,
+        "USD": 5
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Roll of beige masking tape",
+            "pt-BR": "Rolo de fita crepe bege"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "red-rubber-grout-float",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "Red Rubber Grout Float for Packing Joints on Floor and Wall Tile, Sold by the Piece",
+    "pt-BR": "Desempenadeira de Borracha Vermelha para Rejunte de Piso e Parede, Vendida por Peça"
+  },
+  "description": {
+    "en": "A firm rubber float that pushes grout into joints and leaves the tile face cleaner. The smaller pad suits a backsplash, and the larger pad covers a floor faster.",
+    "pt-BR": "Desempenadeira de borracha firme que empurra o rejunte para a junta e suja menos a face da peça. A base menor serve para uma faixa de cozinha, e a maior cobre o piso mais rápido."
+  },
+  "price": {
+    "BRL": 18.9,
+    "USD": 7
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "grout float",
+      "for grout",
+      "for floors"
+    ],
+    "pt-BR": [
+      "desempenadeira de rejunte",
+      "para rejunte",
+      "para piso"
+    ]
+  },
+  "defaultVariantId": "small",
+  "options": [
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "small",
+          "name": {
+            "en": "Small",
+            "pt-BR": "Pequena"
+          }
+        },
+        {
+          "id": "large",
+          "name": {
+            "en": "Large",
+            "pt-BR": "Grande"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "small",
+      "sku": "CON-FLOAT-SMALL",
+      "options": {
+        "size": "small"
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 7
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red rubber grout float",
+            "pt-BR": "Desempenadeira de borracha vermelha"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Rubber float packing gray grout into tile joints",
+            "pt-BR": "Desempenadeira preenchendo juntas com rejunte cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large",
+      "sku": "CON-FLOAT-LARGE",
+      "options": {
+        "size": "large"
+      },
+      "price": {
+        "BRL": 24.9,
+        "USD": 9
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red rubber grout float",
+            "pt-BR": "Desempenadeira de borracha vermelha"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Rubber float packing gray grout into tile joints",
+            "pt-BR": "Desempenadeira preenchendo juntas com rejunte cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

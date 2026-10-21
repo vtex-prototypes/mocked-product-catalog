@@ -1,0 +1,125 @@
+{
+  "id": "red-ribbed-wall-anchors",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "Red Ribbed Plastic Wall Anchors with Screws for Drywall and Masonry, Sold by the Pack",
+    "pt-BR": "Buchas Plásticas Vermelhas com Parafusos para Drywall e Alvenaria, Vendidas por Pacote"
+  },
+  "description": {
+    "en": "Ribbed plastic anchors and matching screws for shelves, brackets, and frames. The 6 mm pack suits light fixings, and the 8 mm pack holds heavier brackets in solid walls.",
+    "pt-BR": "Buchas com estrias e parafusos para prateleiras, suportes e quadros. O pacote de 6 mm serve para fixações leves, e o de 8 mm segura suportes mais pesados em parede maciça."
+  },
+  "price": {
+    "BRL": 14.9,
+    "USD": 6
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "wall anchor",
+      "for power tools",
+      "drywall"
+    ],
+    "pt-BR": [
+      "bucha",
+      "para furadeira",
+      "drywall"
+    ]
+  },
+  "defaultVariantId": "6-mm",
+  "options": [
+    {
+      "id": "diameter",
+      "name": {
+        "en": "Diameter",
+        "pt-BR": "Diâmetro"
+      },
+      "values": [
+        {
+          "id": "6-mm",
+          "name": {
+            "en": "1/4 inch, 50 pieces",
+            "pt-BR": "6 mm, 50 peças"
+          }
+        },
+        {
+          "id": "8-mm",
+          "name": {
+            "en": "5/16 inch, 40 pieces",
+            "pt-BR": "8 mm, 40 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "6-mm",
+      "sku": "CON-ANCHORS-6",
+      "options": {
+        "diameter": "6-mm"
+      },
+      "price": {
+        "BRL": 14.9,
+        "USD": 6
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red ribbed wall anchors with matching screws",
+            "pt-BR": "Buchas vermelhas com parafusos"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Red wall anchor set in a drywall hole",
+            "pt-BR": "Bucha vermelha assentada em um furo de drywall"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8-mm",
+      "sku": "CON-ANCHORS-8",
+      "options": {
+        "diameter": "8-mm"
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 7.5
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red ribbed wall anchors with matching screws",
+            "pt-BR": "Buchas vermelhas com parafusos"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Red wall anchor set in a drywall hole",
+            "pt-BR": "Bucha vermelha assentada em um furo de drywall"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

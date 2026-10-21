@@ -1,0 +1,125 @@
+{
+  "id": "angled-sash-paint-brush",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "Angled Sash Paint Brush with a Wooden Handle for Edges and Trim, Sold by the Piece",
+    "pt-BR": "Trincha Angular com Cabo de Madeira para Cantos e Rodapés, Vendida por Peça"
+  },
+  "description": {
+    "en": "An angled brush for cutting in along ceilings, frames, and baseboards. The narrower brush is for window bars, and the wider one lays paint along a long trim run.",
+    "pt-BR": "Trincha angular para recorte em teto, marco e rodapé. A mais estreita serve para barras de janela, e a mais larga acompanha um rodapé comprido."
+  },
+  "price": {
+    "BRL": 16.9,
+    "USD": 6
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "paint brush",
+      "for paint",
+      "trim"
+    ],
+    "pt-BR": [
+      "trincha",
+      "para tinta",
+      "rodapé"
+    ]
+  },
+  "defaultVariantId": "50-mm",
+  "options": [
+    {
+      "id": "width",
+      "name": {
+        "en": "Width",
+        "pt-BR": "Largura"
+      },
+      "values": [
+        {
+          "id": "50-mm",
+          "name": {
+            "en": "2 inches",
+            "pt-BR": "50 mm"
+          }
+        },
+        {
+          "id": "63-mm",
+          "name": {
+            "en": "2 1/2 inches",
+            "pt-BR": "63 mm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "50-mm",
+      "sku": "CON-BRUSH-50",
+      "options": {
+        "width": "50-mm"
+      },
+      "price": {
+        "BRL": 16.9,
+        "USD": 6
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Angled sash brush with a wooden handle",
+            "pt-BR": "Trincha angular com cabo de madeira"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Angled brush cutting in along a ceiling corner",
+            "pt-BR": "Trincha angular recortando o encontro com o teto"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "63-mm",
+      "sku": "CON-BRUSH-63",
+      "options": {
+        "width": "63-mm"
+      },
+      "price": {
+        "BRL": 19.9,
+        "USD": 7
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Angled sash brush with a wooden handle",
+            "pt-BR": "Trincha angular com cabo de madeira"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Angled brush cutting in along a ceiling corner",
+            "pt-BR": "Trincha angular recortando o encontro com o teto"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
