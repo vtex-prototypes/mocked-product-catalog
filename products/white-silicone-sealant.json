@@ -1,0 +1,125 @@
+{
+  "id": "white-silicone-sealant",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "White Silicone Sealant Cartridge for Sinks, Tubs, and Tile Edges, Sold by the Tube",
+    "pt-BR": "Silicone Acético Branco em Bisnaga para Cuba, Banheira e Cantos de Revestimento, Vendido por Tubo"
+  },
+  "description": {
+    "en": "A white silicone cartridge for the joint where a sink, tub, or tile meets the wall. The smaller tube finishes one basin, and the larger tube seals a tub and its surround.",
+    "pt-BR": "Silicone branco para a junta em que a cuba, a banheira ou o revestimento encontra a parede. O tubo menor fecha uma cuba, e o maior veda a banheira e o box."
+  },
+  "price": {
+    "BRL": 18.9,
+    "USD": 7
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "silicone sealant",
+      "for bathroom",
+      "for plumbing"
+    ],
+    "pt-BR": [
+      "silicone",
+      "para banheiro",
+      "para hidráulica"
+    ]
+  },
+  "defaultVariantId": "280-ml",
+  "options": [
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "280-ml",
+          "name": {
+            "en": "9.5 ounces",
+            "pt-BR": "280 ml"
+          }
+        },
+        {
+          "id": "400-ml",
+          "name": {
+            "en": "13.5 ounces",
+            "pt-BR": "400 ml"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "280-ml",
+      "sku": "CON-SILICONE-280",
+      "options": {
+        "volume": "280-ml"
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 7
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White silicone sealant cartridge",
+            "pt-BR": "Bisnaga de silicone branco"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "White silicone bead along a sink joint",
+            "pt-BR": "Filete de silicone branco na junta de uma cuba"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "400-ml",
+      "sku": "CON-SILICONE-400",
+      "options": {
+        "volume": "400-ml"
+      },
+      "price": {
+        "BRL": 27.9,
+        "USD": 10
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White silicone sealant cartridge",
+            "pt-BR": "Bisnaga de silicone branco"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "White silicone bead along a sink joint",
+            "pt-BR": "Filete de silicone branco na junta de uma cuba"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

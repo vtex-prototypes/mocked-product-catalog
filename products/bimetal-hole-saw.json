@@ -1,0 +1,125 @@
+{
+  "id": "bimetal-hole-saw",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "Bimetal Hole Saw with Arbor and Pilot Bit for Wood and Sheet Metal, Sold by the Piece",
+    "pt-BR": "Serra-Copo Bimetálica com Suporte e Broca-Guia para Madeira e Chapa, Vendida por Peça"
+  },
+  "description": {
+    "en": "A cup saw for round cutouts in wood, plywood, and thin sheet metal. The pilot bit keeps the cup centered, and the two diameters fit a lock bore or a small duct opening.",
+    "pt-BR": "Serra-copo para recortes redondos em madeira, compensado e chapa fina. A broca-guia mantém o copo no centro, e os dois diâmetros servem para fechadura ou uma passagem pequena."
+  },
+  "price": {
+    "BRL": 44.9,
+    "USD": 16
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "hole saw",
+      "for power tools",
+      "wood"
+    ],
+    "pt-BR": [
+      "serra-copo",
+      "para furadeira",
+      "madeira"
+    ]
+  },
+  "defaultVariantId": "51-mm",
+  "options": [
+    {
+      "id": "diameter",
+      "name": {
+        "en": "Diameter",
+        "pt-BR": "Diâmetro"
+      },
+      "values": [
+        {
+          "id": "51-mm",
+          "name": {
+            "en": "2 inches",
+            "pt-BR": "51 mm"
+          }
+        },
+        {
+          "id": "76-mm",
+          "name": {
+            "en": "3 inches",
+            "pt-BR": "76 mm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "51-mm",
+      "sku": "CON-HOLE-SAW-51",
+      "options": {
+        "diameter": "51-mm"
+      },
+      "price": {
+        "BRL": 44.9,
+        "USD": 16
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bimetal hole saw with arbor and pilot bit",
+            "pt-BR": "Serra-copo bimetálica com suporte e broca-guia"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Hole saw cutting a round opening in a wood board",
+            "pt-BR": "Serra-copo abrindo um furo redondo em madeira"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "76-mm",
+      "sku": "CON-HOLE-SAW-76",
+      "options": {
+        "diameter": "76-mm"
+      },
+      "price": {
+        "BRL": 69,
+        "USD": 24
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bimetal hole saw with arbor and pilot bit",
+            "pt-BR": "Serra-copo bimetálica com suporte e broca-guia"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Hole saw cutting a round opening in a wood board",
+            "pt-BR": "Serra-copo abrindo um furo redondo em madeira"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

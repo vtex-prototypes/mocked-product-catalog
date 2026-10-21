@@ -1,0 +1,125 @@
+{
+  "id": "carbide-masonry-drill-bit-set",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "Carbide Masonry Drill Bit Set for Brick and Concrete, Sold by the Set",
+    "pt-BR": "Jogo de Brocas de Vídia para Tijolo e Concreto, Vendido por Jogo"
+  },
+  "description": {
+    "en": "Carbide-tipped masonry bits for brick, block, and concrete. The wider flute clears dust from the hole, and the larger set adds the diameters used with heavier wall anchors.",
+    "pt-BR": "Brocas com ponta de vídia para tijolo, bloco e concreto. O canal largo tira o pó do furo, e o jogo maior inclui os diâmetros usados com buchas mais pesadas."
+  },
+  "price": {
+    "BRL": 34.9,
+    "USD": 12
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "masonry drill bit",
+      "for power tools",
+      "carbide"
+    ],
+    "pt-BR": [
+      "broca de vídia",
+      "para furadeira",
+      "concreto"
+    ]
+  },
+  "defaultVariantId": "five-piece",
+  "options": [
+    {
+      "id": "pack",
+      "name": {
+        "en": "Set",
+        "pt-BR": "Jogo"
+      },
+      "values": [
+        {
+          "id": "five-piece",
+          "name": {
+            "en": "5 pieces",
+            "pt-BR": "5 peças"
+          }
+        },
+        {
+          "id": "eight-piece",
+          "name": {
+            "en": "8 pieces",
+            "pt-BR": "8 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "five-piece",
+      "sku": "CON-MASONRY-BITS-5",
+      "options": {
+        "pack": "five-piece"
+      },
+      "price": {
+        "BRL": 34.9,
+        "USD": 12
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Carbide masonry drill bits for brick and concrete",
+            "pt-BR": "Brocas de vídia para tijolo e concreto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Masonry bit drilling into a brick",
+            "pt-BR": "Broca de vídia furando um tijolo"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eight-piece",
+      "sku": "CON-MASONRY-BITS-8",
+      "options": {
+        "pack": "eight-piece"
+      },
+      "price": {
+        "BRL": 52,
+        "USD": 18
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Carbide masonry drill bits for brick and concrete",
+            "pt-BR": "Brocas de vídia para tijolo e concreto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Masonry bit drilling into a brick",
+            "pt-BR": "Broca de vídia furando um tijolo"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

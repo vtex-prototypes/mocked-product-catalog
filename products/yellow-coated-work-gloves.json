@@ -1,0 +1,105 @@
+{
+  "id": "yellow-coated-work-gloves",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "Yellow Knit Work Gloves with Orange Rubber Palms, Sold by the Pair",
+    "pt-BR": "Luva de Malha Amarela com Palma Emborrachada Laranja, Vendida por Par"
+  },
+  "description": {
+    "en": "Knit work gloves with a rubber palm for brick, bagged cement, and rough tile. The medium pair fits most hands, and the large pair adds room over a liner.",
+    "pt-BR": "Luva de malha com palma emborrachada para tijolo, saco de cimento e peça áspera. O par médio serve na maioria das mãos, e o grande cabe por cima de um forro."
+  },
+  "price": {
+    "BRL": 16.9,
+    "USD": 7
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "work gloves",
+      "for basic materials",
+      "grip"
+    ],
+    "pt-BR": [
+      "luva",
+      "para materiais básicos",
+      "aderência"
+    ]
+  },
+  "defaultVariantId": "medium",
+  "options": [
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "medium",
+          "name": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        },
+        {
+          "id": "large",
+          "name": {
+            "en": "Large",
+            "pt-BR": "Grande"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "medium",
+      "sku": "CON-GLOVES-M",
+      "options": {
+        "size": "medium"
+      },
+      "price": {
+        "BRL": 16.9,
+        "USD": 7
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Yellow work gloves with orange rubber palms",
+            "pt-BR": "Luvas amarelas com palma laranja"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large",
+      "sku": "CON-GLOVES-L",
+      "options": {
+        "size": "large"
+      },
+      "price": {
+        "BRL": 19.9,
+        "USD": 8
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Yellow work gloves with orange rubber palms",
+            "pt-BR": "Luvas amarelas com palma laranja"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

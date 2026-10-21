@@ -1,0 +1,125 @@
+{
+  "id": "yellow-microfiber-paint-roller",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "Yellow Microfiber Paint Roller with Wire Frame for Interior Walls, Sold by the Piece",
+    "pt-BR": "Rolo de Pintura de Microfibra Amarela com Suporte para Parede Interna, Vendido por Peça"
+  },
+  "description": {
+    "en": "A microfiber roller and wire frame for flat and eggshell interior paint. The shorter cover gets into corners and doors, and the longer cover covers open walls faster.",
+    "pt-BR": "Rolo de microfibra com suporte de arame para tinta interna fosca e acetinada. A capa curta entra em cantos e portas, e a longa cobre paredes abertas mais rápido."
+  },
+  "price": {
+    "BRL": 22.9,
+    "USD": 8
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "paint roller",
+      "for paint",
+      "interior"
+    ],
+    "pt-BR": [
+      "rolo de pintura",
+      "para tinta",
+      "interno"
+    ]
+  },
+  "defaultVariantId": "230-mm",
+  "options": [
+    {
+      "id": "width",
+      "name": {
+        "en": "Width",
+        "pt-BR": "Largura"
+      },
+      "values": [
+        {
+          "id": "230-mm",
+          "name": {
+            "en": "9 inches",
+            "pt-BR": "23 cm"
+          }
+        },
+        {
+          "id": "100-mm",
+          "name": {
+            "en": "4 inches",
+            "pt-BR": "10 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "230-mm",
+      "sku": "CON-ROLLER-230",
+      "options": {
+        "width": "230-mm"
+      },
+      "price": {
+        "BRL": 22.9,
+        "USD": 8
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Yellow microfiber paint roller with wire frame",
+            "pt-BR": "Rolo de microfibra amarela com suporte"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Paint roller applying white paint to an interior wall",
+            "pt-BR": "Rolo aplicando tinta branca em parede interna"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "100-mm",
+      "sku": "CON-ROLLER-100",
+      "options": {
+        "width": "100-mm"
+      },
+      "price": {
+        "BRL": 16.9,
+        "USD": 6
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Yellow microfiber paint roller with wire frame",
+            "pt-BR": "Rolo de microfibra amarela com suporte"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Paint roller applying white paint to an interior wall",
+            "pt-BR": "Rolo aplicando tinta branca em parede interna"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1318,6 +1318,14 @@
         "pt-BR": "Ferramentas elétricas"
       },
       "parent": "construcao"
+    },
+    {
+      "id": "construcao-acessorios",
+      "name": {
+        "en": "Job Accessories",
+        "pt-BR": "Acessórios de obra"
+      },
+      "parent": "construcao"
     }
   ],
   "products": [
@@ -3076,6 +3084,147 @@
               "src": {
                 "#ffffff": "images/air-mattress/navy-white.webp",
                 "#f5f5f5": "images/air-mattress/navy-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "angled-sash-paint-brush",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "Angled Sash Paint Brush with a Wooden Handle for Edges and Trim, Sold by the Piece",
+        "pt-BR": "Trincha Angular com Cabo de Madeira para Cantos e Rodapés, Vendida por Peça"
+      },
+      "description": {
+        "en": "An angled brush for cutting in along ceilings, frames, and baseboards. The narrower brush is for window bars, and the wider one lays paint along a long trim run.",
+        "pt-BR": "Trincha angular para recorte em teto, marco e rodapé. A mais estreita serve para barras de janela, e a mais larga acompanha um rodapé comprido."
+      },
+      "price": {
+        "BRL": 16.9,
+        "USD": 6
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "paint brush",
+          "for paint",
+          "trim"
+        ],
+        "pt-BR": [
+          "trincha",
+          "para tinta",
+          "rodapé"
+        ]
+      },
+      "defaultVariantId": "50-mm",
+      "options": [
+        {
+          "id": "width",
+          "name": {
+            "en": "Width",
+            "pt-BR": "Largura"
+          },
+          "values": [
+            {
+              "id": "50-mm",
+              "name": {
+                "en": "2 inches",
+                "pt-BR": "50 mm"
+              }
+            },
+            {
+              "id": "63-mm",
+              "name": {
+                "en": "2 1/2 inches",
+                "pt-BR": "63 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "50-mm",
+          "sku": "CON-BRUSH-50",
+          "options": {
+            "width": "50-mm"
+          },
+          "price": {
+            "BRL": 16.9,
+            "USD": 6
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Angled sash brush with a wooden handle",
+                "pt-BR": "Trincha angular com cabo de madeira"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/angled-sash-paint-brush/main-white.webp",
+                "#f5f5f5": "images/angled-sash-paint-brush/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Angled brush cutting in along a ceiling corner",
+                "pt-BR": "Trincha angular recortando o encontro com o teto"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/angled-sash-paint-brush/application-white.webp",
+                "#f5f5f5": "images/angled-sash-paint-brush/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "63-mm",
+          "sku": "CON-BRUSH-63",
+          "options": {
+            "width": "63-mm"
+          },
+          "price": {
+            "BRL": 19.9,
+            "USD": 7
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Angled sash brush with a wooden handle",
+                "pt-BR": "Trincha angular com cabo de madeira"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/angled-sash-paint-brush/main-white.webp",
+                "#f5f5f5": "images/angled-sash-paint-brush/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Angled brush cutting in along a ceiling corner",
+                "pt-BR": "Trincha angular recortando o encontro com o teto"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/angled-sash-paint-brush/application-white.webp",
+                "#f5f5f5": "images/angled-sash-paint-brush/application-gray.webp"
               }
             }
           ]
@@ -5168,6 +5317,119 @@
       ]
     },
     {
+      "id": "beige-masking-tape",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "Beige Masking Tape for Paint Edges on Trim and Glass, Sold by the Roll",
+        "pt-BR": "Fita Crepe Bege para Recorte de Pintura em Marco e Vidro, Vendida por Rolo"
+      },
+      "description": {
+        "en": "Crepe masking tape that lifts off trim and glass after the paint dries. The narrow roll follows curves, and the wide roll protects a baseboard in one pass.",
+        "pt-BR": "Fita crepe que solta de marco e vidro depois que a tinta seca. O rolo estreito acompanha curvas, e o largo protege o rodapé de uma vez."
+      },
+      "price": {
+        "BRL": 8.9,
+        "USD": 3.5
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "masking tape",
+          "for paint",
+          "trim"
+        ],
+        "pt-BR": [
+          "fita crepe",
+          "para tinta",
+          "rodapé"
+        ]
+      },
+      "defaultVariantId": "24-mm",
+      "options": [
+        {
+          "id": "width",
+          "name": {
+            "en": "Width",
+            "pt-BR": "Largura"
+          },
+          "values": [
+            {
+              "id": "24-mm",
+              "name": {
+                "en": "1 inch",
+                "pt-BR": "24 mm"
+              }
+            },
+            {
+              "id": "48-mm",
+              "name": {
+                "en": "2 inches",
+                "pt-BR": "48 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "24-mm",
+          "sku": "CON-MASKING-24",
+          "options": {
+            "width": "24-mm"
+          },
+          "price": {
+            "BRL": 8.9,
+            "USD": 3.5
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Roll of beige masking tape",
+                "pt-BR": "Rolo de fita crepe bege"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/beige-masking-tape/main-white.webp",
+                "#f5f5f5": "images/beige-masking-tape/main-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "48-mm",
+          "sku": "CON-MASKING-48",
+          "options": {
+            "width": "48-mm"
+          },
+          "price": {
+            "BRL": 14.9,
+            "USD": 5
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Roll of beige masking tape",
+                "pt-BR": "Rolo de fita crepe bege"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/beige-masking-tape/main-white.webp",
+                "#f5f5f5": "images/beige-masking-tape/main-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "beige-rustic-ceramic-tile",
       "categoryId": "construcao-pisos",
       "name": {
@@ -6135,6 +6397,147 @@
               "src": {
                 "#ffffff": "images/bike-shorts/detail-white.webp",
                 "#f5f5f5": "images/bike-shorts/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bimetal-hole-saw",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "Bimetal Hole Saw with Arbor and Pilot Bit for Wood and Sheet Metal, Sold by the Piece",
+        "pt-BR": "Serra-Copo Bimetálica com Suporte e Broca-Guia para Madeira e Chapa, Vendida por Peça"
+      },
+      "description": {
+        "en": "A cup saw for round cutouts in wood, plywood, and thin sheet metal. The pilot bit keeps the cup centered, and the two diameters fit a lock bore or a small duct opening.",
+        "pt-BR": "Serra-copo para recortes redondos em madeira, compensado e chapa fina. A broca-guia mantém o copo no centro, e os dois diâmetros servem para fechadura ou uma passagem pequena."
+      },
+      "price": {
+        "BRL": 44.9,
+        "USD": 16
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "hole saw",
+          "for power tools",
+          "wood"
+        ],
+        "pt-BR": [
+          "serra-copo",
+          "para furadeira",
+          "madeira"
+        ]
+      },
+      "defaultVariantId": "51-mm",
+      "options": [
+        {
+          "id": "diameter",
+          "name": {
+            "en": "Diameter",
+            "pt-BR": "Diâmetro"
+          },
+          "values": [
+            {
+              "id": "51-mm",
+              "name": {
+                "en": "2 inches",
+                "pt-BR": "51 mm"
+              }
+            },
+            {
+              "id": "76-mm",
+              "name": {
+                "en": "3 inches",
+                "pt-BR": "76 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "51-mm",
+          "sku": "CON-HOLE-SAW-51",
+          "options": {
+            "diameter": "51-mm"
+          },
+          "price": {
+            "BRL": 44.9,
+            "USD": 16
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bimetal hole saw with arbor and pilot bit",
+                "pt-BR": "Serra-copo bimetálica com suporte e broca-guia"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bimetal-hole-saw/main-white.webp",
+                "#f5f5f5": "images/bimetal-hole-saw/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Hole saw cutting a round opening in a wood board",
+                "pt-BR": "Serra-copo abrindo um furo redondo em madeira"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bimetal-hole-saw/application-white.webp",
+                "#f5f5f5": "images/bimetal-hole-saw/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "76-mm",
+          "sku": "CON-HOLE-SAW-76",
+          "options": {
+            "diameter": "76-mm"
+          },
+          "price": {
+            "BRL": 69,
+            "USD": 24
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bimetal hole saw with arbor and pilot bit",
+                "pt-BR": "Serra-copo bimetálica com suporte e broca-guia"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bimetal-hole-saw/main-white.webp",
+                "#f5f5f5": "images/bimetal-hole-saw/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Hole saw cutting a round opening in a wood board",
+                "pt-BR": "Serra-copo abrindo um furo redondo em madeira"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bimetal-hole-saw/application-white.webp",
+                "#f5f5f5": "images/bimetal-hole-saw/application-gray.webp"
               }
             }
           ]
@@ -10574,6 +10977,119 @@
       }
     },
     {
+      "id": "black-plastic-paint-tray",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "Black Plastic Paint Tray with a Ribbed Ramp for Rollers, Sold by the Piece",
+        "pt-BR": "Bandeja Plástica Preta com Rampa para Rolo de Pintura, Vendida por Peça"
+      },
+      "description": {
+        "en": "A deep paint tray with a ribbed ramp that loads the roller evenly. The smaller tray suits a 4-inch roller, and the larger one holds enough paint for a full wall.",
+        "pt-BR": "Bandeja funda com rampa que carrega o rolo por igual. A menor combina com o rolo de 10 cm, e a maior comporta tinta para uma parede inteira."
+      },
+      "price": {
+        "BRL": 12.9,
+        "USD": 5
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "paint tray",
+          "for paint",
+          "roller"
+        ],
+        "pt-BR": [
+          "bandeja de tinta",
+          "para tinta",
+          "rolo"
+        ]
+      },
+      "defaultVariantId": "small",
+      "options": [
+        {
+          "id": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "small",
+              "name": {
+                "en": "Small",
+                "pt-BR": "Pequena"
+              }
+            },
+            {
+              "id": "large",
+              "name": {
+                "en": "Large",
+                "pt-BR": "Grande"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "small",
+          "sku": "CON-TRAY-SMALL",
+          "options": {
+            "size": "small"
+          },
+          "price": {
+            "BRL": 12.9,
+            "USD": 5
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black plastic paint tray with a ribbed ramp",
+                "pt-BR": "Bandeja plástica preta com rampa"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/black-plastic-paint-tray/main-white.webp",
+                "#f5f5f5": "images/black-plastic-paint-tray/main-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "large",
+          "sku": "CON-TRAY-LARGE",
+          "options": {
+            "size": "large"
+          },
+          "price": {
+            "BRL": 18.9,
+            "USD": 7
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black plastic paint tray with a ribbed ramp",
+                "pt-BR": "Bandeja plástica preta com rampa"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/black-plastic-paint-tray/main-white.webp",
+                "#f5f5f5": "images/black-plastic-paint-tray/main-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "black-pleated-mini-skirt",
       "brandId": "fio-puro",
       "brand": {
@@ -13772,6 +14288,119 @@
       }
     },
     {
+      "id": "black-vinyl-electrical-tape",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "Black Vinyl Electrical Tape for Splices and Wire Bundles, Sold by the Roll",
+        "pt-BR": "Fita Isolante Preta para Emendas e Feixes de Fio, Vendida por Rolo"
+      },
+      "description": {
+        "en": "Vinyl electrical tape for wrapping splices and marking conductors. One roll covers a small repair, and the three-roll pack is enough for a room of new outlets.",
+        "pt-BR": "Fita isolante de vinil para enrolar emendas e marcar condutores. Um rolo cobre um reparo pequeno, e o pacote com três dá para os pontos novos de um cômodo."
+      },
+      "price": {
+        "BRL": 6.5,
+        "USD": 2.2
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "electrical tape",
+          "for electrical",
+          "splice"
+        ],
+        "pt-BR": [
+          "fita isolante",
+          "para elétrica",
+          "emenda"
+        ]
+      },
+      "defaultVariantId": "one-roll",
+      "options": [
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "one-roll",
+              "name": {
+                "en": "1 roll",
+                "pt-BR": "1 rolo"
+              }
+            },
+            {
+              "id": "three-rolls",
+              "name": {
+                "en": "3 rolls",
+                "pt-BR": "3 rolos"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "one-roll",
+          "sku": "CON-ETAPE-1",
+          "options": {
+            "pack": "one-roll"
+          },
+          "price": {
+            "BRL": 6.5,
+            "USD": 2.2
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Roll of black vinyl electrical tape",
+                "pt-BR": "Rolo de fita isolante preta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/black-vinyl-electrical-tape/main-white.webp",
+                "#f5f5f5": "images/black-vinyl-electrical-tape/main-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "three-rolls",
+          "sku": "CON-ETAPE-3",
+          "options": {
+            "pack": "three-rolls"
+          },
+          "price": {
+            "BRL": 16.9,
+            "USD": 5.5
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Roll of black vinyl electrical tape",
+                "pt-BR": "Rolo de fita isolante preta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/black-vinyl-electrical-tape/main-white.webp",
+                "#f5f5f5": "images/black-vinyl-electrical-tape/main-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "black-vneck-linen-blouse",
       "brandId": "fio-puro",
       "brand": {
@@ -14219,6 +14848,147 @@
               "src": {
                 "#ffffff": "images/blue-glass-mosaic-sheet/detail-white.webp",
                 "#f5f5f5": "images/blue-glass-mosaic-sheet/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blue-spade-wood-bit-set",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "Blue Spade Wood Drill Bit Set with Hex Shanks, Sold by the Set",
+        "pt-BR": "Jogo de Brocas Chatas Azuis para Madeira com Encaixe Sextavado, Vendido por Jogo"
+      },
+      "description": {
+        "en": "Flat spade bits for fast holes in timber, studs, and furniture panels. The hex shank keeps the bit from slipping in the chuck, and the three widths cover cable and dowel holes.",
+        "pt-BR": "Brocas chatas para furos rápidos em madeira, montantes e painéis de móveis. O encaixe sextavado não patina no mandril, e as três medidas cobrem furo de cabo e de cavilha."
+      },
+      "price": {
+        "BRL": 29.9,
+        "USD": 11
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "spade bit",
+          "for power tools",
+          "wood"
+        ],
+        "pt-BR": [
+          "broca chata",
+          "para furadeira",
+          "madeira"
+        ]
+      },
+      "defaultVariantId": "three-piece",
+      "options": [
+        {
+          "id": "pack",
+          "name": {
+            "en": "Set",
+            "pt-BR": "Jogo"
+          },
+          "values": [
+            {
+              "id": "three-piece",
+              "name": {
+                "en": "3 pieces",
+                "pt-BR": "3 peças"
+              }
+            },
+            {
+              "id": "six-piece",
+              "name": {
+                "en": "6 pieces",
+                "pt-BR": "6 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "three-piece",
+          "sku": "CON-SPADE-BITS-3",
+          "options": {
+            "pack": "three-piece"
+          },
+          "price": {
+            "BRL": 29.9,
+            "USD": 11
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Blue spade bits for drilling wood",
+                "pt-BR": "Brocas chatas azuis para furar madeira"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/blue-spade-wood-bit-set/main-white.webp",
+                "#f5f5f5": "images/blue-spade-wood-bit-set/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Spade bit drilling a hole in a pine board",
+                "pt-BR": "Broca chata furando uma tábua de pinho"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/blue-spade-wood-bit-set/application-white.webp",
+                "#f5f5f5": "images/blue-spade-wood-bit-set/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "six-piece",
+          "sku": "CON-SPADE-BITS-6",
+          "options": {
+            "pack": "six-piece"
+          },
+          "price": {
+            "BRL": 45,
+            "USD": 16
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Blue spade bits for drilling wood",
+                "pt-BR": "Brocas chatas azuis para furar madeira"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/blue-spade-wood-bit-set/main-white.webp",
+                "#f5f5f5": "images/blue-spade-wood-bit-set/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Spade bit drilling a hole in a pine board",
+                "pt-BR": "Broca chata furando uma tábua de pinho"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/blue-spade-wood-bit-set/application-white.webp",
+                "#f5f5f5": "images/blue-spade-wood-bit-set/application-gray.webp"
               }
             }
           ]
@@ -17591,6 +18361,147 @@
       ]
     },
     {
+      "id": "carbide-masonry-drill-bit-set",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "Carbide Masonry Drill Bit Set for Brick and Concrete, Sold by the Set",
+        "pt-BR": "Jogo de Brocas de Vídia para Tijolo e Concreto, Vendido por Jogo"
+      },
+      "description": {
+        "en": "Carbide-tipped masonry bits for brick, block, and concrete. The wider flute clears dust from the hole, and the larger set adds the diameters used with heavier wall anchors.",
+        "pt-BR": "Brocas com ponta de vídia para tijolo, bloco e concreto. O canal largo tira o pó do furo, e o jogo maior inclui os diâmetros usados com buchas mais pesadas."
+      },
+      "price": {
+        "BRL": 34.9,
+        "USD": 12
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "masonry drill bit",
+          "for power tools",
+          "carbide"
+        ],
+        "pt-BR": [
+          "broca de vídia",
+          "para furadeira",
+          "concreto"
+        ]
+      },
+      "defaultVariantId": "five-piece",
+      "options": [
+        {
+          "id": "pack",
+          "name": {
+            "en": "Set",
+            "pt-BR": "Jogo"
+          },
+          "values": [
+            {
+              "id": "five-piece",
+              "name": {
+                "en": "5 pieces",
+                "pt-BR": "5 peças"
+              }
+            },
+            {
+              "id": "eight-piece",
+              "name": {
+                "en": "8 pieces",
+                "pt-BR": "8 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "five-piece",
+          "sku": "CON-MASONRY-BITS-5",
+          "options": {
+            "pack": "five-piece"
+          },
+          "price": {
+            "BRL": 34.9,
+            "USD": 12
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Carbide masonry drill bits for brick and concrete",
+                "pt-BR": "Brocas de vídia para tijolo e concreto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/carbide-masonry-drill-bit-set/main-white.webp",
+                "#f5f5f5": "images/carbide-masonry-drill-bit-set/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Masonry bit drilling into a brick",
+                "pt-BR": "Broca de vídia furando um tijolo"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/carbide-masonry-drill-bit-set/application-white.webp",
+                "#f5f5f5": "images/carbide-masonry-drill-bit-set/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "eight-piece",
+          "sku": "CON-MASONRY-BITS-8",
+          "options": {
+            "pack": "eight-piece"
+          },
+          "price": {
+            "BRL": 52,
+            "USD": 18
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Carbide masonry drill bits for brick and concrete",
+                "pt-BR": "Brocas de vídia para tijolo e concreto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/carbide-masonry-drill-bit-set/main-white.webp",
+                "#f5f5f5": "images/carbide-masonry-drill-bit-set/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Masonry bit drilling into a brick",
+                "pt-BR": "Broca de vídia furando um tijolo"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/carbide-masonry-drill-bit-set/application-white.webp",
+                "#f5f5f5": "images/carbide-masonry-drill-bit-set/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "casa-norte-b20-p-brushless-drill-driver",
       "brandId": "casa-norte",
       "brand": {
@@ -18644,6 +19555,127 @@
               "src": {
                 "#ffffff": "images/casa-norte-sds900-r-rotary-hammer/application-white.webp",
                 "#f5f5f5": "images/casa-norte-sds900-r-rotary-hammer/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "casa-norte-slide-battery",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "Casa Norte 18-Volt Slide Battery Pack for Cordless Drills, Sold in Two Capacities",
+        "pt-BR": "Bateria Deslizante Casa Norte 18 V para Furadeiras sem Fio, Vendida em Duas Capacidades"
+      },
+      "description": {
+        "en": "A slide-on pack for Casa Norte 18-volt drills and drivers. The 2 Ah pack stays light for overhead work, and the 4 Ah pack runs longer on masonry holes.",
+        "pt-BR": "Bateria de encaixe para furadeiras e parafusadeiras Casa Norte de 18 V. A de 2 Ah fica leve para trabalho acima da cabeça, e a de 4 Ah dura mais em furo de alvenaria."
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 59
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "battery pack",
+          "for power tools",
+          "18 volt"
+        ],
+        "pt-BR": [
+          "bateria",
+          "para furadeira",
+          "18 V"
+        ]
+      },
+      "defaultVariantId": "2-ah",
+      "options": [
+        {
+          "id": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "values": [
+            {
+              "id": "2-ah",
+              "name": {
+                "en": "2 Ah",
+                "pt-BR": "2 Ah"
+              }
+            },
+            {
+              "id": "4-ah",
+              "name": {
+                "en": "4 Ah",
+                "pt-BR": "4 Ah"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "2-ah",
+          "sku": "CON-SLIDE-BATTERY-2",
+          "options": {
+            "capacity": "2-ah"
+          },
+          "price": {
+            "BRL": 189,
+            "USD": 59
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte 18-volt slide battery pack",
+                "pt-BR": "Bateria deslizante Casa Norte 18 V"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-slide-battery/main-white.webp",
+                "#f5f5f5": "images/casa-norte-slide-battery/main-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4-ah",
+          "sku": "CON-SLIDE-BATTERY-4",
+          "options": {
+            "capacity": "4-ah"
+          },
+          "price": {
+            "BRL": 329,
+            "USD": 99
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte 18-volt slide battery pack",
+                "pt-BR": "Bateria deslizante Casa Norte 18 V"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-slide-battery/main-white.webp",
+                "#f5f5f5": "images/casa-norte-slide-battery/main-gray.webp"
               }
             }
           ]
@@ -64145,6 +65177,288 @@
       }
     },
     {
+      "id": "red-ribbed-wall-anchors",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "Red Ribbed Plastic Wall Anchors with Screws for Drywall and Masonry, Sold by the Pack",
+        "pt-BR": "Buchas Plásticas Vermelhas com Parafusos para Drywall e Alvenaria, Vendidas por Pacote"
+      },
+      "description": {
+        "en": "Ribbed plastic anchors and matching screws for shelves, brackets, and frames. The 6 mm pack suits light fixings, and the 8 mm pack holds heavier brackets in solid walls.",
+        "pt-BR": "Buchas com estrias e parafusos para prateleiras, suportes e quadros. O pacote de 6 mm serve para fixações leves, e o de 8 mm segura suportes mais pesados em parede maciça."
+      },
+      "price": {
+        "BRL": 14.9,
+        "USD": 6
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "wall anchor",
+          "for power tools",
+          "drywall"
+        ],
+        "pt-BR": [
+          "bucha",
+          "para furadeira",
+          "drywall"
+        ]
+      },
+      "defaultVariantId": "6-mm",
+      "options": [
+        {
+          "id": "diameter",
+          "name": {
+            "en": "Diameter",
+            "pt-BR": "Diâmetro"
+          },
+          "values": [
+            {
+              "id": "6-mm",
+              "name": {
+                "en": "1/4 inch, 50 pieces",
+                "pt-BR": "6 mm, 50 peças"
+              }
+            },
+            {
+              "id": "8-mm",
+              "name": {
+                "en": "5/16 inch, 40 pieces",
+                "pt-BR": "8 mm, 40 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "6-mm",
+          "sku": "CON-ANCHORS-6",
+          "options": {
+            "diameter": "6-mm"
+          },
+          "price": {
+            "BRL": 14.9,
+            "USD": 6
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Red ribbed wall anchors with matching screws",
+                "pt-BR": "Buchas vermelhas com parafusos"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/red-ribbed-wall-anchors/main-white.webp",
+                "#f5f5f5": "images/red-ribbed-wall-anchors/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Red wall anchor set in a drywall hole",
+                "pt-BR": "Bucha vermelha assentada em um furo de drywall"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/red-ribbed-wall-anchors/application-white.webp",
+                "#f5f5f5": "images/red-ribbed-wall-anchors/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "8-mm",
+          "sku": "CON-ANCHORS-8",
+          "options": {
+            "diameter": "8-mm"
+          },
+          "price": {
+            "BRL": 18.9,
+            "USD": 7.5
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Red ribbed wall anchors with matching screws",
+                "pt-BR": "Buchas vermelhas com parafusos"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/red-ribbed-wall-anchors/main-white.webp",
+                "#f5f5f5": "images/red-ribbed-wall-anchors/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Red wall anchor set in a drywall hole",
+                "pt-BR": "Bucha vermelha assentada em um furo de drywall"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/red-ribbed-wall-anchors/application-white.webp",
+                "#f5f5f5": "images/red-ribbed-wall-anchors/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red-rubber-grout-float",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "Red Rubber Grout Float for Packing Joints on Floor and Wall Tile, Sold by the Piece",
+        "pt-BR": "Desempenadeira de Borracha Vermelha para Rejunte de Piso e Parede, Vendida por Peça"
+      },
+      "description": {
+        "en": "A firm rubber float that pushes grout into joints and leaves the tile face cleaner. The smaller pad suits a backsplash, and the larger pad covers a floor faster.",
+        "pt-BR": "Desempenadeira de borracha firme que empurra o rejunte para a junta e suja menos a face da peça. A base menor serve para uma faixa de cozinha, e a maior cobre o piso mais rápido."
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 7
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "grout float",
+          "for grout",
+          "for floors"
+        ],
+        "pt-BR": [
+          "desempenadeira de rejunte",
+          "para rejunte",
+          "para piso"
+        ]
+      },
+      "defaultVariantId": "small",
+      "options": [
+        {
+          "id": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "small",
+              "name": {
+                "en": "Small",
+                "pt-BR": "Pequena"
+              }
+            },
+            {
+              "id": "large",
+              "name": {
+                "en": "Large",
+                "pt-BR": "Grande"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "small",
+          "sku": "CON-FLOAT-SMALL",
+          "options": {
+            "size": "small"
+          },
+          "price": {
+            "BRL": 18.9,
+            "USD": 7
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Red rubber grout float",
+                "pt-BR": "Desempenadeira de borracha vermelha"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/red-rubber-grout-float/main-white.webp",
+                "#f5f5f5": "images/red-rubber-grout-float/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Rubber float packing gray grout into tile joints",
+                "pt-BR": "Desempenadeira preenchendo juntas com rejunte cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/red-rubber-grout-float/application-white.webp",
+                "#f5f5f5": "images/red-rubber-grout-float/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "large",
+          "sku": "CON-FLOAT-LARGE",
+          "options": {
+            "size": "large"
+          },
+          "price": {
+            "BRL": 24.9,
+            "USD": 9
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Red rubber grout float",
+                "pt-BR": "Desempenadeira de borracha vermelha"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/red-rubber-grout-float/main-white.webp",
+                "#f5f5f5": "images/red-rubber-grout-float/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Rubber float packing gray grout into tile joints",
+                "pt-BR": "Desempenadeira preenchendo juntas com rejunte cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/red-rubber-grout-float/application-white.webp",
+                "#f5f5f5": "images/red-rubber-grout-float/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ribbed-lounge-set",
       "brandId": "ritmo",
       "brand": {
@@ -73952,6 +75266,148 @@
       ]
     },
     {
+      "id": "square-notch-tiling-trowel",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "Square-Notch Tiling Trowel for Thinset under Floor and Wall Tile, Sold by the Piece",
+        "pt-BR": "Desempenadeira Dentada para Argamassa sob Piso e Parede, Vendida por Peça"
+      },
+      "description": {
+        "en": "A square-notch trowel that combs thinset to a set depth. The smaller notch is for ceramic wall tile, and the larger notch beds porcelain floor tile.",
+        "pt-BR": "Desempenadeira de dente quadrado que penteia a argamassa numa altura certa. O dente menor é para cerâmica de parede, e o maior assenta porcelanato de piso."
+      },
+      "price": {
+        "BRL": 34.9,
+        "USD": 13
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "notched trowel",
+          "for floors",
+          "for wall tile",
+          "for mortar"
+        ],
+        "pt-BR": [
+          "desempenadeira",
+          "para piso",
+          "para argamassa"
+        ]
+      },
+      "defaultVariantId": "6-mm",
+      "options": [
+        {
+          "id": "notch",
+          "name": {
+            "en": "Notch",
+            "pt-BR": "Dente"
+          },
+          "values": [
+            {
+              "id": "6-mm",
+              "name": {
+                "en": "1/4 inch notch",
+                "pt-BR": "Dente de 6 mm"
+              }
+            },
+            {
+              "id": "10-mm",
+              "name": {
+                "en": "3/8 inch notch",
+                "pt-BR": "Dente de 10 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "6-mm",
+          "sku": "CON-TROWEL-6",
+          "options": {
+            "notch": "6-mm"
+          },
+          "price": {
+            "BRL": 34.9,
+            "USD": 13
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Square-notch trowel with a black handle",
+                "pt-BR": "Desempenadeira dentada com cabo preto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/square-notch-tiling-trowel/main-white.webp",
+                "#f5f5f5": "images/square-notch-tiling-trowel/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Notched trowel combing gray thinset",
+                "pt-BR": "Desempenadeira penteando argamassa cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/square-notch-tiling-trowel/application-white.webp",
+                "#f5f5f5": "images/square-notch-tiling-trowel/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "10-mm",
+          "sku": "CON-TROWEL-10",
+          "options": {
+            "notch": "10-mm"
+          },
+          "price": {
+            "BRL": 42,
+            "USD": 16
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Square-notch trowel with a black handle",
+                "pt-BR": "Desempenadeira dentada com cabo preto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/square-notch-tiling-trowel/main-white.webp",
+                "#f5f5f5": "images/square-notch-tiling-trowel/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Notched trowel combing gray thinset",
+                "pt-BR": "Desempenadeira penteando argamassa cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/square-notch-tiling-trowel/application-white.webp",
+                "#f5f5f5": "images/square-notch-tiling-trowel/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "stainless-braided-hose-30-cm",
       "categoryId": "construcao-hidraulica",
       "name": {
@@ -75085,6 +76541,147 @@
               "src": {
                 "#ffffff": "images/standard-gray-grout/detail-white.webp",
                 "#f5f5f5": "images/standard-gray-grout/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steel-mixing-paddle",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "Steel Spiral Mixing Paddle for Thinset and Mortar, Hex Shank, Sold by the Piece",
+        "pt-BR": "Hélice de Aço para Misturar Argamassa, com Encaixe Sextavado, Vendida por Peça"
+      },
+      "description": {
+        "en": "A spiral paddle that mixes thinset and mortar in a bucket when chucked in a drill. The shorter paddle suits a small bucket, and the longer one reaches a full bag mix.",
+        "pt-BR": "Hélice que mistura argamassa no balde quando presa na furadeira. A mais curta serve para um balde pequeno, e a mais longa alcança a massa de um saco inteiro."
+      },
+      "price": {
+        "BRL": 32,
+        "USD": 12
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "mixing paddle",
+          "for mortar",
+          "for power tools"
+        ],
+        "pt-BR": [
+          "hélice misturadora",
+          "para argamassa",
+          "para furadeira"
+        ]
+      },
+      "defaultVariantId": "400-mm",
+      "options": [
+        {
+          "id": "length",
+          "name": {
+            "en": "Length",
+            "pt-BR": "Comprimento"
+          },
+          "values": [
+            {
+              "id": "400-mm",
+              "name": {
+                "en": "16 inches",
+                "pt-BR": "40 cm"
+              }
+            },
+            {
+              "id": "600-mm",
+              "name": {
+                "en": "24 inches",
+                "pt-BR": "60 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "400-mm",
+          "sku": "CON-PADDLE-400",
+          "options": {
+            "length": "400-mm"
+          },
+          "price": {
+            "BRL": 32,
+            "USD": 12
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Steel spiral mixing paddle with a hex shank",
+                "pt-BR": "Hélice de aço com encaixe sextavado"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/steel-mixing-paddle/main-white.webp",
+                "#f5f5f5": "images/steel-mixing-paddle/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Mixing paddle standing in a bucket of gray mortar",
+                "pt-BR": "Hélice dentro de um balde de argamassa cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/steel-mixing-paddle/application-white.webp",
+                "#f5f5f5": "images/steel-mixing-paddle/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "600-mm",
+          "sku": "CON-PADDLE-600",
+          "options": {
+            "length": "600-mm"
+          },
+          "price": {
+            "BRL": 45,
+            "USD": 16
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Steel spiral mixing paddle with a hex shank",
+                "pt-BR": "Hélice de aço com encaixe sextavado"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/steel-mixing-paddle/main-white.webp",
+                "#f5f5f5": "images/steel-mixing-paddle/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Mixing paddle standing in a bucket of gray mortar",
+                "pt-BR": "Hélice dentro de um balde de argamassa cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/steel-mixing-paddle/application-white.webp",
+                "#f5f5f5": "images/steel-mixing-paddle/application-gray.webp"
               }
             }
           ]
@@ -86097,6 +87694,147 @@
       ]
     },
     {
+      "id": "white-cross-tile-spacers",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "White Cross Tile Spacers for Even Floor and Wall Joints, Sold by the Bag",
+        "pt-BR": "Espaçadores de Piso e Parede em Cruz Branca, Vendidos por Pacote"
+      },
+      "description": {
+        "en": "Cross spacers that keep floor and wall tile joints even while the thinset sets. The 2 mm bag is for rectified tile, and the 3 mm bag leaves a joint that takes standard grout.",
+        "pt-BR": "Espaçadores em cruz que mantêm a junta de piso e parede regular enquanto a argamassa puxa. O pacote de 2 mm é para peça retificada, e o de 3 mm deixa junta para rejunte comum."
+      },
+      "price": {
+        "BRL": 7.9,
+        "USD": 3
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "tile spacer",
+          "for floors",
+          "for wall tile"
+        ],
+        "pt-BR": [
+          "espaçador",
+          "para piso",
+          "para revestimento"
+        ]
+      },
+      "defaultVariantId": "2-mm",
+      "options": [
+        {
+          "id": "joint",
+          "name": {
+            "en": "Joint",
+            "pt-BR": "Junta"
+          },
+          "values": [
+            {
+              "id": "2-mm",
+              "name": {
+                "en": "1/16 inch, 200 pieces",
+                "pt-BR": "2 mm, 200 peças"
+              }
+            },
+            {
+              "id": "3-mm",
+              "name": {
+                "en": "1/8 inch, 200 pieces",
+                "pt-BR": "3 mm, 200 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "2-mm",
+          "sku": "CON-SPACERS-2",
+          "options": {
+            "joint": "2-mm"
+          },
+          "price": {
+            "BRL": 7.9,
+            "USD": 3
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White cross spacers for tile joints",
+                "pt-BR": "Espaçadores brancos em cruz para juntas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-cross-tile-spacers/main-white.webp",
+                "#f5f5f5": "images/white-cross-tile-spacers/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Cross spacers set in the joints of a light tile floor",
+                "pt-BR": "Espaçadores nas juntas de um piso claro"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-cross-tile-spacers/application-white.webp",
+                "#f5f5f5": "images/white-cross-tile-spacers/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "3-mm",
+          "sku": "CON-SPACERS-3",
+          "options": {
+            "joint": "3-mm"
+          },
+          "price": {
+            "BRL": 9.9,
+            "USD": 3.8
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White cross spacers for tile joints",
+                "pt-BR": "Espaçadores brancos em cruz para juntas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-cross-tile-spacers/main-white.webp",
+                "#f5f5f5": "images/white-cross-tile-spacers/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Cross spacers set in the joints of a light tile floor",
+                "pt-BR": "Espaçadores nas juntas de um piso claro"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-cross-tile-spacers/application-white.webp",
+                "#f5f5f5": "images/white-cross-tile-spacers/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "white-duplex-outlet",
       "categoryId": "construcao-eletrica",
       "name": {
@@ -87259,6 +88997,119 @@
         "BRL": 620,
         "USD": 129
       }
+    },
+    {
+      "id": "white-ptfe-thread-tape",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "White PTFE Thread-Seal Tape for Pipe Threads, Sold by the Roll",
+        "pt-BR": "Fita Veda-Rosca de PTFE Branca para Rosca de Tubo, Vendida por Rolo"
+      },
+      "description": {
+        "en": "Thin PTFE tape for sealing threaded pipe and faucet connections. One roll covers a few fittings, and the three-roll pack is enough for a bathroom rough-in.",
+        "pt-BR": "Fita fina de PTFE para vedar rosca de tubo e de torneira. Um rolo cobre algumas conexões, e o pacote com três dá para o ponto de um banheiro."
+      },
+      "price": {
+        "BRL": 4.5,
+        "USD": 1.8
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "thread tape",
+          "for plumbing",
+          "ptfe"
+        ],
+        "pt-BR": [
+          "veda-rosca",
+          "para hidráulica",
+          "ptfe"
+        ]
+      },
+      "defaultVariantId": "one-roll",
+      "options": [
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "one-roll",
+              "name": {
+                "en": "1 roll",
+                "pt-BR": "1 rolo"
+              }
+            },
+            {
+              "id": "three-rolls",
+              "name": {
+                "en": "3 rolls",
+                "pt-BR": "3 rolos"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "one-roll",
+          "sku": "CON-PTFE-1",
+          "options": {
+            "pack": "one-roll"
+          },
+          "price": {
+            "BRL": 4.5,
+            "USD": 1.8
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Small spool of white PTFE thread-seal tape",
+                "pt-BR": "Carretel pequeno de fita veda-rosca branca"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-ptfe-thread-tape/main-white.webp",
+                "#f5f5f5": "images/white-ptfe-thread-tape/main-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "three-rolls",
+          "sku": "CON-PTFE-3",
+          "options": {
+            "pack": "three-rolls"
+          },
+          "price": {
+            "BRL": 11.9,
+            "USD": 4
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Small spool of white PTFE thread-seal tape",
+                "pt-BR": "Carretel pequeno de fita veda-rosca branca"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-ptfe-thread-tape/main-white.webp",
+                "#f5f5f5": "images/white-ptfe-thread-tape/main-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "white-puff-sleeve-blouse",
@@ -89746,6 +91597,147 @@
               "src": {
                 "#ffffff": "images/white-rocker-switch/detail-white.webp",
                 "#f5f5f5": "images/white-rocker-switch/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "white-silicone-sealant",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "White Silicone Sealant Cartridge for Sinks, Tubs, and Tile Edges, Sold by the Tube",
+        "pt-BR": "Silicone Acético Branco em Bisnaga para Cuba, Banheira e Cantos de Revestimento, Vendido por Tubo"
+      },
+      "description": {
+        "en": "A white silicone cartridge for the joint where a sink, tub, or tile meets the wall. The smaller tube finishes one basin, and the larger tube seals a tub and its surround.",
+        "pt-BR": "Silicone branco para a junta em que a cuba, a banheira ou o revestimento encontra a parede. O tubo menor fecha uma cuba, e o maior veda a banheira e o box."
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 7
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "silicone sealant",
+          "for bathroom",
+          "for plumbing"
+        ],
+        "pt-BR": [
+          "silicone",
+          "para banheiro",
+          "para hidráulica"
+        ]
+      },
+      "defaultVariantId": "280-ml",
+      "options": [
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "280-ml",
+              "name": {
+                "en": "9.5 ounces",
+                "pt-BR": "280 ml"
+              }
+            },
+            {
+              "id": "400-ml",
+              "name": {
+                "en": "13.5 ounces",
+                "pt-BR": "400 ml"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "280-ml",
+          "sku": "CON-SILICONE-280",
+          "options": {
+            "volume": "280-ml"
+          },
+          "price": {
+            "BRL": 18.9,
+            "USD": 7
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White silicone sealant cartridge",
+                "pt-BR": "Bisnaga de silicone branco"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-silicone-sealant/main-white.webp",
+                "#f5f5f5": "images/white-silicone-sealant/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "White silicone bead along a sink joint",
+                "pt-BR": "Filete de silicone branco na junta de uma cuba"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-silicone-sealant/application-white.webp",
+                "#f5f5f5": "images/white-silicone-sealant/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "400-ml",
+          "sku": "CON-SILICONE-400",
+          "options": {
+            "volume": "400-ml"
+          },
+          "price": {
+            "BRL": 27.9,
+            "USD": 10
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White silicone sealant cartridge",
+                "pt-BR": "Bisnaga de silicone branco"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-silicone-sealant/main-white.webp",
+                "#f5f5f5": "images/white-silicone-sealant/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "White silicone bead along a sink joint",
+                "pt-BR": "Filete de silicone branco na junta de uma cuba"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-silicone-sealant/application-white.webp",
+                "#f5f5f5": "images/white-silicone-sealant/application-gray.webp"
               }
             }
           ]
@@ -97655,6 +99647,260 @@
               "src": {
                 "#ffffff": "images/woven-straw-tote/detail-white.webp",
                 "#f5f5f5": "images/woven-straw-tote/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yellow-coated-work-gloves",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "Yellow Knit Work Gloves with Orange Rubber Palms, Sold by the Pair",
+        "pt-BR": "Luva de Malha Amarela com Palma Emborrachada Laranja, Vendida por Par"
+      },
+      "description": {
+        "en": "Knit work gloves with a rubber palm for brick, bagged cement, and rough tile. The medium pair fits most hands, and the large pair adds room over a liner.",
+        "pt-BR": "Luva de malha com palma emborrachada para tijolo, saco de cimento e peça áspera. O par médio serve na maioria das mãos, e o grande cabe por cima de um forro."
+      },
+      "price": {
+        "BRL": 16.9,
+        "USD": 7
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "work gloves",
+          "for basic materials",
+          "grip"
+        ],
+        "pt-BR": [
+          "luva",
+          "para materiais básicos",
+          "aderência"
+        ]
+      },
+      "defaultVariantId": "medium",
+      "options": [
+        {
+          "id": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "medium",
+              "name": {
+                "en": "Medium",
+                "pt-BR": "Médio"
+              }
+            },
+            {
+              "id": "large",
+              "name": {
+                "en": "Large",
+                "pt-BR": "Grande"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "medium",
+          "sku": "CON-GLOVES-M",
+          "options": {
+            "size": "medium"
+          },
+          "price": {
+            "BRL": 16.9,
+            "USD": 7
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Yellow work gloves with orange rubber palms",
+                "pt-BR": "Luvas amarelas com palma laranja"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/yellow-coated-work-gloves/main-white.webp",
+                "#f5f5f5": "images/yellow-coated-work-gloves/main-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "large",
+          "sku": "CON-GLOVES-L",
+          "options": {
+            "size": "large"
+          },
+          "price": {
+            "BRL": 19.9,
+            "USD": 8
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Yellow work gloves with orange rubber palms",
+                "pt-BR": "Luvas amarelas com palma laranja"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/yellow-coated-work-gloves/main-white.webp",
+                "#f5f5f5": "images/yellow-coated-work-gloves/main-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yellow-microfiber-paint-roller",
+      "categoryId": "construcao-acessorios",
+      "name": {
+        "en": "Yellow Microfiber Paint Roller with Wire Frame for Interior Walls, Sold by the Piece",
+        "pt-BR": "Rolo de Pintura de Microfibra Amarela com Suporte para Parede Interna, Vendido por Peça"
+      },
+      "description": {
+        "en": "A microfiber roller and wire frame for flat and eggshell interior paint. The shorter cover gets into corners and doors, and the longer cover covers open walls faster.",
+        "pt-BR": "Rolo de microfibra com suporte de arame para tinta interna fosca e acetinada. A capa curta entra em cantos e portas, e a longa cobre paredes abertas mais rápido."
+      },
+      "price": {
+        "BRL": 22.9,
+        "USD": 8
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "paint roller",
+          "for paint",
+          "interior"
+        ],
+        "pt-BR": [
+          "rolo de pintura",
+          "para tinta",
+          "interno"
+        ]
+      },
+      "defaultVariantId": "230-mm",
+      "options": [
+        {
+          "id": "width",
+          "name": {
+            "en": "Width",
+            "pt-BR": "Largura"
+          },
+          "values": [
+            {
+              "id": "230-mm",
+              "name": {
+                "en": "9 inches",
+                "pt-BR": "23 cm"
+              }
+            },
+            {
+              "id": "100-mm",
+              "name": {
+                "en": "4 inches",
+                "pt-BR": "10 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "230-mm",
+          "sku": "CON-ROLLER-230",
+          "options": {
+            "width": "230-mm"
+          },
+          "price": {
+            "BRL": 22.9,
+            "USD": 8
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Yellow microfiber paint roller with wire frame",
+                "pt-BR": "Rolo de microfibra amarela com suporte"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/yellow-microfiber-paint-roller/main-white.webp",
+                "#f5f5f5": "images/yellow-microfiber-paint-roller/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Paint roller applying white paint to an interior wall",
+                "pt-BR": "Rolo aplicando tinta branca em parede interna"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/yellow-microfiber-paint-roller/application-white.webp",
+                "#f5f5f5": "images/yellow-microfiber-paint-roller/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "100-mm",
+          "sku": "CON-ROLLER-100",
+          "options": {
+            "width": "100-mm"
+          },
+          "price": {
+            "BRL": 16.9,
+            "USD": 6
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Yellow microfiber paint roller with wire frame",
+                "pt-BR": "Rolo de microfibra amarela com suporte"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/yellow-microfiber-paint-roller/main-white.webp",
+                "#f5f5f5": "images/yellow-microfiber-paint-roller/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Paint roller applying white paint to an interior wall",
+                "pt-BR": "Rolo aplicando tinta branca em parede interna"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/yellow-microfiber-paint-roller/application-white.webp",
+                "#f5f5f5": "images/yellow-microfiber-paint-roller/application-gray.webp"
               }
             }
           ]

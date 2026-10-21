@@ -1,0 +1,106 @@
+{
+  "id": "casa-norte-slide-battery",
+  "brandId": "casa-norte",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "Casa Norte 18-Volt Slide Battery Pack for Cordless Drills, Sold in Two Capacities",
+    "pt-BR": "Bateria Deslizante Casa Norte 18 V para Furadeiras sem Fio, Vendida em Duas Capacidades"
+  },
+  "description": {
+    "en": "A slide-on pack for Casa Norte 18-volt drills and drivers. The 2 Ah pack stays light for overhead work, and the 4 Ah pack runs longer on masonry holes.",
+    "pt-BR": "Bateria de encaixe para furadeiras e parafusadeiras Casa Norte de 18 V. A de 2 Ah fica leve para trabalho acima da cabeça, e a de 4 Ah dura mais em furo de alvenaria."
+  },
+  "price": {
+    "BRL": 189,
+    "USD": 59
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "battery pack",
+      "for power tools",
+      "18 volt"
+    ],
+    "pt-BR": [
+      "bateria",
+      "para furadeira",
+      "18 V"
+    ]
+  },
+  "defaultVariantId": "2-ah",
+  "options": [
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "2-ah",
+          "name": {
+            "en": "2 Ah",
+            "pt-BR": "2 Ah"
+          }
+        },
+        {
+          "id": "4-ah",
+          "name": {
+            "en": "4 Ah",
+            "pt-BR": "4 Ah"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "2-ah",
+      "sku": "CON-SLIDE-BATTERY-2",
+      "options": {
+        "capacity": "2-ah"
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 59
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte 18-volt slide battery pack",
+            "pt-BR": "Bateria deslizante Casa Norte 18 V"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4-ah",
+      "sku": "CON-SLIDE-BATTERY-4",
+      "options": {
+        "capacity": "4-ah"
+      },
+      "price": {
+        "BRL": 329,
+        "USD": 99
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte 18-volt slide battery pack",
+            "pt-BR": "Bateria deslizante Casa Norte 18 V"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -60,5 +60,6 @@
   { "id": "construcao-eletrica", "name": { "en": "Electrical", "pt-BR": "Elétrica" }, "parent": "construcao" },
   { "id": "construcao-basicos", "name": { "en": "Basic Materials", "pt-BR": "Materiais básicos" }, "parent": "construcao" },
   { "id": "construcao-banheiro", "name": { "en": "Bathroom", "pt-BR": "Banheiro" }, "parent": "construcao" },
-  { "id": "construcao-ferramentas-eletricas", "name": { "en": "Power Tools", "pt-BR": "Ferramentas elétricas" }, "parent": "construcao" }
+  { "id": "construcao-ferramentas-eletricas", "name": { "en": "Power Tools", "pt-BR": "Ferramentas elétricas" }, "parent": "construcao" },
+  { "id": "construcao-acessorios", "name": { "en": "Job Accessories", "pt-BR": "Acessórios de obra" }, "parent": "construcao" }
 ]

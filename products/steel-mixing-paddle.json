@@ -1,0 +1,125 @@
+{
+  "id": "steel-mixing-paddle",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "Steel Spiral Mixing Paddle for Thinset and Mortar, Hex Shank, Sold by the Piece",
+    "pt-BR": "Hélice de Aço para Misturar Argamassa, com Encaixe Sextavado, Vendida por Peça"
+  },
+  "description": {
+    "en": "A spiral paddle that mixes thinset and mortar in a bucket when chucked in a drill. The shorter paddle suits a small bucket, and the longer one reaches a full bag mix.",
+    "pt-BR": "Hélice que mistura argamassa no balde quando presa na furadeira. A mais curta serve para um balde pequeno, e a mais longa alcança a massa de um saco inteiro."
+  },
+  "price": {
+    "BRL": 32,
+    "USD": 12
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "mixing paddle",
+      "for mortar",
+      "for power tools"
+    ],
+    "pt-BR": [
+      "hélice misturadora",
+      "para argamassa",
+      "para furadeira"
+    ]
+  },
+  "defaultVariantId": "400-mm",
+  "options": [
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "400-mm",
+          "name": {
+            "en": "16 inches",
+            "pt-BR": "40 cm"
+          }
+        },
+        {
+          "id": "600-mm",
+          "name": {
+            "en": "24 inches",
+            "pt-BR": "60 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "400-mm",
+      "sku": "CON-PADDLE-400",
+      "options": {
+        "length": "400-mm"
+      },
+      "price": {
+        "BRL": 32,
+        "USD": 12
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Steel spiral mixing paddle with a hex shank",
+            "pt-BR": "Hélice de aço com encaixe sextavado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Mixing paddle standing in a bucket of gray mortar",
+            "pt-BR": "Hélice dentro de um balde de argamassa cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "600-mm",
+      "sku": "CON-PADDLE-600",
+      "options": {
+        "length": "600-mm"
+      },
+      "price": {
+        "BRL": 45,
+        "USD": 16
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Steel spiral mixing paddle with a hex shank",
+            "pt-BR": "Hélice de aço com encaixe sextavado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Mixing paddle standing in a bucket of gray mortar",
+            "pt-BR": "Hélice dentro de um balde de argamassa cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
