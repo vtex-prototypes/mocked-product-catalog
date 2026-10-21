@@ -1,0 +1,159 @@
+{
+  "id": "casa-norte-st12-p-inline-drill",
+  "brandId": "casa-norte",
+  "categoryId": "construcao-ferramentas-eletricas",
+  "name": {
+    "en": "Casa Norte ST12-P Cordless Slim Inline Stick Drill with a Straight Body and Front Chuck",
+    "pt-BR": "Furadeira Tipo Palito Casa Norte ST12-P com Corpo Reto e Fino e Mandril Frontal"
+  },
+  "description": {
+    "en": "A cordless stick drill for tight spots a pistol grip cannot enter, such as a cabinet box or the back of a closet. Body, chuck, and grip sit on one straight line.",
+    "pt-BR": "Furadeira a bateria, reta e fina, para cantos em que a pistola não entra, como a caixa de um armário ou o fundo de um closet. Corpo, mandril e punho ficam na mesma linha."
+  },
+  "price": {
+    "BRL": 349.9,
+    "USD": 79
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "Casa Norte ST12-P",
+      "cordless inline drill",
+      "tight spaces"
+    ],
+    "pt-BR": [
+      "Casa Norte ST12-P",
+      "furadeira tipo palito",
+      "furadeira reta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "tool-type",
+      "valueId": "inline-drill"
+    },
+    {
+      "id": "power-source",
+      "valueId": "battery"
+    },
+    {
+      "id": "voltage",
+      "valueId": "12-v"
+    }
+  ],
+  "defaultVariantId": "tool-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1A1A1A"
+        }
+      ]
+    },
+    {
+      "id": "package",
+      "name": {
+        "en": "Package",
+        "pt-BR": "Conjunto"
+      },
+      "values": [
+        {
+          "id": "tool-only",
+          "name": {
+            "en": "Tool only",
+            "pt-BR": "Somente ferramenta"
+          }
+        },
+        {
+          "id": "battery-kit",
+          "name": {
+            "en": "Battery and charger kit",
+            "pt-BR": "Kit com bateria e carregador"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "tool-only",
+      "sku": "CON-ST12P-TOOL-ONLY",
+      "options": {
+        "color": "black",
+        "package": "tool-only"
+      },
+      "price": {
+        "BRL": 349.9,
+        "USD": 79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte ST12-P cordless inline stick drill, isolated product view",
+            "pt-BR": "Furadeira tipo palito Casa Norte ST12-P, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte ST12-P drilling inside a wooden cabinet frame",
+            "pt-BR": "Casa Norte ST12-P furando a caixa de um armário de madeira"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "battery-kit",
+      "sku": "CON-ST12P-BATTERY-KIT",
+      "options": {
+        "color": "black",
+        "package": "battery-kit"
+      },
+      "price": {
+        "BRL": 499.9,
+        "USD": 129
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte ST12-P cordless inline stick drill, isolated product view",
+            "pt-BR": "Furadeira tipo palito Casa Norte ST12-P, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte ST12-P drilling inside a wooden cabinet frame",
+            "pt-BR": "Casa Norte ST12-P furando a caixa de um armário de madeira"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

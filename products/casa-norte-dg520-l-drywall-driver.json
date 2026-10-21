@@ -1,0 +1,154 @@
+{
+  "id": "casa-norte-dg520-l-drywall-driver",
+  "brandId": "casa-norte",
+  "categoryId": "construcao-ferramentas-eletricas",
+  "name": {
+    "en": "Casa Norte DG520-L Corded Drywall Screw Gun with a Long Nose and Depth Collar",
+    "pt-BR": "Parafusadeira de Drywall Casa Norte DG520-L com Fio Bico Longo e Limitador"
+  },
+  "description": {
+    "en": "A corded screw gun for hanging gypsum board. The long nose and depth collar set how far each screw sinks, leaving the head just under the paper without tearing it.",
+    "pt-BR": "Parafusadeira com fio para chapear gesso acartonado. O bico longo e o limitador de profundidade definem até onde o parafuso entra, deixando a cabeça logo abaixo do papel sem rasgar a chapa."
+  },
+  "price": {
+    "BRL": 529.9,
+    "USD": 119
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "Casa Norte DG520-L",
+      "drywall screw gun",
+      "corded screw gun"
+    ],
+    "pt-BR": [
+      "Casa Norte DG520-L",
+      "parafusadeira de drywall",
+      "parafusadeira de gesso"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "tool-type",
+      "valueId": "drywall-driver"
+    },
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    },
+    {
+      "id": "voltage",
+      "valueId": "127-v"
+    },
+    {
+      "id": "voltage",
+      "valueId": "220-v"
+    }
+  ],
+  "defaultVariantId": "127-v",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cream",
+          "name": {
+            "en": "Cream",
+            "pt-BR": "Creme"
+          },
+          "hex": "#E7E0D4"
+        }
+      ]
+    },
+    {
+      "id": "voltage",
+      "specificationId": "voltage",
+      "values": [
+        {
+          "id": "127-v",
+          "valueId": "127-v"
+        },
+        {
+          "id": "220-v",
+          "valueId": "220-v"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "127-v",
+      "sku": "CON-DG520L-127-V",
+      "options": {
+        "color": "cream",
+        "voltage": "127-v"
+      },
+      "price": {
+        "BRL": 529.9,
+        "USD": 119
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte DG520-L corded drywall screw gun, isolated product view",
+            "pt-BR": "Parafusadeira de drywall Casa Norte DG520-L, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte DG520-L driving a drywall screw into gypsum board",
+            "pt-BR": "Casa Norte DG520-L parafusando uma chapa de gesso"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "220-v",
+      "sku": "CON-DG520L-220-V",
+      "options": {
+        "color": "cream",
+        "voltage": "220-v"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 129
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte DG520-L corded drywall screw gun, isolated product view",
+            "pt-BR": "Parafusadeira de drywall Casa Norte DG520-L, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte DG520-L driving a drywall screw into gypsum board",
+            "pt-BR": "Casa Norte DG520-L parafusando uma chapa de gesso"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "casa-norte-id20-h-hex-impact-driver",
+  "brandId": "casa-norte",
+  "categoryId": "construcao-ferramentas-eletricas",
+  "name": {
+    "en": "Casa Norte ID20-H Cordless Hex Impact Driver with a Short Nose and No Drill Chuck",
+    "pt-BR": "Parafusadeira de Impacto Casa Norte ID20-H com Bico Curto e Encaixe Hexagonal"
+  },
+  "description": {
+    "en": "A compact cordless impact driver for screws and lag bolts. The nose is short and ends in a hexagonal holder, so it takes driver bits instead of a round drill chuck.",
+    "pt-BR": "Parafusadeira de impacto compacta, a bateria, para parafusos e buchas. O bico é curto e termina num encaixe hexagonal, então recebe bits em vez de um mandril redondo de broca."
+  },
+  "price": {
+    "BRL": 589.9,
+    "USD": 129
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "Casa Norte ID20-H",
+      "cordless impact driver",
+      "hex driver"
+    ],
+    "pt-BR": [
+      "Casa Norte ID20-H",
+      "parafusadeira de impacto",
+      "encaixe hexagonal"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "tool-type",
+      "valueId": "impact-driver"
+    },
+    {
+      "id": "power-source",
+      "valueId": "battery"
+    },
+    {
+      "id": "voltage",
+      "valueId": "20-v"
+    }
+  ],
+  "defaultVariantId": "tool-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "teal",
+          "name": {
+            "en": "Teal",
+            "pt-BR": "Verde-azulado"
+          },
+          "hex": "#0F6E78"
+        }
+      ]
+    },
+    {
+      "id": "package",
+      "name": {
+        "en": "Package",
+        "pt-BR": "Conjunto"
+      },
+      "values": [
+        {
+          "id": "tool-only",
+          "name": {
+            "en": "Tool only",
+            "pt-BR": "Somente ferramenta"
+          }
+        },
+        {
+          "id": "battery-kit",
+          "name": {
+            "en": "Battery and charger kit",
+            "pt-BR": "Kit com bateria e carregador"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "tool-only",
+      "sku": "CON-ID20H-TOOL-ONLY",
+      "options": {
+        "color": "teal",
+        "package": "tool-only"
+      },
+      "price": {
+        "BRL": 589.9,
+        "USD": 129
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte ID20-H cordless hex impact driver, isolated product view",
+            "pt-BR": "Parafusadeira de impacto Casa Norte ID20-H, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte ID20-H driving a screw into a pine board",
+            "pt-BR": "Casa Norte ID20-H parafusando uma tábua de pinho"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "battery-kit",
+      "sku": "CON-ID20H-BATTERY-KIT",
+      "options": {
+        "color": "teal",
+        "package": "battery-kit"
+      },
+      "price": {
+        "BRL": 849.9,
+        "USD": 219
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte ID20-H cordless hex impact driver, isolated product view",
+            "pt-BR": "Parafusadeira de impacto Casa Norte ID20-H, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte ID20-H driving a screw into a pine board",
+            "pt-BR": "Casa Norte ID20-H parafusando uma tábua de pinho"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

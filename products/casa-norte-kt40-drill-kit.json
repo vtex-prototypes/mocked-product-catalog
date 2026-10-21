@@ -1,0 +1,139 @@
+{
+  "id": "casa-norte-kt40-drill-kit",
+  "brandId": "casa-norte",
+  "categoryId": "construcao-ferramentas-eletricas",
+  "name": {
+    "en": "Casa Norte KT40 Open Tool Case Kit with a Cordless Drill and Bits Beside It",
+    "pt-BR": "Kit de Furadeira Casa Norte KT40 com Maleta Aberta e Brocas Dispostas ao Lado"
+  },
+  "description": {
+    "en": "An open case with a cordless drill seated in the tray and twist bits laid beside it. The case is the product, so the bits stay with the drill instead of the tool being sold loose.",
+    "pt-BR": "Maleta aberta com uma furadeira a bateria encaixada na bandeja e brocas helicoidais ao lado. A maleta é o produto: as brocas acompanham a furadeira, em vez de a ferramenta ir solta."
+  },
+  "price": {
+    "BRL": 389.9,
+    "USD": 99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "Casa Norte KT40",
+      "cordless drill kit",
+      "open tool case"
+    ],
+    "pt-BR": [
+      "Casa Norte KT40",
+      "kit de furadeira",
+      "maleta com brocas"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "tool-type",
+      "valueId": "drill-kit"
+    },
+    {
+      "id": "power-source",
+      "valueId": "battery"
+    },
+    {
+      "id": "voltage",
+      "valueId": "20-v"
+    }
+  ],
+  "defaultVariantId": "40-piece",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "teal",
+          "name": {
+            "en": "Teal",
+            "pt-BR": "Verde-azulado"
+          },
+          "hex": "#1A8A94"
+        }
+      ]
+    },
+    {
+      "id": "piece-count",
+      "name": {
+        "en": "Piece count",
+        "pt-BR": "Quantidade de peças"
+      },
+      "values": [
+        {
+          "id": "40-piece",
+          "name": {
+            "en": "40 pieces",
+            "pt-BR": "40 peças"
+          }
+        },
+        {
+          "id": "80-piece",
+          "name": {
+            "en": "80 pieces",
+            "pt-BR": "80 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "40-piece",
+      "sku": "CON-KT40-40-PC",
+      "options": {
+        "color": "teal",
+        "piece-count": "40-piece"
+      },
+      "price": {
+        "BRL": 389.9,
+        "USD": 99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte KT40 open tool case with a cordless drill and bits beside it",
+            "pt-BR": "Kit Casa Norte KT40 com maleta aberta, furadeira e brocas ao lado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "80-piece",
+      "sku": "CON-KT40-80-PC",
+      "options": {
+        "color": "teal",
+        "piece-count": "80-piece"
+      },
+      "price": {
+        "BRL": 529.9,
+        "USD": 139
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte KT40 open tool case with a cordless drill and bits beside it",
+            "pt-BR": "Kit Casa Norte KT40 com maleta aberta, furadeira e brocas ao lado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

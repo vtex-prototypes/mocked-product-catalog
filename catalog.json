@@ -791,6 +791,62 @@
             "en": "Rotary hammer",
             "pt-BR": "Martelete perfurador"
           }
+        },
+        {
+          "id": "bench-drill",
+          "name": {
+            "en": "Bench drill press",
+            "pt-BR": "Furadeira de bancada"
+          }
+        },
+        {
+          "id": "impact-driver",
+          "name": {
+            "en": "Hex impact driver",
+            "pt-BR": "Parafusadeira de impacto"
+          }
+        },
+        {
+          "id": "drywall-driver",
+          "name": {
+            "en": "Drywall screw gun",
+            "pt-BR": "Parafusadeira de drywall"
+          }
+        },
+        {
+          "id": "inline-drill",
+          "name": {
+            "en": "Inline stick drill",
+            "pt-BR": "Furadeira tipo palito"
+          }
+        },
+        {
+          "id": "earth-auger",
+          "name": {
+            "en": "Post-hole auger",
+            "pt-BR": "Furadeira de mourão"
+          }
+        },
+        {
+          "id": "demolition-hammer",
+          "name": {
+            "en": "Demolition hammer",
+            "pt-BR": "Rompedor"
+          }
+        },
+        {
+          "id": "drill-kit",
+          "name": {
+            "en": "Drill kit",
+            "pt-BR": "Kit de furadeira"
+          }
+        },
+        {
+          "id": "angle-grinder",
+          "name": {
+            "en": "Angle grinder",
+            "pt-BR": "Esmerilhadeira"
+          }
         }
       ]
     },
@@ -813,6 +869,13 @@
           "name": {
             "en": "Corded",
             "pt-BR": "Com fio"
+          }
+        },
+        {
+          "id": "gasoline",
+          "name": {
+            "en": "Gasoline",
+            "pt-BR": "Gasolina"
           }
         }
       ]
@@ -18502,6 +18565,227 @@
       ]
     },
     {
+      "id": "casa-norte-ag115-angle-grinder",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Casa Norte AG115 Corded Angle Grinder with a Side Disc and Safety Guard",
+        "pt-BR": "Esmerilhadeira Angular Casa Norte AG115 com Fio Disco Lateral e Proteção"
+      },
+      "description": {
+        "en": "A corded angle grinder for cutting and scoring metal and masonry. The disc sits on the side of the body under a guard, a shape unlike any drill in this line.",
+        "pt-BR": "Esmerilhadeira angular com fio para cortar e sulcar metal e alvenaria. O disco fica na lateral do corpo, sob a proteção, um formato diferente de qualquer furadeira desta linha."
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 59
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Casa Norte AG115",
+          "corded angle grinder",
+          "side disc"
+        ],
+        "pt-BR": [
+          "Casa Norte AG115",
+          "esmerilhadeira angular",
+          "disco lateral"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "tool-type",
+          "name": {
+            "en": "Tool type",
+            "pt-BR": "Tipo de ferramenta"
+          },
+          "valueId": "angle-grinder",
+          "value": {
+            "en": "Angle grinder",
+            "pt-BR": "Esmerilhadeira"
+          }
+        },
+        {
+          "id": "power-source",
+          "name": {
+            "en": "Power source",
+            "pt-BR": "Alimentação"
+          },
+          "valueId": "corded",
+          "value": {
+            "en": "Corded",
+            "pt-BR": "Com fio"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "127-v",
+          "value": {
+            "en": "127 V",
+            "pt-BR": "127 V"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "220-v",
+          "value": {
+            "en": "220 V",
+            "pt-BR": "220 V"
+          }
+        }
+      ],
+      "defaultVariantId": "127-v",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#222222"
+            }
+          ]
+        },
+        {
+          "id": "voltage",
+          "specificationId": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "values": [
+            {
+              "id": "127-v",
+              "valueId": "127-v",
+              "name": {
+                "en": "127 V",
+                "pt-BR": "127 V"
+              }
+            },
+            {
+              "id": "220-v",
+              "valueId": "220-v",
+              "name": {
+                "en": "220 V",
+                "pt-BR": "220 V"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "127-v",
+          "sku": "CON-AG115-127-V",
+          "options": {
+            "color": "black",
+            "voltage": "127-v"
+          },
+          "price": {
+            "BRL": 249.9,
+            "USD": 59
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte AG115 corded angle grinder, isolated product view",
+                "pt-BR": "Esmerilhadeira Casa Norte AG115, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-ag115-angle-grinder/main-white.webp",
+                "#f5f5f5": "images/casa-norte-ag115-angle-grinder/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte AG115 scoring a groove in a steel bar",
+                "pt-BR": "Casa Norte AG115 abrindo um sulco numa barra de aço"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-ag115-angle-grinder/application-white.webp",
+                "#f5f5f5": "images/casa-norte-ag115-angle-grinder/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "220-v",
+          "sku": "CON-AG115-220-V",
+          "options": {
+            "color": "black",
+            "voltage": "220-v"
+          },
+          "price": {
+            "BRL": 269.9,
+            "USD": 64
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte AG115 corded angle grinder, isolated product view",
+                "pt-BR": "Esmerilhadeira Casa Norte AG115, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-ag115-angle-grinder/main-white.webp",
+                "#f5f5f5": "images/casa-norte-ag115-angle-grinder/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte AG115 scoring a groove in a steel bar",
+                "pt-BR": "Casa Norte AG115 abrindo um sulco numa barra de aço"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-ag115-angle-grinder/application-white.webp",
+                "#f5f5f5": "images/casa-norte-ag115-angle-grinder/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "casa-norte-b20-p-brushless-drill-driver",
       "brandId": "casa-norte",
       "brand": {
@@ -18701,6 +18985,863 @@
               "src": {
                 "#ffffff": "images/casa-norte-b20-p-brushless-drill-driver/application-white.webp",
                 "#f5f5f5": "images/casa-norte-b20-p-brushless-drill-driver/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "casa-norte-dg520-l-drywall-driver",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Casa Norte DG520-L Corded Drywall Screw Gun with a Long Nose and Depth Collar",
+        "pt-BR": "Parafusadeira de Drywall Casa Norte DG520-L com Fio Bico Longo e Limitador"
+      },
+      "description": {
+        "en": "A corded screw gun for hanging gypsum board. The long nose and depth collar set how far each screw sinks, leaving the head just under the paper without tearing it.",
+        "pt-BR": "Parafusadeira com fio para chapear gesso acartonado. O bico longo e o limitador de profundidade definem até onde o parafuso entra, deixando a cabeça logo abaixo do papel sem rasgar a chapa."
+      },
+      "price": {
+        "BRL": 529.9,
+        "USD": 119
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Casa Norte DG520-L",
+          "drywall screw gun",
+          "corded screw gun"
+        ],
+        "pt-BR": [
+          "Casa Norte DG520-L",
+          "parafusadeira de drywall",
+          "parafusadeira de gesso"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "tool-type",
+          "name": {
+            "en": "Tool type",
+            "pt-BR": "Tipo de ferramenta"
+          },
+          "valueId": "drywall-driver",
+          "value": {
+            "en": "Drywall screw gun",
+            "pt-BR": "Parafusadeira de drywall"
+          }
+        },
+        {
+          "id": "power-source",
+          "name": {
+            "en": "Power source",
+            "pt-BR": "Alimentação"
+          },
+          "valueId": "corded",
+          "value": {
+            "en": "Corded",
+            "pt-BR": "Com fio"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "127-v",
+          "value": {
+            "en": "127 V",
+            "pt-BR": "127 V"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "220-v",
+          "value": {
+            "en": "220 V",
+            "pt-BR": "220 V"
+          }
+        }
+      ],
+      "defaultVariantId": "127-v",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "cream",
+              "name": {
+                "en": "Cream",
+                "pt-BR": "Creme"
+              },
+              "hex": "#E7E0D4"
+            }
+          ]
+        },
+        {
+          "id": "voltage",
+          "specificationId": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "values": [
+            {
+              "id": "127-v",
+              "valueId": "127-v",
+              "name": {
+                "en": "127 V",
+                "pt-BR": "127 V"
+              }
+            },
+            {
+              "id": "220-v",
+              "valueId": "220-v",
+              "name": {
+                "en": "220 V",
+                "pt-BR": "220 V"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "127-v",
+          "sku": "CON-DG520L-127-V",
+          "options": {
+            "color": "cream",
+            "voltage": "127-v"
+          },
+          "price": {
+            "BRL": 529.9,
+            "USD": 119
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte DG520-L corded drywall screw gun, isolated product view",
+                "pt-BR": "Parafusadeira de drywall Casa Norte DG520-L, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-dg520-l-drywall-driver/main-white.webp",
+                "#f5f5f5": "images/casa-norte-dg520-l-drywall-driver/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte DG520-L driving a drywall screw into gypsum board",
+                "pt-BR": "Casa Norte DG520-L parafusando uma chapa de gesso"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-dg520-l-drywall-driver/application-white.webp",
+                "#f5f5f5": "images/casa-norte-dg520-l-drywall-driver/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "220-v",
+          "sku": "CON-DG520L-220-V",
+          "options": {
+            "color": "cream",
+            "voltage": "220-v"
+          },
+          "price": {
+            "BRL": 549.9,
+            "USD": 129
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte DG520-L corded drywall screw gun, isolated product view",
+                "pt-BR": "Parafusadeira de drywall Casa Norte DG520-L, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-dg520-l-drywall-driver/main-white.webp",
+                "#f5f5f5": "images/casa-norte-dg520-l-drywall-driver/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte DG520-L driving a drywall screw into gypsum board",
+                "pt-BR": "Casa Norte DG520-L parafusando uma chapa de gesso"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-dg520-l-drywall-driver/application-white.webp",
+                "#f5f5f5": "images/casa-norte-dg520-l-drywall-driver/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "casa-norte-dh1700-v-demolition-hammer",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Casa Norte DH1700-V Vertical Demolition Hammer with Top Handle and Pointed Chisel",
+        "pt-BR": "Rompedor Vertical Casa Norte DH1700-V com Empunhadura no Topo e Ponteira"
+      },
+      "description": {
+        "en": "A vertical breaker for concrete, old tile, and hard mortar. The handle is on top and the chisel works straight down, a different machine from a compact rotary hammer held sideways.",
+        "pt-BR": "Rompedor vertical para quebrar concreto, piso antigo e argamassa dura. A empunhadura fica no topo e a ponteira trabalha para baixo, outra máquina em relação ao martelete compacto que se segura de lado."
+      },
+      "price": {
+        "BRL": 2190,
+        "USD": 549
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Casa Norte DH1700-V",
+          "demolition hammer",
+          "concrete breaker"
+        ],
+        "pt-BR": [
+          "Casa Norte DH1700-V",
+          "rompedor",
+          "martelo demolidor"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "tool-type",
+          "name": {
+            "en": "Tool type",
+            "pt-BR": "Tipo de ferramenta"
+          },
+          "valueId": "demolition-hammer",
+          "value": {
+            "en": "Demolition hammer",
+            "pt-BR": "Rompedor"
+          }
+        },
+        {
+          "id": "power-source",
+          "name": {
+            "en": "Power source",
+            "pt-BR": "Alimentação"
+          },
+          "valueId": "corded",
+          "value": {
+            "en": "Corded",
+            "pt-BR": "Com fio"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "127-v",
+          "value": {
+            "en": "127 V",
+            "pt-BR": "127 V"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "220-v",
+          "value": {
+            "en": "220 V",
+            "pt-BR": "220 V"
+          }
+        }
+      ],
+      "defaultVariantId": "127-v",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "industrial-gray",
+              "name": {
+                "en": "Industrial gray",
+                "pt-BR": "Cinza industrial"
+              },
+              "hex": "#7A8086"
+            }
+          ]
+        },
+        {
+          "id": "voltage",
+          "specificationId": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "values": [
+            {
+              "id": "127-v",
+              "valueId": "127-v",
+              "name": {
+                "en": "127 V",
+                "pt-BR": "127 V"
+              }
+            },
+            {
+              "id": "220-v",
+              "valueId": "220-v",
+              "name": {
+                "en": "220 V",
+                "pt-BR": "220 V"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "127-v",
+          "sku": "CON-DH1700V-127-V",
+          "options": {
+            "color": "industrial-gray",
+            "voltage": "127-v"
+          },
+          "price": {
+            "BRL": 2190,
+            "USD": 549
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte DH1700-V vertical demolition hammer, isolated product view",
+                "pt-BR": "Rompedor vertical Casa Norte DH1700-V, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-dh1700-v-demolition-hammer/main-white.webp",
+                "#f5f5f5": "images/casa-norte-dh1700-v-demolition-hammer/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte DH1700-V breaking cracked concrete with a pointed chisel",
+                "pt-BR": "Casa Norte DH1700-V quebrando concreto rachado com a ponteira"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-dh1700-v-demolition-hammer/application-white.webp",
+                "#f5f5f5": "images/casa-norte-dh1700-v-demolition-hammer/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "220-v",
+          "sku": "CON-DH1700V-220-V",
+          "options": {
+            "color": "industrial-gray",
+            "voltage": "220-v"
+          },
+          "price": {
+            "BRL": 2290,
+            "USD": 579
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte DH1700-V vertical demolition hammer, isolated product view",
+                "pt-BR": "Rompedor vertical Casa Norte DH1700-V, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-dh1700-v-demolition-hammer/main-white.webp",
+                "#f5f5f5": "images/casa-norte-dh1700-v-demolition-hammer/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte DH1700-V breaking cracked concrete with a pointed chisel",
+                "pt-BR": "Casa Norte DH1700-V quebrando concreto rachado com a ponteira"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-dh1700-v-demolition-hammer/application-white.webp",
+                "#f5f5f5": "images/casa-norte-dh1700-v-demolition-hammer/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "casa-norte-dp16-b-bench-drill",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Casa Norte DP16-B Floor-Standing Bench Drill Press with Column and Downward Chuck",
+        "pt-BR": "Furadeira de Bancada Casa Norte DP16-B com Coluna Mesa Redonda e Mandril para Baixo"
+      },
+      "description": {
+        "en": "A floor-standing drill press for repeat holes in steel, wood, and plastic. The chuck points straight down at a round table, and the column keeps the bit square so each hole lands in the same place.",
+        "pt-BR": "Furadeira de bancada para furos repetidos em aço, madeira e plástico. O mandril aponta para baixo, sobre a mesa redonda, e a coluna mantém a broca no prumo para o furo sair sempre no mesmo lugar."
+      },
+      "price": {
+        "BRL": 979.9,
+        "USD": 269
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Casa Norte DP16-B",
+          "bench drill press",
+          "drill press"
+        ],
+        "pt-BR": [
+          "Casa Norte DP16-B",
+          "furadeira de bancada",
+          "furadeira de coluna"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "tool-type",
+          "name": {
+            "en": "Tool type",
+            "pt-BR": "Tipo de ferramenta"
+          },
+          "valueId": "bench-drill",
+          "value": {
+            "en": "Bench drill press",
+            "pt-BR": "Furadeira de bancada"
+          }
+        },
+        {
+          "id": "power-source",
+          "name": {
+            "en": "Power source",
+            "pt-BR": "Alimentação"
+          },
+          "valueId": "corded",
+          "value": {
+            "en": "Corded",
+            "pt-BR": "Com fio"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "127-v",
+          "value": {
+            "en": "127 V",
+            "pt-BR": "127 V"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "220-v",
+          "value": {
+            "en": "220 V",
+            "pt-BR": "220 V"
+          }
+        }
+      ],
+      "defaultVariantId": "127-v",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "graphite",
+              "name": {
+                "en": "Graphite",
+                "pt-BR": "Grafite"
+              },
+              "hex": "#5C6166"
+            }
+          ]
+        },
+        {
+          "id": "voltage",
+          "specificationId": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "values": [
+            {
+              "id": "127-v",
+              "valueId": "127-v",
+              "name": {
+                "en": "127 V",
+                "pt-BR": "127 V"
+              }
+            },
+            {
+              "id": "220-v",
+              "valueId": "220-v",
+              "name": {
+                "en": "220 V",
+                "pt-BR": "220 V"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "127-v",
+          "sku": "CON-DP16B-127-V",
+          "options": {
+            "color": "graphite",
+            "voltage": "127-v"
+          },
+          "price": {
+            "BRL": 979.9,
+            "USD": 269
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte DP16-B floor-standing bench drill press, isolated product view",
+                "pt-BR": "Furadeira de bancada Casa Norte DP16-B, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-dp16-b-bench-drill/main-white.webp",
+                "#f5f5f5": "images/casa-norte-dp16-b-bench-drill/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte DP16-B drilling a steel plate on its round table",
+                "pt-BR": "Casa Norte DP16-B furando uma chapa de aço na mesa redonda"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-dp16-b-bench-drill/application-white.webp",
+                "#f5f5f5": "images/casa-norte-dp16-b-bench-drill/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "220-v",
+          "sku": "CON-DP16B-220-V",
+          "options": {
+            "color": "graphite",
+            "voltage": "220-v"
+          },
+          "price": {
+            "BRL": 999.9,
+            "USD": 279
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte DP16-B floor-standing bench drill press, isolated product view",
+                "pt-BR": "Furadeira de bancada Casa Norte DP16-B, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-dp16-b-bench-drill/main-white.webp",
+                "#f5f5f5": "images/casa-norte-dp16-b-bench-drill/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte DP16-B drilling a steel plate on its round table",
+                "pt-BR": "Casa Norte DP16-B furando uma chapa de aço na mesa redonda"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-dp16-b-bench-drill/application-white.webp",
+                "#f5f5f5": "images/casa-norte-dp16-b-bench-drill/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "casa-norte-ga23-m-gas-auger",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Casa Norte GA23-M Gasoline Fence-Post Auger with Engine and Spiral Bit",
+        "pt-BR": "Furadeira de Mourão a Gasolina Casa Norte GA23-M com Motor e Broca Espiral"
+      },
+      "description": {
+        "en": "A gasoline auger for fence-post holes. The two-stroke engine sits above the handles and turns a spiral bit that lifts soil as it goes down. It does not plug into a wall outlet.",
+        "pt-BR": "Perfurador de mourão a gasolina para buracos de cerca. O motor dois tempos fica acima dos manetes e gira uma broca espiral que sobe a terra conforme desce. Não liga na tomada."
+      },
+      "price": {
+        "BRL": 1890,
+        "USD": 449
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Casa Norte GA23-M",
+          "gasoline post auger",
+          "fence auger"
+        ],
+        "pt-BR": [
+          "Casa Norte GA23-M",
+          "furadeira de mourão",
+          "perfurador de solo"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "tool-type",
+          "name": {
+            "en": "Tool type",
+            "pt-BR": "Tipo de ferramenta"
+          },
+          "valueId": "earth-auger",
+          "value": {
+            "en": "Post-hole auger",
+            "pt-BR": "Furadeira de mourão"
+          }
+        },
+        {
+          "id": "power-source",
+          "name": {
+            "en": "Power source",
+            "pt-BR": "Alimentação"
+          },
+          "valueId": "gasoline",
+          "value": {
+            "en": "Gasoline",
+            "pt-BR": "Gasolina"
+          }
+        }
+      ],
+      "defaultVariantId": "150-mm",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "engine-green",
+              "name": {
+                "en": "Engine green",
+                "pt-BR": "Verde motor"
+              },
+              "hex": "#1E4A32"
+            }
+          ]
+        },
+        {
+          "id": "bit-diameter",
+          "name": {
+            "en": "Bit diameter",
+            "pt-BR": "Diâmetro da broca"
+          },
+          "values": [
+            {
+              "id": "150-mm",
+              "name": {
+                "en": "150 mm",
+                "pt-BR": "150 mm"
+              }
+            },
+            {
+              "id": "200-mm",
+              "name": {
+                "en": "200 mm",
+                "pt-BR": "200 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "150-mm",
+          "sku": "CON-GA23M-150-MM",
+          "options": {
+            "color": "engine-green",
+            "bit-diameter": "150-mm"
+          },
+          "price": {
+            "BRL": 1890,
+            "USD": 449
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte GA23-M gasoline fence-post auger, isolated product view",
+                "pt-BR": "Furadeira de mourão Casa Norte GA23-M, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-ga23-m-gas-auger/main-white.webp",
+                "#f5f5f5": "images/casa-norte-ga23-m-gas-auger/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte GA23-M boring a post hole with its spiral bit in the soil",
+                "pt-BR": "Casa Norte GA23-M abrindo um buraco de mourão com a broca espiral na terra"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-ga23-m-gas-auger/application-white.webp",
+                "#f5f5f5": "images/casa-norte-ga23-m-gas-auger/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "200-mm",
+          "sku": "CON-GA23M-200-MM",
+          "options": {
+            "color": "engine-green",
+            "bit-diameter": "200-mm"
+          },
+          "price": {
+            "BRL": 2090,
+            "USD": 499
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte GA23-M gasoline fence-post auger, isolated product view",
+                "pt-BR": "Furadeira de mourão Casa Norte GA23-M, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-ga23-m-gas-auger/main-white.webp",
+                "#f5f5f5": "images/casa-norte-ga23-m-gas-auger/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte GA23-M boring a post hole with its spiral bit in the soil",
+                "pt-BR": "Casa Norte GA23-M abrindo um buraco de mourão com a broca espiral na terra"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-ga23-m-gas-auger/application-white.webp",
+                "#f5f5f5": "images/casa-norte-ga23-m-gas-auger/application-gray.webp"
               }
             }
           ]
@@ -19128,6 +20269,390 @@
               "src": {
                 "#ffffff": "images/casa-norte-i650-c-corded-impact-drill/application-white.webp",
                 "#f5f5f5": "images/casa-norte-i650-c-corded-impact-drill/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "casa-norte-id20-h-hex-impact-driver",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Casa Norte ID20-H Cordless Hex Impact Driver with a Short Nose and No Drill Chuck",
+        "pt-BR": "Parafusadeira de Impacto Casa Norte ID20-H com Bico Curto e Encaixe Hexagonal"
+      },
+      "description": {
+        "en": "A compact cordless impact driver for screws and lag bolts. The nose is short and ends in a hexagonal holder, so it takes driver bits instead of a round drill chuck.",
+        "pt-BR": "Parafusadeira de impacto compacta, a bateria, para parafusos e buchas. O bico é curto e termina num encaixe hexagonal, então recebe bits em vez de um mandril redondo de broca."
+      },
+      "price": {
+        "BRL": 589.9,
+        "USD": 129
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Casa Norte ID20-H",
+          "cordless impact driver",
+          "hex driver"
+        ],
+        "pt-BR": [
+          "Casa Norte ID20-H",
+          "parafusadeira de impacto",
+          "encaixe hexagonal"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "tool-type",
+          "name": {
+            "en": "Tool type",
+            "pt-BR": "Tipo de ferramenta"
+          },
+          "valueId": "impact-driver",
+          "value": {
+            "en": "Hex impact driver",
+            "pt-BR": "Parafusadeira de impacto"
+          }
+        },
+        {
+          "id": "power-source",
+          "name": {
+            "en": "Power source",
+            "pt-BR": "Alimentação"
+          },
+          "valueId": "battery",
+          "value": {
+            "en": "Battery",
+            "pt-BR": "Bateria"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "20-v",
+          "value": {
+            "en": "20 V",
+            "pt-BR": "20 V"
+          }
+        }
+      ],
+      "defaultVariantId": "tool-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "teal",
+              "name": {
+                "en": "Teal",
+                "pt-BR": "Verde-azulado"
+              },
+              "hex": "#0F6E78"
+            }
+          ]
+        },
+        {
+          "id": "package",
+          "name": {
+            "en": "Package",
+            "pt-BR": "Conjunto"
+          },
+          "values": [
+            {
+              "id": "tool-only",
+              "name": {
+                "en": "Tool only",
+                "pt-BR": "Somente ferramenta"
+              }
+            },
+            {
+              "id": "battery-kit",
+              "name": {
+                "en": "Battery and charger kit",
+                "pt-BR": "Kit com bateria e carregador"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "tool-only",
+          "sku": "CON-ID20H-TOOL-ONLY",
+          "options": {
+            "color": "teal",
+            "package": "tool-only"
+          },
+          "price": {
+            "BRL": 589.9,
+            "USD": 129
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte ID20-H cordless hex impact driver, isolated product view",
+                "pt-BR": "Parafusadeira de impacto Casa Norte ID20-H, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-id20-h-hex-impact-driver/main-white.webp",
+                "#f5f5f5": "images/casa-norte-id20-h-hex-impact-driver/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte ID20-H driving a screw into a pine board",
+                "pt-BR": "Casa Norte ID20-H parafusando uma tábua de pinho"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-id20-h-hex-impact-driver/application-white.webp",
+                "#f5f5f5": "images/casa-norte-id20-h-hex-impact-driver/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "battery-kit",
+          "sku": "CON-ID20H-BATTERY-KIT",
+          "options": {
+            "color": "teal",
+            "package": "battery-kit"
+          },
+          "price": {
+            "BRL": 849.9,
+            "USD": 219
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte ID20-H cordless hex impact driver, isolated product view",
+                "pt-BR": "Parafusadeira de impacto Casa Norte ID20-H, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-id20-h-hex-impact-driver/main-white.webp",
+                "#f5f5f5": "images/casa-norte-id20-h-hex-impact-driver/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte ID20-H driving a screw into a pine board",
+                "pt-BR": "Casa Norte ID20-H parafusando uma tábua de pinho"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-id20-h-hex-impact-driver/application-white.webp",
+                "#f5f5f5": "images/casa-norte-id20-h-hex-impact-driver/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "casa-norte-kt40-drill-kit",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Casa Norte KT40 Open Tool Case Kit with a Cordless Drill and Bits Beside It",
+        "pt-BR": "Kit de Furadeira Casa Norte KT40 com Maleta Aberta e Brocas Dispostas ao Lado"
+      },
+      "description": {
+        "en": "An open case with a cordless drill seated in the tray and twist bits laid beside it. The case is the product, so the bits stay with the drill instead of the tool being sold loose.",
+        "pt-BR": "Maleta aberta com uma furadeira a bateria encaixada na bandeja e brocas helicoidais ao lado. A maleta é o produto: as brocas acompanham a furadeira, em vez de a ferramenta ir solta."
+      },
+      "price": {
+        "BRL": 389.9,
+        "USD": 99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Casa Norte KT40",
+          "cordless drill kit",
+          "open tool case"
+        ],
+        "pt-BR": [
+          "Casa Norte KT40",
+          "kit de furadeira",
+          "maleta com brocas"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "tool-type",
+          "name": {
+            "en": "Tool type",
+            "pt-BR": "Tipo de ferramenta"
+          },
+          "valueId": "drill-kit",
+          "value": {
+            "en": "Drill kit",
+            "pt-BR": "Kit de furadeira"
+          }
+        },
+        {
+          "id": "power-source",
+          "name": {
+            "en": "Power source",
+            "pt-BR": "Alimentação"
+          },
+          "valueId": "battery",
+          "value": {
+            "en": "Battery",
+            "pt-BR": "Bateria"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "20-v",
+          "value": {
+            "en": "20 V",
+            "pt-BR": "20 V"
+          }
+        }
+      ],
+      "defaultVariantId": "40-piece",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "teal",
+              "name": {
+                "en": "Teal",
+                "pt-BR": "Verde-azulado"
+              },
+              "hex": "#1A8A94"
+            }
+          ]
+        },
+        {
+          "id": "piece-count",
+          "name": {
+            "en": "Piece count",
+            "pt-BR": "Quantidade de peças"
+          },
+          "values": [
+            {
+              "id": "40-piece",
+              "name": {
+                "en": "40 pieces",
+                "pt-BR": "40 peças"
+              }
+            },
+            {
+              "id": "80-piece",
+              "name": {
+                "en": "80 pieces",
+                "pt-BR": "80 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "40-piece",
+          "sku": "CON-KT40-40-PC",
+          "options": {
+            "color": "teal",
+            "piece-count": "40-piece"
+          },
+          "price": {
+            "BRL": 389.9,
+            "USD": 99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte KT40 open tool case with a cordless drill and bits beside it",
+                "pt-BR": "Kit Casa Norte KT40 com maleta aberta, furadeira e brocas ao lado"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-kt40-drill-kit/main-white.webp",
+                "#f5f5f5": "images/casa-norte-kt40-drill-kit/main-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "80-piece",
+          "sku": "CON-KT40-80-PC",
+          "options": {
+            "color": "teal",
+            "piece-count": "80-piece"
+          },
+          "price": {
+            "BRL": 529.9,
+            "USD": 139
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte KT40 open tool case with a cordless drill and bits beside it",
+                "pt-BR": "Kit Casa Norte KT40 com maleta aberta, furadeira e brocas ao lado"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-kt40-drill-kit/main-white.webp",
+                "#f5f5f5": "images/casa-norte-kt40-drill-kit/main-gray.webp"
               }
             }
           ]
@@ -19676,6 +21201,212 @@
               "src": {
                 "#ffffff": "images/casa-norte-slide-battery/main-white.webp",
                 "#f5f5f5": "images/casa-norte-slide-battery/main-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "casa-norte-st12-p-inline-drill",
+      "brandId": "casa-norte",
+      "brand": {
+        "id": "casa-norte",
+        "name": {
+          "en": "Casa Norte",
+          "pt-BR": "Casa Norte"
+        }
+      },
+      "categoryId": "construcao-ferramentas-eletricas",
+      "name": {
+        "en": "Casa Norte ST12-P Cordless Slim Inline Stick Drill with a Straight Body and Front Chuck",
+        "pt-BR": "Furadeira Tipo Palito Casa Norte ST12-P com Corpo Reto e Fino e Mandril Frontal"
+      },
+      "description": {
+        "en": "A cordless stick drill for tight spots a pistol grip cannot enter, such as a cabinet box or the back of a closet. Body, chuck, and grip sit on one straight line.",
+        "pt-BR": "Furadeira a bateria, reta e fina, para cantos em que a pistola não entra, como a caixa de um armário ou o fundo de um closet. Corpo, mandril e punho ficam na mesma linha."
+      },
+      "price": {
+        "BRL": 349.9,
+        "USD": 79
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "Casa Norte ST12-P",
+          "cordless inline drill",
+          "tight spaces"
+        ],
+        "pt-BR": [
+          "Casa Norte ST12-P",
+          "furadeira tipo palito",
+          "furadeira reta"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "tool-type",
+          "name": {
+            "en": "Tool type",
+            "pt-BR": "Tipo de ferramenta"
+          },
+          "valueId": "inline-drill",
+          "value": {
+            "en": "Inline stick drill",
+            "pt-BR": "Furadeira tipo palito"
+          }
+        },
+        {
+          "id": "power-source",
+          "name": {
+            "en": "Power source",
+            "pt-BR": "Alimentação"
+          },
+          "valueId": "battery",
+          "value": {
+            "en": "Battery",
+            "pt-BR": "Bateria"
+          }
+        },
+        {
+          "id": "voltage",
+          "name": {
+            "en": "Voltage",
+            "pt-BR": "Tensão"
+          },
+          "valueId": "12-v",
+          "value": {
+            "en": "12 V",
+            "pt-BR": "12 V"
+          }
+        }
+      ],
+      "defaultVariantId": "tool-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#1A1A1A"
+            }
+          ]
+        },
+        {
+          "id": "package",
+          "name": {
+            "en": "Package",
+            "pt-BR": "Conjunto"
+          },
+          "values": [
+            {
+              "id": "tool-only",
+              "name": {
+                "en": "Tool only",
+                "pt-BR": "Somente ferramenta"
+              }
+            },
+            {
+              "id": "battery-kit",
+              "name": {
+                "en": "Battery and charger kit",
+                "pt-BR": "Kit com bateria e carregador"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "tool-only",
+          "sku": "CON-ST12P-TOOL-ONLY",
+          "options": {
+            "color": "black",
+            "package": "tool-only"
+          },
+          "price": {
+            "BRL": 349.9,
+            "USD": 79
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte ST12-P cordless inline stick drill, isolated product view",
+                "pt-BR": "Furadeira tipo palito Casa Norte ST12-P, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-st12-p-inline-drill/main-white.webp",
+                "#f5f5f5": "images/casa-norte-st12-p-inline-drill/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte ST12-P drilling inside a wooden cabinet frame",
+                "pt-BR": "Casa Norte ST12-P furando a caixa de um armário de madeira"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-st12-p-inline-drill/application-white.webp",
+                "#f5f5f5": "images/casa-norte-st12-p-inline-drill/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "battery-kit",
+          "sku": "CON-ST12P-BATTERY-KIT",
+          "options": {
+            "color": "black",
+            "package": "battery-kit"
+          },
+          "price": {
+            "BRL": 499.9,
+            "USD": 129
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Casa Norte ST12-P cordless inline stick drill, isolated product view",
+                "pt-BR": "Furadeira tipo palito Casa Norte ST12-P, vista isolada do produto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-st12-p-inline-drill/main-white.webp",
+                "#f5f5f5": "images/casa-norte-st12-p-inline-drill/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Casa Norte ST12-P drilling inside a wooden cabinet frame",
+                "pt-BR": "Casa Norte ST12-P furando a caixa de um armário de madeira"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/casa-norte-st12-p-inline-drill/application-white.webp",
+                "#f5f5f5": "images/casa-norte-st12-p-inline-drill/application-gray.webp"
               }
             }
           ]

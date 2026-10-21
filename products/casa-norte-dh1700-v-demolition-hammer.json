@@ -1,0 +1,154 @@
+{
+  "id": "casa-norte-dh1700-v-demolition-hammer",
+  "brandId": "casa-norte",
+  "categoryId": "construcao-ferramentas-eletricas",
+  "name": {
+    "en": "Casa Norte DH1700-V Vertical Demolition Hammer with Top Handle and Pointed Chisel",
+    "pt-BR": "Rompedor Vertical Casa Norte DH1700-V com Empunhadura no Topo e Ponteira"
+  },
+  "description": {
+    "en": "A vertical breaker for concrete, old tile, and hard mortar. The handle is on top and the chisel works straight down, a different machine from a compact rotary hammer held sideways.",
+    "pt-BR": "Rompedor vertical para quebrar concreto, piso antigo e argamassa dura. A empunhadura fica no topo e a ponteira trabalha para baixo, outra máquina em relação ao martelete compacto que se segura de lado."
+  },
+  "price": {
+    "BRL": 2190,
+    "USD": 549
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "Casa Norte DH1700-V",
+      "demolition hammer",
+      "concrete breaker"
+    ],
+    "pt-BR": [
+      "Casa Norte DH1700-V",
+      "rompedor",
+      "martelo demolidor"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "tool-type",
+      "valueId": "demolition-hammer"
+    },
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    },
+    {
+      "id": "voltage",
+      "valueId": "127-v"
+    },
+    {
+      "id": "voltage",
+      "valueId": "220-v"
+    }
+  ],
+  "defaultVariantId": "127-v",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "industrial-gray",
+          "name": {
+            "en": "Industrial gray",
+            "pt-BR": "Cinza industrial"
+          },
+          "hex": "#7A8086"
+        }
+      ]
+    },
+    {
+      "id": "voltage",
+      "specificationId": "voltage",
+      "values": [
+        {
+          "id": "127-v",
+          "valueId": "127-v"
+        },
+        {
+          "id": "220-v",
+          "valueId": "220-v"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "127-v",
+      "sku": "CON-DH1700V-127-V",
+      "options": {
+        "color": "industrial-gray",
+        "voltage": "127-v"
+      },
+      "price": {
+        "BRL": 2190,
+        "USD": 549
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte DH1700-V vertical demolition hammer, isolated product view",
+            "pt-BR": "Rompedor vertical Casa Norte DH1700-V, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte DH1700-V breaking cracked concrete with a pointed chisel",
+            "pt-BR": "Casa Norte DH1700-V quebrando concreto rachado com a ponteira"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "220-v",
+      "sku": "CON-DH1700V-220-V",
+      "options": {
+        "color": "industrial-gray",
+        "voltage": "220-v"
+      },
+      "price": {
+        "BRL": 2290,
+        "USD": 579
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Casa Norte DH1700-V vertical demolition hammer, isolated product view",
+            "pt-BR": "Rompedor vertical Casa Norte DH1700-V, vista isolada do produto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Casa Norte DH1700-V breaking cracked concrete with a pointed chisel",
+            "pt-BR": "Casa Norte DH1700-V quebrando concreto rachado com a ponteira"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
