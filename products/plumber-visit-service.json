@@ -1,0 +1,74 @@
+{
+  "id": "plumber-visit-service",
+  "categoryId": "construcao-servicos",
+  "name": {
+    "en": "Licensed Plumber Visit for Installing Pipes, Fittings and Faucets with a Leak Test, Sold by the Visit",
+    "pt-BR": "Visita de Encanador Credenciado para Instalar Tubos, Conexões e Torneiras com Teste de Vazamento"
+  },
+  "description": {
+    "en": "A licensed plumber installs what you bought on your existing lines and tests every joint for leaks. Keeps the manufacturer's warranty valid.",
+    "pt-BR": "Um encanador credenciado instala o que você comprou na tubulação existente e testa cada junta contra vazamentos. Mantém a garantia do fabricante válida."
+  },
+  "price": {
+    "BRL": 249.9,
+    "USD": 79
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "plumber",
+      "for plumbing",
+      "service"
+    ],
+    "pt-BR": [
+      "encanador",
+      "para hidráulica",
+      "serviço"
+    ]
+  },
+  "defaultVariantId": "standard",
+  "options": [
+    {
+      "id": "service",
+      "name": {
+        "en": "Service",
+        "pt-BR": "Serviço"
+      },
+      "values": [
+        {
+          "id": "standard",
+          "name": {
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "sku": "CON-SVC-PLUMB",
+      "options": {
+        "service": "standard"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Plumber tightening the trap under a white sink",
+            "pt-BR": "Encanador apertando o sifão sob uma pia branca"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

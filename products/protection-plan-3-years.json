@@ -1,0 +1,74 @@
+{
+  "id": "protection-plan-3-years",
+  "categoryId": "construcao-servicos",
+  "name": {
+    "en": "Three-Year Protection Plan against Accidental Damage after the Manufacturer's Warranty, Sold by the Plan",
+    "pt-BR": "Plano de Proteção de Três Anos contra Danos Acidentais após a Garantia do Fabricante"
+  },
+  "description": {
+    "en": "Covers accidental damage for three more years once the manufacturer's warranty ends. It costs 10% of the item it protects; the price shown is for an item of $79.",
+    "pt-BR": "Cobre danos acidentais por mais três anos depois que a garantia do fabricante termina. Custa 10% do item protegido; o preço mostrado é para um item de R$ 399."
+  },
+  "price": {
+    "BRL": 39.9,
+    "USD": 7.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "protection plan",
+      "warranty",
+      "service"
+    ],
+    "pt-BR": [
+      "plano de proteção",
+      "garantia",
+      "serviço"
+    ]
+  },
+  "defaultVariantId": "standard",
+  "options": [
+    {
+      "id": "service",
+      "name": {
+        "en": "Service",
+        "pt-BR": "Serviço"
+      },
+      "values": [
+        {
+          "id": "standard",
+          "name": {
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "sku": "CON-SVC-PLAN3",
+      "options": {
+        "service": "standard"
+      },
+      "price": {
+        "BRL": 39.9,
+        "USD": 7.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Teal shield with a white check mark",
+            "pt-BR": "Escudo verde-petróleo com um sinal de visto branco"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
