@@ -88,29 +88,29 @@
         {
           "id": "original",
           "name": {
-            "en": "Original",
-            "pt-BR": "Original"
+            "en": "P-bend",
+            "pt-BR": "Sifão em P"
           }
         },
         {
           "id": "compact-configuration",
           "name": {
-            "en": "Compact Configuration",
-            "pt-BR": "Configuração Compacta"
-          }
-        },
-        {
-          "id": "extended-configuration",
-          "name": {
-            "en": "Extended Configuration",
-            "pt-BR": "Configuração Estendida"
+            "en": "Compact",
+            "pt-BR": "Compacta"
           }
         },
         {
           "id": "standard-configuration",
           "name": {
-            "en": "Standard Configuration",
-            "pt-BR": "Configuração Padrão"
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        },
+        {
+          "id": "extended-configuration",
+          "name": {
+            "en": "Extended",
+            "pt-BR": "Estendida"
           }
         }
       ]

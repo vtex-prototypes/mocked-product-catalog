@@ -96,57 +96,57 @@
         {
           "id": "original",
           "name": {
-            "en": "Original",
-            "pt-BR": "Original"
-          }
-        },
-        {
-          "id": "close-coupled-tank",
-          "name": {
-            "en": "Close-Coupled Tank",
-            "pt-BR": "Caixa Acoplada"
-          }
-        },
-        {
-          "id": "compact-bowl",
-          "name": {
-            "en": "Compact Bowl",
-            "pt-BR": "Bacia Compacta"
-          }
-        },
-        {
-          "id": "dual-flush-tank",
-          "name": {
-            "en": "Dual-Flush Tank",
-            "pt-BR": "Caixa com Duplo Acionamento"
-          }
-        },
-        {
-          "id": "elongated-bowl",
-          "name": {
-            "en": "Elongated Bowl",
-            "pt-BR": "Bacia Alongada"
-          }
-        },
-        {
-          "id": "raised-seat-height",
-          "name": {
-            "en": "Raised Seat Height",
-            "pt-BR": "Altura de Assento Elevada"
-          }
-        },
-        {
-          "id": "rear-outlet-configuration",
-          "name": {
-            "en": "Rear Outlet Configuration",
-            "pt-BR": "Configuração com Saída Traseira"
+            "en": "Floor-mounted",
+            "pt-BR": "De piso"
           }
         },
         {
           "id": "standard-bowl",
           "name": {
-            "en": "Standard Bowl",
-            "pt-BR": "Bacia Padrão"
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        },
+        {
+          "id": "compact-bowl",
+          "name": {
+            "en": "Compact",
+            "pt-BR": "Compacta"
+          }
+        },
+        {
+          "id": "elongated-bowl",
+          "name": {
+            "en": "Elongated",
+            "pt-BR": "Alongada"
+          }
+        },
+        {
+          "id": "close-coupled-tank",
+          "name": {
+            "en": "Close-coupled",
+            "pt-BR": "Caixa acoplada"
+          }
+        },
+        {
+          "id": "dual-flush-tank",
+          "name": {
+            "en": "Dual flush",
+            "pt-BR": "Duplo acionamento"
+          }
+        },
+        {
+          "id": "raised-seat-height",
+          "name": {
+            "en": "Raised seat",
+            "pt-BR": "Assento elevado"
+          }
+        },
+        {
+          "id": "rear-outlet-configuration",
+          "name": {
+            "en": "Rear outlet",
+            "pt-BR": "Saída traseira"
           }
         }
       ]

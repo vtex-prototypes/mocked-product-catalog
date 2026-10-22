@@ -90,38 +90,38 @@
       },
       "values": [
         {
-          "id": "10-millimeter-diameter",
-          "name": {
-            "en": "10 Millimeter Diameter",
-            "pt-BR": "Diâmetro de 10 Milímetros"
-          }
-        },
-        {
-          "id": "8-millimeter-diameter",
-          "name": {
-            "en": "8 Millimeter Diameter",
-            "pt-BR": "Diâmetro de 8 Milímetros"
-          }
-        },
-        {
           "id": "5-millimeter-diameter",
           "name": {
-            "en": "5 Millimeter Diameter",
-            "pt-BR": "Diâmetro de 5 Milímetros"
+            "en": "5 mm",
+            "pt-BR": "5 mm"
           }
         },
         {
           "id": "6-3-millimeter-diameter",
           "name": {
-            "en": "6.3 Millimeter Diameter",
-            "pt-BR": "Diâmetro de 6,3 Milímetros"
+            "en": "6.3 mm",
+            "pt-BR": "6,3 mm"
+          }
+        },
+        {
+          "id": "8-millimeter-diameter",
+          "name": {
+            "en": "8 mm",
+            "pt-BR": "8 mm"
+          }
+        },
+        {
+          "id": "10-millimeter-diameter",
+          "name": {
+            "en": "10 mm",
+            "pt-BR": "10 mm"
           }
         },
         {
           "id": "12-5-millimeter-diameter",
           "name": {
-            "en": "12.5 Millimeter Diameter",
-            "pt-BR": "Diâmetro de 12,5 Milímetros"
+            "en": "12.5 mm",
+            "pt-BR": "12,5 mm"
           }
         }
       ]

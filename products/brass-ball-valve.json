@@ -88,29 +88,29 @@
         {
           "id": "original",
           "name": {
-            "en": "Original",
-            "pt-BR": "Original"
+            "en": "Standard",
+            "pt-BR": "Padrão"
           }
         },
         {
           "id": "half-inch-thread",
           "name": {
-            "en": "Half-Inch Thread",
-            "pt-BR": "Rosca de Meia Polegada"
-          }
-        },
-        {
-          "id": "one-inch-thread",
-          "name": {
-            "en": "One-Inch Thread",
-            "pt-BR": "Rosca de Uma Polegada"
+            "en": "1/2 in",
+            "pt-BR": "1/2 pol"
           }
         },
         {
           "id": "three-quarter-inch-thread",
           "name": {
-            "en": "Three-Quarter-Inch Thread",
-            "pt-BR": "Rosca de Três Quartos"
+            "en": "3/4 in",
+            "pt-BR": "3/4 pol"
+          }
+        },
+        {
+          "id": "one-inch-thread",
+          "name": {
+            "en": "1 in",
+            "pt-BR": "1 pol"
           }
         }
       ]

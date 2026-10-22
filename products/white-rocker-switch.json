@@ -88,43 +88,43 @@
         {
           "id": "single-rocker",
           "name": {
-            "en": "Single Rocker",
-            "pt-BR": "Tecla Simples"
-          }
-        },
-        {
-          "id": "compact-rocker",
-          "name": {
-            "en": "Compact Rocker",
-            "pt-BR": "Tecla Compacta"
+            "en": "Single",
+            "pt-BR": "Simples"
           }
         },
         {
           "id": "double-rocker",
           "name": {
-            "en": "Double Rocker",
-            "pt-BR": "Tecla Dupla"
+            "en": "Double",
+            "pt-BR": "Dupla"
           }
         },
         {
-          "id": "intermediate-rocker",
+          "id": "compact-rocker",
           "name": {
-            "en": "Intermediate Rocker",
-            "pt-BR": "Interruptor Intermediário"
-          }
-        },
-        {
-          "id": "three-way-rocker",
-          "name": {
-            "en": "Three-Way Rocker",
-            "pt-BR": "Interruptor Paralelo"
+            "en": "Compact",
+            "pt-BR": "Compacta"
           }
         },
         {
           "id": "wide-rocker",
           "name": {
-            "en": "Wide Rocker",
-            "pt-BR": "Tecla Larga"
+            "en": "Wide",
+            "pt-BR": "Larga"
+          }
+        },
+        {
+          "id": "three-way-rocker",
+          "name": {
+            "en": "Three-way",
+            "pt-BR": "Paralelo"
+          }
+        },
+        {
+          "id": "intermediate-rocker",
+          "name": {
+            "en": "Intermediate",
+            "pt-BR": "Intermediário"
           }
         }
       ]

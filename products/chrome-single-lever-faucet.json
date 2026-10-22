@@ -92,43 +92,43 @@
         {
           "id": "short-spout",
           "name": {
-            "en": "Short Spout",
-            "pt-BR": "Bica Curta"
-          }
-        },
-        {
-          "id": "deck-mount",
-          "name": {
-            "en": "Deck Mount",
-            "pt-BR": "Instalação de Mesa em Furo Preparado"
+            "en": "Short spout",
+            "pt-BR": "Bica curta"
           }
         },
         {
           "id": "medium-spout",
           "name": {
-            "en": "Medium Spout",
-            "pt-BR": "Bica Média"
+            "en": "Medium spout",
+            "pt-BR": "Bica média"
           }
         },
         {
           "id": "tall-spout",
           "name": {
-            "en": "Tall Spout",
-            "pt-BR": "Bica Alta"
+            "en": "Tall spout",
+            "pt-BR": "Bica alta"
+          }
+        },
+        {
+          "id": "deck-mount",
+          "name": {
+            "en": "Deck mount",
+            "pt-BR": "Montagem em bancada"
           }
         },
         {
           "id": "wall-mount",
           "name": {
-            "en": "Wall Mount",
-            "pt-BR": "Instalação de Parede"
+            "en": "Wall mount",
+            "pt-BR": "Montagem na parede"
           }
         },
         {
           "id": "controlled-flow",
           "name": {
-            "en": "Controlled Flow",
-            "pt-BR": "Vazão Controlada"
+            "en": "Controlled flow",
+            "pt-BR": "Vazão controlada"
           }
         }
       ]

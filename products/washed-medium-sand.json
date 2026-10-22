@@ -90,24 +90,24 @@
       },
       "values": [
         {
+          "id": "fine-grade",
+          "name": {
+            "en": "Fine",
+            "pt-BR": "Fina"
+          }
+        },
+        {
           "id": "medium-grade",
           "name": {
-            "en": "Medium Grade",
-            "pt-BR": "Granulometria Média"
+            "en": "Medium",
+            "pt-BR": "Média"
           }
         },
         {
           "id": "coarse-grade",
           "name": {
-            "en": "Coarse Grade",
-            "pt-BR": "Granulometria Grossa"
-          }
-        },
-        {
-          "id": "fine-grade",
-          "name": {
-            "en": "Fine Grade",
-            "pt-BR": "Granulometria Fina"
+            "en": "Coarse",
+            "pt-BR": "Grossa"
           }
         }
       ]

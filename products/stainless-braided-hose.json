@@ -88,22 +88,22 @@
         {
           "id": "12-inch-length",
           "name": {
-            "en": "12 Inch Length",
-            "pt-BR": "Comprimento de 30 Centímetros"
+            "en": "12 in",
+            "pt-BR": "30 cm"
           }
         },
         {
           "id": "16-inch-length",
           "name": {
-            "en": "16 Inch Length",
-            "pt-BR": "Comprimento de 40 Centímetros"
+            "en": "16 in",
+            "pt-BR": "40 cm"
           }
         },
         {
           "id": "24-inch-length",
           "name": {
-            "en": "24 Inch Length",
-            "pt-BR": "Comprimento de 60 Centímetros"
+            "en": "24 in",
+            "pt-BR": "60 cm"
           }
         }
       ]

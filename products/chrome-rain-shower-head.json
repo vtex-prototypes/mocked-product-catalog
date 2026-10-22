@@ -90,45 +90,45 @@
       },
       "values": [
         {
-          "id": "8-inch-face",
-          "name": {
-            "en": "8 Inch Face",
-            "pt-BR": "Face de 20 Centímetros"
-          }
-        },
-        {
-          "id": "ceiling-mount",
-          "name": {
-            "en": "Ceiling Mount",
-            "pt-BR": "Instalação no Teto"
-          }
-        },
-        {
           "id": "6-inch-face",
           "name": {
-            "en": "6 Inch Face",
-            "pt-BR": "Face de 15 Centímetros"
+            "en": "6 in face",
+            "pt-BR": "Face de 15 cm"
           }
         },
         {
-          "id": "controlled-flow",
+          "id": "8-inch-face",
           "name": {
-            "en": "Controlled Flow",
-            "pt-BR": "Vazão Controlada"
+            "en": "8 in face",
+            "pt-BR": "Face de 20 cm"
           }
         },
         {
           "id": "10-inch-face",
           "name": {
-            "en": "10 Inch Face",
-            "pt-BR": "Face de 25 Centímetros"
+            "en": "10 in face",
+            "pt-BR": "Face de 25 cm"
+          }
+        },
+        {
+          "id": "ceiling-mount",
+          "name": {
+            "en": "Ceiling mount",
+            "pt-BR": "Montagem no teto"
           }
         },
         {
           "id": "wall-arm-mount",
           "name": {
-            "en": "Wall Arm Mount",
-            "pt-BR": "Instalação em Braço de Parede"
+            "en": "Wall arm",
+            "pt-BR": "Braço de parede"
+          }
+        },
+        {
+          "id": "controlled-flow",
+          "name": {
+            "en": "Controlled flow",
+            "pt-BR": "Vazão controlada"
           }
         }
       ]

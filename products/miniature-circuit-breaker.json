@@ -86,52 +86,52 @@
       },
       "values": [
         {
-          "id": "20-amp-rating",
-          "name": {
-            "en": "20 Amp Rating",
-            "pt-BR": "Corrente de 20 Ampères"
-          }
-        },
-        {
           "id": "10-amp-rating",
           "name": {
-            "en": "10 Amp Rating",
-            "pt-BR": "Corrente de 10 Ampères"
+            "en": "10 A",
+            "pt-BR": "10 A"
           }
         },
         {
           "id": "16-amp-rating",
           "name": {
-            "en": "16 Amp Rating",
-            "pt-BR": "Corrente de 16 Ampères"
+            "en": "16 A",
+            "pt-BR": "16 A"
+          }
+        },
+        {
+          "id": "20-amp-rating",
+          "name": {
+            "en": "20 A",
+            "pt-BR": "20 A"
           }
         },
         {
           "id": "25-amp-rating",
           "name": {
-            "en": "25 Amp Rating",
-            "pt-BR": "Corrente de 25 Ampères"
+            "en": "25 A",
+            "pt-BR": "25 A"
           }
         },
         {
           "id": "32-amp-rating",
           "name": {
-            "en": "32 Amp Rating",
-            "pt-BR": "Corrente de 32 Ampères"
+            "en": "32 A",
+            "pt-BR": "32 A"
           }
         },
         {
           "id": "40-amp-rating",
           "name": {
-            "en": "40 Amp Rating",
-            "pt-BR": "Corrente de 40 Ampères"
+            "en": "40 A",
+            "pt-BR": "40 A"
           }
         },
         {
           "id": "50-amp-rating",
           "name": {
-            "en": "50 Amp Rating",
-            "pt-BR": "Corrente de 50 Ampères"
+            "en": "50 A",
+            "pt-BR": "50 A"
           }
         }
       ]
