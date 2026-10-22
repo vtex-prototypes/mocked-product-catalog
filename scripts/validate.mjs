@@ -172,6 +172,38 @@ function validateProduct(file) {
   }
 }
 
+// Names a shopper reads. The option names the dimension (Rating, Gauge) and each value only the
+// answer (20 A, 2.5 mm²). A value that repeats the option, a placeholder, a generic option name,
+// a repeated value or a long one is how "20 Amp Rating" and "Standard | Alternate" got in.
+const fold = (text) => text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+const nameWords = (text) => fold(text).split(/[^a-z0-9]+/).filter((word) => word.length > 2);
+const GENERIC_OPTION_NAME = /^(options?|variants?|variations?|choices?|selection|default|other|opcao|opcoes|variantes?|variacao|escolha|selecao|padrao|outro)$/;
+const PLACEHOLDER_VALUE = /\b(original|alternate|alternative|option|variant|default|tbd|alternativa|opcao|variante)\b/;
+const MAX_VALUE_LENGTH = 30;
+
+function checkOptionNaming(id, opt) {
+  if (opt.specificationId) return; // the label comes from specifications.json
+  for (const locale of LOCALES) {
+    const optionName = opt.name?.[locale];
+    if (typeof optionName !== "string") continue;
+    if (GENERIC_OPTION_NAME.test(fold(optionName).trim())) {
+      err(id, `option "${opt.id}" is named "${optionName}" (${locale}). Name the dimension it stands for, like Rating, Gauge or Kit size (AGENTS.md, "Naming options and values")`);
+    }
+    const optionWords = new Set(nameWords(optionName));
+    const seen = new Set();
+    for (const value of opt.values ?? []) {
+      const valueName = value?.name?.[locale];
+      if (typeof valueName !== "string") continue;
+      const where = `option "${opt.id}" value "${value.id}" (${locale}) "${valueName}"`;
+      if (PLACEHOLDER_VALUE.test(fold(valueName))) err(id, `${where} reads as a placeholder. Name what the choice is, with its real measure (AGENTS.md, "Naming options and values")`);
+      if (nameWords(valueName).some((word) => optionWords.has(word))) err(id, `${where} repeats the option's name "${optionName}". The option already says it, so name only the answer (for example "20 A", not "20 Amp Rating")`);
+      if (valueName.length > MAX_VALUE_LENGTH) err(id, `${where} is longer than ${MAX_VALUE_LENGTH} characters. A chip names the choice; the detail goes in the description`);
+      if (seen.has(fold(valueName))) err(id, `option "${opt.id}" repeats the value name "${valueName}" (${locale})`);
+      seen.add(fold(valueName));
+    }
+  }
+}
+
 // Options (color, size, …) and one entry per combination that is actually sold.
 // Returns the set of image filenames referenced, or null if variants are missing.
 function validateVariants(id, p, dir) {
@@ -206,6 +238,8 @@ function validateVariants(id, p, dir) {
       }
     }
     optionValues.set(opt.id, ids);
+    // A deprecated product keeps its old names until it is removed in the next major release.
+    if (!p.deprecated) checkOptionNaming(id, opt);
   }
 
   if (!Array.isArray(p.variants) || p.variants.length === 0) {
