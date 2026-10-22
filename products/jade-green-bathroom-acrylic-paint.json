@@ -1,0 +1,182 @@
+{
+  "id": "jade-green-bathroom-acrylic-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Jade Green Eggshell Acrylic Paint for Bathrooms, Blue-Green and Darker than Mint, Sold by the Can",
+    "pt-BR": "Tinta Acrílica Verde Jade Semibrilho para Banheiro, Azul-Esverdeado Mais Escuro que o Menta, Vendida por Lata"
+  },
+  "description": {
+    "en": "A blue-green jade acrylic for a bathroom above the tile. It sits darker and bluer than mint, so the two do not read as the same can. The listed price is the 3.6 liter can.",
+    "pt-BR": "Tinta acrílica verde jade, puxada para o azul, para o banheiro acima do azulejo. É mais escura e mais azul que o menta, então as duas latas não se confundem. O preço anunciado é da lata de 3,6 litros."
+  },
+  "price": {
+    "BRL": 159.9,
+    "USD": 60
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "jade green paint",
+      "blue-green paint",
+      "bathroom wall paint"
+    ],
+    "pt-BR": [
+      "tinta verde jade",
+      "verde azulado",
+      "tinta para banheiro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "jade-green-3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "jade-green",
+          "name": {
+            "en": "Jade green",
+            "pt-BR": "Verde jade"
+          },
+          "hex": "#4AA8A4"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "jade-green-3-6-l",
+      "sku": "CON-JADE-GREEN-BATHROOM-PAINT-3-6-L",
+      "options": {
+        "color": "jade-green",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 159.9,
+        "USD": 60
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of jade green acrylic paint",
+            "pt-BR": "Lata de tinta acrílica verde jade"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Bathroom wall painted blue-green jade",
+            "pt-BR": "Parede de banheiro pintada de verde jade"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jade-green-18-l",
+      "sku": "CON-JADE-GREEN-BATHROOM-PAINT-18-L",
+      "options": {
+        "color": "jade-green",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 469,
+        "USD": 179
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of jade green acrylic paint",
+            "pt-BR": "Lata de tinta acrílica verde jade"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Bathroom wall painted blue-green jade",
+            "pt-BR": "Parede de banheiro pintada de verde jade"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

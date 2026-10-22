@@ -1,0 +1,182 @@
+{
+  "id": "emerald-green-interior-acrylic-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Emerald Green Eggshell Acrylic Wall Paint for Dining Rooms, Saturated Jewel Green, Sold by the Can",
+    "pt-BR": "Tinta Acrílica Verde Esmeralda Semibrilho para Sala de Jantar, Verde Joia Saturado, Vendida por Lata"
+  },
+  "description": {
+    "en": "A saturated emerald acrylic for a dining room. The color is a bright jewel green, lighter than forest and less yellow than lawn green. The listed price is the 3.6 liter can.",
+    "pt-BR": "Tinta acrílica verde esmeralda saturada para sala de jantar. O tom é um verde-joia vivo, mais claro que o floresta e menos amarelado que o verde-grama. O preço anunciado é da lata de 3,6 litros."
+  },
+  "price": {
+    "BRL": 169.9,
+    "USD": 64
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "emerald green paint",
+      "jewel green",
+      "dining room paint"
+    ],
+    "pt-BR": [
+      "tinta verde esmeralda",
+      "verde joia",
+      "tinta para sala de jantar"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "emerald-green-3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "emerald-green",
+          "name": {
+            "en": "Emerald green",
+            "pt-BR": "Verde esmeralda"
+          },
+          "hex": "#0B9B4A"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "emerald-green-3-6-l",
+      "sku": "CON-EMERALD-GREEN-INTERIOR-PAINT-3-6-L",
+      "options": {
+        "color": "emerald-green",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 169.9,
+        "USD": 64
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of emerald green acrylic paint",
+            "pt-BR": "Lata de tinta acrílica verde esmeralda"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Dining room painted saturated emerald green",
+            "pt-BR": "Sala de jantar pintada de verde esmeralda saturado"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emerald-green-18-l",
+      "sku": "CON-EMERALD-GREEN-INTERIOR-PAINT-18-L",
+      "options": {
+        "color": "emerald-green",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 489,
+        "USD": 189
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of emerald green acrylic paint",
+            "pt-BR": "Lata de tinta acrílica verde esmeralda"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Dining room painted saturated emerald green",
+            "pt-BR": "Sala de jantar pintada de verde esmeralda saturado"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

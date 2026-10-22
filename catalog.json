@@ -15214,6 +15214,244 @@
       ]
     },
     {
+      "id": "bottle-green-door-enamel",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Bottle Green Gloss Alkyd Enamel for Interior Doors, Near-Black Green, Sold by the Can",
+        "pt-BR": "Esmalte Sintético Verde Garrafa Brilhante para Porta Interna, Quase Preto, Vendido por Lata"
+      },
+      "description": {
+        "en": "A gloss alkyd enamel for an interior door. The square tin is near-black green, darker and shinier than the forest wall paint. The listed price is the 900 milliliter can.",
+        "pt-BR": "Esmalte sintético brilhante para porta interna. A lata quadrada é um verde quase preto, mais escuro e mais brilhante que a tinta verde floresta de parede. O preço anunciado é da lata de 900 mililitros."
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 28
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "bottle green enamel",
+          "door paint",
+          "gloss enamel"
+        ],
+        "pt-BR": [
+          "esmalte verde garrafa",
+          "tinta para porta",
+          "esmalte brilhante"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "alkyd",
+          "value": {
+            "en": "Alkyd enamel",
+            "pt-BR": "Esmalte sintético"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "bottle-green-900-ml",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "bottle-green",
+              "name": {
+                "en": "Bottle green",
+                "pt-BR": "Verde garrafa"
+              },
+              "hex": "#123028"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "900-ml",
+              "name": {
+                "en": "900 ml",
+                "pt-BR": "900 ml"
+              }
+            },
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "bottle-green-900-ml",
+          "sku": "CON-BOTTLE-GREEN-DOOR-ENAMEL-900-ML",
+          "options": {
+            "color": "bottle-green",
+            "volume": "900-ml"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 28
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tin of bottle green gloss enamel",
+                "pt-BR": "Lata de esmalte verde garrafa brilhante"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bottle-green-door-enamel/main-white.webp",
+                "#f5f5f5": "images/bottle-green-door-enamel/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bottle-green-door-enamel/detail-white.webp",
+                "#f5f5f5": "images/bottle-green-door-enamel/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Interior door painted gloss bottle green",
+                "pt-BR": "Porta interna pintada de verde garrafa brilhante"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bottle-green-door-enamel/application-white.webp",
+                "#f5f5f5": "images/bottle-green-door-enamel/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bottle-green-3-6-l",
+          "sku": "CON-BOTTLE-GREEN-DOOR-ENAMEL-3-6-L",
+          "options": {
+            "color": "bottle-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 189.9,
+            "USD": 62
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tin of bottle green gloss enamel",
+                "pt-BR": "Lata de esmalte verde garrafa brilhante"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bottle-green-door-enamel/main-white.webp",
+                "#f5f5f5": "images/bottle-green-door-enamel/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bottle-green-door-enamel/detail-white.webp",
+                "#f5f5f5": "images/bottle-green-door-enamel/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Interior door painted gloss bottle green",
+                "pt-BR": "Porta interna pintada de verde garrafa brilhante"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bottle-green-door-enamel/application-white.webp",
+                "#f5f5f5": "images/bottle-green-door-enamel/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "brass-ball-valve-half-inch",
       "categoryId": "construcao-hidraulica",
       "name": {
@@ -37301,6 +37539,244 @@
       }
     },
     {
+      "id": "emerald-green-interior-acrylic-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Emerald Green Eggshell Acrylic Wall Paint for Dining Rooms, Saturated Jewel Green, Sold by the Can",
+        "pt-BR": "Tinta Acrílica Verde Esmeralda Semibrilho para Sala de Jantar, Verde Joia Saturado, Vendida por Lata"
+      },
+      "description": {
+        "en": "A saturated emerald acrylic for a dining room. The color is a bright jewel green, lighter than forest and less yellow than lawn green. The listed price is the 3.6 liter can.",
+        "pt-BR": "Tinta acrílica verde esmeralda saturada para sala de jantar. O tom é um verde-joia vivo, mais claro que o floresta e menos amarelado que o verde-grama. O preço anunciado é da lata de 3,6 litros."
+      },
+      "price": {
+        "BRL": 169.9,
+        "USD": 64
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "emerald green paint",
+          "jewel green",
+          "dining room paint"
+        ],
+        "pt-BR": [
+          "tinta verde esmeralda",
+          "verde joia",
+          "tinta para sala de jantar"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "emerald-green-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "emerald-green",
+              "name": {
+                "en": "Emerald green",
+                "pt-BR": "Verde esmeralda"
+              },
+              "hex": "#0B9B4A"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "emerald-green-3-6-l",
+          "sku": "CON-EMERALD-GREEN-INTERIOR-PAINT-3-6-L",
+          "options": {
+            "color": "emerald-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 169.9,
+            "USD": 64
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of emerald green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde esmeralda"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/emerald-green-interior-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/emerald-green-interior-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/emerald-green-interior-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/emerald-green-interior-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Dining room painted saturated emerald green",
+                "pt-BR": "Sala de jantar pintada de verde esmeralda saturado"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/emerald-green-interior-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/emerald-green-interior-acrylic-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "emerald-green-18-l",
+          "sku": "CON-EMERALD-GREEN-INTERIOR-PAINT-18-L",
+          "options": {
+            "color": "emerald-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 489,
+            "USD": 189
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of emerald green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde esmeralda"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/emerald-green-interior-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/emerald-green-interior-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/emerald-green-interior-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/emerald-green-interior-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Dining room painted saturated emerald green",
+                "pt-BR": "Sala de jantar pintada de verde esmeralda saturado"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/emerald-green-interior-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/emerald-green-interior-acrylic-paint/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "epoxy-graphite-grout",
       "categoryId": "construcao-rejuntes",
       "name": {
@@ -52520,6 +52996,482 @@
       ]
     },
     {
+      "id": "jade-green-bathroom-acrylic-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Jade Green Eggshell Acrylic Paint for Bathrooms, Blue-Green and Darker than Mint, Sold by the Can",
+        "pt-BR": "Tinta Acrílica Verde Jade Semibrilho para Banheiro, Azul-Esverdeado Mais Escuro que o Menta, Vendida por Lata"
+      },
+      "description": {
+        "en": "A blue-green jade acrylic for a bathroom above the tile. It sits darker and bluer than mint, so the two do not read as the same can. The listed price is the 3.6 liter can.",
+        "pt-BR": "Tinta acrílica verde jade, puxada para o azul, para o banheiro acima do azulejo. É mais escura e mais azul que o menta, então as duas latas não se confundem. O preço anunciado é da lata de 3,6 litros."
+      },
+      "price": {
+        "BRL": 159.9,
+        "USD": 60
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "jade green paint",
+          "blue-green paint",
+          "bathroom wall paint"
+        ],
+        "pt-BR": [
+          "tinta verde jade",
+          "verde azulado",
+          "tinta para banheiro"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "jade-green-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "jade-green",
+              "name": {
+                "en": "Jade green",
+                "pt-BR": "Verde jade"
+              },
+              "hex": "#4AA8A4"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "jade-green-3-6-l",
+          "sku": "CON-JADE-GREEN-BATHROOM-PAINT-3-6-L",
+          "options": {
+            "color": "jade-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 159.9,
+            "USD": 60
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of jade green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde jade"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/jade-green-bathroom-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/jade-green-bathroom-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/jade-green-bathroom-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/jade-green-bathroom-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom wall painted blue-green jade",
+                "pt-BR": "Parede de banheiro pintada de verde jade"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/jade-green-bathroom-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/jade-green-bathroom-acrylic-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "jade-green-18-l",
+          "sku": "CON-JADE-GREEN-BATHROOM-PAINT-18-L",
+          "options": {
+            "color": "jade-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 469,
+            "USD": 179
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of jade green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde jade"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/jade-green-bathroom-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/jade-green-bathroom-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/jade-green-bathroom-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/jade-green-bathroom-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom wall painted blue-green jade",
+                "pt-BR": "Parede de banheiro pintada de verde jade"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/jade-green-bathroom-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/jade-green-bathroom-acrylic-paint/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kelly-green-exterior-acrylic-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Kelly Green Exterior Acrylic Masonry Paint, Bright Lawn Green with a Low Sheen, Sold by the Can",
+        "pt-BR": "Tinta Acrílica Verde-Grama para Fachada, Verde Vivo de Baixo Brilho, Vendida por Lata"
+      },
+      "description": {
+        "en": "A bright lawn-green acrylic for a facade. It is vivid where olive is muddy, so the bucket reads as another color from across the aisle. The listed price is the 3.6 liter can.",
+        "pt-BR": "Tinta acrílica verde-grama viva para fachada. É intensa onde o oliva é terroso, então o balde se distingue de longe. O preço anunciado é da lata de 3,6 litros."
+      },
+      "price": {
+        "BRL": 169.9,
+        "USD": 64
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "kelly green paint",
+          "lawn green",
+          "green facade paint"
+        ],
+        "pt-BR": [
+          "tinta verde-grama",
+          "verde vivo",
+          "tinta verde para fachada"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "kelly-green-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "kelly-green",
+              "name": {
+                "en": "Kelly green",
+                "pt-BR": "Verde-grama"
+              },
+              "hex": "#22C043"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "kelly-green-3-6-l",
+          "sku": "CON-KELLY-GREEN-EXTERIOR-PAINT-3-6-L",
+          "options": {
+            "color": "kelly-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 169.9,
+            "USD": 64
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bucket of kelly green acrylic paint",
+                "pt-BR": "Balde de tinta acrílica verde-grama"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/kelly-green-exterior-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/kelly-green-exterior-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/kelly-green-exterior-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/kelly-green-exterior-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "House facade painted bright kelly green",
+                "pt-BR": "Fachada de casa pintada de verde-grama vivo"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/kelly-green-exterior-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/kelly-green-exterior-acrylic-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "kelly-green-18-l",
+          "sku": "CON-KELLY-GREEN-EXTERIOR-PAINT-18-L",
+          "options": {
+            "color": "kelly-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 499,
+            "USD": 195
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bucket of kelly green acrylic paint",
+                "pt-BR": "Balde de tinta acrílica verde-grama"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/kelly-green-exterior-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/kelly-green-exterior-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/kelly-green-exterior-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/kelly-green-exterior-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "House facade painted bright kelly green",
+                "pt-BR": "Fachada de casa pintada de verde-grama vivo"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/kelly-green-exterior-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/kelly-green-exterior-acrylic-paint/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "lace-trim-blouse",
       "brandId": "fio-puro",
       "brand": {
@@ -55306,6 +56258,244 @@
               "src": {
                 "#ffffff": "images/light-stone-ceramic-tile/detail-white.webp",
                 "#f5f5f5": "images/light-stone-ceramic-tile/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lime-green-interior-acrylic-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Lime Green Matte Acrylic Wall Paint for Playrooms, Vivid Yellow-Green, Sold by the Can",
+        "pt-BR": "Tinta Acrílica Verde-Limão Fosca para Brinquedoteca, Amarelo-Esverdeado Vivo, Vendida por Lata"
+      },
+      "description": {
+        "en": "A vivid lime acrylic for a playroom or studio wall. The yellow-green reads as a highlighter, far from sage, mint, or olive. The listed price is the 3.6 liter can.",
+        "pt-BR": "Tinta acrílica verde-limão viva para a parede de uma brinquedoteca ou ateliê. O amarelo-esverdeado lembra um marca-texto, longe do sálvia, do menta e do oliva. O preço anunciado é da lata de 3,6 litros."
+      },
+      "price": {
+        "BRL": 139.9,
+        "USD": 54
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "lime green paint",
+          "vivid yellow-green",
+          "playroom paint"
+        ],
+        "pt-BR": [
+          "tinta verde-limão",
+          "amarelo-esverdeado",
+          "tinta para brinquedoteca"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "lime-green-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "lime-green",
+              "name": {
+                "en": "Lime green",
+                "pt-BR": "Verde-limão"
+              },
+              "hex": "#C6EF1A"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "lime-green-3-6-l",
+          "sku": "CON-LIME-GREEN-INTERIOR-PAINT-3-6-L",
+          "options": {
+            "color": "lime-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 139.9,
+            "USD": 54
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of lime green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde-limão"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/lime-green-interior-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/lime-green-interior-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/lime-green-interior-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/lime-green-interior-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Playroom wall painted matte lime green",
+                "pt-BR": "Parede de brinquedoteca pintada de verde-limão fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/lime-green-interior-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/lime-green-interior-acrylic-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "lime-green-18-l",
+          "sku": "CON-LIME-GREEN-INTERIOR-PAINT-18-L",
+          "options": {
+            "color": "lime-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 419,
+            "USD": 165
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of lime green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde-limão"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/lime-green-interior-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/lime-green-interior-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/lime-green-interior-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/lime-green-interior-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Playroom wall painted matte lime green",
+                "pt-BR": "Parede de brinquedoteca pintada de verde-limão fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/lime-green-interior-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/lime-green-interior-acrylic-paint/application-gray.webp"
               }
             }
           ]
@@ -62175,6 +63365,244 @@
               "src": {
                 "#ffffff": "images/pillow/sage-white.webp",
                 "#f5f5f5": "images/pillow/sage-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pistachio-interior-acrylic-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Pistachio Green Matte Acrylic Wall Paint, Pale Yellow-Green for Bedrooms, Sold by the Can",
+        "pt-BR": "Tinta Acrílica Verde Pistache Fosca para Quarto, Amarelo-Esverdeado Claro, Vendida por Lata"
+      },
+      "description": {
+        "en": "A pale pistachio acrylic for a bedroom. The yellow cast keeps it apart from cool mint and from gray sage. The listed price is the 3.6 liter can.",
+        "pt-BR": "Tinta acrílica verde pistache clara para quarto. O fundo amarelado a separa do menta frio e do sálvia acinzentado. O preço anunciado é da lata de 3,6 litros."
+      },
+      "price": {
+        "BRL": 139.9,
+        "USD": 52
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "pistachio green paint",
+          "pale yellow-green",
+          "bedroom paint"
+        ],
+        "pt-BR": [
+          "tinta verde pistache",
+          "amarelo-esverdeado claro",
+          "tinta para quarto"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "pistachio-green-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "pistachio-green",
+              "name": {
+                "en": "Pistachio green",
+                "pt-BR": "Verde pistache"
+              },
+              "hex": "#D5E7A3"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "pistachio-green-3-6-l",
+          "sku": "CON-PISTACHIO-INTERIOR-PAINT-3-6-L",
+          "options": {
+            "color": "pistachio-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 139.9,
+            "USD": 52
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of pistachio green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde pistache"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pistachio-interior-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/pistachio-interior-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pistachio-interior-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/pistachio-interior-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bedroom painted pale pistachio green",
+                "pt-BR": "Quarto pintado de verde pistache claro"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pistachio-interior-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/pistachio-interior-acrylic-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "pistachio-green-18-l",
+          "sku": "CON-PISTACHIO-INTERIOR-PAINT-18-L",
+          "options": {
+            "color": "pistachio-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 409,
+            "USD": 159
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of pistachio green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde pistache"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pistachio-interior-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/pistachio-interior-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pistachio-interior-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/pistachio-interior-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bedroom painted pale pistachio green",
+                "pt-BR": "Quarto pintado de verde pistache claro"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pistachio-interior-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/pistachio-interior-acrylic-paint/application-gray.webp"
               }
             }
           ]
@@ -69515,6 +70943,180 @@
               "src": {
                 "#ffffff": "images/rust-embroidered-linen-blouse/detail-white.webp",
                 "#f5f5f5": "images/rust-embroidered-linen-blouse/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safety-green-marking-spray",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Fluorescent Safety Green Marking Spray Paint for Concrete Lines, Sold by the Can",
+        "pt-BR": "Tinta Spray Verde Fluorescente para Demarcação de Concreto, Vendida por Lata"
+      },
+      "description": {
+        "en": "A fluorescent spray for a concrete line. The can itself is neon yellow-green, a different object from the wall-paint buckets. The listed price is one 400 milliliter can.",
+        "pt-BR": "Spray fluorescente para uma faixa no concreto. A lata já é verde-néon, outro objeto em relação aos baldes de tinta de parede. O preço anunciado é de uma lata de 400 mililitros."
+      },
+      "price": {
+        "BRL": 34.9,
+        "USD": 12
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "safety green spray",
+          "fluorescent paint",
+          "floor marking"
+        ],
+        "pt-BR": [
+          "spray verde fluorescente",
+          "tinta de demarcação",
+          "faixa no concreto"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "safety-green-400-ml",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "safety-green",
+              "name": {
+                "en": "Safety green",
+                "pt-BR": "Verde sinalização"
+              },
+              "hex": "#D6FF00"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "400-ml",
+              "name": {
+                "en": "400 ml",
+                "pt-BR": "400 ml"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "safety-green-400-ml",
+          "sku": "CON-SAFETY-GREEN-MARKING-SPRAY-400-ML",
+          "options": {
+            "color": "safety-green",
+            "volume": "400-ml"
+          },
+          "price": {
+            "BRL": 34.9,
+            "USD": 12
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of fluorescent safety green spray paint",
+                "pt-BR": "Lata de tinta spray verde fluorescente"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/safety-green-marking-spray/main-white.webp",
+                "#f5f5f5": "images/safety-green-marking-spray/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/safety-green-marking-spray/detail-white.webp",
+                "#f5f5f5": "images/safety-green-marking-spray/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Concrete floor with a fluorescent green line",
+                "pt-BR": "Piso de concreto com uma faixa verde fluorescente"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/safety-green-marking-spray/application-white.webp",
+                "#f5f5f5": "images/safety-green-marking-spray/application-gray.webp"
               }
             }
           ]

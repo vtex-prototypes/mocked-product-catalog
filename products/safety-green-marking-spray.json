@@ -1,0 +1,130 @@
+{
+  "id": "safety-green-marking-spray",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Fluorescent Safety Green Marking Spray Paint for Concrete Lines, Sold by the Can",
+    "pt-BR": "Tinta Spray Verde Fluorescente para Demarcação de Concreto, Vendida por Lata"
+  },
+  "description": {
+    "en": "A fluorescent spray for a concrete line. The can itself is neon yellow-green, a different object from the wall-paint buckets. The listed price is one 400 milliliter can.",
+    "pt-BR": "Spray fluorescente para uma faixa no concreto. A lata já é verde-néon, outro objeto em relação aos baldes de tinta de parede. O preço anunciado é de uma lata de 400 mililitros."
+  },
+  "price": {
+    "BRL": 34.9,
+    "USD": 12
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "safety green spray",
+      "fluorescent paint",
+      "floor marking"
+    ],
+    "pt-BR": [
+      "spray verde fluorescente",
+      "tinta de demarcação",
+      "faixa no concreto"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "safety-green-400-ml",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "safety-green",
+          "name": {
+            "en": "Safety green",
+            "pt-BR": "Verde sinalização"
+          },
+          "hex": "#D6FF00"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "400-ml",
+          "name": {
+            "en": "400 ml",
+            "pt-BR": "400 ml"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "safety-green-400-ml",
+      "sku": "CON-SAFETY-GREEN-MARKING-SPRAY-400-ML",
+      "options": {
+        "color": "safety-green",
+        "volume": "400-ml"
+      },
+      "price": {
+        "BRL": 34.9,
+        "USD": 12
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of fluorescent safety green spray paint",
+            "pt-BR": "Lata de tinta spray verde fluorescente"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Concrete floor with a fluorescent green line",
+            "pt-BR": "Piso de concreto com uma faixa verde fluorescente"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
