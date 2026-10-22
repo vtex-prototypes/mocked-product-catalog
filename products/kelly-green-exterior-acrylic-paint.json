@@ -1,0 +1,182 @@
+{
+  "id": "kelly-green-exterior-acrylic-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Kelly Green Exterior Acrylic Masonry Paint, Bright Lawn Green with a Low Sheen, Sold by the Can",
+    "pt-BR": "Tinta Acrílica Verde-Grama para Fachada, Verde Vivo de Baixo Brilho, Vendida por Lata"
+  },
+  "description": {
+    "en": "A bright lawn-green acrylic for a facade. It is vivid where olive is muddy, so the bucket reads as another color from across the aisle. The listed price is the 3.6 liter can.",
+    "pt-BR": "Tinta acrílica verde-grama viva para fachada. É intensa onde o oliva é terroso, então o balde se distingue de longe. O preço anunciado é da lata de 3,6 litros."
+  },
+  "price": {
+    "BRL": 169.9,
+    "USD": 64
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "kelly green paint",
+      "lawn green",
+      "green facade paint"
+    ],
+    "pt-BR": [
+      "tinta verde-grama",
+      "verde vivo",
+      "tinta verde para fachada"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "kelly-green-3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "kelly-green",
+          "name": {
+            "en": "Kelly green",
+            "pt-BR": "Verde-grama"
+          },
+          "hex": "#22C043"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "kelly-green-3-6-l",
+      "sku": "CON-KELLY-GREEN-EXTERIOR-PAINT-3-6-L",
+      "options": {
+        "color": "kelly-green",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 169.9,
+        "USD": 64
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bucket of kelly green acrylic paint",
+            "pt-BR": "Balde de tinta acrílica verde-grama"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "House facade painted bright kelly green",
+            "pt-BR": "Fachada de casa pintada de verde-grama vivo"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kelly-green-18-l",
+      "sku": "CON-KELLY-GREEN-EXTERIOR-PAINT-18-L",
+      "options": {
+        "color": "kelly-green",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 499,
+        "USD": 195
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bucket of kelly green acrylic paint",
+            "pt-BR": "Balde de tinta acrílica verde-grama"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "House facade painted bright kelly green",
+            "pt-BR": "Fachada de casa pintada de verde-grama vivo"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

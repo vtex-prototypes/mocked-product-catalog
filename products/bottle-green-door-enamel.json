@@ -1,0 +1,182 @@
+{
+  "id": "bottle-green-door-enamel",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Bottle Green Gloss Alkyd Enamel for Interior Doors, Near-Black Green, Sold by the Can",
+    "pt-BR": "Esmalte Sintético Verde Garrafa Brilhante para Porta Interna, Quase Preto, Vendido por Lata"
+  },
+  "description": {
+    "en": "A gloss alkyd enamel for an interior door. The square tin is near-black green, darker and shinier than the forest wall paint. The listed price is the 900 milliliter can.",
+    "pt-BR": "Esmalte sintético brilhante para porta interna. A lata quadrada é um verde quase preto, mais escuro e mais brilhante que a tinta verde floresta de parede. O preço anunciado é da lata de 900 mililitros."
+  },
+  "price": {
+    "BRL": 89.9,
+    "USD": 28
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "bottle green enamel",
+      "door paint",
+      "gloss enamel"
+    ],
+    "pt-BR": [
+      "esmalte verde garrafa",
+      "tinta para porta",
+      "esmalte brilhante"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "alkyd"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "bottle-green-900-ml",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "bottle-green",
+          "name": {
+            "en": "Bottle green",
+            "pt-BR": "Verde garrafa"
+          },
+          "hex": "#123028"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "900-ml",
+          "name": {
+            "en": "900 ml",
+            "pt-BR": "900 ml"
+          }
+        },
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "bottle-green-900-ml",
+      "sku": "CON-BOTTLE-GREEN-DOOR-ENAMEL-900-ML",
+      "options": {
+        "color": "bottle-green",
+        "volume": "900-ml"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tin of bottle green gloss enamel",
+            "pt-BR": "Lata de esmalte verde garrafa brilhante"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Interior door painted gloss bottle green",
+            "pt-BR": "Porta interna pintada de verde garrafa brilhante"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bottle-green-3-6-l",
+      "sku": "CON-BOTTLE-GREEN-DOOR-ENAMEL-3-6-L",
+      "options": {
+        "color": "bottle-green",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 189.9,
+        "USD": 62
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tin of bottle green gloss enamel",
+            "pt-BR": "Lata de esmalte verde garrafa brilhante"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Interior door painted gloss bottle green",
+            "pt-BR": "Porta interna pintada de verde garrafa brilhante"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

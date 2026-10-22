@@ -1,0 +1,182 @@
+{
+  "id": "lime-green-interior-acrylic-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Lime Green Matte Acrylic Wall Paint for Playrooms, Vivid Yellow-Green, Sold by the Can",
+    "pt-BR": "Tinta Acrílica Verde-Limão Fosca para Brinquedoteca, Amarelo-Esverdeado Vivo, Vendida por Lata"
+  },
+  "description": {
+    "en": "A vivid lime acrylic for a playroom or studio wall. The yellow-green reads as a highlighter, far from sage, mint, or olive. The listed price is the 3.6 liter can.",
+    "pt-BR": "Tinta acrílica verde-limão viva para a parede de uma brinquedoteca ou ateliê. O amarelo-esverdeado lembra um marca-texto, longe do sálvia, do menta e do oliva. O preço anunciado é da lata de 3,6 litros."
+  },
+  "price": {
+    "BRL": 139.9,
+    "USD": 54
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "lime green paint",
+      "vivid yellow-green",
+      "playroom paint"
+    ],
+    "pt-BR": [
+      "tinta verde-limão",
+      "amarelo-esverdeado",
+      "tinta para brinquedoteca"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "lime-green-3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "lime-green",
+          "name": {
+            "en": "Lime green",
+            "pt-BR": "Verde-limão"
+          },
+          "hex": "#C6EF1A"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "lime-green-3-6-l",
+      "sku": "CON-LIME-GREEN-INTERIOR-PAINT-3-6-L",
+      "options": {
+        "color": "lime-green",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 139.9,
+        "USD": 54
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of lime green acrylic paint",
+            "pt-BR": "Lata de tinta acrílica verde-limão"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Playroom wall painted matte lime green",
+            "pt-BR": "Parede de brinquedoteca pintada de verde-limão fosco"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lime-green-18-l",
+      "sku": "CON-LIME-GREEN-INTERIOR-PAINT-18-L",
+      "options": {
+        "color": "lime-green",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 419,
+        "USD": 165
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of lime green acrylic paint",
+            "pt-BR": "Lata de tinta acrílica verde-limão"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Playroom wall painted matte lime green",
+            "pt-BR": "Parede de brinquedoteca pintada de verde-limão fosco"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
