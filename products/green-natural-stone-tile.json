@@ -78,22 +78,22 @@
     {
       "id": "finish",
       "name": {
-        "en": "Finish",
-        "pt-BR": "Acabamento"
+        "en": "Mounting",
+        "pt-BR": "Montagem"
       },
       "values": [
         {
           "id": "honed",
           "name": {
-            "en": "Honed",
-            "pt-BR": "Levigado"
+            "en": "Loose tiles",
+            "pt-BR": "Peças soltas"
           }
         },
         {
           "id": "mesh-mounted",
           "name": {
             "en": "Mesh-mounted",
-            "pt-BR": "Tela"
+            "pt-BR": "Em tela"
           }
         }
       ]

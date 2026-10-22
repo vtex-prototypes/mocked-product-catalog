@@ -66,8 +66,8 @@
     {
       "id": "finish",
       "name": {
-        "en": "Finish",
-        "pt-BR": "Acabamento"
+        "en": "Edge",
+        "pt-BR": "Borda"
       },
       "values": [
         {
@@ -81,7 +81,7 @@
           "id": "rectified",
           "name": {
             "en": "Rectified",
-            "pt-BR": "Retificado"
+            "pt-BR": "Retificada"
           }
         }
       ]
@@ -94,31 +94,31 @@
       },
       "values": [
         {
-          "id": "original",
-          "name": {
-            "en": "Original size",
-            "pt-BR": "Tamanho original"
-          }
-        },
-        {
           "id": "compact-format",
           "name": {
-            "en": "Compact",
-            "pt-BR": "Compacto"
+            "en": "2×2 in",
+            "pt-BR": "5×5 cm"
           }
         },
         {
           "id": "standard-format",
           "name": {
-            "en": "Standard",
-            "pt-BR": "Padrão"
+            "en": "3×3 in",
+            "pt-BR": "7,5×7,5 cm"
+          }
+        },
+        {
+          "id": "original",
+          "name": {
+            "en": "4×4 in",
+            "pt-BR": "10×10 cm"
           }
         },
         {
           "id": "large-format",
           "name": {
-            "en": "Large",
-            "pt-BR": "Grande"
+            "en": "6×6 in",
+            "pt-BR": "15×15 cm"
           }
         }
       ]

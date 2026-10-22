@@ -38,15 +38,15 @@
         {
           "id": "2-mm",
           "name": {
-            "en": "1/16 inch, 200 pieces",
-            "pt-BR": "2 mm, 200 peças"
+            "en": "1/16 in",
+            "pt-BR": "2 mm"
           }
         },
         {
           "id": "3-mm",
           "name": {
-            "en": "1/8 inch, 200 pieces",
-            "pt-BR": "3 mm, 200 peças"
+            "en": "1/8 in",
+            "pt-BR": "3 mm"
           }
         }
       ]

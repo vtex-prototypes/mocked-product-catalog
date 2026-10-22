@@ -63,8 +63,8 @@
     {
       "id": "piece-count",
       "name": {
-        "en": "Piece count",
-        "pt-BR": "Quantidade de peças"
+        "en": "Kit size",
+        "pt-BR": "Tamanho do kit"
       },
       "values": [
         {

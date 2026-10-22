@@ -4406,8 +4406,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -4421,7 +4421,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -5900,8 +5900,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -5915,7 +5915,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -5928,6 +5928,20 @@
           },
           "values": [
             {
+              "id": "compact-format",
+              "name": {
+                "en": "12×24 in",
+                "pt-BR": "30×60 cm"
+              }
+            },
+            {
+              "id": "standard-format",
+              "name": {
+                "en": "24×24 in",
+                "pt-BR": "60×60 cm"
+              }
+            },
+            {
               "id": "24-by-48-inches",
               "name": {
                 "en": "24×48 in",
@@ -5935,24 +5949,10 @@
               }
             },
             {
-              "id": "compact-format",
-              "name": {
-                "en": "Compact",
-                "pt-BR": "Compacto"
-              }
-            },
-            {
-              "id": "standard-format",
-              "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
-              }
-            },
-            {
               "id": "large-format",
               "name": {
-                "en": "Large",
-                "pt-BR": "Grande"
+                "en": "48×48 in",
+                "pt-BR": "120×120 cm"
               }
             }
           ]
@@ -6562,8 +6562,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -6577,7 +6577,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -6808,8 +6808,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -6823,7 +6823,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -7054,8 +7054,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -7069,7 +7069,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -8625,8 +8625,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -8640,7 +8640,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -12678,8 +12678,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -12693,7 +12693,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -14942,8 +14942,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -14957,7 +14957,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -14970,6 +14970,13 @@
           },
           "values": [
             {
+              "id": "compact-format",
+              "name": {
+                "en": "2×4 in",
+                "pt-BR": "5×10 cm"
+              }
+            },
+            {
               "id": "3-by-6-inches",
               "name": {
                 "en": "3×6 in",
@@ -14977,24 +14984,17 @@
               }
             },
             {
-              "id": "compact-format",
-              "name": {
-                "en": "Compact",
-                "pt-BR": "Compacto"
-              }
-            },
-            {
               "id": "standard-format",
               "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
+                "en": "4×8 in",
+                "pt-BR": "10×20 cm"
               }
             },
             {
               "id": "large-format",
               "name": {
-                "en": "Large",
-                "pt-BR": "Grande"
+                "en": "4×12 in",
+                "pt-BR": "10×30 cm"
               }
             }
           ]
@@ -17386,13 +17386,6 @@
           },
           "values": [
             {
-              "id": "original",
-              "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
-              }
-            },
-            {
               "id": "half-inch-thread",
               "name": {
                 "en": "1/2 in",
@@ -17411,6 +17404,13 @@
               "name": {
                 "en": "1 in",
                 "pt-BR": "1 pol"
+              }
+            },
+            {
+              "id": "original",
+              "name": {
+                "en": "1-1/4 in",
+                "pt-BR": "1 1/4 pol"
               }
             }
           ]
@@ -18069,8 +18069,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -18084,7 +18084,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -18097,6 +18097,13 @@
           },
           "values": [
             {
+              "id": "compact-format",
+              "name": {
+                "en": "2×6 in",
+                "pt-BR": "5×15 cm"
+              }
+            },
+            {
               "id": "original",
               "name": {
                 "en": "2×8 in",
@@ -18104,24 +18111,17 @@
               }
             },
             {
-              "id": "compact-format",
-              "name": {
-                "en": "Compact",
-                "pt-BR": "Compacto"
-              }
-            },
-            {
               "id": "standard-format",
               "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
+                "en": "2×10 in",
+                "pt-BR": "5×25 cm"
               }
             },
             {
               "id": "large-format",
               "name": {
-                "en": "Large",
-                "pt-BR": "Grande"
+                "en": "2×12 in",
+                "pt-BR": "5×30 cm"
               }
             }
           ]
@@ -22694,8 +22694,8 @@
         {
           "id": "piece-count",
           "name": {
-            "en": "Piece count",
-            "pt-BR": "Quantidade de peças"
+            "en": "Kit size",
+            "pt-BR": "Tamanho do kit"
           },
           "values": [
             {
@@ -28035,22 +28035,22 @@
         {
           "id": "install",
           "name": {
-            "en": "Drain",
-            "pt-BR": "Saída"
+            "en": "Includes",
+            "pt-BR": "Inclui"
           },
           "values": [
             {
               "id": "standard",
               "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
               }
             },
             {
               "id": "alt",
               "name": {
-                "en": "Alternate",
-                "pt-BR": "Alternativa"
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
               }
             }
           ]
@@ -29534,22 +29534,22 @@
         {
           "id": "install",
           "name": {
-            "en": "Drain",
-            "pt-BR": "Saída"
+            "en": "Includes",
+            "pt-BR": "Inclui"
           },
           "values": [
             {
               "id": "standard",
               "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
               }
             },
             {
               "id": "alt",
               "name": {
-                "en": "Alternate",
-                "pt-BR": "Alternativa"
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
               }
             }
           ]
@@ -31465,13 +31465,6 @@
           },
           "values": [
             {
-              "id": "original",
-              "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
-              }
-            },
-            {
               "id": "six-hole-format",
               "name": {
                 "en": "6 holes",
@@ -31504,6 +31497,13 @@
               "name": {
                 "en": "14 cm wide",
                 "pt-BR": "14 cm de largura"
+              }
+            },
+            {
+              "id": "original",
+              "name": {
+                "en": "19 cm wide",
+                "pt-BR": "19 cm de largura"
               }
             },
             {
@@ -35994,8 +35994,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -36009,7 +36009,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -36248,8 +36248,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -36263,7 +36263,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -37402,8 +37402,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -37417,7 +37417,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -37430,6 +37430,20 @@
           },
           "values": [
             {
+              "id": "compact-format",
+              "name": {
+                "en": "6×6 in",
+                "pt-BR": "15×15 cm"
+              }
+            },
+            {
+              "id": "standard-format",
+              "name": {
+                "en": "6×12 in",
+                "pt-BR": "15×30 cm"
+              }
+            },
+            {
               "id": "12-by-12-inches",
               "name": {
                 "en": "12×12 in",
@@ -37437,24 +37451,10 @@
               }
             },
             {
-              "id": "compact-format",
-              "name": {
-                "en": "Compact",
-                "pt-BR": "Compacto"
-              }
-            },
-            {
-              "id": "standard-format",
-              "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
-              }
-            },
-            {
               "id": "large-format",
               "name": {
-                "en": "Large",
-                "pt-BR": "Grande"
+                "en": "12×24 in",
+                "pt-BR": "30×60 cm"
               }
             }
           ]
@@ -39057,8 +39057,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -39072,7 +39072,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -40195,22 +40195,22 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
               "id": "polished",
               "name": {
-                "en": "Polished",
-                "pt-BR": "Polido"
+                "en": "Natural",
+                "pt-BR": "Natural"
               }
             },
             {
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -40448,15 +40448,15 @@
             {
               "id": "without-underlay",
               "name": {
-                "en": "Without underlay",
-                "pt-BR": "Sem manta"
+                "en": "None",
+                "pt-BR": "Nenhuma"
               }
             },
             {
               "id": "with-underlay",
               "name": {
-                "en": "With acoustic underlay",
-                "pt-BR": "Com manta acústica"
+                "en": "Acoustic",
+                "pt-BR": "Acústica"
               }
             }
           ]
@@ -40687,8 +40687,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -40702,7 +40702,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -48082,8 +48082,8 @@
             {
               "id": "spare-pack",
               "name": {
-                "en": "With spare battery pack",
-                "pt-BR": "Com bateria extra"
+                "en": "With spare pack",
+                "pt-BR": "Com pacote reserva"
               }
             }
           ]
@@ -48312,8 +48312,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -48327,7 +48327,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -49220,8 +49220,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -49235,7 +49235,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -50108,8 +50108,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -50123,7 +50123,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -52254,13 +52254,6 @@
           },
           "values": [
             {
-              "id": "original",
-              "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
-              }
-            },
-            {
               "id": "20-millimeter-nominal-size",
               "name": {
                 "en": "20 mm",
@@ -52272,6 +52265,13 @@
               "name": {
                 "en": "25 mm",
                 "pt-BR": "25 mm"
+              }
+            },
+            {
+              "id": "original",
+              "name": {
+                "en": "1 in",
+                "pt-BR": "1 pol"
               }
             },
             {
@@ -53313,13 +53313,6 @@
           },
           "values": [
             {
-              "id": "original",
-              "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
-              }
-            },
-            {
               "id": "20-millimeter-nominal-size",
               "name": {
                 "en": "20 mm",
@@ -53331,6 +53324,13 @@
               "name": {
                 "en": "25 mm",
                 "pt-BR": "25 mm"
+              }
+            },
+            {
+              "id": "original",
+              "name": {
+                "en": "1 in",
+                "pt-BR": "1 pol"
               }
             },
             {
@@ -53810,8 +53810,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -53825,7 +53825,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -54056,8 +54056,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -54071,7 +54071,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -54302,22 +54302,22 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Mounting",
+            "pt-BR": "Montagem"
           },
           "values": [
             {
               "id": "honed",
               "name": {
-                "en": "Honed",
-                "pt-BR": "Levigado"
+                "en": "Loose tiles",
+                "pt-BR": "Peças soltas"
               }
             },
             {
               "id": "mesh-mounted",
               "name": {
                 "en": "Mesh-mounted",
-                "pt-BR": "Tela"
+                "pt-BR": "Em tela"
               }
             }
           ]
@@ -56450,8 +56450,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -56465,7 +56465,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -62313,8 +62313,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -62328,7 +62328,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -63826,8 +63826,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -63841,7 +63841,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -64083,15 +64083,15 @@
             {
               "id": "without-underlay",
               "name": {
-                "en": "Without underlay",
-                "pt-BR": "Sem manta"
+                "en": "None",
+                "pt-BR": "Nenhuma"
               }
             },
             {
               "id": "with-underlay",
               "name": {
-                "en": "With acoustic underlay",
-                "pt-BR": "Com manta acústica"
+                "en": "Acoustic",
+                "pt-BR": "Acústica"
               }
             }
           ]
@@ -64330,8 +64330,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -64345,7 +64345,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -65286,22 +65286,22 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
               "id": "polished",
               "name": {
-                "en": "Polished",
-                "pt-BR": "Polido"
+                "en": "Natural",
+                "pt-BR": "Natural"
               }
             },
             {
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -67435,8 +67435,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -67450,7 +67450,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -69365,8 +69365,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -69380,7 +69380,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -69843,8 +69843,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -69858,7 +69858,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -71097,8 +71097,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -71112,7 +71112,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -73995,22 +73995,22 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
               "id": "polished",
               "name": {
-                "en": "Polished",
-                "pt-BR": "Polido"
+                "en": "Natural",
+                "pt-BR": "Natural"
               }
             },
             {
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -74241,22 +74241,22 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
               "id": "polished",
               "name": {
-                "en": "Polished",
-                "pt-BR": "Polido"
+                "en": "Natural",
+                "pt-BR": "Natural"
               }
             },
             {
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -78724,15 +78724,15 @@
             {
               "id": "6-mm",
               "name": {
-                "en": "1/4 inch, 50 pieces",
-                "pt-BR": "6 mm, 50 peças"
+                "en": "1/4 in · 50 pcs",
+                "pt-BR": "6 mm · 50 un"
               }
             },
             {
               "id": "8-mm",
               "name": {
-                "en": "5/16 inch, 40 pieces",
-                "pt-BR": "8 mm, 40 peças"
+                "en": "5/16 in · 40 pcs",
+                "pt-BR": "8 mm · 40 un"
               }
             }
           ]
@@ -82486,8 +82486,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -82501,7 +82501,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -82514,31 +82514,31 @@
           },
           "values": [
             {
-              "id": "original",
-              "name": {
-                "en": "Original size",
-                "pt-BR": "Tamanho original"
-              }
-            },
-            {
               "id": "compact-format",
               "name": {
-                "en": "Compact",
-                "pt-BR": "Compacto"
+                "en": "2×2 in",
+                "pt-BR": "5×5 cm"
               }
             },
             {
               "id": "standard-format",
               "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
+                "en": "3×3 in",
+                "pt-BR": "7,5×7,5 cm"
+              }
+            },
+            {
+              "id": "original",
+              "name": {
+                "en": "4×4 in",
+                "pt-BR": "10×10 cm"
               }
             },
             {
               "id": "large-format",
               "name": {
-                "en": "Large",
-                "pt-BR": "Grande"
+                "en": "6×6 in",
+                "pt-BR": "15×15 cm"
               }
             }
           ]
@@ -84199,8 +84199,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -84214,7 +84214,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -85059,8 +85059,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -85074,7 +85074,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -85305,8 +85305,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -85320,7 +85320,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -85551,8 +85551,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -85566,7 +85566,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -88671,8 +88671,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -88686,7 +88686,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -89993,15 +89993,15 @@
             {
               "id": "6-mm",
               "name": {
-                "en": "1/4 inch notch",
-                "pt-BR": "Dente de 6 mm"
+                "en": "1/4 in",
+                "pt-BR": "6 mm"
               }
             },
             {
               "id": "10-mm",
               "name": {
-                "en": "3/8 inch notch",
-                "pt-BR": "Dente de 10 mm"
+                "en": "3/8 in",
+                "pt-BR": "10 mm"
               }
             }
           ]
@@ -91683,8 +91683,8 @@
         {
           "id": "length",
           "name": {
-            "en": "Length",
-            "pt-BR": "Comprimento"
+            "en": "Pack",
+            "pt-BR": "Pacote"
           },
           "values": [
             {
@@ -94017,8 +94017,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -94032,7 +94032,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -95773,8 +95773,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -95788,7 +95788,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -96625,8 +96625,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -96640,7 +96640,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -96653,6 +96653,13 @@
           },
           "values": [
             {
+              "id": "compact-format",
+              "name": {
+                "en": "2×4 in",
+                "pt-BR": "5×10 cm"
+              }
+            },
+            {
               "id": "3-by-6-inches",
               "name": {
                 "en": "3×6 in",
@@ -96660,24 +96667,17 @@
               }
             },
             {
-              "id": "compact-format",
-              "name": {
-                "en": "Compact",
-                "pt-BR": "Compacto"
-              }
-            },
-            {
               "id": "standard-format",
               "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
+                "en": "4×8 in",
+                "pt-BR": "10×20 cm"
               }
             },
             {
               "id": "large-format",
               "name": {
-                "en": "Large",
-                "pt-BR": "Grande"
+                "en": "4×12 in",
+                "pt-BR": "10×30 cm"
               }
             }
           ]
@@ -104465,15 +104465,15 @@
             {
               "id": "2-mm",
               "name": {
-                "en": "1/16 inch, 200 pieces",
-                "pt-BR": "2 mm, 200 peças"
+                "en": "1/16 in",
+                "pt-BR": "2 mm"
               }
             },
             {
               "id": "3-mm",
               "name": {
-                "en": "1/8 inch, 200 pieces",
-                "pt-BR": "3 mm, 200 peças"
+                "en": "1/8 in",
+                "pt-BR": "3 mm"
               }
             }
           ]
@@ -105381,22 +105381,22 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
               "id": "glazed",
               "name": {
-                "en": "Glazed",
-                "pt-BR": "Esmaltado"
+                "en": "Natural",
+                "pt-BR": "Natural"
               }
             },
             {
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -105865,8 +105865,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -105880,7 +105880,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -109913,22 +109913,22 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
               "id": "glazed",
               "name": {
-                "en": "Glazed",
-                "pt-BR": "Esmaltado"
+                "en": "Natural",
+                "pt-BR": "Natural"
               }
             },
             {
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]
@@ -111529,22 +111529,22 @@
         {
           "id": "install",
           "name": {
-            "en": "Drain",
-            "pt-BR": "Saída"
+            "en": "Includes",
+            "pt-BR": "Inclui"
           },
           "values": [
             {
               "id": "standard",
               "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
               }
             },
             {
               "id": "alt",
               "name": {
-                "en": "Alternate",
-                "pt-BR": "Alternativa"
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
               }
             }
           ]
@@ -113832,22 +113832,22 @@
         {
           "id": "install",
           "name": {
-            "en": "Drain",
-            "pt-BR": "Saída"
+            "en": "Includes",
+            "pt-BR": "Inclui"
           },
           "values": [
             {
               "id": "standard",
               "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
               }
             },
             {
               "id": "alt",
               "name": {
-                "en": "Alternate",
-                "pt-BR": "Alternativa"
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
               }
             }
           ]
@@ -113860,17 +113860,17 @@
           },
           "values": [
             {
-              "id": "original",
-              "name": {
-                "en": "Standard",
-                "pt-BR": "Padrão"
-              }
-            },
-            {
               "id": "16-inch-width",
               "name": {
                 "en": "16 in",
                 "pt-BR": "40 cm"
+              }
+            },
+            {
+              "id": "original",
+              "name": {
+                "en": "18 in",
+                "pt-BR": "45 cm"
               }
             },
             {
@@ -117636,15 +117636,15 @@
             {
               "id": "usb-c-case",
               "name": {
-                "en": "USB-C charging case",
-                "pt-BR": "Estojo com carga USB-C"
+                "en": "USB-C charging",
+                "pt-BR": "Carga USB-C"
               }
             },
             {
               "id": "wireless-charging-case",
               "name": {
-                "en": "Wireless charging case",
-                "pt-BR": "Estojo com carga sem fio"
+                "en": "Wireless charging",
+                "pt-BR": "Carga sem fio"
               }
             }
           ]
@@ -117970,15 +117970,15 @@
             {
               "id": "usb-a",
               "name": {
-                "en": "USB-A receiver",
-                "pt-BR": "Receptor USB-A"
+                "en": "USB-A",
+                "pt-BR": "USB-A"
               }
             },
             {
               "id": "usb-c",
               "name": {
-                "en": "USB-C receiver",
-                "pt-BR": "Receptor USB-C"
+                "en": "USB-C",
+                "pt-BR": "USB-C"
               }
             }
           ]
@@ -118207,8 +118207,8 @@
         {
           "id": "finish",
           "name": {
-            "en": "Finish",
-            "pt-BR": "Acabamento"
+            "en": "Edge",
+            "pt-BR": "Borda"
           },
           "values": [
             {
@@ -118222,7 +118222,7 @@
               "id": "rectified",
               "name": {
                 "en": "Rectified",
-                "pt-BR": "Retificado"
+                "pt-BR": "Retificada"
               }
             }
           ]

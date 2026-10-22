@@ -90,13 +90,6 @@
       },
       "values": [
         {
-          "id": "original",
-          "name": {
-            "en": "Standard",
-            "pt-BR": "Padrão"
-          }
-        },
-        {
           "id": "six-hole-format",
           "name": {
             "en": "6 holes",
@@ -129,6 +122,13 @@
           "name": {
             "en": "14 cm wide",
             "pt-BR": "14 cm de largura"
+          }
+        },
+        {
+          "id": "original",
+          "name": {
+            "en": "19 cm wide",
+            "pt-BR": "19 cm de largura"
           }
         },
         {

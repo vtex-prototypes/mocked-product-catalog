@@ -70,22 +70,22 @@
     {
       "id": "finish",
       "name": {
-        "en": "Finish",
-        "pt-BR": "Acabamento"
+        "en": "Edge",
+        "pt-BR": "Borda"
       },
       "values": [
         {
           "id": "glazed",
           "name": {
-            "en": "Glazed",
-            "pt-BR": "Esmaltado"
+            "en": "Natural",
+            "pt-BR": "Natural"
           }
         },
         {
           "id": "rectified",
           "name": {
             "en": "Rectified",
-            "pt-BR": "Retificado"
+            "pt-BR": "Retificada"
           }
         }
       ]

@@ -48,15 +48,15 @@
         {
           "id": "usb-a",
           "name": {
-            "en": "USB-A receiver",
-            "pt-BR": "Receptor USB-A"
+            "en": "USB-A",
+            "pt-BR": "USB-A"
           }
         },
         {
           "id": "usb-c",
           "name": {
-            "en": "USB-C receiver",
-            "pt-BR": "Receptor USB-C"
+            "en": "USB-C",
+            "pt-BR": "USB-C"
           }
         }
       ]

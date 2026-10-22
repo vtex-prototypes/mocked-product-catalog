@@ -39,15 +39,15 @@
         {
           "id": "6-mm",
           "name": {
-            "en": "1/4 inch notch",
-            "pt-BR": "Dente de 6 mm"
+            "en": "1/4 in",
+            "pt-BR": "6 mm"
           }
         },
         {
           "id": "10-mm",
           "name": {
-            "en": "3/8 inch notch",
-            "pt-BR": "Dente de 10 mm"
+            "en": "3/8 in",
+            "pt-BR": "10 mm"
           }
         }
       ]

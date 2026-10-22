@@ -44,15 +44,15 @@
         {
           "id": "usb-c-case",
           "name": {
-            "en": "USB-C charging case",
-            "pt-BR": "Estojo com carga USB-C"
+            "en": "USB-C charging",
+            "pt-BR": "Carga USB-C"
           }
         },
         {
           "id": "wireless-charging-case",
           "name": {
-            "en": "Wireless charging case",
-            "pt-BR": "Estojo com carga sem fio"
+            "en": "Wireless charging",
+            "pt-BR": "Carga sem fio"
           }
         }
       ]
