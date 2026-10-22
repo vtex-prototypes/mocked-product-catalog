@@ -1,0 +1,123 @@
+{
+  "id": "high-early-strength-cement-bag",
+  "categoryId": "construcao-basicos",
+  "name": {
+    "en": "High Early Strength Portland Cement for Precast Pieces and Fast Formwork Removal, a 94 Pound Paper Bag, Sold by the Bag",
+    "pt-BR": "Cimento Portland de Alta Resistência Inicial para Pré-Moldados e Desforma Rápida, Saco de Papel de 50 kg, Vendido por Saco"
+  },
+  "description": {
+    "en": "Reaches working strength in a day or two, so forms come off sooner and precast pieces can be moved early. Use it for posts, slabs and blocks made on site.",
+    "pt-BR": "Ganha resistência em um ou dois dias, então a fôrma sai antes e as peças pré-moldadas podem ser movidas cedo. Bom para mourões, lajotas e blocos feitos na obra."
+  },
+  "price": {
+    "BRL": 49.9,
+    "USD": 16.5
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "portland cement",
+      "high early strength",
+      "precast"
+    ],
+    "pt-BR": [
+      "cimento",
+      "alta resistência inicial",
+      "pré-moldado"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "one",
+  "options": [
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "one",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "five",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one",
+      "sku": "CON-CEMENT-HES-ONE",
+      "options": {
+        "pack": "one"
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 16.5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red cement bag with a white lightning bolt",
+            "pt-BR": "Saco de cimento vermelho com um raio branco"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "five",
+      "sku": "CON-CEMENT-HES-FIVE",
+      "options": {
+        "pack": "five"
+      },
+      "price": {
+        "BRL": 239,
+        "USD": 79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red cement bag with a white lightning bolt",
+            "pt-BR": "Saco de cimento vermelho com um raio branco"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

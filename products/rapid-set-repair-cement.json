@@ -1,0 +1,123 @@
+{
+  "id": "rapid-set-repair-cement",
+  "categoryId": "construcao-basicos",
+  "name": {
+    "en": "Rapid-Set Repair Cement for Patching Concrete, Anchoring Posts and Plugging Leaks, a 10 Pound Bag, Sold by the Bag",
+    "pt-BR": "Cimento de Pega Rápida para Reparos em Concreto, Chumbar Postes e Estancar Vazamentos, Saco de 5 kg, Vendido por Saco"
+  },
+  "description": {
+    "en": "Sets in about fifteen minutes. Mix small amounts to patch broken concrete, set a post or a railing, or stop water coming through a crack.",
+    "pt-BR": "Endurece em cerca de quinze minutos. Prepare pouco de cada vez para remendar concreto quebrado, chumbar um poste ou um corrimão, ou estancar água passando por uma trinca."
+  },
+  "price": {
+    "BRL": 29.9,
+    "USD": 9.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "rapid set cement",
+      "repair",
+      "patch"
+    ],
+    "pt-BR": [
+      "cimento de pega rápida",
+      "reparo",
+      "remendo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "one",
+  "options": [
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "one",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "five",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one",
+      "sku": "CON-CEMENT-RAPID-ONE",
+      "options": {
+        "pack": "one"
+      },
+      "price": {
+        "BRL": 29.9,
+        "USD": 9.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Small yellow cement bag with a black stopwatch",
+            "pt-BR": "Saco pequeno de cimento amarelo com um cronômetro preto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "five",
+      "sku": "CON-CEMENT-RAPID-FIVE",
+      "options": {
+        "pack": "five"
+      },
+      "price": {
+        "BRL": 142,
+        "USD": 47
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Small yellow cement bag with a black stopwatch",
+            "pt-BR": "Saco pequeno de cimento amarelo com um cronômetro preto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

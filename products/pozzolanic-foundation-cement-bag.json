@@ -1,0 +1,119 @@
+{
+  "id": "pozzolanic-foundation-cement-bag",
+  "categoryId": "construcao-basicos",
+  "name": {
+    "en": "Pozzolanic Portland Cement for Foundations, Mass Concrete and Lower Heat of Curing, a 94 Pound Paper Bag, Sold by the Bag",
+    "pt-BR": "Cimento Portland Pozolânico para Fundações, Concreto Massa e Menor Calor de Cura, Saco de Papel de 50 kg, Vendido por Saco"
+  },
+  "description": {
+    "en": "Gives off less heat as it cures, so thick pours like footings and foundation beams crack less. Made with a share of volcanic or fly ash in place of clinker.",
+    "pt-BR": "Libera menos calor na cura, então peças grossas como sapatas e vigas baldrame trincam menos. Feito com parte de pozolana no lugar do clínquer."
+  },
+  "price": {
+    "BRL": 39.9,
+    "USD": 13.5
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "pozzolanic cement",
+      "foundation",
+      "low heat"
+    ],
+    "pt-BR": [
+      "cimento pozolânico",
+      "fundação",
+      "baixo calor"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "one",
+  "options": [
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "one",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "five",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one",
+      "sku": "CON-CEMENT-POZ-ONE",
+      "options": {
+        "pack": "one"
+      },
+      "price": {
+        "BRL": 39.9,
+        "USD": 13.5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Green cement bag with a white leaf",
+            "pt-BR": "Saco de cimento verde com uma folha branca"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "five",
+      "sku": "CON-CEMENT-POZ-FIVE",
+      "options": {
+        "pack": "five"
+      },
+      "price": {
+        "BRL": 192,
+        "USD": 65
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Green cement bag with a white leaf",
+            "pt-BR": "Saco de cimento verde com uma folha branca"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
