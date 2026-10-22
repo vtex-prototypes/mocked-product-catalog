@@ -1,0 +1,74 @@
+{
+  "id": "house-painting-service",
+  "categoryId": "construcao-servicos",
+  "name": {
+    "en": "House Painting Service with Surface Prep, Two Coats and Clean-Up, Priced per Can of Paint Applied, Sold by the Can",
+    "pt-BR": "Serviço de Pintura Residencial com Preparo da Superfície, Duas Demãos e Limpeza, Preço por Lata Aplicada"
+  },
+  "description": {
+    "en": "A painter preps the walls, applies two even coats and leaves the room clean. Priced by each can of paint applied, so the job grows with the area you paint.",
+    "pt-BR": "Um pintor prepara as paredes, aplica duas demãos uniformes e deixa o cômodo limpo. Cobrado por lata de tinta aplicada, então o serviço acompanha a área pintada."
+  },
+  "price": {
+    "BRL": 189.9,
+    "USD": 38
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "painting",
+      "for paint",
+      "service"
+    ],
+    "pt-BR": [
+      "pintura",
+      "para tintas",
+      "serviço"
+    ]
+  },
+  "defaultVariantId": "standard",
+  "options": [
+    {
+      "id": "service",
+      "name": {
+        "en": "Service",
+        "pt-BR": "Serviço"
+      },
+      "values": [
+        {
+          "id": "standard",
+          "name": {
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "sku": "CON-SVC-PAINT",
+      "options": {
+        "service": "standard"
+      },
+      "price": {
+        "BRL": 189.9,
+        "USD": 38
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Painter rolling sage green paint onto a white wall",
+            "pt-BR": "Pintora passando rolo com tinta verde-sálvia numa parede branca"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

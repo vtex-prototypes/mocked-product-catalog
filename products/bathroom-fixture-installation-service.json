@@ -1,0 +1,74 @@
+{
+  "id": "bathroom-fixture-installation-service",
+  "categoryId": "construcao-servicos",
+  "name": {
+    "en": "Bathroom Fixture Installation Service for Faucets, Sinks and Showers with Sealing and Testing, Sold by the Visit",
+    "pt-BR": "Serviço de Instalação de Louças e Metais para Torneiras, Cubas e Chuveiros com Vedação e Teste"
+  },
+  "description": {
+    "en": "An installer mounts the faucet, sink or shower, seals every joint and runs the water to test it. Professional installation keeps the finish warranty valid.",
+    "pt-BR": "Um instalador monta a torneira, a cuba ou o chuveiro, veda cada junta e abre a água para testar. A instalação profissional mantém a garantia do acabamento."
+  },
+  "price": {
+    "BRL": 349.9,
+    "USD": 129
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "installation",
+      "for bathroom",
+      "service"
+    ],
+    "pt-BR": [
+      "instalação",
+      "para banheiro",
+      "serviço"
+    ]
+  },
+  "defaultVariantId": "standard",
+  "options": [
+    {
+      "id": "service",
+      "name": {
+        "en": "Service",
+        "pt-BR": "Serviço"
+      },
+      "values": [
+        {
+          "id": "standard",
+          "name": {
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "sku": "CON-SVC-BATH",
+      "options": {
+        "service": "standard"
+      },
+      "price": {
+        "BRL": 349.9,
+        "USD": 129
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gloved hands tightening a chrome faucet on a white sink",
+            "pt-BR": "Mãos de luva apertando uma torneira cromada numa cuba branca"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

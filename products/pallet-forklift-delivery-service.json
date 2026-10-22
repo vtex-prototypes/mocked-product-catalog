@@ -1,0 +1,74 @@
+{
+  "id": "pallet-forklift-delivery-service",
+  "categoryId": "construcao-servicos",
+  "name": {
+    "en": "Pallet Delivery Service with Forklift Unloading for Cement, Bricks and Bagged Materials, Sold by the Visit",
+    "pt-BR": "Serviço de Entrega de Palete com Descarga por Empilhadeira para Cimento, Tijolos e Sacarias"
+  },
+  "description": {
+    "en": "Heavy orders arrive on a pallet and a forklift sets them down where you say, in the yard or by the gate. No carrying bags by hand.",
+    "pt-BR": "Pedidos pesados chegam em palete e a empilhadeira descarrega onde você indicar, no quintal ou no portão. Sem carregar saco na mão."
+  },
+  "price": {
+    "BRL": 149.9,
+    "USD": 49
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "delivery",
+      "for basic materials",
+      "service"
+    ],
+    "pt-BR": [
+      "entrega",
+      "para materiais básicos",
+      "serviço"
+    ]
+  },
+  "defaultVariantId": "standard",
+  "options": [
+    {
+      "id": "service",
+      "name": {
+        "en": "Service",
+        "pt-BR": "Serviço"
+      },
+      "values": [
+        {
+          "id": "standard",
+          "name": {
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "sku": "CON-SVC-PALLET",
+      "options": {
+        "service": "standard"
+      },
+      "price": {
+        "BRL": 149.9,
+        "USD": 49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Orange forklift lifting a pallet of cement bags",
+            "pt-BR": "Empilhadeira laranja levantando um palete de sacos de cimento"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

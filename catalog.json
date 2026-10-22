@@ -1389,6 +1389,14 @@
         "pt-BR": "Acessórios de obra"
       },
       "parent": "construcao"
+    },
+    {
+      "id": "construcao-servicos",
+      "name": {
+        "en": "Services",
+        "pt-BR": "Serviços"
+      },
+      "parent": "construcao"
     }
   ],
   "products": [
@@ -3657,6 +3665,84 @@
               "src": {
                 "#ffffff": "images/bath-towel/slate-white.webp",
                 "#f5f5f5": "images/bath-towel/slate-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bathroom-fixture-installation-service",
+      "categoryId": "construcao-servicos",
+      "name": {
+        "en": "Bathroom Fixture Installation Service for Faucets, Sinks and Showers with Sealing and Testing, Sold by the Visit",
+        "pt-BR": "Serviço de Instalação de Louças e Metais para Torneiras, Cubas e Chuveiros com Vedação e Teste"
+      },
+      "description": {
+        "en": "An installer mounts the faucet, sink or shower, seals every joint and runs the water to test it. Professional installation keeps the finish warranty valid.",
+        "pt-BR": "Um instalador monta a torneira, a cuba ou o chuveiro, veda cada junta e abre a água para testar. A instalação profissional mantém a garantia do acabamento."
+      },
+      "price": {
+        "BRL": 349.9,
+        "USD": 129
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "installation",
+          "for bathroom",
+          "service"
+        ],
+        "pt-BR": [
+          "instalação",
+          "para banheiro",
+          "serviço"
+        ]
+      },
+      "defaultVariantId": "standard",
+      "options": [
+        {
+          "id": "service",
+          "name": {
+            "en": "Service",
+            "pt-BR": "Serviço"
+          },
+          "values": [
+            {
+              "id": "standard",
+              "name": {
+                "en": "Standard",
+                "pt-BR": "Padrão"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "standard",
+          "sku": "CON-SVC-BATH",
+          "options": {
+            "service": "standard"
+          },
+          "price": {
+            "BRL": 349.9,
+            "USD": 129
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gloved hands tightening a chrome faucet on a white sink",
+                "pt-BR": "Mãos de luva apertando uma torneira cromada numa cuba branca"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/bathroom-fixture-installation-service/main-white.webp",
+                "#f5f5f5": "images/bathroom-fixture-installation-service/main-gray.webp"
               }
             }
           ]
@@ -37777,6 +37863,84 @@
       }
     },
     {
+      "id": "electrician-visit-service",
+      "categoryId": "construcao-servicos",
+      "name": {
+        "en": "Licensed Electrician Visit for Installing Outlets, Switches and Wiring with a Safety Check, Sold by the Visit",
+        "pt-BR": "Visita de Eletricista Credenciado para Instalar Tomadas, Interruptores e Fiação com Teste de Segurança"
+      },
+      "description": {
+        "en": "A licensed electrician installs outlets, switches and wiring, then checks every circuit at the panel. Keeps the fittings' warranty valid.",
+        "pt-BR": "Um eletricista credenciado instala tomadas, interruptores e fiação e depois confere cada circuito no quadro. Mantém a garantia dos materiais válida."
+      },
+      "price": {
+        "BRL": 279.9,
+        "USD": 89
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "electrician",
+          "for electrical",
+          "service"
+        ],
+        "pt-BR": [
+          "eletricista",
+          "para elétrica",
+          "serviço"
+        ]
+      },
+      "defaultVariantId": "standard",
+      "options": [
+        {
+          "id": "service",
+          "name": {
+            "en": "Service",
+            "pt-BR": "Serviço"
+          },
+          "values": [
+            {
+              "id": "standard",
+              "name": {
+                "en": "Standard",
+                "pt-BR": "Padrão"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "standard",
+          "sku": "CON-SVC-ELEC",
+          "options": {
+            "service": "standard"
+          },
+          "price": {
+            "BRL": 279.9,
+            "USD": 89
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Electrician testing a breaker panel with a multimeter",
+                "pt-BR": "Eletricista testando um quadro de disjuntores com multímetro"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/electrician-visit-service/main-white.webp",
+                "#f5f5f5": "images/electrician-visit-service/main-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "emerald-green-interior-acrylic-paint",
       "categoryId": "construcao-tintas",
       "name": {
@@ -41887,6 +42051,84 @@
               "src": {
                 "#ffffff": "images/flip-flops/detail-white.webp",
                 "#f5f5f5": "images/flip-flops/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "floor-tile-installation-service",
+      "categoryId": "construcao-servicos",
+      "name": {
+        "en": "Professional Floor Tile Installation Service with Surface Prep, Thinset and Grout Lines, Priced per Square Foot",
+        "pt-BR": "Serviço de Instalação Profissional de Piso com Preparo da Base, Argamassa e Rejunte, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "An installer lays your floor on a prepared, level surface, sets each tile in thinset and finishes the grout lines. A typical room takes one to two days. Materials are sold separately.",
+        "pt-BR": "Um instalador assenta o piso sobre a base preparada e nivelada, aplica a argamassa em cada peça e finaliza o rejunte. Um cômodo comum leva de um a dois dias. Os materiais são vendidos à parte."
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 2.5
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "installation",
+          "for floors",
+          "service"
+        ],
+        "pt-BR": [
+          "instalação",
+          "para pisos",
+          "serviço"
+        ]
+      },
+      "defaultVariantId": "standard",
+      "options": [
+        {
+          "id": "service",
+          "name": {
+            "en": "Service",
+            "pt-BR": "Serviço"
+          },
+          "values": [
+            {
+              "id": "standard",
+              "name": {
+                "en": "Standard",
+                "pt-BR": "Padrão"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "standard",
+          "sku": "CON-SVC-FLOOR",
+          "options": {
+            "service": "standard"
+          },
+          "price": {
+            "BRL": 49.9,
+            "USD": 2.5
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Installer kneeling to lay a gray porcelain floor tile",
+                "pt-BR": "Instalador ajoelhado assentando um porcelanato cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/floor-tile-installation-service/main-white.webp",
+                "#f5f5f5": "images/floor-tile-installation-service/main-gray.webp"
               }
             }
           ]
@@ -50923,6 +51165,84 @@
               "src": {
                 "#ffffff": "images/hooded-puffer-jacket/green-white.webp",
                 "#f5f5f5": "images/hooded-puffer-jacket/green-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "house-painting-service",
+      "categoryId": "construcao-servicos",
+      "name": {
+        "en": "House Painting Service with Surface Prep, Two Coats and Clean-Up, Priced per Can of Paint Applied, Sold by the Can",
+        "pt-BR": "Serviço de Pintura Residencial com Preparo da Superfície, Duas Demãos e Limpeza, Preço por Lata Aplicada"
+      },
+      "description": {
+        "en": "A painter preps the walls, applies two even coats and leaves the room clean. Priced by each can of paint applied, so the job grows with the area you paint.",
+        "pt-BR": "Um pintor prepara as paredes, aplica duas demãos uniformes e deixa o cômodo limpo. Cobrado por lata de tinta aplicada, então o serviço acompanha a área pintada."
+      },
+      "price": {
+        "BRL": 189.9,
+        "USD": 38
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "painting",
+          "for paint",
+          "service"
+        ],
+        "pt-BR": [
+          "pintura",
+          "para tintas",
+          "serviço"
+        ]
+      },
+      "defaultVariantId": "standard",
+      "options": [
+        {
+          "id": "service",
+          "name": {
+            "en": "Service",
+            "pt-BR": "Serviço"
+          },
+          "values": [
+            {
+              "id": "standard",
+              "name": {
+                "en": "Standard",
+                "pt-BR": "Padrão"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "standard",
+          "sku": "CON-SVC-PAINT",
+          "options": {
+            "service": "standard"
+          },
+          "price": {
+            "BRL": 189.9,
+            "USD": 38
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Painter rolling sage green paint onto a white wall",
+                "pt-BR": "Pintora passando rolo com tinta verde-sálvia numa parede branca"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/house-painting-service/main-white.webp",
+                "#f5f5f5": "images/house-painting-service/main-gray.webp"
               }
             }
           ]
@@ -61729,6 +62049,84 @@
       ]
     },
     {
+      "id": "old-floor-removal-service",
+      "categoryId": "construcao-servicos",
+      "name": {
+        "en": "Old Floor Removal and Haul-Away Service for Ceramic, Porcelain and Vinyl Floors, Priced per Square Foot",
+        "pt-BR": "Serviço de Remoção e Descarte do Piso Antigo de Cerâmica, Porcelanato e Vinílico, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "The crew lifts the old floor, scrapes off loose mortar and takes the rubble away, so the new floor goes down on a clean base. Booked together with installation.",
+        "pt-BR": "A equipe retira o piso antigo, raspa a argamassa solta e leva o entulho embora, para o piso novo ir sobre uma base limpa. Contratado junto com a instalação."
+      },
+      "price": {
+        "BRL": 15.9,
+        "USD": 0.8
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "removal",
+          "for floors",
+          "service"
+        ],
+        "pt-BR": [
+          "remoção",
+          "para pisos",
+          "serviço"
+        ]
+      },
+      "defaultVariantId": "standard",
+      "options": [
+        {
+          "id": "service",
+          "name": {
+            "en": "Service",
+            "pt-BR": "Serviço"
+          },
+          "values": [
+            {
+              "id": "standard",
+              "name": {
+                "en": "Standard",
+                "pt-BR": "Padrão"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "standard",
+          "sku": "CON-SVC-HAUL",
+          "options": {
+            "service": "standard"
+          },
+          "price": {
+            "BRL": 15.9,
+            "USD": 0.8
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bucket of broken old floor tile with a pry bar",
+                "pt-BR": "Balde com cacos de piso antigo e um pé de cabra"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/old-floor-removal-service/main-white.webp",
+                "#f5f5f5": "images/old-floor-removal-service/main-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "olive-bomber-jacket",
       "brandId": "ritmo",
       "brand": {
@@ -64004,6 +64402,84 @@
       }
     },
     {
+      "id": "pallet-forklift-delivery-service",
+      "categoryId": "construcao-servicos",
+      "name": {
+        "en": "Pallet Delivery Service with Forklift Unloading for Cement, Bricks and Bagged Materials, Sold by the Visit",
+        "pt-BR": "Serviço de Entrega de Palete com Descarga por Empilhadeira para Cimento, Tijolos e Sacarias"
+      },
+      "description": {
+        "en": "Heavy orders arrive on a pallet and a forklift sets them down where you say, in the yard or by the gate. No carrying bags by hand.",
+        "pt-BR": "Pedidos pesados chegam em palete e a empilhadeira descarrega onde você indicar, no quintal ou no portão. Sem carregar saco na mão."
+      },
+      "price": {
+        "BRL": 149.9,
+        "USD": 49
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "delivery",
+          "for basic materials",
+          "service"
+        ],
+        "pt-BR": [
+          "entrega",
+          "para materiais básicos",
+          "serviço"
+        ]
+      },
+      "defaultVariantId": "standard",
+      "options": [
+        {
+          "id": "service",
+          "name": {
+            "en": "Service",
+            "pt-BR": "Serviço"
+          },
+          "values": [
+            {
+              "id": "standard",
+              "name": {
+                "en": "Standard",
+                "pt-BR": "Padrão"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "standard",
+          "sku": "CON-SVC-PALLET",
+          "options": {
+            "service": "standard"
+          },
+          "price": {
+            "BRL": 149.9,
+            "USD": 49
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Orange forklift lifting a pallet of cement bags",
+                "pt-BR": "Empilhadeira laranja levantando um palete de sacos de cimento"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pallet-forklift-delivery-service/main-white.webp",
+                "#f5f5f5": "images/pallet-forklift-delivery-service/main-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "pendant-necklace",
       "brandId": "fio-puro",
       "brand": {
@@ -65394,6 +65870,84 @@
               "src": {
                 "#ffffff": "images/plum-paisley-wrap-dress/detail-white.webp",
                 "#f5f5f5": "images/plum-paisley-wrap-dress/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plumber-visit-service",
+      "categoryId": "construcao-servicos",
+      "name": {
+        "en": "Licensed Plumber Visit for Installing Pipes, Fittings and Faucets with a Leak Test, Sold by the Visit",
+        "pt-BR": "Visita de Encanador Credenciado para Instalar Tubos, Conexões e Torneiras com Teste de Vazamento"
+      },
+      "description": {
+        "en": "A licensed plumber installs what you bought on your existing lines and tests every joint for leaks. Keeps the manufacturer's warranty valid.",
+        "pt-BR": "Um encanador credenciado instala o que você comprou na tubulação existente e testa cada junta contra vazamentos. Mantém a garantia do fabricante válida."
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 79
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "plumber",
+          "for plumbing",
+          "service"
+        ],
+        "pt-BR": [
+          "encanador",
+          "para hidráulica",
+          "serviço"
+        ]
+      },
+      "defaultVariantId": "standard",
+      "options": [
+        {
+          "id": "service",
+          "name": {
+            "en": "Service",
+            "pt-BR": "Serviço"
+          },
+          "values": [
+            {
+              "id": "standard",
+              "name": {
+                "en": "Standard",
+                "pt-BR": "Padrão"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "standard",
+          "sku": "CON-SVC-PLUMB",
+          "options": {
+            "service": "standard"
+          },
+          "price": {
+            "BRL": 249.9,
+            "USD": 79
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Plumber tightening the trap under a white sink",
+                "pt-BR": "Encanador apertando o sifão sob uma pia branca"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/plumber-visit-service/main-white.webp",
+                "#f5f5f5": "images/plumber-visit-service/main-gray.webp"
               }
             }
           ]
@@ -67674,6 +68228,84 @@
               "src": {
                 "#ffffff": "images/portland-cement-precast-work/detail-white.webp",
                 "#f5f5f5": "images/portland-cement-precast-work/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "protection-plan-3-years",
+      "categoryId": "construcao-servicos",
+      "name": {
+        "en": "Three-Year Protection Plan against Accidental Damage after the Manufacturer's Warranty, Sold by the Plan",
+        "pt-BR": "Plano de Proteção de Três Anos contra Danos Acidentais após a Garantia do Fabricante"
+      },
+      "description": {
+        "en": "Covers accidental damage for three more years once the manufacturer's warranty ends. It costs 10% of the item it protects; the price shown is for an item of $79.",
+        "pt-BR": "Cobre danos acidentais por mais três anos depois que a garantia do fabricante termina. Custa 10% do item protegido; o preço mostrado é para um item de R$ 399."
+      },
+      "price": {
+        "BRL": 39.9,
+        "USD": 7.9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "protection plan",
+          "warranty",
+          "service"
+        ],
+        "pt-BR": [
+          "plano de proteção",
+          "garantia",
+          "serviço"
+        ]
+      },
+      "defaultVariantId": "standard",
+      "options": [
+        {
+          "id": "service",
+          "name": {
+            "en": "Service",
+            "pt-BR": "Serviço"
+          },
+          "values": [
+            {
+              "id": "standard",
+              "name": {
+                "en": "Standard",
+                "pt-BR": "Padrão"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "standard",
+          "sku": "CON-SVC-PLAN3",
+          "options": {
+            "service": "standard"
+          },
+          "price": {
+            "BRL": 39.9,
+            "USD": 7.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Teal shield with a white check mark",
+                "pt-BR": "Escudo verde-petróleo com um sinal de visto branco"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/protection-plan-3-years/main-white.webp",
+                "#f5f5f5": "images/protection-plan-3-years/main-gray.webp"
               }
             }
           ]
@@ -90135,6 +90767,84 @@
               "src": {
                 "#ffffff": "images/utility-overshirt/detail-white.webp",
                 "#f5f5f5": "images/utility-overshirt/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wall-tile-installation-service",
+      "categoryId": "construcao-servicos",
+      "name": {
+        "en": "Professional Wall Tile Installation Service with Layout, Setting and Grouting, Priced per Square Foot",
+        "pt-BR": "Serviço de Instalação Profissional de Revestimento com Paginação, Assentamento e Rejunte, Preço por Metro Quadrado"
+      },
+      "description": {
+        "en": "A tiler plans the layout, sets each tile level on the wall and grouts the joints. Kitchens, bathrooms and backsplashes. Materials are sold separately.",
+        "pt-BR": "Um azulejista planeja a paginação, assenta cada peça nivelada na parede e rejunta as juntas. Cozinhas, banheiros e frentes de pia. Os materiais são vendidos à parte."
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 6
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "installation",
+          "for wall tile",
+          "service"
+        ],
+        "pt-BR": [
+          "instalação",
+          "para revestimentos",
+          "serviço"
+        ]
+      },
+      "defaultVariantId": "standard",
+      "options": [
+        {
+          "id": "service",
+          "name": {
+            "en": "Service",
+            "pt-BR": "Serviço"
+          },
+          "values": [
+            {
+              "id": "standard",
+              "name": {
+                "en": "Standard",
+                "pt-BR": "Padrão"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "standard",
+          "sku": "CON-SVC-WALL",
+          "options": {
+            "service": "standard"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 6
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tiler setting a white subway tile on a half-tiled wall",
+                "pt-BR": "Azulejista assentando um azulejo metrô branco numa parede"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wall-tile-installation-service/main-white.webp",
+                "#f5f5f5": "images/wall-tile-installation-service/main-gray.webp"
               }
             }
           ]

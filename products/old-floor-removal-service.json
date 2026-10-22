@@ -1,0 +1,74 @@
+{
+  "id": "old-floor-removal-service",
+  "categoryId": "construcao-servicos",
+  "name": {
+    "en": "Old Floor Removal and Haul-Away Service for Ceramic, Porcelain and Vinyl Floors, Priced per Square Foot",
+    "pt-BR": "Serviço de Remoção e Descarte do Piso Antigo de Cerâmica, Porcelanato e Vinílico, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "The crew lifts the old floor, scrapes off loose mortar and takes the rubble away, so the new floor goes down on a clean base. Booked together with installation.",
+    "pt-BR": "A equipe retira o piso antigo, raspa a argamassa solta e leva o entulho embora, para o piso novo ir sobre uma base limpa. Contratado junto com a instalação."
+  },
+  "price": {
+    "BRL": 15.9,
+    "USD": 0.8
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "removal",
+      "for floors",
+      "service"
+    ],
+    "pt-BR": [
+      "remoção",
+      "para pisos",
+      "serviço"
+    ]
+  },
+  "defaultVariantId": "standard",
+  "options": [
+    {
+      "id": "service",
+      "name": {
+        "en": "Service",
+        "pt-BR": "Serviço"
+      },
+      "values": [
+        {
+          "id": "standard",
+          "name": {
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "sku": "CON-SVC-HAUL",
+      "options": {
+        "service": "standard"
+      },
+      "price": {
+        "BRL": 15.9,
+        "USD": 0.8
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Bucket of broken old floor tile with a pry bar",
+            "pt-BR": "Balde com cacos de piso antigo e um pé de cabra"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

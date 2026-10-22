@@ -1,0 +1,74 @@
+{
+  "id": "floor-tile-installation-service",
+  "categoryId": "construcao-servicos",
+  "name": {
+    "en": "Professional Floor Tile Installation Service with Surface Prep, Thinset and Grout Lines, Priced per Square Foot",
+    "pt-BR": "Serviço de Instalação Profissional de Piso com Preparo da Base, Argamassa e Rejunte, Preço por Metro Quadrado"
+  },
+  "description": {
+    "en": "An installer lays your floor on a prepared, level surface, sets each tile in thinset and finishes the grout lines. A typical room takes one to two days. Materials are sold separately.",
+    "pt-BR": "Um instalador assenta o piso sobre a base preparada e nivelada, aplica a argamassa em cada peça e finaliza o rejunte. Um cômodo comum leva de um a dois dias. Os materiais são vendidos à parte."
+  },
+  "price": {
+    "BRL": 49.9,
+    "USD": 2.5
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "installation",
+      "for floors",
+      "service"
+    ],
+    "pt-BR": [
+      "instalação",
+      "para pisos",
+      "serviço"
+    ]
+  },
+  "defaultVariantId": "standard",
+  "options": [
+    {
+      "id": "service",
+      "name": {
+        "en": "Service",
+        "pt-BR": "Serviço"
+      },
+      "values": [
+        {
+          "id": "standard",
+          "name": {
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "standard",
+      "sku": "CON-SVC-FLOOR",
+      "options": {
+        "service": "standard"
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 2.5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Installer kneeling to lay a gray porcelain floor tile",
+            "pt-BR": "Instalador ajoelhado assentando um porcelanato cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
