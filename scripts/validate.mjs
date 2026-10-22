@@ -6,6 +6,7 @@
 // Usage: node scripts/validate.mjs [id ...]
 // Exits 1 on any error. Warnings do not fail the run.
 
+import { createHash } from "node:crypto";
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -328,6 +329,48 @@ function validateImage(label, path, background) {
   // (towel, pillow, sheets), so those remain a human check in the PR template.
 }
 
+// One photo, one product. Two products that are still sold and share a photo
+// file are the same product: a size, pack, gauge, rating, model or intended use
+// is an option with variants on ONE product, never a second product. Products
+// marked deprecated are skipped, so a lookalike can be retired.
+function checkSharedPhotos() {
+  const owners = new Map(); // md5 of a white-background PNG -> ids of the products using it
+  for (const f of allProducts) {
+    const id = f.replace(/\.json$/, "");
+    if (deprecatedProducts.has(id)) continue;
+    let p;
+    try {
+      p = JSON.parse(readFileSync(join(PRODUCTS_DIR, f), "utf8"));
+    } catch {
+      continue;
+    }
+    const seen = new Set();
+    for (const v of p.variants ?? []) {
+      for (const img of v?.images ?? []) {
+        const file = img?.backgrounds?.["#ffffff"];
+        const path = typeof file === "string" ? join(IMAGES_DIR, id, file) : "";
+        if (!file || seen.has(file) || !existsSync(path)) continue;
+        seen.add(file);
+        const hash = createHash("md5").update(readFileSync(path)).digest("hex");
+        if (!owners.has(hash)) owners.set(hash, new Set());
+        owners.get(hash).add(id);
+      }
+    }
+  }
+  // Products often share several files (main shot, detail, application): one error per group.
+  const reported = new Set();
+  for (const ids of owners.values()) {
+    if (ids.size < 2) continue;
+    const list = [...ids].sort();
+    if (reported.has(list.join())) continue;
+    reported.add(list.join());
+    err(
+      list.join(" + "),
+      `${list.length} products share the same photo. Separate products need photos that look different. A size, pack, gauge, rating, model or intended use is an option with variants on ONE product (AGENTS.md, "One product, many variants"): fold them into one product, or give each its own photo.`,
+    );
+  }
+}
+
 // Drafts are photos imported from the Figma board that are not compliant yet
 // (off-white background, text, etc.). They only need an id, a category, a
 // bilingual short name and the reference photo. Promoting one means deleting
@@ -392,6 +435,7 @@ for (const f of files) validateProduct(f);
 for (const [id, replacedBy] of deprecatedProducts) {
   if (deprecatedProducts.has(replacedBy)) err(id, `replaced by "${replacedBy}", which is deprecated too`);
 }
+if (requested.length === 0) checkSharedPhotos();
 for (const f of draftFiles) validateDraft(f, productIds);
 if (existsSync(DRAFTS_DIR) && requested.length === 0) {
   const used = new Set(draftFiles.map((f) => JSON.parse(readFileSync(join(DRAFTS_DIR, f), "utf8")).photo));

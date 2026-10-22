@@ -22,6 +22,7 @@ The validator (`npm run check`) covers metadata, file layout, 1024×1024 PNG and
 - [ ] No shadows under or around the product (no soft gray on the background)
 - [ ] No text, logos, brand tags or labels anywhere in the image
 - [ ] The product is fictional or generic. No trademarks, no real brand names, no real product photos
+- [ ] No two products share a photo. Sizes, gauges, ratings, models, packs and intended uses are variants of one product, or nothing, never separate products
 - [ ] Every new product has a photo distinguishable at a glance; lookalike photos were explicitly approved
 - [ ] Products whose use affects the decision include an application photo; every paint shows a matching painted surface
 
