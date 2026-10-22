@@ -92,50 +92,50 @@
         {
           "id": "original",
           "name": {
-            "en": "Original",
-            "pt-BR": "Original"
-          }
-        },
-        {
-          "id": "eight-hole-format",
-          "name": {
-            "en": "Eight-Hole Format",
-            "pt-BR": "Formato de Oito Furos"
-          }
-        },
-        {
-          "id": "11-centimeter-width",
-          "name": {
-            "en": "11 Centimeter Width",
-            "pt-BR": "Largura de 11 Centímetros"
-          }
-        },
-        {
-          "id": "14-centimeter-width",
-          "name": {
-            "en": "14 Centimeter Width",
-            "pt-BR": "Largura de 14 Centímetros"
-          }
-        },
-        {
-          "id": "9-centimeter-width",
-          "name": {
-            "en": "9 Centimeter Width",
-            "pt-BR": "Largura de 9 Centímetros"
+            "en": "Standard",
+            "pt-BR": "Padrão"
           }
         },
         {
           "id": "six-hole-format",
           "name": {
-            "en": "Six-Hole Format",
-            "pt-BR": "Formato de Seis Furos"
+            "en": "6 holes",
+            "pt-BR": "6 furos"
+          }
+        },
+        {
+          "id": "eight-hole-format",
+          "name": {
+            "en": "8 holes",
+            "pt-BR": "8 furos"
+          }
+        },
+        {
+          "id": "9-centimeter-width",
+          "name": {
+            "en": "9 cm wide",
+            "pt-BR": "9 cm de largura"
+          }
+        },
+        {
+          "id": "11-centimeter-width",
+          "name": {
+            "en": "11 cm wide",
+            "pt-BR": "11 cm de largura"
+          }
+        },
+        {
+          "id": "14-centimeter-width",
+          "name": {
+            "en": "14 cm wide",
+            "pt-BR": "14 cm de largura"
           }
         },
         {
           "id": "reinforced-format",
           "name": {
-            "en": "Reinforced Format",
-            "pt-BR": "Formato Reforçado"
+            "en": "Reinforced",
+            "pt-BR": "Reforçado"
           }
         }
       ]

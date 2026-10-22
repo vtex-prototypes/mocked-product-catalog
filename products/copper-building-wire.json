@@ -86,38 +86,38 @@
       },
       "values": [
         {
+          "id": "1-5-square-millimeter-gauge",
+          "name": {
+            "en": "1.5 mm²",
+            "pt-BR": "1,5 mm²"
+          }
+        },
+        {
           "id": "2-5-square-millimeter-gauge",
           "name": {
-            "en": "2.5 Square Millimeter Gauge",
-            "pt-BR": "Bitola de 2,5 Milímetros Quadrados"
+            "en": "2.5 mm²",
+            "pt-BR": "2,5 mm²"
           }
         },
         {
           "id": "4-square-millimeter-gauge",
           "name": {
-            "en": "4 Square Millimeter Gauge",
-            "pt-BR": "Bitola de 4 Milímetros Quadrados"
-          }
-        },
-        {
-          "id": "1-5-square-millimeter-gauge",
-          "name": {
-            "en": "1.5 Square Millimeter Gauge",
-            "pt-BR": "Bitola de 1,5 Milímetro Quadrado"
+            "en": "4 mm²",
+            "pt-BR": "4 mm²"
           }
         },
         {
           "id": "6-square-millimeter-gauge",
           "name": {
-            "en": "6 Square Millimeter Gauge",
-            "pt-BR": "Bitola de 6 Milímetros Quadrados"
+            "en": "6 mm²",
+            "pt-BR": "6 mm²"
           }
         },
         {
           "id": "10-square-millimeter-gauge",
           "name": {
-            "en": "10 Square Millimeter Gauge",
-            "pt-BR": "Bitola de 10 Milímetros Quadrados"
+            "en": "10 mm²",
+            "pt-BR": "10 mm²"
           }
         }
       ]

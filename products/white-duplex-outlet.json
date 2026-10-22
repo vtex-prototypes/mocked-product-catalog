@@ -88,43 +88,43 @@
         {
           "id": "10-amp-configuration",
           "name": {
-            "en": "10 Amp Configuration",
-            "pt-BR": "Configuração de 10 Ampères"
-          }
-        },
-        {
-          "id": "double-module",
-          "name": {
-            "en": "Double Module",
-            "pt-BR": "Módulo Duplo"
-          }
-        },
-        {
-          "id": "horizontal-plate",
-          "name": {
-            "en": "Horizontal Plate",
-            "pt-BR": "Placa Horizontal"
-          }
-        },
-        {
-          "id": "single-module",
-          "name": {
-            "en": "Single Module",
-            "pt-BR": "Módulo Simples"
+            "en": "10 A",
+            "pt-BR": "10 A"
           }
         },
         {
           "id": "20-amp-configuration",
           "name": {
-            "en": "20 Amp Configuration",
-            "pt-BR": "Configuração de 20 Ampères"
+            "en": "20 A",
+            "pt-BR": "20 A"
+          }
+        },
+        {
+          "id": "single-module",
+          "name": {
+            "en": "Single module",
+            "pt-BR": "Módulo simples"
+          }
+        },
+        {
+          "id": "double-module",
+          "name": {
+            "en": "Double module",
+            "pt-BR": "Módulo duplo"
+          }
+        },
+        {
+          "id": "horizontal-plate",
+          "name": {
+            "en": "Horizontal plate",
+            "pt-BR": "Placa horizontal"
           }
         },
         {
           "id": "vertical-plate",
           "name": {
-            "en": "Vertical Plate",
-            "pt-BR": "Placa Vertical"
+            "en": "Vertical plate",
+            "pt-BR": "Placa vertical"
           }
         }
       ]

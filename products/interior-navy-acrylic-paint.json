@@ -105,24 +105,24 @@
           }
         },
         {
-          "id": "high-coverage",
+          "id": "standard-coverage",
           "name": {
-            "en": "High Coverage",
-            "pt-BR": "Alta Cobertura"
+            "en": "Standard coverage",
+            "pt-BR": "Cobertura padrão"
           }
         },
         {
-          "id": "standard-coverage",
+          "id": "high-coverage",
           "name": {
-            "en": "Standard Coverage",
-            "pt-BR": "Cobertura Padrão"
+            "en": "High coverage",
+            "pt-BR": "Alta cobertura"
           }
         },
         {
           "id": "washable-finish",
           "name": {
-            "en": "Washable Finish",
-            "pt-BR": "Acabamento Lavável"
+            "en": "Washable",
+            "pt-BR": "Lavável"
           }
         }
       ]

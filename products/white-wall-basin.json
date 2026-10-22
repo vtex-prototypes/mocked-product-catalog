@@ -92,57 +92,57 @@
         {
           "id": "original",
           "name": {
-            "en": "Original",
-            "pt-BR": "Original"
-          }
-        },
-        {
-          "id": "20-inch-width",
-          "name": {
-            "en": "20 Inch Width",
-            "pt-BR": "Largura de 50 Centímetros"
+            "en": "Standard",
+            "pt-BR": "Padrão"
           }
         },
         {
           "id": "16-inch-width",
           "name": {
-            "en": "16 Inch Width",
-            "pt-BR": "Largura de 40 Centímetros"
+            "en": "16 in",
+            "pt-BR": "40 cm"
           }
         },
         {
-          "id": "left-side-shelf",
+          "id": "20-inch-width",
           "name": {
-            "en": "Left Side Shelf",
-            "pt-BR": "Mesa Lateral Esquerda"
-          }
-        },
-        {
-          "id": "right-side-shelf",
-          "name": {
-            "en": "Right Side Shelf",
-            "pt-BR": "Mesa Lateral Direita"
-          }
-        },
-        {
-          "id": "single-faucet-hole",
-          "name": {
-            "en": "Single Faucet Hole",
-            "pt-BR": "Um Furo"
+            "en": "20 in",
+            "pt-BR": "50 cm"
           }
         },
         {
           "id": "24-inch-width",
           "name": {
-            "en": "24 Inch Width",
-            "pt-BR": "Largura de 60 Centímetros"
+            "en": "24 in",
+            "pt-BR": "60 cm"
+          }
+        },
+        {
+          "id": "left-side-shelf",
+          "name": {
+            "en": "Left shelf",
+            "pt-BR": "Mesa à esquerda"
+          }
+        },
+        {
+          "id": "right-side-shelf",
+          "name": {
+            "en": "Right shelf",
+            "pt-BR": "Mesa à direita"
+          }
+        },
+        {
+          "id": "single-faucet-hole",
+          "name": {
+            "en": "Single hole",
+            "pt-BR": "Um furo"
           }
         },
         {
           "id": "three-faucet-holes",
           "name": {
-            "en": "Three Faucet Holes",
-            "pt-BR": "Três Furos"
+            "en": "Three holes",
+            "pt-BR": "Três furos"
           }
         }
       ]

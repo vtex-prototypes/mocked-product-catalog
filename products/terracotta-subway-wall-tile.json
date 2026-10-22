@@ -96,29 +96,29 @@
         {
           "id": "3-by-6-inches",
           "name": {
-            "en": "3 by 6 Inches",
+            "en": "3×6 in",
             "pt-BR": "7,5×15 cm"
           }
         },
         {
           "id": "compact-format",
           "name": {
-            "en": "Compact Format",
-            "pt-BR": "Formato Compacto"
-          }
-        },
-        {
-          "id": "large-format",
-          "name": {
-            "en": "Large Format",
-            "pt-BR": "Formato Grande"
+            "en": "Compact",
+            "pt-BR": "Compacto"
           }
         },
         {
           "id": "standard-format",
           "name": {
-            "en": "Standard Format",
-            "pt-BR": "Formato Padrão"
+            "en": "Standard",
+            "pt-BR": "Padrão"
+          }
+        },
+        {
+          "id": "large-format",
+          "name": {
+            "en": "Large",
+            "pt-BR": "Grande"
           }
         }
       ]
