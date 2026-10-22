@@ -196,7 +196,7 @@ function checkOptionNaming(id, opt) {
       if (typeof valueName !== "string") continue;
       const where = `option "${opt.id}" value "${value.id}" (${locale}) "${valueName}"`;
       if (PLACEHOLDER_VALUE.test(fold(valueName))) err(id, `${where} reads as a placeholder. Name what the choice is, with its real measure (AGENTS.md, "Naming options and values")`);
-      if (nameWords(valueName).some((word) => optionWords.has(word))) err(id, `${where} repeats the option's name "${optionName}". The option already says it: write "20 A", not "20 Amp Rating"`);
+      if (nameWords(valueName).some((word) => optionWords.has(word))) err(id, `${where} repeats the option's name "${optionName}". The option already says it, so name only the answer (for example "20 A", not "20 Amp Rating")`);
       if (valueName.length > MAX_VALUE_LENGTH) err(id, `${where} is longer than ${MAX_VALUE_LENGTH} characters. A chip names the choice; the detail goes in the description`);
       if (seen.has(fold(valueName))) err(id, `option "${opt.id}" repeats the value name "${valueName}" (${locale})`);
       seen.add(fold(valueName));
@@ -238,7 +238,8 @@ function validateVariants(id, p, dir) {
       }
     }
     optionValues.set(opt.id, ids);
-    checkOptionNaming(id, opt);
+    // A deprecated product keeps its old names until it is removed in the next major release.
+    if (!p.deprecated) checkOptionNaming(id, opt);
   }
 
   if (!Array.isArray(p.variants) || p.variants.length === 0) {
