@@ -62,22 +62,22 @@
     {
       "id": "install",
       "name": {
-        "en": "Drain",
-        "pt-BR": "Saída"
+        "en": "Includes",
+        "pt-BR": "Inclui"
       },
       "values": [
         {
           "id": "standard",
           "name": {
-            "en": "Standard",
-            "pt-BR": "Padrão"
+            "en": "Piece only",
+            "pt-BR": "Só a peça"
           }
         },
         {
           "id": "alt",
           "name": {
-            "en": "Alternate",
-            "pt-BR": "Alternativa"
+            "en": "Installation kit",
+            "pt-BR": "Kit de instalação"
           }
         }
       ]
@@ -90,17 +90,17 @@
       },
       "values": [
         {
-          "id": "original",
-          "name": {
-            "en": "Standard",
-            "pt-BR": "Padrão"
-          }
-        },
-        {
           "id": "16-inch-width",
           "name": {
             "en": "16 in",
             "pt-BR": "40 cm"
+          }
+        },
+        {
+          "id": "original",
+          "name": {
+            "en": "18 in",
+            "pt-BR": "45 cm"
           }
         },
         {

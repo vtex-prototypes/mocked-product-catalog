@@ -86,13 +86,6 @@
       },
       "values": [
         {
-          "id": "original",
-          "name": {
-            "en": "Standard",
-            "pt-BR": "Padrão"
-          }
-        },
-        {
           "id": "half-inch-thread",
           "name": {
             "en": "1/2 in",
@@ -111,6 +104,13 @@
           "name": {
             "en": "1 in",
             "pt-BR": "1 pol"
+          }
+        },
+        {
+          "id": "original",
+          "name": {
+            "en": "1-1/4 in",
+            "pt-BR": "1 1/4 pol"
           }
         }
       ]

@@ -55,8 +55,8 @@
         {
           "id": "spare-pack",
           "name": {
-            "en": "With spare battery pack",
-            "pt-BR": "Com bateria extra"
+            "en": "With spare pack",
+            "pt-BR": "Com pacote reserva"
           }
         }
       ]

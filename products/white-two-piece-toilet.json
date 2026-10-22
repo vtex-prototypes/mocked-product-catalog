@@ -66,22 +66,22 @@
     {
       "id": "install",
       "name": {
-        "en": "Drain",
-        "pt-BR": "Saída"
+        "en": "Includes",
+        "pt-BR": "Inclui"
       },
       "values": [
         {
           "id": "standard",
           "name": {
-            "en": "Standard",
-            "pt-BR": "Padrão"
+            "en": "Piece only",
+            "pt-BR": "Só a peça"
           }
         },
         {
           "id": "alt",
           "name": {
-            "en": "Alternate",
-            "pt-BR": "Alternativa"
+            "en": "Installation kit",
+            "pt-BR": "Kit de instalação"
           }
         }
       ]

@@ -38,15 +38,15 @@
         {
           "id": "6-mm",
           "name": {
-            "en": "1/4 inch, 50 pieces",
-            "pt-BR": "6 mm, 50 peças"
+            "en": "1/4 in · 50 pcs",
+            "pt-BR": "6 mm · 50 un"
           }
         },
         {
           "id": "8-mm",
           "name": {
-            "en": "5/16 inch, 40 pieces",
-            "pt-BR": "8 mm, 40 peças"
+            "en": "5/16 in · 40 pcs",
+            "pt-BR": "8 mm · 40 un"
           }
         }
       ]

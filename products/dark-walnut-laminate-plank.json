@@ -85,15 +85,15 @@
         {
           "id": "without-underlay",
           "name": {
-            "en": "Without underlay",
-            "pt-BR": "Sem manta"
+            "en": "None",
+            "pt-BR": "Nenhuma"
           }
         },
         {
           "id": "with-underlay",
           "name": {
-            "en": "With acoustic underlay",
-            "pt-BR": "Com manta acústica"
+            "en": "Acoustic",
+            "pt-BR": "Acústica"
           }
         }
       ]

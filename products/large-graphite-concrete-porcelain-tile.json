@@ -82,8 +82,8 @@
     {
       "id": "finish",
       "name": {
-        "en": "Finish",
-        "pt-BR": "Acabamento"
+        "en": "Edge",
+        "pt-BR": "Borda"
       },
       "values": [
         {
@@ -97,7 +97,7 @@
           "id": "rectified",
           "name": {
             "en": "Rectified",
-            "pt-BR": "Retificado"
+            "pt-BR": "Retificada"
           }
         }
       ]
