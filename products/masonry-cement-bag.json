@@ -1,0 +1,123 @@
+{
+  "id": "masonry-cement-bag",
+  "categoryId": "construcao-basicos",
+  "name": {
+    "en": "Masonry Cement for Laying Brick and Block and for Wall Plaster, a 70 Pound Paper Bag, Sold by the Bag",
+    "pt-BR": "Cimento de Alvenaria para Assentar Tijolos e Blocos e para Reboco, Saco de Papel de 40 kg, Vendido por Saco"
+  },
+  "description": {
+    "en": "Mixed with sand, it makes a smooth, workable mortar for laying brick and block and for plastering walls. Not for structural concrete.",
+    "pt-BR": "Misturado à areia, rende uma argamassa macia e trabalhável para assentar tijolos e blocos e para rebocar paredes. Não serve para concreto estrutural."
+  },
+  "price": {
+    "BRL": 36.9,
+    "USD": 12.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "masonry cement",
+      "brick",
+      "plaster"
+    ],
+    "pt-BR": [
+      "cimento de alvenaria",
+      "tijolo",
+      "reboco"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "one",
+  "options": [
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "one",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "five",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one",
+      "sku": "CON-CEMENT-MASONRY-ONE",
+      "options": {
+        "pack": "one"
+      },
+      "price": {
+        "BRL": 36.9,
+        "USD": 12.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Orange cement bag with a brown brick wall",
+            "pt-BR": "Saco de cimento laranja com uma parede de tijolos marrom"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "five",
+      "sku": "CON-CEMENT-MASONRY-FIVE",
+      "options": {
+        "pack": "five"
+      },
+      "price": {
+        "BRL": 176,
+        "USD": 62
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Orange cement bag with a brown brick wall",
+            "pt-BR": "Saco de cimento laranja com uma parede de tijolos marrom"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

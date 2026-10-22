@@ -22,7 +22,7 @@ A store type maps onto a root in `categories.json`. These are the roots the cata
 | Grocery | `supermercado` | 0 | 62 |
 | Electronics & Appliances | `eletronicos` | 22 | 25 |
 | Sports & Outdoors | `esportes` | 13 | 34 |
-| Building Materials | `construcao` | 341 | 0 |
+| Building Materials | `construcao` | 347 | 0 |
 <!-- coverage:end -->
 
 A department store or a marketplace names more than one root. A narrower prototype names subcategories instead, such as `casa-cama-mesa-banho` or `esportes-casacos`. A sporting-goods store can be `esportes` plus part of `roupa-acessorios`. Take the children of any chosen root: each category has a `parent` id, or `null` when it is a root.
