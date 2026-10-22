@@ -10,8 +10,14 @@ import { loadCatalog } from "../loader.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const BASE = "https://catalog.test/v/";
-const raw = readFileSync(join(ROOT, "catalog.json"), "utf8");
-const source = JSON.parse(raw);
+// The tests count warnings, so they run on the catalog without the deprecations
+// it carries today. Each test adds the ones it needs.
+const source = JSON.parse(readFileSync(join(ROOT, "catalog.json"), "utf8"));
+for (const product of source.products) {
+  delete product.deprecated;
+  for (const variant of product.variants) delete variant.deprecated;
+}
+const raw = JSON.stringify(source);
 
 const CDN = "https://cdn.jsdelivr.net/gh/vtex-prototypes/mocked-product-catalog";
 const RESOLVE = "https://data.jsdelivr.com/v1/packages/gh/vtex-prototypes/mocked-product-catalog/resolved?specifier=";
