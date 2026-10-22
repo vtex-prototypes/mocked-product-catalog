@@ -1,0 +1,182 @@
+{
+  "id": "teal-green-epoxy-floor-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Teal Green Epoxy Floor Paint for Garages and Workshops, High-Gloss Anti-Slip Coating, Sold by the Pail",
+    "pt-BR": "Tinta Epóxi Verde Petróleo para Piso de Garagem e Oficina, Alto Brilho Antiderrapante, Vendida por Galão"
+  },
+  "description": {
+    "en": "A glossy teal green epoxy for concrete floors in garages and workshops. It resists oil, tire marks and dragged tools, with a light anti-slip grain. The listed price is the 3.6 liter pail.",
+    "pt-BR": "Epóxi verde petróleo brilhante para piso de concreto em garagem e oficina. Resiste a óleo, marca de pneu e ferramenta arrastada, com leve textura antiderrapante. O preço anunciado é do galão de 3,6 litros."
+  },
+  "price": {
+    "BRL": 289,
+    "USD": 89
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "green floor paint",
+      "epoxy floor paint",
+      "garage floor paint"
+    ],
+    "pt-BR": [
+      "tinta de piso verde",
+      "tinta epóxi",
+      "tinta para garagem"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "epoxy"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "teal-green-3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "teal-green",
+          "name": {
+            "en": "Teal green",
+            "pt-BR": "Verde petróleo"
+          },
+          "hex": "#138A7A"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "teal-green-3-6-l",
+      "sku": "CON-TEAL-GREEN-EPOXY-FLOOR-PAINT-3-6-L",
+      "options": {
+        "color": "teal-green",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 289,
+        "USD": 89
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray floor-coating pail with a teal green drip",
+            "pt-BR": "Galão cinza de tinta de piso com um escorrido verde petróleo"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Garage floor coated in glossy teal green epoxy",
+            "pt-BR": "Piso de garagem com epóxi verde petróleo brilhante"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "teal-green-18-l",
+      "sku": "CON-TEAL-GREEN-EPOXY-FLOOR-PAINT-18-L",
+      "options": {
+        "color": "teal-green",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 1190,
+        "USD": 349
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray floor-coating pail with a teal green drip",
+            "pt-BR": "Galão cinza de tinta de piso com um escorrido verde petróleo"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Garage floor coated in glossy teal green epoxy",
+            "pt-BR": "Piso de garagem com epóxi verde petróleo brilhante"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

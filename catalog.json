@@ -22810,6 +22810,244 @@
       ]
     },
     {
+      "id": "celadon-low-odor-nursery-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Celadon Low-Odor Acrylic Wall Paint for Bedrooms and Nurseries, Soft Chalky Matte, Sold by the Tin",
+        "pt-BR": "Tinta Acrílica de Baixo Odor Verde Celadon para Quarto e Quarto de Bebê, Fosco Suave, Vendida por Lata"
+      },
+      "description": {
+        "en": "A pale celadon acrylic with a soft chalky matte for bedrooms and nurseries. It is low odor, so the room is ready to sleep in sooner. The listed price is the 900 milliliter tin, wrapped in kraft paper.",
+        "pt-BR": "Acrílica verde celadon clarinha, com fosco suave e levemente calcário, para quartos e quarto de bebê. Tem baixo odor, então o cômodo fica pronto para dormir mais cedo. O preço anunciado é da lata de 900 mililitros, embrulhada em papel kraft."
+      },
+      "price": {
+        "BRL": 99.9,
+        "USD": 34
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "celadon green paint",
+          "low odor paint",
+          "nursery paint"
+        ],
+        "pt-BR": [
+          "tinta verde celadon",
+          "tinta de baixo odor",
+          "tinta para quarto de bebê"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "celadon-900-ml",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "celadon",
+              "name": {
+                "en": "Celadon",
+                "pt-BR": "Celadon"
+              },
+              "hex": "#B5C7B6"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "900-ml",
+              "name": {
+                "en": "900 ml",
+                "pt-BR": "900 ml"
+              }
+            },
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "celadon-900-ml",
+          "sku": "CON-CELADON-LOW-ODOR-NURSERY-PAINT-900-ML",
+          "options": {
+            "color": "celadon",
+            "volume": "900-ml"
+          },
+          "price": {
+            "BRL": 99.9,
+            "USD": 34
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Kraft-wrapped tin with a celadon paint swatch and twine",
+                "pt-BR": "Lata embrulhada em kraft com amostra de tinta celadon e barbante"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/celadon-low-odor-nursery-paint/main-white.webp",
+                "#f5f5f5": "images/celadon-low-odor-nursery-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/celadon-low-odor-nursery-paint/detail-white.webp",
+                "#f5f5f5": "images/celadon-low-odor-nursery-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Nursery painted pale celadon green",
+                "pt-BR": "Quarto de bebê pintado de verde celadon claro"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/celadon-low-odor-nursery-paint/application-white.webp",
+                "#f5f5f5": "images/celadon-low-odor-nursery-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "celadon-3-6-l",
+          "sku": "CON-CELADON-LOW-ODOR-NURSERY-PAINT-3-6-L",
+          "options": {
+            "color": "celadon",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 289,
+            "USD": 88
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Kraft-wrapped tin with a celadon paint swatch and twine",
+                "pt-BR": "Lata embrulhada em kraft com amostra de tinta celadon e barbante"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/celadon-low-odor-nursery-paint/main-white.webp",
+                "#f5f5f5": "images/celadon-low-odor-nursery-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/celadon-low-odor-nursery-paint/detail-white.webp",
+                "#f5f5f5": "images/celadon-low-odor-nursery-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Nursery painted pale celadon green",
+                "pt-BR": "Quarto de bebê pintado de verde celadon claro"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/celadon-low-odor-nursery-paint/application-white.webp",
+                "#f5f5f5": "images/celadon-low-odor-nursery-paint/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cement-basecoat-plaster",
       "categoryId": "construcao-argamassas",
       "name": {
@@ -39601,6 +39839,244 @@
       ]
     },
     {
+      "id": "fern-green-satin-interior-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Fern Green Satin Acrylic Interior Paint for Home Offices, Fresh Leafy Green, Sold by the Bucket",
+        "pt-BR": "Tinta Acrílica Acetinada Verde Samambaia para Home Office, Verde Folha Vivo, Vendida por Balde"
+      },
+      "description": {
+        "en": "A fresh fern green satin acrylic for an accent wall in a home office or hallway. The soft sheen brightens a room that gets little sun. The listed price is the 3.6 liter bucket.",
+        "pt-BR": "Acrílica acetinada verde samambaia para a parede de destaque do home office ou do corredor. O brilho suave clareia cômodos com pouco sol. O preço anunciado é do balde de 3,6 litros."
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 52
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "fern green paint",
+          "satin wall paint",
+          "home office paint"
+        ],
+        "pt-BR": [
+          "tinta verde samambaia",
+          "tinta acetinada",
+          "tinta para escritório"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "fern-green-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "fern-green",
+              "name": {
+                "en": "Fern green",
+                "pt-BR": "Verde samambaia"
+              },
+              "hex": "#6FA03F"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "fern-green-3-6-l",
+          "sku": "CON-FERN-GREEN-SATIN-INTERIOR-PAINT-3-6-L",
+          "options": {
+            "color": "fern-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 129.9,
+            "USD": 52
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Yellow bucket with a fern green diagonal stripe",
+                "pt-BR": "Balde amarelo com uma faixa diagonal verde samambaia"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/fern-green-satin-interior-paint/main-white.webp",
+                "#f5f5f5": "images/fern-green-satin-interior-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/fern-green-satin-interior-paint/detail-white.webp",
+                "#f5f5f5": "images/fern-green-satin-interior-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Home office wall painted fern green",
+                "pt-BR": "Parede de home office pintada de verde samambaia"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/fern-green-satin-interior-paint/application-white.webp",
+                "#f5f5f5": "images/fern-green-satin-interior-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "fern-green-18-l",
+          "sku": "CON-FERN-GREEN-SATIN-INTERIOR-PAINT-18-L",
+          "options": {
+            "color": "fern-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 469,
+            "USD": 169
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Yellow bucket with a fern green diagonal stripe",
+                "pt-BR": "Balde amarelo com uma faixa diagonal verde samambaia"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/fern-green-satin-interior-paint/main-white.webp",
+                "#f5f5f5": "images/fern-green-satin-interior-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/fern-green-satin-interior-paint/detail-white.webp",
+                "#f5f5f5": "images/fern-green-satin-interior-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Home office wall painted fern green",
+                "pt-BR": "Parede de home office pintada de verde samambaia"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/fern-green-satin-interior-paint/application-white.webp",
+                "#f5f5f5": "images/fern-green-satin-interior-paint/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "fleece-jogger-pants",
       "brandId": "ritmo",
       "brand": {
@@ -50454,6 +50930,244 @@
       ]
     },
     {
+      "id": "hunter-green-ultra-matte-premium-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Hunter Green Ultra-Matte Premium Acrylic Wall Paint, Velvety Deep Green for Studies, Sold by the Tin",
+        "pt-BR": "Tinta Acrílica Premium Ultrafosca Verde Caçador, Verde Profundo Aveludado para Escritório, Vendida por Lata"
+      },
+      "description": {
+        "en": "A deep hunter green with a velvety ultra-matte finish that hides wall flaws and swallows glare. It comes in a black tin with a brass lid. The listed price is the 900 milliliter tin.",
+        "pt-BR": "Verde caçador profundo com acabamento ultrafosco aveludado, que disfarça imperfeições e não reflete luz. Vem numa lata preta com tampa dourada. O preço anunciado é da lata de 900 mililitros."
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 38
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "hunter green paint",
+          "ultra matte paint",
+          "dark green wall paint"
+        ],
+        "pt-BR": [
+          "tinta verde caçador",
+          "tinta ultrafosca",
+          "tinta verde escuro"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "hunter-green-900-ml",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "hunter-green",
+              "name": {
+                "en": "Hunter green",
+                "pt-BR": "Verde caçador"
+              },
+              "hex": "#2F4A3A"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "900-ml",
+              "name": {
+                "en": "900 ml",
+                "pt-BR": "900 ml"
+              }
+            },
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "hunter-green-900-ml",
+          "sku": "CON-HUNTER-GREEN-ULTRA-MATTE-PREMIUM-PAINT-900-ML",
+          "options": {
+            "color": "hunter-green",
+            "volume": "900-ml"
+          },
+          "price": {
+            "BRL": 119.9,
+            "USD": 38
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black tin with a brass lid and a hunter green band",
+                "pt-BR": "Lata preta com tampa dourada e uma faixa verde caçador"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/hunter-green-ultra-matte-premium-paint/main-white.webp",
+                "#f5f5f5": "images/hunter-green-ultra-matte-premium-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/hunter-green-ultra-matte-premium-paint/detail-white.webp",
+                "#f5f5f5": "images/hunter-green-ultra-matte-premium-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Study painted deep hunter green",
+                "pt-BR": "Escritório pintado de verde caçador profundo"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/hunter-green-ultra-matte-premium-paint/application-white.webp",
+                "#f5f5f5": "images/hunter-green-ultra-matte-premium-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "hunter-green-3-6-l",
+          "sku": "CON-HUNTER-GREEN-ULTRA-MATTE-PREMIUM-PAINT-3-6-L",
+          "options": {
+            "color": "hunter-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 329,
+            "USD": 96
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black tin with a brass lid and a hunter green band",
+                "pt-BR": "Lata preta com tampa dourada e uma faixa verde caçador"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/hunter-green-ultra-matte-premium-paint/main-white.webp",
+                "#f5f5f5": "images/hunter-green-ultra-matte-premium-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/hunter-green-ultra-matte-premium-paint/detail-white.webp",
+                "#f5f5f5": "images/hunter-green-ultra-matte-premium-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Study painted deep hunter green",
+                "pt-BR": "Escritório pintado de verde caçador profundo"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/hunter-green-ultra-matte-premium-paint/application-white.webp",
+                "#f5f5f5": "images/hunter-green-ultra-matte-premium-paint/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "indigo-relaxed-denim-pants",
       "brandId": "ritmo",
       "brand": {
@@ -57659,6 +58373,244 @@
       ]
     },
     {
+      "id": "mint-chalk-furniture-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Mint Green Chalk Paint for Furniture and Wood, Chalky Matte with No Sanding Needed, Sold by the Jar",
+        "pt-BR": "Tinta Giz Verde Menta para Móveis e Madeira, Fosco Calcário sem Precisar Lixar, Vendida por Pote"
+      },
+      "description": {
+        "en": "A chalky mint green paint for dressers, chairs and frames. It grips varnished wood without sanding and distresses easily on the edges. The listed price is the 500 milliliter glass jar.",
+        "pt-BR": "Tinta giz verde menta para cômodas, cadeiras e molduras. Adere à madeira envernizada sem lixar e desgasta fácil nas bordas para o efeito envelhecido. O preço anunciado é do pote de vidro de 500 mililitros."
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 24
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "mint chalk paint",
+          "furniture paint",
+          "green chalk paint"
+        ],
+        "pt-BR": [
+          "tinta giz verde menta",
+          "tinta para móveis",
+          "tinta giz"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "mint-chalk-500-ml",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "mint-chalk",
+              "name": {
+                "en": "Mint chalk",
+                "pt-BR": "Menta giz"
+              },
+              "hex": "#A9D3BE"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "500-ml",
+              "name": {
+                "en": "500 ml",
+                "pt-BR": "500 ml"
+              }
+            },
+            {
+              "id": "1-l",
+              "name": {
+                "en": "1 L",
+                "pt-BR": "1 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "mint-chalk-500-ml",
+          "sku": "CON-MINT-CHALK-FURNITURE-PAINT-500-ML",
+          "options": {
+            "color": "mint-chalk",
+            "volume": "500-ml"
+          },
+          "price": {
+            "BRL": 69.9,
+            "USD": 24
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Glass jar of chalky mint green paint",
+                "pt-BR": "Pote de vidro com tinta giz verde menta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-chalk-furniture-paint/main-white.webp",
+                "#f5f5f5": "images/mint-chalk-furniture-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-chalk-furniture-paint/detail-white.webp",
+                "#f5f5f5": "images/mint-chalk-furniture-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Dresser painted chalky mint green",
+                "pt-BR": "Cômoda pintada com tinta giz verde menta"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-chalk-furniture-paint/application-white.webp",
+                "#f5f5f5": "images/mint-chalk-furniture-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "mint-chalk-1-l",
+          "sku": "CON-MINT-CHALK-FURNITURE-PAINT-1-L",
+          "options": {
+            "color": "mint-chalk",
+            "volume": "1-l"
+          },
+          "price": {
+            "BRL": 119.9,
+            "USD": 38
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Glass jar of chalky mint green paint",
+                "pt-BR": "Pote de vidro com tinta giz verde menta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-chalk-furniture-paint/main-white.webp",
+                "#f5f5f5": "images/mint-chalk-furniture-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-chalk-furniture-paint/detail-white.webp",
+                "#f5f5f5": "images/mint-chalk-furniture-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Dresser painted chalky mint green",
+                "pt-BR": "Cômoda pintada com tinta giz verde menta"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-chalk-furniture-paint/application-white.webp",
+                "#f5f5f5": "images/mint-chalk-furniture-paint/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "mint-green-kitchen-bathroom-paint",
       "categoryId": "construcao-tintas",
       "name": {
@@ -57890,6 +58842,244 @@
               "src": {
                 "#ffffff": "images/mint-green-kitchen-bathroom-paint/application-white.webp",
                 "#f5f5f5": "images/mint-green-kitchen-bathroom-paint/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moss-green-elastomeric-exterior-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Moss Green Elastomeric Exterior Acrylic Paint for Rendered Walls, Flat Matte, Sold by the Pail",
+        "pt-BR": "Tinta Acrílica Elastomérica Verde Musgo para Muro e Fachada Rebocada, Fosca, Vendida por Balde"
+      },
+      "description": {
+        "en": "A muted moss green elastomeric acrylic for rendered garden walls and facades. The flexible film bridges hairline cracks and keeps a flat matte look in the rain. The listed price is the 3.6 liter pail.",
+        "pt-BR": "Acrílica elastomérica verde musgo para muros e fachadas rebocadas. A película flexível cobre fissuras finas e mantém o acabamento fosco na chuva. O preço anunciado é do balde de 3,6 litros."
+      },
+      "price": {
+        "BRL": 179.9,
+        "USD": 64
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "moss green paint",
+          "elastomeric exterior paint",
+          "garden wall paint"
+        ],
+        "pt-BR": [
+          "tinta verde musgo",
+          "tinta elastomérica",
+          "tinta para muro"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "moss-green-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "moss-green",
+              "name": {
+                "en": "Moss green",
+                "pt-BR": "Verde musgo"
+              },
+              "hex": "#7C8A4E"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "moss-green-3-6-l",
+          "sku": "CON-MOSS-GREEN-ELASTOMERIC-EXTERIOR-PAINT-3-6-L",
+          "options": {
+            "color": "moss-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 179.9,
+            "USD": 64
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Orange pail of moss green paint with a round color dot",
+                "pt-BR": "Balde laranja de tinta verde musgo com um círculo da cor"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/moss-green-elastomeric-exterior-paint/main-white.webp",
+                "#f5f5f5": "images/moss-green-elastomeric-exterior-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/moss-green-elastomeric-exterior-paint/detail-white.webp",
+                "#f5f5f5": "images/moss-green-elastomeric-exterior-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Garden wall and facade painted moss green",
+                "pt-BR": "Muro e fachada pintados de verde musgo"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/moss-green-elastomeric-exterior-paint/application-white.webp",
+                "#f5f5f5": "images/moss-green-elastomeric-exterior-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "moss-green-18-l",
+          "sku": "CON-MOSS-GREEN-ELASTOMERIC-EXTERIOR-PAINT-18-L",
+          "options": {
+            "color": "moss-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 649,
+            "USD": 219
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Orange pail of moss green paint with a round color dot",
+                "pt-BR": "Balde laranja de tinta verde musgo com um círculo da cor"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/moss-green-elastomeric-exterior-paint/main-white.webp",
+                "#f5f5f5": "images/moss-green-elastomeric-exterior-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/moss-green-elastomeric-exterior-paint/detail-white.webp",
+                "#f5f5f5": "images/moss-green-elastomeric-exterior-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Garden wall and facade painted moss green",
+                "pt-BR": "Muro e fachada pintados de verde musgo"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/moss-green-elastomeric-exterior-paint/application-white.webp",
+                "#f5f5f5": "images/moss-green-elastomeric-exterior-paint/application-gray.webp"
               }
             }
           ]
@@ -74828,6 +76018,244 @@
       ]
     },
     {
+      "id": "seafoam-semigloss-kitchen-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Seafoam Green Semi-Gloss Acrylic Paint for Kitchens, Pale Aqua Green that Wipes Clean, Sold by the Bucket",
+        "pt-BR": "Tinta Acrílica Semibrilho Verde Água para Cozinha, Tom Claro Fácil de Limpar, Vendida por Balde"
+      },
+      "description": {
+        "en": "A pale seafoam acrylic with a semi-gloss sheen for kitchen walls near the stove and sink. Grease and splashes come off with a damp sponge. The listed price is the 3.6 liter bucket.",
+        "pt-BR": "Acrílica verde água clarinha com semibrilho para paredes de cozinha perto do fogão e da pia. Gordura e respingos saem com esponja úmida. O preço anunciado é do balde de 3,6 litros."
+      },
+      "price": {
+        "BRL": 159.9,
+        "USD": 56
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "seafoam green paint",
+          "kitchen paint",
+          "semi-gloss wall paint"
+        ],
+        "pt-BR": [
+          "tinta verde água",
+          "tinta para cozinha",
+          "tinta semibrilho"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "seafoam-green-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "seafoam-green",
+              "name": {
+                "en": "Seafoam green",
+                "pt-BR": "Verde água"
+              },
+              "hex": "#A8D5C8"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "seafoam-green-3-6-l",
+          "sku": "CON-SEAFOAM-SEMIGLOSS-KITCHEN-PAINT-3-6-L",
+          "options": {
+            "color": "seafoam-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 159.9,
+            "USD": 56
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White bucket with a seafoam green kitchen printed around it",
+                "pt-BR": "Balde branco com uma cozinha verde água estampada em volta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/seafoam-semigloss-kitchen-paint/main-white.webp",
+                "#f5f5f5": "images/seafoam-semigloss-kitchen-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/seafoam-semigloss-kitchen-paint/detail-white.webp",
+                "#f5f5f5": "images/seafoam-semigloss-kitchen-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Kitchen painted pale seafoam green",
+                "pt-BR": "Cozinha pintada de verde água claro"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/seafoam-semigloss-kitchen-paint/application-white.webp",
+                "#f5f5f5": "images/seafoam-semigloss-kitchen-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "seafoam-green-18-l",
+          "sku": "CON-SEAFOAM-SEMIGLOSS-KITCHEN-PAINT-18-L",
+          "options": {
+            "color": "seafoam-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 559,
+            "USD": 189
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White bucket with a seafoam green kitchen printed around it",
+                "pt-BR": "Balde branco com uma cozinha verde água estampada em volta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/seafoam-semigloss-kitchen-paint/main-white.webp",
+                "#f5f5f5": "images/seafoam-semigloss-kitchen-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/seafoam-semigloss-kitchen-paint/detail-white.webp",
+                "#f5f5f5": "images/seafoam-semigloss-kitchen-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Kitchen painted pale seafoam green",
+                "pt-BR": "Cozinha pintada de verde água claro"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/seafoam-semigloss-kitchen-paint/application-white.webp",
+                "#f5f5f5": "images/seafoam-semigloss-kitchen-paint/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "security-camera",
       "categoryId": "eletro-casa-praticos",
       "name": {
@@ -78310,6 +79738,244 @@
       ]
     },
     {
+      "id": "soft-sage-washable-living-room-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Soft Sage Washable Acrylic Wall Paint for Living Rooms, Low-Sheen Matte, Sold by the Bucket",
+        "pt-BR": "Tinta Acrílica Lavável Verde Sálvia Suave para Sala de Estar, Fosco Acetinado, Vendida por Balde"
+      },
+      "description": {
+        "en": "A soft sage acrylic for living-room walls that get touched and bumped. The low-sheen matte wipes clean without turning glossy. The listed price is the 3.6 liter bucket.",
+        "pt-BR": "Acrílica verde sálvia suave para paredes de sala que levam esbarrão e mão. O fosco acetinado aceita pano úmido sem ganhar brilho. O preço anunciado é do balde de 3,6 litros."
+      },
+      "price": {
+        "BRL": 169.9,
+        "USD": 49
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "sage green paint",
+          "washable wall paint",
+          "living room paint"
+        ],
+        "pt-BR": [
+          "tinta verde sálvia",
+          "tinta lavável",
+          "tinta para sala"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "soft-sage-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "soft-sage",
+              "name": {
+                "en": "Soft sage",
+                "pt-BR": "Sálvia suave"
+              },
+              "hex": "#9CAF94"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "soft-sage-3-6-l",
+          "sku": "CON-SOFT-SAGE-WASHABLE-LIVING-ROOM-PAINT-3-6-L",
+          "options": {
+            "color": "soft-sage",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 169.9,
+            "USD": 49
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Blue bucket of soft sage paint with a painted living room on the label",
+                "pt-BR": "Balde azul de tinta verde sálvia com uma sala pintada no rótulo"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/soft-sage-washable-living-room-paint/main-white.webp",
+                "#f5f5f5": "images/soft-sage-washable-living-room-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/soft-sage-washable-living-room-paint/detail-white.webp",
+                "#f5f5f5": "images/soft-sage-washable-living-room-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Living room painted soft sage green",
+                "pt-BR": "Sala de estar pintada de verde sálvia suave"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/soft-sage-washable-living-room-paint/application-white.webp",
+                "#f5f5f5": "images/soft-sage-washable-living-room-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "soft-sage-18-l",
+          "sku": "CON-SOFT-SAGE-WASHABLE-LIVING-ROOM-PAINT-18-L",
+          "options": {
+            "color": "soft-sage",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 589,
+            "USD": 179
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Blue bucket of soft sage paint with a painted living room on the label",
+                "pt-BR": "Balde azul de tinta verde sálvia com uma sala pintada no rótulo"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/soft-sage-washable-living-room-paint/main-white.webp",
+                "#f5f5f5": "images/soft-sage-washable-living-room-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/soft-sage-washable-living-room-paint/detail-white.webp",
+                "#f5f5f5": "images/soft-sage-washable-living-room-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Living room painted soft sage green",
+                "pt-BR": "Sala de estar pintada de verde sálvia suave"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/soft-sage-washable-living-room-paint/application-white.webp",
+                "#f5f5f5": "images/soft-sage-washable-living-room-paint/application-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "softshell-rain-jacket",
       "brandId": "altitude",
       "brand": {
@@ -81514,6 +83180,244 @@
               "src": {
                 "#ffffff": "images/tan-mini-crossbody/detail-white.webp",
                 "#f5f5f5": "images/tan-mini-crossbody/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teal-green-epoxy-floor-paint",
+      "categoryId": "construcao-tintas",
+      "name": {
+        "en": "Teal Green Epoxy Floor Paint for Garages and Workshops, High-Gloss Anti-Slip Coating, Sold by the Pail",
+        "pt-BR": "Tinta Epóxi Verde Petróleo para Piso de Garagem e Oficina, Alto Brilho Antiderrapante, Vendida por Galão"
+      },
+      "description": {
+        "en": "A glossy teal green epoxy for concrete floors in garages and workshops. It resists oil, tire marks and dragged tools, with a light anti-slip grain. The listed price is the 3.6 liter pail.",
+        "pt-BR": "Epóxi verde petróleo brilhante para piso de concreto em garagem e oficina. Resiste a óleo, marca de pneu e ferramenta arrastada, com leve textura antiderrapante. O preço anunciado é do galão de 3,6 litros."
+      },
+      "price": {
+        "BRL": 289,
+        "USD": 89
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "green floor paint",
+          "epoxy floor paint",
+          "garage floor paint"
+        ],
+        "pt-BR": [
+          "tinta de piso verde",
+          "tinta epóxi",
+          "tinta para garagem"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "epoxy",
+          "value": {
+            "en": "Epoxy",
+            "pt-BR": "Epóxi"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "teal-green-3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "teal-green",
+              "name": {
+                "en": "Teal green",
+                "pt-BR": "Verde petróleo"
+              },
+              "hex": "#138A7A"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "teal-green-3-6-l",
+          "sku": "CON-TEAL-GREEN-EPOXY-FLOOR-PAINT-3-6-L",
+          "options": {
+            "color": "teal-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 289,
+            "USD": 89
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray floor-coating pail with a teal green drip",
+                "pt-BR": "Galão cinza de tinta de piso com um escorrido verde petróleo"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/teal-green-epoxy-floor-paint/main-white.webp",
+                "#f5f5f5": "images/teal-green-epoxy-floor-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/teal-green-epoxy-floor-paint/detail-white.webp",
+                "#f5f5f5": "images/teal-green-epoxy-floor-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Garage floor coated in glossy teal green epoxy",
+                "pt-BR": "Piso de garagem com epóxi verde petróleo brilhante"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/teal-green-epoxy-floor-paint/application-white.webp",
+                "#f5f5f5": "images/teal-green-epoxy-floor-paint/application-gray.webp"
+              }
+            }
+          ]
+        },
+        {
+          "id": "teal-green-18-l",
+          "sku": "CON-TEAL-GREEN-EPOXY-FLOOR-PAINT-18-L",
+          "options": {
+            "color": "teal-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 1190,
+            "USD": 349
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray floor-coating pail with a teal green drip",
+                "pt-BR": "Galão cinza de tinta de piso com um escorrido verde petróleo"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/teal-green-epoxy-floor-paint/main-white.webp",
+                "#f5f5f5": "images/teal-green-epoxy-floor-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/teal-green-epoxy-floor-paint/detail-white.webp",
+                "#f5f5f5": "images/teal-green-epoxy-floor-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Garage floor coated in glossy teal green epoxy",
+                "pt-BR": "Piso de garagem com epóxi verde petróleo brilhante"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/teal-green-epoxy-floor-paint/application-white.webp",
+                "#f5f5f5": "images/teal-green-epoxy-floor-paint/application-gray.webp"
               }
             }
           ]

@@ -1,0 +1,182 @@
+{
+  "id": "moss-green-elastomeric-exterior-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Moss Green Elastomeric Exterior Acrylic Paint for Rendered Walls, Flat Matte, Sold by the Pail",
+    "pt-BR": "Tinta Acrílica Elastomérica Verde Musgo para Muro e Fachada Rebocada, Fosca, Vendida por Balde"
+  },
+  "description": {
+    "en": "A muted moss green elastomeric acrylic for rendered garden walls and facades. The flexible film bridges hairline cracks and keeps a flat matte look in the rain. The listed price is the 3.6 liter pail.",
+    "pt-BR": "Acrílica elastomérica verde musgo para muros e fachadas rebocadas. A película flexível cobre fissuras finas e mantém o acabamento fosco na chuva. O preço anunciado é do balde de 3,6 litros."
+  },
+  "price": {
+    "BRL": 179.9,
+    "USD": 64
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "moss green paint",
+      "elastomeric exterior paint",
+      "garden wall paint"
+    ],
+    "pt-BR": [
+      "tinta verde musgo",
+      "tinta elastomérica",
+      "tinta para muro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "moss-green-3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "moss-green",
+          "name": {
+            "en": "Moss green",
+            "pt-BR": "Verde musgo"
+          },
+          "hex": "#7C8A4E"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "moss-green-3-6-l",
+      "sku": "CON-MOSS-GREEN-ELASTOMERIC-EXTERIOR-PAINT-3-6-L",
+      "options": {
+        "color": "moss-green",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 179.9,
+        "USD": 64
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Orange pail of moss green paint with a round color dot",
+            "pt-BR": "Balde laranja de tinta verde musgo com um círculo da cor"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Garden wall and facade painted moss green",
+            "pt-BR": "Muro e fachada pintados de verde musgo"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "moss-green-18-l",
+      "sku": "CON-MOSS-GREEN-ELASTOMERIC-EXTERIOR-PAINT-18-L",
+      "options": {
+        "color": "moss-green",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 649,
+        "USD": 219
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Orange pail of moss green paint with a round color dot",
+            "pt-BR": "Balde laranja de tinta verde musgo com um círculo da cor"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Garden wall and facade painted moss green",
+            "pt-BR": "Muro e fachada pintados de verde musgo"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
