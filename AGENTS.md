@@ -74,6 +74,28 @@ Bad: single-pole-breaker-10-amp, -16-amp, -20-amp as three products on the same 
 Good: one miniature circuit breaker with a rating option (10, 16, 20 A) and a pack option.
 ```
 
+## Naming options and values
+
+An option is one question a shopper answers and a value is one answer. Name them like a store's filter, never like a product title. `npm run validate` fails on the first four rules.
+
+- **The option names the dimension, the value is only the answer.** The option is `Rating`, `Gauge`, `Thread size`, `Edge`, `Kit size`; the value is `20 A`, `2.5 mm²`, `1/2 in`, `Rectified`. Never repeat the option's name in the value: "20 Amp Rating" under "Rating" is wrong, "20 A" is right.
+- **No placeholders.** Never `Original`, `Alternate`, `Alternative`, `Default`, `Option A` or `Variant 2`, and never a generic option name such as "Option" or "Choice". The base product's own value gets its real measure ("1-1/4 in"), not "Original".
+- **No value repeated** inside an option, and no value over 30 characters. A chip names the choice; the detail goes in the description.
+- **Every value is something a person picks by name or number.** If you cannot say what two values are, they are not variants. Two values that differ only in price ("Standard | Alternate" at +20%) are not a variant either: say what the dearer one includes, as in `Includes: Piece only | Installation kit`.
+- **Sizes are real sizes.** "Compact | Standard | Large" is not a tile size: write "12×24 in | 24×24 in | 48×48 in". Abbreviate units (A, V, mm, mm², cm, in, L, kg) and set them in the product's language: inches in `en`, centimeters in `pt-BR`.
+- **Order values naturally**, numbers ascending and then the rest, and keep one dimension to an option when you can.
+
+```text
+Bad:  Rating: "20 Amp Rating", "10 Amp Rating", "16 Amp Rating"
+Good: Rating: "10 A", "16 A", "20 A"
+
+Bad:  Drain: "Standard", "Alternate"
+Good: Includes: "Piece only", "Installation kit"
+
+Bad:  Format: "Compact", "Standard", "Large"
+Good: Format: "12×24 in", "24×24 in", "48×48 in"
+```
+
 Add an application photo when seeing the product in use would materially help someone decide. It supplements, and never replaces, the isolated product photo. Show a representative use at a useful scale without implying a property or installation that the product does not declare. Paint always needs an application photo of a painted room, facade, floor, ceiling, door, or other appropriate surface that matches its color, finish, and indoor or outdoor application. Keep application photos free of text, logos, and real brands, inset them on the required white canvas, and generate the gray-background twin from that same image.
 
 Regenerate a photo that fails the white-edge check. Cutting the background out by hand produces a worse image. Paint extra background colors with `npm run backgrounds`; that pass is cheap. Keep the white PNG as the original.
