@@ -77,6 +77,43 @@
           }
         }
       ]
+    },
+    {
+      "id": "thread",
+      "name": {
+        "en": "Thread size",
+        "pt-BR": "Rosca"
+      },
+      "values": [
+        {
+          "id": "original",
+          "name": {
+            "en": "Original",
+            "pt-BR": "Original"
+          }
+        },
+        {
+          "id": "half-inch-thread",
+          "name": {
+            "en": "Half-Inch Thread",
+            "pt-BR": "Rosca de Meia Polegada"
+          }
+        },
+        {
+          "id": "one-inch-thread",
+          "name": {
+            "en": "One-Inch Thread",
+            "pt-BR": "Rosca de Uma Polegada"
+          }
+        },
+        {
+          "id": "three-quarter-inch-thread",
+          "name": {
+            "en": "Three-Quarter-Inch Thread",
+            "pt-BR": "Rosca de Três Quartos"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -85,7 +122,8 @@
       "sku": "CON-BRASS-BALL-VALVE-SINGLE",
       "options": {
         "color": "brass",
-        "pack": "single"
+        "pack": "single",
+        "thread": "original"
       },
       "price": {
         "BRL": 49.9,
@@ -120,11 +158,228 @@
       "sku": "CON-BRASS-BALL-VALVE-TEN",
       "options": {
         "color": "brass",
-        "pack": "ten"
+        "pack": "ten",
+        "thread": "original"
       },
       "price": {
         "BRL": 429,
         "USD": 189
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass ball valve with a lever, front view",
+            "pt-BR": "Registro de esfera de latão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brass-white.png",
+            "#f5f5f5": "brass-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Brass Ball Valve with a Lever Handle for Cold and Hot Water, Threaded Ends, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Registro de Esfera de Latão com Alavanca para Água Fria e Quente, Rosca nas Pontas, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "half-inch-thread-single",
+      "sku": "CON-BRASS-BALL-VALVE-SINGLE-HALFINCHTHREAD",
+      "options": {
+        "color": "brass",
+        "pack": "single",
+        "thread": "half-inch-thread"
+      },
+      "price": {
+        "BRL": 61.88,
+        "USD": 27.28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass ball valve with a lever, front view",
+            "pt-BR": "Registro de esfera de latão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brass-white.png",
+            "#f5f5f5": "brass-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Brass Ball Valve with a Lever Handle for Cold and Hot Water, Threaded Ends, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Registro de Esfera de Latão com Alavanca para Água Fria e Quente, Rosca nas Pontas, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "half-inch-thread-ten",
+      "sku": "CON-BRASS-BALL-VALVE-TEN-HALFINCHTHREAD",
+      "options": {
+        "color": "brass",
+        "pack": "ten",
+        "thread": "half-inch-thread"
+      },
+      "price": {
+        "BRL": 574.52,
+        "USD": 253.11
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass ball valve with a lever, front view",
+            "pt-BR": "Registro de esfera de latão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brass-white.png",
+            "#f5f5f5": "brass-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Brass Ball Valve with a Lever Handle for Cold and Hot Water, Threaded Ends, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Registro de Esfera de Latão com Alavanca para Água Fria e Quente, Rosca nas Pontas, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-inch-thread-single",
+      "sku": "CON-BRASS-BALL-VALVE-SINGLE-ONEINCHTHREAD",
+      "options": {
+        "color": "brass",
+        "pack": "single",
+        "thread": "one-inch-thread"
+      },
+      "price": {
+        "BRL": 46.91,
+        "USD": 20.68
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass ball valve with a lever, front view",
+            "pt-BR": "Registro de esfera de latão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brass-white.png",
+            "#f5f5f5": "brass-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Brass Ball Valve with a Lever Handle for Cold and Hot Water, Threaded Ends, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Registro de Esfera de Latão com Alavanca para Água Fria e Quente, Rosca nas Pontas, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-inch-thread-ten",
+      "sku": "CON-BRASS-BALL-VALVE-TEN-ONEINCHTHREAD",
+      "options": {
+        "color": "brass",
+        "pack": "ten",
+        "thread": "one-inch-thread"
+      },
+      "price": {
+        "BRL": 435.52,
+        "USD": 191.87
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass ball valve with a lever, front view",
+            "pt-BR": "Registro de esfera de latão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brass-white.png",
+            "#f5f5f5": "brass-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Brass Ball Valve with a Lever Handle for Cold and Hot Water, Threaded Ends, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Registro de Esfera de Latão com Alavanca para Água Fria e Quente, Rosca nas Pontas, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "three-quarter-inch-thread-single",
+      "sku": "CON-BRASS-BALL-VALVE-SINGLE-THREEQUARTERINCHTHREAD",
+      "options": {
+        "color": "brass",
+        "pack": "single",
+        "thread": "three-quarter-inch-thread"
+      },
+      "price": {
+        "BRL": 43.91,
+        "USD": 19.36
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass ball valve with a lever, front view",
+            "pt-BR": "Registro de esfera de latão, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "brass-white.png",
+            "#f5f5f5": "brass-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Brass Ball Valve with a Lever Handle for Cold and Hot Water, Threaded Ends, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Registro de Esfera de Latão com Alavanca para Água Fria e Quente, Rosca nas Pontas, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "three-quarter-inch-thread-ten",
+      "sku": "CON-BRASS-BALL-VALVE-TEN-THREEQUARTERINCHTHREAD",
+      "options": {
+        "color": "brass",
+        "pack": "ten",
+        "thread": "three-quarter-inch-thread"
+      },
+      "price": {
+        "BRL": 407.72,
+        "USD": 179.63
       },
       "availability": "low_stock",
       "images": [

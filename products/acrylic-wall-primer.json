@@ -85,6 +85,43 @@
           }
         }
       ]
+    },
+    {
+      "id": "type",
+      "name": {
+        "en": "Type",
+        "pt-BR": "Tipo"
+      },
+      "values": [
+        {
+          "id": "classic",
+          "name": {
+            "en": "Classic",
+            "pt-BR": "Clássica"
+          }
+        },
+        {
+          "id": "high-coverage",
+          "name": {
+            "en": "High Coverage",
+            "pt-BR": "Alta Cobertura"
+          }
+        },
+        {
+          "id": "standard-coverage",
+          "name": {
+            "en": "Standard Coverage",
+            "pt-BR": "Cobertura Padrão"
+          }
+        },
+        {
+          "id": "washable-finish",
+          "name": {
+            "en": "Washable Finish",
+            "pt-BR": "Acabamento Lavável"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -93,7 +130,8 @@
       "sku": "CON-ACRYLIC-WALL-PRIMER-WHITE-SMALL",
       "options": {
         "color": "white",
-        "volume": "small"
+        "volume": "small",
+        "type": "classic"
       },
       "price": {
         "BRL": 69.9,
@@ -138,11 +176,288 @@
       "sku": "CON-ACRYLIC-WALL-PRIMER-WHITE-LARGE",
       "options": {
         "color": "white",
-        "volume": "large"
+        "volume": "large",
+        "type": "classic"
       },
       "price": {
         "BRL": 199,
         "USD": 80
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of white acrylic wall primer",
+            "pt-BR": "Lata de fundo acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Interior wall prepared with an even coat of white acrylic primer",
+            "pt-BR": "Parede interna preparada com uma camada uniforme de fundo acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "high-coverage-white-small",
+      "sku": "CON-ACRYLIC-WALL-PRIMER-WHITE-SMALL-HIGHCOVERAGE",
+      "options": {
+        "color": "white",
+        "volume": "small",
+        "type": "high-coverage"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of white acrylic wall primer",
+            "pt-BR": "Lata de fundo acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Interior wall prepared with an even coat of white acrylic primer",
+            "pt-BR": "Parede interna preparada com uma camada uniforme de fundo acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "high-coverage-white-large",
+      "sku": "CON-ACRYLIC-WALL-PRIMER-WHITE-LARGE-HIGHCOVERAGE",
+      "options": {
+        "color": "white",
+        "volume": "large",
+        "type": "high-coverage"
+      },
+      "price": {
+        "BRL": 214.92,
+        "USD": 86.4
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of white acrylic wall primer",
+            "pt-BR": "Lata de fundo acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Interior wall prepared with an even coat of white acrylic primer",
+            "pt-BR": "Parede interna preparada com uma camada uniforme de fundo acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-coverage-white-small",
+      "sku": "CON-ACRYLIC-WALL-PRIMER-WHITE-SMALL-STANDARDCOVERAGE",
+      "options": {
+        "color": "white",
+        "volume": "small",
+        "type": "standard-coverage"
+      },
+      "price": {
+        "BRL": 65.71,
+        "USD": 26.32
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of white acrylic wall primer",
+            "pt-BR": "Lata de fundo acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Interior wall prepared with an even coat of white acrylic primer",
+            "pt-BR": "Parede interna preparada com uma camada uniforme de fundo acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-coverage-white-large",
+      "sku": "CON-ACRYLIC-WALL-PRIMER-WHITE-LARGE-STANDARDCOVERAGE",
+      "options": {
+        "color": "white",
+        "volume": "large",
+        "type": "standard-coverage"
+      },
+      "price": {
+        "BRL": 202.02,
+        "USD": 81.22
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of white acrylic wall primer",
+            "pt-BR": "Lata de fundo acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Interior wall prepared with an even coat of white acrylic primer",
+            "pt-BR": "Parede interna preparada com uma camada uniforme de fundo acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "washable-finish-white-small",
+      "sku": "CON-ACRYLIC-WALL-PRIMER-WHITE-SMALL-WASHABLEFINISH",
+      "options": {
+        "color": "white",
+        "volume": "small",
+        "type": "washable-finish"
+      },
+      "price": {
+        "BRL": 74.09,
+        "USD": 29.68
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of white acrylic wall primer",
+            "pt-BR": "Lata de fundo acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Interior wall prepared with an even coat of white acrylic primer",
+            "pt-BR": "Parede interna preparada com uma camada uniforme de fundo acrílico branco"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "washable-finish-white-large",
+      "sku": "CON-ACRYLIC-WALL-PRIMER-WHITE-LARGE-WASHABLEFINISH",
+      "options": {
+        "color": "white",
+        "volume": "large",
+        "type": "washable-finish"
+      },
+      "price": {
+        "BRL": 227.82,
+        "USD": 91.58
       },
       "availability": "low_stock",
       "images": [

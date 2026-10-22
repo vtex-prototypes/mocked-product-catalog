@@ -85,6 +85,43 @@
           }
         }
       ]
+    },
+    {
+      "id": "type",
+      "name": {
+        "en": "Type",
+        "pt-BR": "Tipo"
+      },
+      "values": [
+        {
+          "id": "classic",
+          "name": {
+            "en": "Classic",
+            "pt-BR": "Clássica"
+          }
+        },
+        {
+          "id": "high-coverage",
+          "name": {
+            "en": "High Coverage",
+            "pt-BR": "Alta Cobertura"
+          }
+        },
+        {
+          "id": "standard-coverage",
+          "name": {
+            "en": "Standard Coverage",
+            "pt-BR": "Cobertura Padrão"
+          }
+        },
+        {
+          "id": "washable-finish",
+          "name": {
+            "en": "Washable Finish",
+            "pt-BR": "Acabamento Lavável"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -93,7 +130,8 @@
       "sku": "CON-EXTERIOR-WHITE-ACRYLIC-PAINT-WHITE-SMALL",
       "options": {
         "color": "white",
-        "volume": "small"
+        "volume": "small",
+        "type": "classic"
       },
       "price": {
         "BRL": 129,
@@ -138,11 +176,288 @@
       "sku": "CON-EXTERIOR-WHITE-ACRYLIC-PAINT-WHITE-LARGE",
       "options": {
         "color": "white",
-        "volume": "large"
+        "volume": "large",
+        "type": "classic"
       },
       "price": {
         "BRL": 359,
         "USD": 144
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte white exterior paint",
+            "pt-BR": "Lata de tinta branca fosca para exterior"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Rendered house facade painted exterior white",
+            "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "high-coverage-white-small",
+      "sku": "CON-EXTERIOR-WHITE-ACRYLIC-PAINT-WHITE-SMALL-HIGHCOVERAGE",
+      "options": {
+        "color": "white",
+        "volume": "small",
+        "type": "high-coverage"
+      },
+      "price": {
+        "BRL": 159.96,
+        "USD": 64.48
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte white exterior paint",
+            "pt-BR": "Lata de tinta branca fosca para exterior"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Rendered house facade painted exterior white",
+            "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "high-coverage-white-large",
+      "sku": "CON-EXTERIOR-WHITE-ACRYLIC-PAINT-WHITE-LARGE-HIGHCOVERAGE",
+      "options": {
+        "color": "white",
+        "volume": "large",
+        "type": "high-coverage"
+      },
+      "price": {
+        "BRL": 480.77,
+        "USD": 192.84
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte white exterior paint",
+            "pt-BR": "Lata de tinta branca fosca para exterior"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Rendered house facade painted exterior white",
+            "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-coverage-white-small",
+      "sku": "CON-EXTERIOR-WHITE-ACRYLIC-PAINT-WHITE-SMALL-STANDARDCOVERAGE",
+      "options": {
+        "color": "white",
+        "volume": "small",
+        "type": "standard-coverage"
+      },
+      "price": {
+        "BRL": 152.22,
+        "USD": 61.36
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte white exterior paint",
+            "pt-BR": "Lata de tinta branca fosca para exterior"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Rendered house facade painted exterior white",
+            "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-coverage-white-large",
+      "sku": "CON-EXTERIOR-WHITE-ACRYLIC-PAINT-WHITE-LARGE-STANDARDCOVERAGE",
+      "options": {
+        "color": "white",
+        "volume": "large",
+        "type": "standard-coverage"
+      },
+      "price": {
+        "BRL": 457.51,
+        "USD": 183.51
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte white exterior paint",
+            "pt-BR": "Lata de tinta branca fosca para exterior"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Rendered house facade painted exterior white",
+            "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "washable-finish-white-small",
+      "sku": "CON-EXTERIOR-WHITE-ACRYLIC-PAINT-WHITE-SMALL-WASHABLEFINISH",
+      "options": {
+        "color": "white",
+        "volume": "small",
+        "type": "washable-finish"
+      },
+      "price": {
+        "BRL": 113.52,
+        "USD": 45.76
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte white exterior paint",
+            "pt-BR": "Lata de tinta branca fosca para exterior"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Rendered house facade painted exterior white",
+            "pt-BR": "Fachada rebocada pintada com tinta externa branca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "washable-finish-white-large",
+      "sku": "CON-EXTERIOR-WHITE-ACRYLIC-PAINT-WHITE-LARGE-WASHABLEFINISH",
+      "options": {
+        "color": "white",
+        "volume": "large",
+        "type": "washable-finish"
+      },
+      "price": {
+        "BRL": 341.19,
+        "USD": 136.86
       },
       "availability": "low_stock",
       "images": [

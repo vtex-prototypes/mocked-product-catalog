@@ -85,6 +85,43 @@
           }
         }
       ]
+    },
+    {
+      "id": "type",
+      "name": {
+        "en": "Type",
+        "pt-BR": "Tipo"
+      },
+      "values": [
+        {
+          "id": "classic",
+          "name": {
+            "en": "Classic",
+            "pt-BR": "Clássica"
+          }
+        },
+        {
+          "id": "high-coverage",
+          "name": {
+            "en": "High Coverage",
+            "pt-BR": "Alta Cobertura"
+          }
+        },
+        {
+          "id": "standard-coverage",
+          "name": {
+            "en": "Standard Coverage",
+            "pt-BR": "Cobertura Padrão"
+          }
+        },
+        {
+          "id": "washable-finish",
+          "name": {
+            "en": "Washable Finish",
+            "pt-BR": "Acabamento Lavável"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -93,7 +130,8 @@
       "sku": "CON-INTERIOR-CLAY-ACRYLIC-PAINT-CLAY-SMALL",
       "options": {
         "color": "clay",
-        "volume": "small"
+        "volume": "small",
+        "type": "classic"
       },
       "price": {
         "BRL": 109.9,
@@ -138,11 +176,288 @@
       "sku": "CON-INTERIOR-CLAY-ACRYLIC-PAINT-CLAY-LARGE",
       "options": {
         "color": "clay",
-        "volume": "large"
+        "volume": "large",
+        "type": "classic"
       },
       "price": {
         "BRL": 309,
         "USD": 124
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte clay interior paint",
+            "pt-BR": "Lata de tinta interna terracota fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Dining room with a matte clay terracotta feature wall",
+            "pt-BR": "Sala de jantar com parede de destaque terracota fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "high-coverage-clay-small",
+      "sku": "CON-INTERIOR-CLAY-ACRYLIC-PAINT-CLAY-SMALL-HIGHCOVERAGE",
+      "options": {
+        "color": "clay",
+        "volume": "small",
+        "type": "high-coverage"
+      },
+      "price": {
+        "BRL": 123.09,
+        "USD": 49.28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte clay interior paint",
+            "pt-BR": "Lata de tinta interna terracota fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Dining room with a matte clay terracotta feature wall",
+            "pt-BR": "Sala de jantar com parede de destaque terracota fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "high-coverage-clay-large",
+      "sku": "CON-INTERIOR-CLAY-ACRYLIC-PAINT-CLAY-LARGE-HIGHCOVERAGE",
+      "options": {
+        "color": "clay",
+        "volume": "large",
+        "type": "high-coverage"
+      },
+      "price": {
+        "BRL": 373.77,
+        "USD": 149.99
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte clay interior paint",
+            "pt-BR": "Lata de tinta interna terracota fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Dining room with a matte clay terracotta feature wall",
+            "pt-BR": "Sala de jantar com parede de destaque terracota fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-coverage-clay-small",
+      "sku": "CON-INTERIOR-CLAY-ACRYLIC-PAINT-CLAY-SMALL-STANDARDCOVERAGE",
+      "options": {
+        "color": "clay",
+        "volume": "small",
+        "type": "standard-coverage"
+      },
+      "price": {
+        "BRL": 116.49,
+        "USD": 46.64
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte clay interior paint",
+            "pt-BR": "Lata de tinta interna terracota fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Dining room with a matte clay terracotta feature wall",
+            "pt-BR": "Sala de jantar com parede de destaque terracota fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-coverage-clay-large",
+      "sku": "CON-INTERIOR-CLAY-ACRYLIC-PAINT-CLAY-LARGE-STANDARDCOVERAGE",
+      "options": {
+        "color": "clay",
+        "volume": "large",
+        "type": "standard-coverage"
+      },
+      "price": {
+        "BRL": 353.74,
+        "USD": 141.96
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte clay interior paint",
+            "pt-BR": "Lata de tinta interna terracota fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Dining room with a matte clay terracotta feature wall",
+            "pt-BR": "Sala de jantar com parede de destaque terracota fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "washable-finish-clay-small",
+      "sku": "CON-INTERIOR-CLAY-ACRYLIC-PAINT-CLAY-SMALL-WASHABLEFINISH",
+      "options": {
+        "color": "clay",
+        "volume": "small",
+        "type": "washable-finish"
+      },
+      "price": {
+        "BRL": 129.68,
+        "USD": 51.92
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte clay interior paint",
+            "pt-BR": "Lata de tinta interna terracota fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Dining room with a matte clay terracotta feature wall",
+            "pt-BR": "Sala de jantar com parede de destaque terracota fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "washable-finish-clay-large",
+      "sku": "CON-INTERIOR-CLAY-ACRYLIC-PAINT-CLAY-LARGE-WASHABLEFINISH",
+      "options": {
+        "color": "clay",
+        "volume": "large",
+        "type": "washable-finish"
+      },
+      "price": {
+        "BRL": 393.79,
+        "USD": 158.03
       },
       "availability": "low_stock",
       "images": [

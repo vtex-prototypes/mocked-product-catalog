@@ -85,6 +85,43 @@
           }
         }
       ]
+    },
+    {
+      "id": "format",
+      "name": {
+        "en": "Format",
+        "pt-BR": "Formato"
+      },
+      "values": [
+        {
+          "id": "original",
+          "name": {
+            "en": "Original",
+            "pt-BR": "Original"
+          }
+        },
+        {
+          "id": "compact-format",
+          "name": {
+            "en": "Compact Format",
+            "pt-BR": "Formato Compacto"
+          }
+        },
+        {
+          "id": "large-format",
+          "name": {
+            "en": "Large Format",
+            "pt-BR": "Formato Grande"
+          }
+        },
+        {
+          "id": "standard-format",
+          "name": {
+            "en": "Standard Format",
+            "pt-BR": "Formato Padrão"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -93,7 +130,8 @@
       "sku": "CON-SAGE-FISH-SCALE-WALL-TILE-SAGE-NATURAL",
       "options": {
         "color": "sage",
-        "finish": "natural"
+        "finish": "natural",
+        "format": "original"
       },
       "price": {
         "BRL": 94.9,
@@ -128,11 +166,228 @@
       "sku": "CON-SAGE-FISH-SCALE-WALL-TILE-SAGE-RECTIFIED",
       "options": {
         "color": "sage",
-        "finish": "rectified"
+        "finish": "rectified",
+        "format": "original"
       },
       "price": {
         "BRL": 109.9,
         "USD": 44
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy sage fish-scale wall tile, front view",
+            "pt-BR": "Revestimento escama verde sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compact-format-sage-natural",
+      "sku": "CON-SAGE-FISH-SCALE-WALL-TILE-SAGE-NATURAL-COMPACTFORMAT",
+      "options": {
+        "color": "sage",
+        "finish": "natural",
+        "format": "compact-format"
+      },
+      "price": {
+        "BRL": 94.9,
+        "USD": 38
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy sage fish-scale wall tile, front view",
+            "pt-BR": "Revestimento escama verde sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compact-format-sage-rectified",
+      "sku": "CON-SAGE-FISH-SCALE-WALL-TILE-SAGE-RECTIFIED-COMPACTFORMAT",
+      "options": {
+        "color": "sage",
+        "finish": "rectified",
+        "format": "compact-format"
+      },
+      "price": {
+        "BRL": 118.69,
+        "USD": 47.52
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy sage fish-scale wall tile, front view",
+            "pt-BR": "Revestimento escama verde sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large-format-sage-natural",
+      "sku": "CON-SAGE-FISH-SCALE-WALL-TILE-SAGE-NATURAL-LARGEFORMAT",
+      "options": {
+        "color": "sage",
+        "finish": "natural",
+        "format": "large-format"
+      },
+      "price": {
+        "BRL": 106.29,
+        "USD": 42.56
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy sage fish-scale wall tile, front view",
+            "pt-BR": "Revestimento escama verde sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large-format-sage-rectified",
+      "sku": "CON-SAGE-FISH-SCALE-WALL-TILE-SAGE-RECTIFIED-LARGEFORMAT",
+      "options": {
+        "color": "sage",
+        "finish": "rectified",
+        "format": "large-format"
+      },
+      "price": {
+        "BRL": 132.94,
+        "USD": 53.22
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy sage fish-scale wall tile, front view",
+            "pt-BR": "Revestimento escama verde sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-format-sage-natural",
+      "sku": "CON-SAGE-FISH-SCALE-WALL-TILE-SAGE-NATURAL-STANDARDFORMAT",
+      "options": {
+        "color": "sage",
+        "finish": "natural",
+        "format": "standard-format"
+      },
+      "price": {
+        "BRL": 100.59,
+        "USD": 40.28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy sage fish-scale wall tile, front view",
+            "pt-BR": "Revestimento escama verde sálvia, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-white.png",
+            "#f5f5f5": "sage-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-format-sage-rectified",
+      "sku": "CON-SAGE-FISH-SCALE-WALL-TILE-SAGE-RECTIFIED-STANDARDFORMAT",
+      "options": {
+        "color": "sage",
+        "finish": "rectified",
+        "format": "standard-format"
+      },
+      "price": {
+        "BRL": 125.81,
+        "USD": 50.37
       },
       "availability": "low_stock",
       "images": [

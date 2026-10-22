@@ -81,6 +81,57 @@
           }
         }
       ]
+    },
+    {
+      "id": "model",
+      "name": {
+        "en": "Model",
+        "pt-BR": "Modelo"
+      },
+      "values": [
+        {
+          "id": "8-inch-face",
+          "name": {
+            "en": "8 Inch Face",
+            "pt-BR": "Face de 20 Centímetros"
+          }
+        },
+        {
+          "id": "ceiling-mount",
+          "name": {
+            "en": "Ceiling Mount",
+            "pt-BR": "Instalação no Teto"
+          }
+        },
+        {
+          "id": "6-inch-face",
+          "name": {
+            "en": "6 Inch Face",
+            "pt-BR": "Face de 15 Centímetros"
+          }
+        },
+        {
+          "id": "controlled-flow",
+          "name": {
+            "en": "Controlled Flow",
+            "pt-BR": "Vazão Controlada"
+          }
+        },
+        {
+          "id": "10-inch-face",
+          "name": {
+            "en": "10 Inch Face",
+            "pt-BR": "Face de 25 Centímetros"
+          }
+        },
+        {
+          "id": "wall-arm-mount",
+          "name": {
+            "en": "Wall Arm Mount",
+            "pt-BR": "Instalação em Braço de Parede"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -89,7 +140,8 @@
       "sku": "CON-CHROME-RAIN-SHOWER-HEAD-STANDARD",
       "options": {
         "color": "chrome",
-        "install": "standard"
+        "install": "standard",
+        "model": "8-inch-face"
       },
       "price": {
         "BRL": 129,
@@ -124,11 +176,372 @@
       "sku": "CON-CHROME-RAIN-SHOWER-HEAD-ALT",
       "options": {
         "color": "chrome",
-        "install": "alt"
+        "install": "alt",
+        "model": "8-inch-face"
       },
       "price": {
         "BRL": 159,
         "USD": 68
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round chrome rain shower head, front view",
+            "pt-BR": "Chuveiro cromado redondo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ceiling-mount-standard",
+      "sku": "CON-CHROME-RAIN-SHOWER-HEAD-STANDARD-CEILINGMOUNT",
+      "options": {
+        "color": "chrome",
+        "install": "standard",
+        "model": "ceiling-mount"
+      },
+      "price": {
+        "BRL": 129,
+        "USD": 55
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round chrome rain shower head, front view",
+            "pt-BR": "Chuveiro cromado redondo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ceiling-mount-alt",
+      "sku": "CON-CHROME-RAIN-SHOWER-HEAD-ALT-CEILINGMOUNT",
+      "options": {
+        "color": "chrome",
+        "install": "alt",
+        "model": "ceiling-mount"
+      },
+      "price": {
+        "BRL": 171.72,
+        "USD": 73.44
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round chrome rain shower head, front view",
+            "pt-BR": "Chuveiro cromado redondo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6-inch-face-standard",
+      "sku": "CON-CHROME-RAIN-SHOWER-HEAD-STANDARD-6INCHFACE",
+      "options": {
+        "color": "chrome",
+        "install": "standard",
+        "model": "6-inch-face"
+      },
+      "price": {
+        "BRL": 159.96,
+        "USD": 68.2
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round chrome rain shower head, front view",
+            "pt-BR": "Chuveiro cromado redondo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6-inch-face-alt",
+      "sku": "CON-CHROME-RAIN-SHOWER-HEAD-ALT-6INCHFACE",
+      "options": {
+        "color": "chrome",
+        "install": "alt",
+        "model": "6-inch-face"
+      },
+      "price": {
+        "BRL": 212.93,
+        "USD": 91.07
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round chrome rain shower head, front view",
+            "pt-BR": "Chuveiro cromado redondo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "controlled-flow-standard",
+      "sku": "CON-CHROME-RAIN-SHOWER-HEAD-STANDARD-CONTROLLEDFLOW",
+      "options": {
+        "color": "chrome",
+        "install": "standard",
+        "model": "controlled-flow"
+      },
+      "price": {
+        "BRL": 144.48,
+        "USD": 61.6
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round chrome rain shower head, front view",
+            "pt-BR": "Chuveiro cromado redondo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "controlled-flow-alt",
+      "sku": "CON-CHROME-RAIN-SHOWER-HEAD-ALT-CONTROLLEDFLOW",
+      "options": {
+        "color": "chrome",
+        "install": "alt",
+        "model": "controlled-flow"
+      },
+      "price": {
+        "BRL": 192.33,
+        "USD": 82.25
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round chrome rain shower head, front view",
+            "pt-BR": "Chuveiro cromado redondo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10-inch-face-standard",
+      "sku": "CON-CHROME-RAIN-SHOWER-HEAD-STANDARD-10INCHFACE",
+      "options": {
+        "color": "chrome",
+        "install": "standard",
+        "model": "10-inch-face"
+      },
+      "price": {
+        "BRL": 121.26,
+        "USD": 51.7
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round chrome rain shower head, front view",
+            "pt-BR": "Chuveiro cromado redondo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10-inch-face-alt",
+      "sku": "CON-CHROME-RAIN-SHOWER-HEAD-ALT-10INCHFACE",
+      "options": {
+        "color": "chrome",
+        "install": "alt",
+        "model": "10-inch-face"
+      },
+      "price": {
+        "BRL": 161.42,
+        "USD": 69.03
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round chrome rain shower head, front view",
+            "pt-BR": "Chuveiro cromado redondo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wall-arm-mount-standard",
+      "sku": "CON-CHROME-RAIN-SHOWER-HEAD-STANDARD-WALLARMMOUNT",
+      "options": {
+        "color": "chrome",
+        "install": "standard",
+        "model": "wall-arm-mount"
+      },
+      "price": {
+        "BRL": 136.74,
+        "USD": 58.3
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Round chrome rain shower head, front view",
+            "pt-BR": "Chuveiro cromado redondo, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wall-arm-mount-alt",
+      "sku": "CON-CHROME-RAIN-SHOWER-HEAD-ALT-WALLARMMOUNT",
+      "options": {
+        "color": "chrome",
+        "install": "alt",
+        "model": "wall-arm-mount"
+      },
+      "price": {
+        "BRL": 182.02,
+        "USD": 77.85
       },
       "availability": "low_stock",
       "images": [

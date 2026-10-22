@@ -77,6 +77,57 @@
           }
         }
       ]
+    },
+    {
+      "id": "model",
+      "name": {
+        "en": "Model",
+        "pt-BR": "Modelo"
+      },
+      "values": [
+        {
+          "id": "10-amp-configuration",
+          "name": {
+            "en": "10 Amp Configuration",
+            "pt-BR": "Configuração de 10 Ampères"
+          }
+        },
+        {
+          "id": "double-module",
+          "name": {
+            "en": "Double Module",
+            "pt-BR": "Módulo Duplo"
+          }
+        },
+        {
+          "id": "horizontal-plate",
+          "name": {
+            "en": "Horizontal Plate",
+            "pt-BR": "Placa Horizontal"
+          }
+        },
+        {
+          "id": "single-module",
+          "name": {
+            "en": "Single Module",
+            "pt-BR": "Módulo Simples"
+          }
+        },
+        {
+          "id": "20-amp-configuration",
+          "name": {
+            "en": "20 Amp Configuration",
+            "pt-BR": "Configuração de 20 Ampères"
+          }
+        },
+        {
+          "id": "vertical-plate",
+          "name": {
+            "en": "Vertical Plate",
+            "pt-BR": "Placa Vertical"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -85,7 +136,8 @@
       "sku": "CON-WHITE-DUPLEX-OUTLET-SINGLE",
       "options": {
         "color": "white",
-        "pack": "single"
+        "pack": "single",
+        "model": "10-amp-configuration"
       },
       "price": {
         "BRL": 14.9,
@@ -120,11 +172,372 @@
       "sku": "CON-WHITE-DUPLEX-OUTLET-TEN",
       "options": {
         "color": "white",
-        "pack": "ten"
+        "pack": "ten",
+        "model": "10-amp-configuration"
       },
       "price": {
         "BRL": 119,
         "USD": 48
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall outlet, front view",
+            "pt-BR": "Tomada de parede branca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Duplex Wall Outlet for an Indoor Branch Circuit, a Blank Cover, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tomada de Parede Branca para Circuito Interno, Espelho Liso, Vendida por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "double-module-single",
+      "sku": "CON-WHITE-DUPLEX-OUTLET-SINGLE-DOUBLEMODULE",
+      "options": {
+        "color": "white",
+        "pack": "single",
+        "model": "double-module"
+      },
+      "price": {
+        "BRL": 14.01,
+        "USD": 6.11
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall outlet, front view",
+            "pt-BR": "Tomada de parede branca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Duplex Wall Outlet for an Indoor Branch Circuit, a Blank Cover, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tomada de Parede Branca para Circuito Interno, Espelho Liso, Vendida por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "double-module-ten",
+      "sku": "CON-WHITE-DUPLEX-OUTLET-TEN-DOUBLEMODULE",
+      "options": {
+        "color": "white",
+        "pack": "ten",
+        "model": "double-module"
+      },
+      "price": {
+        "BRL": 120.81,
+        "USD": 48.73
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall outlet, front view",
+            "pt-BR": "Tomada de parede branca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Duplex Wall Outlet for an Indoor Branch Circuit, a Blank Cover, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tomada de Parede Branca para Circuito Interno, Espelho Liso, Vendida por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "horizontal-plate-single",
+      "sku": "CON-WHITE-DUPLEX-OUTLET-SINGLE-HORIZONTALPLATE",
+      "options": {
+        "color": "white",
+        "pack": "single",
+        "model": "horizontal-plate"
+      },
+      "price": {
+        "BRL": 16.69,
+        "USD": 7.28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall outlet, front view",
+            "pt-BR": "Tomada de parede branca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Duplex Wall Outlet for an Indoor Branch Circuit, a Blank Cover, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tomada de Parede Branca para Circuito Interno, Espelho Liso, Vendida por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "horizontal-plate-ten",
+      "sku": "CON-WHITE-DUPLEX-OUTLET-TEN-HORIZONTALPLATE",
+      "options": {
+        "color": "white",
+        "pack": "ten",
+        "model": "horizontal-plate"
+      },
+      "price": {
+        "BRL": 143.94,
+        "USD": 58.06
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall outlet, front view",
+            "pt-BR": "Tomada de parede branca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Duplex Wall Outlet for an Indoor Branch Circuit, a Blank Cover, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tomada de Parede Branca para Circuito Interno, Espelho Liso, Vendida por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "single-module-single",
+      "sku": "CON-WHITE-DUPLEX-OUTLET-SINGLE-SINGLEMODULE",
+      "options": {
+        "color": "white",
+        "pack": "single",
+        "model": "single-module"
+      },
+      "price": {
+        "BRL": 13.11,
+        "USD": 5.72
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall outlet, front view",
+            "pt-BR": "Tomada de parede branca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Duplex Wall Outlet for an Indoor Branch Circuit, a Blank Cover, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tomada de Parede Branca para Circuito Interno, Espelho Liso, Vendida por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "single-module-ten",
+      "sku": "CON-WHITE-DUPLEX-OUTLET-TEN-SINGLEMODULE",
+      "options": {
+        "color": "white",
+        "pack": "ten",
+        "model": "single-module"
+      },
+      "price": {
+        "BRL": 113.1,
+        "USD": 45.62
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall outlet, front view",
+            "pt-BR": "Tomada de parede branca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Duplex Wall Outlet for an Indoor Branch Circuit, a Blank Cover, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tomada de Parede Branca para Circuito Interno, Espelho Liso, Vendida por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20-amp-configuration-single",
+      "sku": "CON-WHITE-DUPLEX-OUTLET-SINGLE-20AMPCONFIGURATION",
+      "options": {
+        "color": "white",
+        "pack": "single",
+        "model": "20-amp-configuration"
+      },
+      "price": {
+        "BRL": 15.79,
+        "USD": 6.89
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall outlet, front view",
+            "pt-BR": "Tomada de parede branca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Duplex Wall Outlet for an Indoor Branch Circuit, a Blank Cover, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tomada de Parede Branca para Circuito Interno, Espelho Liso, Vendida por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20-amp-configuration-ten",
+      "sku": "CON-WHITE-DUPLEX-OUTLET-TEN-20AMPCONFIGURATION",
+      "options": {
+        "color": "white",
+        "pack": "ten",
+        "model": "20-amp-configuration"
+      },
+      "price": {
+        "BRL": 136.23,
+        "USD": 54.95
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall outlet, front view",
+            "pt-BR": "Tomada de parede branca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Duplex Wall Outlet for an Indoor Branch Circuit, a Blank Cover, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tomada de Parede Branca para Circuito Interno, Espelho Liso, Vendida por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vertical-plate-single",
+      "sku": "CON-WHITE-DUPLEX-OUTLET-SINGLE-VERTICALPLATE",
+      "options": {
+        "color": "white",
+        "pack": "single",
+        "model": "vertical-plate"
+      },
+      "price": {
+        "BRL": 17.58,
+        "USD": 7.67
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall outlet, front view",
+            "pt-BR": "Tomada de parede branca, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Duplex Wall Outlet for an Indoor Branch Circuit, a Blank Cover, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tomada de Parede Branca para Circuito Interno, Espelho Liso, Vendida por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vertical-plate-ten",
+      "sku": "CON-WHITE-DUPLEX-OUTLET-TEN-VERTICALPLATE",
+      "options": {
+        "color": "white",
+        "pack": "ten",
+        "model": "vertical-plate"
+      },
+      "price": {
+        "BRL": 151.65,
+        "USD": 61.17
       },
       "availability": "low_stock",
       "images": [

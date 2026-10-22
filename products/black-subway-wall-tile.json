@@ -89,6 +89,43 @@
           }
         }
       ]
+    },
+    {
+      "id": "format",
+      "name": {
+        "en": "Format",
+        "pt-BR": "Formato"
+      },
+      "values": [
+        {
+          "id": "3-by-6-inches",
+          "name": {
+            "en": "3 by 6 Inches",
+            "pt-BR": "7,5×15 cm"
+          }
+        },
+        {
+          "id": "compact-format",
+          "name": {
+            "en": "Compact Format",
+            "pt-BR": "Formato Compacto"
+          }
+        },
+        {
+          "id": "large-format",
+          "name": {
+            "en": "Large Format",
+            "pt-BR": "Formato Grande"
+          }
+        },
+        {
+          "id": "standard-format",
+          "name": {
+            "en": "Standard Format",
+            "pt-BR": "Formato Padrão"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -97,7 +134,8 @@
       "sku": "CON-BLACK-SUBWAY-WALL-TILE-BLACK-NATURAL",
       "options": {
         "color": "black",
-        "finish": "natural"
+        "finish": "natural",
+        "format": "3-by-6-inches"
       },
       "price": {
         "BRL": 79.9,
@@ -136,7 +174,8 @@
       "sku": "CON-BLACK-SUBWAY-WALL-TILE-BLACK-RECTIFIED",
       "options": {
         "color": "black",
-        "finish": "rectified"
+        "finish": "rectified",
+        "format": "3-by-6-inches"
       },
       "price": {
         "BRL": 89.9,
@@ -145,6 +184,222 @@
       "listPrice": {
         "BRL": 107.9,
         "USD": 43.2
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy black subway wall tile, front view",
+            "pt-BR": "Revestimento subway preto brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compact-format-black-natural",
+      "sku": "CON-BLACK-SUBWAY-WALL-TILE-BLACK-NATURAL-COMPACTFORMAT",
+      "options": {
+        "color": "black",
+        "finish": "natural",
+        "format": "compact-format"
+      },
+      "price": {
+        "BRL": 70.31,
+        "USD": 28.16
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy black subway wall tile, front view",
+            "pt-BR": "Revestimento subway preto brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compact-format-black-rectified",
+      "sku": "CON-BLACK-SUBWAY-WALL-TILE-BLACK-RECTIFIED-COMPACTFORMAT",
+      "options": {
+        "color": "black",
+        "finish": "rectified",
+        "format": "compact-format"
+      },
+      "price": {
+        "BRL": 85.44,
+        "USD": 34.21
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy black subway wall tile, front view",
+            "pt-BR": "Revestimento subway preto brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large-format-black-natural",
+      "sku": "CON-BLACK-SUBWAY-WALL-TILE-BLACK-NATURAL-LARGEFORMAT",
+      "options": {
+        "color": "black",
+        "finish": "natural",
+        "format": "large-format"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 32
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy black subway wall tile, front view",
+            "pt-BR": "Revestimento subway preto brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large-format-black-rectified",
+      "sku": "CON-BLACK-SUBWAY-WALL-TILE-BLACK-RECTIFIED-LARGEFORMAT",
+      "options": {
+        "color": "black",
+        "finish": "rectified",
+        "format": "large-format"
+      },
+      "price": {
+        "BRL": 97.09,
+        "USD": 38.88
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy black subway wall tile, front view",
+            "pt-BR": "Revestimento subway preto brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-format-black-natural",
+      "sku": "CON-BLACK-SUBWAY-WALL-TILE-BLACK-NATURAL-STANDARDFORMAT",
+      "options": {
+        "color": "black",
+        "finish": "natural",
+        "format": "standard-format"
+      },
+      "price": {
+        "BRL": 75.11,
+        "USD": 30.08
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy black subway wall tile, front view",
+            "pt-BR": "Revestimento subway preto brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-format-black-rectified",
+      "sku": "CON-BLACK-SUBWAY-WALL-TILE-BLACK-RECTIFIED-STANDARDFORMAT",
+      "options": {
+        "color": "black",
+        "finish": "rectified",
+        "format": "standard-format"
+      },
+      "price": {
+        "BRL": 91.27,
+        "USD": 36.55
       },
       "availability": "low_stock",
       "images": [

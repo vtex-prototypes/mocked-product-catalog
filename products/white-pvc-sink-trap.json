@@ -77,6 +77,43 @@
           }
         }
       ]
+    },
+    {
+      "id": "configuration",
+      "name": {
+        "en": "Configuration",
+        "pt-BR": "Configuração"
+      },
+      "values": [
+        {
+          "id": "original",
+          "name": {
+            "en": "Original",
+            "pt-BR": "Original"
+          }
+        },
+        {
+          "id": "compact-configuration",
+          "name": {
+            "en": "Compact Configuration",
+            "pt-BR": "Configuração Compacta"
+          }
+        },
+        {
+          "id": "extended-configuration",
+          "name": {
+            "en": "Extended Configuration",
+            "pt-BR": "Configuração Estendida"
+          }
+        },
+        {
+          "id": "standard-configuration",
+          "name": {
+            "en": "Standard Configuration",
+            "pt-BR": "Configuração Padrão"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -85,7 +122,8 @@
       "sku": "CON-WHITE-PVC-SINK-TRAP-SINGLE",
       "options": {
         "color": "white",
-        "pack": "single"
+        "pack": "single",
+        "configuration": "original"
       },
       "price": {
         "BRL": 28.9,
@@ -120,11 +158,228 @@
       "sku": "CON-WHITE-PVC-SINK-TRAP-TEN",
       "options": {
         "color": "white",
-        "pack": "ten"
+        "pack": "ten",
+        "configuration": "original"
       },
       "price": {
         "BRL": 249,
         "USD": 99
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White PVC sink trap, front view",
+            "pt-BR": "Sifão de PVC branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White PVC Sink Trap with Slip Nuts, a P-Bend for a Bathroom Basin, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Sifão de PVC Branco com Porcas, Curva para Cuba de Banheiro, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compact-configuration-single",
+      "sku": "CON-WHITE-PVC-SINK-TRAP-SINGLE-COMPACTCONFIGURATION",
+      "options": {
+        "color": "white",
+        "pack": "single",
+        "configuration": "compact-configuration"
+      },
+      "price": {
+        "BRL": 28.9,
+        "USD": 12
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White PVC sink trap, front view",
+            "pt-BR": "Sifão de PVC branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White PVC Sink Trap with Slip Nuts, a P-Bend for a Bathroom Basin, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Sifão de PVC Branco com Porcas, Curva para Cuba de Banheiro, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compact-configuration-ten",
+      "sku": "CON-WHITE-PVC-SINK-TRAP-TEN-COMPACTCONFIGURATION",
+      "options": {
+        "color": "white",
+        "pack": "ten",
+        "configuration": "compact-configuration"
+      },
+      "price": {
+        "BRL": 268.92,
+        "USD": 106.92
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White PVC sink trap, front view",
+            "pt-BR": "Sifão de PVC branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White PVC Sink Trap with Slip Nuts, a P-Bend for a Bathroom Basin, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Sifão de PVC Branco com Porcas, Curva para Cuba de Banheiro, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "extended-configuration-single",
+      "sku": "CON-WHITE-PVC-SINK-TRAP-SINGLE-EXTENDEDCONFIGURATION",
+      "options": {
+        "color": "white",
+        "pack": "single",
+        "configuration": "extended-configuration"
+      },
+      "price": {
+        "BRL": 32.37,
+        "USD": 13.44
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White PVC sink trap, front view",
+            "pt-BR": "Sifão de PVC branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White PVC Sink Trap with Slip Nuts, a P-Bend for a Bathroom Basin, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Sifão de PVC Branco com Porcas, Curva para Cuba de Banheiro, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "extended-configuration-ten",
+      "sku": "CON-WHITE-PVC-SINK-TRAP-TEN-EXTENDEDCONFIGURATION",
+      "options": {
+        "color": "white",
+        "pack": "ten",
+        "configuration": "extended-configuration"
+      },
+      "price": {
+        "BRL": 301.19,
+        "USD": 119.75
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White PVC sink trap, front view",
+            "pt-BR": "Sifão de PVC branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White PVC Sink Trap with Slip Nuts, a P-Bend for a Bathroom Basin, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Sifão de PVC Branco com Porcas, Curva para Cuba de Banheiro, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-configuration-single",
+      "sku": "CON-WHITE-PVC-SINK-TRAP-SINGLE-STANDARDCONFIGURATION",
+      "options": {
+        "color": "white",
+        "pack": "single",
+        "configuration": "standard-configuration"
+      },
+      "price": {
+        "BRL": 30.63,
+        "USD": 12.72
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White PVC sink trap, front view",
+            "pt-BR": "Sifão de PVC branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White PVC Sink Trap with Slip Nuts, a P-Bend for a Bathroom Basin, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Sifão de PVC Branco com Porcas, Curva para Cuba de Banheiro, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-configuration-ten",
+      "sku": "CON-WHITE-PVC-SINK-TRAP-TEN-STANDARDCONFIGURATION",
+      "options": {
+        "color": "white",
+        "pack": "ten",
+        "configuration": "standard-configuration"
+      },
+      "price": {
+        "BRL": 285.06,
+        "USD": 113.34
       },
       "availability": "low_stock",
       "images": [

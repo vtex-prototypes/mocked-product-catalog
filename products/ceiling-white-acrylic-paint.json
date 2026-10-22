@@ -85,6 +85,43 @@
           }
         }
       ]
+    },
+    {
+      "id": "type",
+      "name": {
+        "en": "Type",
+        "pt-BR": "Tipo"
+      },
+      "values": [
+        {
+          "id": "classic",
+          "name": {
+            "en": "Classic",
+            "pt-BR": "Clássica"
+          }
+        },
+        {
+          "id": "high-coverage",
+          "name": {
+            "en": "High Coverage",
+            "pt-BR": "Alta Cobertura"
+          }
+        },
+        {
+          "id": "standard-coverage",
+          "name": {
+            "en": "Standard Coverage",
+            "pt-BR": "Cobertura Padrão"
+          }
+        },
+        {
+          "id": "washable-finish",
+          "name": {
+            "en": "Washable Finish",
+            "pt-BR": "Acabamento Lavável"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -93,7 +130,8 @@
       "sku": "CON-CEILING-WHITE-ACRYLIC-PAINT-WHITE-SMALL",
       "options": {
         "color": "white",
-        "volume": "small"
+        "volume": "small",
+        "type": "classic"
       },
       "price": {
         "BRL": 79.9,
@@ -138,11 +176,288 @@
       "sku": "CON-CEILING-WHITE-ACRYLIC-PAINT-WHITE-LARGE",
       "options": {
         "color": "white",
-        "volume": "large"
+        "volume": "large",
+        "type": "classic"
       },
       "price": {
         "BRL": 229,
         "USD": 92
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of flat white ceiling paint",
+            "pt-BR": "Lata de tinta branca fosca para teto"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Living room ceiling painted smooth matte white",
+            "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "high-coverage-white-small",
+      "sku": "CON-CEILING-WHITE-ACRYLIC-PAINT-WHITE-SMALL-HIGHCOVERAGE",
+      "options": {
+        "color": "white",
+        "volume": "small",
+        "type": "high-coverage"
+      },
+      "price": {
+        "BRL": 84.69,
+        "USD": 33.92
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of flat white ceiling paint",
+            "pt-BR": "Lata de tinta branca fosca para teto"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Living room ceiling painted smooth matte white",
+            "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "high-coverage-white-large",
+      "sku": "CON-CEILING-WHITE-ACRYLIC-PAINT-WHITE-LARGE-HIGHCOVERAGE",
+      "options": {
+        "color": "white",
+        "volume": "large",
+        "type": "high-coverage"
+      },
+      "price": {
+        "BRL": 262.16,
+        "USD": 105.32
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of flat white ceiling paint",
+            "pt-BR": "Lata de tinta branca fosca para teto"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Living room ceiling painted smooth matte white",
+            "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-coverage-white-small",
+      "sku": "CON-CEILING-WHITE-ACRYLIC-PAINT-WHITE-SMALL-STANDARDCOVERAGE",
+      "options": {
+        "color": "white",
+        "volume": "small",
+        "type": "standard-coverage"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 32
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of flat white ceiling paint",
+            "pt-BR": "Lata de tinta branca fosca para teto"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Living room ceiling painted smooth matte white",
+            "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-coverage-white-large",
+      "sku": "CON-CEILING-WHITE-ACRYLIC-PAINT-WHITE-LARGE-STANDARDCOVERAGE",
+      "options": {
+        "color": "white",
+        "volume": "large",
+        "type": "standard-coverage"
+      },
+      "price": {
+        "BRL": 247.32,
+        "USD": 99.36
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of flat white ceiling paint",
+            "pt-BR": "Lata de tinta branca fosca para teto"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Living room ceiling painted smooth matte white",
+            "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "washable-finish-white-small",
+      "sku": "CON-CEILING-WHITE-ACRYLIC-PAINT-WHITE-SMALL-WASHABLEFINISH",
+      "options": {
+        "color": "white",
+        "volume": "small",
+        "type": "washable-finish"
+      },
+      "price": {
+        "BRL": 89.49,
+        "USD": 35.84
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of flat white ceiling paint",
+            "pt-BR": "Lata de tinta branca fosca para teto"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Living room ceiling painted smooth matte white",
+            "pt-BR": "Teto de sala pintado de branco fosco uniforme"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "washable-finish-white-large",
+      "sku": "CON-CEILING-WHITE-ACRYLIC-PAINT-WHITE-LARGE-WASHABLEFINISH",
+      "options": {
+        "color": "white",
+        "volume": "large",
+        "type": "washable-finish"
+      },
+      "price": {
+        "BRL": 277,
+        "USD": 111.28
       },
       "availability": "low_stock",
       "images": [
