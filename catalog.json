@@ -3303,6 +3303,140 @@
       ]
     },
     {
+      "id": "anti-mold-shower-grout",
+      "categoryId": "construcao-rejuntes",
+      "name": {
+        "en": "Anti-Mold White Cement Grout for Shower, Bathroom and Kitchen Joints, Sold by the Tub",
+        "pt-BR": "Rejunte Cimentício Branco Antimofo para Juntas de Box, Banheiro e Cozinha, Vendido por Pote"
+      },
+      "description": {
+        "en": "A white grout with a mold inhibitor mixed in, so shower and backsplash joints stay white longer in steam and splashes. For indoor wet areas.",
+        "pt-BR": "Rejunte branco com aditivo antimofo, para as juntas do box e da parede da pia continuarem brancas por mais tempo com vapor e respingos. Para áreas molhadas internas."
+      },
+      "price": {
+        "BRL": 24.9,
+        "USD": 11.9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "anti-mold grout",
+          "for bathroom",
+          "white"
+        ],
+        "pt-BR": [
+          "rejunte antimofo",
+          "para banheiro",
+          "branco"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "white-1kg",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F1F0EB"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "1kg",
+              "name": {
+                "en": "1 kg",
+                "pt-BR": "1 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-1kg",
+          "sku": "CON-GROUT-ANTIMOLD",
+          "options": {
+            "color": "white",
+            "weight": "1kg"
+          },
+          "price": {
+            "BRL": 24.9,
+            "USD": 11.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Teal grout tub with a water drop and shield",
+                "pt-BR": "Pote de rejunte verde-petróleo com gota e escudo"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/anti-mold-shower-grout/main-white.webp",
+                "#f5f5f5": "images/anti-mold-shower-grout/main-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "baseball-cap",
       "brandId": "ritmo",
       "brand": {
@@ -40003,6 +40137,152 @@
       ]
     },
     {
+      "id": "fast-setting-floor-grout",
+      "categoryId": "construcao-rejuntes",
+      "name": {
+        "en": "Fast-Setting Charcoal Floor Grout You Can Walk on in Three Hours, for Shops and Busy Rooms, Sold by the Tub",
+        "pt-BR": "Rejunte de Secagem Rápida Grafite Escuro para Pisos, Liberado para Tráfego em Três Horas, Vendido por Pote"
+      },
+      "description": {
+        "en": "Ready for foot traffic about three hours after grouting, so a shop or hallway reopens the same day. Work in small batches: it sets fast in the bucket too.",
+        "pt-BR": "Liberado para pisar cerca de três horas depois de rejuntar, então a loja ou o corredor reabre no mesmo dia. Prepare pouco de cada vez: ele também endurece rápido no balde."
+      },
+      "price": {
+        "BRL": 38.9,
+        "USD": 14.9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "fast setting grout",
+          "for floors",
+          "dark"
+        ],
+        "pt-BR": [
+          "rejunte de secagem rápida",
+          "para pisos",
+          "escuro"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "charcoal-2kg",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "charcoal",
+              "name": {
+                "en": "Charcoal",
+                "pt-BR": "Grafite escuro"
+              },
+              "hex": "#585856"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "2kg",
+              "name": {
+                "en": "4.4 lb",
+                "pt-BR": "2 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "charcoal-2kg",
+          "sku": "CON-GROUT-FAST",
+          "options": {
+            "color": "charcoal",
+            "weight": "2kg"
+          },
+          "price": {
+            "BRL": 38.9,
+            "USD": 14.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Yellow grout tub with a footprint and a clock",
+                "pt-BR": "Pote de rejunte amarelo com uma pegada e um relógio"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/fast-setting-floor-grout/main-white.webp",
+                "#f5f5f5": "images/fast-setting-floor-grout/main-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "fern-green-satin-interior-paint",
       "categoryId": "construcao-tintas",
       "name": {
@@ -66773,6 +67053,140 @@
       ]
     },
     {
+      "id": "pool-tile-grout",
+      "categoryId": "construcao-rejuntes",
+      "name": {
+        "en": "Pool Tile Grout for Submerged Joints in Pools, Fountains and Water Tanks, Sold by the Bucket",
+        "pt-BR": "Rejunte para Piscinas para Juntas Submersas em Piscinas, Fontes e Reservatórios, Vendido por Balde"
+      },
+      "description": {
+        "en": "Made to stay under water and chlorine for years without washing out of the joint. For pool tile, fountains and tanks, once the water is drained.",
+        "pt-BR": "Feito para ficar anos debaixo d'água e cloro sem sair da junta. Para pastilhas de piscina, fontes e reservatórios, com a água esvaziada."
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 26.9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "pool grout",
+          "outdoor",
+          "submerged"
+        ],
+        "pt-BR": [
+          "rejunte para piscina",
+          "área externa",
+          "submerso"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "white-5kg",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#EEEEE9"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "5kg",
+              "name": {
+                "en": "11 lb",
+                "pt-BR": "5 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-5kg",
+          "sku": "CON-GROUT-POOL",
+          "options": {
+            "color": "white",
+            "weight": "5kg"
+          },
+          "price": {
+            "BRL": 69.9,
+            "USD": 26.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Blue grout bucket with white waves",
+                "pt-BR": "Balde de rejunte azul com ondas brancas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pool-tile-grout/main-white.webp",
+                "#f5f5f5": "images/pool-tile-grout/main-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "portable-ssd",
       "categoryId": "eletro-acessorios",
       "name": {
@@ -70791,6 +71205,140 @@
               "src": {
                 "#ffffff": "images/rapid-set-repair-cement/main-white.webp",
                 "#f5f5f5": "images/rapid-set-repair-cement/main-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ready-mix-grout-cartridge",
+      "categoryId": "construcao-rejuntes",
+      "name": {
+        "en": "Ready-to-Use Gray Grout in a Cartridge for Touch-Ups and Small Repairs, No Mixing, Sold by the Tube",
+        "pt-BR": "Rejunte Cinza Pronto para Uso em Cartucho para Retoques e Pequenos Reparos, sem Mistura, Vendido por Tubo"
+      },
+      "description": {
+        "en": "Fits a standard caulk gun and goes straight into the joint, no bucket or water. For refilling a few cracked joints or grouting a small backsplash.",
+        "pt-BR": "Encaixa na pistola de silicone comum e vai direto na junta, sem balde nem água. Para refazer algumas juntas trincadas ou rejuntar uma parede pequena."
+      },
+      "price": {
+        "BRL": 21.9,
+        "USD": 7.9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "ready-mix grout",
+          "cartridge",
+          "repair"
+        ],
+        "pt-BR": [
+          "rejunte pronto",
+          "cartucho",
+          "reparo"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "gray-300ml",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#A3A3A0"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "300ml",
+              "name": {
+                "en": "10 fl oz",
+                "pt-BR": "300 ml"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gray-300ml",
+          "sku": "CON-GROUT-CARTRIDGE",
+          "options": {
+            "color": "gray",
+            "weight": "300ml"
+          },
+          "price": {
+            "BRL": 21.9,
+            "USD": 7.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Green grout cartridge with a white check mark",
+                "pt-BR": "Cartucho de rejunte verde com um sinal de visto branco"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ready-mix-grout-cartridge/main-white.webp",
+                "#f5f5f5": "images/ready-mix-grout-cartridge/main-gray.webp"
               }
             }
           ]
@@ -76309,6 +76857,152 @@
               "src": {
                 "#ffffff": "images/sand-tailored-linen-trousers/detail-white.webp",
                 "#f5f5f5": "images/sand-tailored-linen-trousers/detail-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sanded-wide-joint-grout",
+      "categoryId": "construcao-rejuntes",
+      "name": {
+        "en": "Sanded Cement Grout for Wide 1/8 to 1/2 Inch Joints on Patios, Stone and Rustic Tile, Sold by the Bag",
+        "pt-BR": "Rejunte Cimentício com Areia para Juntas Largas de 3 a 12 mm em Pátios, Pedras e Pisos Rústicos, Vendido por Saco"
+      },
+      "description": {
+        "en": "Fine sand in the mix keeps wide joints from shrinking and cracking. For patio pavers, natural stone and rustic tile laid with wide gaps.",
+        "pt-BR": "A areia fina na mistura evita que juntas largas retraiam e trinquem. Para pisos de pátio, pedras naturais e pisos rústicos assentados com junta larga."
+      },
+      "price": {
+        "BRL": 32.9,
+        "USD": 12.5
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "sanded grout",
+          "wide joints",
+          "for floors"
+        ],
+        "pt-BR": [
+          "rejunte com areia",
+          "juntas largas",
+          "para pisos"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "sand-10kg",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "sand",
+              "name": {
+                "en": "Sand",
+                "pt-BR": "Areia"
+              },
+              "hex": "#C8B597"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "10kg",
+              "name": {
+                "en": "22 lb",
+                "pt-BR": "10 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "sand-10kg",
+          "sku": "CON-GROUT-SANDED",
+          "options": {
+            "color": "sand",
+            "weight": "10kg"
+          },
+          "price": {
+            "BRL": 32.9,
+            "USD": 12.5
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Terracotta grout bag with a white tile grid",
+                "pt-BR": "Saco de rejunte terracota com uma grade de peças branca"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/sanded-wide-joint-grout/main-white.webp",
+                "#f5f5f5": "images/sanded-wide-joint-grout/main-gray.webp"
               }
             }
           ]
@@ -88222,6 +88916,152 @@
               "src": {
                 "#ffffff": "images/training-shorts/blue-white.webp",
                 "#f5f5f5": "images/training-shorts/blue-gray.webp"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-part-epoxy-grout-kit",
+      "categoryId": "construcao-rejuntes",
+      "name": {
+        "en": "Two-Part Graphite Epoxy Grout Kit for Stain-Proof Kitchen and Shop Floor Joints, Sold by the Kit",
+        "pt-BR": "Kit de Rejunte Epóxi Bicomponente Grafite para Juntas sem Manchas em Cozinhas e Lojas, Vendido por Kit"
+      },
+      "description": {
+        "en": "A resin base and a hardener you mix right before grouting. The cured joint doesn't absorb grease, wine or cleaning products, so it stays the same color.",
+        "pt-BR": "Uma base de resina e um endurecedor que você mistura na hora de rejuntar. A junta curada não absorve gordura, vinho nem produto de limpeza, e fica sempre da mesma cor."
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 34.9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "epoxy grout",
+          "stain proof",
+          "kit"
+        ],
+        "pt-BR": [
+          "rejunte epóxi",
+          "não mancha",
+          "kit"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "epoxy",
+          "value": {
+            "en": "Epoxy",
+            "pt-BR": "Epóxi"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "graphite-2-5kg",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "graphite",
+              "name": {
+                "en": "Graphite",
+                "pt-BR": "Grafite"
+              },
+              "hex": "#4B4B49"
+            }
+          ]
+        },
+        {
+          "id": "weight",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "2-5kg",
+              "name": {
+                "en": "5.5 lb kit",
+                "pt-BR": "kit de 2,5 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "graphite-2-5kg",
+          "sku": "CON-GROUT-EPOXYKIT",
+          "options": {
+            "color": "graphite",
+            "weight": "2-5kg"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 34.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Purple pail and jar of a two-part grout kit",
+                "pt-BR": "Balde e pote roxos de um kit de rejunte bicomponente"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/two-part-epoxy-grout-kit/main-white.webp",
+                "#f5f5f5": "images/two-part-epoxy-grout-kit/main-gray.webp"
               }
             }
           ]

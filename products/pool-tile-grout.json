@@ -1,0 +1,106 @@
+{
+  "id": "pool-tile-grout",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Pool Tile Grout for Submerged Joints in Pools, Fountains and Water Tanks, Sold by the Bucket",
+    "pt-BR": "Rejunte para Piscinas para Juntas Submersas em Piscinas, Fontes e Reservatórios, Vendido por Balde"
+  },
+  "description": {
+    "en": "Made to stay under water and chlorine for years without washing out of the joint. For pool tile, fountains and tanks, once the water is drained.",
+    "pt-BR": "Feito para ficar anos debaixo d'água e cloro sem sair da junta. Para pastilhas de piscina, fontes e reservatórios, com a água esvaziada."
+  },
+  "price": {
+    "BRL": 69.9,
+    "USD": 26.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "pool grout",
+      "outdoor",
+      "submerged"
+    ],
+    "pt-BR": [
+      "rejunte para piscina",
+      "área externa",
+      "submerso"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "white-5kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#EEEEE9"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "5kg",
+          "name": {
+            "en": "11 lb",
+            "pt-BR": "5 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-5kg",
+      "sku": "CON-GROUT-POOL",
+      "options": {
+        "color": "white",
+        "weight": "5kg"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 26.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Blue grout bucket with white waves",
+            "pt-BR": "Balde de rejunte azul com ondas brancas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

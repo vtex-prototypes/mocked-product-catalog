@@ -1,0 +1,110 @@
+{
+  "id": "two-part-epoxy-grout-kit",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Two-Part Graphite Epoxy Grout Kit for Stain-Proof Kitchen and Shop Floor Joints, Sold by the Kit",
+    "pt-BR": "Kit de Rejunte Epóxi Bicomponente Grafite para Juntas sem Manchas em Cozinhas e Lojas, Vendido por Kit"
+  },
+  "description": {
+    "en": "A resin base and a hardener you mix right before grouting. The cured joint doesn't absorb grease, wine or cleaning products, so it stays the same color.",
+    "pt-BR": "Uma base de resina e um endurecedor que você mistura na hora de rejuntar. A junta curada não absorve gordura, vinho nem produto de limpeza, e fica sempre da mesma cor."
+  },
+  "price": {
+    "BRL": 89.9,
+    "USD": 34.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "epoxy grout",
+      "stain proof",
+      "kit"
+    ],
+    "pt-BR": [
+      "rejunte epóxi",
+      "não mancha",
+      "kit"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "epoxy"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "graphite-2-5kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "graphite",
+          "name": {
+            "en": "Graphite",
+            "pt-BR": "Grafite"
+          },
+          "hex": "#4B4B49"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "2-5kg",
+          "name": {
+            "en": "5.5 lb kit",
+            "pt-BR": "kit de 2,5 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "graphite-2-5kg",
+      "sku": "CON-GROUT-EPOXYKIT",
+      "options": {
+        "color": "graphite",
+        "weight": "2-5kg"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 34.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Purple pail and jar of a two-part grout kit",
+            "pt-BR": "Balde e pote roxos de um kit de rejunte bicomponente"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

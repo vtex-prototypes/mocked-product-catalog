@@ -1,0 +1,106 @@
+{
+  "id": "ready-mix-grout-cartridge",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Ready-to-Use Gray Grout in a Cartridge for Touch-Ups and Small Repairs, No Mixing, Sold by the Tube",
+    "pt-BR": "Rejunte Cinza Pronto para Uso em Cartucho para Retoques e Pequenos Reparos, sem Mistura, Vendido por Tubo"
+  },
+  "description": {
+    "en": "Fits a standard caulk gun and goes straight into the joint, no bucket or water. For refilling a few cracked joints or grouting a small backsplash.",
+    "pt-BR": "Encaixa na pistola de silicone comum e vai direto na junta, sem balde nem água. Para refazer algumas juntas trincadas ou rejuntar uma parede pequena."
+  },
+  "price": {
+    "BRL": 21.9,
+    "USD": 7.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "ready-mix grout",
+      "cartridge",
+      "repair"
+    ],
+    "pt-BR": [
+      "rejunte pronto",
+      "cartucho",
+      "reparo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "gray-300ml",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#A3A3A0"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "300ml",
+          "name": {
+            "en": "10 fl oz",
+            "pt-BR": "300 ml"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "gray-300ml",
+      "sku": "CON-GROUT-CARTRIDGE",
+      "options": {
+        "color": "gray",
+        "weight": "300ml"
+      },
+      "price": {
+        "BRL": 21.9,
+        "USD": 7.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Green grout cartridge with a white check mark",
+            "pt-BR": "Cartucho de rejunte verde com um sinal de visto branco"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
