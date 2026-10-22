@@ -1,5 +1,9 @@
 {
   "id": "pvc-solvent-cement-standard-install",
+  "deprecated": {
+    "reason": "Same product and photo as \"pvc-solvent-cement\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "pvc-solvent-cement"
+  },
   "categoryId": "construcao-hidraulica",
   "name": {
     "en": "PVC Solvent Cement with Applicator for Pipe Joints, Standard Bottle for Room Installations, Sold in Two Project Packs",

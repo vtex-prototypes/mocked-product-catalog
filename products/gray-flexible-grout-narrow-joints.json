@@ -1,5 +1,9 @@
 {
   "id": "gray-flexible-grout-narrow-joints",
+  "deprecated": {
+    "reason": "Same product and photo as \"flexible-gray-grout\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "flexible-gray-grout"
+  },
   "categoryId": "construcao-rejuntes",
   "name": {
     "en": "Flexible Gray Cement Grout for Tile Joints, for Narrow 1 to 3 Millimeter Joints, Sold in Two Project Packs",

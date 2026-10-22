@@ -1,5 +1,9 @@
 {
   "id": "white-rocker-switch-three-way",
+  "deprecated": {
+    "reason": "Folded into \"white-rocker-switch\" as a variant (model): it has the same photo and only that choice differs.",
+    "replacedBy": "white-rocker-switch"
+  },
   "categoryId": "construcao-eletrica",
   "name": {
     "en": "White Rocker Light Switch for Indoor Walls, Three-Way Rocker for Two Control Points, Sold in Two Project Packs",

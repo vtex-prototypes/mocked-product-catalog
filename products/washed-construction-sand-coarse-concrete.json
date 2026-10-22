@@ -1,5 +1,9 @@
 {
   "id": "washed-construction-sand-coarse-concrete",
+  "deprecated": {
+    "reason": "Folded into \"washed-medium-sand\" as a variant (grade): it has the same photo and only that choice differs.",
+    "replacedBy": "washed-medium-sand"
+  },
   "categoryId": "construcao-basicos",
   "name": {
     "en": "Washed Construction Sand for Mortar and Concrete, Coarse Grade for Small Concrete Batches, Sold in Two Project Packs",

@@ -4518,6 +4518,10 @@
     },
     {
       "id": "beige-flexible-grout-narrow-joints",
+      "deprecated": {
+        "reason": "Same product and photo as \"flexible-beige-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "flexible-beige-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Flexible Beige Cement Grout for Tile Joints, for Narrow 1 to 3 Millimeter Joints, Sold in Two Project Packs",
@@ -4728,6 +4732,10 @@
     },
     {
       "id": "beige-flexible-grout-standard-joints",
+      "deprecated": {
+        "reason": "Same product and photo as \"flexible-beige-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "flexible-beige-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Flexible Beige Cement Grout for Tile Joints, for Standard 2 to 5 Millimeter Joints, Sold in Two Project Packs",
@@ -4938,6 +4946,10 @@
     },
     {
       "id": "beige-flexible-grout-wet-areas",
+      "deprecated": {
+        "reason": "Same product and photo as \"flexible-beige-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "flexible-beige-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Flexible Beige Cement Grout for Tile Joints, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",
@@ -5148,6 +5160,10 @@
     },
     {
       "id": "beige-marble-compact-format",
+      "deprecated": {
+        "reason": "Folded into \"beige-marble-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "beige-marble-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Beige Marble-Look Porcelain Wall Tile, Compact Format for Detailed Layouts, Sold in Two Project Packs",
@@ -5358,6 +5374,10 @@
     },
     {
       "id": "beige-marble-large-format",
+      "deprecated": {
+        "reason": "Folded into \"beige-marble-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "beige-marble-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Beige Marble-Look Porcelain Wall Tile, Large Format for Fewer Visible Joints, Sold in Two Project Packs",
@@ -5568,6 +5588,10 @@
     },
     {
       "id": "beige-marble-standard-format",
+      "deprecated": {
+        "reason": "Folded into \"beige-marble-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "beige-marble-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Beige Marble-Look Porcelain Wall Tile, Standard Format for Balanced Wall Layouts, Sold in Two Project Packs",
@@ -10129,6 +10153,10 @@
     },
     {
       "id": "black-flexible-grout-narrow-joints",
+      "deprecated": {
+        "reason": "Same product and photo as \"flexible-black-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "flexible-black-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Flexible Black Cement Grout for Tile Joints, for Narrow 1 to 3 Millimeter Joints, Sold in Two Project Packs",
@@ -10339,6 +10367,10 @@
     },
     {
       "id": "black-flexible-grout-standard-joints",
+      "deprecated": {
+        "reason": "Same product and photo as \"flexible-black-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "flexible-black-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Flexible Black Cement Grout for Tile Joints, for Standard 2 to 5 Millimeter Joints, Sold in Two Project Packs",
@@ -10549,6 +10581,10 @@
     },
     {
       "id": "black-flexible-grout-wet-areas",
+      "deprecated": {
+        "reason": "Same product and photo as \"flexible-black-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "flexible-black-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Flexible Black Cement Grout for Tile Joints, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",
@@ -14162,6 +14198,10 @@
     },
     {
       "id": "black-subway-compact-format",
+      "deprecated": {
+        "reason": "Folded into \"black-subway-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "black-subway-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Glossy Black Ceramic Subway Wall Tile, Compact Format for Detailed Layouts, Sold in Two Project Packs",
@@ -14372,6 +14412,10 @@
     },
     {
       "id": "black-subway-large-format",
+      "deprecated": {
+        "reason": "Folded into \"black-subway-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "black-subway-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Glossy Black Ceramic Subway Wall Tile, Large Format for Fewer Visible Joints, Sold in Two Project Packs",
@@ -14582,6 +14626,10 @@
     },
     {
       "id": "black-subway-standard-format",
+      "deprecated": {
+        "reason": "Folded into \"black-subway-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "black-subway-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Glossy Black Ceramic Subway Wall Tile, Standard Format for Balanced Wall Layouts, Sold in Two Project Packs",
@@ -16666,6 +16714,10 @@
     },
     {
       "id": "brass-ball-valve-half-inch",
+      "deprecated": {
+        "reason": "Folded into \"brass-ball-valve\" as a variant (thread size): it has the same photo and only that choice differs.",
+        "replacedBy": "brass-ball-valve"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "Brass Ball Valve with Lever for Water Lines, Half-Inch Thread for Compact Lines, Sold in Two Project Packs",
@@ -16852,6 +16904,10 @@
     },
     {
       "id": "brass-ball-valve-one-inch",
+      "deprecated": {
+        "reason": "Folded into \"brass-ball-valve\" as a variant (thread size): it has the same photo and only that choice differs.",
+        "replacedBy": "brass-ball-valve"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "Brass Ball Valve with Lever for Water Lines, One-Inch Thread for Higher Flow, Sold in Two Project Packs",
@@ -17038,6 +17094,10 @@
     },
     {
       "id": "brass-ball-valve-three-quarter-inch",
+      "deprecated": {
+        "reason": "Folded into \"brass-ball-valve\" as a variant (thread size): it has the same photo and only that choice differs.",
+        "replacedBy": "brass-ball-valve"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "Brass Ball Valve with Lever for Water Lines, Three-Quarter-Inch Thread for Supply Lines, Sold in Two Project Packs",
@@ -24303,6 +24363,10 @@
     },
     {
       "id": "ceiling-white-paint-high-coverage",
+      "deprecated": {
+        "reason": "Folded into \"ceiling-white-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "ceiling-white-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "Flat White Acrylic Paint for Indoor Ceilings, High Coverage for Renovation Coats, Sold in Two Project Packs",
@@ -24541,6 +24605,10 @@
     },
     {
       "id": "ceiling-white-paint-standard-coverage",
+      "deprecated": {
+        "reason": "Folded into \"ceiling-white-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "ceiling-white-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "Flat White Acrylic Paint for Indoor Ceilings, Standard Coverage for Prepared Surfaces, Sold in Two Project Packs",
@@ -24779,6 +24847,10 @@
     },
     {
       "id": "ceiling-white-paint-washable-finish",
+      "deprecated": {
+        "reason": "Folded into \"ceiling-white-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "ceiling-white-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "Flat White Acrylic Paint for Indoor Ceilings, Washable Finish for Busy Residential Rooms, Sold in Two Project Packs",
@@ -25453,6 +25525,10 @@
     },
     {
       "id": "cement-basecoat-renovation",
+      "deprecated": {
+        "reason": "Same product and photo as \"cement-basecoat-plaster\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "cement-basecoat-plaster"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Gray Cement Basecoat Plaster for Masonry Walls, for Renovation over Prepared Substrates, Sold in Two Project Packs",
@@ -25651,6 +25727,10 @@
     },
     {
       "id": "cement-basecoat-small-format",
+      "deprecated": {
+        "reason": "Same product and photo as \"cement-basecoat-plaster\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "cement-basecoat-plaster"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Gray Cement Basecoat Plaster for Masonry Walls, for Small-Format Ceramic Tile, Sold in Two Project Packs",
@@ -25849,6 +25929,10 @@
     },
     {
       "id": "cement-basecoat-standard-format",
+      "deprecated": {
+        "reason": "Same product and photo as \"cement-basecoat-plaster\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "cement-basecoat-plaster"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Gray Cement Basecoat Plaster for Masonry Walls, for Standard Residential Tile, Sold in Two Project Packs",
@@ -26047,6 +26131,10 @@
     },
     {
       "id": "cement-basecoat-wet-area",
+      "deprecated": {
+        "reason": "Same product and photo as \"cement-basecoat-plaster\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "cement-basecoat-plaster"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Gray Cement Basecoat Plaster for Masonry Walls, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",
@@ -26245,6 +26333,10 @@
     },
     {
       "id": "chrome-basin-faucet-deck-mount",
+      "deprecated": {
+        "reason": "Folded into \"chrome-single-lever-faucet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "chrome-single-lever-faucet"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "Chrome Single-Lever Faucet for Bathroom Basins, Deck Mount for a Prepared Faucet Hole, Sold in Two Project Packs",
@@ -26443,6 +26535,10 @@
     },
     {
       "id": "chrome-basin-faucet-medium-spout",
+      "deprecated": {
+        "reason": "Folded into \"chrome-single-lever-faucet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "chrome-single-lever-faucet"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "Chrome Single-Lever Faucet for Bathroom Basins, Medium Spout for Standard Bathroom Basins, Sold in Two Project Packs",
@@ -26641,6 +26737,10 @@
     },
     {
       "id": "chrome-basin-faucet-short-spout",
+      "deprecated": {
+        "reason": "Same product and photo as \"chrome-single-lever-faucet\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "chrome-single-lever-faucet"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "Chrome Single-Lever Faucet for Bathroom Basins, Short Spout for Compact Ceramic Basins, Sold in Two Project Packs",
@@ -26839,6 +26939,10 @@
     },
     {
       "id": "chrome-basin-faucet-tall-spout",
+      "deprecated": {
+        "reason": "Folded into \"chrome-single-lever-faucet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "chrome-single-lever-faucet"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "Chrome Single-Lever Faucet for Bathroom Basins, Tall Spout for Countertop Vessel Basins, Sold in Two Project Packs",
@@ -27037,6 +27141,10 @@
     },
     {
       "id": "chrome-basin-faucet-wall-mount",
+      "deprecated": {
+        "reason": "Folded into \"chrome-single-lever-faucet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "chrome-single-lever-faucet"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "Chrome Single-Lever Faucet for Bathroom Basins, Wall Mount for Clear Counter Space, Sold in Two Project Packs",
@@ -27235,6 +27343,10 @@
     },
     {
       "id": "chrome-basin-faucet-water-saving",
+      "deprecated": {
+        "reason": "Folded into \"chrome-single-lever-faucet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "chrome-single-lever-faucet"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "Chrome Single-Lever Faucet for Bathroom Basins, Controlled Flow for Everyday Water Savings, Sold in Two Project Packs",
@@ -27433,6 +27545,10 @@
     },
     {
       "id": "chrome-rain-shower-ceiling-mount",
+      "deprecated": {
+        "reason": "Folded into \"chrome-rain-shower-head\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "chrome-rain-shower-head"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "Round Chrome Rain Shower Head for Bathrooms, Ceiling Mount for a Centered Rainfall Spray, Sold in Two Project Packs",
@@ -27631,6 +27747,10 @@
     },
     {
       "id": "chrome-rain-shower-fifteen-cm",
+      "deprecated": {
+        "reason": "Folded into \"chrome-rain-shower-head\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "chrome-rain-shower-head"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "Round Chrome Rain Shower Head for Bathrooms, 6 Inch Face for Compact Shower Stalls, Sold in Two Project Packs",
@@ -28520,6 +28640,10 @@
     },
     {
       "id": "chrome-rain-shower-low-flow",
+      "deprecated": {
+        "reason": "Folded into \"chrome-rain-shower-head\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "chrome-rain-shower-head"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "Round Chrome Rain Shower Head for Bathrooms, Controlled Flow for Efficient Daily Showers, Sold in Two Project Packs",
@@ -28718,6 +28842,10 @@
     },
     {
       "id": "chrome-rain-shower-twenty-cm",
+      "deprecated": {
+        "reason": "Same product and photo as \"chrome-rain-shower-head\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "chrome-rain-shower-head"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "Round Chrome Rain Shower Head for Bathrooms, 8 Inch Face for Standard Shower Stalls, Sold in Two Project Packs",
@@ -28916,6 +29044,10 @@
     },
     {
       "id": "chrome-rain-shower-twenty-five-cm",
+      "deprecated": {
+        "reason": "Folded into \"chrome-rain-shower-head\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "chrome-rain-shower-head"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "Round Chrome Rain Shower Head for Bathrooms, 10 Inch Face for Broader Rain Coverage, Sold in Two Project Packs",
@@ -29114,6 +29246,10 @@
     },
     {
       "id": "chrome-rain-shower-wall-arm",
+      "deprecated": {
+        "reason": "Folded into \"chrome-rain-shower-head\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "chrome-rain-shower-head"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "Round Chrome Rain Shower Head for Bathrooms, Wall Arm Mount for Common Renovations, Sold in Two Project Packs",
@@ -30003,6 +30139,10 @@
     },
     {
       "id": "clay-hollow-brick-eight-hole",
+      "deprecated": {
+        "reason": "Folded into \"clay-hollow-brick\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "clay-hollow-brick"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Hollow Clay Masonry Brick for Residential Walls, Eight-Hole Format for Residential Walls, Sold in Two Project Packs",
@@ -30201,6 +30341,10 @@
     },
     {
       "id": "clay-hollow-brick-eleven-cm",
+      "deprecated": {
+        "reason": "Folded into \"clay-hollow-brick\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "clay-hollow-brick"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Hollow Clay Masonry Brick for Residential Walls, 11 Centimeter Width for Standard Walls, Sold in Two Project Packs",
@@ -30399,6 +30543,10 @@
     },
     {
       "id": "clay-hollow-brick-fourteen-cm",
+      "deprecated": {
+        "reason": "Folded into \"clay-hollow-brick\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "clay-hollow-brick"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Hollow Clay Masonry Brick for Residential Walls, 14 Centimeter Width for Thicker Walls, Sold in Two Project Packs",
@@ -30597,6 +30745,10 @@
     },
     {
       "id": "clay-hollow-brick-nine-cm",
+      "deprecated": {
+        "reason": "Folded into \"clay-hollow-brick\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "clay-hollow-brick"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Hollow Clay Masonry Brick for Residential Walls, 9 Centimeter Width for Light Partitions, Sold in Two Project Packs",
@@ -30795,6 +30947,10 @@
     },
     {
       "id": "clay-hollow-brick-six-hole",
+      "deprecated": {
+        "reason": "Folded into \"clay-hollow-brick\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "clay-hollow-brick"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Hollow Clay Masonry Brick for Residential Walls, Six-Hole Format for Internal Partitions, Sold in Two Project Packs",
@@ -30993,6 +31149,10 @@
     },
     {
       "id": "clay-hollow-brick-structural-format",
+      "deprecated": {
+        "reason": "Folded into \"clay-hollow-brick\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "clay-hollow-brick"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Hollow Clay Masonry Brick for Residential Walls, Reinforced Format for Supported Masonry, Sold in Two Project Packs",
@@ -31977,6 +32137,10 @@
     },
     {
       "id": "clay-interior-paint-high-coverage",
+      "deprecated": {
+        "reason": "Folded into \"interior-clay-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "interior-clay-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "Warm Clay Acrylic Paint for Indoor Walls, High Coverage for Renovation Coats, Sold in Two Project Packs",
@@ -32215,6 +32379,10 @@
     },
     {
       "id": "clay-interior-paint-standard-coverage",
+      "deprecated": {
+        "reason": "Folded into \"interior-clay-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "interior-clay-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "Warm Clay Acrylic Paint for Indoor Walls, Standard Coverage for Prepared Surfaces, Sold in Two Project Packs",
@@ -32453,6 +32621,10 @@
     },
     {
       "id": "clay-interior-paint-washable-finish",
+      "deprecated": {
+        "reason": "Folded into \"interior-clay-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "interior-clay-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "Warm Clay Acrylic Paint for Indoor Walls, Washable Finish for Busy Residential Rooms, Sold in Two Project Packs",
@@ -33558,6 +33730,10 @@
     },
     {
       "id": "copper-building-wire-fifteen-meter",
+      "deprecated": {
+        "reason": "Same product and photo as \"copper-building-wire\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "copper-building-wire"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "Copper Building Wire for Indoor Branch Circuits, 15 Meter Roll for Small Renovations, Sold in Two Project Packs",
@@ -33744,6 +33920,10 @@
     },
     {
       "id": "copper-building-wire-four-mm",
+      "deprecated": {
+        "reason": "Folded into \"copper-building-wire\" as a variant (gauge): it has the same photo and only that choice differs.",
+        "replacedBy": "copper-building-wire"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "Copper Building Wire for Indoor Branch Circuits, 4 Square Millimeter Gauge for Dedicated Loads, Sold in Two Project Packs",
@@ -33930,6 +34110,10 @@
     },
     {
       "id": "copper-building-wire-one-five-mm",
+      "deprecated": {
+        "reason": "Folded into \"copper-building-wire\" as a variant (gauge): it has the same photo and only that choice differs.",
+        "replacedBy": "copper-building-wire"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "Copper Building Wire for Indoor Branch Circuits, 1.5 Square Millimeter Gauge for Lighting, Sold in Two Project Packs",
@@ -34116,6 +34300,10 @@
     },
     {
       "id": "copper-building-wire-six-mm",
+      "deprecated": {
+        "reason": "Folded into \"copper-building-wire\" as a variant (gauge): it has the same photo and only that choice differs.",
+        "replacedBy": "copper-building-wire"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "Copper Building Wire for Indoor Branch Circuits, 6 Square Millimeter Gauge for Higher Loads, Sold in Two Project Packs",
@@ -34302,6 +34490,10 @@
     },
     {
       "id": "copper-building-wire-ten-mm",
+      "deprecated": {
+        "reason": "Folded into \"copper-building-wire\" as a variant (gauge): it has the same photo and only that choice differs.",
+        "replacedBy": "copper-building-wire"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "Copper Building Wire for Indoor Branch Circuits, 10 Square Millimeter Gauge for Feeders, Sold in Two Project Packs",
@@ -34488,6 +34680,10 @@
     },
     {
       "id": "copper-building-wire-thirty-meter",
+      "deprecated": {
+        "reason": "Same product and photo as \"copper-building-wire\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "copper-building-wire"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "Copper Building Wire for Indoor Branch Circuits, 30 Meter Roll for Residential Projects, Sold in Two Project Packs",
@@ -34674,6 +34870,10 @@
     },
     {
       "id": "copper-building-wire-two-five-mm",
+      "deprecated": {
+        "reason": "Same product and photo as \"copper-building-wire\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "copper-building-wire"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "Copper Building Wire for Indoor Branch Circuits, 2.5 Square Millimeter Gauge for Outlets, Sold in Two Project Packs",
@@ -38081,6 +38281,10 @@
     },
     {
       "id": "cream-mosaic-compact-format",
+      "deprecated": {
+        "reason": "Folded into \"cream-glass-mosaic-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "cream-glass-mosaic-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Cream Glass Mosaic Wall Tile Sheet, Compact Format for Detailed Layouts, Sold in Two Project Packs",
@@ -38291,6 +38495,10 @@
     },
     {
       "id": "cream-mosaic-large-format",
+      "deprecated": {
+        "reason": "Folded into \"cream-glass-mosaic-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "cream-glass-mosaic-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Cream Glass Mosaic Wall Tile Sheet, Large Format for Fewer Visible Joints, Sold in Two Project Packs",
@@ -38501,6 +38709,10 @@
     },
     {
       "id": "cream-mosaic-standard-format",
+      "deprecated": {
+        "reason": "Folded into \"cream-glass-mosaic-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "cream-glass-mosaic-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Cream Glass Mosaic Wall Tile Sheet, Standard Format for Balanced Wall Layouts, Sold in Two Project Packs",
@@ -44072,6 +44284,10 @@
     },
     {
       "id": "exterior-white-paint-high-coverage",
+      "deprecated": {
+        "reason": "Folded into \"exterior-white-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "exterior-white-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "White Acrylic Masonry Paint for Exterior Walls, High Coverage for Renovation Coats, Sold in Two Project Packs",
@@ -44310,6 +44526,10 @@
     },
     {
       "id": "exterior-white-paint-standard-coverage",
+      "deprecated": {
+        "reason": "Folded into \"exterior-white-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "exterior-white-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "White Acrylic Masonry Paint for Exterior Walls, Standard Coverage for Prepared Surfaces, Sold in Two Project Packs",
@@ -44548,6 +44768,10 @@
     },
     {
       "id": "exterior-white-paint-washable-finish",
+      "deprecated": {
+        "reason": "Folded into \"exterior-white-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "exterior-white-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "White Acrylic Masonry Paint for Exterior Walls, Washable Finish for Busy Residential Rooms, Sold in Two Project Packs",
@@ -49108,6 +49332,10 @@
     },
     {
       "id": "graphite-epoxy-grout-narrow-joints",
+      "deprecated": {
+        "reason": "Same product and photo as \"epoxy-graphite-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "epoxy-graphite-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Graphite Epoxy Grout for Stain-Resistant Joints, for Narrow 1 to 3 Millimeter Joints, Sold in Two Project Packs",
@@ -49318,6 +49546,10 @@
     },
     {
       "id": "graphite-epoxy-grout-standard-joints",
+      "deprecated": {
+        "reason": "Same product and photo as \"epoxy-graphite-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "epoxy-graphite-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Graphite Epoxy Grout for Stain-Resistant Joints, for Standard 2 to 5 Millimeter Joints, Sold in Two Project Packs",
@@ -49528,6 +49760,10 @@
     },
     {
       "id": "graphite-epoxy-grout-wet-areas",
+      "deprecated": {
+        "reason": "Same product and photo as \"epoxy-graphite-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "epoxy-graphite-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Graphite Epoxy Grout for Stain-Resistant Joints, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",
@@ -49984,6 +50220,10 @@
     },
     {
       "id": "gray-flexible-grout-narrow-joints",
+      "deprecated": {
+        "reason": "Same product and photo as \"flexible-gray-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "flexible-gray-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Flexible Gray Cement Grout for Tile Joints, for Narrow 1 to 3 Millimeter Joints, Sold in Two Project Packs",
@@ -50194,6 +50434,10 @@
     },
     {
       "id": "gray-flexible-grout-standard-joints",
+      "deprecated": {
+        "reason": "Same product and photo as \"flexible-gray-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "flexible-gray-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Flexible Gray Cement Grout for Tile Joints, for Standard 2 to 5 Millimeter Joints, Sold in Two Project Packs",
@@ -50404,6 +50648,10 @@
     },
     {
       "id": "gray-flexible-grout-wet-areas",
+      "deprecated": {
+        "reason": "Same product and photo as \"flexible-gray-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "flexible-gray-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Flexible Gray Cement Grout for Tile Joints, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",
@@ -51334,6 +51582,10 @@
     },
     {
       "id": "gray-pvc-coupling-20-mm",
+      "deprecated": {
+        "reason": "Folded into \"gray-pvc-coupling\" as a variant (size): it has the same photo and only that choice differs.",
+        "replacedBy": "gray-pvc-coupling"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "Gray PVC Straight Coupling for Cold-Water Lines, 20 Millimeter Nominal Size, Sold in Two Project Packs",
@@ -51520,6 +51772,10 @@
     },
     {
       "id": "gray-pvc-coupling-25-mm",
+      "deprecated": {
+        "reason": "Folded into \"gray-pvc-coupling\" as a variant (size): it has the same photo and only that choice differs.",
+        "replacedBy": "gray-pvc-coupling"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "Gray PVC Straight Coupling for Cold-Water Lines, 25 Millimeter Nominal Size, Sold in Two Project Packs",
@@ -51706,6 +51962,10 @@
     },
     {
       "id": "gray-pvc-coupling-32-mm",
+      "deprecated": {
+        "reason": "Folded into \"gray-pvc-coupling\" as a variant (size): it has the same photo and only that choice differs.",
+        "replacedBy": "gray-pvc-coupling"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "Gray PVC Straight Coupling for Cold-Water Lines, 32 Millimeter Nominal Size, Sold in Two Project Packs",
@@ -52381,6 +52641,10 @@
     },
     {
       "id": "gray-pvc-tee-20-mm",
+      "deprecated": {
+        "reason": "Folded into \"gray-pvc-tee\" as a variant (size): it has the same photo and only that choice differs.",
+        "replacedBy": "gray-pvc-tee"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "Gray PVC Tee Fitting for Cold-Water Lines, 20 Millimeter Nominal Size, Sold in Two Project Packs",
@@ -52567,6 +52831,10 @@
     },
     {
       "id": "gray-pvc-tee-25-mm",
+      "deprecated": {
+        "reason": "Folded into \"gray-pvc-tee\" as a variant (size): it has the same photo and only that choice differs.",
+        "replacedBy": "gray-pvc-tee"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "Gray PVC Tee Fitting for Cold-Water Lines, 25 Millimeter Nominal Size, Sold in Two Project Packs",
@@ -52753,6 +53021,10 @@
     },
     {
       "id": "gray-pvc-tee-32-mm",
+      "deprecated": {
+        "reason": "Folded into \"gray-pvc-tee\" as a variant (size): it has the same photo and only that choice differs.",
+        "replacedBy": "gray-pvc-tee"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "Gray PVC Tee Fitting for Cold-Water Lines, 32 Millimeter Nominal Size, Sold in Two Project Packs",
@@ -54142,6 +54414,10 @@
     },
     {
       "id": "greige-interior-paint-high-coverage",
+      "deprecated": {
+        "reason": "Folded into \"interior-greige-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "interior-greige-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "Greige Acrylic Paint for Indoor Walls, High Coverage for Renovation Coats, Sold in Two Project Packs",
@@ -54380,6 +54656,10 @@
     },
     {
       "id": "greige-interior-paint-standard-coverage",
+      "deprecated": {
+        "reason": "Folded into \"interior-greige-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "interior-greige-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "Greige Acrylic Paint for Indoor Walls, Standard Coverage for Prepared Surfaces, Sold in Two Project Packs",
@@ -54618,6 +54898,10 @@
     },
     {
       "id": "greige-interior-paint-washable-finish",
+      "deprecated": {
+        "reason": "Folded into \"interior-greige-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "interior-greige-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "Greige Acrylic Paint for Indoor Walls, Washable Finish for Busy Residential Rooms, Sold in Two Project Packs",
@@ -67511,6 +67795,10 @@
     },
     {
       "id": "navy-interior-paint-high-coverage",
+      "deprecated": {
+        "reason": "Folded into \"interior-navy-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "interior-navy-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "Navy Acrylic Paint for Indoor Walls, High Coverage for Renovation Coats, Sold in Two Project Packs",
@@ -67749,6 +68037,10 @@
     },
     {
       "id": "navy-interior-paint-standard-coverage",
+      "deprecated": {
+        "reason": "Folded into \"interior-navy-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "interior-navy-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "Navy Acrylic Paint for Indoor Walls, Standard Coverage for Prepared Surfaces, Sold in Two Project Packs",
@@ -67987,6 +68279,10 @@
     },
     {
       "id": "navy-interior-paint-washable-finish",
+      "deprecated": {
+        "reason": "Folded into \"interior-navy-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "interior-navy-acrylic-paint"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "Navy Acrylic Paint for Indoor Walls, Washable Finish for Busy Residential Rooms, Sold in Two Project Packs",
@@ -74593,6 +74889,10 @@
     },
     {
       "id": "portland-cement-concrete-slab",
+      "deprecated": {
+        "reason": "Same product and photo as \"portland-cement-bag\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "portland-cement-bag"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Portland Cement for Concrete and General Masonry, Selected for Small Concrete Slabs, Sold in Two Project Packs",
@@ -74791,6 +75091,10 @@
     },
     {
       "id": "portland-cement-floor-screed",
+      "deprecated": {
+        "reason": "Same product and photo as \"portland-cement-bag\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "portland-cement-bag"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Portland Cement for Concrete and General Masonry, Selected for Residential Floor Screeds, Sold in Two Project Packs",
@@ -74989,6 +75293,10 @@
     },
     {
       "id": "portland-cement-foundation-repair",
+      "deprecated": {
+        "reason": "Same product and photo as \"portland-cement-bag\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "portland-cement-bag"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Portland Cement for Concrete and General Masonry, Selected for Foundation Repairs, Sold in Two Project Packs",
@@ -75187,6 +75495,10 @@
     },
     {
       "id": "portland-cement-general-purpose",
+      "deprecated": {
+        "reason": "Same product and photo as \"portland-cement-bag\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "portland-cement-bag"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Portland Cement for Concrete and General Masonry, General Purpose Mix for Residential Work, Sold in Two Project Packs",
@@ -75385,6 +75697,10 @@
     },
     {
       "id": "portland-cement-masonry-mortar",
+      "deprecated": {
+        "reason": "Same product and photo as \"portland-cement-bag\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "portland-cement-bag"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Portland Cement for Concrete and General Masonry, Selected for Masonry Mortar Preparation, Sold in Two Project Packs",
@@ -75583,6 +75899,10 @@
     },
     {
       "id": "portland-cement-moist-area",
+      "deprecated": {
+        "reason": "Same product and photo as \"portland-cement-bag\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "portland-cement-bag"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Portland Cement for Concrete and General Masonry, Selected for Damp Residential Areas, Sold in Two Project Packs",
@@ -75781,6 +76101,10 @@
     },
     {
       "id": "portland-cement-precast-work",
+      "deprecated": {
+        "reason": "Same product and photo as \"portland-cement-bag\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "portland-cement-bag"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Portland Cement for Concrete and General Masonry, Selected for Small Precast Pieces, Sold in Two Project Packs",
@@ -76406,6 +76730,10 @@
     },
     {
       "id": "pvc-solvent-cement-contractor-pack",
+      "deprecated": {
+        "reason": "Same product and photo as \"pvc-solvent-cement\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "pvc-solvent-cement"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "PVC Solvent Cement with Applicator for Pipe Joints, Large Bottle for Repeated Pipe Joints, Sold in Two Project Packs",
@@ -76592,6 +76920,10 @@
     },
     {
       "id": "pvc-solvent-cement-small-repair",
+      "deprecated": {
+        "reason": "Same product and photo as \"pvc-solvent-cement\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "pvc-solvent-cement"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "PVC Solvent Cement with Applicator for Pipe Joints, Small Bottle for Repairs and Fittings, Sold in Two Project Packs",
@@ -76778,6 +77110,10 @@
     },
     {
       "id": "pvc-solvent-cement-standard-install",
+      "deprecated": {
+        "reason": "Same product and photo as \"pvc-solvent-cement\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "pvc-solvent-cement"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "PVC Solvent Cement with Applicator for Pipe Joints, Standard Bottle for Room Installations, Sold in Two Project Packs",
@@ -78868,6 +79204,10 @@
     },
     {
       "id": "ribbed-steel-rebar-eight-mm",
+      "deprecated": {
+        "reason": "Folded into \"steel-rebar-bar\" as a variant (diameter): it has the same photo and only that choice differs.",
+        "replacedBy": "steel-rebar-bar"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Ribbed Steel Reinforcing Bar for Concrete Structures, 8 Millimeter Diameter for Beams and Slabs, Sold in Two Project Packs",
@@ -79066,6 +79406,10 @@
     },
     {
       "id": "ribbed-steel-rebar-five-mm",
+      "deprecated": {
+        "reason": "Folded into \"steel-rebar-bar\" as a variant (diameter): it has the same photo and only that choice differs.",
+        "replacedBy": "steel-rebar-bar"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Ribbed Steel Reinforcing Bar for Concrete Structures, 5 Millimeter Diameter for Light Reinforcement, Sold in Two Project Packs",
@@ -79264,6 +79608,10 @@
     },
     {
       "id": "ribbed-steel-rebar-six-three-mm",
+      "deprecated": {
+        "reason": "Folded into \"steel-rebar-bar\" as a variant (diameter): it has the same photo and only that choice differs.",
+        "replacedBy": "steel-rebar-bar"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Ribbed Steel Reinforcing Bar for Concrete Structures, 6.3 Millimeter Diameter for Residential Reinforcement, Sold in Two Project Packs",
@@ -79462,6 +79810,10 @@
     },
     {
       "id": "ribbed-steel-rebar-ten-mm",
+      "deprecated": {
+        "reason": "Same product and photo as \"steel-rebar-bar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "steel-rebar-bar"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Ribbed Steel Reinforcing Bar for Concrete Structures, 10 Millimeter Diameter for Structural Work, Sold in Two Project Packs",
@@ -79660,6 +80012,10 @@
     },
     {
       "id": "ribbed-steel-rebar-three-meter",
+      "deprecated": {
+        "reason": "Same product and photo as \"steel-rebar-bar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "steel-rebar-bar"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Ribbed Steel Reinforcing Bar for Concrete Structures, 10 Millimeter Diameter in a 10 Foot Bar, Sold in Two Project Packs",
@@ -79858,6 +80214,10 @@
     },
     {
       "id": "ribbed-steel-rebar-twelve-five-mm",
+      "deprecated": {
+        "reason": "Folded into \"steel-rebar-bar\" as a variant (diameter): it has the same photo and only that choice differs.",
+        "replacedBy": "steel-rebar-bar"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Ribbed Steel Reinforcing Bar for Concrete Structures, 12.5 Millimeter Diameter for Higher Loads, Sold in Two Project Packs",
@@ -81386,6 +81746,10 @@
     },
     {
       "id": "sage-fish-scale-compact-format",
+      "deprecated": {
+        "reason": "Folded into \"sage-fish-scale-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "sage-fish-scale-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Sage Green Fish-Scale Ceramic Wall Tile, Compact Format for Detailed Layouts, Sold in Two Project Packs",
@@ -81596,6 +81960,10 @@
     },
     {
       "id": "sage-fish-scale-large-format",
+      "deprecated": {
+        "reason": "Folded into \"sage-fish-scale-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "sage-fish-scale-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Sage Green Fish-Scale Ceramic Wall Tile, Large Format for Fewer Visible Joints, Sold in Two Project Packs",
@@ -81806,6 +82174,10 @@
     },
     {
       "id": "sage-fish-scale-standard-format",
+      "deprecated": {
+        "reason": "Folded into \"sage-fish-scale-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "sage-fish-scale-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Sage Green Fish-Scale Ceramic Wall Tile, Standard Format for Balanced Wall Layouts, Sold in Two Project Packs",
@@ -85684,6 +86056,10 @@
     },
     {
       "id": "self-leveling-compound-renovation",
+      "deprecated": {
+        "reason": "Same product and photo as \"self-leveling-floor-compound\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "self-leveling-floor-compound"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Gray Self-Leveling Compound for Concrete Floors, for Renovation over Prepared Substrates, Sold in Two Project Packs",
@@ -85882,6 +86258,10 @@
     },
     {
       "id": "self-leveling-compound-small-format",
+      "deprecated": {
+        "reason": "Same product and photo as \"self-leveling-floor-compound\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "self-leveling-floor-compound"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Gray Self-Leveling Compound for Concrete Floors, for Small-Format Ceramic Tile, Sold in Two Project Packs",
@@ -86080,6 +86460,10 @@
     },
     {
       "id": "self-leveling-compound-standard-format",
+      "deprecated": {
+        "reason": "Same product and photo as \"self-leveling-floor-compound\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "self-leveling-floor-compound"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Gray Self-Leveling Compound for Concrete Floors, for Standard Residential Tile, Sold in Two Project Packs",
@@ -86278,6 +86662,10 @@
     },
     {
       "id": "self-leveling-compound-wet-area",
+      "deprecated": {
+        "reason": "Same product and photo as \"self-leveling-floor-compound\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "self-leveling-floor-compound"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Gray Self-Leveling Compound for Concrete Floors, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",
@@ -86819,6 +87207,10 @@
     },
     {
       "id": "single-pole-breaker-10-amp",
+      "deprecated": {
+        "reason": "Folded into \"miniature-circuit-breaker\" as a variant (rating): it has the same photo and only that choice differs.",
+        "replacedBy": "miniature-circuit-breaker"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "Single-Pole Miniature Circuit Breaker for DIN Panels, 10 Amp Rating for Residential Circuits, Sold in Two Project Packs",
@@ -87005,6 +87397,10 @@
     },
     {
       "id": "single-pole-breaker-16-amp",
+      "deprecated": {
+        "reason": "Folded into \"miniature-circuit-breaker\" as a variant (rating): it has the same photo and only that choice differs.",
+        "replacedBy": "miniature-circuit-breaker"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "Single-Pole Miniature Circuit Breaker for DIN Panels, 16 Amp Rating for Residential Circuits, Sold in Two Project Packs",
@@ -87191,6 +87587,10 @@
     },
     {
       "id": "single-pole-breaker-20-amp",
+      "deprecated": {
+        "reason": "Same product and photo as \"miniature-circuit-breaker\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "miniature-circuit-breaker"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "Single-Pole Miniature Circuit Breaker for DIN Panels, 20 Amp Rating for Residential Circuits, Sold in Two Project Packs",
@@ -87377,6 +87777,10 @@
     },
     {
       "id": "single-pole-breaker-25-amp",
+      "deprecated": {
+        "reason": "Folded into \"miniature-circuit-breaker\" as a variant (rating): it has the same photo and only that choice differs.",
+        "replacedBy": "miniature-circuit-breaker"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "Single-Pole Miniature Circuit Breaker for DIN Panels, 25 Amp Rating for Residential Circuits, Sold in Two Project Packs",
@@ -87563,6 +87967,10 @@
     },
     {
       "id": "single-pole-breaker-32-amp",
+      "deprecated": {
+        "reason": "Folded into \"miniature-circuit-breaker\" as a variant (rating): it has the same photo and only that choice differs.",
+        "replacedBy": "miniature-circuit-breaker"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "Single-Pole Miniature Circuit Breaker for DIN Panels, 32 Amp Rating for Residential Circuits, Sold in Two Project Packs",
@@ -87749,6 +88157,10 @@
     },
     {
       "id": "single-pole-breaker-40-amp",
+      "deprecated": {
+        "reason": "Folded into \"miniature-circuit-breaker\" as a variant (rating): it has the same photo and only that choice differs.",
+        "replacedBy": "miniature-circuit-breaker"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "Single-Pole Miniature Circuit Breaker for DIN Panels, 40 Amp Rating for Residential Circuits, Sold in Two Project Packs",
@@ -87935,6 +88347,10 @@
     },
     {
       "id": "single-pole-breaker-50-amp",
+      "deprecated": {
+        "reason": "Folded into \"miniature-circuit-breaker\" as a variant (rating): it has the same photo and only that choice differs.",
+        "replacedBy": "miniature-circuit-breaker"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "Single-Pole Miniature Circuit Breaker for DIN Panels, 50 Amp Rating for Residential Circuits, Sold in Two Project Packs",
@@ -89680,6 +90096,10 @@
     },
     {
       "id": "stainless-braided-hose-30-cm",
+      "deprecated": {
+        "reason": "Same product and photo as \"stainless-braided-hose\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "stainless-braided-hose"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "Stainless Braided Flexible Connector for Faucets, 12 Inch Length for Close Connections, Sold in Two Project Packs",
@@ -89866,6 +90286,10 @@
     },
     {
       "id": "stainless-braided-hose-40-cm",
+      "deprecated": {
+        "reason": "Folded into \"stainless-braided-hose\" as a variant (length): it has the same photo and only that choice differs.",
+        "replacedBy": "stainless-braided-hose"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "Stainless Braided Flexible Connector for Faucets, 16 Inch Length for Standard Connections, Sold in Two Project Packs",
@@ -90052,6 +90476,10 @@
     },
     {
       "id": "stainless-braided-hose-60-cm",
+      "deprecated": {
+        "reason": "Folded into \"stainless-braided-hose\" as a variant (length): it has the same photo and only that choice differs.",
+        "replacedBy": "stainless-braided-hose"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "Stainless Braided Flexible Connector for Faucets, 24 Inch Length for Extended Connections, Sold in Two Project Packs",
@@ -93701,6 +94129,10 @@
     },
     {
       "id": "terracotta-brick-slip-compact-format",
+      "deprecated": {
+        "reason": "Folded into \"brick-slip-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "brick-slip-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Matte Terracotta Brick-Slip Wall Tile, Compact Format for Detailed Layouts, Sold in Two Project Packs",
@@ -93911,6 +94343,10 @@
     },
     {
       "id": "terracotta-brick-slip-large-format",
+      "deprecated": {
+        "reason": "Folded into \"brick-slip-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "brick-slip-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Matte Terracotta Brick-Slip Wall Tile, Large Format for Fewer Visible Joints, Sold in Two Project Packs",
@@ -94121,6 +94557,10 @@
     },
     {
       "id": "terracotta-brick-slip-standard-format",
+      "deprecated": {
+        "reason": "Folded into \"brick-slip-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "brick-slip-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Matte Terracotta Brick-Slip Wall Tile, Standard Format for Balanced Wall Layouts, Sold in Two Project Packs",
@@ -94557,6 +94997,10 @@
     },
     {
       "id": "terracotta-flexible-grout-narrow-joints",
+      "deprecated": {
+        "reason": "Same product and photo as \"flexible-terracotta-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "flexible-terracotta-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Flexible Terracotta Cement Grout for Tile Joints, for Narrow 1 to 3 Millimeter Joints, Sold in Two Project Packs",
@@ -94767,6 +95211,10 @@
     },
     {
       "id": "terracotta-flexible-grout-standard-joints",
+      "deprecated": {
+        "reason": "Same product and photo as \"flexible-terracotta-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "flexible-terracotta-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Flexible Terracotta Cement Grout for Tile Joints, for Standard 2 to 5 Millimeter Joints, Sold in Two Project Packs",
@@ -94977,6 +95425,10 @@
     },
     {
       "id": "terracotta-flexible-grout-wet-areas",
+      "deprecated": {
+        "reason": "Same product and photo as \"flexible-terracotta-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "flexible-terracotta-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Flexible Terracotta Cement Grout for Tile Joints, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",
@@ -95433,6 +95885,10 @@
     },
     {
       "id": "terracotta-subway-compact-format",
+      "deprecated": {
+        "reason": "Folded into \"terracotta-subway-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "terracotta-subway-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Matte Terracotta Ceramic Subway Wall Tile, Compact Format for Detailed Layouts, Sold in Two Project Packs",
@@ -95643,6 +96099,10 @@
     },
     {
       "id": "terracotta-subway-large-format",
+      "deprecated": {
+        "reason": "Folded into \"terracotta-subway-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "terracotta-subway-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Matte Terracotta Ceramic Subway Wall Tile, Large Format for Fewer Visible Joints, Sold in Two Project Packs",
@@ -95853,6 +96313,10 @@
     },
     {
       "id": "terracotta-subway-standard-format",
+      "deprecated": {
+        "reason": "Folded into \"terracotta-subway-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+        "replacedBy": "terracotta-subway-wall-tile"
+      },
       "categoryId": "construcao-revestimentos",
       "name": {
         "en": "Matte Terracotta Ceramic Subway Wall Tile, Standard Format for Balanced Wall Layouts, Sold in Two Project Packs",
@@ -97285,6 +97749,10 @@
     },
     {
       "id": "type-one-gray-mortar-renovation",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac1-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac1-tile-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type I Gray Thinset Mortar for Ceramic Tile, for Renovation over Prepared Substrates, Sold in Two Project Packs",
@@ -97471,6 +97939,10 @@
     },
     {
       "id": "type-one-gray-mortar-small-format",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac1-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac1-tile-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type I Gray Thinset Mortar for Ceramic Tile, for Small-Format Ceramic Tile, Sold in Two Project Packs",
@@ -97657,6 +98129,10 @@
     },
     {
       "id": "type-one-gray-mortar-standard-format",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac1-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac1-tile-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type I Gray Thinset Mortar for Ceramic Tile, for Standard Residential Tile, Sold in Two Project Packs",
@@ -97843,6 +98319,10 @@
     },
     {
       "id": "type-one-gray-mortar-wet-area",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac1-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac1-tile-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type I Gray Thinset Mortar for Ceramic Tile, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",
@@ -98029,6 +98509,10 @@
     },
     {
       "id": "type-three-white-mortar-renovation",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac3-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac3-tile-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type III White Thinset Mortar for Porcelain Tile, for Renovation over Prepared Substrates, Sold in Two Project Packs",
@@ -98227,6 +98711,10 @@
     },
     {
       "id": "type-three-white-mortar-small-format",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac3-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac3-tile-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type III White Thinset Mortar for Porcelain Tile, for Small-Format Ceramic Tile, Sold in Two Project Packs",
@@ -98425,6 +98913,10 @@
     },
     {
       "id": "type-three-white-mortar-standard-format",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac3-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac3-tile-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type III White Thinset Mortar for Porcelain Tile, for Standard Residential Tile, Sold in Two Project Packs",
@@ -98623,6 +99115,10 @@
     },
     {
       "id": "type-three-white-mortar-wet-area",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac3-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac3-tile-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type III White Thinset Mortar for Porcelain Tile, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",
@@ -98821,6 +99317,10 @@
     },
     {
       "id": "type-two-gray-mortar-renovation",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac2-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac2-tile-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type II Gray Thinset Mortar for Ceramic Tile, for Renovation over Prepared Substrates, Sold in Two Project Packs",
@@ -99019,6 +99519,10 @@
     },
     {
       "id": "type-two-gray-mortar-small-format",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac2-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac2-tile-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type II Gray Thinset Mortar for Ceramic Tile, for Small-Format Ceramic Tile, Sold in Two Project Packs",
@@ -99217,6 +99721,10 @@
     },
     {
       "id": "type-two-gray-mortar-standard-format",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac2-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac2-tile-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type II Gray Thinset Mortar for Ceramic Tile, for Standard Residential Tile, Sold in Two Project Packs",
@@ -99415,6 +99923,10 @@
     },
     {
       "id": "type-two-gray-mortar-wet-area",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac2-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac2-tile-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type II Gray Thinset Mortar for Ceramic Tile, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",
@@ -99613,6 +100125,10 @@
     },
     {
       "id": "type-two-white-mortar-renovation",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac2-white-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac2-white-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type II White Thinset Mortar for Light Tile, for Renovation over Prepared Substrates, Sold in Two Project Packs",
@@ -99811,6 +100327,10 @@
     },
     {
       "id": "type-two-white-mortar-small-format",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac2-white-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac2-white-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type II White Thinset Mortar for Light Tile, for Small-Format Ceramic Tile, Sold in Two Project Packs",
@@ -100009,6 +100529,10 @@
     },
     {
       "id": "type-two-white-mortar-standard-format",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac2-white-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac2-white-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type II White Thinset Mortar for Light Tile, for Standard Residential Tile, Sold in Two Project Packs",
@@ -100207,6 +100731,10 @@
     },
     {
       "id": "type-two-white-mortar-wet-area",
+      "deprecated": {
+        "reason": "Same product and photo as \"ac2-white-mortar\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "ac2-white-mortar"
+      },
       "categoryId": "construcao-argamassas",
       "name": {
         "en": "Type II White Thinset Mortar for Light Tile, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",
@@ -100945,6 +101473,10 @@
     },
     {
       "id": "washed-construction-sand-base-layer",
+      "deprecated": {
+        "reason": "Same product and photo as \"washed-medium-sand\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "washed-medium-sand"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Washed Construction Sand for Mortar and Concrete, Selected Grade for Paver Base Layers, Sold in Two Project Packs",
@@ -101143,6 +101675,10 @@
     },
     {
       "id": "washed-construction-sand-coarse-concrete",
+      "deprecated": {
+        "reason": "Folded into \"washed-medium-sand\" as a variant (grade): it has the same photo and only that choice differs.",
+        "replacedBy": "washed-medium-sand"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Washed Construction Sand for Mortar and Concrete, Coarse Grade for Small Concrete Batches, Sold in Two Project Packs",
@@ -101341,6 +101877,10 @@
     },
     {
       "id": "washed-construction-sand-fine-mortar",
+      "deprecated": {
+        "reason": "Folded into \"washed-medium-sand\" as a variant (grade): it has the same photo and only that choice differs.",
+        "replacedBy": "washed-medium-sand"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Washed Construction Sand for Mortar and Concrete, Fine Grade for Smooth Masonry Mortar, Sold in Two Project Packs",
@@ -101539,6 +102079,10 @@
     },
     {
       "id": "washed-construction-sand-floor-screed",
+      "deprecated": {
+        "reason": "Same product and photo as \"washed-medium-sand\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "washed-medium-sand"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Washed Construction Sand for Mortar and Concrete, Balanced Grade for Residential Floor Screeds, Sold in Two Project Packs",
@@ -101737,6 +102281,10 @@
     },
     {
       "id": "washed-construction-sand-medium-mortar",
+      "deprecated": {
+        "reason": "Same product and photo as \"washed-medium-sand\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "washed-medium-sand"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Washed Construction Sand for Mortar and Concrete, Medium Grade for General Masonry Mortar, Sold in Two Project Packs",
@@ -101935,6 +102483,10 @@
     },
     {
       "id": "washed-construction-sand-rendering",
+      "deprecated": {
+        "reason": "Same product and photo as \"washed-medium-sand\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "washed-medium-sand"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Washed Construction Sand for Mortar and Concrete, Selected Grade for Wall Rendering, Sold in Two Project Packs",
@@ -102133,6 +102685,10 @@
     },
     {
       "id": "washed-construction-sand-repair-pack",
+      "deprecated": {
+        "reason": "Same product and photo as \"washed-medium-sand\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "washed-medium-sand"
+      },
       "categoryId": "construcao-basicos",
       "name": {
         "en": "Washed Construction Sand for Mortar and Concrete, Compact Pack for Residential Repairs, Sold in Two Project Packs",
@@ -103102,6 +103658,10 @@
     },
     {
       "id": "white-acrylic-grout-narrow-joints",
+      "deprecated": {
+        "reason": "Same product and photo as \"acrylic-white-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "acrylic-white-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Ready-to-Use White Acrylic Grout for Tile Joints, for Narrow 1 to 3 Millimeter Joints, Sold in Two Project Packs",
@@ -103300,6 +103860,10 @@
     },
     {
       "id": "white-acrylic-grout-standard-joints",
+      "deprecated": {
+        "reason": "Same product and photo as \"acrylic-white-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "acrylic-white-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Ready-to-Use White Acrylic Grout for Tile Joints, for Standard 2 to 5 Millimeter Joints, Sold in Two Project Packs",
@@ -103498,6 +104062,10 @@
     },
     {
       "id": "white-acrylic-grout-wet-areas",
+      "deprecated": {
+        "reason": "Same product and photo as \"acrylic-white-grout\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "acrylic-white-grout"
+      },
       "categoryId": "construcao-rejuntes",
       "name": {
         "en": "Ready-to-Use White Acrylic Grout for Tile Joints, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",
@@ -106705,6 +107273,10 @@
     },
     {
       "id": "white-pvc-trap-compact-basin",
+      "deprecated": {
+        "reason": "Folded into \"white-pvc-sink-trap\" as a variant (configuration): it has the same photo and only that choice differs.",
+        "replacedBy": "white-pvc-sink-trap"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "White PVC Bottle Trap for Bathroom and Kitchen Sinks, Compact Configuration for Wall Basins, Sold in Two Project Packs",
@@ -106891,6 +107463,10 @@
     },
     {
       "id": "white-pvc-trap-service-sink",
+      "deprecated": {
+        "reason": "Folded into \"white-pvc-sink-trap\" as a variant (configuration): it has the same photo and only that choice differs.",
+        "replacedBy": "white-pvc-sink-trap"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "White PVC Bottle Trap for Bathroom and Kitchen Sinks, Extended Configuration for Service Sinks, Sold in Two Project Packs",
@@ -107077,6 +107653,10 @@
     },
     {
       "id": "white-pvc-trap-standard-sink",
+      "deprecated": {
+        "reason": "Folded into \"white-pvc-sink-trap\" as a variant (configuration): it has the same photo and only that choice differs.",
+        "replacedBy": "white-pvc-sink-trap"
+      },
       "categoryId": "construcao-hidraulica",
       "name": {
         "en": "White PVC Bottle Trap for Bathroom and Kitchen Sinks, Standard Configuration for Kitchen Sinks, Sold in Two Project Packs",
@@ -107263,6 +107843,10 @@
     },
     {
       "id": "white-rocker-switch-compact-rocker",
+      "deprecated": {
+        "reason": "Folded into \"white-rocker-switch\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-rocker-switch"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "White Rocker Light Switch for Indoor Walls, Compact Rocker for Modular Wall Plates, Sold in Two Project Packs",
@@ -107449,6 +108033,10 @@
     },
     {
       "id": "white-rocker-switch-double",
+      "deprecated": {
+        "reason": "Folded into \"white-rocker-switch\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-rocker-switch"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "White Rocker Light Switch for Indoor Walls, Double Rocker for Two Lighting Circuits, Sold in Two Project Packs",
@@ -107635,6 +108223,10 @@
     },
     {
       "id": "white-rocker-switch-intermediate",
+      "deprecated": {
+        "reason": "Folded into \"white-rocker-switch\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-rocker-switch"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "White Rocker Light Switch for Indoor Walls, Intermediate Rocker for Multiple Control Points, Sold in Two Project Packs",
@@ -107821,6 +108413,10 @@
     },
     {
       "id": "white-rocker-switch-single",
+      "deprecated": {
+        "reason": "Same product and photo as \"white-rocker-switch\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "white-rocker-switch"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "White Rocker Light Switch for Indoor Walls, Single Rocker for One Lighting Circuit, Sold in Two Project Packs",
@@ -108007,6 +108603,10 @@
     },
     {
       "id": "white-rocker-switch-three-way",
+      "deprecated": {
+        "reason": "Folded into \"white-rocker-switch\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-rocker-switch"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "White Rocker Light Switch for Indoor Walls, Three-Way Rocker for Two Control Points, Sold in Two Project Packs",
@@ -108193,6 +108793,10 @@
     },
     {
       "id": "white-rocker-switch-wide-rocker",
+      "deprecated": {
+        "reason": "Folded into \"white-rocker-switch\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-rocker-switch"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "White Rocker Light Switch for Indoor Walls, Wide Rocker for Easy Daily Operation, Sold in Two Project Packs",
@@ -109421,6 +110025,10 @@
     },
     {
       "id": "white-two-piece-toilet-close-coupled",
+      "deprecated": {
+        "reason": "Folded into \"white-two-piece-toilet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-two-piece-toilet"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "White Ceramic Two-Piece Toilet with Closed Seat, Close-Coupled Tank for a Clean Installation, Sold in Two Project Packs",
@@ -109619,6 +110227,10 @@
     },
     {
       "id": "white-two-piece-toilet-compact",
+      "deprecated": {
+        "reason": "Folded into \"white-two-piece-toilet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-two-piece-toilet"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "White Ceramic Two-Piece Toilet with Closed Seat, Compact Bowl for Smaller Bathrooms, Sold in Two Project Packs",
@@ -109817,6 +110429,10 @@
     },
     {
       "id": "white-two-piece-toilet-dual-flush",
+      "deprecated": {
+        "reason": "Folded into \"white-two-piece-toilet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-two-piece-toilet"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "White Ceramic Two-Piece Toilet with Closed Seat, Dual-Flush Tank for Controlled Water Use, Sold in Two Project Packs",
@@ -110015,6 +110631,10 @@
     },
     {
       "id": "white-two-piece-toilet-elongated",
+      "deprecated": {
+        "reason": "Folded into \"white-two-piece-toilet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-two-piece-toilet"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "White Ceramic Two-Piece Toilet with Closed Seat, Elongated Bowl for Added Seating Space, Sold in Two Project Packs",
@@ -110213,6 +110833,10 @@
     },
     {
       "id": "white-two-piece-toilet-raised-seat",
+      "deprecated": {
+        "reason": "Folded into \"white-two-piece-toilet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-two-piece-toilet"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "White Ceramic Two-Piece Toilet with Closed Seat, Raised Seat Height for Easier Use, Sold in Two Project Packs",
@@ -110411,6 +111035,10 @@
     },
     {
       "id": "white-two-piece-toilet-rear-outlet",
+      "deprecated": {
+        "reason": "Folded into \"white-two-piece-toilet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-two-piece-toilet"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "White Ceramic Two-Piece Toilet with Closed Seat, Rear Outlet Configuration for Renovations, Sold in Two Project Packs",
@@ -110609,6 +111237,10 @@
     },
     {
       "id": "white-two-piece-toilet-standard",
+      "deprecated": {
+        "reason": "Folded into \"white-two-piece-toilet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-two-piece-toilet"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "White Ceramic Two-Piece Toilet with Closed Seat, Standard Bowl for Residential Bathrooms, Sold in Two Project Packs",
@@ -111700,6 +112332,10 @@
     },
     {
       "id": "white-wall-basin-fifty-cm",
+      "deprecated": {
+        "reason": "Folded into \"white-wall-basin\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-wall-basin"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "White Ceramic Wall Basin with Faucet Hole, 20 Inch Width for Standard Bathrooms, Sold in Two Project Packs",
@@ -111898,6 +112534,10 @@
     },
     {
       "id": "white-wall-basin-forty-cm",
+      "deprecated": {
+        "reason": "Folded into \"white-wall-basin\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-wall-basin"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "White Ceramic Wall Basin with Faucet Hole, 16 Inch Width for Compact Bathrooms, Sold in Two Project Packs",
@@ -112096,6 +112736,10 @@
     },
     {
       "id": "white-wall-basin-left-shelf",
+      "deprecated": {
+        "reason": "Folded into \"white-wall-basin\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-wall-basin"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "White Ceramic Wall Basin with Faucet Hole, Left Side Shelf for Daily Accessories, Sold in Two Project Packs",
@@ -112294,6 +112938,10 @@
     },
     {
       "id": "white-wall-basin-right-shelf",
+      "deprecated": {
+        "reason": "Folded into \"white-wall-basin\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-wall-basin"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "White Ceramic Wall Basin with Faucet Hole, Right Side Shelf for Daily Accessories, Sold in Two Project Packs",
@@ -112492,6 +113140,10 @@
     },
     {
       "id": "white-wall-basin-single-hole",
+      "deprecated": {
+        "reason": "Folded into \"white-wall-basin\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-wall-basin"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "White Ceramic Wall Basin with Faucet Hole, Single Faucet Hole for Compact Mixers, Sold in Two Project Packs",
@@ -112690,6 +113342,10 @@
     },
     {
       "id": "white-wall-basin-sixty-cm",
+      "deprecated": {
+        "reason": "Folded into \"white-wall-basin\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-wall-basin"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "White Ceramic Wall Basin with Faucet Hole, 24 Inch Width for Larger Counter Areas, Sold in Two Project Packs",
@@ -112888,6 +113544,10 @@
     },
     {
       "id": "white-wall-basin-three-hole",
+      "deprecated": {
+        "reason": "Folded into \"white-wall-basin\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-wall-basin"
+      },
       "categoryId": "construcao-banheiro",
       "name": {
         "en": "White Ceramic Wall Basin with Faucet Hole, Three Faucet Holes for Widespread Sets, Sold in Two Project Packs",
@@ -113967,6 +114627,10 @@
     },
     {
       "id": "white-wall-outlet-double-module",
+      "deprecated": {
+        "reason": "Folded into \"white-duplex-outlet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-duplex-outlet"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "White Wall Outlet for Residential Branch Circuits, Double Module for Shared Wall Boxes, Sold in Two Project Packs",
@@ -114153,6 +114817,10 @@
     },
     {
       "id": "white-wall-outlet-horizontal",
+      "deprecated": {
+        "reason": "Folded into \"white-duplex-outlet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-duplex-outlet"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "White Wall Outlet for Residential Branch Circuits, Horizontal Plate for Standard Installations, Sold in Two Project Packs",
@@ -114339,6 +115007,10 @@
     },
     {
       "id": "white-wall-outlet-single-module",
+      "deprecated": {
+        "reason": "Folded into \"white-duplex-outlet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-duplex-outlet"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "White Wall Outlet for Residential Branch Circuits, Single Module for Compact Wall Boxes, Sold in Two Project Packs",
@@ -114525,6 +115197,10 @@
     },
     {
       "id": "white-wall-outlet-ten-amp",
+      "deprecated": {
+        "reason": "Same product and photo as \"white-duplex-outlet\": the difference was only its intended use, or something that product already offers.",
+        "replacedBy": "white-duplex-outlet"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "White Wall Outlet for Residential Branch Circuits, 10 Amp Configuration for General Use, Sold in Two Project Packs",
@@ -114711,6 +115387,10 @@
     },
     {
       "id": "white-wall-outlet-twenty-amp",
+      "deprecated": {
+        "reason": "Folded into \"white-duplex-outlet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-duplex-outlet"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "White Wall Outlet for Residential Branch Circuits, 20 Amp Configuration for Dedicated Loads, Sold in Two Project Packs",
@@ -114897,6 +115577,10 @@
     },
     {
       "id": "white-wall-outlet-vertical",
+      "deprecated": {
+        "reason": "Folded into \"white-duplex-outlet\" as a variant (model): it has the same photo and only that choice differs.",
+        "replacedBy": "white-duplex-outlet"
+      },
       "categoryId": "construcao-eletrica",
       "name": {
         "en": "White Wall Outlet for Residential Branch Circuits, Vertical Plate for Narrow Installations, Sold in Two Project Packs",
@@ -115083,6 +115767,10 @@
     },
     {
       "id": "white-wall-primer-high-coverage",
+      "deprecated": {
+        "reason": "Folded into \"acrylic-wall-primer\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "acrylic-wall-primer"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "White Acrylic Wall Primer for Masonry and Drywall, High Coverage for Renovation Coats, Sold in Two Project Packs",
@@ -115321,6 +116009,10 @@
     },
     {
       "id": "white-wall-primer-standard-coverage",
+      "deprecated": {
+        "reason": "Folded into \"acrylic-wall-primer\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "acrylic-wall-primer"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "White Acrylic Wall Primer for Masonry and Drywall, Standard Coverage for Prepared Surfaces, Sold in Two Project Packs",
@@ -115559,6 +116251,10 @@
     },
     {
       "id": "white-wall-primer-washable-finish",
+      "deprecated": {
+        "reason": "Folded into \"acrylic-wall-primer\" as a variant (type): it has the same photo and only that choice differs.",
+        "replacedBy": "acrylic-wall-primer"
+      },
       "categoryId": "construcao-tintas",
       "name": {
         "en": "White Acrylic Wall Primer for Masonry and Drywall, Washable Finish for Busy Residential Rooms, Sold in Two Project Packs",

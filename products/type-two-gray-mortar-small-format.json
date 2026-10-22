@@ -1,5 +1,9 @@
 {
   "id": "type-two-gray-mortar-small-format",
+  "deprecated": {
+    "reason": "Same product and photo as \"ac2-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "ac2-tile-mortar"
+  },
   "categoryId": "construcao-argamassas",
   "name": {
     "en": "Type II Gray Thinset Mortar for Ceramic Tile, for Small-Format Ceramic Tile, Sold in Two Project Packs",

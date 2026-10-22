@@ -1,5 +1,9 @@
 {
   "id": "chrome-rain-shower-wall-arm",
+  "deprecated": {
+    "reason": "Folded into \"chrome-rain-shower-head\" as a variant (model): it has the same photo and only that choice differs.",
+    "replacedBy": "chrome-rain-shower-head"
+  },
   "categoryId": "construcao-banheiro",
   "name": {
     "en": "Round Chrome Rain Shower Head for Bathrooms, Wall Arm Mount for Common Renovations, Sold in Two Project Packs",

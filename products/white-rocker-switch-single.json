@@ -1,5 +1,9 @@
 {
   "id": "white-rocker-switch-single",
+  "deprecated": {
+    "reason": "Same product and photo as \"white-rocker-switch\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "white-rocker-switch"
+  },
   "categoryId": "construcao-eletrica",
   "name": {
     "en": "White Rocker Light Switch for Indoor Walls, Single Rocker for One Lighting Circuit, Sold in Two Project Packs",

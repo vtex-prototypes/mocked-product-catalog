@@ -1,5 +1,9 @@
 {
   "id": "chrome-rain-shower-twenty-cm",
+  "deprecated": {
+    "reason": "Same product and photo as \"chrome-rain-shower-head\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "chrome-rain-shower-head"
+  },
   "categoryId": "construcao-banheiro",
   "name": {
     "en": "Round Chrome Rain Shower Head for Bathrooms, 8 Inch Face for Standard Shower Stalls, Sold in Two Project Packs",

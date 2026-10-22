@@ -1,5 +1,9 @@
 {
   "id": "stainless-braided-hose-30-cm",
+  "deprecated": {
+    "reason": "Same product and photo as \"stainless-braided-hose\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "stainless-braided-hose"
+  },
   "categoryId": "construcao-hidraulica",
   "name": {
     "en": "Stainless Braided Flexible Connector for Faucets, 12 Inch Length for Close Connections, Sold in Two Project Packs",

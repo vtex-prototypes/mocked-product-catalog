@@ -1,5 +1,9 @@
 {
   "id": "black-subway-compact-format",
+  "deprecated": {
+    "reason": "Folded into \"black-subway-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+    "replacedBy": "black-subway-wall-tile"
+  },
   "categoryId": "construcao-revestimentos",
   "name": {
     "en": "Glossy Black Ceramic Subway Wall Tile, Compact Format for Detailed Layouts, Sold in Two Project Packs",

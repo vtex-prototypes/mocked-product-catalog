@@ -1,5 +1,9 @@
 {
   "id": "ceiling-white-paint-high-coverage",
+  "deprecated": {
+    "reason": "Folded into \"ceiling-white-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+    "replacedBy": "ceiling-white-acrylic-paint"
+  },
   "categoryId": "construcao-tintas",
   "name": {
     "en": "Flat White Acrylic Paint for Indoor Ceilings, High Coverage for Renovation Coats, Sold in Two Project Packs",

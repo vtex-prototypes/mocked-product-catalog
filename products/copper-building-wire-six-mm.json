@@ -1,5 +1,9 @@
 {
   "id": "copper-building-wire-six-mm",
+  "deprecated": {
+    "reason": "Folded into \"copper-building-wire\" as a variant (gauge): it has the same photo and only that choice differs.",
+    "replacedBy": "copper-building-wire"
+  },
   "categoryId": "construcao-eletrica",
   "name": {
     "en": "Copper Building Wire for Indoor Branch Circuits, 6 Square Millimeter Gauge for Higher Loads, Sold in Two Project Packs",

@@ -1,5 +1,9 @@
 {
   "id": "white-acrylic-grout-standard-joints",
+  "deprecated": {
+    "reason": "Same product and photo as \"acrylic-white-grout\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "acrylic-white-grout"
+  },
   "categoryId": "construcao-rejuntes",
   "name": {
     "en": "Ready-to-Use White Acrylic Grout for Tile Joints, for Standard 2 to 5 Millimeter Joints, Sold in Two Project Packs",

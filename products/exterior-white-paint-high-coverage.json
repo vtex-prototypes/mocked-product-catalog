@@ -1,5 +1,9 @@
 {
   "id": "exterior-white-paint-high-coverage",
+  "deprecated": {
+    "reason": "Folded into \"exterior-white-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+    "replacedBy": "exterior-white-acrylic-paint"
+  },
   "categoryId": "construcao-tintas",
   "name": {
     "en": "White Acrylic Masonry Paint for Exterior Walls, High Coverage for Renovation Coats, Sold in Two Project Packs",

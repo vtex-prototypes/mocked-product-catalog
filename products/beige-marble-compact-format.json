@@ -1,5 +1,9 @@
 {
   "id": "beige-marble-compact-format",
+  "deprecated": {
+    "reason": "Folded into \"beige-marble-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+    "replacedBy": "beige-marble-wall-tile"
+  },
   "categoryId": "construcao-revestimentos",
   "name": {
     "en": "Beige Marble-Look Porcelain Wall Tile, Compact Format for Detailed Layouts, Sold in Two Project Packs",

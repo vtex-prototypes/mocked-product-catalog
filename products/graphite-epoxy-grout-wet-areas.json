@@ -1,5 +1,9 @@
 {
   "id": "graphite-epoxy-grout-wet-areas",
+  "deprecated": {
+    "reason": "Same product and photo as \"epoxy-graphite-grout\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "epoxy-graphite-grout"
+  },
   "categoryId": "construcao-rejuntes",
   "name": {
     "en": "Graphite Epoxy Grout for Stain-Resistant Joints, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",

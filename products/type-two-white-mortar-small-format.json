@@ -1,5 +1,9 @@
 {
   "id": "type-two-white-mortar-small-format",
+  "deprecated": {
+    "reason": "Same product and photo as \"ac2-white-mortar\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "ac2-white-mortar"
+  },
   "categoryId": "construcao-argamassas",
   "name": {
     "en": "Type II White Thinset Mortar for Light Tile, for Small-Format Ceramic Tile, Sold in Two Project Packs",

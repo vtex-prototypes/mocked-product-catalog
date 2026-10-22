@@ -1,5 +1,9 @@
 {
   "id": "white-wall-basin-single-hole",
+  "deprecated": {
+    "reason": "Folded into \"white-wall-basin\" as a variant (model): it has the same photo and only that choice differs.",
+    "replacedBy": "white-wall-basin"
+  },
   "categoryId": "construcao-banheiro",
   "name": {
     "en": "White Ceramic Wall Basin with Faucet Hole, Single Faucet Hole for Compact Mixers, Sold in Two Project Packs",

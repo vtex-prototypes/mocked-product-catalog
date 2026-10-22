@@ -1,5 +1,9 @@
 {
   "id": "type-three-white-mortar-wet-area",
+  "deprecated": {
+    "reason": "Same product and photo as \"ac3-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "ac3-tile-mortar"
+  },
   "categoryId": "construcao-argamassas",
   "name": {
     "en": "Type III White Thinset Mortar for Porcelain Tile, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",

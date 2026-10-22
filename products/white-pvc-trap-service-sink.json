@@ -1,5 +1,9 @@
 {
   "id": "white-pvc-trap-service-sink",
+  "deprecated": {
+    "reason": "Folded into \"white-pvc-sink-trap\" as a variant (configuration): it has the same photo and only that choice differs.",
+    "replacedBy": "white-pvc-sink-trap"
+  },
   "categoryId": "construcao-hidraulica",
   "name": {
     "en": "White PVC Bottle Trap for Bathroom and Kitchen Sinks, Extended Configuration for Service Sinks, Sold in Two Project Packs",

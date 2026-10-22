@@ -1,5 +1,9 @@
 {
   "id": "terracotta-brick-slip-compact-format",
+  "deprecated": {
+    "reason": "Folded into \"brick-slip-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+    "replacedBy": "brick-slip-wall-tile"
+  },
   "categoryId": "construcao-revestimentos",
   "name": {
     "en": "Matte Terracotta Brick-Slip Wall Tile, Compact Format for Detailed Layouts, Sold in Two Project Packs",
