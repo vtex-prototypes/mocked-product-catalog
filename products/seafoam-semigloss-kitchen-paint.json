@@ -1,0 +1,182 @@
+{
+  "id": "seafoam-semigloss-kitchen-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Seafoam Green Semi-Gloss Acrylic Paint for Kitchens, Pale Aqua Green that Wipes Clean, Sold by the Bucket",
+    "pt-BR": "Tinta Acrílica Semibrilho Verde Água para Cozinha, Tom Claro Fácil de Limpar, Vendida por Balde"
+  },
+  "description": {
+    "en": "A pale seafoam acrylic with a semi-gloss sheen for kitchen walls near the stove and sink. Grease and splashes come off with a damp sponge. The listed price is the 3.6 liter bucket.",
+    "pt-BR": "Acrílica verde água clarinha com semibrilho para paredes de cozinha perto do fogão e da pia. Gordura e respingos saem com esponja úmida. O preço anunciado é do balde de 3,6 litros."
+  },
+  "price": {
+    "BRL": 159.9,
+    "USD": 56
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "seafoam green paint",
+      "kitchen paint",
+      "semi-gloss wall paint"
+    ],
+    "pt-BR": [
+      "tinta verde água",
+      "tinta para cozinha",
+      "tinta semibrilho"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "seafoam-green-3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "seafoam-green",
+          "name": {
+            "en": "Seafoam green",
+            "pt-BR": "Verde água"
+          },
+          "hex": "#A8D5C8"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "seafoam-green-3-6-l",
+      "sku": "CON-SEAFOAM-SEMIGLOSS-KITCHEN-PAINT-3-6-L",
+      "options": {
+        "color": "seafoam-green",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 159.9,
+        "USD": 56
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White bucket with a seafoam green kitchen printed around it",
+            "pt-BR": "Balde branco com uma cozinha verde água estampada em volta"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Kitchen painted pale seafoam green",
+            "pt-BR": "Cozinha pintada de verde água claro"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seafoam-green-18-l",
+      "sku": "CON-SEAFOAM-SEMIGLOSS-KITCHEN-PAINT-18-L",
+      "options": {
+        "color": "seafoam-green",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 559,
+        "USD": 189
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White bucket with a seafoam green kitchen printed around it",
+            "pt-BR": "Balde branco com uma cozinha verde água estampada em volta"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Kitchen painted pale seafoam green",
+            "pt-BR": "Cozinha pintada de verde água claro"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

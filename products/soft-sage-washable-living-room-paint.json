@@ -1,0 +1,182 @@
+{
+  "id": "soft-sage-washable-living-room-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Soft Sage Washable Acrylic Wall Paint for Living Rooms, Low-Sheen Matte, Sold by the Bucket",
+    "pt-BR": "Tinta Acrílica Lavável Verde Sálvia Suave para Sala de Estar, Fosco Acetinado, Vendida por Balde"
+  },
+  "description": {
+    "en": "A soft sage acrylic for living-room walls that get touched and bumped. The low-sheen matte wipes clean without turning glossy. The listed price is the 3.6 liter bucket.",
+    "pt-BR": "Acrílica verde sálvia suave para paredes de sala que levam esbarrão e mão. O fosco acetinado aceita pano úmido sem ganhar brilho. O preço anunciado é do balde de 3,6 litros."
+  },
+  "price": {
+    "BRL": 169.9,
+    "USD": 49
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "sage green paint",
+      "washable wall paint",
+      "living room paint"
+    ],
+    "pt-BR": [
+      "tinta verde sálvia",
+      "tinta lavável",
+      "tinta para sala"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "soft-sage-3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "soft-sage",
+          "name": {
+            "en": "Soft sage",
+            "pt-BR": "Sálvia suave"
+          },
+          "hex": "#9CAF94"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "soft-sage-3-6-l",
+      "sku": "CON-SOFT-SAGE-WASHABLE-LIVING-ROOM-PAINT-3-6-L",
+      "options": {
+        "color": "soft-sage",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 169.9,
+        "USD": 49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Blue bucket of soft sage paint with a painted living room on the label",
+            "pt-BR": "Balde azul de tinta verde sálvia com uma sala pintada no rótulo"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Living room painted soft sage green",
+            "pt-BR": "Sala de estar pintada de verde sálvia suave"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "soft-sage-18-l",
+      "sku": "CON-SOFT-SAGE-WASHABLE-LIVING-ROOM-PAINT-18-L",
+      "options": {
+        "color": "soft-sage",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 589,
+        "USD": 179
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Blue bucket of soft sage paint with a painted living room on the label",
+            "pt-BR": "Balde azul de tinta verde sálvia com uma sala pintada no rótulo"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Living room painted soft sage green",
+            "pt-BR": "Sala de estar pintada de verde sálvia suave"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "celadon-low-odor-nursery-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Celadon Low-Odor Acrylic Wall Paint for Bedrooms and Nurseries, Soft Chalky Matte, Sold by the Tin",
+    "pt-BR": "Tinta Acrílica de Baixo Odor Verde Celadon para Quarto e Quarto de Bebê, Fosco Suave, Vendida por Lata"
+  },
+  "description": {
+    "en": "A pale celadon acrylic with a soft chalky matte for bedrooms and nurseries. It is low odor, so the room is ready to sleep in sooner. The listed price is the 900 milliliter tin, wrapped in kraft paper.",
+    "pt-BR": "Acrílica verde celadon clarinha, com fosco suave e levemente calcário, para quartos e quarto de bebê. Tem baixo odor, então o cômodo fica pronto para dormir mais cedo. O preço anunciado é da lata de 900 mililitros, embrulhada em papel kraft."
+  },
+  "price": {
+    "BRL": 99.9,
+    "USD": 34
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "celadon green paint",
+      "low odor paint",
+      "nursery paint"
+    ],
+    "pt-BR": [
+      "tinta verde celadon",
+      "tinta de baixo odor",
+      "tinta para quarto de bebê"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "celadon-900-ml",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "celadon",
+          "name": {
+            "en": "Celadon",
+            "pt-BR": "Celadon"
+          },
+          "hex": "#B5C7B6"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "900-ml",
+          "name": {
+            "en": "900 ml",
+            "pt-BR": "900 ml"
+          }
+        },
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "celadon-900-ml",
+      "sku": "CON-CELADON-LOW-ODOR-NURSERY-PAINT-900-ML",
+      "options": {
+        "color": "celadon",
+        "volume": "900-ml"
+      },
+      "price": {
+        "BRL": 99.9,
+        "USD": 34
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Kraft-wrapped tin with a celadon paint swatch and twine",
+            "pt-BR": "Lata embrulhada em kraft com amostra de tinta celadon e barbante"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Nursery painted pale celadon green",
+            "pt-BR": "Quarto de bebê pintado de verde celadon claro"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "celadon-3-6-l",
+      "sku": "CON-CELADON-LOW-ODOR-NURSERY-PAINT-3-6-L",
+      "options": {
+        "color": "celadon",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 289,
+        "USD": 88
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Kraft-wrapped tin with a celadon paint swatch and twine",
+            "pt-BR": "Lata embrulhada em kraft com amostra de tinta celadon e barbante"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Nursery painted pale celadon green",
+            "pt-BR": "Quarto de bebê pintado de verde celadon claro"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

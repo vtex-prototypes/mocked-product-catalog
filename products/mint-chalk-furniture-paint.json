@@ -1,0 +1,182 @@
+{
+  "id": "mint-chalk-furniture-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Mint Green Chalk Paint for Furniture and Wood, Chalky Matte with No Sanding Needed, Sold by the Jar",
+    "pt-BR": "Tinta Giz Verde Menta para Móveis e Madeira, Fosco Calcário sem Precisar Lixar, Vendida por Pote"
+  },
+  "description": {
+    "en": "A chalky mint green paint for dressers, chairs and frames. It grips varnished wood without sanding and distresses easily on the edges. The listed price is the 500 milliliter glass jar.",
+    "pt-BR": "Tinta giz verde menta para cômodas, cadeiras e molduras. Adere à madeira envernizada sem lixar e desgasta fácil nas bordas para o efeito envelhecido. O preço anunciado é do pote de vidro de 500 mililitros."
+  },
+  "price": {
+    "BRL": 69.9,
+    "USD": 24
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "mint chalk paint",
+      "furniture paint",
+      "green chalk paint"
+    ],
+    "pt-BR": [
+      "tinta giz verde menta",
+      "tinta para móveis",
+      "tinta giz"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "mint-chalk-500-ml",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "mint-chalk",
+          "name": {
+            "en": "Mint chalk",
+            "pt-BR": "Menta giz"
+          },
+          "hex": "#A9D3BE"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "500-ml",
+          "name": {
+            "en": "500 ml",
+            "pt-BR": "500 ml"
+          }
+        },
+        {
+          "id": "1-l",
+          "name": {
+            "en": "1 L",
+            "pt-BR": "1 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "mint-chalk-500-ml",
+      "sku": "CON-MINT-CHALK-FURNITURE-PAINT-500-ML",
+      "options": {
+        "color": "mint-chalk",
+        "volume": "500-ml"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 24
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glass jar of chalky mint green paint",
+            "pt-BR": "Pote de vidro com tinta giz verde menta"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Dresser painted chalky mint green",
+            "pt-BR": "Cômoda pintada com tinta giz verde menta"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mint-chalk-1-l",
+      "sku": "CON-MINT-CHALK-FURNITURE-PAINT-1-L",
+      "options": {
+        "color": "mint-chalk",
+        "volume": "1-l"
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 38
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glass jar of chalky mint green paint",
+            "pt-BR": "Pote de vidro com tinta giz verde menta"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Dresser painted chalky mint green",
+            "pt-BR": "Cômoda pintada com tinta giz verde menta"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

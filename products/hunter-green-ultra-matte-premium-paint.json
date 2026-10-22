@@ -1,0 +1,182 @@
+{
+  "id": "hunter-green-ultra-matte-premium-paint",
+  "categoryId": "construcao-tintas",
+  "name": {
+    "en": "Hunter Green Ultra-Matte Premium Acrylic Wall Paint, Velvety Deep Green for Studies, Sold by the Tin",
+    "pt-BR": "Tinta Acrílica Premium Ultrafosca Verde Caçador, Verde Profundo Aveludado para Escritório, Vendida por Lata"
+  },
+  "description": {
+    "en": "A deep hunter green with a velvety ultra-matte finish that hides wall flaws and swallows glare. It comes in a black tin with a brass lid. The listed price is the 900 milliliter tin.",
+    "pt-BR": "Verde caçador profundo com acabamento ultrafosco aveludado, que disfarça imperfeições e não reflete luz. Vem numa lata preta com tampa dourada. O preço anunciado é da lata de 900 mililitros."
+  },
+  "price": {
+    "BRL": 119.9,
+    "USD": 38
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "hunter green paint",
+      "ultra matte paint",
+      "dark green wall paint"
+    ],
+    "pt-BR": [
+      "tinta verde caçador",
+      "tinta ultrafosca",
+      "tinta verde escuro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "hunter-green-900-ml",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "hunter-green",
+          "name": {
+            "en": "Hunter green",
+            "pt-BR": "Verde caçador"
+          },
+          "hex": "#2F4A3A"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "900-ml",
+          "name": {
+            "en": "900 ml",
+            "pt-BR": "900 ml"
+          }
+        },
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "hunter-green-900-ml",
+      "sku": "CON-HUNTER-GREEN-ULTRA-MATTE-PREMIUM-PAINT-900-ML",
+      "options": {
+        "color": "hunter-green",
+        "volume": "900-ml"
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 38
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black tin with a brass lid and a hunter green band",
+            "pt-BR": "Lata preta com tampa dourada e uma faixa verde caçador"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Study painted deep hunter green",
+            "pt-BR": "Escritório pintado de verde caçador profundo"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hunter-green-3-6-l",
+      "sku": "CON-HUNTER-GREEN-ULTRA-MATTE-PREMIUM-PAINT-3-6-L",
+      "options": {
+        "color": "hunter-green",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 329,
+        "USD": 96
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black tin with a brass lid and a hunter green band",
+            "pt-BR": "Lata preta com tampa dourada e uma faixa verde caçador"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Study painted deep hunter green",
+            "pt-BR": "Escritório pintado de verde caçador profundo"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
