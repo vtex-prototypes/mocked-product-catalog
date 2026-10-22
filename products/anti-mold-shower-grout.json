@@ -1,0 +1,106 @@
+{
+  "id": "anti-mold-shower-grout",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Anti-Mold White Cement Grout for Shower, Bathroom and Kitchen Joints, Sold by the Tub",
+    "pt-BR": "Rejunte Cimentício Branco Antimofo para Juntas de Box, Banheiro e Cozinha, Vendido por Pote"
+  },
+  "description": {
+    "en": "A white grout with a mold inhibitor mixed in, so shower and backsplash joints stay white longer in steam and splashes. For indoor wet areas.",
+    "pt-BR": "Rejunte branco com aditivo antimofo, para as juntas do box e da parede da pia continuarem brancas por mais tempo com vapor e respingos. Para áreas molhadas internas."
+  },
+  "price": {
+    "BRL": 24.9,
+    "USD": 11.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "anti-mold grout",
+      "for bathroom",
+      "white"
+    ],
+    "pt-BR": [
+      "rejunte antimofo",
+      "para banheiro",
+      "branco"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "white-1kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F1F0EB"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "1kg",
+          "name": {
+            "en": "1 kg",
+            "pt-BR": "1 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-1kg",
+      "sku": "CON-GROUT-ANTIMOLD",
+      "options": {
+        "color": "white",
+        "weight": "1kg"
+      },
+      "price": {
+        "BRL": 24.9,
+        "USD": 11.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Teal grout tub with a water drop and shield",
+            "pt-BR": "Pote de rejunte verde-petróleo com gota e escudo"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

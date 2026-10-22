@@ -1,0 +1,110 @@
+{
+  "id": "fast-setting-floor-grout",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Fast-Setting Charcoal Floor Grout You Can Walk on in Three Hours, for Shops and Busy Rooms, Sold by the Tub",
+    "pt-BR": "Rejunte de Secagem Rápida Grafite Escuro para Pisos, Liberado para Tráfego em Três Horas, Vendido por Pote"
+  },
+  "description": {
+    "en": "Ready for foot traffic about three hours after grouting, so a shop or hallway reopens the same day. Work in small batches: it sets fast in the bucket too.",
+    "pt-BR": "Liberado para pisar cerca de três horas depois de rejuntar, então a loja ou o corredor reabre no mesmo dia. Prepare pouco de cada vez: ele também endurece rápido no balde."
+  },
+  "price": {
+    "BRL": 38.9,
+    "USD": 14.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "fast setting grout",
+      "for floors",
+      "dark"
+    ],
+    "pt-BR": [
+      "rejunte de secagem rápida",
+      "para pisos",
+      "escuro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "charcoal-2kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "charcoal",
+          "name": {
+            "en": "Charcoal",
+            "pt-BR": "Grafite escuro"
+          },
+          "hex": "#585856"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "2kg",
+          "name": {
+            "en": "4.4 lb",
+            "pt-BR": "2 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "charcoal-2kg",
+      "sku": "CON-GROUT-FAST",
+      "options": {
+        "color": "charcoal",
+        "weight": "2kg"
+      },
+      "price": {
+        "BRL": 38.9,
+        "USD": 14.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Yellow grout tub with a footprint and a clock",
+            "pt-BR": "Pote de rejunte amarelo com uma pegada e um relógio"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

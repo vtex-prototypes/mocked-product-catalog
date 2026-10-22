@@ -1,0 +1,110 @@
+{
+  "id": "sanded-wide-joint-grout",
+  "categoryId": "construcao-rejuntes",
+  "name": {
+    "en": "Sanded Cement Grout for Wide 1/8 to 1/2 Inch Joints on Patios, Stone and Rustic Tile, Sold by the Bag",
+    "pt-BR": "Rejunte Cimentício com Areia para Juntas Largas de 3 a 12 mm em Pátios, Pedras e Pisos Rústicos, Vendido por Saco"
+  },
+  "description": {
+    "en": "Fine sand in the mix keeps wide joints from shrinking and cracking. For patio pavers, natural stone and rustic tile laid with wide gaps.",
+    "pt-BR": "A areia fina na mistura evita que juntas largas retraiam e trinquem. Para pisos de pátio, pedras naturais e pisos rústicos assentados com junta larga."
+  },
+  "price": {
+    "BRL": 32.9,
+    "USD": 12.5
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "sanded grout",
+      "wide joints",
+      "for floors"
+    ],
+    "pt-BR": [
+      "rejunte com areia",
+      "juntas largas",
+      "para pisos"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "sand-10kg",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "sand",
+          "name": {
+            "en": "Sand",
+            "pt-BR": "Areia"
+          },
+          "hex": "#C8B597"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "10kg",
+          "name": {
+            "en": "22 lb",
+            "pt-BR": "10 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "sand-10kg",
+      "sku": "CON-GROUT-SANDED",
+      "options": {
+        "color": "sand",
+        "weight": "10kg"
+      },
+      "price": {
+        "BRL": 32.9,
+        "USD": 12.5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Terracotta grout bag with a white tile grid",
+            "pt-BR": "Saco de rejunte terracota com uma grade de peças branca"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
