@@ -81,6 +81,50 @@
           }
         }
       ]
+    },
+    {
+      "id": "diameter",
+      "name": {
+        "en": "Diameter",
+        "pt-BR": "Diâmetro"
+      },
+      "values": [
+        {
+          "id": "10-millimeter-diameter",
+          "name": {
+            "en": "10 Millimeter Diameter",
+            "pt-BR": "Diâmetro de 10 Milímetros"
+          }
+        },
+        {
+          "id": "8-millimeter-diameter",
+          "name": {
+            "en": "8 Millimeter Diameter",
+            "pt-BR": "Diâmetro de 8 Milímetros"
+          }
+        },
+        {
+          "id": "5-millimeter-diameter",
+          "name": {
+            "en": "5 Millimeter Diameter",
+            "pt-BR": "Diâmetro de 5 Milímetros"
+          }
+        },
+        {
+          "id": "6-3-millimeter-diameter",
+          "name": {
+            "en": "6.3 Millimeter Diameter",
+            "pt-BR": "Diâmetro de 6,3 Milímetros"
+          }
+        },
+        {
+          "id": "12-5-millimeter-diameter",
+          "name": {
+            "en": "12.5 Millimeter Diameter",
+            "pt-BR": "Diâmetro de 12,5 Milímetros"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -89,7 +133,8 @@
       "sku": "CON-STEEL-REBAR-BAR-ONE",
       "options": {
         "color": "steel",
-        "length": "one"
+        "length": "one",
+        "diameter": "10-millimeter-diameter"
       },
       "price": {
         "BRL": 32.9,
@@ -124,11 +169,300 @@
       "sku": "CON-STEEL-REBAR-BAR-SIX",
       "options": {
         "color": "steel",
-        "length": "six"
+        "length": "six",
+        "diameter": "10-millimeter-diameter"
       },
       "price": {
         "BRL": 179,
         "USD": 64
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ribbed steel rebar bar, front view",
+            "pt-BR": "Vergalhão de aço nervurado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "steel-white.png",
+            "#f5f5f5": "steel-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Deformed Steel Rebar, 3/8 Inch Diameter and 10 Feet Long, for Concrete, Sold by the Bar",
+            "pt-BR": "Detalhe aproximado de Vergalhão de Aço Nervurado de 10 mm com 3 m de Comprimento, para Concreto, Vendido por Barra"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8-millimeter-diameter-one",
+      "sku": "CON-STEEL-REBAR-BAR-ONE-8MILLIMETERDIAMETER",
+      "options": {
+        "color": "steel",
+        "length": "one",
+        "diameter": "8-millimeter-diameter"
+      },
+      "price": {
+        "BRL": 30.93,
+        "USD": 11.28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ribbed steel rebar bar, front view",
+            "pt-BR": "Vergalhão de aço nervurado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "steel-white.png",
+            "#f5f5f5": "steel-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Deformed Steel Rebar, 3/8 Inch Diameter and 10 Feet Long, for Concrete, Sold by the Bar",
+            "pt-BR": "Detalhe aproximado de Vergalhão de Aço Nervurado de 10 mm com 3 m de Comprimento, para Concreto, Vendido por Barra"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8-millimeter-diameter-six",
+      "sku": "CON-STEEL-REBAR-BAR-SIX-8MILLIMETERDIAMETER",
+      "options": {
+        "color": "steel",
+        "length": "six",
+        "diameter": "8-millimeter-diameter"
+      },
+      "price": {
+        "BRL": 181.72,
+        "USD": 64.97
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ribbed steel rebar bar, front view",
+            "pt-BR": "Vergalhão de aço nervurado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "steel-white.png",
+            "#f5f5f5": "steel-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Deformed Steel Rebar, 3/8 Inch Diameter and 10 Feet Long, for Concrete, Sold by the Bar",
+            "pt-BR": "Detalhe aproximado de Vergalhão de Aço Nervurado de 10 mm com 3 m de Comprimento, para Concreto, Vendido por Barra"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5-millimeter-diameter-one",
+      "sku": "CON-STEEL-REBAR-BAR-ONE-5MILLIMETERDIAMETER",
+      "options": {
+        "color": "steel",
+        "length": "one",
+        "diameter": "5-millimeter-diameter"
+      },
+      "price": {
+        "BRL": 40.8,
+        "USD": 14.88
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ribbed steel rebar bar, front view",
+            "pt-BR": "Vergalhão de aço nervurado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "steel-white.png",
+            "#f5f5f5": "steel-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Deformed Steel Rebar, 3/8 Inch Diameter and 10 Feet Long, for Concrete, Sold by the Bar",
+            "pt-BR": "Detalhe aproximado de Vergalhão de Aço Nervurado de 10 mm com 3 m de Comprimento, para Concreto, Vendido por Barra"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5-millimeter-diameter-six",
+      "sku": "CON-STEEL-REBAR-BAR-SIX-5MILLIMETERDIAMETER",
+      "options": {
+        "color": "steel",
+        "length": "six",
+        "diameter": "5-millimeter-diameter"
+      },
+      "price": {
+        "BRL": 239.72,
+        "USD": 85.71
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ribbed steel rebar bar, front view",
+            "pt-BR": "Vergalhão de aço nervurado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "steel-white.png",
+            "#f5f5f5": "steel-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Deformed Steel Rebar, 3/8 Inch Diameter and 10 Feet Long, for Concrete, Sold by the Bar",
+            "pt-BR": "Detalhe aproximado de Vergalhão de Aço Nervurado de 10 mm com 3 m de Comprimento, para Concreto, Vendido por Barra"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6-3-millimeter-diameter-one",
+      "sku": "CON-STEEL-REBAR-BAR-ONE-63MILLIMETERDIAMETER",
+      "options": {
+        "color": "steel",
+        "length": "one",
+        "diameter": "6-3-millimeter-diameter"
+      },
+      "price": {
+        "BRL": 28.95,
+        "USD": 10.56
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ribbed steel rebar bar, front view",
+            "pt-BR": "Vergalhão de aço nervurado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "steel-white.png",
+            "#f5f5f5": "steel-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Deformed Steel Rebar, 3/8 Inch Diameter and 10 Feet Long, for Concrete, Sold by the Bar",
+            "pt-BR": "Detalhe aproximado de Vergalhão de Aço Nervurado de 10 mm com 3 m de Comprimento, para Concreto, Vendido por Barra"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6-3-millimeter-diameter-six",
+      "sku": "CON-STEEL-REBAR-BAR-SIX-63MILLIMETERDIAMETER",
+      "options": {
+        "color": "steel",
+        "length": "six",
+        "diameter": "6-3-millimeter-diameter"
+      },
+      "price": {
+        "BRL": 170.12,
+        "USD": 60.83
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ribbed steel rebar bar, front view",
+            "pt-BR": "Vergalhão de aço nervurado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "steel-white.png",
+            "#f5f5f5": "steel-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Deformed Steel Rebar, 3/8 Inch Diameter and 10 Feet Long, for Concrete, Sold by the Bar",
+            "pt-BR": "Detalhe aproximado de Vergalhão de Aço Nervurado de 10 mm com 3 m de Comprimento, para Concreto, Vendido por Barra"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12-5-millimeter-diameter-one",
+      "sku": "CON-STEEL-REBAR-BAR-ONE-125MILLIMETERDIAMETER",
+      "options": {
+        "color": "steel",
+        "length": "one",
+        "diameter": "12-5-millimeter-diameter"
+      },
+      "price": {
+        "BRL": 34.87,
+        "USD": 12.72
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ribbed steel rebar bar, front view",
+            "pt-BR": "Vergalhão de aço nervurado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "steel-white.png",
+            "#f5f5f5": "steel-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Deformed Steel Rebar, 3/8 Inch Diameter and 10 Feet Long, for Concrete, Sold by the Bar",
+            "pt-BR": "Detalhe aproximado de Vergalhão de Aço Nervurado de 10 mm com 3 m de Comprimento, para Concreto, Vendido por Barra"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12-5-millimeter-diameter-six",
+      "sku": "CON-STEEL-REBAR-BAR-SIX-125MILLIMETERDIAMETER",
+      "options": {
+        "color": "steel",
+        "length": "six",
+        "diameter": "12-5-millimeter-diameter"
+      },
+      "price": {
+        "BRL": 204.92,
+        "USD": 73.27
       },
       "availability": "low_stock",
       "images": [

@@ -85,6 +85,43 @@
           }
         }
       ]
+    },
+    {
+      "id": "format",
+      "name": {
+        "en": "Format",
+        "pt-BR": "Formato"
+      },
+      "values": [
+        {
+          "id": "24-by-48-inches",
+          "name": {
+            "en": "24 by 48 Inches",
+            "pt-BR": "60×120 cm"
+          }
+        },
+        {
+          "id": "compact-format",
+          "name": {
+            "en": "Compact Format",
+            "pt-BR": "Formato Compacto"
+          }
+        },
+        {
+          "id": "large-format",
+          "name": {
+            "en": "Large Format",
+            "pt-BR": "Formato Grande"
+          }
+        },
+        {
+          "id": "standard-format",
+          "name": {
+            "en": "Standard Format",
+            "pt-BR": "Formato Padrão"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -93,7 +130,8 @@
       "sku": "CON-BEIGE-MARBLE-WALL-TILE-BEIGE-NATURAL",
       "options": {
         "color": "beige",
-        "finish": "natural"
+        "finish": "natural",
+        "format": "24-by-48-inches"
       },
       "price": {
         "BRL": 119.9,
@@ -128,11 +166,228 @@
       "sku": "CON-BEIGE-MARBLE-WALL-TILE-BEIGE-RECTIFIED",
       "options": {
         "color": "beige",
-        "finish": "rectified"
+        "finish": "rectified",
+        "format": "24-by-48-inches"
       },
       "price": {
         "BRL": 139.9,
         "USD": 56
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy beige marble-look wall tile, front view",
+            "pt-BR": "Porcelanato de parede mármore bege, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "beige-white.png",
+            "#f5f5f5": "beige-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compact-format-beige-natural",
+      "sku": "CON-BEIGE-MARBLE-WALL-TILE-BEIGE-NATURAL-COMPACTFORMAT",
+      "options": {
+        "color": "beige",
+        "finish": "natural",
+        "format": "compact-format"
+      },
+      "price": {
+        "BRL": 112.71,
+        "USD": 45.12
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy beige marble-look wall tile, front view",
+            "pt-BR": "Porcelanato de parede mármore bege, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "beige-white.png",
+            "#f5f5f5": "beige-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compact-format-beige-rectified",
+      "sku": "CON-BEIGE-MARBLE-WALL-TILE-BEIGE-RECTIFIED-COMPACTFORMAT",
+      "options": {
+        "color": "beige",
+        "finish": "rectified",
+        "format": "compact-format"
+      },
+      "price": {
+        "BRL": 142.03,
+        "USD": 56.85
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy beige marble-look wall tile, front view",
+            "pt-BR": "Porcelanato de parede mármore bege, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "beige-white.png",
+            "#f5f5f5": "beige-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large-format-beige-natural",
+      "sku": "CON-BEIGE-MARBLE-WALL-TILE-BEIGE-NATURAL-LARGEFORMAT",
+      "options": {
+        "color": "beige",
+        "finish": "natural",
+        "format": "large-format"
+      },
+      "price": {
+        "BRL": 127.09,
+        "USD": 50.88
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy beige marble-look wall tile, front view",
+            "pt-BR": "Porcelanato de parede mármore bege, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "beige-white.png",
+            "#f5f5f5": "beige-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large-format-beige-rectified",
+      "sku": "CON-BEIGE-MARBLE-WALL-TILE-BEIGE-RECTIFIED-LARGEFORMAT",
+      "options": {
+        "color": "beige",
+        "finish": "rectified",
+        "format": "large-format"
+      },
+      "price": {
+        "BRL": 160.16,
+        "USD": 64.11
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy beige marble-look wall tile, front view",
+            "pt-BR": "Porcelanato de parede mármore bege, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "beige-white.png",
+            "#f5f5f5": "beige-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-format-beige-natural",
+      "sku": "CON-BEIGE-MARBLE-WALL-TILE-BEIGE-NATURAL-STANDARDFORMAT",
+      "options": {
+        "color": "beige",
+        "finish": "natural",
+        "format": "standard-format"
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 48
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy beige marble-look wall tile, front view",
+            "pt-BR": "Porcelanato de parede mármore bege, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "beige-white.png",
+            "#f5f5f5": "beige-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-format-beige-rectified",
+      "sku": "CON-BEIGE-MARBLE-WALL-TILE-BEIGE-RECTIFIED-STANDARDFORMAT",
+      "options": {
+        "color": "beige",
+        "finish": "rectified",
+        "format": "standard-format"
+      },
+      "price": {
+        "BRL": 151.09,
+        "USD": 60.48
       },
       "availability": "low_stock",
       "images": [

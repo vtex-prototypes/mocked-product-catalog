@@ -85,6 +85,43 @@
           }
         }
       ]
+    },
+    {
+      "id": "format",
+      "name": {
+        "en": "Format",
+        "pt-BR": "Formato"
+      },
+      "values": [
+        {
+          "id": "12-by-12-inches",
+          "name": {
+            "en": "12 by 12 Inches",
+            "pt-BR": "30×30 cm"
+          }
+        },
+        {
+          "id": "compact-format",
+          "name": {
+            "en": "Compact Format",
+            "pt-BR": "Formato Compacto"
+          }
+        },
+        {
+          "id": "large-format",
+          "name": {
+            "en": "Large Format",
+            "pt-BR": "Formato Grande"
+          }
+        },
+        {
+          "id": "standard-format",
+          "name": {
+            "en": "Standard Format",
+            "pt-BR": "Formato Padrão"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -93,7 +130,8 @@
       "sku": "CON-CREAM-GLASS-MOSAIC-TILE-CREAM-NATURAL",
       "options": {
         "color": "cream",
-        "finish": "natural"
+        "finish": "natural",
+        "format": "12-by-12-inches"
       },
       "price": {
         "BRL": 24.9,
@@ -128,11 +166,228 @@
       "sku": "CON-CREAM-GLASS-MOSAIC-TILE-CREAM-RECTIFIED",
       "options": {
         "color": "cream",
-        "finish": "rectified"
+        "finish": "rectified",
+        "format": "12-by-12-inches"
       },
       "price": {
         "BRL": 28.9,
         "USD": 13
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream glass mosaic tile sheet, front view",
+            "pt-BR": "Pastilha de vidro creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compact-format-cream-natural",
+      "sku": "CON-CREAM-GLASS-MOSAIC-TILE-CREAM-NATURAL-COMPACTFORMAT",
+      "options": {
+        "color": "cream",
+        "finish": "natural",
+        "format": "compact-format"
+      },
+      "price": {
+        "BRL": 30.88,
+        "USD": 13.64
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream glass mosaic tile sheet, front view",
+            "pt-BR": "Pastilha de vidro creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compact-format-cream-rectified",
+      "sku": "CON-CREAM-GLASS-MOSAIC-TILE-CREAM-RECTIFIED-COMPACTFORMAT",
+      "options": {
+        "color": "cream",
+        "finish": "rectified",
+        "format": "compact-format"
+      },
+      "price": {
+        "BRL": 38.7,
+        "USD": 17.41
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream glass mosaic tile sheet, front view",
+            "pt-BR": "Pastilha de vidro creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large-format-cream-natural",
+      "sku": "CON-CREAM-GLASS-MOSAIC-TILE-CREAM-NATURAL-LARGEFORMAT",
+      "options": {
+        "color": "cream",
+        "finish": "natural",
+        "format": "large-format"
+      },
+      "price": {
+        "BRL": 23.41,
+        "USD": 10.34
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream glass mosaic tile sheet, front view",
+            "pt-BR": "Pastilha de vidro creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large-format-cream-rectified",
+      "sku": "CON-CREAM-GLASS-MOSAIC-TILE-CREAM-RECTIFIED-LARGEFORMAT",
+      "options": {
+        "color": "cream",
+        "finish": "rectified",
+        "format": "large-format"
+      },
+      "price": {
+        "BRL": 29.34,
+        "USD": 13.2
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream glass mosaic tile sheet, front view",
+            "pt-BR": "Pastilha de vidro creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-format-cream-natural",
+      "sku": "CON-CREAM-GLASS-MOSAIC-TILE-CREAM-NATURAL-STANDARDFORMAT",
+      "options": {
+        "color": "cream",
+        "finish": "natural",
+        "format": "standard-format"
+      },
+      "price": {
+        "BRL": 21.91,
+        "USD": 9.68
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream glass mosaic tile sheet, front view",
+            "pt-BR": "Pastilha de vidro creme, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cream-white.png",
+            "#f5f5f5": "cream-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-format-cream-rectified",
+      "sku": "CON-CREAM-GLASS-MOSAIC-TILE-CREAM-RECTIFIED-STANDARDFORMAT",
+      "options": {
+        "color": "cream",
+        "finish": "rectified",
+        "format": "standard-format"
+      },
+      "price": {
+        "BRL": 27.47,
+        "USD": 12.36
       },
       "availability": "low_stock",
       "images": [

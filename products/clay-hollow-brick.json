@@ -81,6 +81,64 @@
           }
         }
       ]
+    },
+    {
+      "id": "model",
+      "name": {
+        "en": "Model",
+        "pt-BR": "Modelo"
+      },
+      "values": [
+        {
+          "id": "original",
+          "name": {
+            "en": "Original",
+            "pt-BR": "Original"
+          }
+        },
+        {
+          "id": "eight-hole-format",
+          "name": {
+            "en": "Eight-Hole Format",
+            "pt-BR": "Formato de Oito Furos"
+          }
+        },
+        {
+          "id": "11-centimeter-width",
+          "name": {
+            "en": "11 Centimeter Width",
+            "pt-BR": "Largura de 11 Centímetros"
+          }
+        },
+        {
+          "id": "14-centimeter-width",
+          "name": {
+            "en": "14 Centimeter Width",
+            "pt-BR": "Largura de 14 Centímetros"
+          }
+        },
+        {
+          "id": "9-centimeter-width",
+          "name": {
+            "en": "9 Centimeter Width",
+            "pt-BR": "Largura de 9 Centímetros"
+          }
+        },
+        {
+          "id": "six-hole-format",
+          "name": {
+            "en": "Six-Hole Format",
+            "pt-BR": "Formato de Seis Furos"
+          }
+        },
+        {
+          "id": "reinforced-format",
+          "name": {
+            "en": "Reinforced Format",
+            "pt-BR": "Formato Reforçado"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -89,7 +147,8 @@
       "sku": "CON-CLAY-HOLLOW-BRICK-SINGLE",
       "options": {
         "color": "clay",
-        "pack": "single"
+        "pack": "single",
+        "model": "original"
       },
       "price": {
         "BRL": 1.9,
@@ -124,11 +183,444 @@
       "sku": "CON-CLAY-HOLLOW-BRICK-TEN",
       "options": {
         "color": "clay",
-        "pack": "ten"
+        "pack": "ten",
+        "model": "original"
       },
       "price": {
         "BRL": 16.9,
         "USD": 6.5
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red clay hollow brick, front view",
+            "pt-BR": "Tijolo furado de barro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eight-hole-format-single",
+      "sku": "CON-CLAY-HOLLOW-BRICK-SINGLE-EIGHTHOLEFORMAT",
+      "options": {
+        "color": "clay",
+        "pack": "single",
+        "model": "eight-hole-format"
+      },
+      "price": {
+        "BRL": 1.79,
+        "USD": 0.75
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red clay hollow brick, front view",
+            "pt-BR": "Tijolo furado de barro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eight-hole-format-ten",
+      "sku": "CON-CLAY-HOLLOW-BRICK-TEN-EIGHTHOLEFORMAT",
+      "options": {
+        "color": "clay",
+        "pack": "ten",
+        "model": "eight-hole-format"
+      },
+      "price": {
+        "BRL": 17.16,
+        "USD": 6.6
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red clay hollow brick, front view",
+            "pt-BR": "Tijolo furado de barro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11-centimeter-width-single",
+      "sku": "CON-CLAY-HOLLOW-BRICK-SINGLE-11CENTIMETERWIDTH",
+      "options": {
+        "color": "clay",
+        "pack": "single",
+        "model": "11-centimeter-width"
+      },
+      "price": {
+        "BRL": 2.01,
+        "USD": 0.85
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red clay hollow brick, front view",
+            "pt-BR": "Tijolo furado de barro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11-centimeter-width-ten",
+      "sku": "CON-CLAY-HOLLOW-BRICK-TEN-11CENTIMETERWIDTH",
+      "options": {
+        "color": "clay",
+        "pack": "ten",
+        "model": "11-centimeter-width"
+      },
+      "price": {
+        "BRL": 19.35,
+        "USD": 7.44
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red clay hollow brick, front view",
+            "pt-BR": "Tijolo furado de barro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14-centimeter-width-single",
+      "sku": "CON-CLAY-HOLLOW-BRICK-SINGLE-14CENTIMETERWIDTH",
+      "options": {
+        "color": "clay",
+        "pack": "single",
+        "model": "14-centimeter-width"
+      },
+      "price": {
+        "BRL": 2.13,
+        "USD": 0.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red clay hollow brick, front view",
+            "pt-BR": "Tijolo furado de barro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14-centimeter-width-ten",
+      "sku": "CON-CLAY-HOLLOW-BRICK-TEN-14CENTIMETERWIDTH",
+      "options": {
+        "color": "clay",
+        "pack": "ten",
+        "model": "14-centimeter-width"
+      },
+      "price": {
+        "BRL": 20.44,
+        "USD": 7.86
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red clay hollow brick, front view",
+            "pt-BR": "Tijolo furado de barro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9-centimeter-width-single",
+      "sku": "CON-CLAY-HOLLOW-BRICK-SINGLE-9CENTIMETERWIDTH",
+      "options": {
+        "color": "clay",
+        "pack": "single",
+        "model": "9-centimeter-width"
+      },
+      "price": {
+        "BRL": 1.9,
+        "USD": 0.8
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red clay hollow brick, front view",
+            "pt-BR": "Tijolo furado de barro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9-centimeter-width-ten",
+      "sku": "CON-CLAY-HOLLOW-BRICK-TEN-9CENTIMETERWIDTH",
+      "options": {
+        "color": "clay",
+        "pack": "ten",
+        "model": "9-centimeter-width"
+      },
+      "price": {
+        "BRL": 18.25,
+        "USD": 7.02
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red clay hollow brick, front view",
+            "pt-BR": "Tijolo furado de barro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "six-hole-format-single",
+      "sku": "CON-CLAY-HOLLOW-BRICK-SINGLE-SIXHOLEFORMAT",
+      "options": {
+        "color": "clay",
+        "pack": "single",
+        "model": "six-hole-format"
+      },
+      "price": {
+        "BRL": 1.67,
+        "USD": 0.7
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red clay hollow brick, front view",
+            "pt-BR": "Tijolo furado de barro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "six-hole-format-ten",
+      "sku": "CON-CLAY-HOLLOW-BRICK-TEN-SIXHOLEFORMAT",
+      "options": {
+        "color": "clay",
+        "pack": "ten",
+        "model": "six-hole-format"
+      },
+      "price": {
+        "BRL": 16.06,
+        "USD": 6.18
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red clay hollow brick, front view",
+            "pt-BR": "Tijolo furado de barro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reinforced-format-single",
+      "sku": "CON-CLAY-HOLLOW-BRICK-SINGLE-REINFORCEDFORMAT",
+      "options": {
+        "color": "clay",
+        "pack": "single",
+        "model": "reinforced-format"
+      },
+      "price": {
+        "BRL": 2.24,
+        "USD": 0.94
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red clay hollow brick, front view",
+            "pt-BR": "Tijolo furado de barro, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "clay-white.png",
+            "#f5f5f5": "clay-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reinforced-format-ten",
+      "sku": "CON-CLAY-HOLLOW-BRICK-TEN-REINFORCEDFORMAT",
+      "options": {
+        "color": "clay",
+        "pack": "ten",
+        "model": "reinforced-format"
+      },
+      "price": {
+        "BRL": 21.54,
+        "USD": 8.28
       },
       "availability": "low_stock",
       "images": [

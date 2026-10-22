@@ -85,6 +85,43 @@
           }
         }
       ]
+    },
+    {
+      "id": "format",
+      "name": {
+        "en": "Format",
+        "pt-BR": "Formato"
+      },
+      "values": [
+        {
+          "id": "3-by-6-inches",
+          "name": {
+            "en": "3 by 6 Inches",
+            "pt-BR": "7,5×15 cm"
+          }
+        },
+        {
+          "id": "compact-format",
+          "name": {
+            "en": "Compact Format",
+            "pt-BR": "Formato Compacto"
+          }
+        },
+        {
+          "id": "large-format",
+          "name": {
+            "en": "Large Format",
+            "pt-BR": "Formato Grande"
+          }
+        },
+        {
+          "id": "standard-format",
+          "name": {
+            "en": "Standard Format",
+            "pt-BR": "Formato Padrão"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -93,7 +130,8 @@
       "sku": "CON-TERRACOTTA-SUBWAY-WALL-TILE-TERRACOTTA-NATURAL",
       "options": {
         "color": "terracotta",
-        "finish": "natural"
+        "finish": "natural",
+        "format": "3-by-6-inches"
       },
       "price": {
         "BRL": 69.9,
@@ -128,11 +166,228 @@
       "sku": "CON-TERRACOTTA-SUBWAY-WALL-TILE-TERRACOTTA-RECTIFIED",
       "options": {
         "color": "terracotta",
-        "finish": "rectified"
+        "finish": "rectified",
+        "format": "3-by-6-inches"
       },
       "price": {
         "BRL": 79.9,
         "USD": 32
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy terracotta subway wall tile, front view",
+            "pt-BR": "Revestimento subway terracota brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compact-format-terracotta-natural",
+      "sku": "CON-TERRACOTTA-SUBWAY-WALL-TILE-TERRACOTTA-NATURAL-COMPACTFORMAT",
+      "options": {
+        "color": "terracotta",
+        "finish": "natural",
+        "format": "compact-format"
+      },
+      "price": {
+        "BRL": 74.09,
+        "USD": 29.68
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy terracotta subway wall tile, front view",
+            "pt-BR": "Revestimento subway terracota brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compact-format-terracotta-rectified",
+      "sku": "CON-TERRACOTTA-SUBWAY-WALL-TILE-TERRACOTTA-RECTIFIED-COMPACTFORMAT",
+      "options": {
+        "color": "terracotta",
+        "finish": "rectified",
+        "format": "compact-format"
+      },
+      "price": {
+        "BRL": 91.47,
+        "USD": 36.63
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy terracotta subway wall tile, front view",
+            "pt-BR": "Revestimento subway terracota brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large-format-terracotta-natural",
+      "sku": "CON-TERRACOTTA-SUBWAY-WALL-TILE-TERRACOTTA-NATURAL-LARGEFORMAT",
+      "options": {
+        "color": "terracotta",
+        "finish": "natural",
+        "format": "large-format"
+      },
+      "price": {
+        "BRL": 82.48,
+        "USD": 33.04
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy terracotta subway wall tile, front view",
+            "pt-BR": "Revestimento subway terracota brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "large-format-terracotta-rectified",
+      "sku": "CON-TERRACOTTA-SUBWAY-WALL-TILE-TERRACOTTA-RECTIFIED-LARGEFORMAT",
+      "options": {
+        "color": "terracotta",
+        "finish": "rectified",
+        "format": "large-format"
+      },
+      "price": {
+        "BRL": 101.82,
+        "USD": 40.78
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy terracotta subway wall tile, front view",
+            "pt-BR": "Revestimento subway terracota brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-format-terracotta-natural",
+      "sku": "CON-TERRACOTTA-SUBWAY-WALL-TILE-TERRACOTTA-NATURAL-STANDARDFORMAT",
+      "options": {
+        "color": "terracotta",
+        "finish": "natural",
+        "format": "standard-format"
+      },
+      "price": {
+        "BRL": 78.29,
+        "USD": 31.36
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glossy terracotta subway wall tile, front view",
+            "pt-BR": "Revestimento subway terracota brilhante, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "terracotta-white.png",
+            "#f5f5f5": "terracotta-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-format-terracotta-rectified",
+      "sku": "CON-TERRACOTTA-SUBWAY-WALL-TILE-TERRACOTTA-RECTIFIED-STANDARDFORMAT",
+      "options": {
+        "color": "terracotta",
+        "finish": "rectified",
+        "format": "standard-format"
+      },
+      "price": {
+        "BRL": 96.65,
+        "USD": 38.71
       },
       "availability": "low_stock",
       "images": [

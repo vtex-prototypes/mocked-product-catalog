@@ -77,6 +77,64 @@
           }
         }
       ]
+    },
+    {
+      "id": "rating",
+      "name": {
+        "en": "Rating",
+        "pt-BR": "Corrente"
+      },
+      "values": [
+        {
+          "id": "20-amp-rating",
+          "name": {
+            "en": "20 Amp Rating",
+            "pt-BR": "Corrente de 20 Ampères"
+          }
+        },
+        {
+          "id": "10-amp-rating",
+          "name": {
+            "en": "10 Amp Rating",
+            "pt-BR": "Corrente de 10 Ampères"
+          }
+        },
+        {
+          "id": "16-amp-rating",
+          "name": {
+            "en": "16 Amp Rating",
+            "pt-BR": "Corrente de 16 Ampères"
+          }
+        },
+        {
+          "id": "25-amp-rating",
+          "name": {
+            "en": "25 Amp Rating",
+            "pt-BR": "Corrente de 25 Ampères"
+          }
+        },
+        {
+          "id": "32-amp-rating",
+          "name": {
+            "en": "32 Amp Rating",
+            "pt-BR": "Corrente de 32 Ampères"
+          }
+        },
+        {
+          "id": "40-amp-rating",
+          "name": {
+            "en": "40 Amp Rating",
+            "pt-BR": "Corrente de 40 Ampères"
+          }
+        },
+        {
+          "id": "50-amp-rating",
+          "name": {
+            "en": "50 Amp Rating",
+            "pt-BR": "Corrente de 50 Ampères"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -85,7 +143,8 @@
       "sku": "CON-MINIATURE-CIRCUIT-BREAKER-SINGLE",
       "options": {
         "color": "white",
-        "pack": "single"
+        "pack": "single",
+        "rating": "20-amp-rating"
       },
       "price": {
         "BRL": 28.9,
@@ -120,11 +179,444 @@
       "sku": "CON-MINIATURE-CIRCUIT-BREAKER-TEN",
       "options": {
         "color": "white",
-        "pack": "ten"
+        "pack": "ten",
+        "rating": "20-amp-rating"
       },
       "price": {
         "BRL": 249,
         "USD": 99
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White miniature circuit breaker, front view",
+            "pt-BR": "Disjuntor miniatura branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10-amp-rating-single",
+      "sku": "CON-MINIATURE-CIRCUIT-BREAKER-SINGLE-10AMPRATING",
+      "options": {
+        "color": "white",
+        "pack": "single",
+        "rating": "10-amp-rating"
+      },
+      "price": {
+        "BRL": 25.43,
+        "USD": 10.56
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White miniature circuit breaker, front view",
+            "pt-BR": "Disjuntor miniatura branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10-amp-rating-ten",
+      "sku": "CON-MINIATURE-CIRCUIT-BREAKER-TEN-10AMPRATING",
+      "options": {
+        "color": "white",
+        "pack": "ten",
+        "rating": "10-amp-rating"
+      },
+      "price": {
+        "BRL": 236.65,
+        "USD": 94.09
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White miniature circuit breaker, front view",
+            "pt-BR": "Disjuntor miniatura branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16-amp-rating-single",
+      "sku": "CON-MINIATURE-CIRCUIT-BREAKER-SINGLE-16AMPRATING",
+      "options": {
+        "color": "white",
+        "pack": "single",
+        "rating": "16-amp-rating"
+      },
+      "price": {
+        "BRL": 27.17,
+        "USD": 11.28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White miniature circuit breaker, front view",
+            "pt-BR": "Disjuntor miniatura branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16-amp-rating-ten",
+      "sku": "CON-MINIATURE-CIRCUIT-BREAKER-TEN-16AMPRATING",
+      "options": {
+        "color": "white",
+        "pack": "ten",
+        "rating": "16-amp-rating"
+      },
+      "price": {
+        "BRL": 252.78,
+        "USD": 100.5
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White miniature circuit breaker, front view",
+            "pt-BR": "Disjuntor miniatura branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "25-amp-rating-single",
+      "sku": "CON-MINIATURE-CIRCUIT-BREAKER-SINGLE-25AMPRATING",
+      "options": {
+        "color": "white",
+        "pack": "single",
+        "rating": "25-amp-rating"
+      },
+      "price": {
+        "BRL": 30.63,
+        "USD": 12.72
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White miniature circuit breaker, front view",
+            "pt-BR": "Disjuntor miniatura branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "25-amp-rating-ten",
+      "sku": "CON-MINIATURE-CIRCUIT-BREAKER-TEN-25AMPRATING",
+      "options": {
+        "color": "white",
+        "pack": "ten",
+        "rating": "25-amp-rating"
+      },
+      "price": {
+        "BRL": 285.06,
+        "USD": 113.34
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White miniature circuit breaker, front view",
+            "pt-BR": "Disjuntor miniatura branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "32-amp-rating-single",
+      "sku": "CON-MINIATURE-CIRCUIT-BREAKER-SINGLE-32AMPRATING",
+      "options": {
+        "color": "white",
+        "pack": "single",
+        "rating": "32-amp-rating"
+      },
+      "price": {
+        "BRL": 32.37,
+        "USD": 13.44
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White miniature circuit breaker, front view",
+            "pt-BR": "Disjuntor miniatura branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "32-amp-rating-ten",
+      "sku": "CON-MINIATURE-CIRCUIT-BREAKER-TEN-32AMPRATING",
+      "options": {
+        "color": "white",
+        "pack": "ten",
+        "rating": "32-amp-rating"
+      },
+      "price": {
+        "BRL": 301.19,
+        "USD": 119.75
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White miniature circuit breaker, front view",
+            "pt-BR": "Disjuntor miniatura branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "40-amp-rating-single",
+      "sku": "CON-MINIATURE-CIRCUIT-BREAKER-SINGLE-40AMPRATING",
+      "options": {
+        "color": "white",
+        "pack": "single",
+        "rating": "40-amp-rating"
+      },
+      "price": {
+        "BRL": 34.1,
+        "USD": 14.16
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White miniature circuit breaker, front view",
+            "pt-BR": "Disjuntor miniatura branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "40-amp-rating-ten",
+      "sku": "CON-MINIATURE-CIRCUIT-BREAKER-TEN-40AMPRATING",
+      "options": {
+        "color": "white",
+        "pack": "ten",
+        "rating": "40-amp-rating"
+      },
+      "price": {
+        "BRL": 317.33,
+        "USD": 126.17
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White miniature circuit breaker, front view",
+            "pt-BR": "Disjuntor miniatura branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "50-amp-rating-single",
+      "sku": "CON-MINIATURE-CIRCUIT-BREAKER-SINGLE-50AMPRATING",
+      "options": {
+        "color": "white",
+        "pack": "single",
+        "rating": "50-amp-rating"
+      },
+      "price": {
+        "BRL": 35.84,
+        "USD": 14.88
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White miniature circuit breaker, front view",
+            "pt-BR": "Disjuntor miniatura branco, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "50-amp-rating-ten",
+      "sku": "CON-MINIATURE-CIRCUIT-BREAKER-TEN-50AMPRATING",
+      "options": {
+        "color": "white",
+        "pack": "ten",
+        "rating": "50-amp-rating"
+      },
+      "price": {
+        "BRL": 333.46,
+        "USD": 132.58
       },
       "availability": "low_stock",
       "images": [

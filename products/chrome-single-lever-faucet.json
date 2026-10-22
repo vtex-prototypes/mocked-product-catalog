@@ -81,6 +81,57 @@
           }
         }
       ]
+    },
+    {
+      "id": "model",
+      "name": {
+        "en": "Model",
+        "pt-BR": "Modelo"
+      },
+      "values": [
+        {
+          "id": "short-spout",
+          "name": {
+            "en": "Short Spout",
+            "pt-BR": "Bica Curta"
+          }
+        },
+        {
+          "id": "deck-mount",
+          "name": {
+            "en": "Deck Mount",
+            "pt-BR": "Instalação de Mesa em Furo Preparado"
+          }
+        },
+        {
+          "id": "medium-spout",
+          "name": {
+            "en": "Medium Spout",
+            "pt-BR": "Bica Média"
+          }
+        },
+        {
+          "id": "tall-spout",
+          "name": {
+            "en": "Tall Spout",
+            "pt-BR": "Bica Alta"
+          }
+        },
+        {
+          "id": "wall-mount",
+          "name": {
+            "en": "Wall Mount",
+            "pt-BR": "Instalação de Parede"
+          }
+        },
+        {
+          "id": "controlled-flow",
+          "name": {
+            "en": "Controlled Flow",
+            "pt-BR": "Vazão Controlada"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -89,7 +140,8 @@
       "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-STANDARD",
       "options": {
         "color": "chrome",
-        "install": "standard"
+        "install": "standard",
+        "model": "short-spout"
       },
       "price": {
         "BRL": 159,
@@ -124,11 +176,372 @@
       "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-ALT",
       "options": {
         "color": "chrome",
-        "install": "alt"
+        "install": "alt",
+        "model": "short-spout"
       },
       "price": {
         "BRL": 189,
         "USD": 82
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome single-lever bathroom faucet, front view",
+            "pt-BR": "Torneira de banheiro cromada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "deck-mount-standard",
+      "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-STANDARD-DECKMOUNT",
+      "options": {
+        "color": "chrome",
+        "install": "standard",
+        "model": "deck-mount"
+      },
+      "price": {
+        "BRL": 168.54,
+        "USD": 73.14
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome single-lever bathroom faucet, front view",
+            "pt-BR": "Torneira de banheiro cromada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "deck-mount-alt",
+      "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-ALT-DECKMOUNT",
+      "options": {
+        "color": "chrome",
+        "install": "alt",
+        "model": "deck-mount"
+      },
+      "price": {
+        "BRL": 216.37,
+        "USD": 93.87
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome single-lever bathroom faucet, front view",
+            "pt-BR": "Torneira de banheiro cromada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "medium-spout-standard",
+      "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-STANDARD-MEDIUMSPOUT",
+      "options": {
+        "color": "chrome",
+        "install": "standard",
+        "model": "medium-spout"
+      },
+      "price": {
+        "BRL": 149.46,
+        "USD": 64.86
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome single-lever bathroom faucet, front view",
+            "pt-BR": "Torneira de banheiro cromada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "medium-spout-alt",
+      "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-ALT-MEDIUMSPOUT",
+      "options": {
+        "color": "chrome",
+        "install": "alt",
+        "model": "medium-spout"
+      },
+      "price": {
+        "BRL": 191.87,
+        "USD": 83.25
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome single-lever bathroom faucet, front view",
+            "pt-BR": "Torneira de banheiro cromada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tall-spout-standard",
+      "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-STANDARD-TALLSPOUT",
+      "options": {
+        "color": "chrome",
+        "install": "standard",
+        "model": "tall-spout"
+      },
+      "price": {
+        "BRL": 159,
+        "USD": 69
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome single-lever bathroom faucet, front view",
+            "pt-BR": "Torneira de banheiro cromada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tall-spout-alt",
+      "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-ALT-TALLSPOUT",
+      "options": {
+        "color": "chrome",
+        "install": "alt",
+        "model": "tall-spout"
+      },
+      "price": {
+        "BRL": 204.12,
+        "USD": 88.56
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome single-lever bathroom faucet, front view",
+            "pt-BR": "Torneira de banheiro cromada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wall-mount-standard",
+      "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-STANDARD-WALLMOUNT",
+      "options": {
+        "color": "chrome",
+        "install": "standard",
+        "model": "wall-mount"
+      },
+      "price": {
+        "BRL": 178.08,
+        "USD": 77.28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome single-lever bathroom faucet, front view",
+            "pt-BR": "Torneira de banheiro cromada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wall-mount-alt",
+      "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-ALT-WALLMOUNT",
+      "options": {
+        "color": "chrome",
+        "install": "alt",
+        "model": "wall-mount"
+      },
+      "price": {
+        "BRL": 228.61,
+        "USD": 99.19
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome single-lever bathroom faucet, front view",
+            "pt-BR": "Torneira de banheiro cromada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "controlled-flow-standard",
+      "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-STANDARD-CONTROLLEDFLOW",
+      "options": {
+        "color": "chrome",
+        "install": "standard",
+        "model": "controlled-flow"
+      },
+      "price": {
+        "BRL": 187.62,
+        "USD": 81.42
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome single-lever bathroom faucet, front view",
+            "pt-BR": "Torneira de banheiro cromada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "chrome-white.png",
+            "#f5f5f5": "chrome-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "controlled-flow-alt",
+      "sku": "CON-CHROME-SINGLE-LEVER-FAUCET-ALT-CONTROLLEDFLOW",
+      "options": {
+        "color": "chrome",
+        "install": "alt",
+        "model": "controlled-flow"
+      },
+      "price": {
+        "BRL": 240.86,
+        "USD": 104.5
       },
       "availability": "low_stock",
       "images": [

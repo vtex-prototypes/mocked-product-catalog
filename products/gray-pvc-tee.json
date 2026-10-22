@@ -77,6 +77,43 @@
           }
         }
       ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "original",
+          "name": {
+            "en": "Original",
+            "pt-BR": "Original"
+          }
+        },
+        {
+          "id": "20-millimeter-nominal-size",
+          "name": {
+            "en": "20 Millimeter Nominal Size",
+            "pt-BR": "Bitola Nominal de 20 Milímetros"
+          }
+        },
+        {
+          "id": "25-millimeter-nominal-size",
+          "name": {
+            "en": "25 Millimeter Nominal Size",
+            "pt-BR": "Bitola Nominal de 25 Milímetros"
+          }
+        },
+        {
+          "id": "32-millimeter-nominal-size",
+          "name": {
+            "en": "32 Millimeter Nominal Size",
+            "pt-BR": "Bitola Nominal de 32 Milímetros"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -85,7 +122,8 @@
       "sku": "CON-GRAY-PVC-TEE-SINGLE",
       "options": {
         "color": "gray",
-        "pack": "single"
+        "pack": "single",
+        "size": "original"
       },
       "price": {
         "BRL": 4.9,
@@ -120,11 +158,228 @@
       "sku": "CON-GRAY-PVC-TEE-TEN",
       "options": {
         "color": "gray",
-        "pack": "ten"
+        "pack": "ten",
+        "size": "original"
       },
       "price": {
         "BRL": 39.9,
         "USD": 15
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC tee fitting, front view",
+            "pt-BR": "Tê de PVC cinza, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Gray PVC Tee Fitting for 1 Inch Cold-Water Pipe, Three Openings, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tê de PVC Cinza para Tubo de Água Fria de 25 mm, Três Saídas, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20-millimeter-nominal-size-single",
+      "sku": "CON-GRAY-PVC-TEE-SINGLE-20MILLIMETERNOMINALSIZE",
+      "options": {
+        "color": "gray",
+        "pack": "single",
+        "size": "20-millimeter-nominal-size"
+      },
+      "price": {
+        "BRL": 4.31,
+        "USD": 1.67
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC tee fitting, front view",
+            "pt-BR": "Tê de PVC cinza, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Gray PVC Tee Fitting for 1 Inch Cold-Water Pipe, Three Openings, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tê de PVC Cinza para Tubo de Água Fria de 25 mm, Três Saídas, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20-millimeter-nominal-size-ten",
+      "sku": "CON-GRAY-PVC-TEE-TEN-20MILLIMETERNOMINALSIZE",
+      "options": {
+        "color": "gray",
+        "pack": "ten",
+        "size": "20-millimeter-nominal-size"
+      },
+      "price": {
+        "BRL": 37.92,
+        "USD": 14.26
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC tee fitting, front view",
+            "pt-BR": "Tê de PVC cinza, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Gray PVC Tee Fitting for 1 Inch Cold-Water Pipe, Three Openings, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tê de PVC Cinza para Tubo de Água Fria de 25 mm, Três Saídas, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "25-millimeter-nominal-size-single",
+      "sku": "CON-GRAY-PVC-TEE-SINGLE-25MILLIMETERNOMINALSIZE",
+      "options": {
+        "color": "gray",
+        "pack": "single",
+        "size": "25-millimeter-nominal-size"
+      },
+      "price": {
+        "BRL": 4.61,
+        "USD": 1.79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC tee fitting, front view",
+            "pt-BR": "Tê de PVC cinza, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Gray PVC Tee Fitting for 1 Inch Cold-Water Pipe, Three Openings, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tê de PVC Cinza para Tubo de Água Fria de 25 mm, Três Saídas, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "25-millimeter-nominal-size-ten",
+      "sku": "CON-GRAY-PVC-TEE-TEN-25MILLIMETERNOMINALSIZE",
+      "options": {
+        "color": "gray",
+        "pack": "ten",
+        "size": "25-millimeter-nominal-size"
+      },
+      "price": {
+        "BRL": 40.51,
+        "USD": 15.23
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC tee fitting, front view",
+            "pt-BR": "Tê de PVC cinza, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Gray PVC Tee Fitting for 1 Inch Cold-Water Pipe, Three Openings, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tê de PVC Cinza para Tubo de Água Fria de 25 mm, Três Saídas, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "32-millimeter-nominal-size-single",
+      "sku": "CON-GRAY-PVC-TEE-SINGLE-32MILLIMETERNOMINALSIZE",
+      "options": {
+        "color": "gray",
+        "pack": "single",
+        "size": "32-millimeter-nominal-size"
+      },
+      "price": {
+        "BRL": 4.9,
+        "USD": 1.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray PVC tee fitting, front view",
+            "pt-BR": "Tê de PVC cinza, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "gray-white.png",
+            "#f5f5f5": "gray-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close detail of Gray PVC Tee Fitting for 1 Inch Cold-Water Pipe, Three Openings, Sold by the Piece",
+            "pt-BR": "Detalhe aproximado de Tê de PVC Cinza para Tubo de Água Fria de 25 mm, Três Saídas, Vendido por Peça"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "32-millimeter-nominal-size-ten",
+      "sku": "CON-GRAY-PVC-TEE-TEN-32MILLIMETERNOMINALSIZE",
+      "options": {
+        "color": "gray",
+        "pack": "ten",
+        "size": "32-millimeter-nominal-size"
+      },
+      "price": {
+        "BRL": 43.09,
+        "USD": 16.2
       },
       "availability": "low_stock",
       "images": [

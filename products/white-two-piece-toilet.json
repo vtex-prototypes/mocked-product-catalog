@@ -85,6 +85,71 @@
           }
         }
       ]
+    },
+    {
+      "id": "model",
+      "name": {
+        "en": "Model",
+        "pt-BR": "Modelo"
+      },
+      "values": [
+        {
+          "id": "original",
+          "name": {
+            "en": "Original",
+            "pt-BR": "Original"
+          }
+        },
+        {
+          "id": "close-coupled-tank",
+          "name": {
+            "en": "Close-Coupled Tank",
+            "pt-BR": "Caixa Acoplada"
+          }
+        },
+        {
+          "id": "compact-bowl",
+          "name": {
+            "en": "Compact Bowl",
+            "pt-BR": "Bacia Compacta"
+          }
+        },
+        {
+          "id": "dual-flush-tank",
+          "name": {
+            "en": "Dual-Flush Tank",
+            "pt-BR": "Caixa com Duplo Acionamento"
+          }
+        },
+        {
+          "id": "elongated-bowl",
+          "name": {
+            "en": "Elongated Bowl",
+            "pt-BR": "Bacia Alongada"
+          }
+        },
+        {
+          "id": "raised-seat-height",
+          "name": {
+            "en": "Raised Seat Height",
+            "pt-BR": "Altura de Assento Elevada"
+          }
+        },
+        {
+          "id": "rear-outlet-configuration",
+          "name": {
+            "en": "Rear Outlet Configuration",
+            "pt-BR": "Configuração com Saída Traseira"
+          }
+        },
+        {
+          "id": "standard-bowl",
+          "name": {
+            "en": "Standard Bowl",
+            "pt-BR": "Bacia Padrão"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -93,7 +158,8 @@
       "sku": "CON-WHITE-TWO-PIECE-TOILET-STANDARD",
       "options": {
         "color": "white",
-        "install": "standard"
+        "install": "standard",
+        "model": "original"
       },
       "price": {
         "BRL": 449,
@@ -132,7 +198,8 @@
       "sku": "CON-WHITE-TWO-PIECE-TOILET-ALT",
       "options": {
         "color": "white",
-        "install": "alt"
+        "install": "alt",
+        "model": "original"
       },
       "price": {
         "BRL": 529,
@@ -141,6 +208,510 @@
       "listPrice": {
         "BRL": 634.8,
         "USD": 274.8
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-piece toilet, front view",
+            "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "close-coupled-tank-standard",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-STANDARD-CLOSECOUPLEDTANK",
+      "options": {
+        "color": "white",
+        "install": "standard",
+        "model": "close-coupled-tank"
+      },
+      "price": {
+        "BRL": 502.88,
+        "USD": 211.68
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-piece toilet, front view",
+            "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "close-coupled-tank-alt",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-ALT-CLOSECOUPLEDTANK",
+      "options": {
+        "color": "white",
+        "install": "alt",
+        "model": "close-coupled-tank"
+      },
+      "price": {
+        "BRL": 639.88,
+        "USD": 277
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-piece toilet, front view",
+            "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compact-bowl-standard",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-STANDARD-COMPACTBOWL",
+      "options": {
+        "color": "white",
+        "install": "standard",
+        "model": "compact-bowl"
+      },
+      "price": {
+        "BRL": 395.12,
+        "USD": 166.32
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-piece toilet, front view",
+            "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "compact-bowl-alt",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-ALT-COMPACTBOWL",
+      "options": {
+        "color": "white",
+        "install": "alt",
+        "model": "compact-bowl"
+      },
+      "price": {
+        "BRL": 502.76,
+        "USD": 217.64
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-piece toilet, front view",
+            "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dual-flush-tank-standard",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-STANDARD-DUALFLUSHTANK",
+      "options": {
+        "color": "white",
+        "install": "standard",
+        "model": "dual-flush-tank"
+      },
+      "price": {
+        "BRL": 475.94,
+        "USD": 200.34
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-piece toilet, front view",
+            "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dual-flush-tank-alt",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-ALT-DUALFLUSHTANK",
+      "options": {
+        "color": "white",
+        "install": "alt",
+        "model": "dual-flush-tank"
+      },
+      "price": {
+        "BRL": 605.6,
+        "USD": 262.16
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-piece toilet, front view",
+            "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "elongated-bowl-standard",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-STANDARD-ELONGATEDBOWL",
+      "options": {
+        "color": "white",
+        "install": "standard",
+        "model": "elongated-bowl"
+      },
+      "price": {
+        "BRL": 449,
+        "USD": 189
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-piece toilet, front view",
+            "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "elongated-bowl-alt",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-ALT-ELONGATEDBOWL",
+      "options": {
+        "color": "white",
+        "install": "alt",
+        "model": "elongated-bowl"
+      },
+      "price": {
+        "BRL": 571.32,
+        "USD": 247.32
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-piece toilet, front view",
+            "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "raised-seat-height-standard",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-STANDARD-RAISEDSEATHEIGHT",
+      "options": {
+        "color": "white",
+        "install": "standard",
+        "model": "raised-seat-height"
+      },
+      "price": {
+        "BRL": 529.82,
+        "USD": 223.02
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-piece toilet, front view",
+            "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "raised-seat-height-alt",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-ALT-RAISEDSEATHEIGHT",
+      "options": {
+        "color": "white",
+        "install": "alt",
+        "model": "raised-seat-height"
+      },
+      "price": {
+        "BRL": 674.16,
+        "USD": 291.84
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-piece toilet, front view",
+            "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rear-outlet-configuration-standard",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-STANDARD-REAROUTLETCONFIGURATION",
+      "options": {
+        "color": "white",
+        "install": "standard",
+        "model": "rear-outlet-configuration"
+      },
+      "price": {
+        "BRL": 556.76,
+        "USD": 234.36
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-piece toilet, front view",
+            "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rear-outlet-configuration-alt",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-ALT-REAROUTLETCONFIGURATION",
+      "options": {
+        "color": "white",
+        "install": "alt",
+        "model": "rear-outlet-configuration"
+      },
+      "price": {
+        "BRL": 708.44,
+        "USD": 306.68
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-piece toilet, front view",
+            "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-bowl-standard",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-STANDARD-STANDARDBOWL",
+      "options": {
+        "color": "white",
+        "install": "standard",
+        "model": "standard-bowl"
+      },
+      "price": {
+        "BRL": 422.06,
+        "USD": 177.66
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-piece toilet, front view",
+            "pt-BR": "Vaso sanitário branco com caixa acoplada, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-bowl-alt",
+      "sku": "CON-WHITE-TWO-PIECE-TOILET-ALT-STANDARDBOWL",
+      "options": {
+        "color": "white",
+        "install": "alt",
+        "model": "standard-bowl"
+      },
+      "price": {
+        "BRL": 537.04,
+        "USD": 232.48
       },
       "availability": "low_stock",
       "images": [

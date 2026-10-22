@@ -81,6 +81,71 @@
           }
         }
       ]
+    },
+    {
+      "id": "model",
+      "name": {
+        "en": "Model",
+        "pt-BR": "Modelo"
+      },
+      "values": [
+        {
+          "id": "original",
+          "name": {
+            "en": "Original",
+            "pt-BR": "Original"
+          }
+        },
+        {
+          "id": "20-inch-width",
+          "name": {
+            "en": "20 Inch Width",
+            "pt-BR": "Largura de 50 Centímetros"
+          }
+        },
+        {
+          "id": "16-inch-width",
+          "name": {
+            "en": "16 Inch Width",
+            "pt-BR": "Largura de 40 Centímetros"
+          }
+        },
+        {
+          "id": "left-side-shelf",
+          "name": {
+            "en": "Left Side Shelf",
+            "pt-BR": "Mesa Lateral Esquerda"
+          }
+        },
+        {
+          "id": "right-side-shelf",
+          "name": {
+            "en": "Right Side Shelf",
+            "pt-BR": "Mesa Lateral Direita"
+          }
+        },
+        {
+          "id": "single-faucet-hole",
+          "name": {
+            "en": "Single Faucet Hole",
+            "pt-BR": "Um Furo"
+          }
+        },
+        {
+          "id": "24-inch-width",
+          "name": {
+            "en": "24 Inch Width",
+            "pt-BR": "Largura de 60 Centímetros"
+          }
+        },
+        {
+          "id": "three-faucet-holes",
+          "name": {
+            "en": "Three Faucet Holes",
+            "pt-BR": "Três Furos"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -89,7 +154,8 @@
       "sku": "CON-WHITE-WALL-BASIN-STANDARD",
       "options": {
         "color": "white",
-        "install": "standard"
+        "install": "standard",
+        "model": "original"
       },
       "price": {
         "BRL": 189,
@@ -124,11 +190,516 @@
       "sku": "CON-WHITE-WALL-BASIN-ALT",
       "options": {
         "color": "white",
-        "install": "alt"
+        "install": "alt",
+        "model": "original"
       },
       "price": {
         "BRL": 219,
         "USD": 92
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20-inch-width-standard",
+      "sku": "CON-WHITE-WALL-BASIN-STANDARD-20INCHWIDTH",
+      "options": {
+        "color": "white",
+        "install": "standard",
+        "model": "20-inch-width"
+      },
+      "price": {
+        "BRL": 177.66,
+        "USD": 74.26
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20-inch-width-alt",
+      "sku": "CON-WHITE-WALL-BASIN-ALT-20INCHWIDTH",
+      "options": {
+        "color": "white",
+        "install": "alt",
+        "model": "20-inch-width"
+      },
+      "price": {
+        "BRL": 222.33,
+        "USD": 93.4
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16-inch-width-standard",
+      "sku": "CON-WHITE-WALL-BASIN-STANDARD-16INCHWIDTH",
+      "options": {
+        "color": "white",
+        "install": "standard",
+        "model": "16-inch-width"
+      },
+      "price": {
+        "BRL": 166.32,
+        "USD": 69.52
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16-inch-width-alt",
+      "sku": "CON-WHITE-WALL-BASIN-ALT-16INCHWIDTH",
+      "options": {
+        "color": "white",
+        "install": "alt",
+        "model": "16-inch-width"
+      },
+      "price": {
+        "BRL": 208.14,
+        "USD": 87.44
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "left-side-shelf-standard",
+      "sku": "CON-WHITE-WALL-BASIN-STANDARD-LEFTSIDESHELF",
+      "options": {
+        "color": "white",
+        "install": "standard",
+        "model": "left-side-shelf"
+      },
+      "price": {
+        "BRL": 223.02,
+        "USD": 93.22
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "left-side-shelf-alt",
+      "sku": "CON-WHITE-WALL-BASIN-ALT-LEFTSIDESHELF",
+      "options": {
+        "color": "white",
+        "install": "alt",
+        "model": "left-side-shelf"
+      },
+      "price": {
+        "BRL": 279.09,
+        "USD": 117.24
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "right-side-shelf-standard",
+      "sku": "CON-WHITE-WALL-BASIN-STANDARD-RIGHTSIDESHELF",
+      "options": {
+        "color": "white",
+        "install": "standard",
+        "model": "right-side-shelf"
+      },
+      "price": {
+        "BRL": 234.36,
+        "USD": 97.96
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "right-side-shelf-alt",
+      "sku": "CON-WHITE-WALL-BASIN-ALT-RIGHTSIDESHELF",
+      "options": {
+        "color": "white",
+        "install": "alt",
+        "model": "right-side-shelf"
+      },
+      "price": {
+        "BRL": 293.28,
+        "USD": 123.21
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "single-faucet-hole-standard",
+      "sku": "CON-WHITE-WALL-BASIN-STANDARD-SINGLEFAUCETHOLE",
+      "options": {
+        "color": "white",
+        "install": "standard",
+        "model": "single-faucet-hole"
+      },
+      "price": {
+        "BRL": 200.34,
+        "USD": 83.74
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "single-faucet-hole-alt",
+      "sku": "CON-WHITE-WALL-BASIN-ALT-SINGLEFAUCETHOLE",
+      "options": {
+        "color": "white",
+        "install": "alt",
+        "model": "single-faucet-hole"
+      },
+      "price": {
+        "BRL": 250.71,
+        "USD": 105.32
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "24-inch-width-standard",
+      "sku": "CON-WHITE-WALL-BASIN-STANDARD-24INCHWIDTH",
+      "options": {
+        "color": "white",
+        "install": "standard",
+        "model": "24-inch-width"
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "24-inch-width-alt",
+      "sku": "CON-WHITE-WALL-BASIN-ALT-24INCHWIDTH",
+      "options": {
+        "color": "white",
+        "install": "alt",
+        "model": "24-inch-width"
+      },
+      "price": {
+        "BRL": 236.52,
+        "USD": 99.36
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "three-faucet-holes-standard",
+      "sku": "CON-WHITE-WALL-BASIN-STANDARD-THREEFAUCETHOLES",
+      "options": {
+        "color": "white",
+        "install": "standard",
+        "model": "three-faucet-holes"
+      },
+      "price": {
+        "BRL": 211.68,
+        "USD": 88.48
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White wall-hung bathroom basin, front view",
+            "pt-BR": "Cuba de banheiro branca de parede, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "three-faucet-holes-alt",
+      "sku": "CON-WHITE-WALL-BASIN-ALT-THREEFAUCETHOLES",
+      "options": {
+        "color": "white",
+        "install": "alt",
+        "model": "three-faucet-holes"
+      },
+      "price": {
+        "BRL": 264.9,
+        "USD": 111.28
       },
       "availability": "low_stock",
       "images": [

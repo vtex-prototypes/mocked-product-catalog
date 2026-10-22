@@ -89,6 +89,43 @@
           }
         }
       ]
+    },
+    {
+      "id": "type",
+      "name": {
+        "en": "Type",
+        "pt-BR": "Tipo"
+      },
+      "values": [
+        {
+          "id": "classic",
+          "name": {
+            "en": "Classic",
+            "pt-BR": "Clássica"
+          }
+        },
+        {
+          "id": "high-coverage",
+          "name": {
+            "en": "High Coverage",
+            "pt-BR": "Alta Cobertura"
+          }
+        },
+        {
+          "id": "standard-coverage",
+          "name": {
+            "en": "Standard Coverage",
+            "pt-BR": "Cobertura Padrão"
+          }
+        },
+        {
+          "id": "washable-finish",
+          "name": {
+            "en": "Washable Finish",
+            "pt-BR": "Acabamento Lavável"
+          }
+        }
+      ]
     }
   ],
   "variants": [
@@ -97,7 +134,8 @@
       "sku": "CON-INTERIOR-NAVY-ACRYLIC-PAINT-NAVY-SMALL",
       "options": {
         "color": "navy",
-        "volume": "small"
+        "volume": "small",
+        "type": "classic"
       },
       "price": {
         "BRL": 119,
@@ -146,7 +184,8 @@
       "sku": "CON-INTERIOR-NAVY-ACRYLIC-PAINT-NAVY-LARGE",
       "options": {
         "color": "navy",
-        "volume": "large"
+        "volume": "large",
+        "type": "classic"
       },
       "price": {
         "BRL": 329,
@@ -155,6 +194,282 @@
       "listPrice": {
         "BRL": 394.8,
         "USD": 158.4
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte navy interior paint",
+            "pt-BR": "Lata de tinta interna azul marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Home study with a matte navy feature wall",
+            "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "high-coverage-navy-small",
+      "sku": "CON-INTERIOR-NAVY-ACRYLIC-PAINT-NAVY-SMALL-HIGHCOVERAGE",
+      "options": {
+        "color": "navy",
+        "volume": "small",
+        "type": "high-coverage"
+      },
+      "price": {
+        "BRL": 111.86,
+        "USD": 45.12
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte navy interior paint",
+            "pt-BR": "Lata de tinta interna azul marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Home study with a matte navy feature wall",
+            "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "high-coverage-navy-large",
+      "sku": "CON-INTERIOR-NAVY-ACRYLIC-PAINT-NAVY-LARGE-HIGHCOVERAGE",
+      "options": {
+        "color": "navy",
+        "volume": "large",
+        "type": "high-coverage"
+      },
+      "price": {
+        "BRL": 334,
+        "USD": 134.01
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte navy interior paint",
+            "pt-BR": "Lata de tinta interna azul marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Home study with a matte navy feature wall",
+            "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-coverage-navy-small",
+      "sku": "CON-INTERIOR-NAVY-ACRYLIC-PAINT-NAVY-SMALL-STANDARDCOVERAGE",
+      "options": {
+        "color": "navy",
+        "volume": "small",
+        "type": "standard-coverage"
+      },
+      "price": {
+        "BRL": 104.72,
+        "USD": 42.24
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte navy interior paint",
+            "pt-BR": "Lata de tinta interna azul marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Home study with a matte navy feature wall",
+            "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "standard-coverage-navy-large",
+      "sku": "CON-INTERIOR-NAVY-ACRYLIC-PAINT-NAVY-LARGE-STANDARDCOVERAGE",
+      "options": {
+        "color": "navy",
+        "volume": "large",
+        "type": "standard-coverage"
+      },
+      "price": {
+        "BRL": 312.68,
+        "USD": 125.45
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte navy interior paint",
+            "pt-BR": "Lata de tinta interna azul marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Home study with a matte navy feature wall",
+            "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "washable-finish-navy-small",
+      "sku": "CON-INTERIOR-NAVY-ACRYLIC-PAINT-NAVY-SMALL-WASHABLEFINISH",
+      "options": {
+        "color": "navy",
+        "volume": "small",
+        "type": "washable-finish"
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 48
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Can of matte navy interior paint",
+            "pt-BR": "Lata de tinta interna azul marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "navy-white.png",
+            "#f5f5f5": "navy-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Home study with a matte navy feature wall",
+            "pt-BR": "Escritório doméstico com parede de destaque azul-marinho fosca"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "washable-finish-navy-large",
+      "sku": "CON-INTERIOR-NAVY-ACRYLIC-PAINT-NAVY-LARGE-WASHABLEFINISH",
+      "options": {
+        "color": "navy",
+        "volume": "large",
+        "type": "washable-finish"
+      },
+      "price": {
+        "BRL": 355.32,
+        "USD": 142.56
       },
       "availability": "low_stock",
       "images": [
