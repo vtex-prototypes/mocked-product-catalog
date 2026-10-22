@@ -1,5 +1,9 @@
 {
   "id": "copper-building-wire-fifteen-meter",
+  "deprecated": {
+    "reason": "Same product and photo as \"copper-building-wire\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "copper-building-wire"
+  },
   "categoryId": "construcao-eletrica",
   "name": {
     "en": "Copper Building Wire for Indoor Branch Circuits, 15 Meter Roll for Small Renovations, Sold in Two Project Packs",

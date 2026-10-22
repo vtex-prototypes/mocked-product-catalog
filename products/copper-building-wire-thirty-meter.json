@@ -1,5 +1,9 @@
 {
   "id": "copper-building-wire-thirty-meter",
+  "deprecated": {
+    "reason": "Same product and photo as \"copper-building-wire\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "copper-building-wire"
+  },
   "categoryId": "construcao-eletrica",
   "name": {
     "en": "Copper Building Wire for Indoor Branch Circuits, 30 Meter Roll for Residential Projects, Sold in Two Project Packs",

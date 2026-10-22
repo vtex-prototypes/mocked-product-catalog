@@ -1,5 +1,9 @@
 {
   "id": "type-two-white-mortar-wet-area",
+  "deprecated": {
+    "reason": "Same product and photo as \"ac2-white-mortar\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "ac2-white-mortar"
+  },
   "categoryId": "construcao-argamassas",
   "name": {
     "en": "Type II White Thinset Mortar for Light Tile, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",

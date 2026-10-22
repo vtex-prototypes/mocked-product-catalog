@@ -1,5 +1,9 @@
 {
   "id": "copper-building-wire-one-five-mm",
+  "deprecated": {
+    "reason": "Folded into \"copper-building-wire\" as a variant (gauge): it has the same photo and only that choice differs.",
+    "replacedBy": "copper-building-wire"
+  },
   "categoryId": "construcao-eletrica",
   "name": {
     "en": "Copper Building Wire for Indoor Branch Circuits, 1.5 Square Millimeter Gauge for Lighting, Sold in Two Project Packs",

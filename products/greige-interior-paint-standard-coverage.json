@@ -1,5 +1,9 @@
 {
   "id": "greige-interior-paint-standard-coverage",
+  "deprecated": {
+    "reason": "Folded into \"interior-greige-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+    "replacedBy": "interior-greige-acrylic-paint"
+  },
   "categoryId": "construcao-tintas",
   "name": {
     "en": "Greige Acrylic Paint for Indoor Walls, Standard Coverage for Prepared Surfaces, Sold in Two Project Packs",

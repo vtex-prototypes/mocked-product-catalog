@@ -1,5 +1,9 @@
 {
   "id": "white-two-piece-toilet-raised-seat",
+  "deprecated": {
+    "reason": "Folded into \"white-two-piece-toilet\" as a variant (model): it has the same photo and only that choice differs.",
+    "replacedBy": "white-two-piece-toilet"
+  },
   "categoryId": "construcao-banheiro",
   "name": {
     "en": "White Ceramic Two-Piece Toilet with Closed Seat, Raised Seat Height for Easier Use, Sold in Two Project Packs",

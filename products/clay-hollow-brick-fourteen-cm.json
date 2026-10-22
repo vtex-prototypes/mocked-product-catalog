@@ -1,5 +1,9 @@
 {
   "id": "clay-hollow-brick-fourteen-cm",
+  "deprecated": {
+    "reason": "Folded into \"clay-hollow-brick\" as a variant (model): it has the same photo and only that choice differs.",
+    "replacedBy": "clay-hollow-brick"
+  },
   "categoryId": "construcao-basicos",
   "name": {
     "en": "Hollow Clay Masonry Brick for Residential Walls, 14 Centimeter Width for Thicker Walls, Sold in Two Project Packs",

@@ -1,5 +1,9 @@
 {
   "id": "gray-pvc-tee-32-mm",
+  "deprecated": {
+    "reason": "Folded into \"gray-pvc-tee\" as a variant (size): it has the same photo and only that choice differs.",
+    "replacedBy": "gray-pvc-tee"
+  },
   "categoryId": "construcao-hidraulica",
   "name": {
     "en": "Gray PVC Tee Fitting for Cold-Water Lines, 32 Millimeter Nominal Size, Sold in Two Project Packs",

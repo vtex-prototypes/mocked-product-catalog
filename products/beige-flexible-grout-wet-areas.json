@@ -1,5 +1,9 @@
 {
   "id": "beige-flexible-grout-wet-areas",
+  "deprecated": {
+    "reason": "Same product and photo as \"flexible-beige-grout\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "flexible-beige-grout"
+  },
   "categoryId": "construcao-rejuntes",
   "name": {
     "en": "Flexible Beige Cement Grout for Tile Joints, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",

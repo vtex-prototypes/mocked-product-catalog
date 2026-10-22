@@ -1,5 +1,9 @@
 {
   "id": "sage-fish-scale-large-format",
+  "deprecated": {
+    "reason": "Folded into \"sage-fish-scale-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+    "replacedBy": "sage-fish-scale-wall-tile"
+  },
   "categoryId": "construcao-revestimentos",
   "name": {
     "en": "Sage Green Fish-Scale Ceramic Wall Tile, Large Format for Fewer Visible Joints, Sold in Two Project Packs",

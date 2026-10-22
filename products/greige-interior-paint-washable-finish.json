@@ -1,5 +1,9 @@
 {
   "id": "greige-interior-paint-washable-finish",
+  "deprecated": {
+    "reason": "Folded into \"interior-greige-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+    "replacedBy": "interior-greige-acrylic-paint"
+  },
   "categoryId": "construcao-tintas",
   "name": {
     "en": "Greige Acrylic Paint for Indoor Walls, Washable Finish for Busy Residential Rooms, Sold in Two Project Packs",

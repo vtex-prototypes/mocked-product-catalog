@@ -1,5 +1,9 @@
 {
   "id": "black-flexible-grout-standard-joints",
+  "deprecated": {
+    "reason": "Same product and photo as \"flexible-black-grout\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "flexible-black-grout"
+  },
   "categoryId": "construcao-rejuntes",
   "name": {
     "en": "Flexible Black Cement Grout for Tile Joints, for Standard 2 to 5 Millimeter Joints, Sold in Two Project Packs",

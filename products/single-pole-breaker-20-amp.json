@@ -1,5 +1,9 @@
 {
   "id": "single-pole-breaker-20-amp",
+  "deprecated": {
+    "reason": "Same product and photo as \"miniature-circuit-breaker\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "miniature-circuit-breaker"
+  },
   "categoryId": "construcao-eletrica",
   "name": {
     "en": "Single-Pole Miniature Circuit Breaker for DIN Panels, 20 Amp Rating for Residential Circuits, Sold in Two Project Packs",

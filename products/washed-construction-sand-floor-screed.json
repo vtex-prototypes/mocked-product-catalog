@@ -1,5 +1,9 @@
 {
   "id": "washed-construction-sand-floor-screed",
+  "deprecated": {
+    "reason": "Same product and photo as \"washed-medium-sand\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "washed-medium-sand"
+  },
   "categoryId": "construcao-basicos",
   "name": {
     "en": "Washed Construction Sand for Mortar and Concrete, Balanced Grade for Residential Floor Screeds, Sold in Two Project Packs",

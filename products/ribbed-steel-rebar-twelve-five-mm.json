@@ -1,5 +1,9 @@
 {
   "id": "ribbed-steel-rebar-twelve-five-mm",
+  "deprecated": {
+    "reason": "Folded into \"steel-rebar-bar\" as a variant (diameter): it has the same photo and only that choice differs.",
+    "replacedBy": "steel-rebar-bar"
+  },
   "categoryId": "construcao-basicos",
   "name": {
     "en": "Ribbed Steel Reinforcing Bar for Concrete Structures, 12.5 Millimeter Diameter for Higher Loads, Sold in Two Project Packs",

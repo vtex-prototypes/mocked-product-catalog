@@ -1,5 +1,9 @@
 {
   "id": "cream-mosaic-standard-format",
+  "deprecated": {
+    "reason": "Folded into \"cream-glass-mosaic-tile\" as a variant (format): it has the same photo and only that choice differs.",
+    "replacedBy": "cream-glass-mosaic-tile"
+  },
   "categoryId": "construcao-revestimentos",
   "name": {
     "en": "Cream Glass Mosaic Wall Tile Sheet, Standard Format for Balanced Wall Layouts, Sold in Two Project Packs",

@@ -1,5 +1,9 @@
 {
   "id": "chrome-basin-faucet-short-spout",
+  "deprecated": {
+    "reason": "Same product and photo as \"chrome-single-lever-faucet\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "chrome-single-lever-faucet"
+  },
   "categoryId": "construcao-banheiro",
   "name": {
     "en": "Chrome Single-Lever Faucet for Bathroom Basins, Short Spout for Compact Ceramic Basins, Sold in Two Project Packs",

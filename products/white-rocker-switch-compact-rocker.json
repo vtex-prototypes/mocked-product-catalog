@@ -1,5 +1,9 @@
 {
   "id": "white-rocker-switch-compact-rocker",
+  "deprecated": {
+    "reason": "Folded into \"white-rocker-switch\" as a variant (model): it has the same photo and only that choice differs.",
+    "replacedBy": "white-rocker-switch"
+  },
   "categoryId": "construcao-eletrica",
   "name": {
     "en": "White Rocker Light Switch for Indoor Walls, Compact Rocker for Modular Wall Plates, Sold in Two Project Packs",

@@ -1,5 +1,9 @@
 {
   "id": "ribbed-steel-rebar-three-meter",
+  "deprecated": {
+    "reason": "Same product and photo as \"steel-rebar-bar\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "steel-rebar-bar"
+  },
   "categoryId": "construcao-basicos",
   "name": {
     "en": "Ribbed Steel Reinforcing Bar for Concrete Structures, 10 Millimeter Diameter in a 10 Foot Bar, Sold in Two Project Packs",

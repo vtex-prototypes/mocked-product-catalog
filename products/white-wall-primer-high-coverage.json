@@ -1,5 +1,9 @@
 {
   "id": "white-wall-primer-high-coverage",
+  "deprecated": {
+    "reason": "Folded into \"acrylic-wall-primer\" as a variant (type): it has the same photo and only that choice differs.",
+    "replacedBy": "acrylic-wall-primer"
+  },
   "categoryId": "construcao-tintas",
   "name": {
     "en": "White Acrylic Wall Primer for Masonry and Drywall, High Coverage for Renovation Coats, Sold in Two Project Packs",

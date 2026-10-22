@@ -1,5 +1,9 @@
 {
   "id": "clay-hollow-brick-nine-cm",
+  "deprecated": {
+    "reason": "Folded into \"clay-hollow-brick\" as a variant (model): it has the same photo and only that choice differs.",
+    "replacedBy": "clay-hollow-brick"
+  },
   "categoryId": "construcao-basicos",
   "name": {
     "en": "Hollow Clay Masonry Brick for Residential Walls, 9 Centimeter Width for Light Partitions, Sold in Two Project Packs",

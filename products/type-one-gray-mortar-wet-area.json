@@ -1,5 +1,9 @@
 {
   "id": "type-one-gray-mortar-wet-area",
+  "deprecated": {
+    "reason": "Same product and photo as \"ac1-tile-mortar\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "ac1-tile-mortar"
+  },
   "categoryId": "construcao-argamassas",
   "name": {
     "en": "Type I Gray Thinset Mortar for Ceramic Tile, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",

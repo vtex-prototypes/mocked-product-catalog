@@ -1,5 +1,9 @@
 {
   "id": "portland-cement-foundation-repair",
+  "deprecated": {
+    "reason": "Same product and photo as \"portland-cement-bag\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "portland-cement-bag"
+  },
   "categoryId": "construcao-basicos",
   "name": {
     "en": "Portland Cement for Concrete and General Masonry, Selected for Foundation Repairs, Sold in Two Project Packs",

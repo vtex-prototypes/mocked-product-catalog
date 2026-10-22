@@ -1,5 +1,9 @@
 {
   "id": "brass-ball-valve-half-inch",
+  "deprecated": {
+    "reason": "Folded into \"brass-ball-valve\" as a variant (thread size): it has the same photo and only that choice differs.",
+    "replacedBy": "brass-ball-valve"
+  },
   "categoryId": "construcao-hidraulica",
   "name": {
     "en": "Brass Ball Valve with Lever for Water Lines, Half-Inch Thread for Compact Lines, Sold in Two Project Packs",

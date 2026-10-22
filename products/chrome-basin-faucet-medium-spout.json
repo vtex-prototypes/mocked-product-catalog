@@ -1,5 +1,9 @@
 {
   "id": "chrome-basin-faucet-medium-spout",
+  "deprecated": {
+    "reason": "Folded into \"chrome-single-lever-faucet\" as a variant (model): it has the same photo and only that choice differs.",
+    "replacedBy": "chrome-single-lever-faucet"
+  },
   "categoryId": "construcao-banheiro",
   "name": {
     "en": "Chrome Single-Lever Faucet for Bathroom Basins, Medium Spout for Standard Bathroom Basins, Sold in Two Project Packs",

@@ -1,5 +1,9 @@
 {
   "id": "gray-pvc-coupling-20-mm",
+  "deprecated": {
+    "reason": "Folded into \"gray-pvc-coupling\" as a variant (size): it has the same photo and only that choice differs.",
+    "replacedBy": "gray-pvc-coupling"
+  },
   "categoryId": "construcao-hidraulica",
   "name": {
     "en": "Gray PVC Straight Coupling for Cold-Water Lines, 20 Millimeter Nominal Size, Sold in Two Project Packs",

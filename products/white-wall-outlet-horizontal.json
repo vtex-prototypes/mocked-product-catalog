@@ -1,5 +1,9 @@
 {
   "id": "white-wall-outlet-horizontal",
+  "deprecated": {
+    "reason": "Folded into \"white-duplex-outlet\" as a variant (model): it has the same photo and only that choice differs.",
+    "replacedBy": "white-duplex-outlet"
+  },
   "categoryId": "construcao-eletrica",
   "name": {
     "en": "White Wall Outlet for Residential Branch Circuits, Horizontal Plate for Standard Installations, Sold in Two Project Packs",

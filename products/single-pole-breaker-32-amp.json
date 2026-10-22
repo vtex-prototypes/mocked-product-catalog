@@ -1,5 +1,9 @@
 {
   "id": "single-pole-breaker-32-amp",
+  "deprecated": {
+    "reason": "Folded into \"miniature-circuit-breaker\" as a variant (rating): it has the same photo and only that choice differs.",
+    "replacedBy": "miniature-circuit-breaker"
+  },
   "categoryId": "construcao-eletrica",
   "name": {
     "en": "Single-Pole Miniature Circuit Breaker for DIN Panels, 32 Amp Rating for Residential Circuits, Sold in Two Project Packs",

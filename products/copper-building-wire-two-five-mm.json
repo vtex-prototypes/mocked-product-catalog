@@ -1,5 +1,9 @@
 {
   "id": "copper-building-wire-two-five-mm",
+  "deprecated": {
+    "reason": "Same product and photo as \"copper-building-wire\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "copper-building-wire"
+  },
   "categoryId": "construcao-eletrica",
   "name": {
     "en": "Copper Building Wire for Indoor Branch Circuits, 2.5 Square Millimeter Gauge for Outlets, Sold in Two Project Packs",

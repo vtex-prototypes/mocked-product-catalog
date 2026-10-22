@@ -1,5 +1,9 @@
 {
   "id": "self-leveling-compound-wet-area",
+  "deprecated": {
+    "reason": "Same product and photo as \"self-leveling-floor-compound\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "self-leveling-floor-compound"
+  },
   "categoryId": "construcao-argamassas",
   "name": {
     "en": "Gray Self-Leveling Compound for Concrete Floors, for Residential Kitchens and Wet Areas, Sold in Two Project Packs",

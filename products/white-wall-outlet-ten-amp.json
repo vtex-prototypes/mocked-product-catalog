@@ -1,5 +1,9 @@
 {
   "id": "white-wall-outlet-ten-amp",
+  "deprecated": {
+    "reason": "Same product and photo as \"white-duplex-outlet\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "white-duplex-outlet"
+  },
   "categoryId": "construcao-eletrica",
   "name": {
     "en": "White Wall Outlet for Residential Branch Circuits, 10 Amp Configuration for General Use, Sold in Two Project Packs",

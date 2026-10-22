@@ -1,5 +1,9 @@
 {
   "id": "cement-basecoat-renovation",
+  "deprecated": {
+    "reason": "Same product and photo as \"cement-basecoat-plaster\": the difference was only its intended use, or something that product already offers.",
+    "replacedBy": "cement-basecoat-plaster"
+  },
   "categoryId": "construcao-argamassas",
   "name": {
     "en": "Gray Cement Basecoat Plaster for Masonry Walls, for Renovation over Prepared Substrates, Sold in Two Project Packs",

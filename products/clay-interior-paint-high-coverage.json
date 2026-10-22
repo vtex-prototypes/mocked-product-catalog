@@ -1,5 +1,9 @@
 {
   "id": "clay-interior-paint-high-coverage",
+  "deprecated": {
+    "reason": "Folded into \"interior-clay-acrylic-paint\" as a variant (type): it has the same photo and only that choice differs.",
+    "replacedBy": "interior-clay-acrylic-paint"
+  },
   "categoryId": "construcao-tintas",
   "name": {
     "en": "Warm Clay Acrylic Paint for Indoor Walls, High Coverage for Renovation Coats, Sold in Two Project Packs",

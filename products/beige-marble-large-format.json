@@ -1,5 +1,9 @@
 {
   "id": "beige-marble-large-format",
+  "deprecated": {
+    "reason": "Folded into \"beige-marble-wall-tile\" as a variant (format): it has the same photo and only that choice differs.",
+    "replacedBy": "beige-marble-wall-tile"
+  },
   "categoryId": "construcao-revestimentos",
   "name": {
     "en": "Beige Marble-Look Porcelain Wall Tile, Large Format for Fewer Visible Joints, Sold in Two Project Packs",
