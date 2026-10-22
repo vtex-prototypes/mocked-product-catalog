@@ -43,7 +43,36 @@ Work on a branch. Generate the white PNG with the prompt in the README, with the
 
 Open the PR with `gh pr create` and fill in the template. Confirm by eye: no shadow, no text, no logo, no trademark.
 
-Each new product needs a photo a person can tell apart at a glance: a different object, color, shape, material, or angle. A different size, pack, gauge, rating, or install note on the same picture is not variety. Variants of one product may share a photo when that difference would not show. If a request only works by shipping lookalike photos, stop before generating files and say how many products would look alike and in which categories. The default is to skip those and add only products with their own photo. A count target is not permission. Continue with lookalike photos only after the person explicitly confirms that warning.
+## One product, many variants
+
+A product is one object a shopper would put in a cart. Everything that changes how much of it, or which version of it, is a **variant** of that product. This rule comes before any count target, and `npm run validate` enforces it: it fails when two products that are not deprecated share a photo file.
+
+Make it a variant, never a second product, when the only differences are:
+
+- a size, length, width, diameter, gauge, capacity, volume, weight, or pack count;
+- a rating or model of the same item: amperage, thread, with or without a part;
+- a grade, finish, or formulation of the same item;
+- a color of the same object, with its own photo per color.
+
+An intended use is not a difference at all. "Portland cement for slabs", "for screeds" and "for foundations" are one cement. Do not create a product, and not a variant either, for a use: put the uses in the description and the tags.
+
+Check before you write a file. If any answer is yes, it is one product:
+
+1. Would the two photos be the same picture, or the same object with only its size or label different?
+2. Does the name differ only by a size, rating, model, pack, color, or "for <use>"?
+3. Would a store list it as one item with a menu to choose from?
+
+Counts never justify a split. "30 products per category" is not permission to turn one cement, one wire or one toilet into eight products: if a category is short, add objects that are really different and have their own photo, or report how many you reached. Do not get around the check by redrawing or retouching the same picture. A picture of the same object is the same product.
+
+Lookalike photos are a related, weaker problem. Each new product needs a photo a person can tell apart at a glance: a different object, color, shape, material, or angle. Variants of one product may share a photo when the difference would not show. If a request only works by shipping lookalike photos, stop before generating files and say how many products would look alike and in which categories. The default is to skip those and add only products with their own photo. A count target is not permission. Continue with lookalike photos only after the person explicitly confirms that warning.
+
+```text
+Bad: eight Portland cement products, "for slabs", "for screeds", "for foundations"…, one bag photo.
+Good: one Portland cement with a pack option, and masonry, white, rapid-set and sulfate-resistant cement as their own products, each on a bag that looks different.
+
+Bad: single-pole-breaker-10-amp, -16-amp, -20-amp as three products on the same module photo.
+Good: one miniature circuit breaker with a rating option (10, 16, 20 A) and a pack option.
+```
 
 Add an application photo when seeing the product in use would materially help someone decide. It supplements, and never replaces, the isolated product photo. Show a representative use at a useful scale without implying a property or installation that the product does not declare. Paint always needs an application photo of a painted room, facade, floor, ceiling, door, or other appropriate surface that matches its color, finish, and indoor or outdoor application. Keep application photos free of text, logos, and real brands, inset them on the required white canvas, and generate the gray-background twin from that same image.
 
