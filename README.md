@@ -48,6 +48,8 @@ A product in `catalog.json` looks like this. Photos live on the variant, and eve
   "defaultVariantId": "white-standard",
   "price": { "BRL": 69.9, "USD": 16.99 },
   "availability": "in_stock",
+  "unitId": "unit",
+  "unit": { "id": "unit", "kind": "count", "name": { "en": { "one": "unit", "other": "units" }, "pt-BR": { "one": "unidade", "other": "unidades" } } },
   "options": [
     {
       "id": "color",
@@ -95,6 +97,7 @@ Field notes:
 - Every price is an object keyed by currency: `BRL` and `USD`. USD values are plausible US retail prices, not conversions.
 - `price` and `availability` on the product match the default variant, so a product card can render before a variant is chosen. The real numbers live on `variants`.
 - Names are deliberately long (60+ characters), like real marketplace listings, so prototypes see real wrapping and truncation.
+- `unitId` is how it is sold, from `units.json`: `can`, `bag`, `piece`, `area`… Leave it out for a single item (`unit`). A variant sold differently sets its own. `catalog.json` adds `unit`, with `kind` and the localized `one` and `other` names, on the product (from the default variant) and on every variant.
 - `brandId` is optional and points at `brands.json`. `catalog.json` adds `brand` with the localized name. Leave it out when the product has no brand.
 - `specifications` point at `specifications.json` by `id` and `valueId`. Material and capacity live there, so "cotton" is the same value on a towel and a sheet. `catalog.json` adds the localized `name` and `value`.
 - `options` are the axes a shopper picks, and a product can have several. Color stays on the product and carries a `hex` swatch. A shared axis such as apparel size sets `specificationId` and each value's `valueId`, and the label comes from `specifications.json`. The pillow has color and size; a jacket has color and size; a bottle can have volume only.
@@ -202,6 +205,7 @@ AGENTS.md                   # instructions for agents consuming and contributing
 CONSUMING.md                # how to pick products for a prototype (coverage table is generated)
 brands.json                 # fictional brands, referenced by products
 specifications.json         # shared values a shopper filters or compares
+units.json                  # how products are sold: can, bag, piece, area…
 categories.json             # category tree
 products/*.json             # one file per published product (source of truth)
 images/<id>/*-white.png    # source photo on white

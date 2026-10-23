@@ -154,3 +154,24 @@ test("a newer major release warns once, without blocking the load", async () => 
   assert.equal(warnings.length, 1);
   assert.match(warnings[0], /v2\.0\.1 is out.*v1\.2\.0.*releases\/tag\/v2\.0\.0/);
 });
+
+test("every variant says how it is sold, and the product mirrors the default", async () => {
+  const { products } = await load();
+  for (const p of products) {
+    assert.ok(p.unit?.name?.en?.one, `${p.id} has no unit`);
+    for (const v of p.variants) assert.ok(v.unit?.id, `${p.id}/${v.id} has no unit`);
+    assert.equal(p.unit.id, p.variants.find((v) => v.id === p.defaultVariantId).unit.id);
+  }
+});
+
+test("an override of unitId reaches the variants, and a variant can be sold differently", async () => {
+  const { products } = await load({
+    products: [product.id],
+    overrides: { products: { [product.id]: { unitId: "can", variants: { [other.id]: { unitId: "bucket" } } } } },
+  });
+  const p = products[0];
+  assert.equal(p.unitId, "can");
+  assert.equal(p.variants.find((v) => v.id === def.id).unit.id, "can");
+  assert.equal(p.variants.find((v) => v.id === other.id).unit.id, "bucket");
+  assert.equal(p.unit.name["pt-BR"].other, "latas");
+});

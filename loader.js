@@ -86,6 +86,21 @@ function syncDefault(product) {
   return out;
 }
 
+// How each variant is sold: its own unitId, else the product's, else "unit", with
+// the names from units.json. The product's unit mirrors the default variant.
+// Done here too so an override or an added product that sets unitId gets the names.
+function withUnits(product, units, warn) {
+  if (!units.length) return product;
+  const byId = new Map(units.map((u) => [u.id, u]));
+  const resolve = (id) => {
+    const u = byId.get(id) ?? (warn(`unit "${id}" on "${product.id}" is not in units.json; using "unit"`), byId.get("unit"));
+    return { id: u.id, kind: u.kind, name: u.name };
+  };
+  const variants = product.variants.map((v) => ({ ...v, unit: resolve(v.unitId ?? product.unitId ?? "unit") }));
+  const def = variants.find((v) => v.id === product.defaultVariantId) ?? variants[0];
+  return { ...product, unitId: product.unitId ?? "unit", unit: def.unit, variants };
+}
+
 function absolutize(product, base) {
   return {
     ...product,
@@ -157,6 +172,7 @@ export async function loadCatalog({ categories: wantedCategories, products: want
     products = products.filter((p) => p.id !== local.id).concat({ ...syncDefault(local), local: true });
   }
 
+  products = products.map((p) => withUnits(p, catalog.units ?? [], warn));
   warnDeprecated(products, warn);
   return { ...catalog, base: root, version, products };
 }

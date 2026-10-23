@@ -28,6 +28,7 @@ function ids(catalog) {
   const out = new Set();
   for (const c of catalog.categories) out.add(`category:${c.id}`);
   for (const b of catalog.brands) out.add(`brand:${b.id}`);
+  for (const u of catalog.units ?? []) out.add(`unit:${u.id}`);
   for (const s of catalog.specifications) {
     out.add(`specification:${s.id}`);
     for (const v of s.values) out.add(`specification value:${s.id}/${v.id}`);

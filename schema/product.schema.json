@@ -84,6 +84,10 @@
       }
     },
     "categoryId": { "type": "string", "description": "An id from categories.json." },
+    "unitId": {
+      "type": "string",
+      "description": "How it is sold: one id from units.json, the thing one price buys and one step of the quantity counts (can, bag, piece, area…). Leave it out for a single item (\"unit\"). A variant sold differently (an 18 L bucket next to a 3.6 L can) sets its own."
+    },
     "deprecated": { "$ref": "#/$defs/deprecated" },
     "name": {
       "$ref": "#/$defs/localized",
@@ -142,6 +146,7 @@
         "properties": {
           "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
           "sku": { "type": "string", "minLength": 1 },
+          "unitId": { "type": "string", "description": "Only when this variant is sold differently from the product's unitId, such as a bucket among cans or a box among pieces." },
           "options": { "type": "object", "additionalProperties": { "type": "string" }, "description": "option id to value id, e.g. { \"color\": \"sage\", \"size\": \"queen\" }" },
           "price": { "$ref": "#/$defs/money" },
           "listPrice": { "$ref": "#/$defs/money" },

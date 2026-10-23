@@ -42,6 +42,7 @@ List the fields each screen shows. A product card and a product page almost alwa
 | Brand | `brand.name[locale]`, from `brandId` | Card, page |
 | Specifications | `specifications`, each `value[locale]` | Filters, spec table, page |
 | Price | `price[currency]`, or the selected variant's `price` | Card, page |
+| Sales unit | `unit.name[locale].one` next to the price ("$44.00/can", "R$ 92,90/m²"), `.other` with a quantity; or the selected variant's `unit`. `unit.kind` is `area` when the quantity is an area | Card, page, cart |
 | Sale price | `listPrice[currency]`, only present when that variant is on sale | Card, page |
 | Availability | `in_stock`, `low_stock`, `out_of_stock` | Card, page, button |
 | Options | `options` (color swatches use `hex`; size, volume, capacity and others are the same shape) | Page, sometimes the card |
@@ -51,7 +52,7 @@ List the fields each screen shows. A product card and a product page almost alwa
 | Category | `categoryId`, resolved through `categories` | Listing, breadcrumb |
 | Tags | `tags[locale]` | Filters, rarely the card |
 
-`price` and `availability` on the product match the default variant, so a card can render before anyone picks an option. Once an option changes, read price, stock and photos from that variant. Some variants are out of stock on purpose.
+`price`, `availability` and `unit` on the product match the default variant, so a card can render before anyone picks an option. Once an option changes, read price, stock, unit and photos from that variant: an 18 L bucket can sit next to a 3.6 L can. One price buys one unit, and a quantity counts units. An `area` unit is sq ft in `en` (priced in USD) and m² in `pt-BR` (priced in BRL). Some variants are out of stock on purpose.
 
 Write the list in the prototype brief. Example for a grocery home: photo, short-enough name, price, and a low-stock badge on the card; description, pack size and availability on the page. Example for a fashion product page: photo gallery, name, price, sale price, color swatches, size, and a disabled button when the chosen size is `out_of_stock`.
 

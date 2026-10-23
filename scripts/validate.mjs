@@ -104,6 +104,24 @@ for (const spec of specifications) {
   }
   specById.set(spec.id, values);
 }
+// How things are sold: one price buys one of these, and the quantity counts them.
+const UNIT_KINDS = new Set(["count", "area"]);
+const units = JSON.parse(readFileSync(join(ROOT, "units.json"), "utf8"));
+const unitIds = new Set();
+for (const u of units) {
+  const label = `units.json/${u.id}`;
+  if (!SLUG.test(u.id ?? "")) { err("units.json", `unit id "${u.id}" must be a kebab-case slug`); continue; }
+  if (unitIds.has(u.id)) err("units.json", `duplicate unit "${u.id}"`);
+  unitIds.add(u.id);
+  if (!UNIT_KINDS.has(u.kind)) err(label, `"kind" must be one of ${[...UNIT_KINDS].join(", ")}`);
+  if (!u.name || typeof u.name !== "object") { err(label, `"name" must have ${LOCALES.join(", ")}, each with "one" and "other"`); continue; }
+  for (const loc of LOCALES) {
+    for (const form of ["one", "other"]) {
+      if (typeof u.name[loc]?.[form] !== "string" || !u.name[loc][form].trim()) err(label, `"name.${loc}.${form}" must be a string`);
+    }
+  }
+}
+if (!unitIds.has("unit")) err("units.json", `needs the default unit "unit", for products that leave unitId out`);
 for (const c of categories) {
   if (!SLUG.test(c.id ?? "")) err(`categories.json`, `category id "${c.id}" must be a kebab-case slug`);
   checkLocalized(`categories.json/${c.id}`, "name", c.name, 2);
@@ -138,6 +156,7 @@ function validateProduct(file) {
     }
   }
   if (!categoryIds.has(p.categoryId)) err(id, `unknown categoryId "${p.categoryId}" (see categories.json)`);
+  if (p.unitId !== undefined && !unitIds.has(p.unitId)) err(id, `unknown unitId "${p.unitId}" (see units.json)`);
   if (p.deprecated !== undefined) {
     const replacedBy = checkDeprecated(id, "", p.deprecated);
     deprecatedProducts.set(id, replacedBy);
@@ -254,6 +273,10 @@ function validateVariants(id, p, dir) {
     if (variantIds.has(v.id)) err(id, `duplicate variant "${v.id}"`);
     variantIds.add(v.id);
     if (typeof v.sku !== "string" || !v.sku.trim()) err(id, `${label} needs a "sku"`);
+    if (v.unitId !== undefined) {
+      if (!unitIds.has(v.unitId)) err(id, `${label} has unknown unitId "${v.unitId}" (see units.json)`);
+      else if (v.unitId === (p.unitId ?? "unit")) err(id, `${label} unitId "${v.unitId}" is already the product's; set it on a variant only when that variant is sold differently`);
+    }
     for (const [optId, values] of optionValues) {
       const chosen = v.options?.[optId];
       if (!values.has(chosen)) err(id, `${label} options.${optId} "${chosen ?? ""}" is not one of ${[...values].join(", ")}`);
