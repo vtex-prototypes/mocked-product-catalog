@@ -1,6 +1,7 @@
 {
   "id": "plumber-visit-service",
   "categoryId": "construcao-servicos",
+  "unitId": "visit",
   "name": {
     "en": "Licensed Plumber Visit for Installing Pipes, Fittings and Faucets with a Leak Test, Sold by the Visit",
     "pt-BR": "Visita de Encanador Credenciado para Instalar Tubos, Conexões e Torneiras com Teste de Vazamento"

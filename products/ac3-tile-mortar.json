@@ -1,6 +1,7 @@
 {
   "id": "ac3-tile-mortar",
   "categoryId": "construcao-argamassas",
+  "unitId": "bag",
   "name": {
     "en": "Type III White Thinset Mortar for Porcelain, Large Formats and Tile over Tile, 44 Pound Bag",
     "pt-BR": "Argamassa Colante AC-III Branca para Porcelanato, Grande Formato e Piso sobre Piso, Saco de 20 kg"

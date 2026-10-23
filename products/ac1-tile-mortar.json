@@ -1,6 +1,7 @@
 {
   "id": "ac1-tile-mortar",
   "categoryId": "construcao-argamassas",
+  "unitId": "bag",
   "name": {
     "en": "Type I Gray Thinset Mortar for Indoor Ceramic Floors and Walls, 44 Pound Bag",
     "pt-BR": "Argamassa Colante AC-I Cinza para Cerâmica em Piso e Parede Internos, Saco de 20 kg"

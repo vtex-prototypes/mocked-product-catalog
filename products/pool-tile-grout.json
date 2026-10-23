@@ -1,6 +1,7 @@
 {
   "id": "pool-tile-grout",
   "categoryId": "construcao-rejuntes",
+  "unitId": "bucket",
   "name": {
     "en": "Pool Tile Grout for Submerged Joints in Pools, Fountains and Water Tanks, Sold by the Bucket",
     "pt-BR": "Rejunte para Piscinas para Juntas Submersas em Piscinas, Fontes e Reservatórios, Vendido por Balde"

@@ -1,6 +1,7 @@
 {
   "id": "pvc-water-pipe",
   "categoryId": "construcao-hidraulica",
+  "unitId": "length",
   "name": {
     "en": "Gray PVC Cold-Water Pipe, 1 Inch Diameter, Sold by the Length",
     "pt-BR": "Tubo de PVC Cinza para Água Fria, 25 mm de Diâmetro, Vendido por Barra"

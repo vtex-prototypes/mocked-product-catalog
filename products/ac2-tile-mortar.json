@@ -1,6 +1,7 @@
 {
   "id": "ac2-tile-mortar",
   "categoryId": "construcao-argamassas",
+  "unitId": "bag",
   "name": {
     "en": "Type II Gray Thinset Mortar for Outdoor Ceramic Floors and Facades, 44 Pound Bag",
     "pt-BR": "Argamassa Colante AC-II Cinza para Cerâmica em Área Externa e Fachada, Saco de 20 kg"

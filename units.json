@@ -3,160 +3,308 @@
     "id": "unit",
     "kind": "count",
     "name": {
-      "en": { "one": "unit", "other": "units" },
-      "pt-BR": { "one": "unidade", "other": "unidades" }
+      "en": {
+        "one": "unit",
+        "other": "units"
+      },
+      "pt-BR": {
+        "one": "unidade",
+        "other": "unidades"
+      }
     }
   },
   {
     "id": "area",
     "kind": "area",
     "name": {
-      "en": { "one": "sq ft", "other": "sq ft" },
-      "pt-BR": { "one": "m²", "other": "m²" }
+      "en": {
+        "one": "sq ft",
+        "other": "sq ft"
+      },
+      "pt-BR": {
+        "one": "m²",
+        "other": "m²"
+      }
     }
   },
   {
     "id": "bag",
     "kind": "count",
     "name": {
-      "en": { "one": "bag", "other": "bags" },
-      "pt-BR": { "one": "saco", "other": "sacos" }
+      "en": {
+        "one": "bag",
+        "other": "bags"
+      },
+      "pt-BR": {
+        "one": "saco",
+        "other": "sacos"
+      }
     }
   },
   {
     "id": "bar",
     "kind": "count",
     "name": {
-      "en": { "one": "bar", "other": "bars" },
-      "pt-BR": { "one": "barra", "other": "barras" }
+      "en": {
+        "one": "bar",
+        "other": "bars"
+      },
+      "pt-BR": {
+        "one": "barra",
+        "other": "barras"
+      }
+    }
+  },
+  {
+    "id": "box",
+    "kind": "count",
+    "name": {
+      "en": {
+        "one": "box",
+        "other": "boxes"
+      },
+      "pt-BR": {
+        "one": "caixa",
+        "other": "caixas"
+      }
     }
   },
   {
     "id": "bucket",
     "kind": "count",
     "name": {
-      "en": { "one": "bucket", "other": "buckets" },
-      "pt-BR": { "one": "balde", "other": "baldes" }
+      "en": {
+        "one": "bucket",
+        "other": "buckets"
+      },
+      "pt-BR": {
+        "one": "balde",
+        "other": "baldes"
+      }
     }
   },
   {
     "id": "can",
     "kind": "count",
     "name": {
-      "en": { "one": "can", "other": "cans" },
-      "pt-BR": { "one": "lata", "other": "latas" }
+      "en": {
+        "one": "can",
+        "other": "cans"
+      },
+      "pt-BR": {
+        "one": "lata",
+        "other": "latas"
+      }
     }
   },
   {
     "id": "jar",
     "kind": "count",
     "name": {
-      "en": { "one": "jar", "other": "jars" },
-      "pt-BR": { "one": "pote", "other": "potes" }
+      "en": {
+        "one": "jar",
+        "other": "jars"
+      },
+      "pt-BR": {
+        "one": "pote",
+        "other": "potes"
+      }
     }
   },
   {
     "id": "kit",
     "kind": "count",
     "name": {
-      "en": { "one": "kit", "other": "kits" },
-      "pt-BR": { "one": "kit", "other": "kits" }
+      "en": {
+        "one": "kit",
+        "other": "kits"
+      },
+      "pt-BR": {
+        "one": "kit",
+        "other": "kits"
+      }
     }
   },
   {
     "id": "length",
     "kind": "count",
     "name": {
-      "en": { "one": "length", "other": "lengths" },
-      "pt-BR": { "one": "barra", "other": "barras" }
+      "en": {
+        "one": "length",
+        "other": "lengths"
+      },
+      "pt-BR": {
+        "one": "barra",
+        "other": "barras"
+      }
     }
   },
   {
     "id": "pack",
     "kind": "count",
     "name": {
-      "en": { "one": "pack", "other": "packs" },
-      "pt-BR": { "one": "pacote", "other": "pacotes" }
+      "en": {
+        "one": "pack",
+        "other": "packs"
+      },
+      "pt-BR": {
+        "one": "pacote",
+        "other": "pacotes"
+      }
     }
   },
   {
     "id": "pail",
     "kind": "count",
     "name": {
-      "en": { "one": "pail", "other": "pails" },
-      "pt-BR": { "one": "balde", "other": "baldes" }
+      "en": {
+        "one": "pail",
+        "other": "pails"
+      },
+      "pt-BR": {
+        "one": "balde",
+        "other": "baldes"
+      }
     }
   },
   {
     "id": "pair",
     "kind": "count",
     "name": {
-      "en": { "one": "pair", "other": "pairs" },
-      "pt-BR": { "one": "par", "other": "pares" }
+      "en": {
+        "one": "pair",
+        "other": "pairs"
+      },
+      "pt-BR": {
+        "one": "par",
+        "other": "pares"
+      }
     }
   },
   {
     "id": "piece",
     "kind": "count",
     "name": {
-      "en": { "one": "piece", "other": "pieces" },
-      "pt-BR": { "one": "peça", "other": "peças" }
+      "en": {
+        "one": "piece",
+        "other": "pieces"
+      },
+      "pt-BR": {
+        "one": "peça",
+        "other": "peças"
+      }
     }
   },
   {
     "id": "plan",
     "kind": "count",
     "name": {
-      "en": { "one": "plan", "other": "plans" },
-      "pt-BR": { "one": "plano", "other": "planos" }
+      "en": {
+        "one": "plan",
+        "other": "plans"
+      },
+      "pt-BR": {
+        "one": "plano",
+        "other": "planos"
+      }
     }
   },
   {
     "id": "roll",
     "kind": "count",
     "name": {
-      "en": { "one": "roll", "other": "rolls" },
-      "pt-BR": { "one": "rolo", "other": "rolos" }
+      "en": {
+        "one": "roll",
+        "other": "rolls"
+      },
+      "pt-BR": {
+        "one": "rolo",
+        "other": "rolos"
+      }
     }
   },
   {
     "id": "set",
     "kind": "count",
     "name": {
-      "en": { "one": "set", "other": "sets" },
-      "pt-BR": { "one": "jogo", "other": "jogos" }
+      "en": {
+        "one": "set",
+        "other": "sets"
+      },
+      "pt-BR": {
+        "one": "jogo",
+        "other": "jogos"
+      }
+    }
+  },
+  {
+    "id": "sheet",
+    "kind": "count",
+    "name": {
+      "en": {
+        "one": "sheet",
+        "other": "sheets"
+      },
+      "pt-BR": {
+        "one": "placa",
+        "other": "placas"
+      }
     }
   },
   {
     "id": "tin",
     "kind": "count",
     "name": {
-      "en": { "one": "tin", "other": "tins" },
-      "pt-BR": { "one": "lata", "other": "latas" }
+      "en": {
+        "one": "tin",
+        "other": "tins"
+      },
+      "pt-BR": {
+        "one": "lata",
+        "other": "latas"
+      }
     }
   },
   {
     "id": "tub",
     "kind": "count",
     "name": {
-      "en": { "one": "tub", "other": "tubs" },
-      "pt-BR": { "one": "pote", "other": "potes" }
+      "en": {
+        "one": "tub",
+        "other": "tubs"
+      },
+      "pt-BR": {
+        "one": "pote",
+        "other": "potes"
+      }
     }
   },
   {
     "id": "tube",
     "kind": "count",
     "name": {
-      "en": { "one": "tube", "other": "tubes" },
-      "pt-BR": { "one": "bisnaga", "other": "bisnagas" }
+      "en": {
+        "one": "tube",
+        "other": "tubes"
+      },
+      "pt-BR": {
+        "one": "bisnaga",
+        "other": "bisnagas"
+      }
     }
   },
   {
     "id": "visit",
     "kind": "count",
     "name": {
-      "en": { "one": "visit", "other": "visits" },
-      "pt-BR": { "one": "visita", "other": "visitas" }
+      "en": {
+        "one": "visit",
+        "other": "visits"
+      },
+      "pt-BR": {
+        "one": "visita",
+        "other": "visitas"
+      }
     }
   }
 ]

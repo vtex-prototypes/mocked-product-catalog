@@ -1,6 +1,7 @@
 {
   "id": "electrician-visit-service",
   "categoryId": "construcao-servicos",
+  "unitId": "visit",
   "name": {
     "en": "Licensed Electrician Visit for Installing Outlets, Switches and Wiring with a Safety Check, Sold by the Visit",
     "pt-BR": "Visita de Eletricista Credenciado para Instalar Tomadas, Interruptores e Fiação com Teste de Segurança"
