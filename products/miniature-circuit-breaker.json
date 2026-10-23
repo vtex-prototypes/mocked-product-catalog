@@ -3,8 +3,8 @@
   "categoryId": "construcao-eletrica",
   "unitId": "piece",
   "name": {
-    "en": "White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
-    "pt-BR": "Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"
+    "en": "White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel",
+    "pt-BR": "Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno"
   },
   "description": {
     "en": "A single-pole miniature breaker for an indoor panel. Match the amp rating to the circuit before it goes in the rail. The listed price is for one module.",
