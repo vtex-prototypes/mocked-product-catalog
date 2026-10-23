@@ -1,6 +1,7 @@
 {
   "id": "old-floor-removal-service",
   "categoryId": "construcao-servicos",
+  "unitId": "area",
   "name": {
     "en": "Old Floor Removal and Haul-Away Service for Ceramic, Porcelain and Vinyl Floors, Priced per Square Foot",
     "pt-BR": "Serviço de Remoção e Descarte do Piso Antigo de Cerâmica, Porcelanato e Vinílico, Preço por Metro Quadrado"

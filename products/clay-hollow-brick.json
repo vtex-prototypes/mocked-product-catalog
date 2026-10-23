@@ -1,6 +1,7 @@
 {
   "id": "clay-hollow-brick",
   "categoryId": "construcao-basicos",
+  "unitId": "piece",
   "name": {
     "en": "Red Clay Hollow Structural Brick for Indoor and Outdoor Walls, Sold by the Piece",
     "pt-BR": "Tijolo Cerâmico Furado de Barro para Parede Interna e Externa, Vendido por Peça"

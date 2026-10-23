@@ -1,6 +1,7 @@
 {
   "id": "portland-cement-bag",
   "categoryId": "construcao-basicos",
+  "unitId": "bag",
   "name": {
     "en": "Portland Cement for General Concrete and Mortar Mixes, a 94 Pound Paper Bag, Sold by the Bag",
     "pt-BR": "Cimento Portland para Concreto e Argamassa em Geral, Saco de Papel de 50 kg, Vendido por Saco"

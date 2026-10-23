@@ -1,6 +1,7 @@
 {
   "id": "copper-building-wire",
   "categoryId": "construcao-eletrica",
+  "unitId": "roll",
   "name": {
     "en": "Bare Copper Building Wire, 2.5 Square Millimeters, a Coil for Indoor Branch Circuits, Sold by the Roll",
     "pt-BR": "Fio de Cobre para Instalação de 2,5 mm², Rolo para Circuito Interno, Vendido por Rolo"

@@ -1,6 +1,7 @@
 {
   "id": "brick-slip-wall-tile",
   "categoryId": "construcao-revestimentos",
+  "unitId": "area",
   "name": {
     "en": "Matte Terracotta Brick-Slip Wall Tile, about 2 by 8 Inches, for an Indoor Feature Wall, Priced per Square Foot",
     "pt-BR": "Revestimento Tijolinho de Barro Terracota Fosco para Parede Interna, Preço por Metro Quadrado"

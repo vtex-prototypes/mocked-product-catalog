@@ -1,6 +1,7 @@
 {
   "id": "miniature-circuit-breaker",
   "categoryId": "construcao-eletrica",
+  "unitId": "piece",
   "name": {
     "en": "White Miniature Circuit Breaker, a Single Pole Module for an Indoor Panel, Sold by the Piece",
     "pt-BR": "Disjuntor Miniatura Branco, Módulo Unipolar para Quadro Interno, Vendido por Peça"

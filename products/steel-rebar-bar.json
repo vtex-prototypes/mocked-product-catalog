@@ -1,6 +1,7 @@
 {
   "id": "steel-rebar-bar",
   "categoryId": "construcao-basicos",
+  "unitId": "bar",
   "name": {
     "en": "Deformed Steel Rebar, 3/8 Inch Diameter and 10 Feet Long, for Concrete, Sold by the Bar",
     "pt-BR": "Vergalhão de Aço Nervurado de 10 mm com 3 m de Comprimento, para Concreto, Vendido por Barra"

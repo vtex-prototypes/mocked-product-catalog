@@ -1,6 +1,7 @@
 {
   "id": "house-painting-service",
   "categoryId": "construcao-servicos",
+  "unitId": "can",
   "name": {
     "en": "House Painting Service with Surface Prep, Two Coats and Clean-Up, Priced per Can of Paint Applied, Sold by the Can",
     "pt-BR": "Serviço de Pintura Residencial com Preparo da Superfície, Duas Demãos e Limpeza, Preço por Lata Aplicada"

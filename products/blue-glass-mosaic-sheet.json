@@ -1,6 +1,7 @@
 {
   "id": "blue-glass-mosaic-sheet",
   "categoryId": "construcao-revestimentos",
+  "unitId": "sheet",
   "name": {
     "en": "Pool Blue Glass Mosaic Tile Sheet on Mesh for Pools and Wet Walls, 12 by 12 Inches",
     "pt-BR": "Pastilha de Vidro Azul Piscina em Placa com Tela para Piscina e Parede Molhada, 30×30 cm"
@@ -129,6 +130,7 @@
     },
     {
       "id": "pool-blue-box-11",
+      "unitId": "box",
       "sku": "CON-BLUE-GLASS-MOSAIC-SHEET-BOX-11",
       "options": {
         "color": "pool-blue",
