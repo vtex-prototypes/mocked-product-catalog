@@ -13,6 +13,8 @@ const PRODUCTS_DIR = join(ROOT, "products");
 const categories = JSON.parse(readFileSync(join(ROOT, "categories.json"), "utf8"));
 const brands = JSON.parse(readFileSync(join(ROOT, "brands.json"), "utf8"));
 const specifications = JSON.parse(readFileSync(join(ROOT, "specifications.json"), "utf8"));
+const units = JSON.parse(readFileSync(join(ROOT, "units.json"), "utf8"));
+const unitById = new Map(units.map((u) => [u.id, u]));
 const brandById = new Map(brands.map((b) => [b.id, b]));
 const specById = new Map(specifications.map((s) => [s.id, s]));
 
@@ -64,21 +66,32 @@ function withSrc(productId, images) {
   }));
 }
 
+// How each variant is sold, resolved into "unit": its own unitId, else the product's, else "unit".
+// unitId stays only where it was set, so an override of the product's reaches every variant
+// that has none. The product's unit mirrors the default variant, as its price does.
+const unitOf = (id) => {
+  const u = unitById.get(id);
+  return { id: u.id, kind: u.kind, name: u.name };
+};
+
 const products = readdirSync(PRODUCTS_DIR)
   .filter((f) => f.endsWith(".json"))
   .sort()
   .map((f) => JSON.parse(readFileSync(join(PRODUCTS_DIR, f), "utf8")))
   .map((p) => {
     const resolved = resolveProduct(p);
-    return { ...resolved, variants: resolved.variants.map((v) => ({ ...v, images: withSrc(p.id, v.images) })) };
+    const unitId = p.unitId ?? "unit";
+    const variants = resolved.variants.map((v) => ({ ...v, unit: unitOf(v.unitId ?? unitId), images: withSrc(p.id, v.images) }));
+    const def = variants.find((v) => v.id === p.defaultVariantId) ?? variants[0];
+    return { ...resolved, unitId, unit: def.unit, variants };
   });
 
 // Keep the output deterministic (no timestamps) so CI can verify that the
 // committed catalog.json matches the sources.
-const catalog = { brands, specifications, categories, products };
+const catalog = { brands, specifications, units, categories, products };
 
 writeFileSync(join(ROOT, "catalog.json"), JSON.stringify(catalog, null, 2) + "\n");
-console.log(`catalog.json written with ${products.length} product(s), ${brands.length} brand(s), ${specifications.length} specification(s), ${categories.length} categor(ies).`);
+console.log(`catalog.json written with ${products.length} product(s), ${brands.length} brand(s), ${specifications.length} specification(s), ${units.length} unit(s), ${categories.length} categor(ies).`);
 
 // Drafts are published separately so catalog.json only ever contains
 // compliant products. drafts.json is the queue of photos waiting for promotion.
