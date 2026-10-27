@@ -75009,8 +75009,8 @@
       "categoryId": "construcao-tintas",
       "unitId": "can",
       "name": {
-        "en": "Jade Green Eggshell Acrylic Paint for Bathrooms, Blue-Green and Darker than Mint",
-        "pt-BR": "Tinta Acrílica Verde Jade Semibrilho para Banheiro, Azul-Esverdeado Mais Escuro que o Menta"
+        "en": "Jade Green Acrylic Paint for Bathrooms, Blue-Green and Darker than Mint",
+        "pt-BR": "Tinta Acrílica Verde Jade para Banheiro, Azul-Esverdeado Mais Escuro que o Menta"
       },
       "description": {
         "en": "A blue-green jade acrylic for a bathroom above the tile. It sits darker and bluer than mint, so the two do not read as the same can. The listed price is the 3.6 liter can.",
@@ -75124,6 +75124,29 @@
               }
             }
           ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "eggshell",
+              "name": {
+                "en": "Eggshell",
+                "pt-BR": "Semibrilho"
+              }
+            },
+            {
+              "id": "matte",
+              "name": {
+                "en": "Matte",
+                "pt-BR": "Fosco"
+              }
+            }
+          ]
         }
       ],
       "variants": [
@@ -75132,7 +75155,8 @@
           "sku": "CON-JADE-GREEN-BATHROOM-PAINT-3-6-L",
           "options": {
             "color": "jade-green",
-            "volume": "3-6-l"
+            "volume": "3-6-l",
+            "finish": "eggshell"
           },
           "price": {
             "BRL": 159.9,
@@ -75203,13 +75227,158 @@
           "sku": "CON-JADE-GREEN-BATHROOM-PAINT-18-L",
           "options": {
             "color": "jade-green",
-            "volume": "18-l"
+            "volume": "18-l",
+            "finish": "eggshell"
           },
           "price": {
             "BRL": 469,
             "USD": 179
           },
           "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of jade green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde jade"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/jade-green-bathroom-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/jade-green-bathroom-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/jade-green-bathroom-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/jade-green-bathroom-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom wall painted blue-green jade",
+                "pt-BR": "Parede de banheiro pintada de verde jade"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/jade-green-bathroom-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/jade-green-bathroom-acrylic-paint/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "can",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "can",
+                "other": "cans"
+              },
+              "pt-BR": {
+                "one": "lata",
+                "other": "latas"
+              }
+            }
+          }
+        },
+        {
+          "id": "matte-jade-green-3-6-l",
+          "sku": "CON-JADE-GREEN-BATHROOM-PAINT-3-6-L-MATTE",
+          "options": {
+            "color": "jade-green",
+            "volume": "3-6-l",
+            "finish": "matte"
+          },
+          "price": {
+            "BRL": 159.9,
+            "USD": 60
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of jade green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde jade"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/jade-green-bathroom-acrylic-paint/main-white.webp",
+                "#f5f5f5": "images/jade-green-bathroom-acrylic-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/jade-green-bathroom-acrylic-paint/detail-white.webp",
+                "#f5f5f5": "images/jade-green-bathroom-acrylic-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom wall painted blue-green jade",
+                "pt-BR": "Parede de banheiro pintada de verde jade"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/jade-green-bathroom-acrylic-paint/application-white.webp",
+                "#f5f5f5": "images/jade-green-bathroom-acrylic-paint/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "can",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "can",
+                "other": "cans"
+              },
+              "pt-BR": {
+                "one": "lata",
+                "other": "latas"
+              }
+            }
+          }
+        },
+        {
+          "id": "matte-jade-green-18-l",
+          "sku": "CON-JADE-GREEN-BATHROOM-PAINT-18-L-MATTE",
+          "options": {
+            "color": "jade-green",
+            "volume": "18-l",
+            "finish": "matte"
+          },
+          "price": {
+            "BRL": 469,
+            "USD": 179
+          },
+          "availability": "in_stock",
           "images": [
             {
               "alt": {
@@ -81930,12 +82099,12 @@
       "categoryId": "construcao-tintas",
       "unitId": "can",
       "name": {
-        "en": "Mint Green Moisture-Resistant Acrylic Paint for Kitchens and Bathrooms, Eggshell Finish",
-        "pt-BR": "Tinta Acrílica Verde Menta Resistente à Umidade para Cozinhas e Banheiros, Acabamento Semibrilho"
+        "en": "Mint Green Moisture-Resistant Acrylic Paint for Kitchens and Bathrooms",
+        "pt-BR": "Tinta Acrílica Verde Menta Resistente à Umidade para Cozinhas e Banheiros"
       },
       "description": {
-        "en": "A light mint green acrylic paint for bathroom and kitchen walls exposed to humidity and frequent wiping. Its eggshell finish reflects enough light to show a soft sheen without looking glossy.",
-        "pt-BR": "Tinta acrílica verde menta clara para paredes de cozinhas e banheiros sujeitas a umidade e limpeza frequente. O acabamento semibrilho reflete luz com suavidade, sem parecer brilhante demais."
+        "en": "A light mint green acrylic paint for bathroom and kitchen walls exposed to humidity and frequent wiping. It reflects light softly without looking glossy.",
+        "pt-BR": "Tinta acrílica verde menta clara para paredes de cozinhas e banheiros sujeitas a umidade e limpeza frequente. Reflete a luz com suavidade, sem parecer brilhante demais."
       },
       "price": {
         "BRL": 149.9,
@@ -82045,6 +82214,29 @@
               }
             }
           ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "eggshell",
+              "name": {
+                "en": "Eggshell",
+                "pt-BR": "Semibrilho"
+              }
+            },
+            {
+              "id": "matte",
+              "name": {
+                "en": "Matte",
+                "pt-BR": "Fosco"
+              }
+            }
+          ]
         }
       ],
       "variants": [
@@ -82053,7 +82245,8 @@
           "sku": "CON-MINT-GREEN-KITCHEN-BATHROOM-PAINT-3-6-L",
           "options": {
             "color": "mint-green",
-            "volume": "3-6-l"
+            "volume": "3-6-l",
+            "finish": "eggshell"
           },
           "price": {
             "BRL": 149.9,
@@ -82124,13 +82317,158 @@
           "sku": "CON-MINT-GREEN-KITCHEN-BATHROOM-PAINT-18-L",
           "options": {
             "color": "mint-green",
-            "volume": "18-l"
+            "volume": "18-l",
+            "finish": "eggshell"
           },
           "price": {
             "BRL": 449,
             "USD": 178
           },
           "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of mint green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde menta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-green-kitchen-bathroom-paint/main-white.webp",
+                "#f5f5f5": "images/mint-green-kitchen-bathroom-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-green-kitchen-bathroom-paint/detail-white.webp",
+                "#f5f5f5": "images/mint-green-kitchen-bathroom-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom walls painted moisture-resistant mint green",
+                "pt-BR": "Paredes de banheiro pintadas de verde menta resistente à umidade"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-green-kitchen-bathroom-paint/application-white.webp",
+                "#f5f5f5": "images/mint-green-kitchen-bathroom-paint/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "can",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "can",
+                "other": "cans"
+              },
+              "pt-BR": {
+                "one": "lata",
+                "other": "latas"
+              }
+            }
+          }
+        },
+        {
+          "id": "matte-mint-green-3-6-l",
+          "sku": "CON-MINT-GREEN-KITCHEN-BATHROOM-PAINT-3-6-L-MATTE",
+          "options": {
+            "color": "mint-green",
+            "volume": "3-6-l",
+            "finish": "matte"
+          },
+          "price": {
+            "BRL": 149.9,
+            "USD": 58
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Can of mint green acrylic paint",
+                "pt-BR": "Lata de tinta acrílica verde menta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-green-kitchen-bathroom-paint/main-white.webp",
+                "#f5f5f5": "images/mint-green-kitchen-bathroom-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-green-kitchen-bathroom-paint/detail-white.webp",
+                "#f5f5f5": "images/mint-green-kitchen-bathroom-paint/detail-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom walls painted moisture-resistant mint green",
+                "pt-BR": "Paredes de banheiro pintadas de verde menta resistente à umidade"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/mint-green-kitchen-bathroom-paint/application-white.webp",
+                "#f5f5f5": "images/mint-green-kitchen-bathroom-paint/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "can",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "can",
+                "other": "cans"
+              },
+              "pt-BR": {
+                "one": "lata",
+                "other": "latas"
+              }
+            }
+          }
+        },
+        {
+          "id": "matte-mint-green-18-l",
+          "sku": "CON-MINT-GREEN-KITCHEN-BATHROOM-PAINT-18-L-MATTE",
+          "options": {
+            "color": "mint-green",
+            "volume": "18-l",
+            "finish": "matte"
+          },
+          "price": {
+            "BRL": 449,
+            "USD": 178
+          },
+          "availability": "in_stock",
           "images": [
             {
               "alt": {
