@@ -1,0 +1,150 @@
+{
+  "id": "honey-oak-wide-laminate-plank",
+  "categoryId": "construcao-pisos",
+  "unitId": "area",
+  "name": {
+    "en": "Honey Medium Oak Wide Laminate Floor Plank with a Click Edge, 9.5 by 36 Inches, Satin Finish for Indoor Rooms",
+    "pt-BR": "Piso Laminado Carvalho Mel Largo 24×92 cm com Acabamento Acetinado e Encaixe Click para Área Interna"
+  },
+  "description": {
+    "en": "A wide honey oak click laminate with a satin finish for bedrooms and living rooms with residential traffic. It feels warm underfoot and is meant for dry indoor rooms only. It needs an underlayment under it unless one is attached to the plank, and this plank has none, so add the foam underlayment. Scratch resistance is medium. The price is for one square foot.",
+    "pt-BR": "Laminado carvalho mel largo de encaixe click, com acabamento acetinado, para quarto e sala de tráfego residencial. É quente no pé e serve apenas para área interna seca. Precisa de manta sob o piso, a menos que ela venha colada na régua, e esta não vem, então leve junto a manta de espuma. A resistência a arranhão é média. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 69.9,
+    "USD": 2.39
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "laminate floor",
+      "indoor floor",
+      "residential traffic",
+      "click",
+      "wide plank",
+      "honey oak",
+      "needs underlayment"
+    ],
+    "pt-BR": [
+      "piso laminado",
+      "piso interno",
+      "tráfego residencial",
+      "click",
+      "régua larga",
+      "carvalho mel",
+      "precisa de manta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "laminate"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "traffic",
+      "valueId": "residential"
+    },
+    {
+      "id": "look",
+      "valueId": "wood"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "honey-oak-8-mm",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "honey-oak",
+          "name": {
+            "en": "Honey oak",
+            "pt-BR": "Carvalho mel"
+          },
+          "hex": "#C48A3F"
+        }
+      ]
+    },
+    {
+      "id": "thickness",
+      "specificationId": "thickness",
+      "values": [
+        {
+          "id": "8-mm",
+          "valueId": "8-mm"
+        },
+        {
+          "id": "12-mm",
+          "valueId": "12-mm"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "honey-oak-8-mm",
+      "sku": "CON-HONEY-OAK-WIDE-LAMINATE-8-MM",
+      "options": {
+        "color": "honey-oak",
+        "thickness": "8-mm"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 2.39
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Honey Medium Oak Wide Laminate Floor Plank with a Click Edge",
+            "pt-BR": "Piso Laminado Carvalho Mel Largo 24×92 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "honey-white.png",
+            "#f5f5f5": "honey-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "honey-oak-12-mm",
+      "sku": "CON-HONEY-OAK-WIDE-LAMINATE-12-MM",
+      "options": {
+        "color": "honey-oak",
+        "thickness": "12-mm"
+      },
+      "price": {
+        "BRL": 82.9,
+        "USD": 2.79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Honey Medium Oak Wide Laminate Floor Plank with a Click Edge",
+            "pt-BR": "Piso Laminado Carvalho Mel Largo 24×92 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "honey-white.png",
+            "#f5f5f5": "honey-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
