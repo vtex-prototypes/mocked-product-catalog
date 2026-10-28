@@ -1,0 +1,113 @@
+{
+  "id": "foam-laminate-underlayment-roll",
+  "categoryId": "construcao-pisos",
+  "unitId": "roll",
+  "name": {
+    "en": "Foam Underlayment Roll for Laminate and Click Floors with Moisture Barrier Film, 100 Square Feet per Roll",
+    "pt-BR": "Manta de Espuma em Rolo para Piso Laminado e Click com Filme Barreira de Umidade, 9,3 m² por Rolo"
+  },
+  "description": {
+    "en": "A closed-cell foam underlayment that goes under laminate and click floating floors. It cushions steps, evens out small flaws in a dry subfloor and has a moisture barrier film. One roll covers 100 square feet. Tape the seams and run it up the wall a little. The price is for one roll.",
+    "pt-BR": "Manta de espuma de célula fechada para baixo de piso laminado e click flutuante. Ameniza o impacto dos passos, corrige pequenas falhas de um contrapiso seco e tem filme barreira de umidade. Um rolo cobre 9,3 m². Una as emendas com fita e suba um pouco na parede. O preço é de um rolo."
+  },
+  "price": {
+    "BRL": 189.9,
+    "USD": 24.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "underlayment",
+      "laminate underlayment",
+      "click floor",
+      "moisture barrier",
+      "foam",
+      "100 sq ft roll"
+    ],
+    "pt-BR": [
+      "manta para piso",
+      "manta para laminado",
+      "piso click",
+      "barreira de umidade",
+      "espuma",
+      "rolo de 9,3 m²"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polyethylene-foam"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "foam-2-mm",
+  "options": [
+    {
+      "id": "thickness",
+      "specificationId": "thickness",
+      "values": [
+        {
+          "id": "2-mm",
+          "valueId": "2-mm"
+        },
+        {
+          "id": "3-mm",
+          "valueId": "3-mm"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "foam-2-mm",
+      "sku": "CON-FOAM-UNDERLAYMENT-ROLL-2-MM",
+      "options": {
+        "thickness": "2-mm"
+      },
+      "price": {
+        "BRL": 189.9,
+        "USD": 24.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Foam underlayment roll for laminate and click floors",
+            "pt-BR": "Rolo de manta de espuma para piso laminado e click"
+          },
+          "backgrounds": {
+            "#ffffff": "roll-white.png",
+            "#f5f5f5": "roll-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "foam-3-mm",
+      "sku": "CON-FOAM-UNDERLAYMENT-ROLL-3-MM",
+      "options": {
+        "thickness": "3-mm"
+      },
+      "price": {
+        "BRL": 239.9,
+        "USD": 32.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Foam underlayment roll for laminate and click floors",
+            "pt-BR": "Rolo de manta de espuma para piso laminado e click"
+          },
+          "backgrounds": {
+            "#ffffff": "roll-white.png",
+            "#f5f5f5": "roll-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

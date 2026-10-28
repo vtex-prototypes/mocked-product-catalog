@@ -313,6 +313,13 @@
           "en": "Sand",
           "pt-BR": "Areia"
         }
+      },
+      {
+        "id": "polyethylene-foam",
+        "name": {
+          "en": "Polyethylene foam",
+          "pt-BR": "Espuma de polietileno"
+        }
       }
     ]
   },
@@ -641,6 +648,13 @@
     },
     "values": [
       {
+        "id": "2-mm",
+        "name": {
+          "en": "2 mm",
+          "pt-BR": "2 mm"
+        }
+      },
+      {
         "id": "3-mm",
         "name": {
           "en": "3 mm",
@@ -882,6 +896,22 @@
         "name": {
           "en": "220 V",
           "pt-BR": "220 V"
+        }
+      }
+    ]
+  },
+  {
+    "id": "traffic",
+    "name": {
+      "en": "Traffic",
+      "pt-BR": "Tráfego"
+    },
+    "values": [
+      {
+        "id": "residential",
+        "name": {
+          "en": "Residential",
+          "pt-BR": "Residencial"
         }
       }
     ]

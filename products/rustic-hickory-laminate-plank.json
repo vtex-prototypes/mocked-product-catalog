@@ -1,0 +1,150 @@
+{
+  "id": "rustic-hickory-laminate-plank",
+  "categoryId": "construcao-pisos",
+  "unitId": "area",
+  "name": {
+    "en": "Rustic Natural Hickory Laminate Floor Plank with Visible Knots and a Click Edge, 6 by 48 Inches, for Indoor Rooms",
+    "pt-BR": "Piso Laminado Rústico Hickory Natural com Nós Aparentes 15×122 cm e Encaixe Click para Área Interna"
+  },
+  "description": {
+    "en": "A rustic hickory click laminate with strong color contrast and visible dark knots, for living rooms and dens with residential traffic. It feels warm underfoot and is meant for dry indoor rooms only. It needs an underlayment under it unless one is attached to the plank, and this plank has none, so add the foam underlayment. Scratch resistance is high. The price is for one square foot.",
+    "pt-BR": "Laminado hickory rústico de encaixe click, com contraste forte e nós escuros aparentes, para sala e home office de tráfego residencial. É quente no pé e serve apenas para área interna seca. Precisa de manta sob o piso, a menos que ela venha colada na régua, e esta não vem, então leve junto a manta de espuma. A resistência a arranhão é alta. O preço é de um metro quadrado."
+  },
+  "price": {
+    "BRL": 76.9,
+    "USD": 2.59
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "laminate floor",
+      "indoor floor",
+      "residential traffic",
+      "click",
+      "rustic hickory",
+      "knots",
+      "needs underlayment"
+    ],
+    "pt-BR": [
+      "piso laminado",
+      "piso interno",
+      "tráfego residencial",
+      "click",
+      "hickory rústico",
+      "nós aparentes",
+      "precisa de manta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "laminate"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "traffic",
+      "valueId": "residential"
+    },
+    {
+      "id": "look",
+      "valueId": "wood"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    },
+    {
+      "id": "scratch-resistance",
+      "valueId": "high"
+    }
+  ],
+  "defaultVariantId": "natural-hickory-8-mm",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "natural-hickory",
+          "name": {
+            "en": "Natural hickory",
+            "pt-BR": "Hickory natural"
+          },
+          "hex": "#A9743F"
+        }
+      ]
+    },
+    {
+      "id": "thickness",
+      "specificationId": "thickness",
+      "values": [
+        {
+          "id": "8-mm",
+          "valueId": "8-mm"
+        },
+        {
+          "id": "12-mm",
+          "valueId": "12-mm"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "natural-hickory-8-mm",
+      "sku": "CON-HICKORY-LAMINATE-8-MM",
+      "options": {
+        "color": "natural-hickory",
+        "thickness": "8-mm"
+      },
+      "price": {
+        "BRL": 76.9,
+        "USD": 2.59
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rustic Natural Hickory Laminate Floor Plank with Visible Knots",
+            "pt-BR": "Piso Laminado Rústico Hickory Natural com Nós Aparentes 15×122 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "hickory-white.png",
+            "#f5f5f5": "hickory-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "natural-hickory-12-mm",
+      "sku": "CON-HICKORY-LAMINATE-12-MM",
+      "options": {
+        "color": "natural-hickory",
+        "thickness": "12-mm"
+      },
+      "price": {
+        "BRL": 86.9,
+        "USD": 2.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rustic Natural Hickory Laminate Floor Plank with Visible Knots",
+            "pt-BR": "Piso Laminado Rústico Hickory Natural com Nós Aparentes 15×122 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "hickory-white.png",
+            "#f5f5f5": "hickory-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

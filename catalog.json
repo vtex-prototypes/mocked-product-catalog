@@ -351,6 +351,13 @@
             "en": "Sand",
             "pt-BR": "Areia"
           }
+        },
+        {
+          "id": "polyethylene-foam",
+          "name": {
+            "en": "Polyethylene foam",
+            "pt-BR": "Espuma de polietileno"
+          }
         }
       ]
     },
@@ -679,6 +686,13 @@
       },
       "values": [
         {
+          "id": "2-mm",
+          "name": {
+            "en": "2 mm",
+            "pt-BR": "2 mm"
+          }
+        },
+        {
           "id": "3-mm",
           "name": {
             "en": "3 mm",
@@ -920,6 +934,22 @@
           "name": {
             "en": "220 V",
             "pt-BR": "220 V"
+          }
+        }
+      ]
+    },
+    {
+      "id": "traffic",
+      "name": {
+        "en": "Traffic",
+        "pt-BR": "Tráfego"
+      },
+      "values": [
+        {
+          "id": "residential",
+          "name": {
+            "en": "Residential",
+            "pt-BR": "Residencial"
           }
         }
       ]
@@ -58612,6 +58642,197 @@
       }
     },
     {
+      "id": "foam-laminate-underlayment-roll",
+      "categoryId": "construcao-pisos",
+      "unitId": "roll",
+      "name": {
+        "en": "Foam Underlayment Roll for Laminate and Click Floors with Moisture Barrier Film, 100 Square Feet per Roll",
+        "pt-BR": "Manta de Espuma em Rolo para Piso Laminado e Click com Filme Barreira de Umidade, 9,3 m² por Rolo"
+      },
+      "description": {
+        "en": "A closed-cell foam underlayment that goes under laminate and click floating floors. It cushions steps, evens out small flaws in a dry subfloor and has a moisture barrier film. One roll covers 100 square feet. Tape the seams and run it up the wall a little. The price is for one roll.",
+        "pt-BR": "Manta de espuma de célula fechada para baixo de piso laminado e click flutuante. Ameniza o impacto dos passos, corrige pequenas falhas de um contrapiso seco e tem filme barreira de umidade. Um rolo cobre 9,3 m². Una as emendas com fita e suba um pouco na parede. O preço é de um rolo."
+      },
+      "price": {
+        "BRL": 189.9,
+        "USD": 24.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "underlayment",
+          "laminate underlayment",
+          "click floor",
+          "moisture barrier",
+          "foam",
+          "100 sq ft roll"
+        ],
+        "pt-BR": [
+          "manta para piso",
+          "manta para laminado",
+          "piso click",
+          "barreira de umidade",
+          "espuma",
+          "rolo de 9,3 m²"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "polyethylene-foam",
+          "value": {
+            "en": "Polyethylene foam",
+            "pt-BR": "Espuma de polietileno"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "foam-2-mm",
+      "options": [
+        {
+          "id": "thickness",
+          "specificationId": "thickness",
+          "name": {
+            "en": "Thickness",
+            "pt-BR": "Espessura"
+          },
+          "values": [
+            {
+              "id": "2-mm",
+              "valueId": "2-mm",
+              "name": {
+                "en": "2 mm",
+                "pt-BR": "2 mm"
+              }
+            },
+            {
+              "id": "3-mm",
+              "valueId": "3-mm",
+              "name": {
+                "en": "3 mm",
+                "pt-BR": "3 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "foam-2-mm",
+          "sku": "CON-FOAM-UNDERLAYMENT-ROLL-2-MM",
+          "options": {
+            "thickness": "2-mm"
+          },
+          "price": {
+            "BRL": 189.9,
+            "USD": 24.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Foam underlayment roll for laminate and click floors",
+                "pt-BR": "Rolo de manta de espuma para piso laminado e click"
+              },
+              "backgrounds": {
+                "#ffffff": "roll-white.png",
+                "#f5f5f5": "roll-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/foam-laminate-underlayment-roll/roll-white.webp",
+                "#f5f5f5": "images/foam-laminate-underlayment-roll/roll-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "roll",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "roll",
+                "other": "rolls"
+              },
+              "pt-BR": {
+                "one": "rolo",
+                "other": "rolos"
+              }
+            }
+          }
+        },
+        {
+          "id": "foam-3-mm",
+          "sku": "CON-FOAM-UNDERLAYMENT-ROLL-3-MM",
+          "options": {
+            "thickness": "3-mm"
+          },
+          "price": {
+            "BRL": 239.9,
+            "USD": 32.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Foam underlayment roll for laminate and click floors",
+                "pt-BR": "Rolo de manta de espuma para piso laminado e click"
+              },
+              "backgrounds": {
+                "#ffffff": "roll-white.png",
+                "#f5f5f5": "roll-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/foam-laminate-underlayment-roll/roll-white.webp",
+                "#f5f5f5": "images/foam-laminate-underlayment-roll/roll-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "roll",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "roll",
+                "other": "rolls"
+              },
+              "pt-BR": {
+                "one": "rolo",
+                "other": "rolos"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "roll",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "roll",
+            "other": "rolls"
+          },
+          "pt-BR": {
+            "one": "rolo",
+            "other": "rolos"
+          }
+        }
+      }
+    },
+    {
       "id": "forest-green-washable-interior-paint",
       "categoryId": "construcao-tintas",
       "unitId": "can",
@@ -66089,6 +66310,315 @@
       }
     },
     {
+      "id": "gray-whitewashed-oak-laminate-plank",
+      "categoryId": "construcao-pisos",
+      "unitId": "area",
+      "name": {
+        "en": "Gray Whitewashed Oak Laminate Floor Plank with a Click Edge, 7.5 by 48 Inches, Warm Underfoot for Indoor Rooms",
+        "pt-BR": "Piso Laminado Carvalho Cinza Lavado 19×122 cm com Encaixe Click, Aquecido ao Pisar, para Área Interna"
+      },
+      "description": {
+        "en": "A cool gray whitewashed oak click laminate for bedrooms, living rooms and hallways with residential traffic. It feels warm underfoot and is meant for dry indoor rooms only. It needs an underlayment under it unless one is attached to the plank, and this plank has none, so add the foam underlayment. Scratch resistance is medium. The price is for one square foot.",
+        "pt-BR": "Laminado carvalho cinza lavado de encaixe click para quarto, sala e corredor de tráfego residencial. É quente no pé e serve apenas para área interna seca. Precisa de manta sob o piso, a menos que ela venha colada na régua, e esta não vem, então leve junto a manta de espuma. A resistência a arranhão é média. O preço é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 59.9,
+        "USD": 1.89
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "laminate floor",
+          "indoor floor",
+          "residential traffic",
+          "click",
+          "gray oak",
+          "needs underlayment"
+        ],
+        "pt-BR": [
+          "piso laminado",
+          "piso interno",
+          "tráfego residencial",
+          "click",
+          "carvalho cinza",
+          "precisa de manta"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "laminate",
+          "value": {
+            "en": "Laminate",
+            "pt-BR": "Laminado"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "traffic",
+          "name": {
+            "en": "Traffic",
+            "pt-BR": "Tráfego"
+          },
+          "valueId": "residential",
+          "value": {
+            "en": "Residential",
+            "pt-BR": "Residencial"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "wood",
+          "value": {
+            "en": "Wood",
+            "pt-BR": "Madeira"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        },
+        {
+          "id": "scratch-resistance",
+          "name": {
+            "en": "Scratch resistance",
+            "pt-BR": "Resistência a arranhão"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Média"
+          }
+        }
+      ],
+      "defaultVariantId": "gray-oak-7-mm",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray-oak",
+              "name": {
+                "en": "Gray oak",
+                "pt-BR": "Carvalho cinza"
+              },
+              "hex": "#B9B7B2"
+            }
+          ]
+        },
+        {
+          "id": "thickness",
+          "specificationId": "thickness",
+          "name": {
+            "en": "Thickness",
+            "pt-BR": "Espessura"
+          },
+          "values": [
+            {
+              "id": "7-mm",
+              "valueId": "7-mm",
+              "name": {
+                "en": "7 mm",
+                "pt-BR": "7 mm"
+              }
+            },
+            {
+              "id": "8-mm",
+              "valueId": "8-mm",
+              "name": {
+                "en": "8 mm",
+                "pt-BR": "8 mm"
+              }
+            },
+            {
+              "id": "12-mm",
+              "valueId": "12-mm",
+              "name": {
+                "en": "12 mm",
+                "pt-BR": "12 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "gray-oak-7-mm",
+          "sku": "CON-GRAY-OAK-LAMINATE-7-MM",
+          "options": {
+            "color": "gray-oak",
+            "thickness": "7-mm"
+          },
+          "price": {
+            "BRL": 59.9,
+            "USD": 1.89
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray Whitewashed Oak Laminate Floor Plank with a Click Edge",
+                "pt-BR": "Piso Laminado Carvalho Cinza Lavado 19×122 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gray-whitewashed-oak-laminate-plank/gray-white.webp",
+                "#f5f5f5": "images/gray-whitewashed-oak-laminate-plank/gray-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "gray-oak-8-mm",
+          "sku": "CON-GRAY-OAK-LAMINATE-8-MM",
+          "options": {
+            "color": "gray-oak",
+            "thickness": "8-mm"
+          },
+          "price": {
+            "BRL": 66.9,
+            "USD": 2.19
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray Whitewashed Oak Laminate Floor Plank with a Click Edge",
+                "pt-BR": "Piso Laminado Carvalho Cinza Lavado 19×122 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gray-whitewashed-oak-laminate-plank/gray-white.webp",
+                "#f5f5f5": "images/gray-whitewashed-oak-laminate-plank/gray-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "gray-oak-12-mm",
+          "sku": "CON-GRAY-OAK-LAMINATE-12-MM",
+          "options": {
+            "color": "gray-oak",
+            "thickness": "12-mm"
+          },
+          "price": {
+            "BRL": 79.9,
+            "USD": 2.69
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray Whitewashed Oak Laminate Floor Plank with a Click Edge",
+                "pt-BR": "Piso Laminado Carvalho Cinza Lavado 19×122 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "gray-white.png",
+                "#f5f5f5": "gray-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gray-whitewashed-oak-laminate-plank/gray-white.webp",
+                "#f5f5f5": "images/gray-whitewashed-oak-laminate-plank/gray-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "area",
+        "kind": "area",
+        "name": {
+          "en": {
+            "one": "sq ft",
+            "other": "sq ft"
+          },
+          "pt-BR": {
+            "one": "m²",
+            "other": "m²"
+          }
+        }
+      }
+    },
+    {
       "id": "gray-wood-porcelain-plank",
       "categoryId": "construcao-pisos",
       "unitId": "area",
@@ -68979,6 +69509,266 @@
           "pt-BR": {
             "one": "unidade",
             "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "honey-oak-wide-laminate-plank",
+      "categoryId": "construcao-pisos",
+      "unitId": "area",
+      "name": {
+        "en": "Honey Medium Oak Wide Laminate Floor Plank with a Click Edge, 9.5 by 36 Inches, Satin Finish for Indoor Rooms",
+        "pt-BR": "Piso Laminado Carvalho Mel Largo 24×92 cm com Acabamento Acetinado e Encaixe Click para Área Interna"
+      },
+      "description": {
+        "en": "A wide honey oak click laminate with a satin finish for bedrooms and living rooms with residential traffic. It feels warm underfoot and is meant for dry indoor rooms only. It needs an underlayment under it unless one is attached to the plank, and this plank has none, so add the foam underlayment. Scratch resistance is medium. The price is for one square foot.",
+        "pt-BR": "Laminado carvalho mel largo de encaixe click, com acabamento acetinado, para quarto e sala de tráfego residencial. É quente no pé e serve apenas para área interna seca. Precisa de manta sob o piso, a menos que ela venha colada na régua, e esta não vem, então leve junto a manta de espuma. A resistência a arranhão é média. O preço é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 2.39
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "laminate floor",
+          "indoor floor",
+          "residential traffic",
+          "click",
+          "wide plank",
+          "honey oak",
+          "needs underlayment"
+        ],
+        "pt-BR": [
+          "piso laminado",
+          "piso interno",
+          "tráfego residencial",
+          "click",
+          "régua larga",
+          "carvalho mel",
+          "precisa de manta"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "laminate",
+          "value": {
+            "en": "Laminate",
+            "pt-BR": "Laminado"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "traffic",
+          "name": {
+            "en": "Traffic",
+            "pt-BR": "Tráfego"
+          },
+          "valueId": "residential",
+          "value": {
+            "en": "Residential",
+            "pt-BR": "Residencial"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "wood",
+          "value": {
+            "en": "Wood",
+            "pt-BR": "Madeira"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        },
+        {
+          "id": "scratch-resistance",
+          "name": {
+            "en": "Scratch resistance",
+            "pt-BR": "Resistência a arranhão"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Média"
+          }
+        }
+      ],
+      "defaultVariantId": "honey-oak-8-mm",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "honey-oak",
+              "name": {
+                "en": "Honey oak",
+                "pt-BR": "Carvalho mel"
+              },
+              "hex": "#C48A3F"
+            }
+          ]
+        },
+        {
+          "id": "thickness",
+          "specificationId": "thickness",
+          "name": {
+            "en": "Thickness",
+            "pt-BR": "Espessura"
+          },
+          "values": [
+            {
+              "id": "8-mm",
+              "valueId": "8-mm",
+              "name": {
+                "en": "8 mm",
+                "pt-BR": "8 mm"
+              }
+            },
+            {
+              "id": "12-mm",
+              "valueId": "12-mm",
+              "name": {
+                "en": "12 mm",
+                "pt-BR": "12 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "honey-oak-8-mm",
+          "sku": "CON-HONEY-OAK-WIDE-LAMINATE-8-MM",
+          "options": {
+            "color": "honey-oak",
+            "thickness": "8-mm"
+          },
+          "price": {
+            "BRL": 69.9,
+            "USD": 2.39
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Honey Medium Oak Wide Laminate Floor Plank with a Click Edge",
+                "pt-BR": "Piso Laminado Carvalho Mel Largo 24×92 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "honey-white.png",
+                "#f5f5f5": "honey-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/honey-oak-wide-laminate-plank/honey-white.webp",
+                "#f5f5f5": "images/honey-oak-wide-laminate-plank/honey-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "honey-oak-12-mm",
+          "sku": "CON-HONEY-OAK-WIDE-LAMINATE-12-MM",
+          "options": {
+            "color": "honey-oak",
+            "thickness": "12-mm"
+          },
+          "price": {
+            "BRL": 82.9,
+            "USD": 2.79
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Honey Medium Oak Wide Laminate Floor Plank with a Click Edge",
+                "pt-BR": "Piso Laminado Carvalho Mel Largo 24×92 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "honey-white.png",
+                "#f5f5f5": "honey-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/honey-oak-wide-laminate-plank/honey-white.webp",
+                "#f5f5f5": "images/honey-oak-wide-laminate-plank/honey-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "area",
+        "kind": "area",
+        "name": {
+          "en": {
+            "one": "sq ft",
+            "other": "sq ft"
+          },
+          "pt-BR": {
+            "one": "m²",
+            "other": "m²"
           }
         }
       }
@@ -100119,6 +100909,266 @@
           "pt-BR": {
             "one": "unidade",
             "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "rustic-hickory-laminate-plank",
+      "categoryId": "construcao-pisos",
+      "unitId": "area",
+      "name": {
+        "en": "Rustic Natural Hickory Laminate Floor Plank with Visible Knots and a Click Edge, 6 by 48 Inches, for Indoor Rooms",
+        "pt-BR": "Piso Laminado Rústico Hickory Natural com Nós Aparentes 15×122 cm e Encaixe Click para Área Interna"
+      },
+      "description": {
+        "en": "A rustic hickory click laminate with strong color contrast and visible dark knots, for living rooms and dens with residential traffic. It feels warm underfoot and is meant for dry indoor rooms only. It needs an underlayment under it unless one is attached to the plank, and this plank has none, so add the foam underlayment. Scratch resistance is high. The price is for one square foot.",
+        "pt-BR": "Laminado hickory rústico de encaixe click, com contraste forte e nós escuros aparentes, para sala e home office de tráfego residencial. É quente no pé e serve apenas para área interna seca. Precisa de manta sob o piso, a menos que ela venha colada na régua, e esta não vem, então leve junto a manta de espuma. A resistência a arranhão é alta. O preço é de um metro quadrado."
+      },
+      "price": {
+        "BRL": 76.9,
+        "USD": 2.59
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "laminate floor",
+          "indoor floor",
+          "residential traffic",
+          "click",
+          "rustic hickory",
+          "knots",
+          "needs underlayment"
+        ],
+        "pt-BR": [
+          "piso laminado",
+          "piso interno",
+          "tráfego residencial",
+          "click",
+          "hickory rústico",
+          "nós aparentes",
+          "precisa de manta"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "laminate",
+          "value": {
+            "en": "Laminate",
+            "pt-BR": "Laminado"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "traffic",
+          "name": {
+            "en": "Traffic",
+            "pt-BR": "Tráfego"
+          },
+          "valueId": "residential",
+          "value": {
+            "en": "Residential",
+            "pt-BR": "Residencial"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "wood",
+          "value": {
+            "en": "Wood",
+            "pt-BR": "Madeira"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        },
+        {
+          "id": "scratch-resistance",
+          "name": {
+            "en": "Scratch resistance",
+            "pt-BR": "Resistência a arranhão"
+          },
+          "valueId": "high",
+          "value": {
+            "en": "High",
+            "pt-BR": "Alta"
+          }
+        }
+      ],
+      "defaultVariantId": "natural-hickory-8-mm",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "natural-hickory",
+              "name": {
+                "en": "Natural hickory",
+                "pt-BR": "Hickory natural"
+              },
+              "hex": "#A9743F"
+            }
+          ]
+        },
+        {
+          "id": "thickness",
+          "specificationId": "thickness",
+          "name": {
+            "en": "Thickness",
+            "pt-BR": "Espessura"
+          },
+          "values": [
+            {
+              "id": "8-mm",
+              "valueId": "8-mm",
+              "name": {
+                "en": "8 mm",
+                "pt-BR": "8 mm"
+              }
+            },
+            {
+              "id": "12-mm",
+              "valueId": "12-mm",
+              "name": {
+                "en": "12 mm",
+                "pt-BR": "12 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "natural-hickory-8-mm",
+          "sku": "CON-HICKORY-LAMINATE-8-MM",
+          "options": {
+            "color": "natural-hickory",
+            "thickness": "8-mm"
+          },
+          "price": {
+            "BRL": 76.9,
+            "USD": 2.59
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Rustic Natural Hickory Laminate Floor Plank with Visible Knots",
+                "pt-BR": "Piso Laminado Rústico Hickory Natural com Nós Aparentes 15×122 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "hickory-white.png",
+                "#f5f5f5": "hickory-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/rustic-hickory-laminate-plank/hickory-white.webp",
+                "#f5f5f5": "images/rustic-hickory-laminate-plank/hickory-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "natural-hickory-12-mm",
+          "sku": "CON-HICKORY-LAMINATE-12-MM",
+          "options": {
+            "color": "natural-hickory",
+            "thickness": "12-mm"
+          },
+          "price": {
+            "BRL": 86.9,
+            "USD": 2.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Rustic Natural Hickory Laminate Floor Plank with Visible Knots",
+                "pt-BR": "Piso Laminado Rústico Hickory Natural com Nós Aparentes 15×122 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "hickory-white.png",
+                "#f5f5f5": "hickory-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/rustic-hickory-laminate-plank/hickory-white.webp",
+                "#f5f5f5": "images/rustic-hickory-laminate-plank/hickory-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "area",
+        "kind": "area",
+        "name": {
+          "en": {
+            "one": "sq ft",
+            "other": "sq ft"
+          },
+          "pt-BR": {
+            "one": "m²",
+            "other": "m²"
           }
         }
       }
