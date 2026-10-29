@@ -3,8 +3,8 @@
   "categoryId": "construcao-pisos",
   "unitId": "area",
   "name": {
-    "en": "Dark Walnut Laminate Floor Plank with a Click Edge, 7.5 by 53 Inches and 8 Millimeters Thick",
-    "pt-BR": "Piso Laminado Nogueira Escuro 19×135 cm com 8 mm e Encaixe Click"
+    "en": "Dark Walnut Laminate Floor Plank with a Click Edge, 7.5 by 53 Inches, for Indoor Rooms",
+    "pt-BR": "Piso Laminado Nogueira Escuro 19×135 cm com Encaixe Click para Área Interna"
   },
   "description": {
     "en": "A dark walnut click laminate with a pronounced grain. It is meant for indoor rooms. Slip resistance is R9 and scratch resistance is medium. The price is for one square foot.",
@@ -77,6 +77,24 @@
       ]
     },
     {
+      "id": "thickness",
+      "specificationId": "thickness",
+      "values": [
+        {
+          "id": "8-mm",
+          "valueId": "8-mm"
+        },
+        {
+          "id": "10-mm",
+          "valueId": "10-mm"
+        },
+        {
+          "id": "12-mm",
+          "valueId": "12-mm"
+        }
+      ]
+    },
+    {
       "id": "underlay",
       "name": {
         "en": "Underlay",
@@ -106,6 +124,7 @@
       "sku": "CON-DARK-WALNUT-LAMINATE-PLANK-WITHOUT-UNDERLAY",
       "options": {
         "color": "dark-walnut",
+        "thickness": "8-mm",
         "underlay": "without-underlay"
       },
       "price": {
@@ -141,11 +160,156 @@
       "sku": "CON-DARK-WALNUT-LAMINATE-PLANK-WITH-UNDERLAY",
       "options": {
         "color": "dark-walnut",
+        "thickness": "8-mm",
         "underlay": "with-underlay"
       },
       "price": {
         "BRL": 73.9,
         "USD": 2.59
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Dark Walnut Laminate Floor Plank with a Click Edge",
+            "pt-BR": "Piso Laminado Nogueira Escuro 19×135 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "dark-walnut-white.png",
+            "#f5f5f5": "dark-walnut-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dark-walnut-10-mm-without-underlay",
+      "sku": "CON-DARK-WALNUT-LAMINATE-PLANK-10-MM-WITHOUT-UNDERLAY",
+      "options": {
+        "color": "dark-walnut",
+        "thickness": "10-mm",
+        "underlay": "without-underlay"
+      },
+      "price": {
+        "BRL": 76.9,
+        "USD": 2.59
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Dark Walnut Laminate Floor Plank with a Click Edge",
+            "pt-BR": "Piso Laminado Nogueira Escuro 19×135 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "dark-walnut-white.png",
+            "#f5f5f5": "dark-walnut-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dark-walnut-10-mm-with-underlay",
+      "sku": "CON-DARK-WALNUT-LAMINATE-PLANK-10-MM-WITH-UNDERLAY",
+      "options": {
+        "color": "dark-walnut",
+        "thickness": "10-mm",
+        "underlay": "with-underlay"
+      },
+      "price": {
+        "BRL": 80.9,
+        "USD": 2.79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Dark Walnut Laminate Floor Plank with a Click Edge",
+            "pt-BR": "Piso Laminado Nogueira Escuro 19×135 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "dark-walnut-white.png",
+            "#f5f5f5": "dark-walnut-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dark-walnut-12-mm-without-underlay",
+      "sku": "CON-DARK-WALNUT-LAMINATE-PLANK-12-MM-WITHOUT-UNDERLAY",
+      "options": {
+        "color": "dark-walnut",
+        "thickness": "12-mm",
+        "underlay": "without-underlay"
+      },
+      "price": {
+        "BRL": 83.9,
+        "USD": 2.79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Dark Walnut Laminate Floor Plank with a Click Edge",
+            "pt-BR": "Piso Laminado Nogueira Escuro 19×135 cm"
+          },
+          "backgrounds": {
+            "#ffffff": "dark-walnut-white.png",
+            "#f5f5f5": "dark-walnut-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+            "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+          },
+          "backgrounds": {
+            "#ffffff": "detail-white.png",
+            "#f5f5f5": "detail-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dark-walnut-12-mm-with-underlay",
+      "sku": "CON-DARK-WALNUT-LAMINATE-PLANK-12-MM-WITH-UNDERLAY",
+      "options": {
+        "color": "dark-walnut",
+        "thickness": "12-mm",
+        "underlay": "with-underlay"
+      },
+      "price": {
+        "BRL": 87.9,
+        "USD": 2.99
       },
       "availability": "low_stock",
       "images": [

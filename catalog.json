@@ -49509,8 +49509,8 @@
       "categoryId": "construcao-pisos",
       "unitId": "area",
       "name": {
-        "en": "Dark Walnut Laminate Floor Plank with a Click Edge, 7.5 by 53 Inches and 8 Millimeters Thick",
-        "pt-BR": "Piso Laminado Nogueira Escuro 19×135 cm com 8 mm e Encaixe Click"
+        "en": "Dark Walnut Laminate Floor Plank with a Click Edge, 7.5 by 53 Inches, for Indoor Rooms",
+        "pt-BR": "Piso Laminado Nogueira Escuro 19×135 cm com Encaixe Click para Área Interna"
       },
       "description": {
         "en": "A dark walnut click laminate with a pronounced grain. It is meant for indoor rooms. Slip resistance is R9 and scratch resistance is medium. The price is for one square foot.",
@@ -49639,6 +49639,40 @@
           ]
         },
         {
+          "id": "thickness",
+          "specificationId": "thickness",
+          "name": {
+            "en": "Thickness",
+            "pt-BR": "Espessura"
+          },
+          "values": [
+            {
+              "id": "8-mm",
+              "valueId": "8-mm",
+              "name": {
+                "en": "8 mm",
+                "pt-BR": "8 mm"
+              }
+            },
+            {
+              "id": "10-mm",
+              "valueId": "10-mm",
+              "name": {
+                "en": "10 mm",
+                "pt-BR": "10 mm"
+              }
+            },
+            {
+              "id": "12-mm",
+              "valueId": "12-mm",
+              "name": {
+                "en": "12 mm",
+                "pt-BR": "12 mm"
+              }
+            }
+          ]
+        },
+        {
           "id": "underlay",
           "name": {
             "en": "Underlay",
@@ -49668,6 +49702,7 @@
           "sku": "CON-DARK-WALNUT-LAMINATE-PLANK-WITHOUT-UNDERLAY",
           "options": {
             "color": "dark-walnut",
+            "thickness": "8-mm",
             "underlay": "without-underlay"
           },
           "price": {
@@ -49725,11 +49760,244 @@
           "sku": "CON-DARK-WALNUT-LAMINATE-PLANK-WITH-UNDERLAY",
           "options": {
             "color": "dark-walnut",
+            "thickness": "8-mm",
             "underlay": "with-underlay"
           },
           "price": {
             "BRL": 73.9,
             "USD": 2.59
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Dark Walnut Laminate Floor Plank with a Click Edge",
+                "pt-BR": "Piso Laminado Nogueira Escuro 19×135 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "dark-walnut-white.png",
+                "#f5f5f5": "dark-walnut-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dark-walnut-laminate-plank/dark-walnut-white.webp",
+                "#f5f5f5": "images/dark-walnut-laminate-plank/dark-walnut-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dark-walnut-laminate-plank/detail-white.webp",
+                "#f5f5f5": "images/dark-walnut-laminate-plank/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "dark-walnut-10-mm-without-underlay",
+          "sku": "CON-DARK-WALNUT-LAMINATE-PLANK-10-MM-WITHOUT-UNDERLAY",
+          "options": {
+            "color": "dark-walnut",
+            "thickness": "10-mm",
+            "underlay": "without-underlay"
+          },
+          "price": {
+            "BRL": 76.9,
+            "USD": 2.59
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Dark Walnut Laminate Floor Plank with a Click Edge",
+                "pt-BR": "Piso Laminado Nogueira Escuro 19×135 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "dark-walnut-white.png",
+                "#f5f5f5": "dark-walnut-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dark-walnut-laminate-plank/dark-walnut-white.webp",
+                "#f5f5f5": "images/dark-walnut-laminate-plank/dark-walnut-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dark-walnut-laminate-plank/detail-white.webp",
+                "#f5f5f5": "images/dark-walnut-laminate-plank/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "dark-walnut-10-mm-with-underlay",
+          "sku": "CON-DARK-WALNUT-LAMINATE-PLANK-10-MM-WITH-UNDERLAY",
+          "options": {
+            "color": "dark-walnut",
+            "thickness": "10-mm",
+            "underlay": "with-underlay"
+          },
+          "price": {
+            "BRL": 80.9,
+            "USD": 2.79
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Dark Walnut Laminate Floor Plank with a Click Edge",
+                "pt-BR": "Piso Laminado Nogueira Escuro 19×135 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "dark-walnut-white.png",
+                "#f5f5f5": "dark-walnut-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dark-walnut-laminate-plank/dark-walnut-white.webp",
+                "#f5f5f5": "images/dark-walnut-laminate-plank/dark-walnut-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dark-walnut-laminate-plank/detail-white.webp",
+                "#f5f5f5": "images/dark-walnut-laminate-plank/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "dark-walnut-12-mm-without-underlay",
+          "sku": "CON-DARK-WALNUT-LAMINATE-PLANK-12-MM-WITHOUT-UNDERLAY",
+          "options": {
+            "color": "dark-walnut",
+            "thickness": "12-mm",
+            "underlay": "without-underlay"
+          },
+          "price": {
+            "BRL": 83.9,
+            "USD": 2.79
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Dark Walnut Laminate Floor Plank with a Click Edge",
+                "pt-BR": "Piso Laminado Nogueira Escuro 19×135 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "dark-walnut-white.png",
+                "#f5f5f5": "dark-walnut-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dark-walnut-laminate-plank/dark-walnut-white.webp",
+                "#f5f5f5": "images/dark-walnut-laminate-plank/dark-walnut-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dark-walnut-laminate-plank/detail-white.webp",
+                "#f5f5f5": "images/dark-walnut-laminate-plank/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "dark-walnut-12-mm-with-underlay",
+          "sku": "CON-DARK-WALNUT-LAMINATE-PLANK-12-MM-WITH-UNDERLAY",
+          "options": {
+            "color": "dark-walnut",
+            "thickness": "12-mm",
+            "underlay": "with-underlay"
+          },
+          "price": {
+            "BRL": 87.9,
+            "USD": 2.99
           },
           "availability": "low_stock",
           "images": [
@@ -58643,7 +58911,7 @@
     },
     {
       "id": "foam-laminate-underlayment-roll",
-      "categoryId": "construcao-pisos",
+      "categoryId": "construcao-acessorios",
       "unitId": "roll",
       "name": {
         "en": "Foam Underlayment Roll for Laminate and Click Floors with Moisture Barrier Film, 100 Square Feet per Roll",
@@ -79362,8 +79630,8 @@
       "categoryId": "construcao-pisos",
       "unitId": "area",
       "name": {
-        "en": "Light Oak Laminate Floor Plank with a Click Edge, 7.5 by 53 Inches and 7 Millimeters Thick",
-        "pt-BR": "Piso Laminado Carvalho Claro 19×135 cm com 7 mm e Encaixe Click"
+        "en": "Light Oak Laminate Floor Plank with a Click Edge, 7.5 by 53 Inches, for Indoor Rooms",
+        "pt-BR": "Piso Laminado Carvalho Claro 19×135 cm com Encaixe Click para Área Interna"
       },
       "description": {
         "en": "A light oak click laminate for bedrooms and living rooms. It cannot get wet. It is meant for indoor rooms. Slip resistance is R9 and scratch resistance is medium. The price is for one square foot.",
@@ -79496,6 +79764,40 @@
           ]
         },
         {
+          "id": "thickness",
+          "specificationId": "thickness",
+          "name": {
+            "en": "Thickness",
+            "pt-BR": "Espessura"
+          },
+          "values": [
+            {
+              "id": "7-mm",
+              "valueId": "7-mm",
+              "name": {
+                "en": "7 mm",
+                "pt-BR": "7 mm"
+              }
+            },
+            {
+              "id": "8-mm",
+              "valueId": "8-mm",
+              "name": {
+                "en": "8 mm",
+                "pt-BR": "8 mm"
+              }
+            },
+            {
+              "id": "12-mm",
+              "valueId": "12-mm",
+              "name": {
+                "en": "12 mm",
+                "pt-BR": "12 mm"
+              }
+            }
+          ]
+        },
+        {
           "id": "underlay",
           "name": {
             "en": "Underlay",
@@ -79525,6 +79827,7 @@
           "sku": "CON-LIGHT-OAK-LAMINATE-PLANK-WITHOUT-UNDERLAY",
           "options": {
             "color": "light-oak",
+            "thickness": "7-mm",
             "underlay": "without-underlay"
           },
           "price": {
@@ -79586,6 +79889,7 @@
           "sku": "CON-LIGHT-OAK-LAMINATE-PLANK-WITH-UNDERLAY",
           "options": {
             "color": "light-oak",
+            "thickness": "7-mm",
             "underlay": "with-underlay"
           },
           "price": {
@@ -79595,6 +79899,254 @@
           "listPrice": {
             "BRL": 83.9,
             "USD": 2.89
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Light Oak Laminate Floor Plank with a Click Edge",
+                "pt-BR": "Piso Laminado Carvalho Claro 19×135 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "light-oak-white.png",
+                "#f5f5f5": "light-oak-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/light-oak-laminate-plank/light-oak-white.webp",
+                "#f5f5f5": "images/light-oak-laminate-plank/light-oak-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/light-oak-laminate-plank/detail-white.webp",
+                "#f5f5f5": "images/light-oak-laminate-plank/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "light-oak-8-mm-without-underlay",
+          "sku": "CON-LIGHT-OAK-LAMINATE-PLANK-8-MM-WITHOUT-UNDERLAY",
+          "options": {
+            "color": "light-oak",
+            "thickness": "8-mm",
+            "underlay": "without-underlay"
+          },
+          "price": {
+            "BRL": 69.9,
+            "USD": 2.39
+          },
+          "listPrice": {
+            "BRL": 84.9,
+            "USD": 2.89
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Light Oak Laminate Floor Plank with a Click Edge",
+                "pt-BR": "Piso Laminado Carvalho Claro 19×135 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "light-oak-white.png",
+                "#f5f5f5": "light-oak-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/light-oak-laminate-plank/light-oak-white.webp",
+                "#f5f5f5": "images/light-oak-laminate-plank/light-oak-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/light-oak-laminate-plank/detail-white.webp",
+                "#f5f5f5": "images/light-oak-laminate-plank/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "light-oak-8-mm-with-underlay",
+          "sku": "CON-LIGHT-OAK-LAMINATE-PLANK-8-MM-WITH-UNDERLAY",
+          "options": {
+            "color": "light-oak",
+            "thickness": "8-mm",
+            "underlay": "with-underlay"
+          },
+          "price": {
+            "BRL": 73.9,
+            "USD": 2.59
+          },
+          "listPrice": {
+            "BRL": 88.9,
+            "USD": 3.09
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Light Oak Laminate Floor Plank with a Click Edge",
+                "pt-BR": "Piso Laminado Carvalho Claro 19×135 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "light-oak-white.png",
+                "#f5f5f5": "light-oak-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/light-oak-laminate-plank/light-oak-white.webp",
+                "#f5f5f5": "images/light-oak-laminate-plank/light-oak-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/light-oak-laminate-plank/detail-white.webp",
+                "#f5f5f5": "images/light-oak-laminate-plank/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "light-oak-12-mm-without-underlay",
+          "sku": "CON-LIGHT-OAK-LAMINATE-PLANK-12-MM-WITHOUT-UNDERLAY",
+          "options": {
+            "color": "light-oak",
+            "thickness": "12-mm",
+            "underlay": "without-underlay"
+          },
+          "price": {
+            "BRL": 82.9,
+            "USD": 2.79
+          },
+          "listPrice": {
+            "BRL": 97.9,
+            "USD": 3.29
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Light Oak Laminate Floor Plank with a Click Edge",
+                "pt-BR": "Piso Laminado Carvalho Claro 19×135 cm"
+              },
+              "backgrounds": {
+                "#ffffff": "light-oak-white.png",
+                "#f5f5f5": "light-oak-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/light-oak-laminate-plank/light-oak-white.webp",
+                "#f5f5f5": "images/light-oak-laminate-plank/light-oak-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Close view of the surface finish, large enough to judge the texture and sheen",
+                "pt-BR": "Vista aproximada do acabamento, grande o bastante para ver a textura e o brilho"
+              },
+              "backgrounds": {
+                "#ffffff": "detail-white.png",
+                "#f5f5f5": "detail-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/light-oak-laminate-plank/detail-white.webp",
+                "#f5f5f5": "images/light-oak-laminate-plank/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "light-oak-12-mm-with-underlay",
+          "sku": "CON-LIGHT-OAK-LAMINATE-PLANK-12-MM-WITH-UNDERLAY",
+          "options": {
+            "color": "light-oak",
+            "thickness": "12-mm",
+            "underlay": "with-underlay"
+          },
+          "price": {
+            "BRL": 86.9,
+            "USD": 2.99
+          },
+          "listPrice": {
+            "BRL": 101.9,
+            "USD": 3.49
           },
           "availability": "low_stock",
           "images": [
