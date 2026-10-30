@@ -953,6 +953,43 @@
           }
         }
       ]
+    },
+    {
+      "id": "sink-type",
+      "name": {
+        "en": "Sink type",
+        "pt-BR": "Tipo de pia"
+      },
+      "values": [
+        {
+          "id": "vessel",
+          "name": {
+            "en": "Vessel sink",
+            "pt-BR": "Cuba de apoio"
+          }
+        },
+        {
+          "id": "basin",
+          "name": {
+            "en": "Bathroom basin",
+            "pt-BR": "Lavatório"
+          }
+        },
+        {
+          "id": "kitchen",
+          "name": {
+            "en": "Kitchen sink",
+            "pt-BR": "Pia de cozinha"
+          }
+        },
+        {
+          "id": "laundry",
+          "name": {
+            "en": "Laundry tub",
+            "pt-BR": "Tanque"
+          }
+        }
+      ]
     }
   ],
   "units": [
@@ -23948,6 +23985,235 @@
       }
     },
     {
+      "id": "brushed-brass-waterfall-faucet",
+      "categoryId": "construcao-banheiro",
+      "unitId": "piece",
+      "name": {
+        "en": "Brushed Brass Waterfall Vessel Sink Faucet with Wide Open Spout and Single Lever, Tall Deck Mount",
+        "pt-BR": "Torneira Dourada Escovada Cascata para Cuba de Apoio com Bica Aberta Larga e Alavanca Única"
+      },
+      "description": {
+        "en": "A tall brushed brass faucet with a wide open spout that pours a flat waterfall sheet. Made for a vessel sink on the countertop. Brushed finish hides fingerprints and water spots.",
+        "pt-BR": "Torneira alta dourada escovada com bica aberta larga que forma uma cascata. Feita para cuba de apoio sobre a bancada. O acabamento escovado disfarça digitais e marcas de água."
+      },
+      "price": {
+        "BRL": 629,
+        "USD": 149
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "vessel sink",
+          "brushed brass",
+          "waterfall",
+          "gold"
+        ],
+        "pt-BR": [
+          "torneira",
+          "cuba de apoio",
+          "latão escovado",
+          "cascata",
+          "dourada"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "vessel",
+          "value": {
+            "en": "Vessel sink",
+            "pt-BR": "Cuba de apoio"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "brass",
+          "value": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "brushed-brass",
+              "name": {
+                "en": "Brushed brass",
+                "pt-BR": "Latão escovado"
+              },
+              "hex": "#C9A24B"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-BRUSHED-BRASS-WATERFALL-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "brushed-brass",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 629,
+            "USD": 149
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brushed brass waterfall vessel sink faucet with a wide open spout",
+                "pt-BR": "Torneira dourada escovada cascata para cuba de apoio com bica aberta larga"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brushed-brass-waterfall-faucet/main-white.webp",
+                "#f5f5f5": "images/brushed-brass-waterfall-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-BRUSHED-BRASS-WATERFALL-FAUCET-KIT",
+          "options": {
+            "color": "brushed-brass",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 755,
+            "USD": 176
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brushed brass waterfall vessel sink faucet with a wide open spout",
+                "pt-BR": "Torneira dourada escovada cascata para cuba de apoio com bica aberta larga"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brushed-brass-waterfall-faucet/main-white.webp",
+                "#f5f5f5": "images/brushed-brass-waterfall-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
       "id": "burgundy-cashmere-turtleneck",
       "brandId": "fio-puro",
       "brand": {
@@ -33796,6 +34062,237 @@
       }
     },
     {
+      "id": "chrome-pull-down-kitchen-faucet",
+      "categoryId": "construcao-hidraulica",
+      "unitId": "piece",
+      "name": {
+        "en": "Chrome Pull-Down Kitchen Faucet with High Arc Coil Neck, Spray Head and Single Lever, for a Sink",
+        "pt-BR": "Torneira Cromada de Cozinha com Bica Alta em Mola, Ducha Extensível e Alavanca Única, para Pia"
+      },
+      "description": {
+        "en": "A chrome kitchen faucet with a high arc coil neck and a spray head that pulls out on a flexible hose to rinse pots and the sink. One lever sets flow and temperature. Made for a kitchen sink with a single hole.",
+        "pt-BR": "Torneira cromada de cozinha com bica alta em mola e ducha que se estende por uma mangueira flexível para enxaguar panelas e a pia. Uma alavanca controla vazão e temperatura. Feita para pia de cozinha com um furo."
+      },
+      "price": {
+        "BRL": 549,
+        "USD": 129
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "kitchen sink",
+          "pull-down",
+          "spray head",
+          "chrome",
+          "single lever"
+        ],
+        "pt-BR": [
+          "torneira",
+          "pia de cozinha",
+          "extensível",
+          "ducha",
+          "cromada",
+          "alavanca única"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "kitchen",
+          "value": {
+            "en": "Kitchen sink",
+            "pt-BR": "Pia de cozinha"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "stainless-steel",
+          "value": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "chrome",
+              "name": {
+                "en": "Chrome",
+                "pt-BR": "Cromado"
+              },
+              "hex": "#D5D7D8"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-CHROME-PULL-DOWN-KITCHEN-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "chrome",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 549,
+            "USD": 129
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Chrome pull-down kitchen faucet with a coil neck and spray head",
+                "pt-BR": "Torneira cromada de cozinha com bica em mola e ducha extensível"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/chrome-pull-down-kitchen-faucet/main-white.webp",
+                "#f5f5f5": "images/chrome-pull-down-kitchen-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-CHROME-PULL-DOWN-KITCHEN-FAUCET-KIT",
+          "options": {
+            "color": "chrome",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 659,
+            "USD": 152
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Chrome pull-down kitchen faucet with a coil neck and spray head",
+                "pt-BR": "Torneira cromada de cozinha com bica em mola e ducha extensível"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/chrome-pull-down-kitchen-faucet/main-white.webp",
+                "#f5f5f5": "images/chrome-pull-down-kitchen-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
       "id": "chrome-rain-shower-ceiling-mount",
       "deprecated": {
         "reason": "Folded into \"chrome-rain-shower-head\" as a variant (model): it has the same photo and only that choice differs.",
@@ -36140,6 +36637,237 @@
       }
     },
     {
+      "id": "chrome-sensor-basin-faucet",
+      "categoryId": "construcao-banheiro",
+      "unitId": "piece",
+      "name": {
+        "en": "Chrome Touchless Sensor Bathroom Faucet with Infrared Eye and Curved Spout, Battery Powered, for a Basin",
+        "pt-BR": "Torneira Cromada de Banheiro com Sensor de Presença por Infravermelho e Bica Curva, a Pilha, para Lavatório"
+      },
+      "description": {
+        "en": "A chrome faucet with no handle. An infrared sensor on the neck starts the water when hands are under the spout and stops it when they leave. Made for a bathroom basin and powered by batteries.",
+        "pt-BR": "Torneira cromada sem registro. Um sensor infravermelho no corpo abre a água quando as mãos estão sob a bica e fecha quando saem. Feita para lavatório de banheiro e alimentada por pilhas."
+      },
+      "price": {
+        "BRL": 589,
+        "USD": 139
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "bathroom basin",
+          "touchless",
+          "sensor",
+          "chrome",
+          "battery"
+        ],
+        "pt-BR": [
+          "torneira",
+          "lavatório",
+          "sem toque",
+          "sensor",
+          "cromada",
+          "pilha"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "basin",
+          "value": {
+            "en": "Bathroom basin",
+            "pt-BR": "Lavatório"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "brass",
+          "value": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "chrome",
+              "name": {
+                "en": "Chrome",
+                "pt-BR": "Cromado"
+              },
+              "hex": "#D5D7D8"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-CHROME-SENSOR-BASIN-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "chrome",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 589,
+            "USD": 139
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Chrome touchless sensor faucet with a curved spout and a round infrared eye",
+                "pt-BR": "Torneira cromada com sensor de presença, bica curva e olho infravermelho redondo"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/chrome-sensor-basin-faucet/main-white.webp",
+                "#f5f5f5": "images/chrome-sensor-basin-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-CHROME-SENSOR-BASIN-FAUCET-KIT",
+          "options": {
+            "color": "chrome",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 707,
+            "USD": 164
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Chrome touchless sensor faucet with a curved spout and a round infrared eye",
+                "pt-BR": "Torneira cromada com sensor de presença, bica curva e olho infravermelho redondo"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/chrome-sensor-basin-faucet/main-white.webp",
+                "#f5f5f5": "images/chrome-sensor-basin-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
       "id": "chrome-single-lever-faucet",
       "categoryId": "construcao-banheiro",
       "unitId": "piece",
@@ -36979,6 +37707,468 @@
               "src": {
                 "#ffffff": "images/chrome-single-lever-faucet/detail-white.webp",
                 "#f5f5f5": "images/chrome-single-lever-faucet/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
+      "id": "chrome-wall-laundry-faucet",
+      "categoryId": "construcao-hidraulica",
+      "unitId": "piece",
+      "name": {
+        "en": "Chrome Wall-Mounted Laundry Tub Faucet with Long Swivel Spout and Two Cross Handles, Threaded Tip",
+        "pt-BR": "Torneira Cromada de Parede para Tanque com Bica Móvel Longa e Dois Registros em Cruzeta, Ponta Rosqueada"
+      },
+      "description": {
+        "en": "A chrome wall-mounted faucet for a laundry tub or utility sink. The long spout swivels over the whole tub, and the threaded tip takes a hose. Two cross handles set hot and cold water.",
+        "pt-BR": "Torneira cromada de parede para tanque de lavanderia ou área de serviço. A bica longa gira sobre todo o tanque e a ponta rosqueada aceita mangueira. Dois registros em cruzeta controlam água quente e fria."
+      },
+      "price": {
+        "BRL": 189,
+        "USD": 45
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "laundry tub",
+          "utility sink",
+          "wall mount",
+          "swivel spout",
+          "chrome"
+        ],
+        "pt-BR": [
+          "torneira",
+          "tanque",
+          "área de serviço",
+          "de parede",
+          "bica móvel",
+          "cromada"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "laundry",
+          "value": {
+            "en": "Laundry tub",
+            "pt-BR": "Tanque"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "brass",
+          "value": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "chrome",
+              "name": {
+                "en": "Chrome",
+                "pt-BR": "Cromado"
+              },
+              "hex": "#D5D7D8"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-CHROME-WALL-LAUNDRY-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "chrome",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 189,
+            "USD": 45
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Chrome wall-mounted laundry tub faucet with a long swivel spout",
+                "pt-BR": "Torneira cromada de parede para tanque com bica móvel longa"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/chrome-wall-laundry-faucet/main-white.webp",
+                "#f5f5f5": "images/chrome-wall-laundry-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-CHROME-WALL-LAUNDRY-FAUCET-KIT",
+          "options": {
+            "color": "chrome",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 227,
+            "USD": 53
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Chrome wall-mounted laundry tub faucet with a long swivel spout",
+                "pt-BR": "Torneira cromada de parede para tanque com bica móvel longa"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/chrome-wall-laundry-faucet/main-white.webp",
+                "#f5f5f5": "images/chrome-wall-laundry-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
+      "id": "chrome-widespread-basin-faucet",
+      "categoryId": "construcao-banheiro",
+      "unitId": "piece",
+      "name": {
+        "en": "Chrome Two-Handle Widespread Bathroom Faucet with Gooseneck Spout, for a 3-Hole Basin",
+        "pt-BR": "Torneira Cromada de Banheiro com Dois Registros e Bica Alta Curva, para Lavatório de 3 Furos"
+      },
+      "description": {
+        "en": "A chrome widespread faucet with a gooseneck spout and two cross handles on separate bases, one for hot and one for cold water. It needs a bathroom basin with three holes, spaced about 8 in apart.",
+        "pt-BR": "Torneira cromada de três peças com bica alta curva e dois registros em cruzeta, um para água quente e outro para fria. Pede um lavatório de banheiro com três furos, com cerca de 20 cm entre os registros."
+      },
+      "price": {
+        "BRL": 499,
+        "USD": 119
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "bathroom basin",
+          "widespread",
+          "two handles",
+          "3-hole",
+          "chrome"
+        ],
+        "pt-BR": [
+          "torneira",
+          "lavatório",
+          "três peças",
+          "dois registros",
+          "3 furos",
+          "cromada"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "basin",
+          "value": {
+            "en": "Bathroom basin",
+            "pt-BR": "Lavatório"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "brass",
+          "value": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "chrome",
+              "name": {
+                "en": "Chrome",
+                "pt-BR": "Cromado"
+              },
+              "hex": "#D5D7D8"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-CHROME-WIDESPREAD-BASIN-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "chrome",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 499,
+            "USD": 119
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Chrome widespread bathroom faucet with two cross handles and a gooseneck spout",
+                "pt-BR": "Torneira cromada de banheiro com dois registros em cruzeta e bica alta curva"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/chrome-widespread-basin-faucet/main-white.webp",
+                "#f5f5f5": "images/chrome-widespread-basin-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-CHROME-WIDESPREAD-BASIN-FAUCET-KIT",
+          "options": {
+            "color": "chrome",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 599,
+            "USD": 140
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Chrome widespread bathroom faucet with two cross handles and a gooseneck spout",
+                "pt-BR": "Torneira cromada de banheiro com dois registros em cruzeta e bica alta curva"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/chrome-widespread-basin-faucet/main-white.webp",
+                "#f5f5f5": "images/chrome-widespread-basin-faucet/main-gray.webp"
               }
             }
           ],
@@ -81857,6 +83047,235 @@
           "pt-BR": {
             "one": "saco",
             "other": "sacos"
+          }
+        }
+      }
+    },
+    {
+      "id": "matte-black-vessel-faucet",
+      "categoryId": "construcao-banheiro",
+      "unitId": "piece",
+      "name": {
+        "en": "Matte Black Tall Vessel Sink Faucet with Square Single Lever, Deck Mount, for a Countertop Bowl",
+        "pt-BR": "Torneira Preta Fosca Alta para Cuba de Apoio com Alavanca Única Quadrada, para Bancada"
+      },
+      "description": {
+        "en": "A tall matte black single-lever faucet with a square spout, made for a vessel sink that sits on top of the countertop. The tall body clears the rim of the bowl. Not for a drop-in or undermount basin.",
+        "pt-BR": "Torneira alta preta fosca de alavanca única com bica quadrada, feita para cuba de apoio sobre a bancada. O corpo alto passa da borda da cuba. Não serve para cuba de embutir ou sobrepor."
+      },
+      "price": {
+        "BRL": 549,
+        "USD": 129
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "vessel sink",
+          "matte black",
+          "tall",
+          "single lever"
+        ],
+        "pt-BR": [
+          "torneira",
+          "cuba de apoio",
+          "preta fosca",
+          "alta",
+          "alavanca única"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "vessel",
+          "value": {
+            "en": "Vessel sink",
+            "pt-BR": "Cuba de apoio"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "stainless-steel",
+          "value": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "matte-black",
+              "name": {
+                "en": "Matte black",
+                "pt-BR": "Preto fosco"
+              },
+              "hex": "#1F1F1F"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-MATTE-BLACK-VESSEL-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "matte-black",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 549,
+            "USD": 129
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte black tall vessel sink faucet with a square lever",
+                "pt-BR": "Torneira preta fosca alta para cuba de apoio com alavanca quadrada"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/matte-black-vessel-faucet/main-white.webp",
+                "#f5f5f5": "images/matte-black-vessel-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-MATTE-BLACK-VESSEL-FAUCET-KIT",
+          "options": {
+            "color": "matte-black",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 659,
+            "USD": 152
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte black tall vessel sink faucet with a square lever",
+                "pt-BR": "Torneira preta fosca alta para cuba de apoio com alavanca quadrada"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/matte-black-vessel-faucet/main-white.webp",
+                "#f5f5f5": "images/matte-black-vessel-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
           }
         }
       }

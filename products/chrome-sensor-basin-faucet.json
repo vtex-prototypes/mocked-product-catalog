@@ -1,0 +1,149 @@
+{
+  "id": "chrome-sensor-basin-faucet",
+  "categoryId": "construcao-banheiro",
+  "unitId": "piece",
+  "name": {
+    "en": "Chrome Touchless Sensor Bathroom Faucet with Infrared Eye and Curved Spout, Battery Powered, for a Basin",
+    "pt-BR": "Torneira Cromada de Banheiro com Sensor de Presença por Infravermelho e Bica Curva, a Pilha, para Lavatório"
+  },
+  "description": {
+    "en": "A chrome faucet with no handle. An infrared sensor on the neck starts the water when hands are under the spout and stops it when they leave. Made for a bathroom basin and powered by batteries.",
+    "pt-BR": "Torneira cromada sem registro. Um sensor infravermelho no corpo abre a água quando as mãos estão sob a bica e fecha quando saem. Feita para lavatório de banheiro e alimentada por pilhas."
+  },
+  "price": {
+    "BRL": 589,
+    "USD": 139
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "faucet",
+      "bathroom basin",
+      "touchless",
+      "sensor",
+      "chrome",
+      "battery"
+    ],
+    "pt-BR": [
+      "torneira",
+      "lavatório",
+      "sem toque",
+      "sensor",
+      "cromada",
+      "pilha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "sink-type",
+      "valueId": "basin"
+    },
+    {
+      "id": "material",
+      "valueId": "brass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "piece-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "chrome",
+          "name": {
+            "en": "Chrome",
+            "pt-BR": "Cromado"
+          },
+          "hex": "#D5D7D8"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Includes",
+        "pt-BR": "Inclui"
+      },
+      "values": [
+        {
+          "id": "piece-only",
+          "name": {
+            "en": "Piece only",
+            "pt-BR": "Só a peça"
+          }
+        },
+        {
+          "id": "kit",
+          "name": {
+            "en": "Installation kit",
+            "pt-BR": "Kit de instalação"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "piece-only",
+      "sku": "CON-CHROME-SENSOR-BASIN-FAUCET-PIECE-ONLY",
+      "options": {
+        "color": "chrome",
+        "install": "piece-only"
+      },
+      "price": {
+        "BRL": 589,
+        "USD": 139
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome touchless sensor faucet with a curved spout and a round infrared eye",
+            "pt-BR": "Torneira cromada com sensor de presença, bica curva e olho infravermelho redondo"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kit",
+      "sku": "CON-CHROME-SENSOR-BASIN-FAUCET-KIT",
+      "options": {
+        "color": "chrome",
+        "install": "kit"
+      },
+      "price": {
+        "BRL": 707,
+        "USD": 164
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome touchless sensor faucet with a curved spout and a round infrared eye",
+            "pt-BR": "Torneira cromada com sensor de presença, bica curva e olho infravermelho redondo"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

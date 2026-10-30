@@ -1,0 +1,147 @@
+{
+  "id": "matte-black-vessel-faucet",
+  "categoryId": "construcao-banheiro",
+  "unitId": "piece",
+  "name": {
+    "en": "Matte Black Tall Vessel Sink Faucet with Square Single Lever, Deck Mount, for a Countertop Bowl",
+    "pt-BR": "Torneira Preta Fosca Alta para Cuba de Apoio com Alavanca Única Quadrada, para Bancada"
+  },
+  "description": {
+    "en": "A tall matte black single-lever faucet with a square spout, made for a vessel sink that sits on top of the countertop. The tall body clears the rim of the bowl. Not for a drop-in or undermount basin.",
+    "pt-BR": "Torneira alta preta fosca de alavanca única com bica quadrada, feita para cuba de apoio sobre a bancada. O corpo alto passa da borda da cuba. Não serve para cuba de embutir ou sobrepor."
+  },
+  "price": {
+    "BRL": 549,
+    "USD": 129
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "faucet",
+      "vessel sink",
+      "matte black",
+      "tall",
+      "single lever"
+    ],
+    "pt-BR": [
+      "torneira",
+      "cuba de apoio",
+      "preta fosca",
+      "alta",
+      "alavanca única"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "sink-type",
+      "valueId": "vessel"
+    },
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "piece-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#1F1F1F"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Includes",
+        "pt-BR": "Inclui"
+      },
+      "values": [
+        {
+          "id": "piece-only",
+          "name": {
+            "en": "Piece only",
+            "pt-BR": "Só a peça"
+          }
+        },
+        {
+          "id": "kit",
+          "name": {
+            "en": "Installation kit",
+            "pt-BR": "Kit de instalação"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "piece-only",
+      "sku": "CON-MATTE-BLACK-VESSEL-FAUCET-PIECE-ONLY",
+      "options": {
+        "color": "matte-black",
+        "install": "piece-only"
+      },
+      "price": {
+        "BRL": 549,
+        "USD": 129
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black tall vessel sink faucet with a square lever",
+            "pt-BR": "Torneira preta fosca alta para cuba de apoio com alavanca quadrada"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kit",
+      "sku": "CON-MATTE-BLACK-VESSEL-FAUCET-KIT",
+      "options": {
+        "color": "matte-black",
+        "install": "kit"
+      },
+      "price": {
+        "BRL": 659,
+        "USD": 152
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black tall vessel sink faucet with a square lever",
+            "pt-BR": "Torneira preta fosca alta para cuba de apoio com alavanca quadrada"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
