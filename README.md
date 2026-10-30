@@ -186,7 +186,7 @@ npm install
 npm run check
 ```
 
-`check` validates every product and draft, rebuilds `catalog.json`, `drafts.json` and the coverage table in `CONSUMING.md`, and fails if the committed copies are stale. Commit the regenerated files together with yours.
+`check` validates every product and draft, rebuilds `catalog.json`, `drafts.json` and the coverage table in `CONSUMING.md`, and fails if the committed copies are stale. Commit the regenerated files together with yours. The image work (WebP encoding and pixel checks) covers only the PNGs added or changed since the last release, so a PR takes seconds; it covers every PNG when the image rules changed since then (`scripts/webp.mjs`, `scripts/validate.mjs`, `scripts/changed-images.mjs` or `package-lock.json`). `CHECK_ALL=1 npm run check` forces a full pass.
 
 ### 4. Open a PR
 
@@ -216,9 +216,10 @@ drafts/<id>.jpg             # their original reference photo
 catalog.json                # generated: brands, specifications, categories, and published products
 drafts.json                 # generated: the promotion queue
 schema/product.schema.json  # JSON schema for products/*.json
-scripts/validate.mjs        # metadata + image checks for products and drafts
+scripts/validate.mjs        # metadata + image checks for products and drafts (pixels: changed PNGs only)
 scripts/backgrounds.mjs     # paints the #f5f5f5 twins
-scripts/webp.mjs            # writes a WebP next to every PNG
+scripts/webp.mjs            # writes a WebP next to every changed PNG
+scripts/changed-images.mjs  # which PNGs changed since the last release, or all of them
 scripts/build.mjs           # builds catalog.json, drafts.json and the coverage table
 scripts/compat.mjs          # says whether a change is a major, minor or patch release
 scripts/test-loader.mjs     # tests for loader.js

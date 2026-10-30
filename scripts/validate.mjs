@@ -2,6 +2,9 @@
 // Validates every product in products/*.json and its images:
 //   metadata shape, category, price, image files, PNG 1024x1024,
 //   and a true-white (#FFFFFF-ish) background along the edges.
+// Metadata and file checks cover everything every run; PNG pixels are decoded
+// only for PNGs changed since the last release (all of them when the image
+// rules changed, or with CHECK_ALL=1).
 // Also validates drafts/*.json (imported photos waiting to be promoted).
 // Usage: node scripts/validate.mjs [id ...]
 // Exits 1 on any error. Warnings do not fail the run.
@@ -10,7 +13,9 @@ import { createHash } from "node:crypto";
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { PNG } from "pngjs";
+import { cpus } from "node:os";
+import sharp from "sharp";
+import { selectImages, pool } from "./changed-images.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const PRODUCTS_DIR = join(ROOT, "products");
@@ -35,6 +40,7 @@ const MIN_NAME_LENGTH = 60; // marketplace-style long names, so prototypes see r
 const MIN_DESCRIPTION_LENGTH = 80;
 
 const errors = [];
+const imageJobs = []; // { label, path, background }, decoded after the sync pass
 const warnings = [];
 const err = (id, msg) => errors.push(`${id}: ${msg}`);
 const warn = (id, msg) => warnings.push(`${id}: ${msg}`);
@@ -344,7 +350,7 @@ function validateGallery(id, label, images, dir) {
       files.push(file);
       const path = join(dir, file);
       if (!existsSync(path)) err(id, `missing file images/${id}/${file}`);
-      else validateImage(`${id}/${file}`, path, key);
+      else imageJobs.push({ label: `${id}/${file}`, path, background: key });
       const webp = file.replace(/\.png$/, ".webp");
       files.push(webp);
       if (!existsSync(join(dir, webp))) err(id, `missing file images/${id}/${webp} (run npm run webp)`);
@@ -356,34 +362,47 @@ function validateGallery(id, label, images, dir) {
   return files;
 }
 
-function validateImage(label, path, background) {
-  let png;
+// Pixel check of one PNG: size and the edge ring. Runs after the sync checks.
+async function validateImage({ label, path, background }) {
+  let data, w, h, channels;
   try {
-    png = PNG.sync.read(readFileSync(path));
+    const out = await sharp(path).toColourspace("srgb").ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+    ({ data } = out);
+    ({ width: w, height: h, channels } = out.info);
   } catch (e) {
-    return err(label, `not a readable PNG (${e.message})`);
+    return `not a readable PNG (${e.message})`;
   }
-  const { width: w, height: h, data } = png;
-  if (w !== IMAGE_SIZE || h !== IMAGE_SIZE) err(label, `must be ${IMAGE_SIZE}x${IMAGE_SIZE}, got ${w}x${h}`);
+  const problems = [];
+  if (w !== IMAGE_SIZE || h !== IMAGE_SIZE) problems.push(`must be ${IMAGE_SIZE}x${IMAGE_SIZE}, got ${w}x${h}`);
 
   const matches = BACKGROUNDS[background];
+  const ringRow = (y, x0, x1) => {
+    let bad = 0;
+    for (let x = x0; x < x1; x++) {
+      const i = (y * w + x) * channels;
+      if (!matches(data[i], data[i + 1], data[i + 2])) bad++;
+    }
+    return bad;
+  };
   let ring = 0, ringBad = 0;
   for (let y = 0; y < h; y++) {
-    for (let x = 0; x < w; x++) {
-      const onRing = x < BORDER_RING || y < BORDER_RING || x >= w - BORDER_RING || y >= h - BORDER_RING;
-      if (!onRing) continue;
-      ring++;
-      const i = (y * w + x) * 4;
-      if (!matches(data[i], data[i + 1], data[i + 2])) ringBad++;
+    if (y < BORDER_RING || y >= h - BORDER_RING) {
+      ring += w;
+      ringBad += ringRow(y, 0, w);
+    } else {
+      const left = Math.min(BORDER_RING, w), right = Math.max(w - BORDER_RING, left);
+      ring += left + (w - right);
+      ringBad += ringRow(y, 0, left) + ringRow(y, right, w);
     }
   }
   if (ringBad / ring > MAX_BORDER_OFF) {
-    err(label, `edges are not ${background} (${((ringBad / ring) * 100).toFixed(1)}% of the outer ${BORDER_RING}px is off). For #f5f5f5, run npm run backgrounds instead of redrawing the photo.`);
+    problems.push(`edges are not ${background} (${((ringBad / ring) * 100).toFixed(1)}% of the outer ${BORDER_RING}px is off). For #f5f5f5, run npm run backgrounds instead of redrawing the photo.`);
   }
 
   // Shadows, tags and text are NOT detected automatically. Simple pixel
   // heuristics cannot tell a soft shadow from the body of a white product
   // (towel, pillow, sheets), so those remain a human check in the PR template.
+  return problems;
 }
 
 // One photo, one product. Two products that are still sold and share a photo
@@ -500,6 +519,16 @@ if (existsSync(DRAFTS_DIR) && requested.length === 0) {
     if (f.endsWith(".jpg") && !used.has(f)) warn(`drafts/${f}`, `photo is not referenced by any draft`);
   }
 }
+
+// The same PNG can back several variants: decode each path+background once.
+const unique = [...new Map(imageJobs.map((j) => [`${j.path}|${j.background}`, j])).values()];
+const mode = selectImages();
+const selected = mode.full ? unique : unique.filter((j) => mode.changed.has(j.path));
+console.log(mode.full ? `validate: full pass (${mode.reason})` : `validate: ${selected.length} of ${unique.length} PNGs changed since ${mode.base}`);
+const results = await pool(selected, cpus().length, validateImage);
+selected.forEach((job, i) => {
+  for (const msg of [].concat(results[i])) err(job.label, msg);
+});
 
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
