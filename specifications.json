@@ -915,5 +915,42 @@
         }
       }
     ]
+  },
+  {
+    "id": "sink-type",
+    "name": {
+      "en": "Sink type",
+      "pt-BR": "Tipo de pia"
+    },
+    "values": [
+      {
+        "id": "vessel",
+        "name": {
+          "en": "Vessel sink",
+          "pt-BR": "Cuba de apoio"
+        }
+      },
+      {
+        "id": "basin",
+        "name": {
+          "en": "Bathroom basin",
+          "pt-BR": "Lavatório"
+        }
+      },
+      {
+        "id": "kitchen",
+        "name": {
+          "en": "Kitchen sink",
+          "pt-BR": "Pia de cozinha"
+        }
+      },
+      {
+        "id": "laundry",
+        "name": {
+          "en": "Laundry tub",
+          "pt-BR": "Tanque"
+        }
+      }
+    ]
   }
 ]

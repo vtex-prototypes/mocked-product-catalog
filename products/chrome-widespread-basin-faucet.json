@@ -1,0 +1,149 @@
+{
+  "id": "chrome-widespread-basin-faucet",
+  "categoryId": "construcao-banheiro",
+  "unitId": "piece",
+  "name": {
+    "en": "Chrome Two-Handle Widespread Bathroom Faucet with Gooseneck Spout, for a 3-Hole Basin",
+    "pt-BR": "Torneira Cromada de Banheiro com Dois Registros e Bica Alta Curva, para Lavatório de 3 Furos"
+  },
+  "description": {
+    "en": "A chrome widespread faucet with a gooseneck spout and two cross handles on separate bases, one for hot and one for cold water. It needs a bathroom basin with three holes, spaced about 8 in apart.",
+    "pt-BR": "Torneira cromada de três peças com bica alta curva e dois registros em cruzeta, um para água quente e outro para fria. Pede um lavatório de banheiro com três furos, com cerca de 20 cm entre os registros."
+  },
+  "price": {
+    "BRL": 499,
+    "USD": 119
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "faucet",
+      "bathroom basin",
+      "widespread",
+      "two handles",
+      "3-hole",
+      "chrome"
+    ],
+    "pt-BR": [
+      "torneira",
+      "lavatório",
+      "três peças",
+      "dois registros",
+      "3 furos",
+      "cromada"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "sink-type",
+      "valueId": "basin"
+    },
+    {
+      "id": "material",
+      "valueId": "brass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "piece-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "chrome",
+          "name": {
+            "en": "Chrome",
+            "pt-BR": "Cromado"
+          },
+          "hex": "#D5D7D8"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Includes",
+        "pt-BR": "Inclui"
+      },
+      "values": [
+        {
+          "id": "piece-only",
+          "name": {
+            "en": "Piece only",
+            "pt-BR": "Só a peça"
+          }
+        },
+        {
+          "id": "kit",
+          "name": {
+            "en": "Installation kit",
+            "pt-BR": "Kit de instalação"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "piece-only",
+      "sku": "CON-CHROME-WIDESPREAD-BASIN-FAUCET-PIECE-ONLY",
+      "options": {
+        "color": "chrome",
+        "install": "piece-only"
+      },
+      "price": {
+        "BRL": 499,
+        "USD": 119
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome widespread bathroom faucet with two cross handles and a gooseneck spout",
+            "pt-BR": "Torneira cromada de banheiro com dois registros em cruzeta e bica alta curva"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kit",
+      "sku": "CON-CHROME-WIDESPREAD-BASIN-FAUCET-KIT",
+      "options": {
+        "color": "chrome",
+        "install": "kit"
+      },
+      "price": {
+        "BRL": 599,
+        "USD": 140
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome widespread bathroom faucet with two cross handles and a gooseneck spout",
+            "pt-BR": "Torneira cromada de banheiro com dois registros em cruzeta e bica alta curva"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
