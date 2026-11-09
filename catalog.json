@@ -22402,6 +22402,211 @@
       }
     },
     {
+      "id": "brass-compression-elbow-fitting",
+      "categoryId": "construcao-hidraulica",
+      "unitId": "piece",
+      "name": {
+        "en": "Brass 90-Degree Compression Elbow Fitting for Copper and Plastic Water Pipe, Two Compression Nuts, Hot and Cold Lines",
+        "pt-BR": "Cotovelo de Latão 90 Graus com Conexão por Compressão para Tubo de Cobre e Plástico, Duas Porcas, para Água Quente e Fria"
+      },
+      "description": {
+        "en": "A brass elbow that turns a copper or plastic water pipe through a right angle without soldering. Tighten the two compression nuts with a wrench. Takes hot and cold water lines.",
+        "pt-BR": "Cotovelo de latão que muda a direção do tubo de cobre ou plástico em 90 graus sem solda. Basta apertar as duas porcas de compressão com uma chave. Serve para linhas de água quente e fria."
+      },
+      "price": {
+        "BRL": 34.9,
+        "USD": 9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "brass fitting",
+          "elbow",
+          "compression",
+          "copper pipe",
+          "hot water"
+        ],
+        "pt-BR": [
+          "conexão de latão",
+          "cotovelo",
+          "compressão",
+          "tubo de cobre",
+          "água quente"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "brass",
+          "value": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "1-2-in",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "brass",
+              "name": {
+                "en": "Brass",
+                "pt-BR": "Latão"
+              },
+              "hex": "#C99A3B"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "name": {
+            "en": "Pipe size",
+            "pt-BR": "Bitola do tubo"
+          },
+          "values": [
+            {
+              "id": "1-2-in",
+              "name": {
+                "en": "1/2 in",
+                "pt-BR": "15 mm"
+              }
+            },
+            {
+              "id": "3-4-in",
+              "name": {
+                "en": "3/4 in",
+                "pt-BR": "22 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "1-2-in",
+          "sku": "CON-BRASS-COMPRESSION-ELBOW-FITTING-1-2-IN",
+          "options": {
+            "color": "brass",
+            "size": "1-2-in"
+          },
+          "price": {
+            "BRL": 34.9,
+            "USD": 9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brass 90-degree compression elbow fitting with two nuts",
+                "pt-BR": "Cotovelo de latão 90 graus com duas porcas de compressão"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brass-compression-elbow-fitting/main-white.webp",
+                "#f5f5f5": "images/brass-compression-elbow-fitting/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "3-4-in",
+          "sku": "CON-BRASS-COMPRESSION-ELBOW-FITTING-3-4-IN",
+          "options": {
+            "color": "brass",
+            "size": "3-4-in"
+          },
+          "price": {
+            "BRL": 52.9,
+            "USD": 14
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brass 90-degree compression elbow fitting with two nuts",
+                "pt-BR": "Cotovelo de latão 90 graus com duas porcas de compressão"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brass-compression-elbow-fitting/main-white.webp",
+                "#f5f5f5": "images/brass-compression-elbow-fitting/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
       "id": "brass-gate-valve",
       "categoryId": "construcao-hidraulica",
       "name": {
@@ -22638,6 +22843,261 @@
           "pt-BR": {
             "one": "unidade",
             "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "brass-pipe-union-fitting",
+      "categoryId": "construcao-hidraulica",
+      "unitId": "piece",
+      "name": {
+        "en": "Brass Three-Piece Pipe Union with Male Threaded Ends, Lets You Disconnect a Heater, Pump or Valve Without Cutting Pipe",
+        "pt-BR": "União de Latão de Três Peças com Pontas de Rosca Macho, Permite Soltar Aquecedor, Bomba ou Registro sem Cortar o Tubo"
+      },
+      "description": {
+        "en": "A brass union with a large center nut that couples and uncouples two pipes. Fit it next to a water heater, pump or valve so the part can be taken out for service without cutting any pipe.",
+        "pt-BR": "União de latão com porca central grande que conecta e desconecta dois tubos. Instale ao lado de aquecedor, bomba ou registro para retirar a peça na manutenção sem cortar o tubo."
+      },
+      "price": {
+        "BRL": 64.9,
+        "USD": 17
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "brass fitting",
+          "pipe union",
+          "threaded",
+          "water heater",
+          "hot water"
+        ],
+        "pt-BR": [
+          "conexão de latão",
+          "união",
+          "rosqueada",
+          "aquecedor",
+          "água quente"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "brass",
+          "value": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "1-2-in",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "brass",
+              "name": {
+                "en": "Brass",
+                "pt-BR": "Latão"
+              },
+              "hex": "#C99A3B"
+            }
+          ]
+        },
+        {
+          "id": "thread",
+          "name": {
+            "en": "Thread size",
+            "pt-BR": "Rosca"
+          },
+          "values": [
+            {
+              "id": "1-2-in",
+              "name": {
+                "en": "1/2 in",
+                "pt-BR": "1/2 pol"
+              }
+            },
+            {
+              "id": "3-4-in",
+              "name": {
+                "en": "3/4 in",
+                "pt-BR": "3/4 pol"
+              }
+            },
+            {
+              "id": "1-in",
+              "name": {
+                "en": "1 in",
+                "pt-BR": "1 pol"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "1-2-in",
+          "sku": "CON-BRASS-PIPE-UNION-FITTING-1-2-IN",
+          "options": {
+            "color": "brass",
+            "thread": "1-2-in"
+          },
+          "price": {
+            "BRL": 64.9,
+            "USD": 17
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brass three-piece pipe union with a large center nut",
+                "pt-BR": "União de latão de três peças com porca central grande"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brass-pipe-union-fitting/main-white.webp",
+                "#f5f5f5": "images/brass-pipe-union-fitting/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "3-4-in",
+          "sku": "CON-BRASS-PIPE-UNION-FITTING-3-4-IN",
+          "options": {
+            "color": "brass",
+            "thread": "3-4-in"
+          },
+          "price": {
+            "BRL": 84.9,
+            "USD": 22
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brass three-piece pipe union with a large center nut",
+                "pt-BR": "União de latão de três peças com porca central grande"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brass-pipe-union-fitting/main-white.webp",
+                "#f5f5f5": "images/brass-pipe-union-fitting/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "1-in",
+          "sku": "CON-BRASS-PIPE-UNION-FITTING-1-IN",
+          "options": {
+            "color": "brass",
+            "thread": "1-in"
+          },
+          "price": {
+            "BRL": 119,
+            "USD": 31
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brass three-piece pipe union with a large center nut",
+                "pt-BR": "União de latão de três peças com porca central grande"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brass-pipe-union-fitting/main-white.webp",
+                "#f5f5f5": "images/brass-pipe-union-fitting/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
           }
         }
       }
@@ -116695,6 +117155,273 @@
       }
     },
     {
+      "id": "stainless-hex-pipe-nipple",
+      "categoryId": "construcao-hidraulica",
+      "unitId": "piece",
+      "name": {
+        "en": "Stainless Steel Hex Pipe Nipple with Male Threads on Both Ends, Rust-Proof Connector for Water, Air and Outdoor Lines",
+        "pt-BR": "Niple Sextavado de Aço Inox com Rosca Macho nas Duas Pontas, Conector que Não Enferruja para Água, Ar e Áreas Externas"
+      },
+      "description": {
+        "en": "A short stainless steel nipple with male threads at both ends and a hex in the middle for a wrench. Joins two female fittings, valves or tanks. It does not rust, so it also works on outdoor and wet lines.",
+        "pt-BR": "Niple curto de aço inox com rosca macho nas duas pontas e sextavado no meio para a chave. Une duas conexões fêmeas, registros ou reservatórios. Não enferruja, serve também em linhas externas e úmidas."
+      },
+      "price": {
+        "BRL": 24.9,
+        "USD": 7
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "stainless steel fitting",
+          "pipe nipple",
+          "hex nipple",
+          "threaded",
+          "rust-proof"
+        ],
+        "pt-BR": [
+          "conexão inox",
+          "niple",
+          "niple sextavado",
+          "rosqueado",
+          "não enferruja"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "stainless-steel",
+          "value": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        }
+      ],
+      "defaultVariantId": "1-2-in",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "stainless",
+              "name": {
+                "en": "Stainless steel",
+                "pt-BR": "Aço inox"
+              },
+              "hex": "#BFC2C4"
+            }
+          ]
+        },
+        {
+          "id": "thread",
+          "name": {
+            "en": "Thread size",
+            "pt-BR": "Rosca"
+          },
+          "values": [
+            {
+              "id": "1-2-in",
+              "name": {
+                "en": "1/2 in",
+                "pt-BR": "1/2 pol"
+              }
+            },
+            {
+              "id": "3-4-in",
+              "name": {
+                "en": "3/4 in",
+                "pt-BR": "3/4 pol"
+              }
+            },
+            {
+              "id": "1-in",
+              "name": {
+                "en": "1 in",
+                "pt-BR": "1 pol"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "1-2-in",
+          "sku": "CON-STAINLESS-HEX-PIPE-NIPPLE-1-2-IN",
+          "options": {
+            "color": "stainless",
+            "thread": "1-2-in"
+          },
+          "price": {
+            "BRL": 24.9,
+            "USD": 7
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel hex pipe nipple with threads on both ends",
+                "pt-BR": "Niple sextavado de aço inox com rosca nas duas pontas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/stainless-hex-pipe-nipple/main-white.webp",
+                "#f5f5f5": "images/stainless-hex-pipe-nipple/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "3-4-in",
+          "sku": "CON-STAINLESS-HEX-PIPE-NIPPLE-3-4-IN",
+          "options": {
+            "color": "stainless",
+            "thread": "3-4-in"
+          },
+          "price": {
+            "BRL": 34.9,
+            "USD": 10
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel hex pipe nipple with threads on both ends",
+                "pt-BR": "Niple sextavado de aço inox com rosca nas duas pontas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/stainless-hex-pipe-nipple/main-white.webp",
+                "#f5f5f5": "images/stainless-hex-pipe-nipple/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "1-in",
+          "sku": "CON-STAINLESS-HEX-PIPE-NIPPLE-1-IN",
+          "options": {
+            "color": "stainless",
+            "thread": "1-in"
+          },
+          "price": {
+            "BRL": 49.9,
+            "USD": 14
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel hex pipe nipple with threads on both ends",
+                "pt-BR": "Niple sextavado de aço inox com rosca nas duas pontas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/stainless-hex-pipe-nipple/main-white.webp",
+                "#f5f5f5": "images/stainless-hex-pipe-nipple/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
       "id": "stainless-linear-floor-drain",
       "categoryId": "construcao-hidraulica",
       "name": {
@@ -136457,6 +137184,223 @@
           "pt-BR": {
             "one": "barra",
             "other": "barras"
+          }
+        }
+      }
+    },
+    {
+      "id": "white-pvc-sewer-wye-fitting",
+      "categoryId": "construcao-hidraulica",
+      "unitId": "piece",
+      "name": {
+        "en": "White PVC Sewer Wye Fitting with Three Bell Openings, a Y-Shaped Branch for 4 Inch Drain and Sewer Pipe",
+        "pt-BR": "Junção Y de PVC Branco com Três Bolsas para Tubo de Esgoto, Ramal em Y que Une Dois Tubos a um Coletor"
+      },
+      "description": {
+        "en": "A white PVC wye that joins a branch drain to a main sewer line at a gentle angle, so waste keeps flowing. Three bell ends take solvent-cemented pipe. Used inside walls, under slabs and in buried sewer runs.",
+        "pt-BR": "Junção Y em PVC branco que liga um ramal de esgoto à linha principal em ângulo suave, para o fluxo não parar. As três bolsas recebem tubo colado com adesivo. Usada em paredes, sob lajes e em esgoto enterrado."
+      },
+      "price": {
+        "BRL": 29.9,
+        "USD": 10
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "pvc fitting",
+          "sewer wye",
+          "drain fitting",
+          "y branch",
+          "sewer pipe"
+        ],
+        "pt-BR": [
+          "conexão pvc",
+          "junção y",
+          "esgoto",
+          "ramal",
+          "tubo de esgoto"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "pvc",
+          "value": {
+            "en": "PVC",
+            "pt-BR": "PVC"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        }
+      ],
+      "defaultVariantId": "3-in",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F2F2EF"
+            }
+          ]
+        },
+        {
+          "id": "diameter",
+          "name": {
+            "en": "Diameter",
+            "pt-BR": "Diâmetro"
+          },
+          "values": [
+            {
+              "id": "3-in",
+              "name": {
+                "en": "3 in",
+                "pt-BR": "75 mm"
+              }
+            },
+            {
+              "id": "4-in",
+              "name": {
+                "en": "4 in",
+                "pt-BR": "100 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "3-in",
+          "sku": "CON-WHITE-PVC-SEWER-WYE-FITTING-3-IN",
+          "options": {
+            "color": "white",
+            "diameter": "3-in"
+          },
+          "price": {
+            "BRL": 29.9,
+            "USD": 10
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White PVC sewer wye fitting with three bell openings",
+                "pt-BR": "Junção Y de PVC branco com três bolsas para esgoto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-pvc-sewer-wye-fitting/main-white.webp",
+                "#f5f5f5": "images/white-pvc-sewer-wye-fitting/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "4-in",
+          "sku": "CON-WHITE-PVC-SEWER-WYE-FITTING-4-IN",
+          "options": {
+            "color": "white",
+            "diameter": "4-in"
+          },
+          "price": {
+            "BRL": 44.9,
+            "USD": 15
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White PVC sewer wye fitting with three bell openings",
+                "pt-BR": "Junção Y de PVC branco com três bolsas para esgoto"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-pvc-sewer-wye-fitting/main-white.webp",
+                "#f5f5f5": "images/white-pvc-sewer-wye-fitting/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
           }
         }
       }

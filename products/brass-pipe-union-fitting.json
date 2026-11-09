@@ -1,0 +1,171 @@
+{
+  "id": "brass-pipe-union-fitting",
+  "categoryId": "construcao-hidraulica",
+  "unitId": "piece",
+  "name": {
+    "en": "Brass Three-Piece Pipe Union with Male Threaded Ends, Lets You Disconnect a Heater, Pump or Valve Without Cutting Pipe",
+    "pt-BR": "União de Latão de Três Peças com Pontas de Rosca Macho, Permite Soltar Aquecedor, Bomba ou Registro sem Cortar o Tubo"
+  },
+  "description": {
+    "en": "A brass union with a large center nut that couples and uncouples two pipes. Fit it next to a water heater, pump or valve so the part can be taken out for service without cutting any pipe.",
+    "pt-BR": "União de latão com porca central grande que conecta e desconecta dois tubos. Instale ao lado de aquecedor, bomba ou registro para retirar a peça na manutenção sem cortar o tubo."
+  },
+  "price": {
+    "BRL": 64.9,
+    "USD": 17
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "brass fitting",
+      "pipe union",
+      "threaded",
+      "water heater",
+      "hot water"
+    ],
+    "pt-BR": [
+      "conexão de latão",
+      "união",
+      "rosqueada",
+      "aquecedor",
+      "água quente"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "brass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "1-2-in",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "brass",
+          "name": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          },
+          "hex": "#C99A3B"
+        }
+      ]
+    },
+    {
+      "id": "thread",
+      "name": {
+        "en": "Thread size",
+        "pt-BR": "Rosca"
+      },
+      "values": [
+        {
+          "id": "1-2-in",
+          "name": {
+            "en": "1/2 in",
+            "pt-BR": "1/2 pol"
+          }
+        },
+        {
+          "id": "3-4-in",
+          "name": {
+            "en": "3/4 in",
+            "pt-BR": "3/4 pol"
+          }
+        },
+        {
+          "id": "1-in",
+          "name": {
+            "en": "1 in",
+            "pt-BR": "1 pol"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "1-2-in",
+      "sku": "CON-BRASS-PIPE-UNION-FITTING-1-2-IN",
+      "options": {
+        "color": "brass",
+        "thread": "1-2-in"
+      },
+      "price": {
+        "BRL": 64.9,
+        "USD": 17
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass three-piece pipe union with a large center nut",
+            "pt-BR": "União de latão de três peças com porca central grande"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-4-in",
+      "sku": "CON-BRASS-PIPE-UNION-FITTING-3-4-IN",
+      "options": {
+        "color": "brass",
+        "thread": "3-4-in"
+      },
+      "price": {
+        "BRL": 84.9,
+        "USD": 22
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass three-piece pipe union with a large center nut",
+            "pt-BR": "União de latão de três peças com porca central grande"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1-in",
+      "sku": "CON-BRASS-PIPE-UNION-FITTING-1-IN",
+      "options": {
+        "color": "brass",
+        "thread": "1-in"
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 31
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass three-piece pipe union with a large center nut",
+            "pt-BR": "União de latão de três peças com porca central grande"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
