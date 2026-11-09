@@ -1,0 +1,175 @@
+{
+  "id": "twist-on-wire-connectors",
+  "categoryId": "construcao-eletrica",
+  "unitId": "pack",
+  "name": {
+    "en": "Twist-On Wire Connectors with Ribbed Caps and a Spring Insert, Orange and Yellow, Join Two to Four Copper Wires Safely, Pack",
+    "pt-BR": "Conectores de Rosca para Fios com Capa Estriada e Mola Interna, Laranja e Amarelo, Unem de Dois a Quatro Fios de Cobre com Segurança, Pacote"
+  },
+  "description": {
+    "en": "Cone-shaped caps with a metal spring inside. Twist one over stripped wire ends and it pulls them together into a safe, insulated splice. Use them in junction boxes, light fixtures and switches. Choose how many pieces the pack holds.",
+    "pt-BR": "Capas em forma de cone com mola de metal por dentro. Gire sobre as pontas descascadas e elas se unem em uma emenda segura e isolada. Use em caixas de passagem, luminárias e interruptores. Escolha quantas peças vêm no pacote."
+  },
+  "price": {
+    "BRL": 24.9,
+    "USD": 7
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "wire connector",
+      "wire nut",
+      "splice",
+      "junction box",
+      "copper wire"
+    ],
+    "pt-BR": [
+      "conector de fio",
+      "conector de rosca",
+      "emenda",
+      "caixa de passagem",
+      "fio de cobre"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polypropylene"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "50",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "orange-yellow",
+          "name": {
+            "en": "Orange and yellow",
+            "pt-BR": "Laranja e amarelo"
+          },
+          "hex": "#F29A1F"
+        }
+      ]
+    },
+    {
+      "id": "count",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "50",
+          "name": {
+            "en": "50 pieces",
+            "pt-BR": "50 peças"
+          }
+        },
+        {
+          "id": "100",
+          "name": {
+            "en": "100 pieces",
+            "pt-BR": "100 peças"
+          }
+        },
+        {
+          "id": "200",
+          "name": {
+            "en": "200 pieces",
+            "pt-BR": "200 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "50",
+      "sku": "CON-TWIST-ON-WIRE-CONNECTORS-50",
+      "options": {
+        "color": "orange-yellow",
+        "count": "50"
+      },
+      "price": {
+        "BRL": 24.9,
+        "USD": 7
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pile of orange and yellow twist-on wire connectors",
+            "pt-BR": "Monte de conectores de rosca laranja e amarelos"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "sku": "CON-TWIST-ON-WIRE-CONNECTORS-100",
+      "options": {
+        "color": "orange-yellow",
+        "count": "100"
+      },
+      "price": {
+        "BRL": 39.9,
+        "USD": 11
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pile of orange and yellow twist-on wire connectors",
+            "pt-BR": "Monte de conectores de rosca laranja e amarelos"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "200",
+      "sku": "CON-TWIST-ON-WIRE-CONNECTORS-200",
+      "options": {
+        "color": "orange-yellow",
+        "count": "200"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 19
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pile of orange and yellow twist-on wire connectors",
+            "pt-BR": "Monte de conectores de rosca laranja e amarelos"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

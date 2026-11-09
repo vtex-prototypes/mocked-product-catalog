@@ -12757,6 +12757,235 @@
       }
     },
     {
+      "id": "black-electrical-tape",
+      "categoryId": "construcao-eletrica",
+      "unitId": "roll",
+      "name": {
+        "en": "Black Vinyl Electrical Insulating Tape, 3/4 Inch Wide, Stretchy and Weather-Resistant for Wire Splices and Cable Wrapping",
+        "pt-BR": "Fita Isolante de Vinil Preta de 19 mm de Largura, Elástica e Resistente ao Tempo para Emendas de Fios e Proteção de Cabos"
+      },
+      "description": {
+        "en": "A roll of stretchy black vinyl tape for insulating wire splices and wrapping cable ends. It conforms to bumps, stays put in heat and cold, and resists moisture. Stretch it as you wrap. Pick the roll length.",
+        "pt-BR": "Rolo de fita de vinil preta elástica para isolar emendas de fios e proteger pontas de cabos. Acompanha as saliências, fica firme no calor e no frio e resiste à umidade. Estique ao enrolar. Escolha o comprimento do rolo."
+      },
+      "price": {
+        "BRL": 6.9,
+        "USD": 3
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "electrical tape",
+          "insulating tape",
+          "vinyl tape",
+          "wire splice",
+          "cable wrap"
+        ],
+        "pt-BR": [
+          "fita isolante",
+          "fita de vinil",
+          "emenda de fios",
+          "proteção de cabo",
+          "fita preta"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "vinyl",
+          "value": {
+            "en": "Vinyl",
+            "pt-BR": "Vinílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "33-ft",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#1E1E1E"
+            }
+          ]
+        },
+        {
+          "id": "length",
+          "name": {
+            "en": "Length",
+            "pt-BR": "Comprimento"
+          },
+          "values": [
+            {
+              "id": "33-ft",
+              "name": {
+                "en": "33 ft",
+                "pt-BR": "10 m"
+              }
+            },
+            {
+              "id": "66-ft",
+              "name": {
+                "en": "66 ft",
+                "pt-BR": "20 m"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "33-ft",
+          "sku": "CON-BLACK-ELECTRICAL-TAPE-33-FT",
+          "options": {
+            "color": "black",
+            "length": "33-ft"
+          },
+          "price": {
+            "BRL": 6.9,
+            "USD": 3
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black vinyl electrical tape roll with a loose end",
+                "pt-BR": "Rolo de fita isolante de vinil preta com ponta solta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/black-electrical-tape/main-white.webp",
+                "#f5f5f5": "images/black-electrical-tape/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "roll",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "roll",
+                "other": "rolls"
+              },
+              "pt-BR": {
+                "one": "rolo",
+                "other": "rolos"
+              }
+            }
+          }
+        },
+        {
+          "id": "66-ft",
+          "sku": "CON-BLACK-ELECTRICAL-TAPE-66-FT",
+          "options": {
+            "color": "black",
+            "length": "66-ft"
+          },
+          "price": {
+            "BRL": 11.9,
+            "USD": 5
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black vinyl electrical tape roll with a loose end",
+                "pt-BR": "Rolo de fita isolante de vinil preta com ponta solta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/black-electrical-tape/main-white.webp",
+                "#f5f5f5": "images/black-electrical-tape/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "roll",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "roll",
+                "other": "rolls"
+              },
+              "pt-BR": {
+                "one": "rolo",
+                "other": "rolos"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "roll",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "roll",
+            "other": "rolls"
+          },
+          "pt-BR": {
+            "one": "rolo",
+            "other": "rolos"
+          }
+        }
+      }
+    },
+    {
       "id": "black-flexible-grout-narrow-joints",
       "deprecated": {
         "reason": "Same product and photo as \"flexible-black-grout\": the difference was only its intended use, or something that product already offers.",
@@ -20197,6 +20426,223 @@
       }
     },
     {
+      "id": "blue-plastic-junction-box",
+      "categoryId": "construcao-eletrica",
+      "unitId": "piece",
+      "name": {
+        "en": "Blue Plastic Electrical Junction Box with Knockouts and Mounting Ears, a Single-Gang Box for Switches, Outlets and Splices",
+        "pt-BR": "Caixa de Passagem Elétrica Azul de Plástico com Recortes e Orelhas de Fixação, Caixa 4x2 para Interruptores, Tomadas e Emendas"
+      },
+      "description": {
+        "en": "A blue plastic box that holds a switch, an outlet or a wire splice inside a wall. Round knockouts open where cable and conduit enter, and mounting ears screw it to a stud. Pick the depth that fits the wall.",
+        "pt-BR": "Caixa de plástico azul que abriga interruptor, tomada ou emenda de fios dentro da parede. Os recortes redondos abrem onde entram cabo e eletroduto, e as orelhas parafusam no montante. Escolha a profundidade da parede."
+      },
+      "price": {
+        "BRL": 4.9,
+        "USD": 1.6
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "junction box",
+          "electrical box",
+          "switch box",
+          "outlet box",
+          "wire splice"
+        ],
+        "pt-BR": [
+          "caixa de passagem",
+          "caixa elétrica",
+          "caixa 4x2",
+          "caixa de tomada",
+          "emenda de fios"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "pvc",
+          "value": {
+            "en": "PVC",
+            "pt-BR": "PVC"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "2-in",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "blue",
+              "name": {
+                "en": "Blue",
+                "pt-BR": "Azul"
+              },
+              "hex": "#2F7FD1"
+            }
+          ]
+        },
+        {
+          "id": "depth",
+          "name": {
+            "en": "Depth",
+            "pt-BR": "Profundidade"
+          },
+          "values": [
+            {
+              "id": "2-in",
+              "name": {
+                "en": "2 in",
+                "pt-BR": "5 cm"
+              }
+            },
+            {
+              "id": "3-in",
+              "name": {
+                "en": "3 in",
+                "pt-BR": "7,5 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "2-in",
+          "sku": "CON-BLUE-PLASTIC-JUNCTION-BOX-2-IN",
+          "options": {
+            "color": "blue",
+            "depth": "2-in"
+          },
+          "price": {
+            "BRL": 4.9,
+            "USD": 1.6
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Blue plastic electrical junction box with knockouts and mounting ears",
+                "pt-BR": "Caixa de passagem elétrica azul com recortes e orelhas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/blue-plastic-junction-box/main-white.webp",
+                "#f5f5f5": "images/blue-plastic-junction-box/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "3-in",
+          "sku": "CON-BLUE-PLASTIC-JUNCTION-BOX-3-IN",
+          "options": {
+            "color": "blue",
+            "depth": "3-in"
+          },
+          "price": {
+            "BRL": 6.9,
+            "USD": 2.2
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Blue plastic electrical junction box with knockouts and mounting ears",
+                "pt-BR": "Caixa de passagem elétrica azul com recortes e orelhas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/blue-plastic-junction-box/main-white.webp",
+                "#f5f5f5": "images/blue-plastic-junction-box/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
       "id": "blue-spade-wood-bit-set",
       "categoryId": "construcao-acessorios",
       "unitId": "set",
@@ -23082,6 +23528,273 @@
               "src": {
                 "#ffffff": "images/brass-pipe-union-fitting/main-white.webp",
                 "#f5f5f5": "images/brass-pipe-union-fitting/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
+      "id": "breaker-panel-load-center",
+      "categoryId": "construcao-eletrica",
+      "unitId": "piece",
+      "name": {
+        "en": "Gray Steel Circuit Breaker Panel, a Main Load Center with Two Columns of Slots and Copper Bus, for Homes and Workshops",
+        "pt-BR": "Quadro de Distribuição de Aço Cinza para Disjuntores, Centro de Carga com Duas Colunas de Encaixes e Barramento de Cobre, para Casas e Oficinas"
+      },
+      "description": {
+        "en": "A gray steel panel that feeds the circuits of a house or workshop. Two columns of slots take plug-in breakers on a copper bus, and the cover closes the live parts. Breakers are sold separately. Pick the main rating of the supply.",
+        "pt-BR": "Quadro de aço cinza que alimenta os circuitos de uma casa ou oficina. Duas colunas de encaixes recebem disjuntores sobre barramento de cobre, e a tampa fecha as partes vivas. Disjuntores vendidos separadamente. Escolha a corrente geral da entrada."
+      },
+      "price": {
+        "BRL": 389,
+        "USD": 89
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "breaker panel",
+          "load center",
+          "distribution board",
+          "circuit breakers",
+          "electrical panel"
+        ],
+        "pt-BR": [
+          "quadro de distribuição",
+          "centro de carga",
+          "quadro de disjuntores",
+          "disjuntores",
+          "painel elétrico"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "steel",
+          "value": {
+            "en": "Steel",
+            "pt-BR": "Aço"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "100-a",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#9EA1A3"
+            }
+          ]
+        },
+        {
+          "id": "main",
+          "name": {
+            "en": "Main rating",
+            "pt-BR": "Corrente geral"
+          },
+          "values": [
+            {
+              "id": "100-a",
+              "name": {
+                "en": "100 A",
+                "pt-BR": "100 A"
+              }
+            },
+            {
+              "id": "150-a",
+              "name": {
+                "en": "150 A",
+                "pt-BR": "150 A"
+              }
+            },
+            {
+              "id": "200-a",
+              "name": {
+                "en": "200 A",
+                "pt-BR": "200 A"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "100-a",
+          "sku": "CON-BREAKER-PANEL-LOAD-CENTER-100-A",
+          "options": {
+            "color": "gray",
+            "main": "100-a"
+          },
+          "price": {
+            "BRL": 389,
+            "USD": 89
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray steel breaker panel with two columns of breaker slots",
+                "pt-BR": "Quadro de distribuição de aço cinza com duas colunas de disjuntores"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/breaker-panel-load-center/main-white.webp",
+                "#f5f5f5": "images/breaker-panel-load-center/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "150-a",
+          "sku": "CON-BREAKER-PANEL-LOAD-CENTER-150-A",
+          "options": {
+            "color": "gray",
+            "main": "150-a"
+          },
+          "price": {
+            "BRL": 549,
+            "USD": 129
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray steel breaker panel with two columns of breaker slots",
+                "pt-BR": "Quadro de distribuição de aço cinza com duas colunas de disjuntores"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/breaker-panel-load-center/main-white.webp",
+                "#f5f5f5": "images/breaker-panel-load-center/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "200-a",
+          "sku": "CON-BREAKER-PANEL-LOAD-CENTER-200-A",
+          "options": {
+            "color": "gray",
+            "main": "200-a"
+          },
+          "price": {
+            "BRL": 719,
+            "USD": 169
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray steel breaker panel with two columns of breaker slots",
+                "pt-BR": "Quadro de distribuição de aço cinza com duas colunas de disjuntores"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/breaker-panel-load-center/main-white.webp",
+                "#f5f5f5": "images/breaker-panel-load-center/main-gray.webp"
               }
             }
           ],
@@ -60578,6 +61291,336 @@
       }
     },
     {
+      "id": "flexible-metal-conduit-coil",
+      "categoryId": "construcao-eletrica",
+      "unitId": "roll",
+      "name": {
+        "en": "Galvanized Flexible Steel Conduit Coil for Wiring Around Corners, Machines and Tight Spots, Bends by Hand, Indoor Use",
+        "pt-BR": "Rolo de Conduíte Metálico Flexível Galvanizado para Fiação em Curvas, Máquinas e Lugares Apertados, Dobra à Mão, Uso Interno"
+      },
+      "description": {
+        "en": "A coil of spiral-wound galvanized steel conduit that bends by hand around corners and obstacles. It shields the wire from knocks and cuts, and works for motors, workshops and exposed indoor runs. Cut to length with a hacksaw.",
+        "pt-BR": "Rolo de conduíte de aço galvanizado em espiral que dobra à mão em cantos e obstáculos. Protege o fio de batidas e cortes, e serve para motores, oficinas e trechos internos aparentes. Corte no tamanho com serra."
+      },
+      "price": {
+        "BRL": 89,
+        "USD": 28
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "flexible conduit",
+          "metal conduit",
+          "steel conduit",
+          "wire protection",
+          "workshop wiring"
+        ],
+        "pt-BR": [
+          "conduíte flexível",
+          "conduíte metálico",
+          "conduíte de aço",
+          "proteção de fio",
+          "fiação de oficina"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "steel",
+          "value": {
+            "en": "Steel",
+            "pt-BR": "Aço"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "1-2-in-25-ft",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "galvanized",
+              "name": {
+                "en": "Galvanized",
+                "pt-BR": "Galvanizado"
+              },
+              "hex": "#B4B7B9"
+            }
+          ]
+        },
+        {
+          "id": "diameter",
+          "name": {
+            "en": "Diameter",
+            "pt-BR": "Diâmetro"
+          },
+          "values": [
+            {
+              "id": "1-2-in",
+              "name": {
+                "en": "1/2 in",
+                "pt-BR": "20 mm"
+              }
+            },
+            {
+              "id": "3-4-in",
+              "name": {
+                "en": "3/4 in",
+                "pt-BR": "25 mm"
+              }
+            }
+          ]
+        },
+        {
+          "id": "length",
+          "name": {
+            "en": "Length",
+            "pt-BR": "Comprimento"
+          },
+          "values": [
+            {
+              "id": "25-ft",
+              "name": {
+                "en": "25 ft",
+                "pt-BR": "7,5 m"
+              }
+            },
+            {
+              "id": "50-ft",
+              "name": {
+                "en": "50 ft",
+                "pt-BR": "15 m"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "1-2-in-25-ft",
+          "sku": "CON-FLEXIBLE-METAL-CONDUIT-COIL-1-2-IN-25-FT",
+          "options": {
+            "color": "galvanized",
+            "diameter": "1-2-in",
+            "length": "25-ft"
+          },
+          "price": {
+            "BRL": 89,
+            "USD": 28
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Coil of flexible galvanized steel conduit",
+                "pt-BR": "Rolo de conduíte metálico flexível galvanizado"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flexible-metal-conduit-coil/main-white.webp",
+                "#f5f5f5": "images/flexible-metal-conduit-coil/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "roll",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "roll",
+                "other": "rolls"
+              },
+              "pt-BR": {
+                "one": "rolo",
+                "other": "rolos"
+              }
+            }
+          }
+        },
+        {
+          "id": "1-2-in-50-ft",
+          "sku": "CON-FLEXIBLE-METAL-CONDUIT-COIL-1-2-IN-50-FT",
+          "options": {
+            "color": "galvanized",
+            "diameter": "1-2-in",
+            "length": "50-ft"
+          },
+          "price": {
+            "BRL": 160,
+            "USD": 50
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Coil of flexible galvanized steel conduit",
+                "pt-BR": "Rolo de conduíte metálico flexível galvanizado"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flexible-metal-conduit-coil/main-white.webp",
+                "#f5f5f5": "images/flexible-metal-conduit-coil/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "roll",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "roll",
+                "other": "rolls"
+              },
+              "pt-BR": {
+                "one": "rolo",
+                "other": "rolos"
+              }
+            }
+          }
+        },
+        {
+          "id": "3-4-in-25-ft",
+          "sku": "CON-FLEXIBLE-METAL-CONDUIT-COIL-3-4-IN-25-FT",
+          "options": {
+            "color": "galvanized",
+            "diameter": "3-4-in",
+            "length": "25-ft"
+          },
+          "price": {
+            "BRL": 129,
+            "USD": 39
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Coil of flexible galvanized steel conduit",
+                "pt-BR": "Rolo de conduíte metálico flexível galvanizado"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flexible-metal-conduit-coil/main-white.webp",
+                "#f5f5f5": "images/flexible-metal-conduit-coil/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "roll",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "roll",
+                "other": "rolls"
+              },
+              "pt-BR": {
+                "one": "rolo",
+                "other": "rolos"
+              }
+            }
+          }
+        },
+        {
+          "id": "3-4-in-50-ft",
+          "sku": "CON-FLEXIBLE-METAL-CONDUIT-COIL-3-4-IN-50-FT",
+          "options": {
+            "color": "galvanized",
+            "diameter": "3-4-in",
+            "length": "50-ft"
+          },
+          "price": {
+            "BRL": 232,
+            "USD": 70
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Coil of flexible galvanized steel conduit",
+                "pt-BR": "Rolo de conduíte metálico flexível galvanizado"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flexible-metal-conduit-coil/main-white.webp",
+                "#f5f5f5": "images/flexible-metal-conduit-coil/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "roll",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "roll",
+                "other": "rolls"
+              },
+              "pt-BR": {
+                "one": "rolo",
+                "other": "rolos"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "roll",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "roll",
+            "other": "rolls"
+          },
+          "pt-BR": {
+            "one": "rolo",
+            "other": "rolos"
+          }
+        }
+      }
+    },
+    {
       "id": "flexible-outdoor-porcelain-mortar",
       "categoryId": "construcao-argamassas",
       "unitId": "bag",
@@ -68605,6 +69648,285 @@
           "pt-BR": {
             "one": "peça",
             "other": "peças"
+          }
+        }
+      }
+    },
+    {
+      "id": "gray-pvc-electrical-conduit",
+      "categoryId": "construcao-eletrica",
+      "unitId": "length",
+      "name": {
+        "en": "Gray Rigid PVC Electrical Conduit with a Belled End, a 10 Foot Length that Protects Wire in Walls, Slabs and Outdoor Runs",
+        "pt-BR": "Eletroduto Rígido de PVC Cinza com Ponta Bolsa, Barra de 3 m que Protege Fios em Paredes, Lajes e Trechos Externos"
+      },
+      "description": {
+        "en": "A gray rigid PVC conduit with a belled end that takes the next length, glued with solvent cement. Pull wire through it inside walls, under slabs or along an outdoor wall. It does not rust and shrugs off damp ground.",
+        "pt-BR": "Eletroduto rígido de PVC cinza com ponta bolsa que recebe a barra seguinte, colada com adesivo. Passe os fios por dentro em paredes, sob lajes ou ao longo de parede externa. Não enferruja e aguenta solo úmido."
+      },
+      "price": {
+        "BRL": 16.9,
+        "USD": 4.5
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "conduit",
+          "pvc conduit",
+          "wire protection",
+          "outdoor wiring",
+          "electrical pipe"
+        ],
+        "pt-BR": [
+          "eletroduto",
+          "eletroduto pvc",
+          "proteção de fio",
+          "fiação externa",
+          "tubo elétrico"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "pvc",
+          "value": {
+            "en": "PVC",
+            "pt-BR": "PVC"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "1-2-in",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#8E9092"
+            }
+          ]
+        },
+        {
+          "id": "diameter",
+          "name": {
+            "en": "Diameter",
+            "pt-BR": "Diâmetro"
+          },
+          "values": [
+            {
+              "id": "1-2-in",
+              "name": {
+                "en": "1/2 in",
+                "pt-BR": "20 mm"
+              }
+            },
+            {
+              "id": "3-4-in",
+              "name": {
+                "en": "3/4 in",
+                "pt-BR": "25 mm"
+              }
+            },
+            {
+              "id": "1-in",
+              "name": {
+                "en": "1 in",
+                "pt-BR": "32 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "1-2-in",
+          "sku": "CON-GRAY-PVC-ELECTRICAL-CONDUIT-1-2-IN",
+          "options": {
+            "color": "gray",
+            "diameter": "1-2-in"
+          },
+          "price": {
+            "BRL": 16.9,
+            "USD": 4.5
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray rigid PVC electrical conduit with a belled end",
+                "pt-BR": "Eletroduto rígido de PVC cinza com ponta bolsa"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gray-pvc-electrical-conduit/main-white.webp",
+                "#f5f5f5": "images/gray-pvc-electrical-conduit/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "length",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "length",
+                "other": "lengths"
+              },
+              "pt-BR": {
+                "one": "barra",
+                "other": "barras"
+              }
+            }
+          }
+        },
+        {
+          "id": "3-4-in",
+          "sku": "CON-GRAY-PVC-ELECTRICAL-CONDUIT-3-4-IN",
+          "options": {
+            "color": "gray",
+            "diameter": "3-4-in"
+          },
+          "price": {
+            "BRL": 22.9,
+            "USD": 6
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray rigid PVC electrical conduit with a belled end",
+                "pt-BR": "Eletroduto rígido de PVC cinza com ponta bolsa"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gray-pvc-electrical-conduit/main-white.webp",
+                "#f5f5f5": "images/gray-pvc-electrical-conduit/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "length",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "length",
+                "other": "lengths"
+              },
+              "pt-BR": {
+                "one": "barra",
+                "other": "barras"
+              }
+            }
+          }
+        },
+        {
+          "id": "1-in",
+          "sku": "CON-GRAY-PVC-ELECTRICAL-CONDUIT-1-IN",
+          "options": {
+            "color": "gray",
+            "diameter": "1-in"
+          },
+          "price": {
+            "BRL": 31.9,
+            "USD": 8.5
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray rigid PVC electrical conduit with a belled end",
+                "pt-BR": "Eletroduto rígido de PVC cinza com ponta bolsa"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gray-pvc-electrical-conduit/main-white.webp",
+                "#f5f5f5": "images/gray-pvc-electrical-conduit/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "length",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "length",
+                "other": "lengths"
+              },
+              "pt-BR": {
+                "one": "barra",
+                "other": "barras"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "length",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "length",
+            "other": "lengths"
+          },
+          "pt-BR": {
+            "one": "barra",
+            "other": "barras"
           }
         }
       }
@@ -128787,6 +130109,273 @@
       }
     },
     {
+      "id": "twist-on-wire-connectors",
+      "categoryId": "construcao-eletrica",
+      "unitId": "pack",
+      "name": {
+        "en": "Twist-On Wire Connectors with Ribbed Caps and a Spring Insert, Orange and Yellow, Join Two to Four Copper Wires Safely, Pack",
+        "pt-BR": "Conectores de Rosca para Fios com Capa Estriada e Mola Interna, Laranja e Amarelo, Unem de Dois a Quatro Fios de Cobre com Segurança, Pacote"
+      },
+      "description": {
+        "en": "Cone-shaped caps with a metal spring inside. Twist one over stripped wire ends and it pulls them together into a safe, insulated splice. Use them in junction boxes, light fixtures and switches. Choose how many pieces the pack holds.",
+        "pt-BR": "Capas em forma de cone com mola de metal por dentro. Gire sobre as pontas descascadas e elas se unem em uma emenda segura e isolada. Use em caixas de passagem, luminárias e interruptores. Escolha quantas peças vêm no pacote."
+      },
+      "price": {
+        "BRL": 24.9,
+        "USD": 7
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "wire connector",
+          "wire nut",
+          "splice",
+          "junction box",
+          "copper wire"
+        ],
+        "pt-BR": [
+          "conector de fio",
+          "conector de rosca",
+          "emenda",
+          "caixa de passagem",
+          "fio de cobre"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "polypropylene",
+          "value": {
+            "en": "Polypropylene",
+            "pt-BR": "Polipropileno"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "50",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "orange-yellow",
+              "name": {
+                "en": "Orange and yellow",
+                "pt-BR": "Laranja e amarelo"
+              },
+              "hex": "#F29A1F"
+            }
+          ]
+        },
+        {
+          "id": "count",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "50",
+              "name": {
+                "en": "50 pieces",
+                "pt-BR": "50 peças"
+              }
+            },
+            {
+              "id": "100",
+              "name": {
+                "en": "100 pieces",
+                "pt-BR": "100 peças"
+              }
+            },
+            {
+              "id": "200",
+              "name": {
+                "en": "200 pieces",
+                "pt-BR": "200 peças"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "50",
+          "sku": "CON-TWIST-ON-WIRE-CONNECTORS-50",
+          "options": {
+            "color": "orange-yellow",
+            "count": "50"
+          },
+          "price": {
+            "BRL": 24.9,
+            "USD": 7
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Pile of orange and yellow twist-on wire connectors",
+                "pt-BR": "Monte de conectores de rosca laranja e amarelos"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/twist-on-wire-connectors/main-white.webp",
+                "#f5f5f5": "images/twist-on-wire-connectors/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "pack",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "pack",
+                "other": "packs"
+              },
+              "pt-BR": {
+                "one": "pacote",
+                "other": "pacotes"
+              }
+            }
+          }
+        },
+        {
+          "id": "100",
+          "sku": "CON-TWIST-ON-WIRE-CONNECTORS-100",
+          "options": {
+            "color": "orange-yellow",
+            "count": "100"
+          },
+          "price": {
+            "BRL": 39.9,
+            "USD": 11
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Pile of orange and yellow twist-on wire connectors",
+                "pt-BR": "Monte de conectores de rosca laranja e amarelos"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/twist-on-wire-connectors/main-white.webp",
+                "#f5f5f5": "images/twist-on-wire-connectors/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "pack",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "pack",
+                "other": "packs"
+              },
+              "pt-BR": {
+                "one": "pacote",
+                "other": "pacotes"
+              }
+            }
+          }
+        },
+        {
+          "id": "200",
+          "sku": "CON-TWIST-ON-WIRE-CONNECTORS-200",
+          "options": {
+            "color": "orange-yellow",
+            "count": "200"
+          },
+          "price": {
+            "BRL": 69.9,
+            "USD": 19
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Pile of orange and yellow twist-on wire connectors",
+                "pt-BR": "Monte de conectores de rosca laranja e amarelos"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/twist-on-wire-connectors/main-white.webp",
+                "#f5f5f5": "images/twist-on-wire-connectors/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "pack",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "pack",
+                "other": "packs"
+              },
+              "pt-BR": {
+                "one": "pacote",
+                "other": "pacotes"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "pack",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "pack",
+            "other": "packs"
+          },
+          "pt-BR": {
+            "one": "pacote",
+            "other": "pacotes"
+          }
+        }
+      }
+    },
+    {
       "id": "two-part-epoxy-grout-kit",
       "categoryId": "construcao-rejuntes",
       "unitId": "kit",
@@ -128957,6 +130546,323 @@
           "pt-BR": {
             "one": "kit",
             "other": "kits"
+          }
+        }
+      }
+    },
+    {
+      "id": "two-pole-plug-in-breaker",
+      "categoryId": "construcao-eletrica",
+      "unitId": "piece",
+      "name": {
+        "en": "Black Two-Pole Plug-In Circuit Breaker with Linked Toggle Handles, for 240 Volt Dryers, Ovens and Water Heaters in a Panel",
+        "pt-BR": "Disjuntor Bipolar Preto de Encaixe com Alavancas Ligadas, para Secadoras, Fornos e Aquecedores de 220 Volts em Quadro"
+      },
+      "description": {
+        "en": "A double-width plug-in breaker with two linked handles that trip together. It protects a 240 volt circuit such as a dryer, an oven or a water heater. Snaps onto the bus of a compatible panel. Pick the amp rating the appliance needs.",
+        "pt-BR": "Disjuntor de encaixe de largura dupla com duas alavancas ligadas que desarmam juntas. Protege circuito de 220 volts como secadora, forno ou aquecedor. Encaixa no barramento de quadro compatível. Escolha a corrente do aparelho."
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 18
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "circuit breaker",
+          "two-pole breaker",
+          "double breaker",
+          "breaker panel",
+          "240 volt"
+        ],
+        "pt-BR": [
+          "disjuntor",
+          "disjuntor bipolar",
+          "disjuntor duplo",
+          "quadro de disjuntores",
+          "220 volts"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "polycarbonate",
+          "value": {
+            "en": "Polycarbonate",
+            "pt-BR": "Policarbonato"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "20-a",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#1E1E1E"
+            }
+          ]
+        },
+        {
+          "id": "rating",
+          "name": {
+            "en": "Rating",
+            "pt-BR": "Corrente"
+          },
+          "values": [
+            {
+              "id": "20-a",
+              "name": {
+                "en": "20 A",
+                "pt-BR": "20 A"
+              }
+            },
+            {
+              "id": "30-a",
+              "name": {
+                "en": "30 A",
+                "pt-BR": "30 A"
+              }
+            },
+            {
+              "id": "40-a",
+              "name": {
+                "en": "40 A",
+                "pt-BR": "40 A"
+              }
+            },
+            {
+              "id": "50-a",
+              "name": {
+                "en": "50 A",
+                "pt-BR": "50 A"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "20-a",
+          "sku": "CON-TWO-POLE-PLUG-IN-BREAKER-20-A",
+          "options": {
+            "color": "black",
+            "rating": "20-a"
+          },
+          "price": {
+            "BRL": 69.9,
+            "USD": 18
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black two-pole plug-in breaker with linked handles and a pigtail",
+                "pt-BR": "Disjuntor bipolar preto de encaixe com alavancas ligadas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/two-pole-plug-in-breaker/main-white.webp",
+                "#f5f5f5": "images/two-pole-plug-in-breaker/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "30-a",
+          "sku": "CON-TWO-POLE-PLUG-IN-BREAKER-30-A",
+          "options": {
+            "color": "black",
+            "rating": "30-a"
+          },
+          "price": {
+            "BRL": 74.9,
+            "USD": 19
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black two-pole plug-in breaker with linked handles and a pigtail",
+                "pt-BR": "Disjuntor bipolar preto de encaixe com alavancas ligadas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/two-pole-plug-in-breaker/main-white.webp",
+                "#f5f5f5": "images/two-pole-plug-in-breaker/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "40-a",
+          "sku": "CON-TWO-POLE-PLUG-IN-BREAKER-40-A",
+          "options": {
+            "color": "black",
+            "rating": "40-a"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 23
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black two-pole plug-in breaker with linked handles and a pigtail",
+                "pt-BR": "Disjuntor bipolar preto de encaixe com alavancas ligadas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/two-pole-plug-in-breaker/main-white.webp",
+                "#f5f5f5": "images/two-pole-plug-in-breaker/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "50-a",
+          "sku": "CON-TWO-POLE-PLUG-IN-BREAKER-50-A",
+          "options": {
+            "color": "black",
+            "rating": "50-a"
+          },
+          "price": {
+            "BRL": 99.9,
+            "USD": 26
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black two-pole plug-in breaker with linked handles and a pigtail",
+                "pt-BR": "Disjuntor bipolar preto de encaixe com alavancas ligadas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/two-pole-plug-in-breaker/main-white.webp",
+                "#f5f5f5": "images/two-pole-plug-in-breaker/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
           }
         }
       }
@@ -132829,6 +134735,223 @@
           "pt-BR": {
             "one": "unidade",
             "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "usb-duplex-outlet",
+      "categoryId": "construcao-eletrica",
+      "unitId": "piece",
+      "name": {
+        "en": "White Duplex Wall Outlet with Two Built-In USB Charging Ports, Charges Phones and Tablets without an Adapter, Indoor",
+        "pt-BR": "Tomada Dupla Branca com Duas Portas USB de Carregamento Embutidas, Carrega Celular e Tablet sem Adaptador, Uso Interno"
+      },
+      "description": {
+        "en": "A white duplex wall outlet with two sockets and two USB charging ports between them. Charge a phone or tablet straight from the wall, and keep both sockets free for plugs. Fits a standard wall box. Wall plate sold separately.",
+        "pt-BR": "Tomada dupla de parede branca com duas tomadas e duas portas USB de carregamento no meio. Carregue celular ou tablet direto da parede e mantenha as duas tomadas livres para plugues. Serve em caixa padrão. Placa vendida separadamente."
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 28
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "usb outlet",
+          "usb charger",
+          "wall outlet",
+          "outlet",
+          "phone charging"
+        ],
+        "pt-BR": [
+          "tomada usb",
+          "carregador usb",
+          "tomada de parede",
+          "tomada",
+          "carregar celular"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "polycarbonate",
+          "value": {
+            "en": "Polycarbonate",
+            "pt-BR": "Policarbonato"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "15-a",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F2F2EF"
+            }
+          ]
+        },
+        {
+          "id": "rating",
+          "name": {
+            "en": "Rating",
+            "pt-BR": "Corrente"
+          },
+          "values": [
+            {
+              "id": "15-a",
+              "name": {
+                "en": "15 A",
+                "pt-BR": "15 A"
+              }
+            },
+            {
+              "id": "20-a",
+              "name": {
+                "en": "20 A",
+                "pt-BR": "20 A"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "15-a",
+          "sku": "CON-USB-DUPLEX-OUTLET-15-A",
+          "options": {
+            "color": "white",
+            "rating": "15-a"
+          },
+          "price": {
+            "BRL": 119,
+            "USD": 28
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White duplex wall outlet with two USB ports between the sockets",
+                "pt-BR": "Tomada dupla branca com duas portas USB entre as tomadas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/usb-duplex-outlet/main-white.webp",
+                "#f5f5f5": "images/usb-duplex-outlet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "20-a",
+          "sku": "CON-USB-DUPLEX-OUTLET-20-A",
+          "options": {
+            "color": "white",
+            "rating": "20-a"
+          },
+          "price": {
+            "BRL": 139,
+            "USD": 33
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White duplex wall outlet with two USB ports between the sockets",
+                "pt-BR": "Tomada dupla branca com duas portas USB entre as tomadas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/usb-duplex-outlet/main-white.webp",
+                "#f5f5f5": "images/usb-duplex-outlet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
           }
         }
       }
@@ -138393,6 +140516,237 @@
               "src": {
                 "#ffffff": "images/white-duplex-outlet/detail-white.webp",
                 "#f5f5f5": "images/white-duplex-outlet/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
+      "id": "white-gfci-outlet",
+      "categoryId": "construcao-eletrica",
+      "unitId": "piece",
+      "name": {
+        "en": "White GFCI Safety Outlet with Test and Reset Buttons, Cuts Power on a Ground Fault, for Bathrooms, Kitchens and Outdoor Walls",
+        "pt-BR": "Tomada Branca com Proteção DR e Botões de Teste e Reset, Desliga na Fuga de Corrente, para Banheiros, Cozinhas e Áreas Externas"
+      },
+      "description": {
+        "en": "A white duplex outlet that senses current leaking to ground and cuts power in a fraction of a second. Required near sinks, showers and outdoor walls. Press the test button to check it and reset to restore power. Wall plate sold separately.",
+        "pt-BR": "Tomada dupla branca que detecta fuga de corrente para a terra e corta a energia em frações de segundo. Indicada perto de pias, chuveiros e paredes externas. Aperte teste para verificar e reset para religar. Placa vendida separadamente."
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 21
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "gfci outlet",
+          "safety outlet",
+          "ground fault",
+          "bathroom outlet",
+          "outdoor outlet",
+          "outlet"
+        ],
+        "pt-BR": [
+          "tomada dr",
+          "tomada de segurança",
+          "fuga à terra",
+          "tomada de banheiro",
+          "tomada externa",
+          "tomada"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "polycarbonate",
+          "value": {
+            "en": "Polycarbonate",
+            "pt-BR": "Policarbonato"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "15-a",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F2F2EF"
+            }
+          ]
+        },
+        {
+          "id": "rating",
+          "name": {
+            "en": "Rating",
+            "pt-BR": "Corrente"
+          },
+          "values": [
+            {
+              "id": "15-a",
+              "name": {
+                "en": "15 A",
+                "pt-BR": "15 A"
+              }
+            },
+            {
+              "id": "20-a",
+              "name": {
+                "en": "20 A",
+                "pt-BR": "20 A"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "15-a",
+          "sku": "CON-WHITE-GFCI-OUTLET-15-A",
+          "options": {
+            "color": "white",
+            "rating": "15-a"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 21
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White GFCI outlet with a black test button and a red reset button",
+                "pt-BR": "Tomada branca com proteção DR e botões de teste preto e reset vermelho"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-gfci-outlet/main-white.webp",
+                "#f5f5f5": "images/white-gfci-outlet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "20-a",
+          "sku": "CON-WHITE-GFCI-OUTLET-20-A",
+          "options": {
+            "color": "white",
+            "rating": "20-a"
+          },
+          "price": {
+            "BRL": 109,
+            "USD": 25
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White GFCI outlet with a black test button and a red reset button",
+                "pt-BR": "Tomada branca com proteção DR e botões de teste preto e reset vermelho"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-gfci-outlet/main-white.webp",
+                "#f5f5f5": "images/white-gfci-outlet/main-gray.webp"
               }
             }
           ],
@@ -144081,6 +146435,648 @@
           "pt-BR": {
             "one": "peça",
             "other": "peças"
+          }
+        }
+      }
+    },
+    {
+      "id": "white-rotary-dimmer-switch",
+      "categoryId": "construcao-eletrica",
+      "unitId": "piece",
+      "name": {
+        "en": "White Rotary Dimmer Switch with a Round Knob and a Small Paddle, Sets the Brightness of LED and Incandescent Lights, Indoor Wall",
+        "pt-BR": "Interruptor Dimmer Branco com Botão Giratório e Tecla, Regula o Brilho de Lâmpadas LED e Incandescentes, Parede Interna"
+      },
+      "description": {
+        "en": "A white dimmer switch for an indoor wall. Turn the round knob to set the light level and press the small paddle to switch the light on or off at that level. Pick the rated load that fits the lamps on the circuit.",
+        "pt-BR": "Interruptor dimmer branco para parede interna. Gire o botão para ajustar a luz e use a tecla pequena para ligar ou desligar mantendo o nível. Escolha a potência que combina com as lâmpadas do circuito."
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 24
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "dimmer switch",
+          "light switch",
+          "switch",
+          "led dimmer",
+          "rotary dimmer"
+        ],
+        "pt-BR": [
+          "dimmer",
+          "interruptor",
+          "interruptor dimmer",
+          "dimmer led",
+          "dimmer rotativo"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "polycarbonate",
+          "value": {
+            "en": "Polycarbonate",
+            "pt-BR": "Policarbonato"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "300-w",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F2F2EF"
+            }
+          ]
+        },
+        {
+          "id": "load",
+          "name": {
+            "en": "Rated load",
+            "pt-BR": "Potência"
+          },
+          "values": [
+            {
+              "id": "300-w",
+              "name": {
+                "en": "300 W",
+                "pt-BR": "300 W"
+              }
+            },
+            {
+              "id": "600-w",
+              "name": {
+                "en": "600 W",
+                "pt-BR": "600 W"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "300-w",
+          "sku": "CON-WHITE-ROTARY-DIMMER-SWITCH-300-W",
+          "options": {
+            "color": "white",
+            "load": "300-w"
+          },
+          "price": {
+            "BRL": 79.9,
+            "USD": 24
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White rotary dimmer switch with a round knob and a small paddle",
+                "pt-BR": "Interruptor dimmer branco com botão giratório e tecla"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-rotary-dimmer-switch/main-white.webp",
+                "#f5f5f5": "images/white-rotary-dimmer-switch/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "600-w",
+          "sku": "CON-WHITE-ROTARY-DIMMER-SWITCH-600-W",
+          "options": {
+            "color": "white",
+            "load": "600-w"
+          },
+          "price": {
+            "BRL": 109,
+            "USD": 32
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White rotary dimmer switch with a round knob and a small paddle",
+                "pt-BR": "Interruptor dimmer branco com botão giratório e tecla"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-rotary-dimmer-switch/main-white.webp",
+                "#f5f5f5": "images/white-rotary-dimmer-switch/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
+      "id": "white-sheathed-cable-coil",
+      "categoryId": "construcao-eletrica",
+      "unitId": "roll",
+      "name": {
+        "en": "White Sheathed Copper Wire Cable with Two Insulated Conductors and a Bare Ground, a Flat Jacket Coil for Indoor Walls and Ceilings",
+        "pt-BR": "Cabo Flexível de Cobre Branco com Dois Condutores Isolados e Fio Terra, Bobina com Capa Chata para Paredes e Tetos Internos"
+      },
+      "description": {
+        "en": "A coil of copper wire cable with two insulated conductors and a bare ground inside one flat white jacket. Run it through walls and ceilings to outlets, switches and lights. One jacket keeps the wires together and clean.",
+        "pt-BR": "Bobina de cabo de cobre com dois condutores isolados e um fio terra nu em uma única capa chata branca. Passe por paredes e tetos até tomadas, interruptores e luminárias. A capa mantém os fios juntos e protegidos."
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 39
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "sheathed cable",
+          "copper wire",
+          "wire",
+          "romex cable",
+          "branch circuit wire"
+        ],
+        "pt-BR": [
+          "cabo com capa",
+          "fio de cobre",
+          "fio",
+          "cabo pp",
+          "fiação de circuito"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "copper",
+          "value": {
+            "en": "Copper",
+            "pt-BR": "Cobre"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "1-5-mm-50-ft",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F2F2EF"
+            }
+          ]
+        },
+        {
+          "id": "gauge",
+          "name": {
+            "en": "Gauge",
+            "pt-BR": "Bitola"
+          },
+          "values": [
+            {
+              "id": "1-5-mm",
+              "name": {
+                "en": "1.5 mm²",
+                "pt-BR": "1,5 mm²"
+              }
+            },
+            {
+              "id": "2-5-mm",
+              "name": {
+                "en": "2.5 mm²",
+                "pt-BR": "2,5 mm²"
+              }
+            },
+            {
+              "id": "4-mm",
+              "name": {
+                "en": "4 mm²",
+                "pt-BR": "4 mm²"
+              }
+            }
+          ]
+        },
+        {
+          "id": "length",
+          "name": {
+            "en": "Length",
+            "pt-BR": "Comprimento"
+          },
+          "values": [
+            {
+              "id": "50-ft",
+              "name": {
+                "en": "50 ft",
+                "pt-BR": "15 m"
+              }
+            },
+            {
+              "id": "100-ft",
+              "name": {
+                "en": "100 ft",
+                "pt-BR": "30 m"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "1-5-mm-50-ft",
+          "sku": "CON-WHITE-SHEATHED-CABLE-COIL-1-5-MM-50-FT",
+          "options": {
+            "color": "white",
+            "gauge": "1-5-mm",
+            "length": "50-ft"
+          },
+          "price": {
+            "BRL": 119,
+            "USD": 39
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Loose coil of white sheathed cable with a cut end showing copper conductors",
+                "pt-BR": "Bobina de cabo com capa branca e ponta cortada mostrando os condutores de cobre"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-sheathed-cable-coil/main-white.webp",
+                "#f5f5f5": "images/white-sheathed-cable-coil/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "roll",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "roll",
+                "other": "rolls"
+              },
+              "pt-BR": {
+                "one": "rolo",
+                "other": "rolos"
+              }
+            }
+          }
+        },
+        {
+          "id": "1-5-mm-100-ft",
+          "sku": "CON-WHITE-SHEATHED-CABLE-COIL-1-5-MM-100-FT",
+          "options": {
+            "color": "white",
+            "gauge": "1-5-mm",
+            "length": "100-ft"
+          },
+          "price": {
+            "BRL": 226,
+            "USD": 74
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Loose coil of white sheathed cable with a cut end showing copper conductors",
+                "pt-BR": "Bobina de cabo com capa branca e ponta cortada mostrando os condutores de cobre"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-sheathed-cable-coil/main-white.webp",
+                "#f5f5f5": "images/white-sheathed-cable-coil/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "roll",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "roll",
+                "other": "rolls"
+              },
+              "pt-BR": {
+                "one": "rolo",
+                "other": "rolos"
+              }
+            }
+          }
+        },
+        {
+          "id": "2-5-mm-50-ft",
+          "sku": "CON-WHITE-SHEATHED-CABLE-COIL-2-5-MM-50-FT",
+          "options": {
+            "color": "white",
+            "gauge": "2-5-mm",
+            "length": "50-ft"
+          },
+          "price": {
+            "BRL": 179,
+            "USD": 59
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Loose coil of white sheathed cable with a cut end showing copper conductors",
+                "pt-BR": "Bobina de cabo com capa branca e ponta cortada mostrando os condutores de cobre"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-sheathed-cable-coil/main-white.webp",
+                "#f5f5f5": "images/white-sheathed-cable-coil/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "roll",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "roll",
+                "other": "rolls"
+              },
+              "pt-BR": {
+                "one": "rolo",
+                "other": "rolos"
+              }
+            }
+          }
+        },
+        {
+          "id": "2-5-mm-100-ft",
+          "sku": "CON-WHITE-SHEATHED-CABLE-COIL-2-5-MM-100-FT",
+          "options": {
+            "color": "white",
+            "gauge": "2-5-mm",
+            "length": "100-ft"
+          },
+          "price": {
+            "BRL": 340,
+            "USD": 112
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Loose coil of white sheathed cable with a cut end showing copper conductors",
+                "pt-BR": "Bobina de cabo com capa branca e ponta cortada mostrando os condutores de cobre"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-sheathed-cable-coil/main-white.webp",
+                "#f5f5f5": "images/white-sheathed-cable-coil/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "roll",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "roll",
+                "other": "rolls"
+              },
+              "pt-BR": {
+                "one": "rolo",
+                "other": "rolos"
+              }
+            }
+          }
+        },
+        {
+          "id": "4-mm-50-ft",
+          "sku": "CON-WHITE-SHEATHED-CABLE-COIL-4-MM-50-FT",
+          "options": {
+            "color": "white",
+            "gauge": "4-mm",
+            "length": "50-ft"
+          },
+          "price": {
+            "BRL": 279,
+            "USD": 89
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Loose coil of white sheathed cable with a cut end showing copper conductors",
+                "pt-BR": "Bobina de cabo com capa branca e ponta cortada mostrando os condutores de cobre"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-sheathed-cable-coil/main-white.webp",
+                "#f5f5f5": "images/white-sheathed-cable-coil/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "roll",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "roll",
+                "other": "rolls"
+              },
+              "pt-BR": {
+                "one": "rolo",
+                "other": "rolos"
+              }
+            }
+          }
+        },
+        {
+          "id": "4-mm-100-ft",
+          "sku": "CON-WHITE-SHEATHED-CABLE-COIL-4-MM-100-FT",
+          "options": {
+            "color": "white",
+            "gauge": "4-mm",
+            "length": "100-ft"
+          },
+          "price": {
+            "BRL": 530,
+            "USD": 169
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Loose coil of white sheathed cable with a cut end showing copper conductors",
+                "pt-BR": "Bobina de cabo com capa branca e ponta cortada mostrando os condutores de cobre"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-sheathed-cable-coil/main-white.webp",
+                "#f5f5f5": "images/white-sheathed-cable-coil/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "roll",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "roll",
+                "other": "rolls"
+              },
+              "pt-BR": {
+                "one": "rolo",
+                "other": "rolos"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "roll",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "roll",
+            "other": "rolls"
+          },
+          "pt-BR": {
+            "one": "rolo",
+            "other": "rolos"
           }
         }
       }

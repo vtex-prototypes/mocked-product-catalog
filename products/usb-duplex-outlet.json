@@ -1,0 +1,143 @@
+{
+  "id": "usb-duplex-outlet",
+  "categoryId": "construcao-eletrica",
+  "unitId": "piece",
+  "name": {
+    "en": "White Duplex Wall Outlet with Two Built-In USB Charging Ports, Charges Phones and Tablets without an Adapter, Indoor",
+    "pt-BR": "Tomada Dupla Branca com Duas Portas USB de Carregamento Embutidas, Carrega Celular e Tablet sem Adaptador, Uso Interno"
+  },
+  "description": {
+    "en": "A white duplex wall outlet with two sockets and two USB charging ports between them. Charge a phone or tablet straight from the wall, and keep both sockets free for plugs. Fits a standard wall box. Wall plate sold separately.",
+    "pt-BR": "Tomada dupla de parede branca com duas tomadas e duas portas USB de carregamento no meio. Carregue celular ou tablet direto da parede e mantenha as duas tomadas livres para plugues. Serve em caixa padrão. Placa vendida separadamente."
+  },
+  "price": {
+    "BRL": 119,
+    "USD": 28
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "usb outlet",
+      "usb charger",
+      "wall outlet",
+      "outlet",
+      "phone charging"
+    ],
+    "pt-BR": [
+      "tomada usb",
+      "carregador usb",
+      "tomada de parede",
+      "tomada",
+      "carregar celular"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polycarbonate"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "15-a",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F2EF"
+        }
+      ]
+    },
+    {
+      "id": "rating",
+      "name": {
+        "en": "Rating",
+        "pt-BR": "Corrente"
+      },
+      "values": [
+        {
+          "id": "15-a",
+          "name": {
+            "en": "15 A",
+            "pt-BR": "15 A"
+          }
+        },
+        {
+          "id": "20-a",
+          "name": {
+            "en": "20 A",
+            "pt-BR": "20 A"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "15-a",
+      "sku": "CON-USB-DUPLEX-OUTLET-15-A",
+      "options": {
+        "color": "white",
+        "rating": "15-a"
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White duplex wall outlet with two USB ports between the sockets",
+            "pt-BR": "Tomada dupla branca com duas portas USB entre as tomadas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20-a",
+      "sku": "CON-USB-DUPLEX-OUTLET-20-A",
+      "options": {
+        "color": "white",
+        "rating": "20-a"
+      },
+      "price": {
+        "BRL": 139,
+        "USD": 33
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White duplex wall outlet with two USB ports between the sockets",
+            "pt-BR": "Tomada dupla branca com duas portas USB entre as tomadas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

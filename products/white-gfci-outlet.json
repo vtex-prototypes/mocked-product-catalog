@@ -1,0 +1,149 @@
+{
+  "id": "white-gfci-outlet",
+  "categoryId": "construcao-eletrica",
+  "unitId": "piece",
+  "name": {
+    "en": "White GFCI Safety Outlet with Test and Reset Buttons, Cuts Power on a Ground Fault, for Bathrooms, Kitchens and Outdoor Walls",
+    "pt-BR": "Tomada Branca com Proteção DR e Botões de Teste e Reset, Desliga na Fuga de Corrente, para Banheiros, Cozinhas e Áreas Externas"
+  },
+  "description": {
+    "en": "A white duplex outlet that senses current leaking to ground and cuts power in a fraction of a second. Required near sinks, showers and outdoor walls. Press the test button to check it and reset to restore power. Wall plate sold separately.",
+    "pt-BR": "Tomada dupla branca que detecta fuga de corrente para a terra e corta a energia em frações de segundo. Indicada perto de pias, chuveiros e paredes externas. Aperte teste para verificar e reset para religar. Placa vendida separadamente."
+  },
+  "price": {
+    "BRL": 89.9,
+    "USD": 21
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "gfci outlet",
+      "safety outlet",
+      "ground fault",
+      "bathroom outlet",
+      "outdoor outlet",
+      "outlet"
+    ],
+    "pt-BR": [
+      "tomada dr",
+      "tomada de segurança",
+      "fuga à terra",
+      "tomada de banheiro",
+      "tomada externa",
+      "tomada"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polycarbonate"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "15-a",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F2EF"
+        }
+      ]
+    },
+    {
+      "id": "rating",
+      "name": {
+        "en": "Rating",
+        "pt-BR": "Corrente"
+      },
+      "values": [
+        {
+          "id": "15-a",
+          "name": {
+            "en": "15 A",
+            "pt-BR": "15 A"
+          }
+        },
+        {
+          "id": "20-a",
+          "name": {
+            "en": "20 A",
+            "pt-BR": "20 A"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "15-a",
+      "sku": "CON-WHITE-GFCI-OUTLET-15-A",
+      "options": {
+        "color": "white",
+        "rating": "15-a"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 21
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White GFCI outlet with a black test button and a red reset button",
+            "pt-BR": "Tomada branca com proteção DR e botões de teste preto e reset vermelho"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20-a",
+      "sku": "CON-WHITE-GFCI-OUTLET-20-A",
+      "options": {
+        "color": "white",
+        "rating": "20-a"
+      },
+      "price": {
+        "BRL": 109,
+        "USD": 25
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White GFCI outlet with a black test button and a red reset button",
+            "pt-BR": "Tomada branca com proteção DR e botões de teste preto e reset vermelho"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
