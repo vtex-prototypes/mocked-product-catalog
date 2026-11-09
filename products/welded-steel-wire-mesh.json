@@ -1,0 +1,175 @@
+{
+  "id": "welded-steel-wire-mesh",
+  "categoryId": "construcao-basicos",
+  "unitId": "piece",
+  "name": {
+    "en": "Welded Galvanized Steel Wire Mesh Panel with a 6 by 6 Inch Grid, 5 by 10 Feet, to Reinforce Concrete Slabs and Screeds",
+    "pt-BR": "Tela de Aço Soldada Galvanizada com Malha de 15 x 15 cm, Painel de 1,5 x 3 m, para Armar Lajes e Contrapisos de Concreto"
+  },
+  "description": {
+    "en": "A flat panel of welded steel wires in a square grid. Set it on spacers in the middle of a slab or screed before the pour so the concrete does not crack as it dries. The wire thickness is chosen on the page.",
+    "pt-BR": "Painel plano de fios de aço soldados em malha quadrada. Posicione sobre espaçadores no meio da laje ou do contrapiso antes da concretagem para o concreto não trincar ao secar. A espessura do fio é escolhida na página."
+  },
+  "price": {
+    "BRL": 129,
+    "USD": 38
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "steel wire mesh",
+      "welded mesh",
+      "slab reinforcement",
+      "concrete reinforcement",
+      "steel"
+    ],
+    "pt-BR": [
+      "tela soldada",
+      "malha de aço",
+      "armação de laje",
+      "reforço de concreto",
+      "aço"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "steel"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "3-4-mm",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "galvanized",
+          "name": {
+            "en": "Galvanized",
+            "pt-BR": "Galvanizado"
+          },
+          "hex": "#AEB1B3"
+        }
+      ]
+    },
+    {
+      "id": "wire",
+      "name": {
+        "en": "Wire thickness",
+        "pt-BR": "Espessura do fio"
+      },
+      "values": [
+        {
+          "id": "3-4-mm",
+          "name": {
+            "en": "3.4 mm",
+            "pt-BR": "3,4 mm"
+          }
+        },
+        {
+          "id": "4-2-mm",
+          "name": {
+            "en": "4.2 mm",
+            "pt-BR": "4,2 mm"
+          }
+        },
+        {
+          "id": "5-mm",
+          "name": {
+            "en": "5 mm",
+            "pt-BR": "5 mm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "3-4-mm",
+      "sku": "CON-WELDED-STEEL-WIRE-MESH-3-4-MM",
+      "options": {
+        "color": "galvanized",
+        "wire": "3-4-mm"
+      },
+      "price": {
+        "BRL": 129,
+        "USD": 38
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Flat welded galvanized steel wire mesh panel with a square grid",
+            "pt-BR": "Painel plano de tela de aço soldada galvanizada com malha quadrada"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4-2-mm",
+      "sku": "CON-WELDED-STEEL-WIRE-MESH-4-2-MM",
+      "options": {
+        "color": "galvanized",
+        "wire": "4-2-mm"
+      },
+      "price": {
+        "BRL": 169,
+        "USD": 49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Flat welded galvanized steel wire mesh panel with a square grid",
+            "pt-BR": "Painel plano de tela de aço soldada galvanizada com malha quadrada"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5-mm",
+      "sku": "CON-WELDED-STEEL-WIRE-MESH-5-MM",
+      "options": {
+        "color": "galvanized",
+        "wire": "5-mm"
+      },
+      "price": {
+        "BRL": 229,
+        "USD": 66
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Flat welded galvanized steel wire mesh panel with a square grid",
+            "pt-BR": "Painel plano de tela de aço soldada galvanizada com malha quadrada"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

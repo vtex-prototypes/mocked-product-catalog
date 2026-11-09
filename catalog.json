@@ -358,6 +358,20 @@
             "en": "Polyethylene foam",
             "pt-BR": "Espuma de polietileno"
           }
+        },
+        {
+          "id": "gravel",
+          "name": {
+            "en": "Gravel",
+            "pt-BR": "Brita"
+          }
+        },
+        {
+          "id": "polypropylene",
+          "name": {
+            "en": "Polypropylene",
+            "pt-BR": "Polipropileno"
+          }
         }
       ]
     },
@@ -51324,6 +51338,336 @@
       }
     },
     {
+      "id": "crushed-gravel-sack",
+      "categoryId": "construcao-basicos",
+      "unitId": "bag",
+      "name": {
+        "en": "Washed Crushed Gravel for Concrete Mixes, Drainage Trenches and Garden Paths, a 44 Pound Woven Sack of Angular Stone",
+        "pt-BR": "Brita Lavada para Concreto, Drenos e Caminhos de Jardim, Saco de Ráfia de 20 kg de Pedra Britada Angular"
+      },
+      "description": {
+        "en": "Clean crushed stone with sharp edges that lock together. Mix it with cement and sand for concrete, lay it under a slab or pipe for drainage, or spread it for a path. The stone size is chosen on the page.",
+        "pt-BR": "Pedra britada limpa de arestas vivas que se travam entre si. Misture com cimento e areia para fazer concreto, use sob laje ou tubo para drenar, ou espalhe em um caminho. O tamanho da pedra é escolhido na página."
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 6.5
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "gravel",
+          "crushed stone",
+          "concrete aggregate",
+          "drainage",
+          "garden path"
+        ],
+        "pt-BR": [
+          "brita",
+          "pedra britada",
+          "agregado",
+          "drenagem",
+          "caminho de jardim"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "gravel",
+          "value": {
+            "en": "Gravel",
+            "pt-BR": "Brita"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "3-8-in-one",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray-mix",
+              "name": {
+                "en": "Gray mix",
+                "pt-BR": "Cinza misto"
+              },
+              "hex": "#8E8C86"
+            }
+          ]
+        },
+        {
+          "id": "stone",
+          "name": {
+            "en": "Stone size",
+            "pt-BR": "Tamanho da pedra"
+          },
+          "values": [
+            {
+              "id": "3-8-in",
+              "name": {
+                "en": "3/8 in",
+                "pt-BR": "10 mm"
+              }
+            },
+            {
+              "id": "3-4-in",
+              "name": {
+                "en": "3/4 in",
+                "pt-BR": "20 mm"
+              }
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "one",
+              "name": {
+                "en": "1 bag",
+                "pt-BR": "1 saco"
+              }
+            },
+            {
+              "id": "many",
+              "name": {
+                "en": "5 bags",
+                "pt-BR": "5 sacos"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "3-8-in-one",
+          "sku": "CON-CRUSHED-GRAVEL-SACK-3-8-IN-ONE",
+          "options": {
+            "color": "gray-mix",
+            "stone": "3-8-in",
+            "pack": "one"
+          },
+          "price": {
+            "BRL": 18.9,
+            "USD": 6.5
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White woven sack overflowing with crushed gray gravel",
+                "pt-BR": "Saco de ráfia branco cheio de brita cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/crushed-gravel-sack/main-white.webp",
+                "#f5f5f5": "images/crushed-gravel-sack/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bag",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bag",
+                "other": "bags"
+              },
+              "pt-BR": {
+                "one": "saco",
+                "other": "sacos"
+              }
+            }
+          }
+        },
+        {
+          "id": "3-8-in-many",
+          "sku": "CON-CRUSHED-GRAVEL-SACK-3-8-IN-MANY",
+          "options": {
+            "color": "gray-mix",
+            "stone": "3-8-in",
+            "pack": "many"
+          },
+          "price": {
+            "BRL": 87,
+            "USD": 29.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White woven sack overflowing with crushed gray gravel",
+                "pt-BR": "Saco de ráfia branco cheio de brita cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/crushed-gravel-sack/main-white.webp",
+                "#f5f5f5": "images/crushed-gravel-sack/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bag",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bag",
+                "other": "bags"
+              },
+              "pt-BR": {
+                "one": "saco",
+                "other": "sacos"
+              }
+            }
+          }
+        },
+        {
+          "id": "3-4-in-one",
+          "sku": "CON-CRUSHED-GRAVEL-SACK-3-4-IN-ONE",
+          "options": {
+            "color": "gray-mix",
+            "stone": "3-4-in",
+            "pack": "one"
+          },
+          "price": {
+            "BRL": 16.9,
+            "USD": 5.5
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White woven sack overflowing with crushed gray gravel",
+                "pt-BR": "Saco de ráfia branco cheio de brita cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/crushed-gravel-sack/main-white.webp",
+                "#f5f5f5": "images/crushed-gravel-sack/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bag",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bag",
+                "other": "bags"
+              },
+              "pt-BR": {
+                "one": "saco",
+                "other": "sacos"
+              }
+            }
+          }
+        },
+        {
+          "id": "3-4-in-many",
+          "sku": "CON-CRUSHED-GRAVEL-SACK-3-4-IN-MANY",
+          "options": {
+            "color": "gray-mix",
+            "stone": "3-4-in",
+            "pack": "many"
+          },
+          "price": {
+            "BRL": 78,
+            "USD": 25.3
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White woven sack overflowing with crushed gray gravel",
+                "pt-BR": "Saco de ráfia branco cheio de brita cinza"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/crushed-gravel-sack/main-white.webp",
+                "#f5f5f5": "images/crushed-gravel-sack/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bag",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bag",
+                "other": "bags"
+              },
+              "pt-BR": {
+                "one": "saco",
+                "other": "sacos"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "bag",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "bag",
+            "other": "bags"
+          },
+          "pt-BR": {
+            "one": "saco",
+            "other": "sacos"
+          }
+        }
+      }
+    },
+    {
       "id": "dark-indigo-straight-jeans",
       "brandId": "ritmo",
       "brand": {
@@ -58104,6 +58448,223 @@
           "pt-BR": {
             "one": "unidade",
             "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "fast-setting-concrete-pail",
+      "categoryId": "construcao-basicos",
+      "unitId": "pail",
+      "name": {
+        "en": "Fast-Setting Concrete Mix with Rapid Cement for Fence Posts and Mailbox Posts, Sets in Twenty Minutes, 25 Pound Pail",
+        "pt-BR": "Concreto de Pega Rápida com Cimento de Alta Resistência Inicial para Postes de Cerca e Caixa de Correio, Endurece em Vinte Minutos, Balde de 12 kg"
+      },
+      "description": {
+        "en": "A concrete mix with rapid-setting cement in a resealable pail. Pour it dry around a post, add water on top, and it sets in about twenty minutes with no mixing. Also good for small repairs and anchors.",
+        "pt-BR": "Concreto com cimento de pega rápida em balde com tampa. Despeje seco ao redor do poste, adicione água por cima e endurece em cerca de vinte minutos, sem misturar. Serve também para pequenos reparos e chumbadores."
+      },
+      "price": {
+        "BRL": 59.9,
+        "USD": 14
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "fast-setting concrete",
+          "concrete mix",
+          "cement",
+          "post mix",
+          "repairs"
+        ],
+        "pt-BR": [
+          "concreto rápido",
+          "mistura de concreto",
+          "cimento",
+          "chumbar poste",
+          "reparos"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "one",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#A5A5A3"
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "one",
+              "name": {
+                "en": "1 pail",
+                "pt-BR": "1 balde"
+              }
+            },
+            {
+              "id": "many",
+              "name": {
+                "en": "2 pails",
+                "pt-BR": "2 baldes"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "one",
+          "sku": "CON-FAST-SETTING-CONCRETE-PAIL-ONE",
+          "options": {
+            "color": "gray",
+            "pack": "one"
+          },
+          "price": {
+            "BRL": 59.9,
+            "USD": 14
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bright yellow plastic pail with a lid holding fast-setting concrete mix",
+                "pt-BR": "Balde plástico amarelo com tampa de concreto de pega rápida"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/fast-setting-concrete-pail/main-white.webp",
+                "#f5f5f5": "images/fast-setting-concrete-pail/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "pail",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "pail",
+                "other": "pails"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        },
+        {
+          "id": "many",
+          "sku": "CON-FAST-SETTING-CONCRETE-PAIL-MANY",
+          "options": {
+            "color": "gray",
+            "pack": "many"
+          },
+          "price": {
+            "BRL": 109,
+            "USD": 27
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Bright yellow plastic pail with a lid holding fast-setting concrete mix",
+                "pt-BR": "Balde plástico amarelo com tampa de concreto de pega rápida"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/fast-setting-concrete-pail/main-white.webp",
+                "#f5f5f5": "images/fast-setting-concrete-pail/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "pail",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "pail",
+                "other": "pails"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "pail",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "pail",
+            "other": "pails"
+          },
+          "pt-BR": {
+            "one": "balde",
+            "other": "baldes"
           }
         }
       }
@@ -72828,6 +73389,285 @@
           "pt-BR": {
             "one": "unidade",
             "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "hollow-concrete-block",
+      "categoryId": "construcao-basicos",
+      "unitId": "piece",
+      "name": {
+        "en": "Gray Hollow Concrete Masonry Block, 16 Inches Long and 8 Inches High, Two Cores for Rebar, for Load-Bearing Walls",
+        "pt-BR": "Bloco de Concreto Estrutural Cinza com Dois Furos para Armadura, 39 cm de Comprimento e 19 cm de Altura, para Paredes de Carga"
+      },
+      "description": {
+        "en": "A hollow concrete block with two cores for walls, foundations, retaining walls and garden walls. Steel rebar and grout can be run through the cores to make a wall that carries load. The width is chosen on the page.",
+        "pt-BR": "Bloco de concreto vazado com dois furos para paredes, fundações, muros de arrimo e de jardim. Dá para passar vergalhão e graute nos furos e fazer parede estrutural. A largura é escolhida na página."
+      },
+      "price": {
+        "BRL": 5.9,
+        "USD": 1.65
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "concrete block",
+          "masonry block",
+          "hollow",
+          "structural",
+          "foundation wall"
+        ],
+        "pt-BR": [
+          "bloco de concreto",
+          "bloco estrutural",
+          "vazado",
+          "estrutural",
+          "muro de fundação"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "4-in",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#9C9C99"
+            }
+          ]
+        },
+        {
+          "id": "width",
+          "name": {
+            "en": "Width",
+            "pt-BR": "Largura"
+          },
+          "values": [
+            {
+              "id": "4-in",
+              "name": {
+                "en": "4 in",
+                "pt-BR": "9 cm"
+              }
+            },
+            {
+              "id": "6-in",
+              "name": {
+                "en": "6 in",
+                "pt-BR": "14 cm"
+              }
+            },
+            {
+              "id": "8-in",
+              "name": {
+                "en": "8 in",
+                "pt-BR": "19 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "4-in",
+          "sku": "CON-HOLLOW-CONCRETE-BLOCK-4-IN",
+          "options": {
+            "color": "gray",
+            "width": "4-in"
+          },
+          "price": {
+            "BRL": 5.9,
+            "USD": 1.65
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray hollow concrete block with two rectangular cores",
+                "pt-BR": "Bloco de concreto cinza com dois furos retangulares"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/hollow-concrete-block/main-white.webp",
+                "#f5f5f5": "images/hollow-concrete-block/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "6-in",
+          "sku": "CON-HOLLOW-CONCRETE-BLOCK-6-IN",
+          "options": {
+            "color": "gray",
+            "width": "6-in"
+          },
+          "price": {
+            "BRL": 7.9,
+            "USD": 2.15
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray hollow concrete block with two rectangular cores",
+                "pt-BR": "Bloco de concreto cinza com dois furos retangulares"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/hollow-concrete-block/main-white.webp",
+                "#f5f5f5": "images/hollow-concrete-block/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "8-in",
+          "sku": "CON-HOLLOW-CONCRETE-BLOCK-8-IN",
+          "options": {
+            "color": "gray",
+            "width": "8-in"
+          },
+          "price": {
+            "BRL": 9.9,
+            "USD": 2.75
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray hollow concrete block with two rectangular cores",
+                "pt-BR": "Bloco de concreto cinza com dois furos retangulares"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/hollow-concrete-block/main-white.webp",
+                "#f5f5f5": "images/hollow-concrete-block/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
           }
         }
       }
@@ -103081,6 +103921,225 @@
           "pt-BR": {
             "one": "balde",
             "other": "baldes"
+          }
+        }
+      }
+    },
+    {
+      "id": "ready-mix-concrete-bag",
+      "categoryId": "construcao-basicos",
+      "unitId": "bag",
+      "name": {
+        "en": "Ready-Mix Concrete with Portland Cement, Sand and Gravel, an 80 Pound Paper Bag, Just Add Water for Slabs, Posts and Footings",
+        "pt-BR": "Concreto Pronto com Cimento Portland, Areia e Brita, Saco de Papel de 40 kg, Só Adicionar Água para Lajes, Postes e Sapatas"
+      },
+      "description": {
+        "en": "A bag of concrete that already holds cement, sand and gravel in the right mix. Add water, stir, and pour small slabs, steps, footings and fence posts. The cement in it binds the sand and gravel as it cures.",
+        "pt-BR": "Saco de concreto que já traz cimento, areia e brita na proporção certa. Adicione água, misture e concrete pequenas lajes, degraus, sapatas e postes de cerca. O cimento da mistura liga a areia e a brita na cura."
+      },
+      "price": {
+        "BRL": 36.9,
+        "USD": 7
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "concrete mix",
+          "ready-mix concrete",
+          "cement",
+          "slab",
+          "fence post",
+          "footing"
+        ],
+        "pt-BR": [
+          "concreto pronto",
+          "mistura de concreto",
+          "cimento",
+          "laje",
+          "poste",
+          "sapata"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "one",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#A5A5A3"
+            }
+          ]
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "Pack",
+            "pt-BR": "Pacote"
+          },
+          "values": [
+            {
+              "id": "one",
+              "name": {
+                "en": "1 bag",
+                "pt-BR": "1 saco"
+              }
+            },
+            {
+              "id": "many",
+              "name": {
+                "en": "5 bags",
+                "pt-BR": "5 sacos"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "one",
+          "sku": "CON-READY-MIX-CONCRETE-BAG-ONE",
+          "options": {
+            "color": "gray",
+            "pack": "one"
+          },
+          "price": {
+            "BRL": 36.9,
+            "USD": 7
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray paper sack of ready-mix concrete with a wide black band",
+                "pt-BR": "Saco de papel cinza de concreto pronto com faixa larga preta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ready-mix-concrete-bag/main-white.webp",
+                "#f5f5f5": "images/ready-mix-concrete-bag/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bag",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bag",
+                "other": "bags"
+              },
+              "pt-BR": {
+                "one": "saco",
+                "other": "sacos"
+              }
+            }
+          }
+        },
+        {
+          "id": "many",
+          "sku": "CON-READY-MIX-CONCRETE-BAG-MANY",
+          "options": {
+            "color": "gray",
+            "pack": "many"
+          },
+          "price": {
+            "BRL": 169,
+            "USD": 33
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray paper sack of ready-mix concrete with a wide black band",
+                "pt-BR": "Saco de papel cinza de concreto pronto com faixa larga preta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/ready-mix-concrete-bag/main-white.webp",
+                "#f5f5f5": "images/ready-mix-concrete-bag/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bag",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bag",
+                "other": "bags"
+              },
+              "pt-BR": {
+                "one": "saco",
+                "other": "sacos"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "bag",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "bag",
+            "other": "bags"
+          },
+          "pt-BR": {
+            "one": "saco",
+            "other": "sacos"
           }
         }
       }
@@ -134857,6 +135916,273 @@
           "pt-BR": {
             "one": "unidade",
             "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "welded-steel-wire-mesh",
+      "categoryId": "construcao-basicos",
+      "unitId": "piece",
+      "name": {
+        "en": "Welded Galvanized Steel Wire Mesh Panel with a 6 by 6 Inch Grid, 5 by 10 Feet, to Reinforce Concrete Slabs and Screeds",
+        "pt-BR": "Tela de Aço Soldada Galvanizada com Malha de 15 x 15 cm, Painel de 1,5 x 3 m, para Armar Lajes e Contrapisos de Concreto"
+      },
+      "description": {
+        "en": "A flat panel of welded steel wires in a square grid. Set it on spacers in the middle of a slab or screed before the pour so the concrete does not crack as it dries. The wire thickness is chosen on the page.",
+        "pt-BR": "Painel plano de fios de aço soldados em malha quadrada. Posicione sobre espaçadores no meio da laje ou do contrapiso antes da concretagem para o concreto não trincar ao secar. A espessura do fio é escolhida na página."
+      },
+      "price": {
+        "BRL": 129,
+        "USD": 38
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "steel wire mesh",
+          "welded mesh",
+          "slab reinforcement",
+          "concrete reinforcement",
+          "steel"
+        ],
+        "pt-BR": [
+          "tela soldada",
+          "malha de aço",
+          "armação de laje",
+          "reforço de concreto",
+          "aço"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "steel",
+          "value": {
+            "en": "Steel",
+            "pt-BR": "Aço"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "3-4-mm",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "galvanized",
+              "name": {
+                "en": "Galvanized",
+                "pt-BR": "Galvanizado"
+              },
+              "hex": "#AEB1B3"
+            }
+          ]
+        },
+        {
+          "id": "wire",
+          "name": {
+            "en": "Wire thickness",
+            "pt-BR": "Espessura do fio"
+          },
+          "values": [
+            {
+              "id": "3-4-mm",
+              "name": {
+                "en": "3.4 mm",
+                "pt-BR": "3,4 mm"
+              }
+            },
+            {
+              "id": "4-2-mm",
+              "name": {
+                "en": "4.2 mm",
+                "pt-BR": "4,2 mm"
+              }
+            },
+            {
+              "id": "5-mm",
+              "name": {
+                "en": "5 mm",
+                "pt-BR": "5 mm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "3-4-mm",
+          "sku": "CON-WELDED-STEEL-WIRE-MESH-3-4-MM",
+          "options": {
+            "color": "galvanized",
+            "wire": "3-4-mm"
+          },
+          "price": {
+            "BRL": 129,
+            "USD": 38
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Flat welded galvanized steel wire mesh panel with a square grid",
+                "pt-BR": "Painel plano de tela de aço soldada galvanizada com malha quadrada"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/welded-steel-wire-mesh/main-white.webp",
+                "#f5f5f5": "images/welded-steel-wire-mesh/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "4-2-mm",
+          "sku": "CON-WELDED-STEEL-WIRE-MESH-4-2-MM",
+          "options": {
+            "color": "galvanized",
+            "wire": "4-2-mm"
+          },
+          "price": {
+            "BRL": 169,
+            "USD": 49
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Flat welded galvanized steel wire mesh panel with a square grid",
+                "pt-BR": "Painel plano de tela de aço soldada galvanizada com malha quadrada"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/welded-steel-wire-mesh/main-white.webp",
+                "#f5f5f5": "images/welded-steel-wire-mesh/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "5-mm",
+          "sku": "CON-WELDED-STEEL-WIRE-MESH-5-MM",
+          "options": {
+            "color": "galvanized",
+            "wire": "5-mm"
+          },
+          "price": {
+            "BRL": 229,
+            "USD": 66
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Flat welded galvanized steel wire mesh panel with a square grid",
+                "pt-BR": "Painel plano de tela de aço soldada galvanizada com malha quadrada"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/welded-steel-wire-mesh/main-white.webp",
+                "#f5f5f5": "images/welded-steel-wire-mesh/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
           }
         }
       }
