@@ -1,0 +1,167 @@
+{
+  "id": "white-matte-bathroom-paint",
+  "categoryId": "construcao-tintas",
+  "unitId": "bucket",
+  "name": {
+    "en": "Bright White Matte Acrylic Paint for Bathrooms, a Mildew-Resistant and Moisture-Resistant Flat Finish for Walls and Ceilings",
+    "pt-BR": "Tinta Acrílica Fosca Branca para Banheiros, Acabamento Fosco Resistente a Mofo e Umidade para Paredes e Tetos"
+  },
+  "description": {
+    "en": "A bright white flat matte acrylic made for bathrooms. It resists mildew and steam, hides small wall flaws and covers walls and ceilings in the same coat. The listed price is the 3.6 liter bucket.",
+    "pt-BR": "Tinta acrílica branca fosca feita para banheiros. Resiste a mofo e vapor, disfarça pequenas imperfeições da parede e serve para paredes e tetos. O preço anunciado é do balde de 3,6 litros."
+  },
+  "price": {
+    "BRL": 129.9,
+    "USD": 47
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "white paint",
+      "matte paint",
+      "bathroom paint",
+      "mildew resistant",
+      "ceiling paint"
+    ],
+    "pt-BR": [
+      "tinta branca",
+      "tinta fosca",
+      "tinta para banheiro",
+      "resistente a mofo",
+      "tinta para teto"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "bright-white",
+          "name": {
+            "en": "Bright white",
+            "pt-BR": "Branco neve"
+          },
+          "hex": "#F4F4F1"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "3-6-l",
+      "sku": "CON-WHITE-MATTE-BATHROOM-PAINT-3-6-L",
+      "options": {
+        "color": "bright-white",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 47
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White bucket with a bright white band and a thin pale aqua stripe",
+            "pt-BR": "Balde branco com faixa branca e uma fina listra azul-água clara"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Bathroom with bright white matte walls",
+            "pt-BR": "Banheiro com paredes brancas foscas"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18-l",
+      "sku": "CON-WHITE-MATTE-BATHROOM-PAINT-18-L",
+      "options": {
+        "color": "bright-white",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 469,
+        "USD": 165
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White bucket with a bright white band and a thin pale aqua stripe",
+            "pt-BR": "Balde branco com faixa branca e uma fina listra azul-água clara"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Bathroom with bright white matte walls",
+            "pt-BR": "Banheiro com paredes brancas foscas"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

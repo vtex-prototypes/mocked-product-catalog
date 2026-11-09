@@ -1,0 +1,148 @@
+{
+  "id": "epoxy-tile-adhesive-kit",
+  "categoryId": "construcao-argamassas",
+  "unitId": "kit",
+  "name": {
+    "en": "Two-Part Epoxy Tile Adhesive Kit for Porcelain, Glass and Stone in Wet Areas, Pools and Outdoor Walls, 1 Gallon",
+    "pt-BR": "Kit de Argamassa Epóxi de Dois Componentes para Porcelanato, Vidro e Pedra em Áreas Molhadas, Piscinas e Paredes Externas, 3,6 L"
+  },
+  "description": {
+    "en": "A gray resin and a hardener that are mixed in the pail and set into a waterproof, chemical-resistant bond. It holds porcelain, glass and stone in showers, pools, kitchens and outdoor walls where cement thinset can fail.",
+    "pt-BR": "Resina cinza e endurecedor que se misturam no balde e formam uma ligação impermeável e resistente a químicos. Fixa porcelanato, vidro e pedra em boxes, piscinas, cozinhas e paredes externas onde a argamassa cimentícia pode falhar."
+  },
+  "price": {
+    "BRL": 389,
+    "USD": 92
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "tile adhesive",
+      "epoxy",
+      "porcelain",
+      "waterproof",
+      "pool",
+      "outdoor"
+    ],
+    "pt-BR": [
+      "argamassa epóxi",
+      "porcelanato",
+      "impermeável",
+      "piscina",
+      "área externa"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "epoxy"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#8F9190"
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "name": {
+        "en": "Quantity",
+        "pt-BR": "Quantidade"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 kit",
+            "pt-BR": "1 kit"
+          }
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "2 kits",
+            "pt-BR": "2 kits"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-EPOXY-TILE-ADHESIVE-KIT-SINGLE",
+      "options": {
+        "color": "gray",
+        "quantity": "single"
+      },
+      "price": {
+        "BRL": 389,
+        "USD": 92
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray metal can and a small white bottle of hardener, an epoxy tile adhesive kit",
+            "pt-BR": "Lata metálica cinza e frasco branco de endurecedor de um kit de argamassa epóxi"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "sku": "CON-EPOXY-TILE-ADHESIVE-KIT-PACK",
+      "options": {
+        "color": "gray",
+        "quantity": "pack"
+      },
+      "price": {
+        "BRL": 739,
+        "USD": 175
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray metal can and a small white bottle of hardener, an epoxy tile adhesive kit",
+            "pt-BR": "Lata metálica cinza e frasco branco de endurecedor de um kit de argamassa epóxi"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

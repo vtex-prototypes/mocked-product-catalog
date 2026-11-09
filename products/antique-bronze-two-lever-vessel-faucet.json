@@ -1,0 +1,147 @@
+{
+  "id": "antique-bronze-two-lever-vessel-faucet",
+  "categoryId": "construcao-banheiro",
+  "unitId": "piece",
+  "name": {
+    "en": "Antique Bronze Two-Lever Vessel Sink Faucet with a High Curved Spout, Classic Single-Base Deck Mount",
+    "pt-BR": "Torneira Bronze Envelhecido de Duas Alavancas para Cuba de Apoio com Bica Alta Curva, Base Única de Bancada"
+  },
+  "description": {
+    "en": "A classic antique bronze faucet with two lever handles on one round base and a high curved spout for a vessel sink. Hot and cold are set on separate levers. Warm, dark finish for traditional bathrooms.",
+    "pt-BR": "Torneira clássica em bronze envelhecido com duas alavancas em uma só base redonda e bica alta curva para cuba de apoio. Quente e fria em alavancas separadas. Acabamento escuro e quente para banheiros tradicionais."
+  },
+  "price": {
+    "BRL": 689,
+    "USD": 165
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "faucet",
+      "vessel sink",
+      "antique bronze",
+      "two handle",
+      "classic"
+    ],
+    "pt-BR": [
+      "torneira",
+      "cuba de apoio",
+      "bronze envelhecido",
+      "duas alavancas",
+      "clássica"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "sink-type",
+      "valueId": "vessel"
+    },
+    {
+      "id": "material",
+      "valueId": "brass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "piece-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "antique-bronze",
+          "name": {
+            "en": "Antique bronze",
+            "pt-BR": "Bronze envelhecido"
+          },
+          "hex": "#5A3F2E"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Includes",
+        "pt-BR": "Inclui"
+      },
+      "values": [
+        {
+          "id": "piece-only",
+          "name": {
+            "en": "Piece only",
+            "pt-BR": "Só a peça"
+          }
+        },
+        {
+          "id": "kit",
+          "name": {
+            "en": "Installation kit",
+            "pt-BR": "Kit de instalação"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "piece-only",
+      "sku": "CON-ANTIQUE-BRONZE-TWO-LEVER-VESSEL-FAUCET-PIECE-ONLY",
+      "options": {
+        "color": "antique-bronze",
+        "install": "piece-only"
+      },
+      "price": {
+        "BRL": 689,
+        "USD": 165
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Antique bronze vessel sink faucet with two lever handles and a high curved spout",
+            "pt-BR": "Torneira bronze envelhecido para cuba de apoio com duas alavancas e bica alta curva"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kit",
+      "sku": "CON-ANTIQUE-BRONZE-TWO-LEVER-VESSEL-FAUCET-KIT",
+      "options": {
+        "color": "antique-bronze",
+        "install": "kit"
+      },
+      "price": {
+        "BRL": 827,
+        "USD": 198
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Antique bronze vessel sink faucet with two lever handles and a high curved spout",
+            "pt-BR": "Torneira bronze envelhecido para cuba de apoio com duas alavancas e bica alta curva"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

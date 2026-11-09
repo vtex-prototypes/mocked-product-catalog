@@ -1,0 +1,147 @@
+{
+  "id": "glass-mosaic-white-thinset",
+  "categoryId": "construcao-argamassas",
+  "unitId": "bag",
+  "name": {
+    "en": "White Non-Yellowing Thinset Mortar for Glass Mosaic and Translucent Tile, Indoor and Pool Walls, 11 Pound Bag",
+    "pt-BR": "Argamassa Colante Branca que Não Amarela para Pastilha de Vidro e Peças Translúcidas, Paredes Internas e Piscinas, Saco de 5 kg"
+  },
+  "description": {
+    "en": "A bright white mortar for glass mosaic and translucent tile, where a gray bed would show through and dull the color. Fine grain spreads thin behind small pieces, and it holds on indoor walls and pool walls.",
+    "pt-BR": "Argamassa branca brilhante para pastilha de vidro e peças translúcidas, onde a base cinza apareceria e apagaria a cor. A granulometria fina espalha fino atrás de peças pequenas, e serve em paredes internas e de piscina."
+  },
+  "price": {
+    "BRL": 49.9,
+    "USD": 19
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "thinset mortar",
+      "glass mosaic",
+      "white",
+      "pool",
+      "translucent tile"
+    ],
+    "pt-BR": [
+      "argamassa colante",
+      "pastilha de vidro",
+      "branca",
+      "piscina",
+      "peça translúcida"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branca"
+          },
+          "hex": "#F3F3F0"
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "name": {
+        "en": "Quantity",
+        "pt-BR": "Quantidade"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-GLASS-MOSAIC-WHITE-THINSET-SINGLE",
+      "options": {
+        "color": "white",
+        "quantity": "single"
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 19
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Small white paper sack of glass mosaic thinset with a green band",
+            "pt-BR": "Saco de papel branco pequeno de argamassa para pastilha de vidro com faixa verde"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "sku": "CON-GLASS-MOSAIC-WHITE-THINSET-PACK",
+      "options": {
+        "color": "white",
+        "quantity": "pack"
+      },
+      "price": {
+        "BRL": 229,
+        "USD": 89
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Small white paper sack of glass mosaic thinset with a green band",
+            "pt-BR": "Saco de papel branco pequeno de argamassa para pastilha de vidro com faixa verde"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

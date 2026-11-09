@@ -1,0 +1,179 @@
+{
+  "id": "gray-pvc-electrical-conduit",
+  "categoryId": "construcao-eletrica",
+  "unitId": "length",
+  "name": {
+    "en": "Gray Rigid PVC Electrical Conduit with a Belled End, a 10 Foot Length that Protects Wire in Walls, Slabs and Outdoor Runs",
+    "pt-BR": "Eletroduto Rígido de PVC Cinza com Ponta Bolsa, Barra de 3 m que Protege Fios em Paredes, Lajes e Trechos Externos"
+  },
+  "description": {
+    "en": "A gray rigid PVC conduit with a belled end that takes the next length, glued with solvent cement. Pull wire through it inside walls, under slabs or along an outdoor wall. It does not rust and shrugs off damp ground.",
+    "pt-BR": "Eletroduto rígido de PVC cinza com ponta bolsa que recebe a barra seguinte, colada com adesivo. Passe os fios por dentro em paredes, sob lajes ou ao longo de parede externa. Não enferruja e aguenta solo úmido."
+  },
+  "price": {
+    "BRL": 16.9,
+    "USD": 4.5
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "conduit",
+      "pvc conduit",
+      "wire protection",
+      "outdoor wiring",
+      "electrical pipe"
+    ],
+    "pt-BR": [
+      "eletroduto",
+      "eletroduto pvc",
+      "proteção de fio",
+      "fiação externa",
+      "tubo elétrico"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "pvc"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "1-2-in",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#8E9092"
+        }
+      ]
+    },
+    {
+      "id": "diameter",
+      "name": {
+        "en": "Diameter",
+        "pt-BR": "Diâmetro"
+      },
+      "values": [
+        {
+          "id": "1-2-in",
+          "name": {
+            "en": "1/2 in",
+            "pt-BR": "20 mm"
+          }
+        },
+        {
+          "id": "3-4-in",
+          "name": {
+            "en": "3/4 in",
+            "pt-BR": "25 mm"
+          }
+        },
+        {
+          "id": "1-in",
+          "name": {
+            "en": "1 in",
+            "pt-BR": "32 mm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "1-2-in",
+      "sku": "CON-GRAY-PVC-ELECTRICAL-CONDUIT-1-2-IN",
+      "options": {
+        "color": "gray",
+        "diameter": "1-2-in"
+      },
+      "price": {
+        "BRL": 16.9,
+        "USD": 4.5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray rigid PVC electrical conduit with a belled end",
+            "pt-BR": "Eletroduto rígido de PVC cinza com ponta bolsa"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-4-in",
+      "sku": "CON-GRAY-PVC-ELECTRICAL-CONDUIT-3-4-IN",
+      "options": {
+        "color": "gray",
+        "diameter": "3-4-in"
+      },
+      "price": {
+        "BRL": 22.9,
+        "USD": 6
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray rigid PVC electrical conduit with a belled end",
+            "pt-BR": "Eletroduto rígido de PVC cinza com ponta bolsa"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1-in",
+      "sku": "CON-GRAY-PVC-ELECTRICAL-CONDUIT-1-IN",
+      "options": {
+        "color": "gray",
+        "diameter": "1-in"
+      },
+      "price": {
+        "BRL": 31.9,
+        "USD": 8.5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray rigid PVC electrical conduit with a belled end",
+            "pt-BR": "Eletroduto rígido de PVC cinza com ponta bolsa"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

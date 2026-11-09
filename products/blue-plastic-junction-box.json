@@ -1,0 +1,143 @@
+{
+  "id": "blue-plastic-junction-box",
+  "categoryId": "construcao-eletrica",
+  "unitId": "piece",
+  "name": {
+    "en": "Blue Plastic Electrical Junction Box with Knockouts and Mounting Ears, a Single-Gang Box for Switches, Outlets and Splices",
+    "pt-BR": "Caixa de Passagem Elétrica Azul de Plástico com Recortes e Orelhas de Fixação, Caixa 4x2 para Interruptores, Tomadas e Emendas"
+  },
+  "description": {
+    "en": "A blue plastic box that holds a switch, an outlet or a wire splice inside a wall. Round knockouts open where cable and conduit enter, and mounting ears screw it to a stud. Pick the depth that fits the wall.",
+    "pt-BR": "Caixa de plástico azul que abriga interruptor, tomada ou emenda de fios dentro da parede. Os recortes redondos abrem onde entram cabo e eletroduto, e as orelhas parafusam no montante. Escolha a profundidade da parede."
+  },
+  "price": {
+    "BRL": 4.9,
+    "USD": 1.6
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "junction box",
+      "electrical box",
+      "switch box",
+      "outlet box",
+      "wire splice"
+    ],
+    "pt-BR": [
+      "caixa de passagem",
+      "caixa elétrica",
+      "caixa 4x2",
+      "caixa de tomada",
+      "emenda de fios"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "pvc"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "2-in",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "blue",
+          "name": {
+            "en": "Blue",
+            "pt-BR": "Azul"
+          },
+          "hex": "#2F7FD1"
+        }
+      ]
+    },
+    {
+      "id": "depth",
+      "name": {
+        "en": "Depth",
+        "pt-BR": "Profundidade"
+      },
+      "values": [
+        {
+          "id": "2-in",
+          "name": {
+            "en": "2 in",
+            "pt-BR": "5 cm"
+          }
+        },
+        {
+          "id": "3-in",
+          "name": {
+            "en": "3 in",
+            "pt-BR": "7,5 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "2-in",
+      "sku": "CON-BLUE-PLASTIC-JUNCTION-BOX-2-IN",
+      "options": {
+        "color": "blue",
+        "depth": "2-in"
+      },
+      "price": {
+        "BRL": 4.9,
+        "USD": 1.6
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Blue plastic electrical junction box with knockouts and mounting ears",
+            "pt-BR": "Caixa de passagem elétrica azul com recortes e orelhas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-in",
+      "sku": "CON-BLUE-PLASTIC-JUNCTION-BOX-3-IN",
+      "options": {
+        "color": "blue",
+        "depth": "3-in"
+      },
+      "price": {
+        "BRL": 6.9,
+        "USD": 2.2
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Blue plastic electrical junction box with knockouts and mounting ears",
+            "pt-BR": "Caixa de passagem elétrica azul com recortes e orelhas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

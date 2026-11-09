@@ -1,0 +1,175 @@
+{
+  "id": "breaker-panel-load-center",
+  "categoryId": "construcao-eletrica",
+  "unitId": "piece",
+  "name": {
+    "en": "Gray Steel Circuit Breaker Panel, a Main Load Center with Two Columns of Slots and Copper Bus, for Homes and Workshops",
+    "pt-BR": "Quadro de Distribuição de Aço Cinza para Disjuntores, Centro de Carga com Duas Colunas de Encaixes e Barramento de Cobre, para Casas e Oficinas"
+  },
+  "description": {
+    "en": "A gray steel panel that feeds the circuits of a house or workshop. Two columns of slots take plug-in breakers on a copper bus, and the cover closes the live parts. Breakers are sold separately. Pick the main rating of the supply.",
+    "pt-BR": "Quadro de aço cinza que alimenta os circuitos de uma casa ou oficina. Duas colunas de encaixes recebem disjuntores sobre barramento de cobre, e a tampa fecha as partes vivas. Disjuntores vendidos separadamente. Escolha a corrente geral da entrada."
+  },
+  "price": {
+    "BRL": 389,
+    "USD": 89
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "breaker panel",
+      "load center",
+      "distribution board",
+      "circuit breakers",
+      "electrical panel"
+    ],
+    "pt-BR": [
+      "quadro de distribuição",
+      "centro de carga",
+      "quadro de disjuntores",
+      "disjuntores",
+      "painel elétrico"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "100-a",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#9EA1A3"
+        }
+      ]
+    },
+    {
+      "id": "main",
+      "name": {
+        "en": "Main rating",
+        "pt-BR": "Corrente geral"
+      },
+      "values": [
+        {
+          "id": "100-a",
+          "name": {
+            "en": "100 A",
+            "pt-BR": "100 A"
+          }
+        },
+        {
+          "id": "150-a",
+          "name": {
+            "en": "150 A",
+            "pt-BR": "150 A"
+          }
+        },
+        {
+          "id": "200-a",
+          "name": {
+            "en": "200 A",
+            "pt-BR": "200 A"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "100-a",
+      "sku": "CON-BREAKER-PANEL-LOAD-CENTER-100-A",
+      "options": {
+        "color": "gray",
+        "main": "100-a"
+      },
+      "price": {
+        "BRL": 389,
+        "USD": 89
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray steel breaker panel with two columns of breaker slots",
+            "pt-BR": "Quadro de distribuição de aço cinza com duas colunas de disjuntores"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "150-a",
+      "sku": "CON-BREAKER-PANEL-LOAD-CENTER-150-A",
+      "options": {
+        "color": "gray",
+        "main": "150-a"
+      },
+      "price": {
+        "BRL": 549,
+        "USD": 129
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray steel breaker panel with two columns of breaker slots",
+            "pt-BR": "Quadro de distribuição de aço cinza com duas colunas de disjuntores"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "200-a",
+      "sku": "CON-BREAKER-PANEL-LOAD-CENTER-200-A",
+      "options": {
+        "color": "gray",
+        "main": "200-a"
+      },
+      "price": {
+        "BRL": 719,
+        "USD": 169
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray steel breaker panel with two columns of breaker slots",
+            "pt-BR": "Quadro de distribuição de aço cinza com duas colunas de disjuntores"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

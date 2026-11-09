@@ -1,0 +1,149 @@
+{
+  "id": "flexible-outdoor-porcelain-mortar",
+  "categoryId": "construcao-argamassas",
+  "unitId": "bag",
+  "name": {
+    "en": "Gray Flexible Cement Mortar for Outdoor Porcelain Terraces, Pool Decks and Facades, Weatherproof, 55 Pound Sack",
+    "pt-BR": "Argamassa Cimentícia Flexível Cinza para Porcelanato em Áreas Externas, Piscinas e Fachadas, Resistente ao Tempo, Saco de 25 kg"
+  },
+  "description": {
+    "en": "A gray flexible mortar for porcelain on terraces, pool decks, balconies and facades. It moves with sun and rain, so outdoor tile does not crack loose, and it also bonds porcelain indoors.",
+    "pt-BR": "Argamassa flexível cinza para porcelanato em terraços, deques de piscina, varandas e fachadas. Acompanha a dilatação do sol e da chuva, e o piso externo não solta, e também serve para porcelanato interno."
+  },
+  "price": {
+    "BRL": 89.9,
+    "USD": 41
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "thinset mortar",
+      "porcelain",
+      "outdoor",
+      "flexible",
+      "pool deck",
+      "facade"
+    ],
+    "pt-BR": [
+      "argamassa colante",
+      "porcelanato",
+      "área externa",
+      "flexível",
+      "piscina",
+      "fachada"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#9A9B98"
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "name": {
+        "en": "Quantity",
+        "pt-BR": "Quantidade"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-FLEXIBLE-OUTDOOR-PORCELAIN-MORTAR-SINGLE",
+      "options": {
+        "color": "gray",
+        "quantity": "single"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 41
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tall gray paper sack of flexible outdoor porcelain mortar with an orange band",
+            "pt-BR": "Saco de papel cinza de argamassa flexível para porcelanato externo com faixa laranja"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "sku": "CON-FLEXIBLE-OUTDOOR-PORCELAIN-MORTAR-PACK",
+      "options": {
+        "color": "gray",
+        "quantity": "pack"
+      },
+      "price": {
+        "BRL": 419,
+        "USD": 192
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tall gray paper sack of flexible outdoor porcelain mortar with an orange band",
+            "pt-BR": "Saco de papel cinza de argamassa flexível para porcelanato externo com faixa laranja"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

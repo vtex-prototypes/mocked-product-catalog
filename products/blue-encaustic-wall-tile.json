@@ -1,0 +1,145 @@
+{
+  "id": "blue-encaustic-wall-tile",
+  "categoryId": "construcao-revestimentos",
+  "unitId": "area",
+  "name": {
+    "en": "Blue and White Quatrefoil Patterned Encaustic-Look Porcelain Wall Tile, Matte, for a Bathroom Accent Wall or Kitchen Backsplash",
+    "pt-BR": "Revestimento de Parede de Porcelanato Estampado Azul e Branco Estilo Ladrilho Hidráulico com Quadrifólio, Fosco, para Banheiro ou Backsplash"
+  },
+  "description": {
+    "en": "A square porcelain tile printed with a cobalt blue and white quatrefoil in the style of old cement encaustic tile. Matte and easy to clean. Use it as an accent wall, a backsplash or a band in a bathroom. Pick the tile size.",
+    "pt-BR": "Peça quadrada de porcelanato estampada com quadrifólio azul cobalto e branco no estilo dos antigos ladrilhos hidráulicos. Fosca e fácil de limpar. Use em parede de destaque, backsplash ou faixa no banheiro. Escolha o tamanho."
+  },
+  "price": {
+    "BRL": 169,
+    "USD": 8.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "patterned tile",
+      "encaustic look",
+      "blue and white",
+      "porcelain",
+      "bathroom",
+      "backsplash"
+    ],
+    "pt-BR": [
+      "revestimento estampado",
+      "ladrilho hidráulico",
+      "azul e branco",
+      "porcelanato",
+      "banheiro",
+      "backsplash"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "8x8",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cobalt-white",
+          "name": {
+            "en": "Cobalt and white",
+            "pt-BR": "Cobalto e branco"
+          },
+          "hex": "#1F4E9C"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "8x8",
+          "name": {
+            "en": "8×8 in",
+            "pt-BR": "20×20 cm"
+          }
+        },
+        {
+          "id": "12x12",
+          "name": {
+            "en": "12×12 in",
+            "pt-BR": "30×30 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "8x8",
+      "sku": "CON-BLUE-ENCAUSTIC-WALL-TILE-8X8",
+      "options": {
+        "color": "cobalt-white",
+        "size": "8x8"
+      },
+      "price": {
+        "BRL": 169,
+        "USD": 8.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Fan of blue and white quatrefoil patterned porcelain wall tiles",
+            "pt-BR": "Leque de revestimentos de porcelanato estampados em azul e branco com quadrifólio"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12x12",
+      "sku": "CON-BLUE-ENCAUSTIC-WALL-TILE-12X12",
+      "options": {
+        "color": "cobalt-white",
+        "size": "12x12"
+      },
+      "price": {
+        "BRL": 139,
+        "USD": 7.4
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Fan of blue and white quatrefoil patterned porcelain wall tiles",
+            "pt-BR": "Leque de revestimentos de porcelanato estampados em azul e branco com quadrifólio"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

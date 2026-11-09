@@ -1,0 +1,147 @@
+{
+  "id": "brushed-nickel-vessel-faucet",
+  "categoryId": "construcao-banheiro",
+  "unitId": "piece",
+  "name": {
+    "en": "Brushed Nickel Tall Vessel Sink Faucet with Gooseneck Spout and Round Single Lever, Deck Mount",
+    "pt-BR": "Torneira Níquel Escovado Alta para Cuba de Apoio com Bica Pescoço de Ganso e Alavanca Redonda, de Bancada"
+  },
+  "description": {
+    "en": "A tall brushed nickel faucet with a gooseneck spout that clears the rim of a vessel sink on the countertop. One round lever sets flow and temperature. The brushed finish hides fingerprints.",
+    "pt-BR": "Torneira alta em níquel escovado com bica pescoço de ganso que passa acima da borda da cuba de apoio. Uma alavanca redonda controla vazão e temperatura. O acabamento escovado disfarça digitais."
+  },
+  "price": {
+    "BRL": 549,
+    "USD": 129
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "faucet",
+      "vessel sink",
+      "brushed nickel",
+      "gooseneck",
+      "tall"
+    ],
+    "pt-BR": [
+      "torneira",
+      "cuba de apoio",
+      "níquel escovado",
+      "pescoço de ganso",
+      "alta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "sink-type",
+      "valueId": "vessel"
+    },
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "piece-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "brushed-nickel",
+          "name": {
+            "en": "Brushed nickel",
+            "pt-BR": "Níquel escovado"
+          },
+          "hex": "#B9BBBC"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Includes",
+        "pt-BR": "Inclui"
+      },
+      "values": [
+        {
+          "id": "piece-only",
+          "name": {
+            "en": "Piece only",
+            "pt-BR": "Só a peça"
+          }
+        },
+        {
+          "id": "kit",
+          "name": {
+            "en": "Installation kit",
+            "pt-BR": "Kit de instalação"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "piece-only",
+      "sku": "CON-BRUSHED-NICKEL-VESSEL-FAUCET-PIECE-ONLY",
+      "options": {
+        "color": "brushed-nickel",
+        "install": "piece-only"
+      },
+      "price": {
+        "BRL": 549,
+        "USD": 129
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brushed nickel tall vessel sink faucet with a gooseneck spout",
+            "pt-BR": "Torneira níquel escovado alta para cuba de apoio com bica pescoço de ganso"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kit",
+      "sku": "CON-BRUSHED-NICKEL-VESSEL-FAUCET-KIT",
+      "options": {
+        "color": "brushed-nickel",
+        "install": "kit"
+      },
+      "price": {
+        "BRL": 659,
+        "USD": 155
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brushed nickel tall vessel sink faucet with a gooseneck spout",
+            "pt-BR": "Torneira níquel escovado alta para cuba de apoio com bica pescoço de ganso"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

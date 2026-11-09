@@ -1,0 +1,279 @@
+{
+  "id": "white-sheathed-cable-coil",
+  "categoryId": "construcao-eletrica",
+  "unitId": "roll",
+  "name": {
+    "en": "White Sheathed Copper Wire Cable with Two Insulated Conductors and a Bare Ground, a Flat Jacket Coil for Indoor Walls and Ceilings",
+    "pt-BR": "Cabo Flexível de Cobre Branco com Dois Condutores Isolados e Fio Terra, Bobina com Capa Chata para Paredes e Tetos Internos"
+  },
+  "description": {
+    "en": "A coil of copper wire cable with two insulated conductors and a bare ground inside one flat white jacket. Run it through walls and ceilings to outlets, switches and lights. One jacket keeps the wires together and clean.",
+    "pt-BR": "Bobina de cabo de cobre com dois condutores isolados e um fio terra nu em uma única capa chata branca. Passe por paredes e tetos até tomadas, interruptores e luminárias. A capa mantém os fios juntos e protegidos."
+  },
+  "price": {
+    "BRL": 119,
+    "USD": 39
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "sheathed cable",
+      "copper wire",
+      "wire",
+      "romex cable",
+      "branch circuit wire"
+    ],
+    "pt-BR": [
+      "cabo com capa",
+      "fio de cobre",
+      "fio",
+      "cabo pp",
+      "fiação de circuito"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "copper"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "1-5-mm-50-ft",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F2EF"
+        }
+      ]
+    },
+    {
+      "id": "gauge",
+      "name": {
+        "en": "Gauge",
+        "pt-BR": "Bitola"
+      },
+      "values": [
+        {
+          "id": "1-5-mm",
+          "name": {
+            "en": "1.5 mm²",
+            "pt-BR": "1,5 mm²"
+          }
+        },
+        {
+          "id": "2-5-mm",
+          "name": {
+            "en": "2.5 mm²",
+            "pt-BR": "2,5 mm²"
+          }
+        },
+        {
+          "id": "4-mm",
+          "name": {
+            "en": "4 mm²",
+            "pt-BR": "4 mm²"
+          }
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "50-ft",
+          "name": {
+            "en": "50 ft",
+            "pt-BR": "15 m"
+          }
+        },
+        {
+          "id": "100-ft",
+          "name": {
+            "en": "100 ft",
+            "pt-BR": "30 m"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "1-5-mm-50-ft",
+      "sku": "CON-WHITE-SHEATHED-CABLE-COIL-1-5-MM-50-FT",
+      "options": {
+        "color": "white",
+        "gauge": "1-5-mm",
+        "length": "50-ft"
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 39
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Loose coil of white sheathed cable with a cut end showing copper conductors",
+            "pt-BR": "Bobina de cabo com capa branca e ponta cortada mostrando os condutores de cobre"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1-5-mm-100-ft",
+      "sku": "CON-WHITE-SHEATHED-CABLE-COIL-1-5-MM-100-FT",
+      "options": {
+        "color": "white",
+        "gauge": "1-5-mm",
+        "length": "100-ft"
+      },
+      "price": {
+        "BRL": 226,
+        "USD": 74
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Loose coil of white sheathed cable with a cut end showing copper conductors",
+            "pt-BR": "Bobina de cabo com capa branca e ponta cortada mostrando os condutores de cobre"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2-5-mm-50-ft",
+      "sku": "CON-WHITE-SHEATHED-CABLE-COIL-2-5-MM-50-FT",
+      "options": {
+        "color": "white",
+        "gauge": "2-5-mm",
+        "length": "50-ft"
+      },
+      "price": {
+        "BRL": 179,
+        "USD": 59
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Loose coil of white sheathed cable with a cut end showing copper conductors",
+            "pt-BR": "Bobina de cabo com capa branca e ponta cortada mostrando os condutores de cobre"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2-5-mm-100-ft",
+      "sku": "CON-WHITE-SHEATHED-CABLE-COIL-2-5-MM-100-FT",
+      "options": {
+        "color": "white",
+        "gauge": "2-5-mm",
+        "length": "100-ft"
+      },
+      "price": {
+        "BRL": 340,
+        "USD": 112
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Loose coil of white sheathed cable with a cut end showing copper conductors",
+            "pt-BR": "Bobina de cabo com capa branca e ponta cortada mostrando os condutores de cobre"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4-mm-50-ft",
+      "sku": "CON-WHITE-SHEATHED-CABLE-COIL-4-MM-50-FT",
+      "options": {
+        "color": "white",
+        "gauge": "4-mm",
+        "length": "50-ft"
+      },
+      "price": {
+        "BRL": 279,
+        "USD": 89
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Loose coil of white sheathed cable with a cut end showing copper conductors",
+            "pt-BR": "Bobina de cabo com capa branca e ponta cortada mostrando os condutores de cobre"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4-mm-100-ft",
+      "sku": "CON-WHITE-SHEATHED-CABLE-COIL-4-MM-100-FT",
+      "options": {
+        "color": "white",
+        "gauge": "4-mm",
+        "length": "100-ft"
+      },
+      "price": {
+        "BRL": 530,
+        "USD": 169
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Loose coil of white sheathed cable with a cut end showing copper conductors",
+            "pt-BR": "Bobina de cabo com capa branca e ponta cortada mostrando os condutores de cobre"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

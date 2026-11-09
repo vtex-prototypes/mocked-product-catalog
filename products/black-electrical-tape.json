@@ -1,0 +1,147 @@
+{
+  "id": "black-electrical-tape",
+  "categoryId": "construcao-eletrica",
+  "unitId": "roll",
+  "name": {
+    "en": "Black Vinyl Electrical Insulating Tape, 3/4 Inch Wide, Stretchy and Weather-Resistant for Wire Splices and Cable Wrapping",
+    "pt-BR": "Fita Isolante de Vinil Preta de 19 mm de Largura, Elástica e Resistente ao Tempo para Emendas de Fios e Proteção de Cabos"
+  },
+  "description": {
+    "en": "A roll of stretchy black vinyl tape for insulating wire splices and wrapping cable ends. It conforms to bumps, stays put in heat and cold, and resists moisture. Stretch it as you wrap. Pick the roll length.",
+    "pt-BR": "Rolo de fita de vinil preta elástica para isolar emendas de fios e proteger pontas de cabos. Acompanha as saliências, fica firme no calor e no frio e resiste à umidade. Estique ao enrolar. Escolha o comprimento do rolo."
+  },
+  "price": {
+    "BRL": 6.9,
+    "USD": 3
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "electrical tape",
+      "insulating tape",
+      "vinyl tape",
+      "wire splice",
+      "cable wrap"
+    ],
+    "pt-BR": [
+      "fita isolante",
+      "fita de vinil",
+      "emenda de fios",
+      "proteção de cabo",
+      "fita preta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "vinyl"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "33-ft",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1E1E1E"
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "33-ft",
+          "name": {
+            "en": "33 ft",
+            "pt-BR": "10 m"
+          }
+        },
+        {
+          "id": "66-ft",
+          "name": {
+            "en": "66 ft",
+            "pt-BR": "20 m"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "33-ft",
+      "sku": "CON-BLACK-ELECTRICAL-TAPE-33-FT",
+      "options": {
+        "color": "black",
+        "length": "33-ft"
+      },
+      "price": {
+        "BRL": 6.9,
+        "USD": 3
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black vinyl electrical tape roll with a loose end",
+            "pt-BR": "Rolo de fita isolante de vinil preta com ponta solta"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "66-ft",
+      "sku": "CON-BLACK-ELECTRICAL-TAPE-66-FT",
+      "options": {
+        "color": "black",
+        "length": "66-ft"
+      },
+      "price": {
+        "BRL": 11.9,
+        "USD": 5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black vinyl electrical tape roll with a loose end",
+            "pt-BR": "Rolo de fita isolante de vinil preta com ponta solta"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

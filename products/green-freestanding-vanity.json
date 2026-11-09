@@ -1,0 +1,145 @@
+{
+  "id": "green-freestanding-vanity",
+  "categoryId": "construcao-banheiro",
+  "unitId": "piece",
+  "name": {
+    "en": "Dark Green Freestanding Bathroom Vanity with Two Shaker Doors, Brass Handles and a White Marble Top with an Undermount Basin",
+    "pt-BR": "Gabinete de Banheiro Verde Escuro com Duas Portas Shaker, Puxadores Dourados e Tampo de Mármore Branco com Cuba Embutida"
+  },
+  "description": {
+    "en": "A freestanding vanity in deep green with two shaker doors and brass handles, on four short legs. The white marble top has an undermount basin and room for a faucet. Storage behind the doors holds towels and plumbing.",
+    "pt-BR": "Gabinete de piso em verde profundo com duas portas shaker e puxadores dourados, sobre quatro pés curtos. O tampo de mármore branco tem cuba embutida e espaço para a torneira. O espaço atrás das portas guarda toalhas e a tubulação."
+  },
+  "price": {
+    "BRL": 2490,
+    "USD": 629
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "vanity",
+      "freestanding vanity",
+      "green vanity",
+      "marble top",
+      "bathroom cabinet",
+      "sink"
+    ],
+    "pt-BR": [
+      "gabinete de banheiro",
+      "gabinete de piso",
+      "gabinete verde",
+      "tampo de mármore",
+      "armário",
+      "cuba"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "wood"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "30-in",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "dark-green",
+          "name": {
+            "en": "Dark green",
+            "pt-BR": "Verde escuro"
+          },
+          "hex": "#1F4D3A"
+        }
+      ]
+    },
+    {
+      "id": "width",
+      "name": {
+        "en": "Width",
+        "pt-BR": "Largura"
+      },
+      "values": [
+        {
+          "id": "30-in",
+          "name": {
+            "en": "30 in",
+            "pt-BR": "75 cm"
+          }
+        },
+        {
+          "id": "36-in",
+          "name": {
+            "en": "36 in",
+            "pt-BR": "90 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "30-in",
+      "sku": "CON-GREEN-FREESTANDING-VANITY-30-IN",
+      "options": {
+        "color": "dark-green",
+        "width": "30-in"
+      },
+      "price": {
+        "BRL": 2490,
+        "USD": 629
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Dark green freestanding vanity with two doors and a white marble top",
+            "pt-BR": "Gabinete verde escuro de piso com duas portas e tampo de mármore branco"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36-in",
+      "sku": "CON-GREEN-FREESTANDING-VANITY-36-IN",
+      "options": {
+        "color": "dark-green",
+        "width": "36-in"
+      },
+      "price": {
+        "BRL": 2990,
+        "USD": 749
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Dark green freestanding vanity with two doors and a white marble top",
+            "pt-BR": "Gabinete verde escuro de piso com duas portas e tampo de mármore branco"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
