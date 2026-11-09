@@ -20160,6 +20160,225 @@
       }
     },
     {
+      "id": "blue-encaustic-wall-tile",
+      "categoryId": "construcao-revestimentos",
+      "unitId": "area",
+      "name": {
+        "en": "Blue and White Quatrefoil Patterned Encaustic-Look Porcelain Wall Tile, Matte, for a Bathroom Accent Wall or Kitchen Backsplash",
+        "pt-BR": "Revestimento de Parede de Porcelanato Estampado Azul e Branco Estilo Ladrilho Hidráulico com Quadrifólio, Fosco, para Banheiro ou Backsplash"
+      },
+      "description": {
+        "en": "A square porcelain tile printed with a cobalt blue and white quatrefoil in the style of old cement encaustic tile. Matte and easy to clean. Use it as an accent wall, a backsplash or a band in a bathroom. Pick the tile size.",
+        "pt-BR": "Peça quadrada de porcelanato estampada com quadrifólio azul cobalto e branco no estilo dos antigos ladrilhos hidráulicos. Fosca e fácil de limpar. Use em parede de destaque, backsplash ou faixa no banheiro. Escolha o tamanho."
+      },
+      "price": {
+        "BRL": 169,
+        "USD": 8.9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "patterned tile",
+          "encaustic look",
+          "blue and white",
+          "porcelain",
+          "bathroom",
+          "backsplash"
+        ],
+        "pt-BR": [
+          "revestimento estampado",
+          "ladrilho hidráulico",
+          "azul e branco",
+          "porcelanato",
+          "banheiro",
+          "backsplash"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "porcelain",
+          "value": {
+            "en": "Porcelain",
+            "pt-BR": "Porcelanato"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "8x8",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "cobalt-white",
+              "name": {
+                "en": "Cobalt and white",
+                "pt-BR": "Cobalto e branco"
+              },
+              "hex": "#1F4E9C"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "8x8",
+              "name": {
+                "en": "8×8 in",
+                "pt-BR": "20×20 cm"
+              }
+            },
+            {
+              "id": "12x12",
+              "name": {
+                "en": "12×12 in",
+                "pt-BR": "30×30 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "8x8",
+          "sku": "CON-BLUE-ENCAUSTIC-WALL-TILE-8X8",
+          "options": {
+            "color": "cobalt-white",
+            "size": "8x8"
+          },
+          "price": {
+            "BRL": 169,
+            "USD": 8.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Fan of blue and white quatrefoil patterned porcelain wall tiles",
+                "pt-BR": "Leque de revestimentos de porcelanato estampados em azul e branco com quadrifólio"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/blue-encaustic-wall-tile/main-white.webp",
+                "#f5f5f5": "images/blue-encaustic-wall-tile/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "12x12",
+          "sku": "CON-BLUE-ENCAUSTIC-WALL-TILE-12X12",
+          "options": {
+            "color": "cobalt-white",
+            "size": "12x12"
+          },
+          "price": {
+            "BRL": 139,
+            "USD": 7.4
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Fan of blue and white quatrefoil patterned porcelain wall tiles",
+                "pt-BR": "Leque de revestimentos de porcelanato estampados em azul e branco com quadrifólio"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/blue-encaustic-wall-tile/main-white.webp",
+                "#f5f5f5": "images/blue-encaustic-wall-tile/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "area",
+        "kind": "area",
+        "name": {
+          "en": {
+            "one": "sq ft",
+            "other": "sq ft"
+          },
+          "pt-BR": {
+            "one": "m²",
+            "other": "m²"
+          }
+        }
+      }
+    },
+    {
       "id": "blue-glass-mosaic-sheet",
       "categoryId": "construcao-revestimentos",
       "unitId": "sheet",
@@ -56497,6 +56716,237 @@
           "pt-BR": {
             "one": "lata",
             "other": "latas"
+          }
+        }
+      }
+    },
+    {
+      "id": "emerald-zellige-wall-tile",
+      "categoryId": "construcao-revestimentos",
+      "unitId": "area",
+      "name": {
+        "en": "Glossy Emerald Green Handmade-Look Zellige Ceramic Wall Tile with an Uneven Glaze, for a Bathroom or Kitchen Backsplash",
+        "pt-BR": "Revestimento de Parede Cerâmico Verde Esmeralda Brilhante Estilo Zellige com Esmaltado Irregular, para Banheiro ou Backsplash de Cozinha"
+      },
+      "description": {
+        "en": "A deep emerald square ceramic wall tile with the uneven glaze and soft edges of handmade zellige. Light plays across each tile differently. For bathroom walls, shower niches and kitchen backsplashes. Pick the tile size.",
+        "pt-BR": "Revestimento de parede cerâmico quadrado em verde esmeralda profundo, com o esmaltado irregular e as bordas suaves do zellige artesanal. A luz muda em cada peça. Para paredes de banheiro, nichos de box e backsplash de cozinha. Escolha o tamanho."
+      },
+      "price": {
+        "BRL": 149,
+        "USD": 13.9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "zellige tile",
+          "green wall tile",
+          "glossy",
+          "bathroom",
+          "backsplash",
+          "handmade look"
+        ],
+        "pt-BR": [
+          "zellige",
+          "revestimento verde",
+          "brilhante",
+          "banheiro",
+          "backsplash",
+          "aspecto artesanal"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "ceramic",
+          "value": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "4x4",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "emerald",
+              "name": {
+                "en": "Emerald green",
+                "pt-BR": "Verde esmeralda"
+              },
+              "hex": "#0E6B4A"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "4x4",
+              "name": {
+                "en": "4×4 in",
+                "pt-BR": "10×10 cm"
+              }
+            },
+            {
+              "id": "6x6",
+              "name": {
+                "en": "6×6 in",
+                "pt-BR": "15×15 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "4x4",
+          "sku": "CON-EMERALD-ZELLIGE-WALL-TILE-4X4",
+          "options": {
+            "color": "emerald",
+            "size": "4x4"
+          },
+          "price": {
+            "BRL": 149,
+            "USD": 13.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Fan of glossy emerald green zellige-style ceramic wall tiles",
+                "pt-BR": "Leque de revestimentos cerâmicos verde esmeralda brilhantes estilo zellige"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/emerald-zellige-wall-tile/main-white.webp",
+                "#f5f5f5": "images/emerald-zellige-wall-tile/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "6x6",
+          "sku": "CON-EMERALD-ZELLIGE-WALL-TILE-6X6",
+          "options": {
+            "color": "emerald",
+            "size": "6x6"
+          },
+          "price": {
+            "BRL": 129,
+            "USD": 11.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Fan of glossy emerald green zellige-style ceramic wall tiles",
+                "pt-BR": "Leque de revestimentos cerâmicos verde esmeralda brilhantes estilo zellige"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/emerald-zellige-wall-tile/main-white.webp",
+                "#f5f5f5": "images/emerald-zellige-wall-tile/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "area",
+        "kind": "area",
+        "name": {
+          "en": {
+            "one": "sq ft",
+            "other": "sq ft"
+          },
+          "pt-BR": {
+            "one": "m²",
+            "other": "m²"
           }
         }
       }
@@ -93946,6 +94396,237 @@
               "src": {
                 "#ffffff": "images/oak-vinyl-click-plank/detail-white.webp",
                 "#f5f5f5": "images/oak-vinyl-click-plank/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "area",
+        "kind": "area",
+        "name": {
+          "en": {
+            "one": "sq ft",
+            "other": "sq ft"
+          },
+          "pt-BR": {
+            "one": "m²",
+            "other": "m²"
+          }
+        }
+      }
+    },
+    {
+      "id": "oak-wood-look-wall-tile",
+      "categoryId": "construcao-revestimentos",
+      "unitId": "area",
+      "name": {
+        "en": "Matte Light Oak Wood-Look Porcelain Wall Tile Plank with a Wood Grain Print, for a Bathroom Feature Wall or Shower Wall",
+        "pt-BR": "Revestimento de Parede de Porcelanato Fosco Régua com Aspecto de Madeira Carvalho Claro e Veios, para Parede de Destaque ou Box de Banheiro"
+      },
+      "description": {
+        "en": "A long narrow porcelain plank printed with light oak grain in a matte finish. It brings the look of wood to a bathroom or kitchen wall without swelling in damp air, and it cleans with a damp cloth. Pick the plank size.",
+        "pt-BR": "Régua longa e estreita de porcelanato com veios de carvalho claro em acabamento fosco. Traz o visual da madeira para parede de banheiro ou cozinha sem inchar com a umidade, e limpa com pano úmido. Escolha o tamanho da régua."
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 5.9
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "wood look tile",
+          "wall tile plank",
+          "oak",
+          "porcelain",
+          "bathroom",
+          "feature wall"
+        ],
+        "pt-BR": [
+          "aspecto madeira",
+          "régua de parede",
+          "carvalho",
+          "porcelanato",
+          "banheiro",
+          "parede de destaque"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "porcelain",
+          "value": {
+            "en": "Porcelain",
+            "pt-BR": "Porcelanato"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "wood",
+          "value": {
+            "en": "Wood",
+            "pt-BR": "Madeira"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "6x24",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "light-oak",
+              "name": {
+                "en": "Light oak",
+                "pt-BR": "Carvalho claro"
+              },
+              "hex": "#C9A877"
+            }
+          ]
+        },
+        {
+          "id": "size",
+          "name": {
+            "en": "Size",
+            "pt-BR": "Tamanho"
+          },
+          "values": [
+            {
+              "id": "6x24",
+              "name": {
+                "en": "6×24 in",
+                "pt-BR": "15×60 cm"
+              }
+            },
+            {
+              "id": "8x48",
+              "name": {
+                "en": "8×48 in",
+                "pt-BR": "20×120 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "6x24",
+          "sku": "CON-OAK-WOOD-LOOK-WALL-TILE-6X24",
+          "options": {
+            "color": "light-oak",
+            "size": "6x24"
+          },
+          "price": {
+            "BRL": 119,
+            "USD": 5.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Staggered light oak wood-look porcelain wall tile planks",
+                "pt-BR": "Réguas de porcelanato com aspecto de madeira carvalho claro"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/oak-wood-look-wall-tile/main-white.webp",
+                "#f5f5f5": "images/oak-wood-look-wall-tile/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "8x48",
+          "sku": "CON-OAK-WOOD-LOOK-WALL-TILE-8X48",
+          "options": {
+            "color": "light-oak",
+            "size": "8x48"
+          },
+          "price": {
+            "BRL": 159,
+            "USD": 7.9
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Staggered light oak wood-look porcelain wall tile planks",
+                "pt-BR": "Réguas de porcelanato com aspecto de madeira carvalho claro"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/oak-wood-look-wall-tile/main-white.webp",
+                "#f5f5f5": "images/oak-wood-look-wall-tile/main-gray.webp"
               }
             }
           ],
@@ -142311,6 +142992,237 @@
               "src": {
                 "#ffffff": "images/white-hexagonal-floor-tile/detail-white.webp",
                 "#f5f5f5": "images/white-hexagonal-floor-tile/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "area",
+        "kind": "area",
+        "name": {
+          "en": {
+            "one": "sq ft",
+            "other": "sq ft"
+          },
+          "pt-BR": {
+            "one": "m²",
+            "other": "m²"
+          }
+        }
+      }
+    },
+    {
+      "id": "white-marble-herringbone-mosaic",
+      "categoryId": "construcao-revestimentos",
+      "unitId": "area",
+      "name": {
+        "en": "White Marble Herringbone Mosaic Wall Tile on a Mesh Sheet with Soft Gray Veining, for a Shower Wall or Bathroom Feature Wall",
+        "pt-BR": "Mosaico de Mármore Branco em Espinha de Peixe em Tela com Veios Cinza Suaves, para Parede de Box ou Parede de Destaque no Banheiro"
+      },
+      "description": {
+        "en": "Small white marble rectangles laid in a herringbone pattern on a mesh sheet, with soft gray veining that varies from piece to piece. Natural stone for shower walls and feature walls. Seal it after grouting. Pick polished or honed.",
+        "pt-BR": "Pequenos retângulos de mármore branco em espinha de peixe sobre tela, com veios cinza suaves que variam de peça para peça. Pedra natural para paredes de box e de destaque. Aplique selante após o rejunte. Escolha polido ou fosco."
+      },
+      "price": {
+        "BRL": 329,
+        "USD": 29
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "marble mosaic",
+          "herringbone",
+          "natural stone",
+          "shower wall",
+          "bathroom",
+          "marble look"
+        ],
+        "pt-BR": [
+          "mosaico de mármore",
+          "espinha de peixe",
+          "pedra natural",
+          "parede de box",
+          "banheiro",
+          "aspecto mármore"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "natural-stone",
+          "value": {
+            "en": "Natural stone",
+            "pt-BR": "Pedra natural"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "marble",
+          "value": {
+            "en": "Marble",
+            "pt-BR": "Mármore"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "honed",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white-marble",
+              "name": {
+                "en": "White marble",
+                "pt-BR": "Mármore branco"
+              },
+              "hex": "#E9E9E6"
+            }
+          ]
+        },
+        {
+          "id": "finish",
+          "name": {
+            "en": "Finish",
+            "pt-BR": "Acabamento"
+          },
+          "values": [
+            {
+              "id": "honed",
+              "name": {
+                "en": "Honed",
+                "pt-BR": "Fosco"
+              }
+            },
+            {
+              "id": "polished",
+              "name": {
+                "en": "Polished",
+                "pt-BR": "Polido"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "honed",
+          "sku": "CON-WHITE-MARBLE-HERRINGBONE-MOSAIC-HONED",
+          "options": {
+            "color": "white-marble",
+            "finish": "honed"
+          },
+          "price": {
+            "BRL": 329,
+            "USD": 29
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White marble herringbone mosaic sheet with soft gray veining",
+                "pt-BR": "Placa de mosaico de mármore branco em espinha de peixe com veios cinza suaves"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-marble-herringbone-mosaic/main-white.webp",
+                "#f5f5f5": "images/white-marble-herringbone-mosaic/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "area",
+            "kind": "area",
+            "name": {
+              "en": {
+                "one": "sq ft",
+                "other": "sq ft"
+              },
+              "pt-BR": {
+                "one": "m²",
+                "other": "m²"
+              }
+            }
+          }
+        },
+        {
+          "id": "polished",
+          "sku": "CON-WHITE-MARBLE-HERRINGBONE-MOSAIC-POLISHED",
+          "options": {
+            "color": "white-marble",
+            "finish": "polished"
+          },
+          "price": {
+            "BRL": 359,
+            "USD": 32
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White marble herringbone mosaic sheet with soft gray veining",
+                "pt-BR": "Placa de mosaico de mármore branco em espinha de peixe com veios cinza suaves"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-marble-herringbone-mosaic/main-white.webp",
+                "#f5f5f5": "images/white-marble-herringbone-mosaic/main-gray.webp"
               }
             }
           ],
