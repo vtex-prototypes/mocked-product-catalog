@@ -1,0 +1,147 @@
+{
+  "id": "matte-black-bridge-kitchen-faucet",
+  "categoryId": "construcao-hidraulica",
+  "unitId": "piece",
+  "name": {
+    "en": "Matte Black Bridge Kitchen Faucet with Two Lever Handles and a High Swivel Gooseneck Spout, Deck Mount",
+    "pt-BR": "Torneira de Cozinha Bica Alta Preta Fosca com Duas Alavancas e Bica Giratória Pescoço de Ganso, de Bancada"
+  },
+  "description": {
+    "en": "A two-handle bridge faucet for a kitchen sink. The horizontal bridge joins two lever handles to a high gooseneck spout that swivels over the whole basin. Matte black finish.",
+    "pt-BR": "Torneira de cozinha com duas alavancas ligadas por uma ponte horizontal a uma bica alta pescoço de ganso que gira sobre toda a cuba. Acabamento preto fosco."
+  },
+  "price": {
+    "BRL": 849,
+    "USD": 199
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "faucet",
+      "kitchen sink",
+      "bridge faucet",
+      "matte black",
+      "two handle"
+    ],
+    "pt-BR": [
+      "torneira",
+      "pia de cozinha",
+      "estilo ponte",
+      "preta fosca",
+      "duas alavancas"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "sink-type",
+      "valueId": "kitchen"
+    },
+    {
+      "id": "material",
+      "valueId": "brass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "piece-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#1F1F1F"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Includes",
+        "pt-BR": "Inclui"
+      },
+      "values": [
+        {
+          "id": "piece-only",
+          "name": {
+            "en": "Piece only",
+            "pt-BR": "Só a peça"
+          }
+        },
+        {
+          "id": "kit",
+          "name": {
+            "en": "Installation kit",
+            "pt-BR": "Kit de instalação"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "piece-only",
+      "sku": "CON-MATTE-BLACK-BRIDGE-KITCHEN-FAUCET-PIECE-ONLY",
+      "options": {
+        "color": "matte-black",
+        "install": "piece-only"
+      },
+      "price": {
+        "BRL": 849,
+        "USD": 199
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black bridge kitchen faucet with two lever handles",
+            "pt-BR": "Torneira de cozinha preta fosca estilo ponte com duas alavancas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kit",
+      "sku": "CON-MATTE-BLACK-BRIDGE-KITCHEN-FAUCET-KIT",
+      "options": {
+        "color": "matte-black",
+        "install": "kit"
+      },
+      "price": {
+        "BRL": 1019,
+        "USD": 239
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black bridge kitchen faucet with two lever handles",
+            "pt-BR": "Torneira de cozinha preta fosca estilo ponte com duas alavancas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "stainless-spring-pre-rinse-kitchen-faucet",
+  "categoryId": "construcao-hidraulica",
+  "unitId": "piece",
+  "name": {
+    "en": "Brushed Stainless Steel Kitchen Faucet with Coiled Spring Neck and Pre-Rinse Spray Head, Single Lever",
+    "pt-BR": "Torneira de Cozinha Inox Escovado com Pescoço de Mola e Ducha Pré-Enxágue, Alavanca Única"
+  },
+  "description": {
+    "en": "A commercial-style kitchen faucet with a coiled spring neck that pulls over a deep or double kitchen sink. The spray head switches between stream and spray, and one lever sets flow and temperature.",
+    "pt-BR": "Torneira de cozinha estilo profissional com pescoço de mola que alcança cubas fundas ou duplas. A ducha alterna entre jato e chuveiro, e uma alavanca controla vazão e temperatura."
+  },
+  "price": {
+    "BRL": 749,
+    "USD": 179
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "faucet",
+      "kitchen sink",
+      "stainless steel",
+      "spring neck",
+      "pre-rinse"
+    ],
+    "pt-BR": [
+      "torneira",
+      "pia de cozinha",
+      "aço inox",
+      "pescoço de mola",
+      "pré-enxágue"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "sink-type",
+      "valueId": "kitchen"
+    },
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "piece-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "brushed-steel",
+          "name": {
+            "en": "Brushed steel",
+            "pt-BR": "Aço escovado"
+          },
+          "hex": "#B8BABB"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Includes",
+        "pt-BR": "Inclui"
+      },
+      "values": [
+        {
+          "id": "piece-only",
+          "name": {
+            "en": "Piece only",
+            "pt-BR": "Só a peça"
+          }
+        },
+        {
+          "id": "kit",
+          "name": {
+            "en": "Installation kit",
+            "pt-BR": "Kit de instalação"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "piece-only",
+      "sku": "CON-STAINLESS-SPRING-PRE-RINSE-KITCHEN-FAUCET-PIECE-ONLY",
+      "options": {
+        "color": "brushed-steel",
+        "install": "piece-only"
+      },
+      "price": {
+        "BRL": 749,
+        "USD": 179
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brushed stainless kitchen faucet with a coiled spring neck and spray head",
+            "pt-BR": "Torneira de cozinha inox escovado com pescoço de mola e ducha"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kit",
+      "sku": "CON-STAINLESS-SPRING-PRE-RINSE-KITCHEN-FAUCET-KIT",
+      "options": {
+        "color": "brushed-steel",
+        "install": "kit"
+      },
+      "price": {
+        "BRL": 899,
+        "USD": 215
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brushed stainless kitchen faucet with a coiled spring neck and spray head",
+            "pt-BR": "Torneira de cozinha inox escovado com pescoço de mola e ducha"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

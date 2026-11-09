@@ -4744,6 +4744,235 @@
       }
     },
     {
+      "id": "antique-bronze-two-lever-vessel-faucet",
+      "categoryId": "construcao-banheiro",
+      "unitId": "piece",
+      "name": {
+        "en": "Antique Bronze Two-Lever Vessel Sink Faucet with a High Curved Spout, Classic Single-Base Deck Mount",
+        "pt-BR": "Torneira Bronze Envelhecido de Duas Alavancas para Cuba de Apoio com Bica Alta Curva, Base Única de Bancada"
+      },
+      "description": {
+        "en": "A classic antique bronze faucet with two lever handles on one round base and a high curved spout for a vessel sink. Hot and cold are set on separate levers. Warm, dark finish for traditional bathrooms.",
+        "pt-BR": "Torneira clássica em bronze envelhecido com duas alavancas em uma só base redonda e bica alta curva para cuba de apoio. Quente e fria em alavancas separadas. Acabamento escuro e quente para banheiros tradicionais."
+      },
+      "price": {
+        "BRL": 689,
+        "USD": 165
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "vessel sink",
+          "antique bronze",
+          "two handle",
+          "classic"
+        ],
+        "pt-BR": [
+          "torneira",
+          "cuba de apoio",
+          "bronze envelhecido",
+          "duas alavancas",
+          "clássica"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "vessel",
+          "value": {
+            "en": "Vessel sink",
+            "pt-BR": "Cuba de apoio"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "brass",
+          "value": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "antique-bronze",
+              "name": {
+                "en": "Antique bronze",
+                "pt-BR": "Bronze envelhecido"
+              },
+              "hex": "#5A3F2E"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-ANTIQUE-BRONZE-TWO-LEVER-VESSEL-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "antique-bronze",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 689,
+            "USD": 165
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Antique bronze vessel sink faucet with two lever handles and a high curved spout",
+                "pt-BR": "Torneira bronze envelhecido para cuba de apoio com duas alavancas e bica alta curva"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/antique-bronze-two-lever-vessel-faucet/main-white.webp",
+                "#f5f5f5": "images/antique-bronze-two-lever-vessel-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-ANTIQUE-BRONZE-TWO-LEVER-VESSEL-FAUCET-KIT",
+          "options": {
+            "color": "antique-bronze",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 827,
+            "USD": 198
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Antique bronze vessel sink faucet with two lever handles and a high curved spout",
+                "pt-BR": "Torneira bronze envelhecido para cuba de apoio com duas alavancas e bica alta curva"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/antique-bronze-two-lever-vessel-faucet/main-white.webp",
+                "#f5f5f5": "images/antique-bronze-two-lever-vessel-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
       "id": "baseball-cap",
       "brandId": "ritmo",
       "brand": {
@@ -21932,6 +22161,247 @@
       }
     },
     {
+      "id": "brass-bib-tap-laundry-faucet",
+      "categoryId": "construcao-hidraulica",
+      "unitId": "piece",
+      "name": {
+        "en": "Polished Brass Bib Tap with a T-Handle and Threaded Hose Nozzle for a Laundry Tub, Wall Thread Connection",
+        "pt-BR": "Torneira de Parede Latão Polido com Registro em T e Bico Rosqueado para Mangueira, para Tanque de Lavanderia"
+      },
+      "description": {
+        "en": "A solid brass bib tap for a laundry tub, a washing area or a garden wall. A T-shaped handle opens it, and the ribbed threaded nozzle takes a hose. Screws into a wall pipe thread.",
+        "pt-BR": "Torneira de parede em latão maciço para tanque de lavanderia, área de lavagem ou parede de jardim. O registro em T abre e o bico estriado e rosqueado aceita mangueira. Rosqueia no ponto de água da parede."
+      },
+      "price": {
+        "BRL": 89,
+        "USD": 21
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "laundry tub",
+          "bib tap",
+          "brass",
+          "hose nozzle"
+        ],
+        "pt-BR": [
+          "torneira",
+          "tanque",
+          "torneira de parede",
+          "latão",
+          "bico para mangueira"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "laundry",
+          "value": {
+            "en": "Laundry tub",
+            "pt-BR": "Tanque"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "brass",
+          "value": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "polished-brass",
+              "name": {
+                "en": "Polished brass",
+                "pt-BR": "Latão polido"
+              },
+              "hex": "#C9A24A"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-BRASS-BIB-TAP-LAUNDRY-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "polished-brass",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 89,
+            "USD": 21
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Polished brass bib tap with a T-handle and threaded hose nozzle",
+                "pt-BR": "Torneira de parede latão polido com registro em T e bico rosqueado"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brass-bib-tap-laundry-faucet/main-white.webp",
+                "#f5f5f5": "images/brass-bib-tap-laundry-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-BRASS-BIB-TAP-LAUNDRY-FAUCET-KIT",
+          "options": {
+            "color": "polished-brass",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 107,
+            "USD": 25
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Polished brass bib tap with a T-handle and threaded hose nozzle",
+                "pt-BR": "Torneira de parede latão polido com registro em T e bico rosqueado"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brass-bib-tap-laundry-faucet/main-white.webp",
+                "#f5f5f5": "images/brass-bib-tap-laundry-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
       "id": "brass-gate-valve",
       "categoryId": "construcao-hidraulica",
       "name": {
@@ -24179,6 +24649,235 @@
               "src": {
                 "#ffffff": "images/brushed-brass-waterfall-faucet/main-white.webp",
                 "#f5f5f5": "images/brushed-brass-waterfall-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
+      "id": "brushed-nickel-vessel-faucet",
+      "categoryId": "construcao-banheiro",
+      "unitId": "piece",
+      "name": {
+        "en": "Brushed Nickel Tall Vessel Sink Faucet with Gooseneck Spout and Round Single Lever, Deck Mount",
+        "pt-BR": "Torneira Níquel Escovado Alta para Cuba de Apoio com Bica Pescoço de Ganso e Alavanca Redonda, de Bancada"
+      },
+      "description": {
+        "en": "A tall brushed nickel faucet with a gooseneck spout that clears the rim of a vessel sink on the countertop. One round lever sets flow and temperature. The brushed finish hides fingerprints.",
+        "pt-BR": "Torneira alta em níquel escovado com bica pescoço de ganso que passa acima da borda da cuba de apoio. Uma alavanca redonda controla vazão e temperatura. O acabamento escovado disfarça digitais."
+      },
+      "price": {
+        "BRL": 549,
+        "USD": 129
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "vessel sink",
+          "brushed nickel",
+          "gooseneck",
+          "tall"
+        ],
+        "pt-BR": [
+          "torneira",
+          "cuba de apoio",
+          "níquel escovado",
+          "pescoço de ganso",
+          "alta"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "vessel",
+          "value": {
+            "en": "Vessel sink",
+            "pt-BR": "Cuba de apoio"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "stainless-steel",
+          "value": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "brushed-nickel",
+              "name": {
+                "en": "Brushed nickel",
+                "pt-BR": "Níquel escovado"
+              },
+              "hex": "#B9BBBC"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-BRUSHED-NICKEL-VESSEL-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "brushed-nickel",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 549,
+            "USD": 129
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brushed nickel tall vessel sink faucet with a gooseneck spout",
+                "pt-BR": "Torneira níquel escovado alta para cuba de apoio com bica pescoço de ganso"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brushed-nickel-vessel-faucet/main-white.webp",
+                "#f5f5f5": "images/brushed-nickel-vessel-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-BRUSHED-NICKEL-VESSEL-FAUCET-KIT",
+          "options": {
+            "color": "brushed-nickel",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 659,
+            "USD": 155
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brushed nickel tall vessel sink faucet with a gooseneck spout",
+                "pt-BR": "Torneira níquel escovado alta para cuba de apoio com bica pescoço de ganso"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/brushed-nickel-vessel-faucet/main-white.webp",
+                "#f5f5f5": "images/brushed-nickel-vessel-faucet/main-gray.webp"
               }
             }
           ],
@@ -36897,6 +37596,18 @@
         ]
       },
       "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "basin",
+          "value": {
+            "en": "Bathroom basin",
+            "pt-BR": "Lavatório"
+          }
+        },
         {
           "id": "material",
           "name": {
@@ -83052,6 +83763,693 @@
       }
     },
     {
+      "id": "matte-black-bridge-kitchen-faucet",
+      "categoryId": "construcao-hidraulica",
+      "unitId": "piece",
+      "name": {
+        "en": "Matte Black Bridge Kitchen Faucet with Two Lever Handles and a High Swivel Gooseneck Spout, Deck Mount",
+        "pt-BR": "Torneira de Cozinha Bica Alta Preta Fosca com Duas Alavancas e Bica Giratória Pescoço de Ganso, de Bancada"
+      },
+      "description": {
+        "en": "A two-handle bridge faucet for a kitchen sink. The horizontal bridge joins two lever handles to a high gooseneck spout that swivels over the whole basin. Matte black finish.",
+        "pt-BR": "Torneira de cozinha com duas alavancas ligadas por uma ponte horizontal a uma bica alta pescoço de ganso que gira sobre toda a cuba. Acabamento preto fosco."
+      },
+      "price": {
+        "BRL": 849,
+        "USD": 199
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "kitchen sink",
+          "bridge faucet",
+          "matte black",
+          "two handle"
+        ],
+        "pt-BR": [
+          "torneira",
+          "pia de cozinha",
+          "estilo ponte",
+          "preta fosca",
+          "duas alavancas"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "kitchen",
+          "value": {
+            "en": "Kitchen sink",
+            "pt-BR": "Pia de cozinha"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "brass",
+          "value": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "matte-black",
+              "name": {
+                "en": "Matte black",
+                "pt-BR": "Preto fosco"
+              },
+              "hex": "#1F1F1F"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-MATTE-BLACK-BRIDGE-KITCHEN-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "matte-black",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 849,
+            "USD": 199
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte black bridge kitchen faucet with two lever handles",
+                "pt-BR": "Torneira de cozinha preta fosca estilo ponte com duas alavancas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/matte-black-bridge-kitchen-faucet/main-white.webp",
+                "#f5f5f5": "images/matte-black-bridge-kitchen-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-MATTE-BLACK-BRIDGE-KITCHEN-FAUCET-KIT",
+          "options": {
+            "color": "matte-black",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 1019,
+            "USD": 239
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte black bridge kitchen faucet with two lever handles",
+                "pt-BR": "Torneira de cozinha preta fosca estilo ponte com duas alavancas"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/matte-black-bridge-kitchen-faucet/main-white.webp",
+                "#f5f5f5": "images/matte-black-bridge-kitchen-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
+      "id": "matte-black-centerset-basin-faucet",
+      "categoryId": "construcao-banheiro",
+      "unitId": "piece",
+      "name": {
+        "en": "Matte Black Centerset Bathroom Faucet with Two Cross Handles and a Short Arched Spout, for a Basin",
+        "pt-BR": "Torneira Preta Fosca para Lavatório com Dois Registros em Cruzeta e Bica Curta Arqueada, Base Única de 4 Polegadas"
+      },
+      "description": {
+        "en": "A matte black centerset faucet for a bathroom basin. Two cross handles and a short arched spout sit on a single base plate that fits a standard 4 inch hole spacing. Matte finish resists fingerprints.",
+        "pt-BR": "Torneira preta fosca monocomando de base única para lavatório de banheiro. Dois registros em cruzeta e bica curta arqueada sobre uma base que serve em furação padrão de 10 cm. O acabamento fosco resiste a digitais."
+      },
+      "price": {
+        "BRL": 399,
+        "USD": 95
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "bathroom basin",
+          "matte black",
+          "centerset",
+          "cross handle"
+        ],
+        "pt-BR": [
+          "torneira",
+          "lavatório",
+          "preta fosca",
+          "base única",
+          "cruzeta"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "basin",
+          "value": {
+            "en": "Bathroom basin",
+            "pt-BR": "Lavatório"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "brass",
+          "value": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "matte-black",
+              "name": {
+                "en": "Matte black",
+                "pt-BR": "Preto fosco"
+              },
+              "hex": "#1F1F1F"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-MATTE-BLACK-CENTERSET-BASIN-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "matte-black",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 399,
+            "USD": 95
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte black centerset bathroom faucet with two cross handles",
+                "pt-BR": "Torneira preta fosca para lavatório com dois registros em cruzeta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/matte-black-centerset-basin-faucet/main-white.webp",
+                "#f5f5f5": "images/matte-black-centerset-basin-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-MATTE-BLACK-CENTERSET-BASIN-FAUCET-KIT",
+          "options": {
+            "color": "matte-black",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 479,
+            "USD": 114
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte black centerset bathroom faucet with two cross handles",
+                "pt-BR": "Torneira preta fosca para lavatório com dois registros em cruzeta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/matte-black-centerset-basin-faucet/main-white.webp",
+                "#f5f5f5": "images/matte-black-centerset-basin-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
+      "id": "matte-black-pull-out-utility-faucet",
+      "categoryId": "construcao-hidraulica",
+      "unitId": "piece",
+      "name": {
+        "en": "Matte Black Utility Sink Faucet with a Pull-Out Spray Head on a Flexible Hose and a Tall Single Lever",
+        "pt-BR": "Torneira Preta Fosca para Tanque de Serviço com Ducha Extensível em Mangueira Flexível e Alavanca Única Alta"
+      },
+      "description": {
+        "en": "A tall matte black faucet for a laundry tub or garage sink. The spray head pulls out on a flexible hose to rinse brushes, boots and corners of a deep tub. One lever sets flow and temperature.",
+        "pt-BR": "Torneira alta preta fosca para tanque de lavanderia ou pia de garagem. A ducha puxa em mangueira flexível para enxaguar pincéis, botas e cantos de um tanque fundo. Uma alavanca controla vazão e temperatura."
+      },
+      "price": {
+        "BRL": 519,
+        "USD": 125
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "laundry tub",
+          "utility sink",
+          "pull-out spray",
+          "matte black"
+        ],
+        "pt-BR": [
+          "torneira",
+          "tanque",
+          "pia de serviço",
+          "ducha extensível",
+          "preta fosca"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "laundry",
+          "value": {
+            "en": "Laundry tub",
+            "pt-BR": "Tanque"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "stainless-steel",
+          "value": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "matte-black",
+              "name": {
+                "en": "Matte black",
+                "pt-BR": "Preto fosco"
+              },
+              "hex": "#1F1F1F"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-MATTE-BLACK-PULL-OUT-UTILITY-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "matte-black",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 519,
+            "USD": 125
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte black utility sink faucet with a pull-out spray head",
+                "pt-BR": "Torneira preta fosca para tanque com ducha extensível"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/matte-black-pull-out-utility-faucet/main-white.webp",
+                "#f5f5f5": "images/matte-black-pull-out-utility-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-MATTE-BLACK-PULL-OUT-UTILITY-FAUCET-KIT",
+          "options": {
+            "color": "matte-black",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 623,
+            "USD": 150
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte black utility sink faucet with a pull-out spray head",
+                "pt-BR": "Torneira preta fosca para tanque com ducha extensível"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/matte-black-pull-out-utility-faucet/main-white.webp",
+                "#f5f5f5": "images/matte-black-pull-out-utility-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
       "id": "matte-black-vessel-faucet",
       "categoryId": "construcao-banheiro",
       "unitId": "piece",
@@ -87609,6 +89007,235 @@
           "pt-BR": {
             "one": "unidade",
             "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "nickel-side-spray-kitchen-faucet",
+      "categoryId": "construcao-hidraulica",
+      "unitId": "piece",
+      "name": {
+        "en": "Brushed Nickel Single-Handle Kitchen Faucet with Swivel Spout and a Separate Side Spray, Deck Mount",
+        "pt-BR": "Torneira de Cozinha Níquel Escovado Monocomando com Bica Giratória e Ducha Lateral Separada, de Bancada"
+      },
+      "description": {
+        "en": "A single-handle kitchen faucet with a high swivel spout and a separate side spray on its own hose. The spray rinses dishes and the sink without moving the spout. Brushed nickel finish.",
+        "pt-BR": "Torneira de cozinha monocomando com bica alta giratória e ducha lateral separada em mangueira própria. A ducha enxágua louça e cuba sem mover a bica. Acabamento em níquel escovado."
+      },
+      "price": {
+        "BRL": 459,
+        "USD": 109
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "kitchen sink",
+          "side spray",
+          "brushed nickel",
+          "single handle"
+        ],
+        "pt-BR": [
+          "torneira",
+          "pia de cozinha",
+          "ducha lateral",
+          "níquel escovado",
+          "monocomando"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "kitchen",
+          "value": {
+            "en": "Kitchen sink",
+            "pt-BR": "Pia de cozinha"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "brass",
+          "value": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "brushed-nickel",
+              "name": {
+                "en": "Brushed nickel",
+                "pt-BR": "Níquel escovado"
+              },
+              "hex": "#B9BBBC"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-NICKEL-SIDE-SPRAY-KITCHEN-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "brushed-nickel",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 459,
+            "USD": 109
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brushed nickel kitchen faucet with a swivel spout and a separate side spray",
+                "pt-BR": "Torneira de cozinha níquel escovado com bica giratória e ducha lateral"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/nickel-side-spray-kitchen-faucet/main-white.webp",
+                "#f5f5f5": "images/nickel-side-spray-kitchen-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-NICKEL-SIDE-SPRAY-KITCHEN-FAUCET-KIT",
+          "options": {
+            "color": "brushed-nickel",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 551,
+            "USD": 131
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brushed nickel kitchen faucet with a swivel spout and a separate side spray",
+                "pt-BR": "Torneira de cozinha níquel escovado com bica giratória e ducha lateral"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/nickel-side-spray-kitchen-faucet/main-white.webp",
+                "#f5f5f5": "images/nickel-side-spray-kitchen-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
           }
         }
       }
@@ -115304,6 +116931,464 @@
           "pt-BR": {
             "one": "unidade",
             "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "stainless-spring-pre-rinse-kitchen-faucet",
+      "categoryId": "construcao-hidraulica",
+      "unitId": "piece",
+      "name": {
+        "en": "Brushed Stainless Steel Kitchen Faucet with Coiled Spring Neck and Pre-Rinse Spray Head, Single Lever",
+        "pt-BR": "Torneira de Cozinha Inox Escovado com Pescoço de Mola e Ducha Pré-Enxágue, Alavanca Única"
+      },
+      "description": {
+        "en": "A commercial-style kitchen faucet with a coiled spring neck that pulls over a deep or double kitchen sink. The spray head switches between stream and spray, and one lever sets flow and temperature.",
+        "pt-BR": "Torneira de cozinha estilo profissional com pescoço de mola que alcança cubas fundas ou duplas. A ducha alterna entre jato e chuveiro, e uma alavanca controla vazão e temperatura."
+      },
+      "price": {
+        "BRL": 749,
+        "USD": 179
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "kitchen sink",
+          "stainless steel",
+          "spring neck",
+          "pre-rinse"
+        ],
+        "pt-BR": [
+          "torneira",
+          "pia de cozinha",
+          "aço inox",
+          "pescoço de mola",
+          "pré-enxágue"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "kitchen",
+          "value": {
+            "en": "Kitchen sink",
+            "pt-BR": "Pia de cozinha"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "stainless-steel",
+          "value": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "brushed-steel",
+              "name": {
+                "en": "Brushed steel",
+                "pt-BR": "Aço escovado"
+              },
+              "hex": "#B8BABB"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-STAINLESS-SPRING-PRE-RINSE-KITCHEN-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "brushed-steel",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 749,
+            "USD": 179
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brushed stainless kitchen faucet with a coiled spring neck and spray head",
+                "pt-BR": "Torneira de cozinha inox escovado com pescoço de mola e ducha"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/stainless-spring-pre-rinse-kitchen-faucet/main-white.webp",
+                "#f5f5f5": "images/stainless-spring-pre-rinse-kitchen-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-STAINLESS-SPRING-PRE-RINSE-KITCHEN-FAUCET-KIT",
+          "options": {
+            "color": "brushed-steel",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 899,
+            "USD": 215
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Brushed stainless kitchen faucet with a coiled spring neck and spray head",
+                "pt-BR": "Torneira de cozinha inox escovado com pescoço de mola e ducha"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/stainless-spring-pre-rinse-kitchen-faucet/main-white.webp",
+                "#f5f5f5": "images/stainless-spring-pre-rinse-kitchen-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
+          }
+        }
+      }
+    },
+    {
+      "id": "stainless-wrist-blade-utility-faucet",
+      "categoryId": "construcao-hidraulica",
+      "unitId": "piece",
+      "name": {
+        "en": "Stainless Steel Deck-Mounted Utility Sink Faucet with High Arc Spout and Two Long Wrist-Blade Handles",
+        "pt-BR": "Torneira Inox de Bancada para Tanque de Serviço com Bica Alta Arqueada e Dois Registros Longos Tipo Alavanca"
+      },
+      "description": {
+        "en": "A heavy-duty stainless faucet for a laundry tub, workshop or utility sink. The high arc spout clears tall buckets and the long blade handles can be turned with a wrist or wet hands.",
+        "pt-BR": "Torneira inox reforçada para tanque de lavanderia, oficina ou pia de serviço. A bica alta arqueada passa baldes altos e os registros longos giram com o punho ou com as mãos molhadas."
+      },
+      "price": {
+        "BRL": 329,
+        "USD": 79
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "faucet",
+          "laundry tub",
+          "utility sink",
+          "stainless steel",
+          "wrist blade"
+        ],
+        "pt-BR": [
+          "torneira",
+          "tanque",
+          "pia de serviço",
+          "aço inox",
+          "alavanca longa"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "sink-type",
+          "name": {
+            "en": "Sink type",
+            "pt-BR": "Tipo de pia"
+          },
+          "valueId": "laundry",
+          "value": {
+            "en": "Laundry tub",
+            "pt-BR": "Tanque"
+          }
+        },
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "stainless-steel",
+          "value": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "piece-only",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "brushed-steel",
+              "name": {
+                "en": "Brushed steel",
+                "pt-BR": "Aço escovado"
+              },
+              "hex": "#B8BABB"
+            }
+          ]
+        },
+        {
+          "id": "install",
+          "name": {
+            "en": "Includes",
+            "pt-BR": "Inclui"
+          },
+          "values": [
+            {
+              "id": "piece-only",
+              "name": {
+                "en": "Piece only",
+                "pt-BR": "Só a peça"
+              }
+            },
+            {
+              "id": "kit",
+              "name": {
+                "en": "Installation kit",
+                "pt-BR": "Kit de instalação"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "piece-only",
+          "sku": "CON-STAINLESS-WRIST-BLADE-UTILITY-FAUCET-PIECE-ONLY",
+          "options": {
+            "color": "brushed-steel",
+            "install": "piece-only"
+          },
+          "price": {
+            "BRL": 329,
+            "USD": 79
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless deck-mounted utility faucet with a high arc spout and wrist-blade handles",
+                "pt-BR": "Torneira inox de bancada para tanque com bica alta e registros longos"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/stainless-wrist-blade-utility-faucet/main-white.webp",
+                "#f5f5f5": "images/stainless-wrist-blade-utility-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        },
+        {
+          "id": "kit",
+          "sku": "CON-STAINLESS-WRIST-BLADE-UTILITY-FAUCET-KIT",
+          "options": {
+            "color": "brushed-steel",
+            "install": "kit"
+          },
+          "price": {
+            "BRL": 395,
+            "USD": 95
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless deck-mounted utility faucet with a high arc spout and wrist-blade handles",
+                "pt-BR": "Torneira inox de bancada para tanque com bica alta e registros longos"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/stainless-wrist-blade-utility-faucet/main-white.webp",
+                "#f5f5f5": "images/stainless-wrist-blade-utility-faucet/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "piece",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "piece",
+                "other": "pieces"
+              },
+              "pt-BR": {
+                "one": "peça",
+                "other": "peças"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "piece",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "piece",
+            "other": "pieces"
+          },
+          "pt-BR": {
+            "one": "peça",
+            "other": "peças"
           }
         }
       }

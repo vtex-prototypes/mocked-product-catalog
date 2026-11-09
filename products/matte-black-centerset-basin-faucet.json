@@ -1,0 +1,147 @@
+{
+  "id": "matte-black-centerset-basin-faucet",
+  "categoryId": "construcao-banheiro",
+  "unitId": "piece",
+  "name": {
+    "en": "Matte Black Centerset Bathroom Faucet with Two Cross Handles and a Short Arched Spout, for a Basin",
+    "pt-BR": "Torneira Preta Fosca para Lavatório com Dois Registros em Cruzeta e Bica Curta Arqueada, Base Única de 4 Polegadas"
+  },
+  "description": {
+    "en": "A matte black centerset faucet for a bathroom basin. Two cross handles and a short arched spout sit on a single base plate that fits a standard 4 inch hole spacing. Matte finish resists fingerprints.",
+    "pt-BR": "Torneira preta fosca monocomando de base única para lavatório de banheiro. Dois registros em cruzeta e bica curta arqueada sobre uma base que serve em furação padrão de 10 cm. O acabamento fosco resiste a digitais."
+  },
+  "price": {
+    "BRL": 399,
+    "USD": 95
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "faucet",
+      "bathroom basin",
+      "matte black",
+      "centerset",
+      "cross handle"
+    ],
+    "pt-BR": [
+      "torneira",
+      "lavatório",
+      "preta fosca",
+      "base única",
+      "cruzeta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "sink-type",
+      "valueId": "basin"
+    },
+    {
+      "id": "material",
+      "valueId": "brass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "piece-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#1F1F1F"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Includes",
+        "pt-BR": "Inclui"
+      },
+      "values": [
+        {
+          "id": "piece-only",
+          "name": {
+            "en": "Piece only",
+            "pt-BR": "Só a peça"
+          }
+        },
+        {
+          "id": "kit",
+          "name": {
+            "en": "Installation kit",
+            "pt-BR": "Kit de instalação"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "piece-only",
+      "sku": "CON-MATTE-BLACK-CENTERSET-BASIN-FAUCET-PIECE-ONLY",
+      "options": {
+        "color": "matte-black",
+        "install": "piece-only"
+      },
+      "price": {
+        "BRL": 399,
+        "USD": 95
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black centerset bathroom faucet with two cross handles",
+            "pt-BR": "Torneira preta fosca para lavatório com dois registros em cruzeta"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kit",
+      "sku": "CON-MATTE-BLACK-CENTERSET-BASIN-FAUCET-KIT",
+      "options": {
+        "color": "matte-black",
+        "install": "kit"
+      },
+      "price": {
+        "BRL": 479,
+        "USD": 114
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black centerset bathroom faucet with two cross handles",
+            "pt-BR": "Torneira preta fosca para lavatório com dois registros em cruzeta"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
