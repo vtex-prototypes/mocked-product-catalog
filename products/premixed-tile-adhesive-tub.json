@@ -1,0 +1,145 @@
+{
+  "id": "premixed-tile-adhesive-tub",
+  "categoryId": "construcao-argamassas",
+  "unitId": "tub",
+  "name": {
+    "en": "Premixed Ready-to-Use Tile Adhesive for Ceramic and Small Porcelain Wall Tile, Indoor, 1 Gallon Tub with Lid",
+    "pt-BR": "Argamassa Pronta Colante para Revestimento de Parede de Cerâmica e Porcelanato Pequeno, Uso Interno, Pote de 3,6 L com Tampa"
+  },
+  "description": {
+    "en": "A creamy tile adhesive that comes ready to spread, with no water and no mixing. Made for backsplashes and indoor wall tile up to 12 by 12 inches. Press the lid back on and it keeps for the next small job.",
+    "pt-BR": "Argamassa colante cremosa que já vem pronta para espalhar, sem água e sem mistura. Feita para backsplash e revestimento de parede interno até 30x30 cm. Feche a tampa e ela guarda para o próximo serviço pequeno."
+  },
+  "price": {
+    "BRL": 79.9,
+    "USD": 29
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "tile adhesive",
+      "premixed",
+      "ready to use",
+      "wall tile",
+      "backsplash",
+      "porcelain mosaic"
+    ],
+    "pt-BR": [
+      "argamassa pronta",
+      "pasta colante",
+      "pronta para uso",
+      "revestimento de parede",
+      "backsplash",
+      "mosaico"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cream",
+          "name": {
+            "en": "Cream",
+            "pt-BR": "Creme"
+          },
+          "hex": "#E8DCC4"
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "name": {
+        "en": "Quantity",
+        "pt-BR": "Quantidade"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 tub",
+            "pt-BR": "1 pote"
+          }
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "2 tubs",
+            "pt-BR": "2 potes"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-PREMIXED-TILE-ADHESIVE-TUB-SINGLE",
+      "options": {
+        "color": "cream",
+        "quantity": "single"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 29
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream plastic tub with a beige band and a notched trowel on the lid",
+            "pt-BR": "Pote plástico creme com faixa bege e desempenadeira dentada sobre a tampa"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "sku": "CON-PREMIXED-TILE-ADHESIVE-TUB-PACK",
+      "options": {
+        "color": "cream",
+        "quantity": "pack"
+      },
+      "price": {
+        "BRL": 149,
+        "USD": 55
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cream plastic tub with a beige band and a notched trowel on the lid",
+            "pt-BR": "Pote plástico creme com faixa bege e desempenadeira dentada sobre a tampa"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

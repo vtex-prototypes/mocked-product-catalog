@@ -55481,6 +55481,236 @@
       }
     },
     {
+      "id": "epoxy-tile-adhesive-kit",
+      "categoryId": "construcao-argamassas",
+      "unitId": "kit",
+      "name": {
+        "en": "Two-Part Epoxy Tile Adhesive Kit for Porcelain, Glass and Stone in Wet Areas, Pools and Outdoor Walls, 1 Gallon",
+        "pt-BR": "Kit de Argamassa Epóxi de Dois Componentes para Porcelanato, Vidro e Pedra em Áreas Molhadas, Piscinas e Paredes Externas, 3,6 L"
+      },
+      "description": {
+        "en": "A gray resin and a hardener that are mixed in the pail and set into a waterproof, chemical-resistant bond. It holds porcelain, glass and stone in showers, pools, kitchens and outdoor walls where cement thinset can fail.",
+        "pt-BR": "Resina cinza e endurecedor que se misturam no balde e formam uma ligação impermeável e resistente a químicos. Fixa porcelanato, vidro e pedra em boxes, piscinas, cozinhas e paredes externas onde a argamassa cimentícia pode falhar."
+      },
+      "price": {
+        "BRL": 389,
+        "USD": 92
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "tile adhesive",
+          "epoxy",
+          "porcelain",
+          "waterproof",
+          "pool",
+          "outdoor"
+        ],
+        "pt-BR": [
+          "argamassa epóxi",
+          "porcelanato",
+          "impermeável",
+          "piscina",
+          "área externa"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "epoxy",
+          "value": {
+            "en": "Epoxy",
+            "pt-BR": "Epóxi"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#8F9190"
+            }
+          ]
+        },
+        {
+          "id": "quantity",
+          "name": {
+            "en": "Quantity",
+            "pt-BR": "Quantidade"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 kit",
+                "pt-BR": "1 kit"
+              }
+            },
+            {
+              "id": "pack",
+              "name": {
+                "en": "2 kits",
+                "pt-BR": "2 kits"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-EPOXY-TILE-ADHESIVE-KIT-SINGLE",
+          "options": {
+            "color": "gray",
+            "quantity": "single"
+          },
+          "price": {
+            "BRL": 389,
+            "USD": 92
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray metal can and a small white bottle of hardener, an epoxy tile adhesive kit",
+                "pt-BR": "Lata metálica cinza e frasco branco de endurecedor de um kit de argamassa epóxi"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/epoxy-tile-adhesive-kit/main-white.webp",
+                "#f5f5f5": "images/epoxy-tile-adhesive-kit/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "kit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "kit",
+                "other": "kits"
+              },
+              "pt-BR": {
+                "one": "kit",
+                "other": "kits"
+              }
+            }
+          }
+        },
+        {
+          "id": "pack",
+          "sku": "CON-EPOXY-TILE-ADHESIVE-KIT-PACK",
+          "options": {
+            "color": "gray",
+            "quantity": "pack"
+          },
+          "price": {
+            "BRL": 739,
+            "USD": 175
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Gray metal can and a small white bottle of hardener, an epoxy tile adhesive kit",
+                "pt-BR": "Lata metálica cinza e frasco branco de endurecedor de um kit de argamassa epóxi"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/epoxy-tile-adhesive-kit/main-white.webp",
+                "#f5f5f5": "images/epoxy-tile-adhesive-kit/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "kit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "kit",
+                "other": "kits"
+              },
+              "pt-BR": {
+                "one": "kit",
+                "other": "kits"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "kit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "kit",
+            "other": "kits"
+          },
+          "pt-BR": {
+            "one": "kit",
+            "other": "kits"
+          }
+        }
+      }
+    },
+    {
       "id": "epoxy-white-grout",
       "categoryId": "construcao-rejuntes",
       "unitId": "tub",
@@ -59787,6 +60017,237 @@
       }
     },
     {
+      "id": "flexible-outdoor-porcelain-mortar",
+      "categoryId": "construcao-argamassas",
+      "unitId": "bag",
+      "name": {
+        "en": "Gray Flexible Cement Mortar for Outdoor Porcelain Terraces, Pool Decks and Facades, Weatherproof, 55 Pound Sack",
+        "pt-BR": "Argamassa Cimentícia Flexível Cinza para Porcelanato em Áreas Externas, Piscinas e Fachadas, Resistente ao Tempo, Saco de 25 kg"
+      },
+      "description": {
+        "en": "A gray flexible mortar for porcelain on terraces, pool decks, balconies and facades. It moves with sun and rain, so outdoor tile does not crack loose, and it also bonds porcelain indoors.",
+        "pt-BR": "Argamassa flexível cinza para porcelanato em terraços, deques de piscina, varandas e fachadas. Acompanha a dilatação do sol e da chuva, e o piso externo não solta, e também serve para porcelanato interno."
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 41
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "thinset mortar",
+          "porcelain",
+          "outdoor",
+          "flexible",
+          "pool deck",
+          "facade"
+        ],
+        "pt-BR": [
+          "argamassa colante",
+          "porcelanato",
+          "área externa",
+          "flexível",
+          "piscina",
+          "fachada"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#9A9B98"
+            }
+          ]
+        },
+        {
+          "id": "quantity",
+          "name": {
+            "en": "Quantity",
+            "pt-BR": "Quantidade"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 bag",
+                "pt-BR": "1 saco"
+              }
+            },
+            {
+              "id": "pack",
+              "name": {
+                "en": "5 bags",
+                "pt-BR": "5 sacos"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-FLEXIBLE-OUTDOOR-PORCELAIN-MORTAR-SINGLE",
+          "options": {
+            "color": "gray",
+            "quantity": "single"
+          },
+          "price": {
+            "BRL": 89.9,
+            "USD": 41
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tall gray paper sack of flexible outdoor porcelain mortar with an orange band",
+                "pt-BR": "Saco de papel cinza de argamassa flexível para porcelanato externo com faixa laranja"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flexible-outdoor-porcelain-mortar/main-white.webp",
+                "#f5f5f5": "images/flexible-outdoor-porcelain-mortar/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bag",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bag",
+                "other": "bags"
+              },
+              "pt-BR": {
+                "one": "saco",
+                "other": "sacos"
+              }
+            }
+          }
+        },
+        {
+          "id": "pack",
+          "sku": "CON-FLEXIBLE-OUTDOOR-PORCELAIN-MORTAR-PACK",
+          "options": {
+            "color": "gray",
+            "quantity": "pack"
+          },
+          "price": {
+            "BRL": 419,
+            "USD": 192
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tall gray paper sack of flexible outdoor porcelain mortar with an orange band",
+                "pt-BR": "Saco de papel cinza de argamassa flexível para porcelanato externo com faixa laranja"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/flexible-outdoor-porcelain-mortar/main-white.webp",
+                "#f5f5f5": "images/flexible-outdoor-porcelain-mortar/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bag",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bag",
+                "other": "bags"
+              },
+              "pt-BR": {
+                "one": "saco",
+                "other": "sacos"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "bag",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "bag",
+            "other": "bags"
+          },
+          "pt-BR": {
+            "one": "saco",
+            "other": "sacos"
+          }
+        }
+      }
+    },
+    {
       "id": "flexible-terracotta-grout",
       "categoryId": "construcao-rejuntes",
       "unitId": "tub",
@@ -61948,6 +62409,235 @@
           "pt-BR": {
             "one": "unidade",
             "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "glass-mosaic-white-thinset",
+      "categoryId": "construcao-argamassas",
+      "unitId": "bag",
+      "name": {
+        "en": "White Non-Yellowing Thinset Mortar for Glass Mosaic and Translucent Tile, Indoor and Pool Walls, 11 Pound Bag",
+        "pt-BR": "Argamassa Colante Branca que Não Amarela para Pastilha de Vidro e Peças Translúcidas, Paredes Internas e Piscinas, Saco de 5 kg"
+      },
+      "description": {
+        "en": "A bright white mortar for glass mosaic and translucent tile, where a gray bed would show through and dull the color. Fine grain spreads thin behind small pieces, and it holds on indoor walls and pool walls.",
+        "pt-BR": "Argamassa branca brilhante para pastilha de vidro e peças translúcidas, onde a base cinza apareceria e apagaria a cor. A granulometria fina espalha fino atrás de peças pequenas, e serve em paredes internas e de piscina."
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 19
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "thinset mortar",
+          "glass mosaic",
+          "white",
+          "pool",
+          "translucent tile"
+        ],
+        "pt-BR": [
+          "argamassa colante",
+          "pastilha de vidro",
+          "branca",
+          "piscina",
+          "peça translúcida"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branca"
+              },
+              "hex": "#F3F3F0"
+            }
+          ]
+        },
+        {
+          "id": "quantity",
+          "name": {
+            "en": "Quantity",
+            "pt-BR": "Quantidade"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 bag",
+                "pt-BR": "1 saco"
+              }
+            },
+            {
+              "id": "pack",
+              "name": {
+                "en": "5 bags",
+                "pt-BR": "5 sacos"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-GLASS-MOSAIC-WHITE-THINSET-SINGLE",
+          "options": {
+            "color": "white",
+            "quantity": "single"
+          },
+          "price": {
+            "BRL": 49.9,
+            "USD": 19
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Small white paper sack of glass mosaic thinset with a green band",
+                "pt-BR": "Saco de papel branco pequeno de argamassa para pastilha de vidro com faixa verde"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/glass-mosaic-white-thinset/main-white.webp",
+                "#f5f5f5": "images/glass-mosaic-white-thinset/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bag",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bag",
+                "other": "bags"
+              },
+              "pt-BR": {
+                "one": "saco",
+                "other": "sacos"
+              }
+            }
+          }
+        },
+        {
+          "id": "pack",
+          "sku": "CON-GLASS-MOSAIC-WHITE-THINSET-PACK",
+          "options": {
+            "color": "white",
+            "quantity": "pack"
+          },
+          "price": {
+            "BRL": 229,
+            "USD": 89
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Small white paper sack of glass mosaic thinset with a green band",
+                "pt-BR": "Saco de papel branco pequeno de argamassa para pastilha de vidro com faixa verde"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/glass-mosaic-white-thinset/main-white.webp",
+                "#f5f5f5": "images/glass-mosaic-white-thinset/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bag",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bag",
+                "other": "bags"
+              },
+              "pt-BR": {
+                "one": "saco",
+                "other": "sacos"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "bag",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "bag",
+            "other": "bags"
+          },
+          "pt-BR": {
+            "one": "saco",
+            "other": "sacos"
           }
         }
       }
@@ -79824,6 +80514,223 @@
       }
     },
     {
+      "id": "large-format-porcelain-thinset",
+      "categoryId": "construcao-argamassas",
+      "unitId": "bag",
+      "name": {
+        "en": "White Polymer-Modified Thinset Mortar for Large-Format Porcelain Tile up to 48 by 48 Inches, 50 Pound Sack with Handle",
+        "pt-BR": "Argamassa Colante Branca com Polímero para Porcelanato de Grande Formato até 120x120 cm, Saco de 20 kg com Alça"
+      },
+      "description": {
+        "en": "A white polymer-modified thinset for large and heavy porcelain tile on indoor floors and walls. It stays workable longer and bonds firmly under big formats, and white powder will not shadow through light tile.",
+        "pt-BR": "Argamassa colante branca com polímero para porcelanato grande e pesado em pisos e paredes internas. Tem tempo em aberto maior e adere bem sob grandes formatos, e o pó branco não escurece peças claras."
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 36
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "thinset mortar",
+          "porcelain",
+          "large format",
+          "polymer-modified",
+          "white"
+        ],
+        "pt-BR": [
+          "argamassa colante",
+          "porcelanato",
+          "grande formato",
+          "com polímero",
+          "branca"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branca"
+              },
+              "hex": "#ECECE8"
+            }
+          ]
+        },
+        {
+          "id": "quantity",
+          "name": {
+            "en": "Quantity",
+            "pt-BR": "Quantidade"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 bag",
+                "pt-BR": "1 saco"
+              }
+            },
+            {
+              "id": "pack",
+              "name": {
+                "en": "5 bags",
+                "pt-BR": "5 sacos"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-LARGE-FORMAT-PORCELAIN-THINSET-SINGLE",
+          "options": {
+            "color": "white",
+            "quantity": "single"
+          },
+          "price": {
+            "BRL": 79.9,
+            "USD": 36
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White plastic sack of large-format porcelain thinset with a blue band and a handle",
+                "pt-BR": "Saco plástico branco de argamassa para porcelanato grande formato com faixa azul e alça"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/large-format-porcelain-thinset/main-white.webp",
+                "#f5f5f5": "images/large-format-porcelain-thinset/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bag",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bag",
+                "other": "bags"
+              },
+              "pt-BR": {
+                "one": "saco",
+                "other": "sacos"
+              }
+            }
+          }
+        },
+        {
+          "id": "pack",
+          "sku": "CON-LARGE-FORMAT-PORCELAIN-THINSET-PACK",
+          "options": {
+            "color": "white",
+            "quantity": "pack"
+          },
+          "price": {
+            "BRL": 369,
+            "USD": 169
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White plastic sack of large-format porcelain thinset with a blue band and a handle",
+                "pt-BR": "Saco plástico branco de argamassa para porcelanato grande formato com faixa azul e alça"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/large-format-porcelain-thinset/main-white.webp",
+                "#f5f5f5": "images/large-format-porcelain-thinset/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bag",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bag",
+                "other": "bags"
+              },
+              "pt-BR": {
+                "one": "saco",
+                "other": "sacos"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "bag",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "bag",
+            "other": "bags"
+          },
+          "pt-BR": {
+            "one": "saco",
+            "other": "sacos"
+          }
+        }
+      }
+    },
+    {
       "id": "large-graphite-concrete-porcelain-tile",
       "categoryId": "construcao-pisos",
       "unitId": "area",
@@ -87440,6 +88347,223 @@
           "pt-BR": {
             "one": "balde",
             "other": "baldes"
+          }
+        }
+      }
+    },
+    {
+      "id": "natural-stone-setting-mortar",
+      "categoryId": "construcao-argamassas",
+      "unitId": "bag",
+      "name": {
+        "en": "Off-White Non-Staining Setting Mortar for Natural Stone, Marble and Slate, Indoor Floors and Walls, 55 Pound Woven Sack",
+        "pt-BR": "Argamassa Off-White que Não Mancha para Pedras Naturais, Mármore e Ardósia, Pisos e Paredes Internas, Saco Ráfia de 25 kg"
+      },
+      "description": {
+        "en": "An off-white setting mortar for natural stone, marble and slate. It cures without the gray cement staining that darkens pale stone and keeps the tile flat under heavy pieces. Mix with water in a clean pail.",
+        "pt-BR": "Argamassa off-white para pedras naturais, mármore e ardósia. Cura sem as manchas de cimento cinza que escurecem a pedra clara e mantém a peça nivelada sob peças pesadas. Misture com água em balde limpo."
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 44
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "setting mortar",
+          "natural stone",
+          "marble",
+          "slate",
+          "non-staining"
+        ],
+        "pt-BR": [
+          "argamassa",
+          "pedra natural",
+          "mármore",
+          "ardósia",
+          "não mancha"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "off-white",
+              "name": {
+                "en": "Off-white",
+                "pt-BR": "Off-white"
+              },
+              "hex": "#E6E1D3"
+            }
+          ]
+        },
+        {
+          "id": "quantity",
+          "name": {
+            "en": "Quantity",
+            "pt-BR": "Quantidade"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 bag",
+                "pt-BR": "1 saco"
+              }
+            },
+            {
+              "id": "pack",
+              "name": {
+                "en": "5 bags",
+                "pt-BR": "5 sacos"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-NATURAL-STONE-SETTING-MORTAR-SINGLE",
+          "options": {
+            "color": "off-white",
+            "quantity": "single"
+          },
+          "price": {
+            "BRL": 119,
+            "USD": 44
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tan woven sack of natural stone setting mortar with dark brown stripes and an open top",
+                "pt-BR": "Saco ráfia bege de argamassa para pedra natural com listras marrons e boca aberta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/natural-stone-setting-mortar/main-white.webp",
+                "#f5f5f5": "images/natural-stone-setting-mortar/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bag",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bag",
+                "other": "bags"
+              },
+              "pt-BR": {
+                "one": "saco",
+                "other": "sacos"
+              }
+            }
+          }
+        },
+        {
+          "id": "pack",
+          "sku": "CON-NATURAL-STONE-SETTING-MORTAR-PACK",
+          "options": {
+            "color": "off-white",
+            "quantity": "pack"
+          },
+          "price": {
+            "BRL": 549,
+            "USD": 205
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Tan woven sack of natural stone setting mortar with dark brown stripes and an open top",
+                "pt-BR": "Saco ráfia bege de argamassa para pedra natural com listras marrons e boca aberta"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/natural-stone-setting-mortar/main-white.webp",
+                "#f5f5f5": "images/natural-stone-setting-mortar/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bag",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bag",
+                "other": "bags"
+              },
+              "pt-BR": {
+                "one": "saco",
+                "other": "sacos"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "bag",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "bag",
+            "other": "bags"
+          },
+          "pt-BR": {
+            "one": "saco",
+            "other": "sacos"
           }
         }
       }
@@ -98887,6 +100011,225 @@
       }
     },
     {
+      "id": "premixed-tile-adhesive-tub",
+      "categoryId": "construcao-argamassas",
+      "unitId": "tub",
+      "name": {
+        "en": "Premixed Ready-to-Use Tile Adhesive for Ceramic and Small Porcelain Wall Tile, Indoor, 1 Gallon Tub with Lid",
+        "pt-BR": "Argamassa Pronta Colante para Revestimento de Parede de Cerâmica e Porcelanato Pequeno, Uso Interno, Pote de 3,6 L com Tampa"
+      },
+      "description": {
+        "en": "A creamy tile adhesive that comes ready to spread, with no water and no mixing. Made for backsplashes and indoor wall tile up to 12 by 12 inches. Press the lid back on and it keeps for the next small job.",
+        "pt-BR": "Argamassa colante cremosa que já vem pronta para espalhar, sem água e sem mistura. Feita para backsplash e revestimento de parede interno até 30x30 cm. Feche a tampa e ela guarda para o próximo serviço pequeno."
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 29
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "tile adhesive",
+          "premixed",
+          "ready to use",
+          "wall tile",
+          "backsplash",
+          "porcelain mosaic"
+        ],
+        "pt-BR": [
+          "argamassa pronta",
+          "pasta colante",
+          "pronta para uso",
+          "revestimento de parede",
+          "backsplash",
+          "mosaico"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "cream",
+              "name": {
+                "en": "Cream",
+                "pt-BR": "Creme"
+              },
+              "hex": "#E8DCC4"
+            }
+          ]
+        },
+        {
+          "id": "quantity",
+          "name": {
+            "en": "Quantity",
+            "pt-BR": "Quantidade"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 tub",
+                "pt-BR": "1 pote"
+              }
+            },
+            {
+              "id": "pack",
+              "name": {
+                "en": "2 tubs",
+                "pt-BR": "2 potes"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-PREMIXED-TILE-ADHESIVE-TUB-SINGLE",
+          "options": {
+            "color": "cream",
+            "quantity": "single"
+          },
+          "price": {
+            "BRL": 79.9,
+            "USD": 29
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cream plastic tub with a beige band and a notched trowel on the lid",
+                "pt-BR": "Pote plástico creme com faixa bege e desempenadeira dentada sobre a tampa"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/premixed-tile-adhesive-tub/main-white.webp",
+                "#f5f5f5": "images/premixed-tile-adhesive-tub/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "tub",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "tub",
+                "other": "tubs"
+              },
+              "pt-BR": {
+                "one": "pote",
+                "other": "potes"
+              }
+            }
+          }
+        },
+        {
+          "id": "pack",
+          "sku": "CON-PREMIXED-TILE-ADHESIVE-TUB-PACK",
+          "options": {
+            "color": "cream",
+            "quantity": "pack"
+          },
+          "price": {
+            "BRL": 149,
+            "USD": 55
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Cream plastic tub with a beige band and a notched trowel on the lid",
+                "pt-BR": "Pote plástico creme com faixa bege e desempenadeira dentada sobre a tampa"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/premixed-tile-adhesive-tub/main-white.webp",
+                "#f5f5f5": "images/premixed-tile-adhesive-tub/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "tub",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "tub",
+                "other": "tubs"
+              },
+              "pt-BR": {
+                "one": "pote",
+                "other": "potes"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "tub",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "tub",
+            "other": "tubs"
+          },
+          "pt-BR": {
+            "one": "pote",
+            "other": "potes"
+          }
+        }
+      }
+    },
+    {
       "id": "protection-plan-3-years",
       "categoryId": "construcao-servicos",
       "unitId": "plan",
@@ -101509,6 +102852,235 @@
           "pt-BR": {
             "one": "saco",
             "other": "sacos"
+          }
+        }
+      }
+    },
+    {
+      "id": "rapid-set-tile-mortar-pail",
+      "categoryId": "construcao-argamassas",
+      "unitId": "pail",
+      "name": {
+        "en": "Rapid-Set Gray Thinset Mortar for Porcelain and Ceramic Floors, Walkable in Three Hours, 22 Pound Pail with Lid",
+        "pt-BR": "Argamassa Colante Cinza de Pega Rápida para Porcelanato e Cerâmica, Pode Pisar em Três Horas, Balde de 10 kg com Tampa"
+      },
+      "description": {
+        "en": "A fast-setting gray thinset in a resealable pail for porcelain and ceramic floors, thresholds and repairs. Tile can be walked on after about three hours, so a bathroom or an entry can be back in use the same day.",
+        "pt-BR": "Argamassa colante cinza de pega rápida em balde com tampa para porcelanato e cerâmica em pisos, soleiras e reparos. Pode-se pisar após cerca de três horas, e banheiro ou entrada voltam a uso no mesmo dia."
+      },
+      "price": {
+        "BRL": 129,
+        "USD": 49
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "thinset mortar",
+          "porcelain",
+          "rapid set",
+          "repairs",
+          "indoor floors"
+        ],
+        "pt-BR": [
+          "argamassa colante",
+          "porcelanato",
+          "pega rápida",
+          "reparos",
+          "pisos internos"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "cement",
+          "value": {
+            "en": "Cement",
+            "pt-BR": "Cimento"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "gray",
+              "name": {
+                "en": "Gray",
+                "pt-BR": "Cinza"
+              },
+              "hex": "#9A9B98"
+            }
+          ]
+        },
+        {
+          "id": "quantity",
+          "name": {
+            "en": "Quantity",
+            "pt-BR": "Quantidade"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 pail",
+                "pt-BR": "1 balde"
+              }
+            },
+            {
+              "id": "pack",
+              "name": {
+                "en": "2 pails",
+                "pt-BR": "2 baldes"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-RAPID-SET-TILE-MORTAR-PAIL-SINGLE",
+          "options": {
+            "color": "gray",
+            "quantity": "single"
+          },
+          "price": {
+            "BRL": 129,
+            "USD": 49
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Red plastic pail with a lid and a metal handle holding rapid-set tile mortar",
+                "pt-BR": "Balde plástico vermelho com tampa e alça de metal com argamassa de pega rápida"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/rapid-set-tile-mortar-pail/main-white.webp",
+                "#f5f5f5": "images/rapid-set-tile-mortar-pail/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "pail",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "pail",
+                "other": "pails"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        },
+        {
+          "id": "pack",
+          "sku": "CON-RAPID-SET-TILE-MORTAR-PAIL-PACK",
+          "options": {
+            "color": "gray",
+            "quantity": "pack"
+          },
+          "price": {
+            "BRL": 245,
+            "USD": 93
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Red plastic pail with a lid and a metal handle holding rapid-set tile mortar",
+                "pt-BR": "Balde plástico vermelho com tampa e alça de metal com argamassa de pega rápida"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/rapid-set-tile-mortar-pail/main-white.webp",
+                "#f5f5f5": "images/rapid-set-tile-mortar-pail/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "pail",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "pail",
+                "other": "pails"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "pail",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "pail",
+            "other": "pails"
+          },
+          "pt-BR": {
+            "one": "balde",
+            "other": "baldes"
           }
         }
       }
@@ -125556,6 +127128,213 @@
           "pt-BR": {
             "one": "unidade",
             "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "tile-adhesive-cartridge",
+      "categoryId": "construcao-argamassas",
+      "unitId": "tube",
+      "name": {
+        "en": "Tile Adhesive in a Caulking Gun Cartridge for Loose Tile, Trim Pieces and Small Repairs, Ceramic and Porcelain, 10 Ounce",
+        "pt-BR": "Adesivo para Revestimento em Cartucho para Pistola, para Peças Soltas, Cantoneiras e Pequenos Reparos, Cerâmica e Porcelanato, 300 g"
+      },
+      "description": {
+        "en": "A tile adhesive in a cartridge that fits a standard caulking gun. Squeeze a bead behind a loose tile, a trim piece or a soap dish and press it back. For small repairs, not for laying a whole floor.",
+        "pt-BR": "Adesivo para revestimento em cartucho que serve em pistola de calafetar comum. Aplique um cordão atrás de peça solta, cantoneira ou saboneteira e pressione. Para pequenos reparos, não para assentar um piso inteiro."
+      },
+      "price": {
+        "BRL": 39.9,
+        "USD": 11
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "tile adhesive",
+          "cartridge",
+          "tile repair",
+          "loose tile",
+          "porcelain",
+          "ceramic"
+        ],
+        "pt-BR": [
+          "adesivo para revestimento",
+          "cartucho",
+          "reparo",
+          "peça solta",
+          "porcelanato",
+          "cerâmica"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        }
+      ],
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#EFEFEA"
+            }
+          ]
+        },
+        {
+          "id": "quantity",
+          "name": {
+            "en": "Quantity",
+            "pt-BR": "Quantidade"
+          },
+          "values": [
+            {
+              "id": "single",
+              "name": {
+                "en": "1 tube",
+                "pt-BR": "1 tubo"
+              }
+            },
+            {
+              "id": "pack",
+              "name": {
+                "en": "6 tubes",
+                "pt-BR": "6 tubos"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "CON-TILE-ADHESIVE-CARTRIDGE-SINGLE",
+          "options": {
+            "color": "white",
+            "quantity": "single"
+          },
+          "price": {
+            "BRL": 39.9,
+            "USD": 11
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White caulking cartridge of tile adhesive with a brown band and a cut nozzle",
+                "pt-BR": "Cartucho branco de adesivo para revestimento com faixa marrom e bico cortado"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/tile-adhesive-cartridge/main-white.webp",
+                "#f5f5f5": "images/tile-adhesive-cartridge/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "tube",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "tube",
+                "other": "tubes"
+              },
+              "pt-BR": {
+                "one": "bisnaga",
+                "other": "bisnagas"
+              }
+            }
+          }
+        },
+        {
+          "id": "pack",
+          "sku": "CON-TILE-ADHESIVE-CARTRIDGE-PACK",
+          "options": {
+            "color": "white",
+            "quantity": "pack"
+          },
+          "price": {
+            "BRL": 219,
+            "USD": 62
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White caulking cartridge of tile adhesive with a brown band and a cut nozzle",
+                "pt-BR": "Cartucho branco de adesivo para revestimento com faixa marrom e bico cortado"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/tile-adhesive-cartridge/main-white.webp",
+                "#f5f5f5": "images/tile-adhesive-cartridge/main-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "tube",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "tube",
+                "other": "tubes"
+              },
+              "pt-BR": {
+                "one": "bisnaga",
+                "other": "bisnagas"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "tube",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "tube",
+            "other": "tubes"
+          },
+          "pt-BR": {
+            "one": "bisnaga",
+            "other": "bisnagas"
           }
         }
       }
