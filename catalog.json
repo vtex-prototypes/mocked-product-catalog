@@ -4987,6 +4987,263 @@
       }
     },
     {
+      "id": "apple-green-semi-gloss-cabinet-paint",
+      "categoryId": "construcao-tintas",
+      "unitId": "bucket",
+      "name": {
+        "en": "Apple Green Semi-Gloss Acrylic Paint for Kitchen Cabinets, Doors and Trim, a Fresh Yellow-Green that Wipes Clean",
+        "pt-BR": "Tinta Acrílica Semibrilho Verde Maçã para Armários de Cozinha, Portas e Rodapés, Verde Fresco com Toque Amarelado Fácil de Limpar"
+      },
+      "description": {
+        "en": "A fresh apple green acrylic with a semi-gloss sheen for kitchen cabinets, interior doors and trim. The sheen resists grease and fingerprints and wipes clean with a damp sponge. The listed price is the 3.6 liter bucket.",
+        "pt-BR": "Tinta acrílica verde maçã fresca com semibrilho para armários de cozinha, portas internas e rodapés. O brilho resiste a gordura e digitais e limpa com esponja úmida. O preço anunciado é do balde de 3,6 litros."
+      },
+      "price": {
+        "BRL": 149.9,
+        "USD": 54
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "green paint",
+          "apple green",
+          "semi-gloss paint",
+          "cabinet paint",
+          "trim paint"
+        ],
+        "pt-BR": [
+          "tinta verde",
+          "verde maçã",
+          "tinta semibrilho",
+          "tinta para armário",
+          "tinta para rodapé"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "apple-green",
+              "name": {
+                "en": "Apple green",
+                "pt-BR": "Verde maçã"
+              },
+              "hex": "#78B83A"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "3-6-l",
+          "sku": "CON-APPLE-GREEN-SEMI-GLOSS-CABINET-PAINT-3-6-L",
+          "options": {
+            "color": "apple-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 149.9,
+            "USD": 54
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White bucket with a wide band of apple green paint",
+                "pt-BR": "Balde branco com uma faixa larga de tinta verde maçã"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/apple-green-semi-gloss-cabinet-paint/main-white.webp",
+                "#f5f5f5": "images/apple-green-semi-gloss-cabinet-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Kitchen with cabinets and a door frame painted apple green",
+                "pt-BR": "Cozinha com armários e batente pintados de verde maçã"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/apple-green-semi-gloss-cabinet-paint/application-white.webp",
+                "#f5f5f5": "images/apple-green-semi-gloss-cabinet-paint/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bucket",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bucket",
+                "other": "buckets"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        },
+        {
+          "id": "18-l",
+          "sku": "CON-APPLE-GREEN-SEMI-GLOSS-CABINET-PAINT-18-L",
+          "options": {
+            "color": "apple-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 539,
+            "USD": 189
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White bucket with a wide band of apple green paint",
+                "pt-BR": "Balde branco com uma faixa larga de tinta verde maçã"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/apple-green-semi-gloss-cabinet-paint/main-white.webp",
+                "#f5f5f5": "images/apple-green-semi-gloss-cabinet-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Kitchen with cabinets and a door frame painted apple green",
+                "pt-BR": "Cozinha com armários e batente pintados de verde maçã"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/apple-green-semi-gloss-cabinet-paint/application-white.webp",
+                "#f5f5f5": "images/apple-green-semi-gloss-cabinet-paint/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bucket",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bucket",
+                "other": "buckets"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "bucket",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "bucket",
+            "other": "buckets"
+          },
+          "pt-BR": {
+            "one": "balde",
+            "other": "baldes"
+          }
+        }
+      }
+    },
+    {
       "id": "baseball-cap",
       "brandId": "ritmo",
       "brand": {
@@ -21239,6 +21496,263 @@
           "pt-BR": {
             "one": "unidade",
             "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "blush-pink-matte-bathroom-paint",
+      "categoryId": "construcao-tintas",
+      "unitId": "bucket",
+      "name": {
+        "en": "Blush Pink Matte Acrylic Paint for Bathrooms and Powder Rooms, a Moisture-Resistant Flat Finish with a Soft Warm Tone",
+        "pt-BR": "Tinta Acrílica Fosca Rosa Blush para Banheiros e Lavabos, Acabamento Fosco Resistente à Umidade com Tom Quente e Suave"
+      },
+      "description": {
+        "en": "A soft blush pink acrylic with a flat matte finish for bathrooms and powder rooms. Moisture-resistant, with a warm, quiet tone that flatters wood and brass. The listed price is the 3.6 liter bucket.",
+        "pt-BR": "Tinta acrílica rosa blush suave com acabamento fosco para banheiros e lavabos. Resistente à umidade, com tom quente e discreto que valoriza madeira e metais dourados. O preço anunciado é do balde de 3,6 litros."
+      },
+      "price": {
+        "BRL": 139.9,
+        "USD": 51
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "pink paint",
+          "matte paint",
+          "bathroom paint",
+          "moisture resistant",
+          "powder room paint"
+        ],
+        "pt-BR": [
+          "tinta rosa",
+          "tinta fosca",
+          "tinta para banheiro",
+          "resistente à umidade",
+          "tinta para lavabo"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "blush-pink",
+              "name": {
+                "en": "Blush pink",
+                "pt-BR": "Rosa blush"
+              },
+              "hex": "#E8B9B3"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "3-6-l",
+          "sku": "CON-BLUSH-PINK-MATTE-BATHROOM-PAINT-3-6-L",
+          "options": {
+            "color": "blush-pink",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 139.9,
+            "USD": 51
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White bucket with a wide band of soft blush pink paint",
+                "pt-BR": "Balde branco com uma faixa larga de tinta rosa blush suave"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/blush-pink-matte-bathroom-paint/main-white.webp",
+                "#f5f5f5": "images/blush-pink-matte-bathroom-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom with blush pink matte walls",
+                "pt-BR": "Banheiro com paredes rosa blush fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/blush-pink-matte-bathroom-paint/application-white.webp",
+                "#f5f5f5": "images/blush-pink-matte-bathroom-paint/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bucket",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bucket",
+                "other": "buckets"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        },
+        {
+          "id": "18-l",
+          "sku": "CON-BLUSH-PINK-MATTE-BATHROOM-PAINT-18-L",
+          "options": {
+            "color": "blush-pink",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 499,
+            "USD": 175
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White bucket with a wide band of soft blush pink paint",
+                "pt-BR": "Balde branco com uma faixa larga de tinta rosa blush suave"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/blush-pink-matte-bathroom-paint/main-white.webp",
+                "#f5f5f5": "images/blush-pink-matte-bathroom-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom with blush pink matte walls",
+                "pt-BR": "Banheiro com paredes rosa blush fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/blush-pink-matte-bathroom-paint/application-white.webp",
+                "#f5f5f5": "images/blush-pink-matte-bathroom-paint/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bucket",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bucket",
+                "other": "buckets"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "bucket",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "bucket",
+            "other": "buckets"
+          },
+          "pt-BR": {
+            "one": "balde",
+            "other": "baldes"
           }
         }
       }
@@ -99261,6 +99775,277 @@
       }
     },
     {
+      "id": "pine-green-gloss-enamel",
+      "categoryId": "construcao-tintas",
+      "unitId": "bucket",
+      "name": {
+        "en": "Pine Green High-Gloss Alkyd Enamel for Metal Gates, Railings and Garden Furniture, a Weather-Resistant Glossy Finish",
+        "pt-BR": "Esmalte Sintético Alto Brilho Verde Pinheiro para Portões, Grades e Móveis de Jardim, Acabamento Brilhante Resistente ao Tempo"
+      },
+      "description": {
+        "en": "A deep pine green alkyd enamel with a high-gloss finish for metal gates, railings, fences and garden furniture. The hard glossy film sheds rain and wipes clean. Also good on interior doors. The listed price is the 3.6 liter bucket.",
+        "pt-BR": "Esmalte sintético verde pinheiro profundo com alto brilho para portões, grades, cercas e móveis de jardim. A película dura e brilhante repele a chuva e limpa com pano. Serve também em portas internas. O preço anunciado é do balde de 3,6 litros."
+      },
+      "price": {
+        "BRL": 179.9,
+        "USD": 62
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "green enamel",
+          "gloss paint",
+          "high gloss",
+          "metal paint",
+          "gate paint",
+          "outdoor enamel"
+        ],
+        "pt-BR": [
+          "esmalte verde",
+          "tinta brilhante",
+          "alto brilho",
+          "tinta para metal",
+          "tinta para portão",
+          "esmalte externo"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "alkyd",
+          "value": {
+            "en": "Alkyd enamel",
+            "pt-BR": "Esmalte sintético"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "outdoor",
+          "value": {
+            "en": "Outdoor",
+            "pt-BR": "Área externa"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "dark",
+          "value": {
+            "en": "Dark",
+            "pt-BR": "Escuro"
+          }
+        }
+      ],
+      "defaultVariantId": "3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "pine-green",
+              "name": {
+                "en": "Pine green",
+                "pt-BR": "Verde pinheiro"
+              },
+              "hex": "#1F5A3A"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "3-6-l",
+          "sku": "CON-PINE-GREEN-GLOSS-ENAMEL-3-6-L",
+          "options": {
+            "color": "pine-green",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 179.9,
+            "USD": 62
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White bucket with a wide band of dark pine green paint",
+                "pt-BR": "Balde branco com uma faixa larga de tinta verde pinheiro escuro"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pine-green-gloss-enamel/main-white.webp",
+                "#f5f5f5": "images/pine-green-gloss-enamel/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Garden gate and railing painted in glossy pine green",
+                "pt-BR": "Portão e grade de jardim pintados de verde pinheiro brilhante"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pine-green-gloss-enamel/application-white.webp",
+                "#f5f5f5": "images/pine-green-gloss-enamel/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bucket",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bucket",
+                "other": "buckets"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        },
+        {
+          "id": "18-l",
+          "sku": "CON-PINE-GREEN-GLOSS-ENAMEL-18-L",
+          "options": {
+            "color": "pine-green",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 629,
+            "USD": 219
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White bucket with a wide band of dark pine green paint",
+                "pt-BR": "Balde branco com uma faixa larga de tinta verde pinheiro escuro"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pine-green-gloss-enamel/main-white.webp",
+                "#f5f5f5": "images/pine-green-gloss-enamel/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Garden gate and railing painted in glossy pine green",
+                "pt-BR": "Portão e grade de jardim pintados de verde pinheiro brilhante"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/pine-green-gloss-enamel/application-white.webp",
+                "#f5f5f5": "images/pine-green-gloss-enamel/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bucket",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bucket",
+                "other": "buckets"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "bucket",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "bucket",
+            "other": "buckets"
+          },
+          "pt-BR": {
+            "one": "balde",
+            "other": "baldes"
+          }
+        }
+      }
+    },
+    {
       "id": "pistachio-interior-acrylic-paint",
       "categoryId": "construcao-tintas",
       "unitId": "can",
@@ -103360,6 +104145,263 @@
           "pt-BR": {
             "one": "unidade",
             "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "powder-blue-matte-bathroom-paint",
+      "categoryId": "construcao-tintas",
+      "unitId": "bucket",
+      "name": {
+        "en": "Powder Blue Matte Acrylic Paint for Bathrooms and Laundry Rooms, a Mildew-Resistant Flat Spa Color for Walls",
+        "pt-BR": "Tinta Acrílica Fosca Azul Bebê para Banheiros e Lavanderias, Cor de Spa Resistente a Mofo com Acabamento Fosco para Paredes"
+      },
+      "description": {
+        "en": "A soft powder blue acrylic with a flat matte finish for bathrooms and laundry rooms. Mildew-resistant film that stands up to steam, in a calm spa color. The listed price is the 3.6 liter bucket.",
+        "pt-BR": "Tinta acrílica azul bebê suave com acabamento fosco para banheiros e lavanderias. Película resistente a mofo que aguenta vapor, em uma cor calma de spa. O preço anunciado é do balde de 3,6 litros."
+      },
+      "price": {
+        "BRL": 139.9,
+        "USD": 51
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "blue paint",
+          "matte paint",
+          "bathroom paint",
+          "mildew resistant",
+          "laundry room paint"
+        ],
+        "pt-BR": [
+          "tinta azul",
+          "tinta fosca",
+          "tinta para banheiro",
+          "resistente a mofo",
+          "tinta para lavanderia"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "powder-blue",
+              "name": {
+                "en": "Powder blue",
+                "pt-BR": "Azul bebê"
+              },
+              "hex": "#A9C6E3"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "3-6-l",
+          "sku": "CON-POWDER-BLUE-MATTE-BATHROOM-PAINT-3-6-L",
+          "options": {
+            "color": "powder-blue",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 139.9,
+            "USD": 51
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White bucket with a wide band of powder blue paint",
+                "pt-BR": "Balde branco com uma faixa larga de tinta azul bebê"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/powder-blue-matte-bathroom-paint/main-white.webp",
+                "#f5f5f5": "images/powder-blue-matte-bathroom-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom with powder blue matte walls",
+                "pt-BR": "Banheiro com paredes azul bebê fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/powder-blue-matte-bathroom-paint/application-white.webp",
+                "#f5f5f5": "images/powder-blue-matte-bathroom-paint/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bucket",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bucket",
+                "other": "buckets"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        },
+        {
+          "id": "18-l",
+          "sku": "CON-POWDER-BLUE-MATTE-BATHROOM-PAINT-18-L",
+          "options": {
+            "color": "powder-blue",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 499,
+            "USD": 175
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White bucket with a wide band of powder blue paint",
+                "pt-BR": "Balde branco com uma faixa larga de tinta azul bebê"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/powder-blue-matte-bathroom-paint/main-white.webp",
+                "#f5f5f5": "images/powder-blue-matte-bathroom-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom with powder blue matte walls",
+                "pt-BR": "Banheiro com paredes azul bebê fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/powder-blue-matte-bathroom-paint/application-white.webp",
+                "#f5f5f5": "images/powder-blue-matte-bathroom-paint/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bucket",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bucket",
+                "other": "buckets"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "bucket",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "bucket",
+            "other": "buckets"
+          },
+          "pt-BR": {
+            "one": "balde",
+            "other": "baldes"
           }
         }
       }
@@ -137012,6 +138054,263 @@
       }
     },
     {
+      "id": "warm-gray-matte-bathroom-paint",
+      "categoryId": "construcao-tintas",
+      "unitId": "bucket",
+      "name": {
+        "en": "Warm Gray Matte Moisture-Resistant Acrylic Paint for Bathrooms, a Soft Flat Finish that Hides Wall Flaws",
+        "pt-BR": "Tinta Acrílica Fosca Cinza Quente Resistente à Umidade para Banheiros, Acabamento Fosco Suave que Disfarça Imperfeições"
+      },
+      "description": {
+        "en": "A warm light gray acrylic with a flat matte finish for bathrooms. Moisture-resistant, so it holds up to showers and steam, and the flat finish hides patches and uneven plaster. The listed price is the 3.6 liter bucket.",
+        "pt-BR": "Tinta acrílica cinza claro quente com acabamento fosco para banheiros. Resistente à umidade, aguenta chuveiro e vapor, e o fosco disfarça remendos e reboco irregular. O preço anunciado é do balde de 3,6 litros."
+      },
+      "price": {
+        "BRL": 139.9,
+        "USD": 51
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "gray paint",
+          "matte paint",
+          "bathroom paint",
+          "moisture resistant",
+          "wall paint"
+        ],
+        "pt-BR": [
+          "tinta cinza",
+          "tinta fosca",
+          "tinta para banheiro",
+          "resistente à umidade",
+          "tinta para parede"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "medium",
+          "value": {
+            "en": "Medium",
+            "pt-BR": "Médio"
+          }
+        }
+      ],
+      "defaultVariantId": "3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "warm-gray",
+              "name": {
+                "en": "Warm gray",
+                "pt-BR": "Cinza quente"
+              },
+              "hex": "#BDB6AB"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "3-6-l",
+          "sku": "CON-WARM-GRAY-MATTE-BATHROOM-PAINT-3-6-L",
+          "options": {
+            "color": "warm-gray",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 139.9,
+            "USD": 51
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White bucket with a wide band of warm light gray paint",
+                "pt-BR": "Balde branco com uma faixa larga de tinta cinza claro quente"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/warm-gray-matte-bathroom-paint/main-white.webp",
+                "#f5f5f5": "images/warm-gray-matte-bathroom-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom with warm gray matte walls",
+                "pt-BR": "Banheiro com paredes cinza quente fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/warm-gray-matte-bathroom-paint/application-white.webp",
+                "#f5f5f5": "images/warm-gray-matte-bathroom-paint/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bucket",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bucket",
+                "other": "buckets"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        },
+        {
+          "id": "18-l",
+          "sku": "CON-WARM-GRAY-MATTE-BATHROOM-PAINT-18-L",
+          "options": {
+            "color": "warm-gray",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 499,
+            "USD": 175
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White bucket with a wide band of warm light gray paint",
+                "pt-BR": "Balde branco com uma faixa larga de tinta cinza claro quente"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/warm-gray-matte-bathroom-paint/main-white.webp",
+                "#f5f5f5": "images/warm-gray-matte-bathroom-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom with warm gray matte walls",
+                "pt-BR": "Banheiro com paredes cinza quente fosco"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/warm-gray-matte-bathroom-paint/application-white.webp",
+                "#f5f5f5": "images/warm-gray-matte-bathroom-paint/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bucket",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bucket",
+                "other": "buckets"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "bucket",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "bucket",
+            "other": "buckets"
+          },
+          "pt-BR": {
+            "one": "balde",
+            "other": "baldes"
+          }
+        }
+      }
+    },
+    {
       "id": "washed-construction-sand-base-layer",
       "deprecated": {
         "reason": "Same product and photo as \"washed-medium-sand\": the difference was only its intended use, or something that product already offers.",
@@ -143253,6 +144552,263 @@
           "pt-BR": {
             "one": "m²",
             "other": "m²"
+          }
+        }
+      }
+    },
+    {
+      "id": "white-matte-bathroom-paint",
+      "categoryId": "construcao-tintas",
+      "unitId": "bucket",
+      "name": {
+        "en": "Bright White Matte Acrylic Paint for Bathrooms, a Mildew-Resistant and Moisture-Resistant Flat Finish for Walls and Ceilings",
+        "pt-BR": "Tinta Acrílica Fosca Branca para Banheiros, Acabamento Fosco Resistente a Mofo e Umidade para Paredes e Tetos"
+      },
+      "description": {
+        "en": "A bright white flat matte acrylic made for bathrooms. It resists mildew and steam, hides small wall flaws and covers walls and ceilings in the same coat. The listed price is the 3.6 liter bucket.",
+        "pt-BR": "Tinta acrílica branca fosca feita para banheiros. Resiste a mofo e vapor, disfarça pequenas imperfeições da parede e serve para paredes e tetos. O preço anunciado é do balde de 3,6 litros."
+      },
+      "price": {
+        "BRL": 129.9,
+        "USD": 47
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "white paint",
+          "matte paint",
+          "bathroom paint",
+          "mildew resistant",
+          "ceiling paint"
+        ],
+        "pt-BR": [
+          "tinta branca",
+          "tinta fosca",
+          "tinta para banheiro",
+          "resistente a mofo",
+          "tinta para teto"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "acrylic",
+          "value": {
+            "en": "Acrylic",
+            "pt-BR": "Acrílico"
+          }
+        },
+        {
+          "id": "application",
+          "name": {
+            "en": "Application",
+            "pt-BR": "Uso"
+          },
+          "valueId": "indoor",
+          "value": {
+            "en": "Indoor",
+            "pt-BR": "Área interna"
+          }
+        },
+        {
+          "id": "look",
+          "name": {
+            "en": "Look",
+            "pt-BR": "Visual"
+          },
+          "valueId": "solid",
+          "value": {
+            "en": "Solid color",
+            "pt-BR": "Liso"
+          }
+        },
+        {
+          "id": "tone",
+          "name": {
+            "en": "Tone",
+            "pt-BR": "Tom"
+          },
+          "valueId": "light",
+          "value": {
+            "en": "Light",
+            "pt-BR": "Claro"
+          }
+        }
+      ],
+      "defaultVariantId": "3-6-l",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "bright-white",
+              "name": {
+                "en": "Bright white",
+                "pt-BR": "Branco neve"
+              },
+              "hex": "#F4F4F1"
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "name": {
+            "en": "Volume",
+            "pt-BR": "Volume"
+          },
+          "values": [
+            {
+              "id": "3-6-l",
+              "name": {
+                "en": "1 gal",
+                "pt-BR": "3,6 L"
+              }
+            },
+            {
+              "id": "18-l",
+              "name": {
+                "en": "5 gal",
+                "pt-BR": "18 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "3-6-l",
+          "sku": "CON-WHITE-MATTE-BATHROOM-PAINT-3-6-L",
+          "options": {
+            "color": "bright-white",
+            "volume": "3-6-l"
+          },
+          "price": {
+            "BRL": 129.9,
+            "USD": 47
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White bucket with a bright white band and a thin pale aqua stripe",
+                "pt-BR": "Balde branco com faixa branca e uma fina listra azul-água clara"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-matte-bathroom-paint/main-white.webp",
+                "#f5f5f5": "images/white-matte-bathroom-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom with bright white matte walls",
+                "pt-BR": "Banheiro com paredes brancas foscas"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-matte-bathroom-paint/application-white.webp",
+                "#f5f5f5": "images/white-matte-bathroom-paint/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bucket",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bucket",
+                "other": "buckets"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        },
+        {
+          "id": "18-l",
+          "sku": "CON-WHITE-MATTE-BATHROOM-PAINT-18-L",
+          "options": {
+            "color": "bright-white",
+            "volume": "18-l"
+          },
+          "price": {
+            "BRL": 469,
+            "USD": 165
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White bucket with a bright white band and a thin pale aqua stripe",
+                "pt-BR": "Balde branco com faixa branca e uma fina listra azul-água clara"
+              },
+              "backgrounds": {
+                "#ffffff": "main-white.png",
+                "#f5f5f5": "main-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-matte-bathroom-paint/main-white.webp",
+                "#f5f5f5": "images/white-matte-bathroom-paint/main-gray.webp"
+              }
+            },
+            {
+              "alt": {
+                "en": "Bathroom with bright white matte walls",
+                "pt-BR": "Banheiro com paredes brancas foscas"
+              },
+              "backgrounds": {
+                "#ffffff": "application-white.png",
+                "#f5f5f5": "application-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/white-matte-bathroom-paint/application-white.webp",
+                "#f5f5f5": "images/white-matte-bathroom-paint/application-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "bucket",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "bucket",
+                "other": "buckets"
+              },
+              "pt-BR": {
+                "one": "balde",
+                "other": "baldes"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "bucket",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "bucket",
+            "other": "buckets"
+          },
+          "pt-BR": {
+            "one": "balde",
+            "other": "baldes"
           }
         }
       }

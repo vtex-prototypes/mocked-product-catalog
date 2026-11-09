@@ -1,0 +1,167 @@
+{
+  "id": "powder-blue-matte-bathroom-paint",
+  "categoryId": "construcao-tintas",
+  "unitId": "bucket",
+  "name": {
+    "en": "Powder Blue Matte Acrylic Paint for Bathrooms and Laundry Rooms, a Mildew-Resistant Flat Spa Color for Walls",
+    "pt-BR": "Tinta Acrílica Fosca Azul Bebê para Banheiros e Lavanderias, Cor de Spa Resistente a Mofo com Acabamento Fosco para Paredes"
+  },
+  "description": {
+    "en": "A soft powder blue acrylic with a flat matte finish for bathrooms and laundry rooms. Mildew-resistant film that stands up to steam, in a calm spa color. The listed price is the 3.6 liter bucket.",
+    "pt-BR": "Tinta acrílica azul bebê suave com acabamento fosco para banheiros e lavanderias. Película resistente a mofo que aguenta vapor, em uma cor calma de spa. O preço anunciado é do balde de 3,6 litros."
+  },
+  "price": {
+    "BRL": 139.9,
+    "USD": 51
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "blue paint",
+      "matte paint",
+      "bathroom paint",
+      "mildew resistant",
+      "laundry room paint"
+    ],
+    "pt-BR": [
+      "tinta azul",
+      "tinta fosca",
+      "tinta para banheiro",
+      "resistente a mofo",
+      "tinta para lavanderia"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "powder-blue",
+          "name": {
+            "en": "Powder blue",
+            "pt-BR": "Azul bebê"
+          },
+          "hex": "#A9C6E3"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "3-6-l",
+      "sku": "CON-POWDER-BLUE-MATTE-BATHROOM-PAINT-3-6-L",
+      "options": {
+        "color": "powder-blue",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 139.9,
+        "USD": 51
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White bucket with a wide band of powder blue paint",
+            "pt-BR": "Balde branco com uma faixa larga de tinta azul bebê"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Bathroom with powder blue matte walls",
+            "pt-BR": "Banheiro com paredes azul bebê fosco"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18-l",
+      "sku": "CON-POWDER-BLUE-MATTE-BATHROOM-PAINT-18-L",
+      "options": {
+        "color": "powder-blue",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 499,
+        "USD": 175
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White bucket with a wide band of powder blue paint",
+            "pt-BR": "Balde branco com uma faixa larga de tinta azul bebê"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Bathroom with powder blue matte walls",
+            "pt-BR": "Banheiro com paredes azul bebê fosco"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

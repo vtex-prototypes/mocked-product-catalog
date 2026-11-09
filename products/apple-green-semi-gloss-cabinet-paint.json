@@ -1,0 +1,167 @@
+{
+  "id": "apple-green-semi-gloss-cabinet-paint",
+  "categoryId": "construcao-tintas",
+  "unitId": "bucket",
+  "name": {
+    "en": "Apple Green Semi-Gloss Acrylic Paint for Kitchen Cabinets, Doors and Trim, a Fresh Yellow-Green that Wipes Clean",
+    "pt-BR": "Tinta Acrílica Semibrilho Verde Maçã para Armários de Cozinha, Portas e Rodapés, Verde Fresco com Toque Amarelado Fácil de Limpar"
+  },
+  "description": {
+    "en": "A fresh apple green acrylic with a semi-gloss sheen for kitchen cabinets, interior doors and trim. The sheen resists grease and fingerprints and wipes clean with a damp sponge. The listed price is the 3.6 liter bucket.",
+    "pt-BR": "Tinta acrílica verde maçã fresca com semibrilho para armários de cozinha, portas internas e rodapés. O brilho resiste a gordura e digitais e limpa com esponja úmida. O preço anunciado é do balde de 3,6 litros."
+  },
+  "price": {
+    "BRL": 149.9,
+    "USD": 54
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "green paint",
+      "apple green",
+      "semi-gloss paint",
+      "cabinet paint",
+      "trim paint"
+    ],
+    "pt-BR": [
+      "tinta verde",
+      "verde maçã",
+      "tinta semibrilho",
+      "tinta para armário",
+      "tinta para rodapé"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "3-6-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "apple-green",
+          "name": {
+            "en": "Apple green",
+            "pt-BR": "Verde maçã"
+          },
+          "hex": "#78B83A"
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "name": {
+        "en": "Volume",
+        "pt-BR": "Volume"
+      },
+      "values": [
+        {
+          "id": "3-6-l",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "18-l",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "3-6-l",
+      "sku": "CON-APPLE-GREEN-SEMI-GLOSS-CABINET-PAINT-3-6-L",
+      "options": {
+        "color": "apple-green",
+        "volume": "3-6-l"
+      },
+      "price": {
+        "BRL": 149.9,
+        "USD": 54
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White bucket with a wide band of apple green paint",
+            "pt-BR": "Balde branco com uma faixa larga de tinta verde maçã"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Kitchen with cabinets and a door frame painted apple green",
+            "pt-BR": "Cozinha com armários e batente pintados de verde maçã"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18-l",
+      "sku": "CON-APPLE-GREEN-SEMI-GLOSS-CABINET-PAINT-18-L",
+      "options": {
+        "color": "apple-green",
+        "volume": "18-l"
+      },
+      "price": {
+        "BRL": 539,
+        "USD": 189
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White bucket with a wide band of apple green paint",
+            "pt-BR": "Balde branco com uma faixa larga de tinta verde maçã"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Kitchen with cabinets and a door frame painted apple green",
+            "pt-BR": "Cozinha com armários e batente pintados de verde maçã"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
