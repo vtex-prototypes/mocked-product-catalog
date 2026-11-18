@@ -1,0 +1,116 @@
+{
+  "id": "dishwasher",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar 24 Inch Built-In Dishwasher, 15 Place Settings, Quiet 44 dBA Operation, Third Rack for Utensils, Stainless Steel Tub, Energy Saving Eco Cycle",
+    "pt-BR": "Lava-Louças Lumelar de Embutir 60 cm, 15 Serviços, Operação Silenciosa de 44 dB, Terceira Cesta para Talheres, Cuba em Aço Inox, Ciclo Econômico de Energia"
+  },
+  "description": {
+    "en": "A quiet built-in dishwasher with a third rack for utensils and a stainless steel tub that resists stains and odors. The eco cycle cleans a full load while using less water and energy.",
+    "pt-BR": "Lava-louças de embutir silenciosa, com terceira cesta para talheres e cuba em aço inox que resiste a manchas e odores. O ciclo econômico lava uma carga cheia com menos água e energia."
+  },
+  "price": {
+    "BRL": 3499.9,
+    "USD": 649.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "dishwasher",
+      "built-in",
+      "kitchen appliance",
+      "quiet"
+    ],
+    "pt-BR": [
+      "lava-louças",
+      "de embutir",
+      "eletrodoméstico de cozinha",
+      "silenciosa"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    }
+  ],
+  "defaultVariantId": "stainless",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "stainless",
+          "name": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          },
+          "hex": "#C9CCCE"
+        },
+        {
+          "id": "black-stainless",
+          "name": {
+            "en": "Black stainless",
+            "pt-BR": "Inox preto"
+          },
+          "hex": "#3B3C3E"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "stainless",
+      "sku": "LML-DSW-SS",
+      "options": {
+        "color": "stainless"
+      },
+      "price": {
+        "BRL": 3499.9,
+        "USD": 649.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel built-in dishwasher with front control panel and handle, front view",
+            "pt-BR": "Lava-louças de embutir em aço inox com painel de controle e puxador, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-white.png",
+            "#f5f5f5": "stainless-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-stainless",
+      "sku": "LML-DSW-BS",
+      "options": {
+        "color": "black-stainless"
+      },
+      "price": {
+        "BRL": 3799.9,
+        "USD": 699.99
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black stainless steel built-in dishwasher with front control panel and handle, front view",
+            "pt-BR": "Lava-louças de embutir em inox preto com painel de controle e puxador, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-stainless-white.png",
+            "#f5f5f5": "black-stainless-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

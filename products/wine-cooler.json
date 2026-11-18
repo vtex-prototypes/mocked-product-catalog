@@ -1,0 +1,108 @@
+{
+  "id": "wine-cooler",
+  "brandId": "gelo-fino",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Gelo Fino Freestanding Wine Cooler with Tempered Glass Door, Chrome Wire Racks, Soft Blue LED Light, Digital Touch Controls, Quiet Compressor Cooling",
+    "pt-BR": "Adega Climatizada Gelo Fino de Piso com Porta de Vidro Temperado, Prateleiras Cromadas, Luz LED Azul Suave, Painel Digital de Toque, Compressor Silencioso"
+  },
+  "description": {
+    "en": "A freestanding wine cooler that holds bottles on their side at a steady temperature. The 12 bottle model is a slim single zone; the 24 bottle model is twice as wide, with two zones so reds and whites each get their own range.",
+    "pt-BR": "Adega climatizada de piso que guarda as garrafas deitadas em temperatura constante. O modelo de 12 garrafas é estreito e tem uma zona; o de 24 garrafas tem o dobro da largura e duas zonas, para tintos e brancos ficarem cada um na sua faixa."
+  },
+  "price": {
+    "BRL": 1499.9,
+    "USD": 249.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "wine cooler",
+      "wine fridge",
+      "kitchen appliance",
+      "freestanding"
+    ],
+    "pt-BR": [
+      "adega",
+      "adega climatizada",
+      "eletrodoméstico de cozinha",
+      "de piso"
+    ]
+  },
+  "defaultVariantId": "12-bottles",
+  "options": [
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "12-bottles",
+          "name": {
+            "en": "12 bottles",
+            "pt-BR": "12 garrafas"
+          }
+        },
+        {
+          "id": "24-bottles",
+          "name": {
+            "en": "24 bottles",
+            "pt-BR": "24 garrafas"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "12-bottles",
+      "sku": "GFN-WNC-12",
+      "options": {
+        "capacity": "12-bottles"
+      },
+      "price": {
+        "BRL": 1499.9,
+        "USD": 249.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Slim black wine cooler with glass door and chrome racks holding twelve bottles, three-quarter view",
+            "pt-BR": "Adega climatizada preta estreita com porta de vidro e prateleiras cromadas com doze garrafas, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "12-bottle-white.png",
+            "#f5f5f5": "12-bottle-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "24-bottles",
+      "sku": "GFN-WNC-24",
+      "options": {
+        "capacity": "24-bottles"
+      },
+      "price": {
+        "BRL": 2299.9,
+        "USD": 399.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Wide black dual zone wine cooler with glass door, red wine on the left and white wine on the right, three-quarter view",
+            "pt-BR": "Adega climatizada preta larga de duas zonas com porta de vidro, vinhos tintos à esquerda e brancos à direita, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "24-bottle-white.png",
+            "#f5f5f5": "24-bottle-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

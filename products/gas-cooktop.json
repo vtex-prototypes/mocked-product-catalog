@@ -1,0 +1,108 @@
+{
+  "id": "gas-cooktop",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar Built-In Gas Cooktop with Sealed Burners, Matte Black Enameled Surface, Cast-Iron Grates, Front Control Knobs, Automatic Electronic Ignition, Easy to Clean",
+    "pt-BR": "Cooktop a Gás Lumelar de Embutir com Queimadores Selados, Superfície Esmaltada Preta Fosca, Grades de Ferro Fundido, Acendimento Automático, Fácil de Limpar"
+  },
+  "description": {
+    "en": "A built-in gas cooktop with sealed burners that keep spills out and cast-iron grates that hold heavy pots. Choose 4 burners at 24 in or 5 burners, with a center wok burner, at 30 in; both light with one turn of the knob.",
+    "pt-BR": "Cooktop a gás de embutir com queimadores selados que seguram derramamentos e grades de ferro fundido para panelas pesadas. Escolha 4 bocas em 60 cm ou 5 bocas, com queimador tripla chama no centro, em 75 cm; as duas acendem com um giro do botão."
+  },
+  "price": {
+    "BRL": 1799.9,
+    "USD": 379.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "gas cooktop",
+      "built-in",
+      "kitchen appliance",
+      "sealed burners"
+    ],
+    "pt-BR": [
+      "cooktop a gás",
+      "de embutir",
+      "eletrodoméstico de cozinha",
+      "queimadores selados"
+    ]
+  },
+  "defaultVariantId": "4",
+  "options": [
+    {
+      "id": "burners",
+      "name": {
+        "en": "Burners",
+        "pt-BR": "Bocas"
+      },
+      "values": [
+        {
+          "id": "4",
+          "name": {
+            "en": "4",
+            "pt-BR": "4"
+          }
+        },
+        {
+          "id": "5",
+          "name": {
+            "en": "5",
+            "pt-BR": "5"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "4",
+      "sku": "LML-CKT-4B",
+      "options": {
+        "burners": "4"
+      },
+      "price": {
+        "BRL": 1799.9,
+        "USD": 379.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Square matte black gas cooktop with four burners under cast-iron grates and four knobs, seen from above at an angle",
+            "pt-BR": "Cooktop a gás preto fosco quadrado com quatro bocas sob grades de ferro fundido e quatro botões, visto de cima em ângulo"
+          },
+          "backgrounds": {
+            "#ffffff": "4-burner-white.png",
+            "#f5f5f5": "4-burner-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "sku": "LML-CKT-5B",
+      "options": {
+        "burners": "5"
+      },
+      "price": {
+        "BRL": 2599.9,
+        "USD": 549.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Wide matte black gas cooktop with five burners, a large center burner and cast-iron grates, seen from above at an angle",
+            "pt-BR": "Cooktop a gás preto fosco largo com cinco bocas, queimador grande no centro e grades de ferro fundido, visto de cima em ângulo"
+          },
+          "backgrounds": {
+            "#ffffff": "5-burner-white.png",
+            "#f5f5f5": "5-burner-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "gas-range",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar 30 Inch Freestanding Gas Range with Five Sealed Burners, Cast-Iron Grates, 5.0 Cu Ft Oven, Continuous Grates, Electronic Ignition, Broiler Drawer",
+    "pt-BR": "Fogão a Gás Lumelar de Piso 76 cm com Cinco Queimadores Selados, Grades de Ferro Fundido, Forno de 140 Litros, Grades Contínuas, Acendimento Eletrônico, Gaveta Aquecedora"
+  },
+  "description": {
+    "en": "A 30 in freestanding gas range with five sealed burners and heavy cast-iron grates that slide pots across the surface. The electronic ignition lights every burner and the oven with a single knob turn.",
+    "pt-BR": "Fogão a gás de piso de 76 cm com cinco queimadores selados e grades pesadas de ferro fundido, que deixam as panelas deslizar pela mesa. O acendimento eletrônico liga cada queimador e o forno com um giro do botão."
+  },
+  "price": {
+    "BRL": 3299.9,
+    "USD": 1099.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "gas range",
+      "freestanding",
+      "kitchen appliance",
+      "five burners"
+    ],
+    "pt-BR": [
+      "fogão a gás",
+      "de piso",
+      "eletrodoméstico de cozinha",
+      "cinco bocas"
+    ]
+  },
+  "defaultVariantId": "stainless",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "stainless",
+          "name": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          },
+          "hex": "#C9CCCE"
+        },
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F2"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "stainless",
+      "sku": "LML-GRG-SS",
+      "options": {
+        "color": "stainless"
+      },
+      "price": {
+        "BRL": 3299.9,
+        "USD": 1099.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel freestanding gas range with five burners and cast-iron grates, three-quarter view",
+            "pt-BR": "Fogão a gás de piso em aço inox com cinco bocas e grades de ferro fundido, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-white.png",
+            "#f5f5f5": "stainless-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white",
+      "sku": "LML-GRG-WH",
+      "options": {
+        "color": "white"
+      },
+      "price": {
+        "BRL": 2899.9,
+        "USD": 949.99
+      },
+      "availability": "out_of_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White freestanding gas range with five burners and cast-iron grates, three-quarter view",
+            "pt-BR": "Fogão a gás de piso branco com cinco bocas e grades de ferro fundido, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

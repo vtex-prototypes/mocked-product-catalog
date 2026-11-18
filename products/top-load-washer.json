@@ -1,0 +1,185 @@
+{
+  "id": "top-load-washer",
+  "brandId": "lumelar",
+  "categoryId": "eletro-lavanderia",
+  "name": {
+    "en": "Lumelar Top Load Washing Machine with Agitator, Deep Fill Option, 12 Wash Cycles, Stain Removal Cycle, Spill-Proof Lid, Quiet Direct Drive Motor",
+    "pt-BR": "Máquina de Lavar Lumelar de Carga Superior com Agitador, Nível de Água Extra, 12 Programas de Lavagem, Ciclo Antimanchas, Tampa de Vidro Reforçado, Motor Silencioso"
+  },
+  "description": {
+    "en": "A top load washer with an agitator that scrubs heavy loads clean, plus a deep fill option for bulky items. The stain removal cycle and quiet direct drive motor suit busy laundry days.",
+    "pt-BR": "Máquina de lavar de carga superior com agitador que limpa roupas pesadas e opção de nível de água extra para peças volumosas. O ciclo antimanchas e o motor silencioso facilitam a rotina de lavanderia."
+  },
+  "price": {
+    "BRL": 3299.9,
+    "USD": 749.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "washing machine",
+      "top load",
+      "laundry",
+      "washer"
+    ],
+    "pt-BR": [
+      "máquina de lavar",
+      "carga superior",
+      "lavanderia",
+      "lavadora"
+    ]
+  },
+  "defaultVariantId": "white-4-5-cu-ft",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F2"
+        },
+        {
+          "id": "graphite",
+          "name": {
+            "en": "Graphite",
+            "pt-BR": "Grafite"
+          },
+          "hex": "#4A4D52"
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "4-5-cu-ft",
+          "name": {
+            "en": "4.5 cu ft",
+            "pt-BR": "13 kg"
+          }
+        },
+        {
+          "id": "5-2-cu-ft",
+          "name": {
+            "en": "5.2 cu ft",
+            "pt-BR": "17 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-4-5-cu-ft",
+      "sku": "LML-TLW-WH-45",
+      "options": {
+        "color": "white",
+        "capacity": "4-5-cu-ft"
+      },
+      "price": {
+        "BRL": 3299.9,
+        "USD": 749.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White top load washing machine with rear control panel and a glass lid, three-quarter view",
+            "pt-BR": "Máquina de lavar branca de carga superior com painel traseiro e tampa de vidro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-5-2-cu-ft",
+      "sku": "LML-TLW-WH-52",
+      "options": {
+        "color": "white",
+        "capacity": "5-2-cu-ft"
+      },
+      "price": {
+        "BRL": 3899.9,
+        "USD": 849.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White top load washing machine with rear control panel and a glass lid, three-quarter view",
+            "pt-BR": "Máquina de lavar branca de carga superior com painel traseiro e tampa de vidro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "graphite-4-5-cu-ft",
+      "sku": "LML-TLW-GR-45",
+      "options": {
+        "color": "graphite",
+        "capacity": "4-5-cu-ft"
+      },
+      "price": {
+        "BRL": 3499.9,
+        "USD": 799.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Graphite top load washing machine with rear control panel and a glass lid, three-quarter view",
+            "pt-BR": "Máquina de lavar grafite de carga superior com painel traseiro e tampa de vidro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "graphite-white.png",
+            "#f5f5f5": "graphite-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "graphite-5-2-cu-ft",
+      "sku": "LML-TLW-GR-52",
+      "options": {
+        "color": "graphite",
+        "capacity": "5-2-cu-ft"
+      },
+      "price": {
+        "BRL": 4199.9,
+        "USD": 899.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Graphite top load washing machine with rear control panel and a glass lid, three-quarter view",
+            "pt-BR": "Máquina de lavar grafite de carga superior com painel traseiro e tampa de vidro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "graphite-white.png",
+            "#f5f5f5": "graphite-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
