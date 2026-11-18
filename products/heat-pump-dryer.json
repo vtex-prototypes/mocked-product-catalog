@@ -1,0 +1,110 @@
+{
+  "id": "heat-pump-dryer",
+  "brandId": "lumelar",
+  "categoryId": "eletro-lavanderia",
+  "name": {
+    "en": "Lumelar 24 Inch Ventless Heat Pump Clothes Dryer, No Duct Needed, Plugs into a Regular Outlet, Gentle Low Heat Drying, Moisture Sensor, Reversible Door",
+    "pt-BR": "Secadora de Roupas Lumelar com Bomba de Calor 60 cm, Sem Duto de Exaustão, Tomada Comum, Secagem Delicada a Baixa Temperatura, Sensor de Umidade"
+  },
+  "description": {
+    "en": "A ventless heat pump dryer that needs no duct and plugs into a regular outlet, so it fits where a vented dryer cannot. Low heat drying is gentle on fabrics, and the water collects in a drawer you empty.",
+    "pt-BR": "Secadora com bomba de calor que dispensa duto de exaustão e liga em tomada comum, ideal onde uma secadora convencional não cabe. A secagem a baixa temperatura preserva os tecidos, e a água fica em um reservatório fácil de esvaziar."
+  },
+  "price": {
+    "BRL": 5999.9,
+    "USD": 1199.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "clothes dryer",
+      "heat pump",
+      "ventless",
+      "laundry"
+    ],
+    "pt-BR": [
+      "secadora de roupas",
+      "bomba de calor",
+      "sem exaustão",
+      "lavanderia"
+    ]
+  },
+  "defaultVariantId": "white",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F2"
+        },
+        {
+          "id": "graphite",
+          "name": {
+            "en": "Graphite",
+            "pt-BR": "Grafite"
+          },
+          "hex": "#4A4D52"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white",
+      "sku": "LML-HPD-WH",
+      "options": {
+        "color": "white"
+      },
+      "price": {
+        "BRL": 5999.9,
+        "USD": 1199.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White compact front load dryer with a square door with rounded corners and a water container drawer at the top left, three-quarter view",
+            "pt-BR": "Secadora compacta branco de carga frontal com porta quadrada de cantos arredondados e gaveta do reservatório de água no canto superior esquerdo, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "graphite",
+      "sku": "LML-HPD-GR",
+      "options": {
+        "color": "graphite"
+      },
+      "price": {
+        "BRL": 6299.9,
+        "USD": 1249.99
+      },
+      "availability": "out_of_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Graphite compact front load dryer with a square door with rounded corners and a water container drawer at the top left, three-quarter view",
+            "pt-BR": "Secadora compacta grafite de carga frontal com porta quadrada de cantos arredondados e gaveta do reservatório de água no canto superior esquerdo, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "graphite-white.png",
+            "#f5f5f5": "graphite-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

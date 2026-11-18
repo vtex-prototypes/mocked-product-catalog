@@ -1,0 +1,108 @@
+{
+  "id": "wall-oven",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar 30 Inch Built-In Electric Wall Oven, Stainless Steel, True Convection, Self-Clean Cycle, Dark Glass Window, Bar Handle, Digital Touch Controls",
+    "pt-BR": "Forno Elétrico de Parede Lumelar de Embutir 76 cm em Aço Inox, Convecção Verdadeira, Ciclo de Autolimpeza, Janela de Vidro Escuro, Controles Digitais"
+  },
+  "description": {
+    "en": "A 30 in stainless steel wall oven with convection that circulates hot air for even baking. Choose a single oven, or a double to cook two dishes at different temperatures.",
+    "pt-BR": "Forno de parede de 76 cm em aço inox com convecção, que circula o ar quente para assar de forma uniforme. Escolha o modelo simples ou o duplo, para preparar dois pratos em temperaturas diferentes."
+  },
+  "price": {
+    "BRL": 8999.9,
+    "USD": 1799.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "wall oven",
+      "built-in",
+      "convection",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "forno de parede",
+      "de embutir",
+      "convecção",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "configuration",
+      "name": {
+        "en": "Configuration",
+        "pt-BR": "Configuração"
+      },
+      "values": [
+        {
+          "id": "double",
+          "name": {
+            "en": "Double",
+            "pt-BR": "Duplo"
+          }
+        },
+        {
+          "id": "single",
+          "name": {
+            "en": "Single",
+            "pt-BR": "Simples"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "LML-WLO-SI",
+      "options": {
+        "configuration": "single"
+      },
+      "price": {
+        "BRL": 8999.9,
+        "USD": 1799.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel built-in electric wall oven with a dark glass window and a bar handle, front view",
+            "pt-BR": "Forno elétrico de parede de embutir em aço inox com janela de vidro escuro e puxador de barra, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "single-white.png",
+            "#f5f5f5": "single-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "double",
+      "sku": "LML-WLO-DO",
+      "options": {
+        "configuration": "double"
+      },
+      "price": {
+        "BRL": 15999.9,
+        "USD": 3299.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel built-in double electric wall oven with two stacked ovens, each with a dark glass window and a bar handle, front view",
+            "pt-BR": "Forno elétrico duplo de parede de embutir em aço inox, com dois fornos empilhados, cada um com janela de vidro escuro e puxador de barra, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "double-white.png",
+            "#f5f5f5": "double-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

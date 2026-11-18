@@ -1,0 +1,110 @@
+{
+  "id": "compact-front-load-washer",
+  "brandId": "lumelar",
+  "categoryId": "eletro-lavanderia",
+  "name": {
+    "en": "Lumelar 24 Inch Compact Front Load Washing Machine, 2.4 cu ft Drum, Fits Under a Counter, Digital Display, Quick Wash, Steam Refresh, Quiet Inverter Motor",
+    "pt-BR": "Máquina de Lavar Compacta Lumelar de Carga Frontal 60 cm, Tambor de 8 kg, Cabe sob a Bancada, Visor Digital, Lavagem Rápida, Vapor Refrescante"
+  },
+  "description": {
+    "en": "A 24 in wide front load washer sized for apartments, laundry closets and spots under a counter. It holds 2.4 cu ft, and the quick wash and steam refresh cycles keep small loads moving.",
+    "pt-BR": "Máquina de lavar de carga frontal com 60 cm de largura, pensada para apartamentos, nichos de lavanderia e espaços sob a bancada. Tem capacidade para 8 kg, e os ciclos de lavagem rápida e vapor refrescante agilizam cargas pequenas."
+  },
+  "price": {
+    "BRL": 4299.9,
+    "USD": 899.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "washing machine",
+      "compact",
+      "front load",
+      "laundry"
+    ],
+    "pt-BR": [
+      "máquina de lavar",
+      "compacta",
+      "carga frontal",
+      "lavanderia"
+    ]
+  },
+  "defaultVariantId": "white",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F2"
+        },
+        {
+          "id": "silver",
+          "name": {
+            "en": "Silver",
+            "pt-BR": "Prata"
+          },
+          "hex": "#B8BBBE"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white",
+      "sku": "LML-CFW-WH",
+      "options": {
+        "color": "white"
+      },
+      "price": {
+        "BRL": 4299.9,
+        "USD": 899.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White narrow compact front load washing machine with a round chrome-rimmed door and a slim control strip with a digital display, front view",
+            "pt-BR": "Máquina de lavar compacta branco de carga frontal, estreita, com porta redonda de aro cromado e painel fino com visor digital, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "silver",
+      "sku": "LML-CFW-SI",
+      "options": {
+        "color": "silver"
+      },
+      "price": {
+        "BRL": 4599.9,
+        "USD": 949.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Silver narrow compact front load washing machine with a round chrome-rimmed door and a slim control strip with a digital display, front view",
+            "pt-BR": "Máquina de lavar compacta prata de carga frontal, estreita, com porta redonda de aro cromado e painel fino com visor digital, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "silver-white.png",
+            "#f5f5f5": "silver-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

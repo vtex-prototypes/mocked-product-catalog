@@ -1,0 +1,116 @@
+{
+  "id": "chest-freezer",
+  "brandId": "gelo-fino",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Gelo Fino Chest Freezer with Adjustable Thermostat Dial, Removable Storage Basket, Soft Close Lid Hinge, Defrost Drain, Garage Ready",
+    "pt-BR": "Freezer Horizontal Gelo Fino com Seletor de Temperatura Ajustável, Cesto Removível, Tampa com Dobradiça Suave, Dreno para Descongelamento, Para Garagem"
+  },
+  "description": {
+    "en": "A chest freezer for bulk buys and batch cooking, with an adjustable thermostat dial and a removable basket. The soft close lid holds its position and the drain makes defrosting simple.",
+    "pt-BR": "Freezer horizontal para compras em quantidade e preparos em lote, com seletor de temperatura ajustável e cesto removível. A tampa de fechamento suave fica na posição e o dreno facilita o descongelamento."
+  },
+  "price": {
+    "BRL": 1299.9,
+    "USD": 229.99
+  },
+  "listPrice": {
+    "BRL": 1499.9,
+    "USD": 269.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "chest freezer",
+      "freezer",
+      "bulk storage",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "freezer horizontal",
+      "freezer",
+      "armazenamento em quantidade",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "defaultVariantId": "5-cu-ft",
+  "options": [
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "5-cu-ft",
+          "name": {
+            "en": "5 cu ft",
+            "pt-BR": "150 L"
+          }
+        },
+        {
+          "id": "9-cu-ft",
+          "name": {
+            "en": "9 cu ft",
+            "pt-BR": "260 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "5-cu-ft",
+      "sku": "GFN-CHF-5",
+      "options": {
+        "capacity": "5-cu-ft"
+      },
+      "price": {
+        "BRL": 1299.9,
+        "USD": 229.99
+      },
+      "listPrice": {
+        "BRL": 1499.9,
+        "USD": 269.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White chest freezer with the lid closed and a small control dial at the front, three-quarter view",
+            "pt-BR": "Freezer horizontal branco com a tampa fechada e um pequeno seletor de temperatura na frente, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "5-cu-ft-white.png",
+            "#f5f5f5": "5-cu-ft-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9-cu-ft",
+      "sku": "GFN-CHF-9",
+      "options": {
+        "capacity": "9-cu-ft"
+      },
+      "price": {
+        "BRL": 1799.9,
+        "USD": 329.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Long white chest freezer with the lid closed and a small control dial at the front, three-quarter view",
+            "pt-BR": "Freezer horizontal branco, mais comprido, com a tampa fechada e um pequeno seletor de temperatura na frente, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "9-cu-ft-white.png",
+            "#f5f5f5": "9-cu-ft-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

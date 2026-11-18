@@ -1,0 +1,118 @@
+{
+  "id": "over-the-range-microwave",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar 30 Inch Over-the-Range Microwave Oven, 1.9 cu ft, 300 CFM Vent Fan, Sensor Cooking, Glass Door, Bar Handle, Cooktop Light, 1000 Watts",
+    "pt-BR": "Micro-ondas Lumelar de Embutir 54 L para Instalar sobre o Fogão, 76 cm, Exaustor de 510 m³/h, Cozimento por Sensor, Porta de Vidro, Iluminação do Fogão"
+  },
+  "description": {
+    "en": "A 30 in microwave that mounts above the range and doubles as a vent fan with 300 CFM of airflow. The cooktop light and sensor cooking make everyday meals easier.",
+    "pt-BR": "Micro-ondas de 76 cm para instalar acima do fogão, com exaustor de 510 m³/h integrado. A iluminação do fogão e o cozimento por sensor facilitam as refeições do dia a dia."
+  },
+  "price": {
+    "BRL": 1799.9,
+    "USD": 349.99
+  },
+  "listPrice": {
+    "BRL": 2099.9,
+    "USD": 399.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "microwave",
+      "over the range",
+      "vent fan",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "micro-ondas",
+      "sobre o fogão",
+      "exaustor",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "defaultVariantId": "stainless",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "stainless",
+          "name": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          },
+          "hex": "#C9CCCE"
+        },
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1F2022"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "stainless",
+      "sku": "LML-MWO-OTR-SS",
+      "options": {
+        "color": "stainless"
+      },
+      "price": {
+        "BRL": 1799.9,
+        "USD": 349.99
+      },
+      "listPrice": {
+        "BRL": 2099.9,
+        "USD": 399.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel wide over-the-range microwave with a glass door, a long bar handle and a vertical keypad panel, front view",
+            "pt-BR": "Micro-ondas de embutir aço inox, largo, para instalar sobre o fogão, com porta de vidro, puxador de barra longo e painel de teclas vertical, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-white.png",
+            "#f5f5f5": "stainless-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black",
+      "sku": "LML-MWO-OTR-BK",
+      "options": {
+        "color": "black"
+      },
+      "price": {
+        "BRL": 1899.9,
+        "USD": 379.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black wide over-the-range microwave with a glass door, a long bar handle and a vertical keypad panel, front view",
+            "pt-BR": "Micro-ondas de embutir preto, largo, para instalar sobre o fogão, com porta de vidro, puxador de barra longo e painel de teclas vertical, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
