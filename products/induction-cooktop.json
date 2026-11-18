@@ -1,0 +1,108 @@
+{
+  "id": "induction-cooktop",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar Built-In Induction Cooktop with Frameless Black Glass Surface, Touch Slider Controls, Booster Power, Child Lock, Pan Detection, Easy Clean",
+    "pt-BR": "Cooktop de Indução Lumelar de Embutir com Superfície de Vidro Preto sem Moldura, Controle por Toque Deslizante, Função Turbo, Trava Infantil, Fácil de Limpar"
+  },
+  "description": {
+    "en": "A frameless black glass induction cooktop with touch slider controls that heat pans quickly and keep the surface cool. The 4 zone model is 24 in (60 cm) wide, and the 5 zone model is 30 in (77 cm).",
+    "pt-BR": "Cooktop de indução de vidro preto sem moldura, com controle por toque deslizante que aquece panelas rápido e mantém a superfície fria. O modelo de 4 zonas tem 60 cm (24 in) de largura, e o de 5 zonas tem 77 cm (30 in)."
+  },
+  "price": {
+    "BRL": 4999.9,
+    "USD": 999.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "induction cooktop",
+      "built-in",
+      "touch controls",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "cooktop de indução",
+      "de embutir",
+      "controle por toque",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "defaultVariantId": "4-zone",
+  "options": [
+    {
+      "id": "zones",
+      "name": {
+        "en": "Cooking zones",
+        "pt-BR": "Zonas de aquecimento"
+      },
+      "values": [
+        {
+          "id": "4",
+          "name": {
+            "en": "4",
+            "pt-BR": "4"
+          }
+        },
+        {
+          "id": "5",
+          "name": {
+            "en": "5",
+            "pt-BR": "5"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "4-zone",
+      "sku": "LML-IND-4Z",
+      "options": {
+        "zones": "4"
+      },
+      "price": {
+        "BRL": 4999.9,
+        "USD": 999.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Frameless black glass induction cooktop with 4 cooking zones shown as faint circle outlines and a touch control strip at the front, seen from above at an angle",
+            "pt-BR": "Cooktop de indução de vidro preto sem moldura com 4 zonas de aquecimento marcadas por círculos discretos e faixa de controle por toque na frente, visto de cima em ângulo"
+          },
+          "backgrounds": {
+            "#ffffff": "4-zone-white.png",
+            "#f5f5f5": "4-zone-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5-zone",
+      "sku": "LML-IND-5Z",
+      "options": {
+        "zones": "5"
+      },
+      "price": {
+        "BRL": 6499.9,
+        "USD": 1299.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Frameless black glass induction cooktop with 5 cooking zones shown as faint circle outlines and a touch control strip at the front, seen from above at an angle",
+            "pt-BR": "Cooktop de indução de vidro preto sem moldura com 5 zonas de aquecimento marcadas por círculos discretos e faixa de controle por toque na frente, visto de cima em ângulo"
+          },
+          "backgrounds": {
+            "#ffffff": "5-zone-white.png",
+            "#f5f5f5": "5-zone-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

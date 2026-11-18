@@ -1,0 +1,185 @@
+{
+  "id": "stacked-washer-dryer",
+  "brandId": "lumelar",
+  "categoryId": "eletro-lavanderia",
+  "name": {
+    "en": "Lumelar Stacked Laundry Center with Top Load Washer Below and Front Load Dryer Above, 27 Inch Wide, Single Control Panel, Steam Refresh, Wrinkle Care",
+    "pt-BR": "Lava e Seca Empilhada Lumelar com Lavadora de Carga Superior Embaixo e Secadora Frontal em Cima, 68 cm de Largura, Painel Único, Vapor, Antivinco"
+  },
+  "description": {
+    "en": "A washer and dryer built as one tall unit that frees up floor space and puts both controls in a single panel. Pick the electric model, or the gas model if the laundry room has a gas hookup.",
+    "pt-BR": "Lavadora e secadora em um só aparelho alto, que economiza espaço no chão e reúne os dois comandos em um único painel. Escolha o modelo elétrico ou o a gás, se a lavanderia tiver ligação de gás."
+  },
+  "price": {
+    "BRL": 7499.9,
+    "USD": 1499.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "laundry tower",
+      "washer dryer",
+      "stacked",
+      "laundry"
+    ],
+    "pt-BR": [
+      "torre de lavanderia",
+      "lava e seca",
+      "empilhada",
+      "lavanderia"
+    ]
+  },
+  "defaultVariantId": "electric-white",
+  "options": [
+    {
+      "id": "fuel",
+      "name": {
+        "en": "Fuel type",
+        "pt-BR": "Tipo de energia"
+      },
+      "values": [
+        {
+          "id": "electric",
+          "name": {
+            "en": "Electric",
+            "pt-BR": "Elétrica"
+          }
+        },
+        {
+          "id": "gas",
+          "name": {
+            "en": "Gas",
+            "pt-BR": "A gás"
+          }
+        }
+      ]
+    },
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F2"
+        },
+        {
+          "id": "silver",
+          "name": {
+            "en": "Silver",
+            "pt-BR": "Prata"
+          },
+          "hex": "#B8BBBE"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "electric-white",
+      "sku": "LML-SWD-EL-WH",
+      "options": {
+        "fuel": "electric",
+        "color": "white"
+      },
+      "price": {
+        "BRL": 7499.9,
+        "USD": 1499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White stacked laundry center with a front load dryer on top and a top load washer below, with a single control panel in the middle, three-quarter view",
+            "pt-BR": "Central de lavanderia empilhada branca com a secadora no alto, com porta própria, e a máquina de lavar de carga superior embaixo, com painel único no meio, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "electric-silver",
+      "sku": "LML-SWD-EL-SI",
+      "options": {
+        "fuel": "electric",
+        "color": "silver"
+      },
+      "price": {
+        "BRL": 7799.9,
+        "USD": 1549.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Silver stacked laundry center with a front load dryer on top and a top load washer below, with a single control panel in the middle, three-quarter view",
+            "pt-BR": "Central de lavanderia empilhada prata com a secadora no alto, com porta própria, e a máquina de lavar de carga superior embaixo, com painel único no meio, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "silver-white.png",
+            "#f5f5f5": "silver-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gas-white",
+      "sku": "LML-SWD-GA-WH",
+      "options": {
+        "fuel": "gas",
+        "color": "white"
+      },
+      "price": {
+        "BRL": 7999.9,
+        "USD": 1599.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White stacked laundry center with a front load dryer on top and a top load washer below, with a single control panel in the middle, three-quarter view",
+            "pt-BR": "Central de lavanderia empilhada branca com a secadora no alto, com porta própria, e a máquina de lavar de carga superior embaixo, com painel único no meio, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gas-silver",
+      "sku": "LML-SWD-GA-SI",
+      "options": {
+        "fuel": "gas",
+        "color": "silver"
+      },
+      "price": {
+        "BRL": 8499.9,
+        "USD": 1699.99
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Silver stacked laundry center with a front load dryer on top and a top load washer below, with a single control panel in the middle, three-quarter view",
+            "pt-BR": "Central de lavanderia empilhada prata com a secadora no alto, com porta própria, e a máquina de lavar de carga superior embaixo, com painel único no meio, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "silver-white.png",
+            "#f5f5f5": "silver-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

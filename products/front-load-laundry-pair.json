@@ -1,0 +1,111 @@
+{
+  "id": "front-load-laundry-pair",
+  "brandId": "lumelar",
+  "categoryId": "eletro-lavanderia",
+  "unitId": "set",
+  "name": {
+    "en": "Lumelar Front Load Washer and Electric Dryer Set, Matching Design, Steam Cycles, Sensor Drying, Stackable, Quiet Motors, Wrinkle Care, Reversible Dryer Door",
+    "pt-BR": "Conjunto Lumelar de Lavadora de Carga Frontal e Secadora Elétrica, Design Combinando, Ciclos a Vapor, Secagem por Sensor, Empilháveis, Motores Silenciosos"
+  },
+  "description": {
+    "en": "A front load washer and a matching electric dryer sold together as a set, so the laundry room looks uniform. Both can sit side by side or stack, and they share steam cycles and sensor drying.",
+    "pt-BR": "Lavadora de carga frontal e secadora elétrica combinando, vendidas juntas em um conjunto que deixa a lavanderia uniforme. Podem ficar lado a lado ou empilhadas e compartilham ciclos a vapor e secagem por sensor."
+  },
+  "price": {
+    "BRL": 8999.9,
+    "USD": 1799.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "laundry set",
+      "washer and dryer",
+      "front load",
+      "laundry"
+    ],
+    "pt-BR": [
+      "conjunto de lavanderia",
+      "lavadora e secadora",
+      "carga frontal",
+      "lavanderia"
+    ]
+  },
+  "defaultVariantId": "white",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F2"
+        },
+        {
+          "id": "graphite",
+          "name": {
+            "en": "Graphite",
+            "pt-BR": "Grafite"
+          },
+          "hex": "#4A4D52"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white",
+      "sku": "LML-FLP-WH",
+      "options": {
+        "color": "white"
+      },
+      "price": {
+        "BRL": 8999.9,
+        "USD": 1799.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White front load washer and a matching dryer standing side by side, front view",
+            "pt-BR": "Máquina de lavar de carga frontal e secadora combinando, na cor branco, lado a lado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "graphite",
+      "sku": "LML-FLP-GR",
+      "options": {
+        "color": "graphite"
+      },
+      "price": {
+        "BRL": 9799.9,
+        "USD": 1949.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Graphite front load washer and a matching dryer standing side by side, front view",
+            "pt-BR": "Máquina de lavar de carga frontal e secadora combinando, na cor grafite, lado a lado, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "graphite-white.png",
+            "#f5f5f5": "graphite-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

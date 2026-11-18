@@ -1,0 +1,185 @@
+{
+  "id": "agitator-top-load-washer",
+  "brandId": "lumelar",
+  "categoryId": "eletro-lavanderia",
+  "name": {
+    "en": "Lumelar Top Load Washing Machine with Tall Center Agitator, Rear Dial Console, 9 Wash Cycles, Heavy Duty Cycle, Soak Option, Auto Load Sensing",
+    "pt-BR": "Máquina de Lavar Lumelar de Carga Superior com Agitador Central Alto, Painel Traseiro com Seletores, 9 Programas, Ciclo Pesado, Opção de Molho"
+  },
+  "description": {
+    "en": "A classic top load washer with a tall center agitator and a solid lid. Simple dials, a heavy duty cycle and a soak option handle everyday loads and work clothes alike.",
+    "pt-BR": "Máquina de lavar clássica de carga superior, com agitador central alto e tampa sólida. Os seletores simples, o ciclo pesado e a opção de molho dão conta de roupas do dia a dia e de trabalho."
+  },
+  "price": {
+    "BRL": 3299.9,
+    "USD": 649.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "washing machine",
+      "top load",
+      "agitator",
+      "laundry"
+    ],
+    "pt-BR": [
+      "máquina de lavar",
+      "carga superior",
+      "agitador",
+      "lavanderia"
+    ]
+  },
+  "defaultVariantId": "white-3-8-cu-ft",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F2"
+        },
+        {
+          "id": "silver",
+          "name": {
+            "en": "Silver",
+            "pt-BR": "Prata"
+          },
+          "hex": "#B8BBBE"
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "3-8-cu-ft",
+          "name": {
+            "en": "3.8 cu ft",
+            "pt-BR": "12 kg"
+          }
+        },
+        {
+          "id": "4-3-cu-ft",
+          "name": {
+            "en": "4.3 cu ft",
+            "pt-BR": "15 kg"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-3-8-cu-ft",
+      "sku": "LML-AGW-WH-38",
+      "options": {
+        "color": "white",
+        "capacity": "3-8-cu-ft"
+      },
+      "price": {
+        "BRL": 3299.9,
+        "USD": 649.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White top load washing machine with the solid lid open showing a tall center agitator and a rear control console with dials, three-quarter view",
+            "pt-BR": "Máquina de lavar branco de carga superior com a tampa sólida aberta mostrando o agitador central alto e painel traseiro com seletores, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-4-3-cu-ft",
+      "sku": "LML-AGW-WH-43",
+      "options": {
+        "color": "white",
+        "capacity": "4-3-cu-ft"
+      },
+      "price": {
+        "BRL": 3599.9,
+        "USD": 699.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White top load washing machine with the solid lid open showing a tall center agitator and a rear control console with dials, three-quarter view",
+            "pt-BR": "Máquina de lavar branco de carga superior com a tampa sólida aberta mostrando o agitador central alto e painel traseiro com seletores, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "silver-3-8-cu-ft",
+      "sku": "LML-AGW-SI-38",
+      "options": {
+        "color": "silver",
+        "capacity": "3-8-cu-ft"
+      },
+      "price": {
+        "BRL": 3499.9,
+        "USD": 679.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Silver top load washing machine with the solid lid open showing a tall center agitator and a rear control console with dials, three-quarter view",
+            "pt-BR": "Máquina de lavar prata de carga superior com a tampa sólida aberta mostrando o agitador central alto e painel traseiro com seletores, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "silver-white.png",
+            "#f5f5f5": "silver-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "silver-4-3-cu-ft",
+      "sku": "LML-AGW-SI-43",
+      "options": {
+        "color": "silver",
+        "capacity": "4-3-cu-ft"
+      },
+      "price": {
+        "BRL": 3899.9,
+        "USD": 749.99
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Silver top load washing machine with the solid lid open showing a tall center agitator and a rear control console with dials, three-quarter view",
+            "pt-BR": "Máquina de lavar prata de carga superior com a tampa sólida aberta mostrando o agitador central alto e painel traseiro com seletores, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "silver-white.png",
+            "#f5f5f5": "silver-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
