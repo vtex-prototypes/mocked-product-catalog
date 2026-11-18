@@ -1,0 +1,205 @@
+{
+  "id": "french-door-refrigerator",
+  "brandId": "gelo-fino",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Gelo Fino French Door Refrigerator with Bottom Freezer Drawer, Internal Water Dispenser, Ice Maker, Humidity-Controlled Crisper Drawers, Fingerprint Resistant Finish",
+    "pt-BR": "Geladeira Gelo Fino French Door com Gaveta Freezer Inferior, Dispenser Interno de Água, Fábrica de Gelo, Gavetas com Controle de Umidade, Acabamento Antidigitais"
+  },
+  "description": {
+    "en": "A French door refrigerator with a roomy bottom freezer drawer and an ice maker. Humidity-controlled drawers keep produce fresh longer, and the fingerprint resistant finish wipes clean.",
+    "pt-BR": "Geladeira French Door com amplo freezer em gaveta na parte inferior e fábrica de gelo. As gavetas com controle de umidade mantêm legumes frescos por mais tempo, e o acabamento antidigitais limpa com facilidade."
+  },
+  "price": {
+    "BRL": 9999.9,
+    "USD": 2199.99
+  },
+  "listPrice": {
+    "BRL": 11499.9,
+    "USD": 2499.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "refrigerator",
+      "french door",
+      "bottom freezer",
+      "ice maker"
+    ],
+    "pt-BR": [
+      "geladeira",
+      "french door",
+      "freezer inferior",
+      "fábrica de gelo"
+    ]
+  },
+  "defaultVariantId": "stainless-25-cu-ft",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "stainless",
+          "name": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          },
+          "hex": "#C9CCCE"
+        },
+        {
+          "id": "black-stainless",
+          "name": {
+            "en": "Black stainless",
+            "pt-BR": "Inox preto"
+          },
+          "hex": "#3B3C3E"
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "25-cu-ft",
+          "name": {
+            "en": "25 cu ft",
+            "pt-BR": "700 L"
+          }
+        },
+        {
+          "id": "28-cu-ft",
+          "name": {
+            "en": "28 cu ft",
+            "pt-BR": "790 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "stainless-25-cu-ft",
+      "sku": "GFN-FDR-SS-25",
+      "options": {
+        "color": "stainless",
+        "capacity": "25-cu-ft"
+      },
+      "price": {
+        "BRL": 9999.9,
+        "USD": 2199.99
+      },
+      "listPrice": {
+        "BRL": 11499.9,
+        "USD": 2499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel French door refrigerator with bottom freezer drawer, front view",
+            "pt-BR": "Geladeira French Door em aço inox com gaveta freezer inferior, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-white.png",
+            "#f5f5f5": "stainless-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stainless-28-cu-ft",
+      "sku": "GFN-FDR-SS-28",
+      "options": {
+        "color": "stainless",
+        "capacity": "28-cu-ft"
+      },
+      "price": {
+        "BRL": 12999.9,
+        "USD": 2499.99
+      },
+      "listPrice": {
+        "BRL": 14499.9,
+        "USD": 2799.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel French door refrigerator with bottom freezer drawer, front view",
+            "pt-BR": "Geladeira French Door em aço inox com gaveta freezer inferior, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-white.png",
+            "#f5f5f5": "stainless-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-stainless-25-cu-ft",
+      "sku": "GFN-FDR-BS-25",
+      "options": {
+        "color": "black-stainless",
+        "capacity": "25-cu-ft"
+      },
+      "price": {
+        "BRL": 10499.9,
+        "USD": 2299.99
+      },
+      "listPrice": {
+        "BRL": 11999.9,
+        "USD": 2599.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black stainless steel French door refrigerator with bottom freezer drawer, front view",
+            "pt-BR": "Geladeira French Door em inox preto com gaveta freezer inferior, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-stainless-white.png",
+            "#f5f5f5": "black-stainless-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-stainless-28-cu-ft",
+      "sku": "GFN-FDR-BS-28",
+      "options": {
+        "color": "black-stainless",
+        "capacity": "28-cu-ft"
+      },
+      "price": {
+        "BRL": 13499.9,
+        "USD": 2599.99
+      },
+      "listPrice": {
+        "BRL": 14999.9,
+        "USD": 2899.99
+      },
+      "availability": "out_of_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black stainless steel French door refrigerator with bottom freezer drawer, front view",
+            "pt-BR": "Geladeira French Door em inox preto com gaveta freezer inferior, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "black-stainless-white.png",
+            "#f5f5f5": "black-stainless-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
