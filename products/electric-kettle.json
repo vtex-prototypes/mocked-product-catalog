@@ -1,0 +1,485 @@
+{
+  "id": "electric-kettle",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar KE17-W Electric Kettle with Cordless 360-Degree Base, 1500 Watts, Auto Shut-Off, Boil-Dry Protection, Wide-Mouth Lid, Comfort Handle",
+    "pt-BR": "Chaleira Elétrica Lumelar KE17-W com Base Sem Fio 360°, 1500 W, Desligamento Automático, Proteção contra Funcionamento a Seco, Tampa de Abertura Ampla, Alça Confortável"
+  },
+  "description": {
+    "en": "An electric kettle that boils water in minutes and shuts itself off when it reaches a boil. It lifts off a cordless base, so you can pour from either hand.",
+    "pt-BR": "Chaleira elétrica que ferve a água em poucos minutos e desliga sozinha ao atingir a fervura. Ela sai de uma base sem fio, então dá para servir com qualquer uma das mãos."
+  },
+  "price": {
+    "BRL": 299.9,
+    "USD": 79.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "electric kettle",
+      "hot water",
+      "tea",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "chaleira elétrica",
+      "água quente",
+      "chá",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polypropylene"
+    },
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    }
+  ],
+  "defaultVariantId": "white-1-25-l",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F1EC"
+        },
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        },
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        },
+        {
+          "id": "pistachio",
+          "name": {
+            "en": "Pistachio",
+            "pt-BR": "Pistache"
+          },
+          "hex": "#C3CF9A"
+        },
+        {
+          "id": "sage-green",
+          "name": {
+            "en": "Sage green",
+            "pt-BR": "Verde sálvia"
+          },
+          "hex": "#9CAF94"
+        },
+        {
+          "id": "ice-blue",
+          "name": {
+            "en": "Ice blue",
+            "pt-BR": "Azul gelo"
+          },
+          "hex": "#C7DCE3"
+        },
+        {
+          "id": "butter-yellow",
+          "name": {
+            "en": "Butter yellow",
+            "pt-BR": "Amarelo manteiga"
+          },
+          "hex": "#F1DD9B"
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "1-25-l",
+          "name": {
+            "en": "1.25 L",
+            "pt-BR": "1,25 L"
+          }
+        },
+        {
+          "id": "1-7-l",
+          "name": {
+            "en": "1.7 L",
+            "pt-BR": "1,7 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-1-25-l",
+      "sku": "LML-KTL-WH-125",
+      "options": {
+        "color": "white",
+        "capacity": "1-25-l"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 79.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White electric kettle with a rounded body, lid with a wide opening and a curved handle on a round base, three-quarter view",
+            "pt-BR": "Chaleira elétrica branco com corpo arredondado, tampa de abertura ampla e alça curva sobre base redonda, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-1-7-l",
+      "sku": "LML-KTL-WH-17",
+      "options": {
+        "color": "white",
+        "capacity": "1-7-l"
+      },
+      "price": {
+        "BRL": 369.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White electric kettle with a rounded body, lid with a wide opening and a curved handle on a round base, three-quarter view",
+            "pt-BR": "Chaleira elétrica branco com corpo arredondado, tampa de abertura ampla e alça curva sobre base redonda, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-1-25-l",
+      "sku": "LML-KTL-MB-125",
+      "options": {
+        "color": "matte-black",
+        "capacity": "1-25-l"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 79.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black electric kettle with a rounded body, lid with a wide opening and a curved handle on a round base, three-quarter view",
+            "pt-BR": "Chaleira elétrica preto fosco com corpo arredondado, tampa de abertura ampla e alça curva sobre base redonda, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-1-7-l",
+      "sku": "LML-KTL-MB-17",
+      "options": {
+        "color": "matte-black",
+        "capacity": "1-7-l"
+      },
+      "price": {
+        "BRL": 369.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black electric kettle with a rounded body, lid with a wide opening and a curved handle on a round base, three-quarter view",
+            "pt-BR": "Chaleira elétrica preto fosco com corpo arredondado, tampa de abertura ampla e alça curva sobre base redonda, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-1-25-l",
+      "sku": "LML-KTL-CR-125",
+      "options": {
+        "color": "cherry-red",
+        "capacity": "1-25-l"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 79.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red electric kettle with a rounded body, lid with a wide opening and a curved handle on a round base, three-quarter view",
+            "pt-BR": "Chaleira elétrica vermelho cereja com corpo arredondado, tampa de abertura ampla e alça curva sobre base redonda, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-1-7-l",
+      "sku": "LML-KTL-CR-17",
+      "options": {
+        "color": "cherry-red",
+        "capacity": "1-7-l"
+      },
+      "price": {
+        "BRL": 369.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red electric kettle with a rounded body, lid with a wide opening and a curved handle on a round base, three-quarter view",
+            "pt-BR": "Chaleira elétrica vermelho cereja com corpo arredondado, tampa de abertura ampla e alça curva sobre base redonda, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pistachio-1-25-l",
+      "sku": "LML-KTL-PI-125",
+      "options": {
+        "color": "pistachio",
+        "capacity": "1-25-l"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 79.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pistachio green electric kettle with a rounded body, lid with a wide opening and a curved handle on a round base, three-quarter view",
+            "pt-BR": "Chaleira elétrica verde pistache com corpo arredondado, tampa de abertura ampla e alça curva sobre base redonda, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "pistachio-white.png",
+            "#f5f5f5": "pistachio-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pistachio-1-7-l",
+      "sku": "LML-KTL-PI-17",
+      "options": {
+        "color": "pistachio",
+        "capacity": "1-7-l"
+      },
+      "price": {
+        "BRL": 369.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pistachio green electric kettle with a rounded body, lid with a wide opening and a curved handle on a round base, three-quarter view",
+            "pt-BR": "Chaleira elétrica verde pistache com corpo arredondado, tampa de abertura ampla e alça curva sobre base redonda, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "pistachio-white.png",
+            "#f5f5f5": "pistachio-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-green-1-25-l",
+      "sku": "LML-KTL-SG-125",
+      "options": {
+        "color": "sage-green",
+        "capacity": "1-25-l"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 79.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage green electric kettle with a rounded body, lid with a wide opening and a curved handle on a round base, three-quarter view",
+            "pt-BR": "Chaleira elétrica verde sálvia com corpo arredondado, tampa de abertura ampla e alça curva sobre base redonda, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-green-1-7-l",
+      "sku": "LML-KTL-SG-17",
+      "options": {
+        "color": "sage-green",
+        "capacity": "1-7-l"
+      },
+      "price": {
+        "BRL": 369.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage green electric kettle with a rounded body, lid with a wide opening and a curved handle on a round base, three-quarter view",
+            "pt-BR": "Chaleira elétrica verde sálvia com corpo arredondado, tampa de abertura ampla e alça curva sobre base redonda, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ice-blue-1-25-l",
+      "sku": "LML-KTL-IB-125",
+      "options": {
+        "color": "ice-blue",
+        "capacity": "1-25-l"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 79.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ice blue electric kettle with a rounded body, lid with a wide opening and a curved handle on a round base, three-quarter view",
+            "pt-BR": "Chaleira elétrica azul gelo com corpo arredondado, tampa de abertura ampla e alça curva sobre base redonda, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "ice-blue-white.png",
+            "#f5f5f5": "ice-blue-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ice-blue-1-7-l",
+      "sku": "LML-KTL-IB-17",
+      "options": {
+        "color": "ice-blue",
+        "capacity": "1-7-l"
+      },
+      "price": {
+        "BRL": 369.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ice blue electric kettle with a rounded body, lid with a wide opening and a curved handle on a round base, three-quarter view",
+            "pt-BR": "Chaleira elétrica azul gelo com corpo arredondado, tampa de abertura ampla e alça curva sobre base redonda, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "ice-blue-white.png",
+            "#f5f5f5": "ice-blue-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "butter-yellow-1-25-l",
+      "sku": "LML-KTL-BY-125",
+      "options": {
+        "color": "butter-yellow",
+        "capacity": "1-25-l"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 79.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Butter yellow electric kettle with a rounded body, lid with a wide opening and a curved handle on a round base, three-quarter view",
+            "pt-BR": "Chaleira elétrica amarelo manteiga com corpo arredondado, tampa de abertura ampla e alça curva sobre base redonda, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "butter-yellow-white.png",
+            "#f5f5f5": "butter-yellow-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "butter-yellow-1-7-l",
+      "sku": "LML-KTL-BY-17",
+      "options": {
+        "color": "butter-yellow",
+        "capacity": "1-7-l"
+      },
+      "price": {
+        "BRL": 369.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Butter yellow electric kettle with a rounded body, lid with a wide opening and a curved handle on a round base, three-quarter view",
+            "pt-BR": "Chaleira elétrica amarelo manteiga com corpo arredondado, tampa de abertura ampla e alça curva sobre base redonda, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "butter-yellow-white.png",
+            "#f5f5f5": "butter-yellow-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

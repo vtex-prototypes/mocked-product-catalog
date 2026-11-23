@@ -1,0 +1,83 @@
+{
+  "id": "grain-mill-attachment",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar All Metal Grain Mill Attachment for Stand Mixers, Adjustable from Cracked Grain to Fine Flour, Mills Wheat, Rice, Corn and Oats, Hub Mounted",
+    "pt-BR": "Moinho de Grãos Lumelar Todo em Metal para Batedeira, Regulagem de Grão Quebrado a Farinha Fina, Mói Trigo, Arroz, Milho e Aveia, Encaixe no Cubo"
+  },
+  "description": {
+    "en": "Mills wheat, rice, corn and oats at any setting from cracked grain to fine flour, and the all-metal body stands up to heavy use. It fits every Lumelar stand mixer's front hub.",
+    "pt-BR": "Mói trigo, arroz, milho e aveia em qualquer ponto, de grão quebrado a farinha fina, e o corpo todo em metal aguenta uso intenso. Encaixa no cubo frontal de qualquer batedeira Lumelar."
+  },
+  "price": {
+    "BRL": 849.9,
+    "USD": 159.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "grain mill",
+      "flour mill",
+      "stand mixer attachment",
+      "whole grain"
+    ],
+    "pt-BR": [
+      "moinho de grãos",
+      "moedor de farinha",
+      "acessório para batedeira",
+      "grãos integrais"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "fits-tool",
+      "valueId": "stand-mixer-hub"
+    }
+  ],
+  "defaultVariantId": "metal",
+  "options": [
+    {
+      "id": "material",
+      "name": {
+        "en": "Material",
+        "pt-BR": "Material"
+      },
+      "values": [
+        {
+          "id": "metal",
+          "name": {
+            "en": "All metal",
+            "pt-BR": "Todo em metal"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "metal",
+      "sku": "LML-GRM-MT",
+      "options": {
+        "material": "metal"
+      },
+      "price": {
+        "BRL": 849.9,
+        "USD": 159.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "All-metal grain mill attachment with hopper, adjustment knob and hub shaft, three-quarter view",
+            "pt-BR": "Acessório moinho de grãos todo em metal com funil, botão de regulagem e eixo de encaixe, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "grain-mill-white.png",
+            "#f5f5f5": "grain-mill-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

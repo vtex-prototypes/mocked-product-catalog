@@ -1,0 +1,251 @@
+{
+  "id": "silicone-spatula",
+  "brandId": "lumelar",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Lumelar Silicone Spatula with Wood Handle, Heat Resistant Flexible Head for Scraping Bowls, Folding Batter and Nonstick Pans, Dishwasher Safe",
+    "pt-BR": "Espátula de Silicone Lumelar com Cabo de Madeira, Cabeça Flexível Resistente ao Calor para Raspar Tigelas, Misturar Massas e Usar em Panelas Antiaderentes"
+  },
+  "description": {
+    "en": "A silicone spatula with a flexible head that scrapes bowls clean and will not scratch nonstick pans. The head resists heat up to 260 °C (500 °F) and the wood handle stays cool.",
+    "pt-BR": "Espátula de silicone com cabeça flexível que limpa as tigelas sem deixar sobras e não risca panelas antiaderentes. A cabeça resiste a até 260 °C e o cabo de madeira não esquenta."
+  },
+  "price": {
+    "BRL": 29.9,
+    "USD": 9.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "spatula",
+      "silicone",
+      "scraper",
+      "kitchen tools",
+      "nonstick safe"
+    ],
+    "pt-BR": [
+      "espátula",
+      "silicone",
+      "raspador",
+      "utensílios de cozinha",
+      "segura para antiaderente"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "silicone"
+    }
+  ],
+  "defaultVariantId": "1-cherry-red",
+  "options": [
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Embalagem"
+      },
+      "values": [
+        {
+          "id": "1",
+          "name": {
+            "en": "1",
+            "pt-BR": "1"
+          }
+        },
+        {
+          "id": "3",
+          "name": {
+            "en": "3",
+            "pt-BR": "3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        },
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        },
+        {
+          "id": "sage-green",
+          "name": {
+            "en": "Sage green",
+            "pt-BR": "Verde sálvia"
+          },
+          "hex": "#9CAF94"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "1-cherry-red",
+      "sku": "LML-SPT-1-RD",
+      "options": {
+        "pack": "1",
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 29.9,
+        "USD": 9.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red silicone spatula with a beech wood handle, top view",
+            "pt-BR": "Espátula de silicone vermelho cereja com cabo de madeira de faia, vista de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1-matte-black",
+      "sku": "LML-SPT-1-BK",
+      "options": {
+        "pack": "1",
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 29.9,
+        "USD": 9.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black silicone spatula with a beech wood handle, top view",
+            "pt-BR": "Espátula de silicone preto fosco com cabo de madeira de faia, vista de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1-sage-green",
+      "sku": "LML-SPT-1-SG",
+      "options": {
+        "pack": "1",
+        "color": "sage-green"
+      },
+      "price": {
+        "BRL": 29.9,
+        "USD": 9.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage green silicone spatula with a beech wood handle, top view",
+            "pt-BR": "Espátula de silicone verde sálvia com cabo de madeira de faia, vista de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-cherry-red",
+      "sku": "LML-SPT-3-RD",
+      "options": {
+        "pack": "3",
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 22.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Three cherry red silicone spatulas with beech wood handles laid side by side, top view",
+            "pt-BR": "Três espátulas de silicone vermelho cereja com cabos de madeira de faia lado a lado, vista de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-3-pack-white.png",
+            "#f5f5f5": "cherry-red-3-pack-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-matte-black",
+      "sku": "LML-SPT-3-BK",
+      "options": {
+        "pack": "3",
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 22.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Three matte black silicone spatulas with beech wood handles laid side by side, top view",
+            "pt-BR": "Três espátulas de silicone preto fosco com cabos de madeira de faia lado a lado, vista de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-3-pack-white.png",
+            "#f5f5f5": "matte-black-3-pack-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-sage-green",
+      "sku": "LML-SPT-3-SG",
+      "options": {
+        "pack": "3",
+        "color": "sage-green"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 22.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Three sage green silicone spatulas with beech wood handles laid side by side, top view",
+            "pt-BR": "Três espátulas de silicone verde sálvia com cabos de madeira de faia lado a lado, vista de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-3-pack-white.png",
+            "#f5f5f5": "sage-green-3-pack-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

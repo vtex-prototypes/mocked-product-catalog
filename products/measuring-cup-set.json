@@ -1,0 +1,110 @@
+{
+  "id": "measuring-cup-set",
+  "brandId": "lumelar",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Lumelar Measuring Cups and Spoons Set, 4 Nesting Cups and 4 Measuring Spoons for Dry and Liquid Ingredients, Engraved Markings, Dishwasher Safe",
+    "pt-BR": "Jogo de Xícaras e Colheres Medidoras Lumelar, 4 Xícaras Encaixáveis e 4 Colheres para Ingredientes Secos e Líquidos, Marcações Gravadas, Vai à Lava-Louças"
+  },
+  "description": {
+    "en": "Four nesting cups (1/4, 1/3, 1/2 and 1 cup) and four spoons (1/4, 1/2, 1 teaspoon and 1 tablespoon) with engraved markings. Each set stays together on a ring.",
+    "pt-BR": "Quatro xícaras encaixáveis (60, 80, 125 e 250 mL) e quatro colheres (1,25, 2,5, 5 e 15 mL) com marcações gravadas. Cada jogo fica reunido em uma argola."
+  },
+  "price": {
+    "BRL": 79.9,
+    "USD": 24.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "measuring cups",
+      "measuring spoons",
+      "baking",
+      "kitchen tools",
+      "nesting"
+    ],
+    "pt-BR": [
+      "xícaras medidoras",
+      "colheres medidoras",
+      "assar",
+      "utensílios de cozinha",
+      "encaixáveis"
+    ]
+  },
+  "defaultVariantId": "stainless-steel",
+  "options": [
+    {
+      "id": "material",
+      "name": {
+        "en": "Material",
+        "pt-BR": "Material"
+      },
+      "values": [
+        {
+          "id": "stainless-steel",
+          "name": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          }
+        },
+        {
+          "id": "polypropylene",
+          "name": {
+            "en": "Plastic",
+            "pt-BR": "Plástico"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "stainless-steel",
+      "sku": "LML-MCS-SS",
+      "options": {
+        "material": "stainless-steel"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 24.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Set of four stainless steel measuring cups and four measuring spoons on matching rings, top view",
+            "pt-BR": "Jogo de quatro xícaras medidoras e quatro colheres medidoras de aço inox em argolas, vista de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-steel-white.png",
+            "#f5f5f5": "stainless-steel-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "polypropylene",
+      "sku": "LML-MCS-PP",
+      "options": {
+        "material": "polypropylene"
+      },
+      "price": {
+        "BRL": 34.9,
+        "USD": 12.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Set of four plastic measuring cups and four measuring spoons on matching rings, top view",
+            "pt-BR": "Jogo de quatro xícaras medidoras e quatro colheres medidoras de plástico em argolas, vista de cima"
+          },
+          "backgrounds": {
+            "#ffffff": "polypropylene-white.png",
+            "#f5f5f5": "polypropylene-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

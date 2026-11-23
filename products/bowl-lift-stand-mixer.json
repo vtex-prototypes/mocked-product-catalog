@@ -1,0 +1,497 @@
+{
+  "id": "bowl-lift-stand-mixer",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar B60-L Bowl-Lift Stand Mixer, 10 Speeds, Heavy-Duty Motor for Bread Dough, Stainless Steel Bowl, Flat Beater, Dough Hook and Wire Whip",
+    "pt-BR": "Batedeira Planetária Lumelar B60-L com Elevação da Tigela, 10 Velocidades, Motor Reforçado para Massa de Pão, Tigela de Aço Inox, Batedor Plano, Gancho e Batedor de Arame"
+  },
+  "description": {
+    "en": "A bowl-lift stand mixer with a heavier motor built for dense bread dough and big batches. A lever raises the bowl into the beater, which keeps the mixer steady at all 10 speeds.",
+    "pt-BR": "Batedeira planetária com elevação da tigela e motor mais forte, feita para massa de pão firme e receitas grandes. Uma alavanca sobe a tigela até o batedor e mantém a batedeira firme nas 10 velocidades."
+  },
+  "price": {
+    "BRL": 4199.9,
+    "USD": 549.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "stand mixer",
+      "bowl-lift",
+      "bread dough",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "batedeira planetária",
+      "com elevação",
+      "massa de pão",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    }
+  ],
+  "defaultVariantId": "matte-black-6-qt",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F1EC"
+        },
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        },
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        },
+        {
+          "id": "silver",
+          "name": {
+            "en": "Silver",
+            "pt-BR": "Prata"
+          },
+          "hex": "#B8BBBE"
+        },
+        {
+          "id": "sage-green",
+          "name": {
+            "en": "Sage green",
+            "pt-BR": "Verde sálvia"
+          },
+          "hex": "#9CAF94"
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "5-5-qt",
+          "name": {
+            "en": "5.5 qt",
+            "pt-BR": "5,2 L"
+          }
+        },
+        {
+          "id": "6-qt",
+          "name": {
+            "en": "6 qt",
+            "pt-BR": "5,7 L"
+          }
+        },
+        {
+          "id": "7-qt",
+          "name": {
+            "en": "7 qt",
+            "pt-BR": "6,6 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-5-5-qt",
+      "sku": "LML-BLM-WHT-55",
+      "options": {
+        "color": "white",
+        "capacity": "5-5-qt"
+      },
+      "price": {
+        "BRL": 3799.9,
+        "USD": 499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação branco, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-6-qt",
+      "sku": "LML-BLM-WHT-60",
+      "options": {
+        "color": "white",
+        "capacity": "6-qt"
+      },
+      "price": {
+        "BRL": 4199.9,
+        "USD": 549.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação branco, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-7-qt",
+      "sku": "LML-BLM-WHT-70",
+      "options": {
+        "color": "white",
+        "capacity": "7-qt"
+      },
+      "price": {
+        "BRL": 4999.9,
+        "USD": 649.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação branco, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-5-5-qt",
+      "sku": "LML-BLM-BLK-55",
+      "options": {
+        "color": "matte-black",
+        "capacity": "5-5-qt"
+      },
+      "price": {
+        "BRL": 3799.9,
+        "USD": 499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação preto fosco, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-6-qt",
+      "sku": "LML-BLM-BLK-60",
+      "options": {
+        "color": "matte-black",
+        "capacity": "6-qt"
+      },
+      "price": {
+        "BRL": 4199.9,
+        "USD": 549.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação preto fosco, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-7-qt",
+      "sku": "LML-BLM-BLK-70",
+      "options": {
+        "color": "matte-black",
+        "capacity": "7-qt"
+      },
+      "price": {
+        "BRL": 4999.9,
+        "USD": 649.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação preto fosco, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-5-5-qt",
+      "sku": "LML-BLM-RED-55",
+      "options": {
+        "color": "cherry-red",
+        "capacity": "5-5-qt"
+      },
+      "price": {
+        "BRL": 3799.9,
+        "USD": 499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação vermelho cereja, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-6-qt",
+      "sku": "LML-BLM-RED-60",
+      "options": {
+        "color": "cherry-red",
+        "capacity": "6-qt"
+      },
+      "price": {
+        "BRL": 4199.9,
+        "USD": 549.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação vermelho cereja, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-7-qt",
+      "sku": "LML-BLM-RED-70",
+      "options": {
+        "color": "cherry-red",
+        "capacity": "7-qt"
+      },
+      "price": {
+        "BRL": 4999.9,
+        "USD": 649.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação vermelho cereja, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "silver-5-5-qt",
+      "sku": "LML-BLM-SLV-55",
+      "options": {
+        "color": "silver",
+        "capacity": "5-5-qt"
+      },
+      "price": {
+        "BRL": 3799.9,
+        "USD": 499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Silver bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação prata, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "silver-white.png",
+            "#f5f5f5": "silver-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "silver-6-qt",
+      "sku": "LML-BLM-SLV-60",
+      "options": {
+        "color": "silver",
+        "capacity": "6-qt"
+      },
+      "price": {
+        "BRL": 4199.9,
+        "USD": 549.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Silver bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação prata, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "silver-white.png",
+            "#f5f5f5": "silver-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "silver-7-qt",
+      "sku": "LML-BLM-SLV-70",
+      "options": {
+        "color": "silver",
+        "capacity": "7-qt"
+      },
+      "price": {
+        "BRL": 4999.9,
+        "USD": 649.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Silver bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação prata, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "silver-white.png",
+            "#f5f5f5": "silver-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-green-5-5-qt",
+      "sku": "LML-BLM-SGR-55",
+      "options": {
+        "color": "sage-green",
+        "capacity": "5-5-qt"
+      },
+      "price": {
+        "BRL": 3799.9,
+        "USD": 499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage green bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação verde sálvia, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-green-6-qt",
+      "sku": "LML-BLM-SGR-60",
+      "options": {
+        "color": "sage-green",
+        "capacity": "6-qt"
+      },
+      "price": {
+        "BRL": 4199.9,
+        "USD": 549.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage green bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação verde sálvia, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-green-7-qt",
+      "sku": "LML-BLM-SGR-70",
+      "options": {
+        "color": "sage-green",
+        "capacity": "7-qt"
+      },
+      "price": {
+        "BRL": 4999.9,
+        "USD": 649.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage green bowl-lift stand mixer with stainless steel bowl, lift lever and flat beater, three-quarter view",
+            "pt-BR": "Batedeira planetária com elevação verde sálvia, tigela de aço inox, alavanca de elevação e batedor plano, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

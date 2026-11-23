@@ -1,0 +1,371 @@
+{
+  "id": "mixer-bowl",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar Replacement Stand Mixer Bowl with Handle, Dishwasher-Safe, Extra Bowl for Switching Between Recipes, Fits Lumelar Tilt-Head and Bowl-Lift Mixers",
+    "pt-BR": "Tigela Extra Lumelar para Batedeira Planetária com Alça, Pode ir à Lava-Louças, Reserva para Alternar Entre Receitas, Compatível com Modelos Basculantes e com Elevação"
+  },
+  "description": {
+    "en": "A spare bowl so you can go from batter to dough without stopping to wash. Choose the material and the size that matches your mixer: tilt-head bowls come in 4.5 and 5 qt, bowl-lift bowls in 6 and 7 qt.",
+    "pt-BR": "Uma tigela reserva para passar da massa de bolo para a de pão sem parar para lavar. Escolha o material e o tamanho do seu modelo: as basculantes têm 4,3 e 4,7 L e as com elevação, 5,7 e 6,6 L."
+  },
+  "price": {
+    "BRL": 299.9,
+    "USD": 49.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "mixer bowl",
+      "replacement bowl",
+      "stand mixer accessory",
+      "kitchen"
+    ],
+    "pt-BR": [
+      "tigela para batedeira",
+      "tigela reserva",
+      "acessório de batedeira",
+      "cozinha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "fits-tool",
+      "valueId": "tilt-head-stand-mixer"
+    },
+    {
+      "id": "fits-tool",
+      "valueId": "bowl-lift-stand-mixer"
+    }
+  ],
+  "defaultVariantId": "stainless-steel-tilt-head-5-qt",
+  "options": [
+    {
+      "id": "material",
+      "name": {
+        "en": "Material",
+        "pt-BR": "Material"
+      },
+      "values": [
+        {
+          "id": "stainless-steel",
+          "name": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          }
+        },
+        {
+          "id": "glass",
+          "name": {
+            "en": "Glass",
+            "pt-BR": "Vidro"
+          }
+        },
+        {
+          "id": "ceramic",
+          "name": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fits",
+      "name": {
+        "en": "Fits",
+        "pt-BR": "Compatível com"
+      },
+      "values": [
+        {
+          "id": "tilt-head",
+          "name": {
+            "en": "Tilt-head mixers",
+            "pt-BR": "Batedeiras basculantes"
+          }
+        },
+        {
+          "id": "bowl-lift",
+          "name": {
+            "en": "Bowl-lift mixers",
+            "pt-BR": "Batedeiras de elevação"
+          }
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "4-5-qt",
+          "name": {
+            "en": "4.5 qt",
+            "pt-BR": "4,3 L"
+          }
+        },
+        {
+          "id": "5-qt",
+          "name": {
+            "en": "5 qt",
+            "pt-BR": "4,7 L"
+          }
+        },
+        {
+          "id": "6-qt",
+          "name": {
+            "en": "6 qt",
+            "pt-BR": "5,7 L"
+          }
+        },
+        {
+          "id": "7-qt",
+          "name": {
+            "en": "7 qt",
+            "pt-BR": "6,6 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "stainless-steel-tilt-head-4-5-qt",
+      "sku": "LML-MBW-SS-TH-45",
+      "options": {
+        "material": "stainless-steel",
+        "fits": "tilt-head",
+        "capacity": "4-5-qt"
+      },
+      "price": {
+        "BRL": 279.9,
+        "USD": 44.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel stand mixer bowl with a single handle for tilt-head mixers, three-quarter view",
+            "pt-BR": "Tigela de aço inox para batedeira planetária com uma alça, para modelos basculantes, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-tilt-head-white.png",
+            "#f5f5f5": "stainless-tilt-head-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stainless-steel-tilt-head-5-qt",
+      "sku": "LML-MBW-SS-TH-50",
+      "options": {
+        "material": "stainless-steel",
+        "fits": "tilt-head",
+        "capacity": "5-qt"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 49.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel stand mixer bowl with a single handle for tilt-head mixers, three-quarter view",
+            "pt-BR": "Tigela de aço inox para batedeira planetária com uma alça, para modelos basculantes, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-tilt-head-white.png",
+            "#f5f5f5": "stainless-tilt-head-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stainless-steel-bowl-lift-6-qt",
+      "sku": "LML-MBW-SS-BL-60",
+      "options": {
+        "material": "stainless-steel",
+        "fits": "bowl-lift",
+        "capacity": "6-qt"
+      },
+      "price": {
+        "BRL": 349.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel stand mixer bowl with two side handles for bowl-lift mixers, three-quarter view",
+            "pt-BR": "Tigela de aço inox para batedeira planetária com duas alças laterais, para modelos com elevação, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-bowl-lift-white.png",
+            "#f5f5f5": "stainless-bowl-lift-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stainless-steel-bowl-lift-7-qt",
+      "sku": "LML-MBW-SS-BL-70",
+      "options": {
+        "material": "stainless-steel",
+        "fits": "bowl-lift",
+        "capacity": "7-qt"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 69.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel stand mixer bowl with two side handles for bowl-lift mixers, three-quarter view",
+            "pt-BR": "Tigela de aço inox para batedeira planetária com duas alças laterais, para modelos com elevação, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-bowl-lift-white.png",
+            "#f5f5f5": "stainless-bowl-lift-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "glass-tilt-head-4-5-qt",
+      "sku": "LML-MBW-GL-TH-45",
+      "options": {
+        "material": "glass",
+        "fits": "tilt-head",
+        "capacity": "4-5-qt"
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glass stand mixer bowl with a single handle for tilt-head mixers, three-quarter view",
+            "pt-BR": "Tigela de vidro para batedeira planetária com uma alça, para modelos basculantes, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "glass-tilt-head-white.png",
+            "#f5f5f5": "glass-tilt-head-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "glass-tilt-head-5-qt",
+      "sku": "LML-MBW-GL-TH-50",
+      "options": {
+        "material": "glass",
+        "fits": "tilt-head",
+        "capacity": "5-qt"
+      },
+      "price": {
+        "BRL": 359.9,
+        "USD": 64.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glass stand mixer bowl with a single handle for tilt-head mixers, three-quarter view",
+            "pt-BR": "Tigela de vidro para batedeira planetária com uma alça, para modelos basculantes, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "glass-tilt-head-white.png",
+            "#f5f5f5": "glass-tilt-head-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "glass-bowl-lift-6-qt",
+      "sku": "LML-MBW-GL-BL-60",
+      "options": {
+        "material": "glass",
+        "fits": "bowl-lift",
+        "capacity": "6-qt"
+      },
+      "price": {
+        "BRL": 419.9,
+        "USD": 74.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glass stand mixer bowl with two side handles for bowl-lift mixers, three-quarter view",
+            "pt-BR": "Tigela de vidro para batedeira planetária com duas alças laterais, para modelos com elevação, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "glass-bowl-lift-white.png",
+            "#f5f5f5": "glass-bowl-lift-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "glass-bowl-lift-7-qt",
+      "sku": "LML-MBW-GL-BL-70",
+      "options": {
+        "material": "glass",
+        "fits": "bowl-lift",
+        "capacity": "7-qt"
+      },
+      "price": {
+        "BRL": 479.9,
+        "USD": 84.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glass stand mixer bowl with two side handles for bowl-lift mixers, three-quarter view",
+            "pt-BR": "Tigela de vidro para batedeira planetária com duas alças laterais, para modelos com elevação, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "glass-bowl-lift-white.png",
+            "#f5f5f5": "glass-bowl-lift-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ceramic-tilt-head-5-qt",
+      "sku": "LML-MBW-CR-TH-50",
+      "options": {
+        "material": "ceramic",
+        "fits": "tilt-head",
+        "capacity": "5-qt"
+      },
+      "price": {
+        "BRL": 449.9,
+        "USD": 79.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Glazed ceramic with a light glaze stand mixer bowl with a single handle for tilt-head mixers, three-quarter view",
+            "pt-BR": "Tigela de cerâmica com esmalte claro para batedeira planetária com uma alça, para modelos basculantes, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "ceramic-tilt-head-white.png",
+            "#f5f5f5": "ceramic-tilt-head-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

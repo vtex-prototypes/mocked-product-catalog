@@ -1,0 +1,114 @@
+{
+  "id": "spiralizer-attachment",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar Spiralizer Attachment for Stand Mixers, Peels, Cores and Slices Fruits and Vegetables, Interchangeable Blades, Makes Noodles and Ribbons, Hub Mounted",
+    "pt-BR": "Espiralizador Lumelar para Batedeira, Descasca, Retira o Miolo e Fatia Frutas e Legumes, Lâminas Intercambiáveis, Faz Espaguete e Fitas, Encaixe no Cubo"
+  },
+  "description": {
+    "en": "Turns zucchini, potatoes and apples into noodles, ribbons and spiral slices, and it peels and cores in the same pass. It fits every Lumelar stand mixer's front hub.",
+    "pt-BR": "Transforma abobrinha, batata e maçã em espaguetes, fitas e fatias em espiral, e ainda descasca e tira o miolo na mesma passada. Encaixa no cubo frontal de qualquer batedeira Lumelar."
+  },
+  "price": {
+    "BRL": 479.9,
+    "USD": 89.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "spiralizer",
+      "vegetable noodles",
+      "stand mixer attachment",
+      "peeler corer"
+    ],
+    "pt-BR": [
+      "espiralizador",
+      "macarrão de legumes",
+      "acessório para batedeira",
+      "descascador"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "fits-tool",
+      "valueId": "stand-mixer-hub"
+    }
+  ],
+  "defaultVariantId": "4-blades",
+  "options": [
+    {
+      "id": "blades",
+      "name": {
+        "en": "Blades",
+        "pt-BR": "Lâminas"
+      },
+      "values": [
+        {
+          "id": "4-blades",
+          "name": {
+            "en": "4",
+            "pt-BR": "4"
+          }
+        },
+        {
+          "id": "7-blades",
+          "name": {
+            "en": "7",
+            "pt-BR": "7"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "4-blades",
+      "sku": "LML-SPZ-4B",
+      "options": {
+        "blades": "4-blades"
+      },
+      "price": {
+        "BRL": 479.9,
+        "USD": 89.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Spiralizer attachment for stand mixers with white housing, fruit holder and metal blades, three-quarter view",
+            "pt-BR": "Acessório espiralizador para batedeira com corpo branco, suporte de alimento e lâminas de metal, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "spiralizer-white.png",
+            "#f5f5f5": "spiralizer-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7-blades",
+      "sku": "LML-SPZ-7B",
+      "options": {
+        "blades": "7-blades"
+      },
+      "price": {
+        "BRL": 629.9,
+        "USD": 119.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Spiralizer attachment for stand mixers with white housing, fruit holder and metal blades, three-quarter view",
+            "pt-BR": "Acessório espiralizador para batedeira com corpo branco, suporte de alimento e lâminas de metal, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "spiralizer-white.png",
+            "#f5f5f5": "spiralizer-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

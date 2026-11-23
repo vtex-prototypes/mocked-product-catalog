@@ -1,0 +1,116 @@
+{
+  "id": "stainless-steel-cookware-set",
+  "brandId": "lumelar",
+  "categoryId": "casa-panelas",
+  "name": {
+    "en": "Lumelar Tri-Ply Stainless Steel Cookware Set, Saucepans, Stock Pot and Frying Pan with Lids, Aluminum Core for Even Heat, Induction Ready, Oven Safe",
+    "pt-BR": "Jogo de Panelas Lumelar de Aço Inox Tri-Ply, Caçarolas, Caldeirão e Frigideira com Tampas, Núcleo de Alumínio para Calor Uniforme, Para Indução, Vai ao Forno"
+  },
+  "description": {
+    "en": "A stainless steel cookware set with three bonded layers and an aluminum core, so heat spreads across the base and up the sides. The lids fit snugly and every piece goes from stovetop to oven.",
+    "pt-BR": "Jogo de panelas de aço inox com três camadas unidas e núcleo de alumínio, para o calor se espalhar pelo fundo e pelas laterais. As tampas encaixam bem e todas as peças vão do fogão ao forno."
+  },
+  "price": {
+    "BRL": 1199.9,
+    "USD": 229.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cookware set",
+      "stainless steel",
+      "tri-ply",
+      "induction",
+      "pots and pans"
+    ],
+    "pt-BR": [
+      "jogo de panelas",
+      "aço inox",
+      "tri-ply",
+      "indução",
+      "panelas e frigideiras"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    }
+  ],
+  "defaultVariantId": "7-pieces",
+  "options": [
+    {
+      "id": "pieces",
+      "name": {
+        "en": "Pieces",
+        "pt-BR": "Peças"
+      },
+      "values": [
+        {
+          "id": "7-pieces",
+          "name": {
+            "en": "7",
+            "pt-BR": "7"
+          }
+        },
+        {
+          "id": "10-pieces",
+          "name": {
+            "en": "10",
+            "pt-BR": "10"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "7-pieces",
+      "sku": "LML-SCS-07",
+      "options": {
+        "pieces": "7-pieces"
+      },
+      "price": {
+        "BRL": 1199.9,
+        "USD": 229.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Seven-piece tri-ply stainless steel cookware set with lidded saucepans, stock pot and frying pan, three-quarter view",
+            "pt-BR": "Jogo de 7 peças de panelas de aço inox tri-ply com caçarolas e caldeirão com tampa e frigideira, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "7-pieces-white.png",
+            "#f5f5f5": "7-pieces-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10-pieces",
+      "sku": "LML-SCS-10",
+      "options": {
+        "pieces": "10-pieces"
+      },
+      "price": {
+        "BRL": 1699.9,
+        "USD": 329.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ten-piece tri-ply stainless steel cookware set with lidded saucepans, stock pot, frying pans and extra lids, three-quarter view",
+            "pt-BR": "Jogo de 10 peças de panelas de aço inox tri-ply com caçarolas e caldeirão com tampa, frigideiras e tampas extras, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "10-pieces-white.png",
+            "#f5f5f5": "10-pieces-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

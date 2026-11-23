@@ -1,0 +1,309 @@
+{
+  "id": "mixing-bowl-set",
+  "brandId": "lumelar",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Lumelar Stainless Steel Mixing Bowl Set, Nesting Bowls with Colored Exterior for Mixing, Whisking and Serving, Wide Rim, Easy to Stack",
+    "pt-BR": "Jogo de Tigelas Lumelar de Aço Inox, Tigelas Encaixáveis com Exterior Colorido para Misturar, Bater e Servir, Borda Larga, Fáceis de Empilhar"
+  },
+  "description": {
+    "en": "A set of nesting stainless steel mixing bowls with a colored exterior and a wide rim that is easy to grip. They stack to save space and do not hold onto odors or stains.",
+    "pt-BR": "Jogo de tigelas de aço inox encaixáveis, com exterior colorido e borda larga que facilita a pegada. Empilham para economizar espaço e não retêm cheiros nem manchas."
+  },
+  "price": {
+    "BRL": 139.9,
+    "USD": 39.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "mixing bowls",
+      "stainless steel",
+      "nesting bowls",
+      "kitchen",
+      "baking"
+    ],
+    "pt-BR": [
+      "tigelas",
+      "aço inox",
+      "tigelas encaixáveis",
+      "cozinha",
+      "assar"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    }
+  ],
+  "defaultVariantId": "3-pieces-white",
+  "options": [
+    {
+      "id": "pieces",
+      "name": {
+        "en": "Pieces",
+        "pt-BR": "Peças"
+      },
+      "values": [
+        {
+          "id": "3-pieces",
+          "name": {
+            "en": "3",
+            "pt-BR": "3"
+          }
+        },
+        {
+          "id": "5-pieces",
+          "name": {
+            "en": "5",
+            "pt-BR": "5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F1EC"
+        },
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        },
+        {
+          "id": "sage-green",
+          "name": {
+            "en": "Sage green",
+            "pt-BR": "Verde sálvia"
+          },
+          "hex": "#9CAF94"
+        },
+        {
+          "id": "ice-blue",
+          "name": {
+            "en": "Ice blue",
+            "pt-BR": "Azul gelo"
+          },
+          "hex": "#C7DCE3"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "3-pieces-white",
+      "sku": "LML-MBS-3-WH",
+      "options": {
+        "pieces": "3-pieces",
+        "color": "white"
+      },
+      "price": {
+        "BRL": 139.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Set of three nesting stainless steel mixing bowls with a white exterior, three-quarter view",
+            "pt-BR": "Jogo de três tigelas de aço inox encaixáveis com exterior branco, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "3-pieces-white-white.png",
+            "#f5f5f5": "3-pieces-white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-pieces-cherry-red",
+      "sku": "LML-MBS-3-RD",
+      "options": {
+        "pieces": "3-pieces",
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 139.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Set of three nesting stainless steel mixing bowls with a cherry red exterior, three-quarter view",
+            "pt-BR": "Jogo de três tigelas de aço inox encaixáveis com exterior vermelho cereja, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "3-pieces-cherry-red-white.png",
+            "#f5f5f5": "3-pieces-cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-pieces-sage-green",
+      "sku": "LML-MBS-3-SG",
+      "options": {
+        "pieces": "3-pieces",
+        "color": "sage-green"
+      },
+      "price": {
+        "BRL": 139.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Set of three nesting stainless steel mixing bowls with a sage green exterior, three-quarter view",
+            "pt-BR": "Jogo de três tigelas de aço inox encaixáveis com exterior verde sálvia, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "3-pieces-sage-green-white.png",
+            "#f5f5f5": "3-pieces-sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-pieces-ice-blue",
+      "sku": "LML-MBS-3-IB",
+      "options": {
+        "pieces": "3-pieces",
+        "color": "ice-blue"
+      },
+      "price": {
+        "BRL": 139.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Set of three nesting stainless steel mixing bowls with a ice blue exterior, three-quarter view",
+            "pt-BR": "Jogo de três tigelas de aço inox encaixáveis com exterior azul gelo, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "3-pieces-ice-blue-white.png",
+            "#f5f5f5": "3-pieces-ice-blue-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5-pieces-white",
+      "sku": "LML-MBS-5-WH",
+      "options": {
+        "pieces": "5-pieces",
+        "color": "white"
+      },
+      "price": {
+        "BRL": 209.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Set of five nesting stainless steel mixing bowls with a white exterior, three-quarter view",
+            "pt-BR": "Jogo de cinco tigelas de aço inox encaixáveis com exterior branco, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "5-pieces-white-white.png",
+            "#f5f5f5": "5-pieces-white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5-pieces-cherry-red",
+      "sku": "LML-MBS-5-RD",
+      "options": {
+        "pieces": "5-pieces",
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 209.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Set of five nesting stainless steel mixing bowls with a cherry red exterior, three-quarter view",
+            "pt-BR": "Jogo de cinco tigelas de aço inox encaixáveis com exterior vermelho cereja, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "5-pieces-cherry-red-white.png",
+            "#f5f5f5": "5-pieces-cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5-pieces-sage-green",
+      "sku": "LML-MBS-5-SG",
+      "options": {
+        "pieces": "5-pieces",
+        "color": "sage-green"
+      },
+      "price": {
+        "BRL": 209.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Set of five nesting stainless steel mixing bowls with a sage green exterior, three-quarter view",
+            "pt-BR": "Jogo de cinco tigelas de aço inox encaixáveis com exterior verde sálvia, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "5-pieces-sage-green-white.png",
+            "#f5f5f5": "5-pieces-sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5-pieces-ice-blue",
+      "sku": "LML-MBS-5-IB",
+      "options": {
+        "pieces": "5-pieces",
+        "color": "ice-blue"
+      },
+      "price": {
+        "BRL": 209.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Set of five nesting stainless steel mixing bowls with a ice blue exterior, three-quarter view",
+            "pt-BR": "Jogo de cinco tigelas de aço inox encaixáveis com exterior azul gelo, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "5-pieces-ice-blue-white.png",
+            "#f5f5f5": "5-pieces-ice-blue-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "id": "nonstick-cookware-set",
+  "brandId": "lumelar",
+  "categoryId": "casa-panelas",
+  "name": {
+    "en": "Lumelar Nonstick Cookware Set, Hard-Anodized Aluminum Pots and Frying Pans with Tempered Glass Lids, Cool-Touch Handles, Even Heating, Dishwasher Safe",
+    "pt-BR": "Jogo de Panelas Antiaderentes Lumelar de Alumínio Anodizado, Panelas e Frigideiras com Tampas de Vidro Temperado, Cabos Frios, Aquecimento Uniforme, Vai à Lava-Louças"
+  },
+  "description": {
+    "en": "A nonstick cookware set with saucepans, a stock pot, frying pans and glass lids, all in hard-anodized aluminum that heats evenly. The coating releases food easily and the pieces wash up in the dishwasher.",
+    "pt-BR": "Jogo de panelas antiaderentes com caçarolas, caldeirão, frigideiras e tampas de vidro, tudo em alumínio anodizado que aquece por igual. O revestimento solta os alimentos com facilidade e as peças vão à lava-louças."
+  },
+  "price": {
+    "BRL": 599.9,
+    "USD": 199.99
+  },
+  "listPrice": {
+    "BRL": 749.9,
+    "USD": 249.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cookware set",
+      "nonstick",
+      "pots and pans",
+      "hard-anodized aluminum",
+      "glass lids"
+    ],
+    "pt-BR": [
+      "jogo de panelas",
+      "antiaderente",
+      "panelas e frigideiras",
+      "alumínio anodizado",
+      "tampas de vidro"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "hard-anodized-aluminum"
+    }
+  ],
+  "defaultVariantId": "10-pieces-matte-black",
+  "options": [
+    {
+      "id": "pieces",
+      "name": {
+        "en": "Pieces",
+        "pt-BR": "Peças"
+      },
+      "values": [
+        {
+          "id": "10-pieces",
+          "name": {
+            "en": "10",
+            "pt-BR": "10"
+          }
+        },
+        {
+          "id": "12-pieces",
+          "name": {
+            "en": "12",
+            "pt-BR": "12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        },
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        },
+        {
+          "id": "sage-green",
+          "name": {
+            "en": "Sage green",
+            "pt-BR": "Verde sálvia"
+          },
+          "hex": "#9CAF94"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "10-pieces-matte-black",
+      "sku": "LML-NCS-10-BK",
+      "options": {
+        "pieces": "10-pieces",
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 199.99
+      },
+      "listPrice": {
+        "BRL": 749.9,
+        "USD": 249.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ten-piece nonstick cookware set with matte black hard-anodized aluminum exterior, pots, frying pans and glass lids, three-quarter view",
+            "pt-BR": "Jogo de 10 peças de panelas antiaderentes com exterior preto fosco em alumínio anodizado, panelas, frigideiras e tampas de vidro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "10-pieces-matte-black-white.png",
+            "#f5f5f5": "10-pieces-matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10-pieces-cherry-red",
+      "sku": "LML-NCS-10-RD",
+      "options": {
+        "pieces": "10-pieces",
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 199.99
+      },
+      "listPrice": {
+        "BRL": 749.9,
+        "USD": 249.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ten-piece nonstick cookware set with cherry red hard-anodized aluminum exterior, pots, frying pans and glass lids, three-quarter view",
+            "pt-BR": "Jogo de 10 peças de panelas antiaderentes com exterior vermelho cereja em alumínio anodizado, panelas, frigideiras e tampas de vidro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "10-pieces-cherry-red-white.png",
+            "#f5f5f5": "10-pieces-cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10-pieces-sage-green",
+      "sku": "LML-NCS-10-SG",
+      "options": {
+        "pieces": "10-pieces",
+        "color": "sage-green"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 199.99
+      },
+      "listPrice": {
+        "BRL": 749.9,
+        "USD": 249.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ten-piece nonstick cookware set with sage green hard-anodized aluminum exterior, pots, frying pans and glass lids, three-quarter view",
+            "pt-BR": "Jogo de 10 peças de panelas antiaderentes com exterior verde sálvia em alumínio anodizado, panelas, frigideiras e tampas de vidro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "10-pieces-sage-green-white.png",
+            "#f5f5f5": "10-pieces-sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12-pieces-matte-black",
+      "sku": "LML-NCS-12-BK",
+      "options": {
+        "pieces": "12-pieces",
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 749.9,
+        "USD": 249.99
+      },
+      "listPrice": {
+        "BRL": 899.9,
+        "USD": 299.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Twelve-piece nonstick cookware set with matte black hard-anodized aluminum exterior, pots, frying pans and glass lids, three-quarter view",
+            "pt-BR": "Jogo de 12 peças de panelas antiaderentes com exterior preto fosco em alumínio anodizado, panelas, frigideiras e tampas de vidro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "12-pieces-matte-black-white.png",
+            "#f5f5f5": "12-pieces-matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12-pieces-cherry-red",
+      "sku": "LML-NCS-12-RD",
+      "options": {
+        "pieces": "12-pieces",
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 749.9,
+        "USD": 249.99
+      },
+      "listPrice": {
+        "BRL": 899.9,
+        "USD": 299.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Twelve-piece nonstick cookware set with cherry red hard-anodized aluminum exterior, pots, frying pans and glass lids, three-quarter view",
+            "pt-BR": "Jogo de 12 peças de panelas antiaderentes com exterior vermelho cereja em alumínio anodizado, panelas, frigideiras e tampas de vidro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "12-pieces-cherry-red-white.png",
+            "#f5f5f5": "12-pieces-cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12-pieces-sage-green",
+      "sku": "LML-NCS-12-SG",
+      "options": {
+        "pieces": "12-pieces",
+        "color": "sage-green"
+      },
+      "price": {
+        "BRL": 749.9,
+        "USD": 249.99
+      },
+      "listPrice": {
+        "BRL": 899.9,
+        "USD": 299.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Twelve-piece nonstick cookware set with sage green hard-anodized aluminum exterior, pots, frying pans and glass lids, three-quarter view",
+            "pt-BR": "Jogo de 12 peças de panelas antiaderentes com exterior verde sálvia em alumínio anodizado, panelas, frigideiras e tampas de vidro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "12-pieces-sage-green-white.png",
+            "#f5f5f5": "12-pieces-sage-green-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

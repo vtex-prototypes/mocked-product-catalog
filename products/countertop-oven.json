@@ -1,0 +1,195 @@
+{
+  "id": "countertop-oven",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar CO12-A Countertop Convection Oven with Air Fry, Bake, Broil, Toast and Roast Functions, Digital Controls, Glass Door, Crumb Tray, Wire Rack",
+    "pt-BR": "Forno de Bancada Lumelar CO12-A com Convecção e Air Fry, Funções Assar, Grelhar, Torrar e Gratinar, Controles Digitais, Porta de Vidro, Bandeja de Migalhas, Grade de Aço"
+  },
+  "description": {
+    "en": "A countertop oven that bakes, broils, toasts and air fries, with a convection fan for even browning. The glass door shows the food and the crumb tray slides out to clean.",
+    "pt-BR": "Forno de bancada que assa, grelha, torra e frita sem óleo, com ventilador de convecção para dourar por igual. A porta de vidro mostra o alimento e a bandeja de migalhas sai para limpar."
+  },
+  "price": {
+    "BRL": 999.9,
+    "USD": 179.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "countertop oven",
+      "air fryer",
+      "convection",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "forno de bancada",
+      "air fryer",
+      "convecção",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    }
+  ],
+  "defaultVariantId": "stainless-6-slice",
+  "options": [
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "6-slice",
+          "name": {
+            "en": "6 slices",
+            "pt-BR": "6 fatias"
+          }
+        },
+        {
+          "id": "12-slice",
+          "name": {
+            "en": "12 slices",
+            "pt-BR": "12 fatias"
+          }
+        }
+      ]
+    },
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "stainless",
+          "name": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          },
+          "hex": "#C9CCCE"
+        },
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "stainless-6-slice",
+      "sku": "LML-CTO-SS-6",
+      "options": {
+        "size": "6-slice",
+        "color": "stainless"
+      },
+      "price": {
+        "BRL": 999.9,
+        "USD": 179.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel compact countertop oven with a glass door, a control panel and a bar handle, three-quarter view",
+            "pt-BR": "Forno de bancada compacto em aço inox com porta de vidro, painel de controle e puxador, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-6-slice-white.png",
+            "#f5f5f5": "stainless-6-slice-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-6-slice",
+      "sku": "LML-CTO-MB-6",
+      "options": {
+        "size": "6-slice",
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 999.9,
+        "USD": 179.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black compact countertop oven with a glass door, a control panel and a bar handle, three-quarter view",
+            "pt-BR": "Forno de bancada compacto preto fosco com porta de vidro, painel de controle e puxador, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-6-slice-white.png",
+            "#f5f5f5": "matte-black-6-slice-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stainless-12-slice",
+      "sku": "LML-CTO-SS-12",
+      "options": {
+        "size": "12-slice",
+        "color": "stainless"
+      },
+      "price": {
+        "BRL": 1599.9,
+        "USD": 279.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel large countertop oven with a wide glass door, a control panel and a bar handle, three-quarter view",
+            "pt-BR": "Forno de bancada grande em aço inox com porta de vidro larga, painel de controle e puxador, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-12-slice-white.png",
+            "#f5f5f5": "stainless-12-slice-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-12-slice",
+      "sku": "LML-CTO-MB-12",
+      "options": {
+        "size": "12-slice",
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 1599.9,
+        "USD": 279.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black large countertop oven with a wide glass door, a control panel and a bar handle, three-quarter view",
+            "pt-BR": "Forno de bancada grande preto fosco com porta de vidro larga, painel de controle e puxador, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-12-slice-white.png",
+            "#f5f5f5": "matte-black-12-slice-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

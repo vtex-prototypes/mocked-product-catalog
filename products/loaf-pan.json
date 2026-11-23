@@ -1,0 +1,185 @@
+{
+  "id": "loaf-pan",
+  "brandId": "lumelar",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Lumelar Loaf Pan for Baking Bread, Meatloaf and Pound Cake, Even Browning, Easy Release, Available in Aluminized Steel or Glazed Ceramic",
+    "pt-BR": "Forma de Pão Lumelar para Assar Pães, Bolo Inglês e Bolo de Carne, Doura por Igual, Fácil de Desenformar, em Aço Aluminizado ou Cerâmica Esmaltada"
+  },
+  "description": {
+    "en": "A loaf pan for sandwich bread, pound cake and meatloaf. Choose aluminized steel for crisp, even browning or glazed ceramic that goes from oven to table.",
+    "pt-BR": "Forma para pão de forma, bolo inglês e bolo de carne. Escolha o aço aluminizado para dourar por igual ou a cerâmica esmaltada, que vai do forno à mesa."
+  },
+  "price": {
+    "BRL": 54.9,
+    "USD": 16.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "loaf pan",
+      "bread pan",
+      "bakeware",
+      "pound cake",
+      "meatloaf"
+    ],
+    "pt-BR": [
+      "forma de pão",
+      "forma de bolo inglês",
+      "assar",
+      "bolo",
+      "pão"
+    ]
+  },
+  "defaultVariantId": "aluminized-steel-8-5-in",
+  "options": [
+    {
+      "id": "material",
+      "name": {
+        "en": "Material",
+        "pt-BR": "Material"
+      },
+      "values": [
+        {
+          "id": "aluminized-steel",
+          "name": {
+            "en": "Aluminized steel",
+            "pt-BR": "Aço aluminizado"
+          }
+        },
+        {
+          "id": "ceramic",
+          "name": {
+            "en": "Ceramic",
+            "pt-BR": "Cerâmica"
+          }
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "8-5-in",
+          "name": {
+            "en": "8.5 x 4.5 in",
+            "pt-BR": "22 x 11 cm"
+          }
+        },
+        {
+          "id": "9-in",
+          "name": {
+            "en": "9 x 5 in",
+            "pt-BR": "23 x 13 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "aluminized-steel-8-5-in",
+      "sku": "LML-LFP-AS-85",
+      "options": {
+        "material": "aluminized-steel",
+        "size": "8-5-in"
+      },
+      "price": {
+        "BRL": 54.9,
+        "USD": 16.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray aluminized steel loaf pan with a rolled rim, three-quarter view",
+            "pt-BR": "Forma de pão de aço aluminizado cinza com borda reforçada, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "aluminized-steel-white.png",
+            "#f5f5f5": "aluminized-steel-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aluminized-steel-9-in",
+      "sku": "LML-LFP-AS-90",
+      "options": {
+        "material": "aluminized-steel",
+        "size": "9-in"
+      },
+      "price": {
+        "BRL": 64.9,
+        "USD": 19.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray aluminized steel loaf pan with a rolled rim, three-quarter view",
+            "pt-BR": "Forma de pão de aço aluminizado cinza com borda reforçada, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "aluminized-steel-white.png",
+            "#f5f5f5": "aluminized-steel-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ceramic-8-5-in",
+      "sku": "LML-LFP-CE-85",
+      "options": {
+        "material": "ceramic",
+        "size": "8-5-in"
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 34.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White ceramic loaf pan with small side handles and a glazed finish, three-quarter view",
+            "pt-BR": "Forma de pão de cerâmica branca com pequenas alças laterais e acabamento esmaltado, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "ceramic-white.png",
+            "#f5f5f5": "ceramic-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ceramic-9-in",
+      "sku": "LML-LFP-CE-90",
+      "options": {
+        "material": "ceramic",
+        "size": "9-in"
+      },
+      "price": {
+        "BRL": 139.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White ceramic loaf pan with small side handles and a glazed finish, three-quarter view",
+            "pt-BR": "Forma de pão de cerâmica branca com pequenas alças laterais e acabamento esmaltado, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "ceramic-white.png",
+            "#f5f5f5": "ceramic-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

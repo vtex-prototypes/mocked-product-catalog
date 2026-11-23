@@ -1,0 +1,497 @@
+{
+  "id": "hand-mixer",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar HM70-S Hand Mixer with Two Stainless Steel Beaters, Turbo Boost Button, Eject Button, Lightweight Ergonomic Handle for Batters and Whipped Cream",
+    "pt-BR": "Batedeira de Mão Lumelar HM70-S com Dois Batedores de Aço Inox, Botão Turbo, Botão de Ejeção, Cabo Ergonômico Leve para Massas de Bolo e Chantilly"
+  },
+  "description": {
+    "en": "A lightweight hand mixer for batters, frostings and whipped cream. Two stainless steel beaters pop out with the eject button for quick cleanup.",
+    "pt-BR": "Batedeira de mão leve para massas de bolo, coberturas e chantilly. Os dois batedores de aço inox saem com o botão de ejeção, para lavar rápido."
+  },
+  "price": {
+    "BRL": 249.9,
+    "USD": 59.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "hand mixer",
+      "handheld",
+      "baking",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "batedeira de mão",
+      "portátil",
+      "confeitaria",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    }
+  ],
+  "defaultVariantId": "white-5-speeds",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F1EC"
+        },
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        },
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        },
+        {
+          "id": "pistachio",
+          "name": {
+            "en": "Pistachio",
+            "pt-BR": "Pistache"
+          },
+          "hex": "#C3CF9A"
+        },
+        {
+          "id": "ice-blue",
+          "name": {
+            "en": "Ice blue",
+            "pt-BR": "Azul gelo"
+          },
+          "hex": "#C7DCE3"
+        }
+      ]
+    },
+    {
+      "id": "speeds",
+      "name": {
+        "en": "Speeds",
+        "pt-BR": "Velocidades"
+      },
+      "values": [
+        {
+          "id": "5-speeds",
+          "name": {
+            "en": "5",
+            "pt-BR": "5"
+          }
+        },
+        {
+          "id": "7-speeds",
+          "name": {
+            "en": "7",
+            "pt-BR": "7"
+          }
+        },
+        {
+          "id": "9-speeds",
+          "name": {
+            "en": "9",
+            "pt-BR": "9"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-5-speeds",
+      "sku": "LML-HMX-WHT-5",
+      "options": {
+        "color": "white",
+        "speeds": "5-speeds"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica branco com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-7-speeds",
+      "sku": "LML-HMX-WHT-7",
+      "options": {
+        "color": "white",
+        "speeds": "7-speeds"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 69.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica branco com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-9-speeds",
+      "sku": "LML-HMX-WHT-9",
+      "options": {
+        "color": "white",
+        "speeds": "9-speeds"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 89.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica branco com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-5-speeds",
+      "sku": "LML-HMX-BLK-5",
+      "options": {
+        "color": "matte-black",
+        "speeds": "5-speeds"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica preto fosco com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-7-speeds",
+      "sku": "LML-HMX-BLK-7",
+      "options": {
+        "color": "matte-black",
+        "speeds": "7-speeds"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 69.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica preto fosco com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-9-speeds",
+      "sku": "LML-HMX-BLK-9",
+      "options": {
+        "color": "matte-black",
+        "speeds": "9-speeds"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 89.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica preto fosco com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-5-speeds",
+      "sku": "LML-HMX-RED-5",
+      "options": {
+        "color": "cherry-red",
+        "speeds": "5-speeds"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica vermelho cereja com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-7-speeds",
+      "sku": "LML-HMX-RED-7",
+      "options": {
+        "color": "cherry-red",
+        "speeds": "7-speeds"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 69.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica vermelho cereja com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-9-speeds",
+      "sku": "LML-HMX-RED-9",
+      "options": {
+        "color": "cherry-red",
+        "speeds": "9-speeds"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 89.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica vermelho cereja com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pistachio-5-speeds",
+      "sku": "LML-HMX-PST-5",
+      "options": {
+        "color": "pistachio",
+        "speeds": "5-speeds"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pistachio handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica pistache com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "pistachio-white.png",
+            "#f5f5f5": "pistachio-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pistachio-7-speeds",
+      "sku": "LML-HMX-PST-7",
+      "options": {
+        "color": "pistachio",
+        "speeds": "7-speeds"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 69.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pistachio handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica pistache com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "pistachio-white.png",
+            "#f5f5f5": "pistachio-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pistachio-9-speeds",
+      "sku": "LML-HMX-PST-9",
+      "options": {
+        "color": "pistachio",
+        "speeds": "9-speeds"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 89.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pistachio handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica pistache com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "pistachio-white.png",
+            "#f5f5f5": "pistachio-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ice-blue-5-speeds",
+      "sku": "LML-HMX-ICE-5",
+      "options": {
+        "color": "ice-blue",
+        "speeds": "5-speeds"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ice blue handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica azul gelo com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "ice-blue-white.png",
+            "#f5f5f5": "ice-blue-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ice-blue-7-speeds",
+      "sku": "LML-HMX-ICE-7",
+      "options": {
+        "color": "ice-blue",
+        "speeds": "7-speeds"
+      },
+      "price": {
+        "BRL": 299.9,
+        "USD": 69.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ice blue handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica azul gelo com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "ice-blue-white.png",
+            "#f5f5f5": "ice-blue-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ice-blue-9-speeds",
+      "sku": "LML-HMX-ICE-9",
+      "options": {
+        "color": "ice-blue",
+        "speeds": "9-speeds"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 89.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ice blue handheld electric mixer with two stainless steel beaters, three-quarter view",
+            "pt-BR": "Batedeira de mão elétrica azul gelo com dois batedores de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "ice-blue-white.png",
+            "#f5f5f5": "ice-blue-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

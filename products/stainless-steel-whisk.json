@@ -1,0 +1,116 @@
+{
+  "id": "stainless-steel-whisk",
+  "brandId": "lumelar",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Lumelar Stainless Steel Balloon Whisk, Sturdy Wire Whisk for Beating Eggs, Whipping Cream and Smoothing Sauces, Brushed Steel Handle, Dishwasher Safe",
+    "pt-BR": "Batedor Tipo Balão Lumelar de Aço Inox, Fouet Resistente para Bater Ovos, Chantilly e Molhos, Cabo de Aço Escovado, Vai à Lava-Louças"
+  },
+  "description": {
+    "en": "A balloon whisk with firm stainless steel wires that add air to eggs and cream and smooth lumps from sauces. The handle is welded to the wires so it does not loosen or collect water.",
+    "pt-BR": "Batedor tipo balão com fios firmes de aço inox que incorporam ar em ovos e creme e desmancham os grumos dos molhos. O cabo é soldado aos fios, por isso não solta nem acumula água."
+  },
+  "price": {
+    "BRL": 39.9,
+    "USD": 12.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "whisk",
+      "stainless steel",
+      "balloon whisk",
+      "kitchen tools",
+      "baking"
+    ],
+    "pt-BR": [
+      "batedor",
+      "fouet",
+      "aço inox",
+      "utensílios de cozinha",
+      "assar"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    }
+  ],
+  "defaultVariantId": "10-in",
+  "options": [
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "10-in",
+          "name": {
+            "en": "10 in",
+            "pt-BR": "25 cm"
+          }
+        },
+        {
+          "id": "12-in",
+          "name": {
+            "en": "12 in",
+            "pt-BR": "30 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "10-in",
+      "sku": "LML-WHK-10",
+      "options": {
+        "length": "10-in"
+      },
+      "price": {
+        "BRL": 39.9,
+        "USD": 12.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel balloon whisk with a thick brushed steel handle, three-quarter view",
+            "pt-BR": "Batedor tipo balão de aço inox com cabo grosso de aço escovado, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-steel-whisk-white.png",
+            "#f5f5f5": "stainless-steel-whisk-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12-in",
+      "sku": "LML-WHK-12",
+      "options": {
+        "length": "12-in"
+      },
+      "price": {
+        "BRL": 44.9,
+        "USD": 14.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel balloon whisk with a thick brushed steel handle, three-quarter view",
+            "pt-BR": "Batedor tipo balão de aço inox com cabo grosso de aço escovado, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-steel-whisk-white.png",
+            "#f5f5f5": "stainless-steel-whisk-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

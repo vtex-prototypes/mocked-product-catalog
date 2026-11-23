@@ -1,0 +1,782 @@
+{
+  "id": "stand-mixer",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar T50-A Tilt-Head Stand Mixer, 10 Speeds, Stainless Steel Bowl, Flat Beater, Dough Hook and Wire Whip Included, Front Attachment Hub",
+    "pt-BR": "Batedeira Planetária Lumelar T50-A Basculante, 10 Velocidades, Tigela de Aço Inox, Batedor Plano, Gancho para Massa e Batedor de Arame Inclusos, Encaixe Frontal para Acessórios"
+  },
+  "description": {
+    "en": "A tilt-head stand mixer with 10 speeds for batters, creams and light doughs. The head tips back to swap the beater or lift out the stainless steel bowl, and the front hub takes Lumelar attachments.",
+    "pt-BR": "Batedeira planetária basculante com 10 velocidades para bolos, cremes e massas leves. A cabeça inclina para trocar o batedor ou tirar a tigela de aço inox, e o encaixe frontal recebe os acessórios Lumelar."
+  },
+  "price": {
+    "BRL": 3499.9,
+    "USD": 449.99
+  },
+  "listPrice": {
+    "BRL": 3999.9,
+    "USD": 499.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "stand mixer",
+      "tilt-head",
+      "baking",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "batedeira planetária",
+      "basculante",
+      "confeitaria",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    }
+  ],
+  "defaultVariantId": "cherry-red-5-qt",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F1EC"
+        },
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        },
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        },
+        {
+          "id": "pistachio",
+          "name": {
+            "en": "Pistachio",
+            "pt-BR": "Pistache"
+          },
+          "hex": "#C3CF9A"
+        },
+        {
+          "id": "sage-green",
+          "name": {
+            "en": "Sage green",
+            "pt-BR": "Verde sálvia"
+          },
+          "hex": "#9CAF94"
+        },
+        {
+          "id": "ice-blue",
+          "name": {
+            "en": "Ice blue",
+            "pt-BR": "Azul gelo"
+          },
+          "hex": "#C7DCE3"
+        },
+        {
+          "id": "butter-yellow",
+          "name": {
+            "en": "Butter yellow",
+            "pt-BR": "Amarelo manteiga"
+          },
+          "hex": "#F1DD9B"
+        },
+        {
+          "id": "silver",
+          "name": {
+            "en": "Silver",
+            "pt-BR": "Prata"
+          },
+          "hex": "#B8BBBE"
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "3-5-qt",
+          "name": {
+            "en": "3.5 qt",
+            "pt-BR": "3,3 L"
+          }
+        },
+        {
+          "id": "4-5-qt",
+          "name": {
+            "en": "4.5 qt",
+            "pt-BR": "4,3 L"
+          }
+        },
+        {
+          "id": "5-qt",
+          "name": {
+            "en": "5 qt",
+            "pt-BR": "4,7 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-3-5-qt",
+      "sku": "LML-SMX-WHT-35",
+      "options": {
+        "color": "white",
+        "capacity": "3-5-qt"
+      },
+      "price": {
+        "BRL": 2999.9,
+        "USD": 379.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante branco com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-4-5-qt",
+      "sku": "LML-SMX-WHT-45",
+      "options": {
+        "color": "white",
+        "capacity": "4-5-qt"
+      },
+      "price": {
+        "BRL": 2599.9,
+        "USD": 329.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante branco com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-5-qt",
+      "sku": "LML-SMX-WHT-50",
+      "options": {
+        "color": "white",
+        "capacity": "5-qt"
+      },
+      "price": {
+        "BRL": 3499.9,
+        "USD": 449.99
+      },
+      "listPrice": {
+        "BRL": 3999.9,
+        "USD": 499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante branco com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-3-5-qt",
+      "sku": "LML-SMX-BLK-35",
+      "options": {
+        "color": "matte-black",
+        "capacity": "3-5-qt"
+      },
+      "price": {
+        "BRL": 2999.9,
+        "USD": 379.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante preto fosco com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-4-5-qt",
+      "sku": "LML-SMX-BLK-45",
+      "options": {
+        "color": "matte-black",
+        "capacity": "4-5-qt"
+      },
+      "price": {
+        "BRL": 2599.9,
+        "USD": 329.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante preto fosco com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-5-qt",
+      "sku": "LML-SMX-BLK-50",
+      "options": {
+        "color": "matte-black",
+        "capacity": "5-qt"
+      },
+      "price": {
+        "BRL": 3499.9,
+        "USD": 449.99
+      },
+      "listPrice": {
+        "BRL": 3999.9,
+        "USD": 499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante preto fosco com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-3-5-qt",
+      "sku": "LML-SMX-RED-35",
+      "options": {
+        "color": "cherry-red",
+        "capacity": "3-5-qt"
+      },
+      "price": {
+        "BRL": 2999.9,
+        "USD": 379.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante vermelho cereja com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-4-5-qt",
+      "sku": "LML-SMX-RED-45",
+      "options": {
+        "color": "cherry-red",
+        "capacity": "4-5-qt"
+      },
+      "price": {
+        "BRL": 2599.9,
+        "USD": 329.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante vermelho cereja com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-5-qt",
+      "sku": "LML-SMX-RED-50",
+      "options": {
+        "color": "cherry-red",
+        "capacity": "5-qt"
+      },
+      "price": {
+        "BRL": 3499.9,
+        "USD": 449.99
+      },
+      "listPrice": {
+        "BRL": 3999.9,
+        "USD": 499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante vermelho cereja com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pistachio-3-5-qt",
+      "sku": "LML-SMX-PST-35",
+      "options": {
+        "color": "pistachio",
+        "capacity": "3-5-qt"
+      },
+      "price": {
+        "BRL": 2999.9,
+        "USD": 379.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pistachio tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante pistache com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "pistachio-white.png",
+            "#f5f5f5": "pistachio-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pistachio-4-5-qt",
+      "sku": "LML-SMX-PST-45",
+      "options": {
+        "color": "pistachio",
+        "capacity": "4-5-qt"
+      },
+      "price": {
+        "BRL": 2599.9,
+        "USD": 329.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pistachio tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante pistache com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "pistachio-white.png",
+            "#f5f5f5": "pistachio-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pistachio-5-qt",
+      "sku": "LML-SMX-PST-50",
+      "options": {
+        "color": "pistachio",
+        "capacity": "5-qt"
+      },
+      "price": {
+        "BRL": 3499.9,
+        "USD": 449.99
+      },
+      "listPrice": {
+        "BRL": 3999.9,
+        "USD": 499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pistachio tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante pistache com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "pistachio-white.png",
+            "#f5f5f5": "pistachio-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-green-3-5-qt",
+      "sku": "LML-SMX-SGR-35",
+      "options": {
+        "color": "sage-green",
+        "capacity": "3-5-qt"
+      },
+      "price": {
+        "BRL": 2999.9,
+        "USD": 379.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage green tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante verde sálvia com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-green-4-5-qt",
+      "sku": "LML-SMX-SGR-45",
+      "options": {
+        "color": "sage-green",
+        "capacity": "4-5-qt"
+      },
+      "price": {
+        "BRL": 2599.9,
+        "USD": 329.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage green tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante verde sálvia com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-green-5-qt",
+      "sku": "LML-SMX-SGR-50",
+      "options": {
+        "color": "sage-green",
+        "capacity": "5-qt"
+      },
+      "price": {
+        "BRL": 3499.9,
+        "USD": 449.99
+      },
+      "listPrice": {
+        "BRL": 3999.9,
+        "USD": 499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage green tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante verde sálvia com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ice-blue-3-5-qt",
+      "sku": "LML-SMX-ICE-35",
+      "options": {
+        "color": "ice-blue",
+        "capacity": "3-5-qt"
+      },
+      "price": {
+        "BRL": 2999.9,
+        "USD": 379.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ice blue tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante azul gelo com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "ice-blue-white.png",
+            "#f5f5f5": "ice-blue-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ice-blue-4-5-qt",
+      "sku": "LML-SMX-ICE-45",
+      "options": {
+        "color": "ice-blue",
+        "capacity": "4-5-qt"
+      },
+      "price": {
+        "BRL": 2599.9,
+        "USD": 329.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ice blue tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante azul gelo com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "ice-blue-white.png",
+            "#f5f5f5": "ice-blue-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ice-blue-5-qt",
+      "sku": "LML-SMX-ICE-50",
+      "options": {
+        "color": "ice-blue",
+        "capacity": "5-qt"
+      },
+      "price": {
+        "BRL": 3499.9,
+        "USD": 449.99
+      },
+      "listPrice": {
+        "BRL": 3999.9,
+        "USD": 499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Ice blue tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante azul gelo com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "ice-blue-white.png",
+            "#f5f5f5": "ice-blue-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "butter-yellow-3-5-qt",
+      "sku": "LML-SMX-YEL-35",
+      "options": {
+        "color": "butter-yellow",
+        "capacity": "3-5-qt"
+      },
+      "price": {
+        "BRL": 2999.9,
+        "USD": 379.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Butter yellow tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante amarelo manteiga com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "butter-yellow-white.png",
+            "#f5f5f5": "butter-yellow-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "butter-yellow-4-5-qt",
+      "sku": "LML-SMX-YEL-45",
+      "options": {
+        "color": "butter-yellow",
+        "capacity": "4-5-qt"
+      },
+      "price": {
+        "BRL": 2599.9,
+        "USD": 329.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Butter yellow tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante amarelo manteiga com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "butter-yellow-white.png",
+            "#f5f5f5": "butter-yellow-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "butter-yellow-5-qt",
+      "sku": "LML-SMX-YEL-50",
+      "options": {
+        "color": "butter-yellow",
+        "capacity": "5-qt"
+      },
+      "price": {
+        "BRL": 3499.9,
+        "USD": 449.99
+      },
+      "listPrice": {
+        "BRL": 3999.9,
+        "USD": 499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Butter yellow tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante amarelo manteiga com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "butter-yellow-white.png",
+            "#f5f5f5": "butter-yellow-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "silver-3-5-qt",
+      "sku": "LML-SMX-SLV-35",
+      "options": {
+        "color": "silver",
+        "capacity": "3-5-qt"
+      },
+      "price": {
+        "BRL": 2999.9,
+        "USD": 379.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Silver tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante prata com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "silver-white.png",
+            "#f5f5f5": "silver-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "silver-4-5-qt",
+      "sku": "LML-SMX-SLV-45",
+      "options": {
+        "color": "silver",
+        "capacity": "4-5-qt"
+      },
+      "price": {
+        "BRL": 2599.9,
+        "USD": 329.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Silver tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante prata com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "silver-white.png",
+            "#f5f5f5": "silver-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "silver-5-qt",
+      "sku": "LML-SMX-SLV-50",
+      "options": {
+        "color": "silver",
+        "capacity": "5-qt"
+      },
+      "price": {
+        "BRL": 3499.9,
+        "USD": 449.99
+      },
+      "listPrice": {
+        "BRL": 3999.9,
+        "USD": 499.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Silver tilt-head stand mixer with stainless steel bowl, flat beater and front attachment hub, three-quarter view",
+            "pt-BR": "Batedeira planetária basculante prata com tigela de aço inox, batedor plano e encaixe frontal para acessórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "silver-white.png",
+            "#f5f5f5": "silver-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

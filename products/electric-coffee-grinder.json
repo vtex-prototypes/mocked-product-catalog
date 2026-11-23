@@ -1,0 +1,148 @@
+{
+  "id": "electric-coffee-grinder",
+  "brandId": "lumelar",
+  "categoryId": "casa-hobbies",
+  "name": {
+    "en": "Lumelar CG20-B Electric Conical Burr Coffee Grinder with 70 Grind Settings, Clear Bean Hopper, Glass Grounds Container, Grind Size Dial, Anti-Static Design",
+    "pt-BR": "Moedor de Café Elétrico Lumelar CG20-B com Moedor Cônico de Rebarbas, 70 Níveis de Moagem, Reservatório de Grãos Transparente, Pote de Vidro, Botão de Ajuste, Design Antiestático"
+  },
+  "description": {
+    "en": "An electric burr grinder with a conical burr and 70 settings, from coarse for French press to fine for espresso. The clear hopper holds the beans and the glass container catches the grounds.",
+    "pt-BR": "Moedor de café elétrico com rebarba cônica e 70 níveis de moagem, do grosso para prensa francesa ao fino para espresso. O reservatório transparente guarda os grãos e o pote de vidro recebe o pó."
+  },
+  "price": {
+    "BRL": 1099.9,
+    "USD": 199.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "coffee grinder",
+      "burr grinder",
+      "espresso",
+      "coffee"
+    ],
+    "pt-BR": [
+      "moedor de café",
+      "moedor de rebarbas",
+      "espresso",
+      "café"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    }
+  ],
+  "defaultVariantId": "matte-black",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        },
+        {
+          "id": "stainless",
+          "name": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          },
+          "hex": "#C9CCCE"
+        },
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "matte-black",
+      "sku": "LML-CGR-MB",
+      "options": {
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 1099.9,
+        "USD": 199.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black electric burr coffee grinder with a clear bean hopper, side dial and glass grounds container, three-quarter view",
+            "pt-BR": "Moedor de café elétrico de rebarbas preto fosco com reservatório de grãos transparente, botão lateral e pote de vidro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stainless",
+      "sku": "LML-CGR-SS",
+      "options": {
+        "color": "stainless"
+      },
+      "price": {
+        "BRL": 1099.9,
+        "USD": 199.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel electric burr coffee grinder with a clear bean hopper, side dial and glass grounds container, three-quarter view",
+            "pt-BR": "Moedor de café elétrico de rebarbas em aço inox com reservatório de grãos transparente, botão lateral e pote de vidro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-white.png",
+            "#f5f5f5": "stainless-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red",
+      "sku": "LML-CGR-CR",
+      "options": {
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 1099.9,
+        "USD": 199.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red electric burr coffee grinder with a clear bean hopper, side dial and glass grounds container, three-quarter view",
+            "pt-BR": "Moedor de café elétrico de rebarbas vermelho cereja com reservatório de grãos transparente, botão lateral e pote de vidro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
