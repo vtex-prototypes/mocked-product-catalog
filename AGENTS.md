@@ -37,13 +37,15 @@ npm run compat -- origin/main                    # add --allow-breaking when the
 
 A brand is optional. Leave `brandId` out, and leave it out of the name, when the product has none. A tomato does not need one. When it has one, add the brand once to `brands.json` and set `brandId`. Never use a trademark or a real brand name, in the brand, the name, description, tags, or alt text, or as a logo or label in the photo.
 
+A product must not look branded either. Removing the logo is not enough when the design still points to one maker: a phone that reads as an iPhone, a car that reads as a Ferrari, a mixer with one company's signature silhouette and trim. Build the object from features the whole category shares, and never copy the shape, proportions, details or combination of cues that make a specific product recognizable. A color alone is fine. A red car, a pistachio mixer or a teal blender is not a brand; the problem is color together with the shape and details that identify the product. Test it before you commit: if a shopper could name the brand or the model from the photo, regenerate it with a more generic design.
+
 How a product is sold goes in `unitId`, an id from `units.json`: the thing one price buys and one step of the quantity counts, such as `can`, `bag`, `piece` or `area` (sq ft in `en`, m² in `pt-BR`). Leave it out for a single item, which is `unit`. Set `unitId` on a variant only when that variant is sold differently, like an 18 L bucket among 3.6 L cans or a box among pieces. The unit lives only in this field: never in the name, in either locale ("Sold by the Can", "Priced per Square Foot", "Vendida por Lata"), because a prototype shows it next to the price and would repeat it in the title. A size that is part of the object stays in the name ("44 Pound Bag", "12 by 12 Inches"). Add a unit to `units.json`, with `one` and `other` in both locales, when none fits.
 
 A value that should match across products goes in `specifications.json` once, with `en` and `pt-BR`. Material and capacity are product specifications. A shared option such as apparel size uses `specificationId` and `valueId` instead of copying the label. Color stays on the product, because the hex belongs to that photo. Write a new value into `specifications.json` when an existing one would be a stretch. The listing name stays the product's own words.
 
 Work on a branch. Generate the white PNG with the prompt in the README, with the draft photo attached when you are promoting one. Run `npm run backgrounds`, then `npm run check`. `check` writes the WebP beside the PNG and rebuilds `catalog.json`. Commit the PNG and the WebP. The PNG stays the source.
 
-Open the PR with `gh pr create` and fill in the template. Confirm by eye: no shadow, no text, no logo, no trademark.
+Open the PR with `gh pr create` and fill in the template. Confirm by eye: no shadow, no text, no logo, no trademark, and no design a shopper would tie to a brand.
 
 ## One product, many variants
 
