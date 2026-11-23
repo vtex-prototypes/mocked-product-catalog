@@ -1,0 +1,109 @@
+{
+  "id": "anti-mildew-wall-cleaner",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "Anti-Mildew Wall Cleaner Spray for Mold Stains on Walls and Ceilings Before Painting, 32 oz or 1 Gallon",
+    "pt-BR": "Limpador Antimofo em Spray para Manchas de Mofo em Paredes e Tetos antes da Pintura, 946 mL ou 3,6 L"
+  },
+  "description": {
+    "en": "A ready-to-use spray that removes mildew stains and kills mold spores on painted walls and ceilings. Spray, wait ten minutes, wipe and let the wall dry before patching or painting. Use first when a wall has dark spots.",
+    "pt-BR": "Spray pronto para uso que remove manchas de mofo e elimina esporos em paredes e tetos pintados. Borrife, espere dez minutos, passe um pano e deixe secar antes de reparar ou pintar. Use primeiro quando a parede tem manchas escuras."
+  },
+  "price": {
+    "BRL": 34.9,
+    "USD": 9.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "mildew",
+      "mold remover",
+      "wall cleaner",
+      "spray",
+      "before painting"
+    ],
+    "pt-BR": [
+      "antimofo",
+      "removedor de mofo",
+      "limpador de parede",
+      "spray",
+      "antes da pintura"
+    ]
+  },
+  "defaultVariantId": "32-oz",
+  "options": [
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "32-oz",
+          "name": {
+            "en": "32 oz",
+            "pt-BR": "946 mL"
+          }
+        },
+        {
+          "id": "one-gal",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "32-oz",
+      "sku": "CON-MILDEW-CLEANER-32OZ",
+      "options": {
+        "size": "32-oz"
+      },
+      "price": {
+        "BRL": 34.9,
+        "USD": 9.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White trigger spray bottle of anti-mildew wall cleaner",
+            "pt-BR": "Frasco branco com gatilho de limpador de parede antimofo"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-gal",
+      "sku": "CON-MILDEW-CLEANER-1GAL",
+      "options": {
+        "size": "one-gal"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 24
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White trigger spray bottle of anti-mildew wall cleaner",
+            "pt-BR": "Frasco branco com gatilho de limpador de parede antimofo"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

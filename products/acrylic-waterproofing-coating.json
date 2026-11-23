@@ -1,0 +1,145 @@
+{
+  "id": "acrylic-waterproofing-coating",
+  "categoryId": "construcao-tintas",
+  "unitId": "can",
+  "name": {
+    "en": "Flexible Acrylic Waterproofing Coating for Damp Interior and Exterior Walls, Light Gray, 1 or 5 Gallons",
+    "pt-BR": "Impermeabilizante Acrílico Flexível para Paredes Úmidas Internas e Externas, Cinza-claro, 3,6 L ou 18 L"
+  },
+  "description": {
+    "en": "A flexible light gray acrylic coating that blocks moisture coming through masonry walls. Apply two coats with a roller or brush over a clean, patched wall, then prime and paint. Not for standing water or pool surfaces.",
+    "pt-BR": "Impermeabilizante acrílico flexível, cinza-claro, que barra a umidade que atravessa paredes de alvenaria. Aplique duas demãos com rolo ou trincha sobre parede limpa e reparada, depois fundo e tinta. Não serve para água parada nem piscinas."
+  },
+  "price": {
+    "BRL": 149.9,
+    "USD": 38
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "waterproofing",
+      "damp wall",
+      "moisture barrier",
+      "acrylic",
+      "coating"
+    ],
+    "pt-BR": [
+      "impermeabilizante",
+      "parede úmida",
+      "barreira de umidade",
+      "acrílico",
+      "revestimento"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "one-gal",
+  "options": [
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "one-gal",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "five-gal",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one-gal",
+      "sku": "CON-WATERPROOF-COAT-1GAL",
+      "options": {
+        "size": "one-gal"
+      },
+      "price": {
+        "BRL": 149.9,
+        "USD": 38
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Jug of light gray flexible acrylic waterproofing coating",
+            "pt-BR": "Galão de impermeabilizante acrílico flexível cinza-claro"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Bathroom wall with a light gray waterproofing coat rolled on",
+            "pt-BR": "Parede de banheiro com demão de impermeabilizante cinza-claro aplicada a rolo"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "five-gal",
+      "sku": "CON-WATERPROOF-COAT-5GAL",
+      "options": {
+        "size": "five-gal"
+      },
+      "price": {
+        "BRL": 649,
+        "USD": 169
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Jug of light gray flexible acrylic waterproofing coating",
+            "pt-BR": "Galão de impermeabilizante acrílico flexível cinza-claro"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        },
+        {
+          "alt": {
+            "en": "Bathroom wall with a light gray waterproofing coat rolled on",
+            "pt-BR": "Parede de banheiro com demão de impermeabilizante cinza-claro aplicada a rolo"
+          },
+          "backgrounds": {
+            "#ffffff": "application-white.png",
+            "#f5f5f5": "application-gray.png"
+          }
+        }
+      ],
+      "unitId": "bucket"
+    }
+  ]
+}

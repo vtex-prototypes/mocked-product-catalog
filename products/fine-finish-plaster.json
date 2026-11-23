@@ -1,0 +1,117 @@
+{
+  "id": "fine-finish-plaster",
+  "categoryId": "construcao-argamassas",
+  "unitId": "bag",
+  "name": {
+    "en": "White Fine Finishing Plaster for Smooth Interior Walls, Mixed with Water, 44 Pound Bag",
+    "pt-BR": "Massa Fina de Acabamento Branca para Parede Interna Lisa, Misturada com Água, Saco de 20 kg"
+  },
+  "description": {
+    "en": "A white powder plaster you mix with water for the last, thin coat over a leveled wall, ready to sand and paint. It is a mineral finishing plaster, not a ready-mixed wall putty. Sold by the 44 pound bag or in a pack of five.",
+    "pt-BR": "Gesso fino branco em pó, misturado com água, para a última camada fina sobre parede nivelada, pronto para lixar e pintar. É uma massa mineral de acabamento, não a massa corrida pronta. Vendida em saco de 20 kg ou em pacote com cinco."
+  },
+  "price": {
+    "BRL": 69.9,
+    "USD": 21.5
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "finishing plaster",
+      "fine plaster",
+      "smooth wall",
+      "interior",
+      "white"
+    ],
+    "pt-BR": [
+      "massa fina",
+      "gesso fino",
+      "parede lisa",
+      "interna",
+      "branca"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "one-bag",
+  "options": [
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "one-bag",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "five-bags",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one-bag",
+      "sku": "CON-FINE-PLASTER-1",
+      "options": {
+        "pack": "one-bag"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 21.5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Paper bag of white fine finishing plaster",
+            "pt-BR": "Saco de papel de massa fina de acabamento branca"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "five-bags",
+      "sku": "CON-FINE-PLASTER-5",
+      "options": {
+        "pack": "five-bags"
+      },
+      "price": {
+        "BRL": 319,
+        "USD": 99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Paper bag of white fine finishing plaster",
+            "pt-BR": "Saco de papel de massa fina de acabamento branca"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ],
+      "unitId": "pack"
+    }
+  ]
+}

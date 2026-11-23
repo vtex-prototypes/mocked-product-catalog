@@ -1,0 +1,146 @@
+{
+  "id": "flexible-putty-knife",
+  "categoryId": "construcao-acessorios",
+  "name": {
+    "en": "Flexible Steel Putty Knife with a Soft-Grip Handle for Spreading Putty and Scraping Paint, 2, 4 or 6 Inch",
+    "pt-BR": "Espátula de Aço Flexível com Cabo Emborrachado para Espalhar Massa e Raspar Tinta, 5, 10 ou 15 cm"
+  },
+  "description": {
+    "en": "A flexible steel blade with a soft-grip handle for spreading putty over cracks and holes and scraping loose paint. The narrow 2 inch blade suits small holes, the 6 inch blade feathers wide patches.",
+    "pt-BR": "Lâmina de aço flexível com cabo emborrachado para espalhar massa sobre trincas e furos e raspar tinta solta. A lâmina estreita de 5 cm serve para furos pequenos e a de 15 cm esfuma remendos largos."
+  },
+  "price": {
+    "BRL": 29.9,
+    "USD": 8.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "putty knife",
+      "spatula",
+      "scraper",
+      "drywall",
+      "patching"
+    ],
+    "pt-BR": [
+      "espátula",
+      "raspador",
+      "drywall",
+      "remendo",
+      "massa corrida"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    }
+  ],
+  "defaultVariantId": "four-in",
+  "options": [
+    {
+      "id": "width",
+      "name": {
+        "en": "Width",
+        "pt-BR": "Largura"
+      },
+      "values": [
+        {
+          "id": "two-in",
+          "name": {
+            "en": "2 in",
+            "pt-BR": "5 cm"
+          }
+        },
+        {
+          "id": "four-in",
+          "name": {
+            "en": "4 in",
+            "pt-BR": "10 cm"
+          }
+        },
+        {
+          "id": "six-in",
+          "name": {
+            "en": "6 in",
+            "pt-BR": "15 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "two-in",
+      "sku": "CON-PUTTY-KNIFE-2IN",
+      "options": {
+        "width": "two-in"
+      },
+      "price": {
+        "BRL": 19.9,
+        "USD": 5.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Flexible steel putty knife with a black and orange soft-grip handle",
+            "pt-BR": "Espátula de aço flexível com cabo emborrachado preto e laranja"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "four-in",
+      "sku": "CON-PUTTY-KNIFE-4IN",
+      "options": {
+        "width": "four-in"
+      },
+      "price": {
+        "BRL": 29.9,
+        "USD": 8.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Flexible steel putty knife with a black and orange soft-grip handle",
+            "pt-BR": "Espátula de aço flexível com cabo emborrachado preto e laranja"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "six-in",
+      "sku": "CON-PUTTY-KNIFE-6IN",
+      "options": {
+        "width": "six-in"
+      },
+      "price": {
+        "BRL": 39.9,
+        "USD": 11.9
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Flexible steel putty knife with a black and orange soft-grip handle",
+            "pt-BR": "Espátula de aço flexível com cabo emborrachado preto e laranja"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

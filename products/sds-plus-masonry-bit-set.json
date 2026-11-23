@@ -1,0 +1,124 @@
+{
+  "id": "sds-plus-masonry-bit-set",
+  "categoryId": "construcao-acessorios",
+  "unitId": "set",
+  "name": {
+    "en": "SDS-Plus Masonry Drill Bit Set for Rotary Hammers, Carbide-Tipped for Concrete and Brick, 4 or 6 Pieces",
+    "pt-BR": "Jogo de Brocas SDS-Plus para Martelete, com Ponta de Metal Duro para Concreto e Tijolo, 4 ou 6 Peças"
+  },
+  "description": {
+    "en": "Carbide-tipped masonry bits with a grooved SDS-plus shank that locks into a rotary hammer for fast holes in concrete and brick. They need an SDS-plus tool and do not fit a drill or drill driver with a regular chuck, of any size.",
+    "pt-BR": "Brocas de metal duro com haste SDS-plus ranhurada, que trava no martelete para furar concreto e tijolo com rapidez. Exigem ferramenta SDS-plus e não servem em furadeira ou parafusadeira com mandril comum, de nenhum tamanho."
+  },
+  "price": {
+    "BRL": 79.9,
+    "USD": 22.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "SDS-plus",
+      "masonry bits",
+      "rotary hammer",
+      "concrete",
+      "for SDS tools only"
+    ],
+    "pt-BR": [
+      "SDS-plus",
+      "brocas para alvenaria",
+      "martelete",
+      "concreto",
+      "só para ferramenta SDS"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "steel"
+    },
+    {
+      "id": "shank",
+      "valueId": "sds-plus"
+    },
+    {
+      "id": "fits-tool",
+      "valueId": "rotary-hammer"
+    }
+  ],
+  "defaultVariantId": "four-piece",
+  "options": [
+    {
+      "id": "pack",
+      "name": {
+        "en": "Set",
+        "pt-BR": "Jogo"
+      },
+      "values": [
+        {
+          "id": "four-piece",
+          "name": {
+            "en": "4 pieces",
+            "pt-BR": "4 peças"
+          }
+        },
+        {
+          "id": "six-piece",
+          "name": {
+            "en": "6 pieces",
+            "pt-BR": "6 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "four-piece",
+      "sku": "CON-SDS-BITS-4",
+      "options": {
+        "pack": "four-piece"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 22.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Carbide-tipped SDS-plus masonry bits beside a gray metal case",
+            "pt-BR": "Brocas de metal duro com haste SDS-plus para alvenaria ao lado de uma maleta metálica cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "six-piece",
+      "sku": "CON-SDS-BITS-6",
+      "options": {
+        "pack": "six-piece"
+      },
+      "price": {
+        "BRL": 109.9,
+        "USD": 32.9
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Carbide-tipped SDS-plus masonry bits beside a gray metal case",
+            "pt-BR": "Brocas de metal duro com haste SDS-plus para alvenaria ao lado de uma maleta metálica cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
