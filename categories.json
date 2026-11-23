@@ -39,6 +39,7 @@
   { "id": "eletro-casa-praticos", "name": { "en": "Home Appliances", "pt-BR": "Aparelhos práticos para casa" }, "parent": "eletronicos" },
   { "id": "eletro-casa-entretenimento", "name": { "en": "Home Entertainment", "pt-BR": "Aparelhos para entreter em casa" }, "parent": "eletronicos" },
   { "id": "eletro-cozinha", "name": { "en": "Kitchen Appliances", "pt-BR": "Aparelhos de cozinha" }, "parent": "eletronicos" },
+  { "id": "eletro-lavanderia", "name": { "en": "Laundry", "pt-BR": "Lavanderia" }, "parent": "eletronicos" },
   { "id": "eletro-pessoais", "name": { "en": "Personal Devices", "pt-BR": "Aparelhos pessoais" }, "parent": "eletronicos" },
   { "id": "eletro-acessorios", "name": { "en": "Accessories", "pt-BR": "Acessórios" }, "parent": "eletronicos" },
 

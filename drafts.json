@@ -320,17 +320,6 @@
       "src": "drafts/cycling-gloves.jpg"
     },
     {
-      "id": "dishwasher",
-      "categoryId": "eletro-cozinha",
-      "name": {
-        "en": "Dishwasher",
-        "pt-BR": "Lava-louças"
-      },
-      "photo": "dishwasher.jpg",
-      "figmaNode": "134:5695",
-      "src": "drafts/dishwasher.jpg"
-    },
-    {
       "id": "drawer-organizer",
       "categoryId": "casa-organizacao-limpeza",
       "name": {
@@ -516,17 +505,6 @@
       "photo": "garlic.jpg",
       "figmaNode": "129:5608",
       "src": "drafts/garlic.jpg"
-    },
-    {
-      "id": "gas-cooktop",
-      "categoryId": "eletro-cozinha",
-      "name": {
-        "en": "Gas cooktop",
-        "pt-BR": "Cooktop a gás"
-      },
-      "photo": "gas-cooktop.jpg",
-      "figmaNode": "134:5609",
-      "src": "drafts/gas-cooktop.jpg"
     },
     {
       "id": "glass-cleaner-spray",
@@ -935,17 +913,6 @@
       "photo": "mesh-laundry-bags.jpg",
       "figmaNode": "136:5591",
       "src": "drafts/mesh-laundry-bags.jpg"
-    },
-    {
-      "id": "microwave-oven",
-      "categoryId": "eletro-cozinha",
-      "name": {
-        "en": "Microwave oven",
-        "pt-BR": "Micro-ondas"
-      },
-      "photo": "microwave-oven.jpg",
-      "figmaNode": "131:5582",
-      "src": "drafts/microwave-oven.jpg"
     },
     {
       "id": "military-hiking-boot",
@@ -1795,17 +1762,6 @@
       "figmaNode": "136:5612",
       "notes": "Source photo has printed text (\"HEADLAMP\")",
       "src": "drafts/wide-beam-headlamp.jpg"
-    },
-    {
-      "id": "wine-cooler",
-      "categoryId": "eletro-cozinha",
-      "name": {
-        "en": "Wine cooler",
-        "pt-BR": "Adega climatizada"
-      },
-      "photo": "wine-cooler.jpg",
-      "figmaNode": "134:5681",
-      "src": "drafts/wine-cooler.jpg"
     },
     {
       "id": "wine-glass",

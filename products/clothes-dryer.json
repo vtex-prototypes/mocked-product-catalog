@@ -1,0 +1,185 @@
+{
+  "id": "clothes-dryer",
+  "brandId": "lumelar",
+  "categoryId": "eletro-lavanderia",
+  "name": {
+    "en": "Lumelar Front Load Clothes Dryer with Sensor Drying, Stackable Design, 10 Drying Cycles, Wrinkle Care Option, Reversible Door, Extra Large Lint Filter",
+    "pt-BR": "Secadora de Roupas Lumelar de Carga Frontal com Secagem por Sensor, Design Empilhável, 10 Programas de Secagem, Opção Antivinco, Porta Reversível"
+  },
+  "description": {
+    "en": "A front load dryer that senses moisture and stops when clothes are dry, saving time and energy. The gas model needs a gas hookup, while the electric model plugs into a 240 V outlet.",
+    "pt-BR": "Secadora de roupas de carga frontal que detecta a umidade e para quando as roupas estão secas, economizando tempo e energia. O modelo a gás precisa de ligação de gás, e o modelo elétrico usa tomada de 220 V."
+  },
+  "price": {
+    "BRL": 3499.9,
+    "USD": 799.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "clothes dryer",
+      "front load",
+      "laundry",
+      "sensor drying"
+    ],
+    "pt-BR": [
+      "secadora de roupas",
+      "carga frontal",
+      "lavanderia",
+      "secagem por sensor"
+    ]
+  },
+  "defaultVariantId": "electric-white",
+  "options": [
+    {
+      "id": "fuel",
+      "name": {
+        "en": "Fuel type",
+        "pt-BR": "Tipo de energia"
+      },
+      "values": [
+        {
+          "id": "electric",
+          "name": {
+            "en": "Electric",
+            "pt-BR": "Elétrica"
+          }
+        },
+        {
+          "id": "gas",
+          "name": {
+            "en": "Gas",
+            "pt-BR": "A gás"
+          }
+        }
+      ]
+    },
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F2"
+        },
+        {
+          "id": "graphite",
+          "name": {
+            "en": "Graphite",
+            "pt-BR": "Grafite"
+          },
+          "hex": "#4A4D52"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "electric-white",
+      "sku": "LML-DRY-EL-WH",
+      "options": {
+        "fuel": "electric",
+        "color": "white"
+      },
+      "price": {
+        "BRL": 3499.9,
+        "USD": 799.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White front load clothes dryer with large round tinted door, chrome ring and control dial, three-quarter view",
+            "pt-BR": "Secadora de roupas branca de carga frontal com porta redonda escurecida, aro cromado e seletor, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "electric-graphite",
+      "sku": "LML-DRY-EL-GR",
+      "options": {
+        "fuel": "electric",
+        "color": "graphite"
+      },
+      "price": {
+        "BRL": 3799.9,
+        "USD": 849.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Graphite front load clothes dryer with large round tinted door, chrome ring and control dial, three-quarter view",
+            "pt-BR": "Secadora de roupas grafite de carga frontal com porta redonda escurecida, aro cromado e seletor, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "graphite-white.png",
+            "#f5f5f5": "graphite-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gas-white",
+      "sku": "LML-DRY-GS-WH",
+      "options": {
+        "fuel": "gas",
+        "color": "white"
+      },
+      "price": {
+        "BRL": 3899.9,
+        "USD": 899.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White front load clothes dryer with large round tinted door, chrome ring and control dial, three-quarter view",
+            "pt-BR": "Secadora de roupas branca de carga frontal com porta redonda escurecida, aro cromado e seletor, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gas-graphite",
+      "sku": "LML-DRY-GS-GR",
+      "options": {
+        "fuel": "gas",
+        "color": "graphite"
+      },
+      "price": {
+        "BRL": 4199.9,
+        "USD": 949.99
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Graphite front load clothes dryer with large round tinted door, chrome ring and control dial, three-quarter view",
+            "pt-BR": "Secadora de roupas grafite de carga frontal com porta redonda escurecida, aro cromado e seletor, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "graphite-white.png",
+            "#f5f5f5": "graphite-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

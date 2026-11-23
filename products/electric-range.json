@@ -1,0 +1,110 @@
+{
+  "id": "electric-range",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar 30 Inch Freestanding Electric Range with Smooth Glass-Ceramic Cooktop, 5.3 Cu Ft Self-Cleaning Oven, Convection Fan, Four Radiant Elements, Storage Drawer",
+    "pt-BR": "Fogão Elétrico Lumelar de Piso 76 cm com Mesa Vitrocerâmica Lisa, Forno Autolimpante de 150 Litros, Ventilador Convector, Quatro Zonas de Aquecimento"
+  },
+  "description": {
+    "en": "A 30 in freestanding electric range with a smooth glass-ceramic cooktop that wipes clean in seconds. The self-cleaning oven has a convection fan for even baking, and a drawer below stores pans.",
+    "pt-BR": "Fogão elétrico de piso de 76 cm com mesa vitrocerâmica lisa que se limpa em segundos. O forno autolimpante tem ventilador convector para assar por igual, e a gaveta inferior guarda panelas."
+  },
+  "price": {
+    "BRL": 4299.9,
+    "USD": 999.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "electric range",
+      "freestanding",
+      "kitchen appliance",
+      "glass cooktop"
+    ],
+    "pt-BR": [
+      "fogão elétrico",
+      "de piso",
+      "eletrodoméstico de cozinha",
+      "mesa vitrocerâmica"
+    ]
+  },
+  "defaultVariantId": "stainless",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "stainless",
+          "name": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          },
+          "hex": "#C9CCCE"
+        },
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1F2022"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "stainless",
+      "sku": "LML-ERG-SS",
+      "options": {
+        "color": "stainless"
+      },
+      "price": {
+        "BRL": 4299.9,
+        "USD": 999.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel freestanding electric range with smooth black glass cooktop and oven door, three-quarter view",
+            "pt-BR": "Fogão elétrico de piso em aço inox com mesa de vidro preta lisa e porta do forno, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-white.png",
+            "#f5f5f5": "stainless-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black",
+      "sku": "LML-ERG-BK",
+      "options": {
+        "color": "black"
+      },
+      "price": {
+        "BRL": 4099.9,
+        "USD": 949.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black freestanding electric range with smooth black glass cooktop and oven door, three-quarter view",
+            "pt-BR": "Fogão elétrico de piso preto com mesa de vidro preta lisa e porta do forno, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

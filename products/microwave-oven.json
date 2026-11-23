@@ -1,0 +1,205 @@
+{
+  "id": "microwave-oven",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar Countertop Microwave Oven with Simple Dial Controls, 1000 Watts, 5 Power Levels, Glass Turntable, Quick Defrost, Easy-Clean Interior",
+    "pt-BR": "Micro-ondas Lumelar de Bancada com Controles Giratórios, 1000 W, 5 Níveis de Potência, Prato Giratório de Vidro, Descongelamento Rápido, Interior Fácil de Limpar"
+  },
+  "description": {
+    "en": "A countertop microwave run by two dials: one sets the power, the other the time, with no menus to learn. The glass turntable heats evenly and lifts out for washing.",
+    "pt-BR": "Micro-ondas de bancada com dois botões giratórios: um escolhe a potência e o outro o tempo, sem menus para aprender. O prato giratório de vidro aquece por igual e sai para lavar."
+  },
+  "price": {
+    "BRL": 899.9,
+    "USD": 179.99
+  },
+  "listPrice": {
+    "BRL": 1099.9,
+    "USD": 219.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "microwave",
+      "countertop",
+      "kitchen appliance",
+      "dial controls"
+    ],
+    "pt-BR": [
+      "micro-ondas",
+      "de bancada",
+      "eletrodoméstico de cozinha",
+      "controle giratório"
+    ]
+  },
+  "defaultVariantId": "stainless-1-1-cu-ft",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "stainless",
+          "name": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          },
+          "hex": "#C9CCCE"
+        },
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1F2022"
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "1-1-cu-ft",
+          "name": {
+            "en": "1.1 cu ft",
+            "pt-BR": "32 L"
+          }
+        },
+        {
+          "id": "1-6-cu-ft",
+          "name": {
+            "en": "1.6 cu ft",
+            "pt-BR": "45 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "stainless-1-1-cu-ft",
+      "sku": "LML-MWO-SS-11",
+      "options": {
+        "color": "stainless",
+        "capacity": "1-1-cu-ft"
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 179.99
+      },
+      "listPrice": {
+        "BRL": 1099.9,
+        "USD": 219.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel countertop microwave oven with glass door, bar handle and two control dials, three-quarter view",
+            "pt-BR": "Micro-ondas de bancada em aço inox com porta de vidro, puxador e dois botões giratórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-white.png",
+            "#f5f5f5": "stainless-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stainless-1-6-cu-ft",
+      "sku": "LML-MWO-SS-16",
+      "options": {
+        "color": "stainless",
+        "capacity": "1-6-cu-ft"
+      },
+      "price": {
+        "BRL": 1199.9,
+        "USD": 229.99
+      },
+      "listPrice": {
+        "BRL": 1399.9,
+        "USD": 269.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel countertop microwave oven with glass door, bar handle and two control dials, three-quarter view",
+            "pt-BR": "Micro-ondas de bancada em aço inox com porta de vidro, puxador e dois botões giratórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-white.png",
+            "#f5f5f5": "stainless-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-1-1-cu-ft",
+      "sku": "LML-MWO-BK-11",
+      "options": {
+        "color": "black",
+        "capacity": "1-1-cu-ft"
+      },
+      "price": {
+        "BRL": 949.9,
+        "USD": 189.99
+      },
+      "listPrice": {
+        "BRL": 1149.9,
+        "USD": 229.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black countertop microwave oven with glass door, bar handle and two control dials, three-quarter view",
+            "pt-BR": "Micro-ondas de bancada preto fosco com porta de vidro, puxador e dois botões giratórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "black-1-6-cu-ft",
+      "sku": "LML-MWO-BK-16",
+      "options": {
+        "color": "black",
+        "capacity": "1-6-cu-ft"
+      },
+      "price": {
+        "BRL": 1249.9,
+        "USD": 239.99
+      },
+      "listPrice": {
+        "BRL": 1449.9,
+        "USD": 279.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black countertop microwave oven with glass door, bar handle and two control dials, three-quarter view",
+            "pt-BR": "Micro-ondas de bancada preto fosco com porta de vidro, puxador e dois botões giratórios, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "black-white.png",
+            "#f5f5f5": "black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

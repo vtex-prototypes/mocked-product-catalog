@@ -22,6 +22,20 @@
       }
     },
     {
+      "id": "gelo-fino",
+      "name": {
+        "en": "Gelo Fino",
+        "pt-BR": "Gelo Fino"
+      }
+    },
+    {
+      "id": "lumelar",
+      "name": {
+        "en": "Lumelar",
+        "pt-BR": "Lumelar"
+      }
+    },
+    {
       "id": "ritmo",
       "name": {
         "en": "Ritmo",
@@ -1672,6 +1686,14 @@
       "name": {
         "en": "Kitchen Appliances",
         "pt-BR": "Aparelhos de cozinha"
+      },
+      "parent": "eletronicos"
+    },
+    {
+      "id": "eletro-lavanderia",
+      "name": {
+        "en": "Laundry",
+        "pt-BR": "Lavanderia"
       },
       "parent": "eletronicos"
     },
@@ -4678,6 +4700,285 @@
           "pt-BR": {
             "one": "pote",
             "other": "potes"
+          }
+        }
+      }
+    },
+    {
+      "id": "agitator-top-load-washer",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-lavanderia",
+      "name": {
+        "en": "Lumelar Top Load Washing Machine with Tall Center Agitator, Rear Dial Console, 9 Wash Cycles, Heavy Duty Cycle, Soak Option, Auto Load Sensing",
+        "pt-BR": "Máquina de Lavar Lumelar de Carga Superior com Agitador Central Alto, Painel Traseiro com Seletores, 9 Programas, Ciclo Pesado, Opção de Molho"
+      },
+      "description": {
+        "en": "A classic top load washer with a tall center agitator and a solid lid. Simple dials, a heavy duty cycle and a soak option handle everyday loads and work clothes alike.",
+        "pt-BR": "Máquina de lavar clássica de carga superior, com agitador central alto e tampa sólida. Os seletores simples, o ciclo pesado e a opção de molho dão conta de roupas do dia a dia e de trabalho."
+      },
+      "price": {
+        "BRL": 3299.9,
+        "USD": 649.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "washing machine",
+          "top load",
+          "agitator",
+          "laundry"
+        ],
+        "pt-BR": [
+          "máquina de lavar",
+          "carga superior",
+          "agitador",
+          "lavanderia"
+        ]
+      },
+      "defaultVariantId": "white-3-8-cu-ft",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            },
+            {
+              "id": "silver",
+              "name": {
+                "en": "Silver",
+                "pt-BR": "Prata"
+              },
+              "hex": "#B8BBBE"
+            }
+          ]
+        },
+        {
+          "id": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "values": [
+            {
+              "id": "3-8-cu-ft",
+              "name": {
+                "en": "3.8 cu ft",
+                "pt-BR": "12 kg"
+              }
+            },
+            {
+              "id": "4-3-cu-ft",
+              "name": {
+                "en": "4.3 cu ft",
+                "pt-BR": "15 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-3-8-cu-ft",
+          "sku": "LML-AGW-WH-38",
+          "options": {
+            "color": "white",
+            "capacity": "3-8-cu-ft"
+          },
+          "price": {
+            "BRL": 3299.9,
+            "USD": 649.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White top load washing machine with the solid lid open showing a tall center agitator and a rear control console with dials, three-quarter view",
+                "pt-BR": "Máquina de lavar branco de carga superior com a tampa sólida aberta mostrando o agitador central alto e painel traseiro com seletores, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/agitator-top-load-washer/white-white.webp",
+                "#f5f5f5": "images/agitator-top-load-washer/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "white-4-3-cu-ft",
+          "sku": "LML-AGW-WH-43",
+          "options": {
+            "color": "white",
+            "capacity": "4-3-cu-ft"
+          },
+          "price": {
+            "BRL": 3599.9,
+            "USD": 699.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White top load washing machine with the solid lid open showing a tall center agitator and a rear control console with dials, three-quarter view",
+                "pt-BR": "Máquina de lavar branco de carga superior com a tampa sólida aberta mostrando o agitador central alto e painel traseiro com seletores, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/agitator-top-load-washer/white-white.webp",
+                "#f5f5f5": "images/agitator-top-load-washer/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "silver-3-8-cu-ft",
+          "sku": "LML-AGW-SI-38",
+          "options": {
+            "color": "silver",
+            "capacity": "3-8-cu-ft"
+          },
+          "price": {
+            "BRL": 3499.9,
+            "USD": 679.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Silver top load washing machine with the solid lid open showing a tall center agitator and a rear control console with dials, three-quarter view",
+                "pt-BR": "Máquina de lavar prata de carga superior com a tampa sólida aberta mostrando o agitador central alto e painel traseiro com seletores, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "silver-white.png",
+                "#f5f5f5": "silver-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/agitator-top-load-washer/silver-white.webp",
+                "#f5f5f5": "images/agitator-top-load-washer/silver-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "silver-4-3-cu-ft",
+          "sku": "LML-AGW-SI-43",
+          "options": {
+            "color": "silver",
+            "capacity": "4-3-cu-ft"
+          },
+          "price": {
+            "BRL": 3899.9,
+            "USD": 749.99
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Silver top load washing machine with the solid lid open showing a tall center agitator and a rear control console with dials, three-quarter view",
+                "pt-BR": "Máquina de lavar prata de carga superior com a tampa sólida aberta mostrando o agitador central alto e painel traseiro com seletores, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "silver-white.png",
+                "#f5f5f5": "silver-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/agitator-top-load-washer/silver-white.webp",
+                "#f5f5f5": "images/agitator-top-load-washer/silver-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
           }
         }
       }
@@ -36207,6 +36508,180 @@
       }
     },
     {
+      "id": "chest-freezer",
+      "brandId": "gelo-fino",
+      "brand": {
+        "id": "gelo-fino",
+        "name": {
+          "en": "Gelo Fino",
+          "pt-BR": "Gelo Fino"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Gelo Fino Chest Freezer with Adjustable Thermostat Dial, Removable Storage Basket, Soft Close Lid Hinge, Defrost Drain, Garage Ready",
+        "pt-BR": "Freezer Horizontal Gelo Fino com Seletor de Temperatura Ajustável, Cesto Removível, Tampa com Dobradiça Suave, Dreno para Descongelamento, Para Garagem"
+      },
+      "description": {
+        "en": "A chest freezer for bulk buys and batch cooking, with an adjustable thermostat dial and a removable basket. The soft close lid holds its position and the drain makes defrosting simple.",
+        "pt-BR": "Freezer horizontal para compras em quantidade e preparos em lote, com seletor de temperatura ajustável e cesto removível. A tampa de fechamento suave fica na posição e o dreno facilita o descongelamento."
+      },
+      "price": {
+        "BRL": 1299.9,
+        "USD": 229.99
+      },
+      "listPrice": {
+        "BRL": 1499.9,
+        "USD": 269.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "chest freezer",
+          "freezer",
+          "bulk storage",
+          "kitchen appliance"
+        ],
+        "pt-BR": [
+          "freezer horizontal",
+          "freezer",
+          "armazenamento em quantidade",
+          "eletrodoméstico de cozinha"
+        ]
+      },
+      "defaultVariantId": "5-cu-ft",
+      "options": [
+        {
+          "id": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "values": [
+            {
+              "id": "5-cu-ft",
+              "name": {
+                "en": "5 cu ft",
+                "pt-BR": "150 L"
+              }
+            },
+            {
+              "id": "9-cu-ft",
+              "name": {
+                "en": "9 cu ft",
+                "pt-BR": "260 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "5-cu-ft",
+          "sku": "GFN-CHF-5",
+          "options": {
+            "capacity": "5-cu-ft"
+          },
+          "price": {
+            "BRL": 1299.9,
+            "USD": 229.99
+          },
+          "listPrice": {
+            "BRL": 1499.9,
+            "USD": 269.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White chest freezer with the lid closed and a small control dial at the front, three-quarter view",
+                "pt-BR": "Freezer horizontal branco com a tampa fechada e um pequeno seletor de temperatura na frente, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "5-cu-ft-white.png",
+                "#f5f5f5": "5-cu-ft-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/chest-freezer/5-cu-ft-white.webp",
+                "#f5f5f5": "images/chest-freezer/5-cu-ft-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "9-cu-ft",
+          "sku": "GFN-CHF-9",
+          "options": {
+            "capacity": "9-cu-ft"
+          },
+          "price": {
+            "BRL": 1799.9,
+            "USD": 329.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Long white chest freezer with the lid closed and a small control dial at the front, three-quarter view",
+                "pt-BR": "Freezer horizontal branco, mais comprido, com a tampa fechada e um pequeno seletor de temperatura na frente, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "9-cu-ft-white.png",
+                "#f5f5f5": "9-cu-ft-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/chest-freezer/9-cu-ft-white.webp",
+                "#f5f5f5": "images/chest-freezer/9-cu-ft-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
       "id": "chrome-basin-faucet-deck-mount",
       "deprecated": {
         "reason": "Folded into \"chrome-single-lever-faucet\" as a variant (model): it has the same photo and only that choice differs.",
@@ -45370,6 +45845,285 @@
       }
     },
     {
+      "id": "clothes-dryer",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-lavanderia",
+      "name": {
+        "en": "Lumelar Front Load Clothes Dryer with Sensor Drying, Stackable Design, 10 Drying Cycles, Wrinkle Care Option, Reversible Door, Extra Large Lint Filter",
+        "pt-BR": "Secadora de Roupas Lumelar de Carga Frontal com Secagem por Sensor, Design Empilhável, 10 Programas de Secagem, Opção Antivinco, Porta Reversível"
+      },
+      "description": {
+        "en": "A front load dryer that senses moisture and stops when clothes are dry, saving time and energy. The gas model needs a gas hookup, while the electric model plugs into a 240 V outlet.",
+        "pt-BR": "Secadora de roupas de carga frontal que detecta a umidade e para quando as roupas estão secas, economizando tempo e energia. O modelo a gás precisa de ligação de gás, e o modelo elétrico usa tomada de 220 V."
+      },
+      "price": {
+        "BRL": 3499.9,
+        "USD": 799.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "clothes dryer",
+          "front load",
+          "laundry",
+          "sensor drying"
+        ],
+        "pt-BR": [
+          "secadora de roupas",
+          "carga frontal",
+          "lavanderia",
+          "secagem por sensor"
+        ]
+      },
+      "defaultVariantId": "electric-white",
+      "options": [
+        {
+          "id": "fuel",
+          "name": {
+            "en": "Fuel type",
+            "pt-BR": "Tipo de energia"
+          },
+          "values": [
+            {
+              "id": "electric",
+              "name": {
+                "en": "Electric",
+                "pt-BR": "Elétrica"
+              }
+            },
+            {
+              "id": "gas",
+              "name": {
+                "en": "Gas",
+                "pt-BR": "A gás"
+              }
+            }
+          ]
+        },
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            },
+            {
+              "id": "graphite",
+              "name": {
+                "en": "Graphite",
+                "pt-BR": "Grafite"
+              },
+              "hex": "#4A4D52"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "electric-white",
+          "sku": "LML-DRY-EL-WH",
+          "options": {
+            "fuel": "electric",
+            "color": "white"
+          },
+          "price": {
+            "BRL": 3499.9,
+            "USD": 799.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White front load clothes dryer with large round tinted door, chrome ring and control dial, three-quarter view",
+                "pt-BR": "Secadora de roupas branca de carga frontal com porta redonda escurecida, aro cromado e seletor, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/clothes-dryer/white-white.webp",
+                "#f5f5f5": "images/clothes-dryer/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "electric-graphite",
+          "sku": "LML-DRY-EL-GR",
+          "options": {
+            "fuel": "electric",
+            "color": "graphite"
+          },
+          "price": {
+            "BRL": 3799.9,
+            "USD": 849.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Graphite front load clothes dryer with large round tinted door, chrome ring and control dial, three-quarter view",
+                "pt-BR": "Secadora de roupas grafite de carga frontal com porta redonda escurecida, aro cromado e seletor, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "graphite-white.png",
+                "#f5f5f5": "graphite-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/clothes-dryer/graphite-white.webp",
+                "#f5f5f5": "images/clothes-dryer/graphite-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "gas-white",
+          "sku": "LML-DRY-GS-WH",
+          "options": {
+            "fuel": "gas",
+            "color": "white"
+          },
+          "price": {
+            "BRL": 3899.9,
+            "USD": 899.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White front load clothes dryer with large round tinted door, chrome ring and control dial, three-quarter view",
+                "pt-BR": "Secadora de roupas branca de carga frontal com porta redonda escurecida, aro cromado e seletor, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/clothes-dryer/white-white.webp",
+                "#f5f5f5": "images/clothes-dryer/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "gas-graphite",
+          "sku": "LML-DRY-GS-GR",
+          "options": {
+            "fuel": "gas",
+            "color": "graphite"
+          },
+          "price": {
+            "BRL": 4199.9,
+            "USD": 949.99
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Graphite front load clothes dryer with large round tinted door, chrome ring and control dial, three-quarter view",
+                "pt-BR": "Secadora de roupas grafite de carga frontal com porta redonda escurecida, aro cromado e seletor, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "graphite-white.png",
+                "#f5f5f5": "graphite-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/clothes-dryer/graphite-white.webp",
+                "#f5f5f5": "images/clothes-dryer/graphite-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
       "id": "cognac-calfskin-shoulder",
       "brandId": "fio-puro",
       "brand": {
@@ -46236,6 +46990,174 @@
         "BRL": 860,
         "USD": 179
       },
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "compact-front-load-washer",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-lavanderia",
+      "name": {
+        "en": "Lumelar 24 Inch Compact Front Load Washing Machine, 2.4 cu ft Drum, Fits Under a Counter, Digital Display, Quick Wash, Steam Refresh, Quiet Inverter Motor",
+        "pt-BR": "Máquina de Lavar Compacta Lumelar de Carga Frontal 60 cm, Tambor de 8 kg, Cabe sob a Bancada, Visor Digital, Lavagem Rápida, Vapor Refrescante"
+      },
+      "description": {
+        "en": "A 24 in wide front load washer sized for apartments, laundry closets and spots under a counter. It holds 2.4 cu ft, and the quick wash and steam refresh cycles keep small loads moving.",
+        "pt-BR": "Máquina de lavar de carga frontal com 60 cm de largura, pensada para apartamentos, nichos de lavanderia e espaços sob a bancada. Tem capacidade para 8 kg, e os ciclos de lavagem rápida e vapor refrescante agilizam cargas pequenas."
+      },
+      "price": {
+        "BRL": 4299.9,
+        "USD": 899.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "washing machine",
+          "compact",
+          "front load",
+          "laundry"
+        ],
+        "pt-BR": [
+          "máquina de lavar",
+          "compacta",
+          "carga frontal",
+          "lavanderia"
+        ]
+      },
+      "defaultVariantId": "white",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            },
+            {
+              "id": "silver",
+              "name": {
+                "en": "Silver",
+                "pt-BR": "Prata"
+              },
+              "hex": "#B8BBBE"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white",
+          "sku": "LML-CFW-WH",
+          "options": {
+            "color": "white"
+          },
+          "price": {
+            "BRL": 4299.9,
+            "USD": 899.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White narrow compact front load washing machine with a round chrome-rimmed door and a slim control strip with a digital display, front view",
+                "pt-BR": "Máquina de lavar compacta branco de carga frontal, estreita, com porta redonda de aro cromado e painel fino com visor digital, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/compact-front-load-washer/white-white.webp",
+                "#f5f5f5": "images/compact-front-load-washer/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "silver",
+          "sku": "LML-CFW-SI",
+          "options": {
+            "color": "silver"
+          },
+          "price": {
+            "BRL": 4599.9,
+            "USD": 949.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Silver narrow compact front load washing machine with a round chrome-rimmed door and a slim control strip with a digital display, front view",
+                "pt-BR": "Máquina de lavar compacta prata de carga frontal, estreita, com porta redonda de aro cromado e painel fino com visor digital, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "silver-white.png",
+                "#f5f5f5": "silver-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/compact-front-load-washer/silver-white.webp",
+                "#f5f5f5": "images/compact-front-load-washer/silver-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
       "unitId": "unit",
       "unit": {
         "id": "unit",
@@ -56481,6 +57403,188 @@
       }
     },
     {
+      "id": "dishwasher",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Lumelar 24 Inch Built-In Dishwasher, 15 Place Settings, Quiet 44 dBA Operation, Third Rack for Utensils, Stainless Steel Tub, Energy Saving Eco Cycle",
+        "pt-BR": "Lava-Louças Lumelar de Embutir 60 cm, 15 Serviços, Operação Silenciosa de 44 dB, Terceira Cesta para Talheres, Cuba em Aço Inox, Ciclo Econômico de Energia"
+      },
+      "description": {
+        "en": "A quiet built-in dishwasher with a third rack for utensils and a stainless steel tub that resists stains and odors. The eco cycle cleans a full load while using less water and energy.",
+        "pt-BR": "Lava-louças de embutir silenciosa, com terceira cesta para talheres e cuba em aço inox que resiste a manchas e odores. O ciclo econômico lava uma carga cheia com menos água e energia."
+      },
+      "price": {
+        "BRL": 3499.9,
+        "USD": 649.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "dishwasher",
+          "built-in",
+          "kitchen appliance",
+          "quiet"
+        ],
+        "pt-BR": [
+          "lava-louças",
+          "de embutir",
+          "eletrodoméstico de cozinha",
+          "silenciosa"
+        ]
+      },
+      "specifications": [
+        {
+          "id": "material",
+          "name": {
+            "en": "Material",
+            "pt-BR": "Material"
+          },
+          "valueId": "stainless-steel",
+          "value": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          }
+        }
+      ],
+      "defaultVariantId": "stainless",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "stainless",
+              "name": {
+                "en": "Stainless steel",
+                "pt-BR": "Aço inox"
+              },
+              "hex": "#C9CCCE"
+            },
+            {
+              "id": "black-stainless",
+              "name": {
+                "en": "Black stainless",
+                "pt-BR": "Inox preto"
+              },
+              "hex": "#3B3C3E"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "stainless",
+          "sku": "LML-DSW-SS",
+          "options": {
+            "color": "stainless"
+          },
+          "price": {
+            "BRL": 3499.9,
+            "USD": 649.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel built-in dishwasher with front control panel and handle, front view",
+                "pt-BR": "Lava-louças de embutir em aço inox com painel de controle e puxador, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "stainless-white.png",
+                "#f5f5f5": "stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dishwasher/stainless-white.webp",
+                "#f5f5f5": "images/dishwasher/stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "black-stainless",
+          "sku": "LML-DSW-BS",
+          "options": {
+            "color": "black-stainless"
+          },
+          "price": {
+            "BRL": 3799.9,
+            "USD": 699.99
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black stainless steel built-in dishwasher with front control panel and handle, front view",
+                "pt-BR": "Lava-louças de embutir em inox preto com painel de controle e puxador, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-stainless-white.png",
+                "#f5f5f5": "black-stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/dishwasher/black-stainless-white.webp",
+                "#f5f5f5": "images/dishwasher/black-stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
       "id": "down-puffer-jacket",
       "brandId": "altitude",
       "brand": {
@@ -57826,6 +58930,174 @@
         "BRL": 680,
         "USD": 139
       },
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "electric-range",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Lumelar 30 Inch Freestanding Electric Range with Smooth Glass-Ceramic Cooktop, 5.3 Cu Ft Self-Cleaning Oven, Convection Fan, Four Radiant Elements, Storage Drawer",
+        "pt-BR": "Fogão Elétrico Lumelar de Piso 76 cm com Mesa Vitrocerâmica Lisa, Forno Autolimpante de 150 Litros, Ventilador Convector, Quatro Zonas de Aquecimento"
+      },
+      "description": {
+        "en": "A 30 in freestanding electric range with a smooth glass-ceramic cooktop that wipes clean in seconds. The self-cleaning oven has a convection fan for even baking, and a drawer below stores pans.",
+        "pt-BR": "Fogão elétrico de piso de 76 cm com mesa vitrocerâmica lisa que se limpa em segundos. O forno autolimpante tem ventilador convector para assar por igual, e a gaveta inferior guarda panelas."
+      },
+      "price": {
+        "BRL": 4299.9,
+        "USD": 999.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "electric range",
+          "freestanding",
+          "kitchen appliance",
+          "glass cooktop"
+        ],
+        "pt-BR": [
+          "fogão elétrico",
+          "de piso",
+          "eletrodoméstico de cozinha",
+          "mesa vitrocerâmica"
+        ]
+      },
+      "defaultVariantId": "stainless",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "stainless",
+              "name": {
+                "en": "Stainless steel",
+                "pt-BR": "Aço inox"
+              },
+              "hex": "#C9CCCE"
+            },
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#1F2022"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "stainless",
+          "sku": "LML-ERG-SS",
+          "options": {
+            "color": "stainless"
+          },
+          "price": {
+            "BRL": 4299.9,
+            "USD": 999.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel freestanding electric range with smooth black glass cooktop and oven door, three-quarter view",
+                "pt-BR": "Fogão elétrico de piso em aço inox com mesa de vidro preta lisa e porta do forno, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "stainless-white.png",
+                "#f5f5f5": "stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/electric-range/stainless-white.webp",
+                "#f5f5f5": "images/electric-range/stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "black",
+          "sku": "LML-ERG-BK",
+          "options": {
+            "color": "black"
+          },
+          "price": {
+            "BRL": 4099.9,
+            "USD": 949.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black freestanding electric range with smooth black glass cooktop and oven door, three-quarter view",
+                "pt-BR": "Fogão elétrico de piso preto com mesa de vidro preta lisa e porta do forno, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/electric-range/black-white.webp",
+                "#f5f5f5": "images/electric-range/black-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
       "unitId": "unit",
       "unit": {
         "id": "unit",
@@ -66383,6 +67655,752 @@
       }
     },
     {
+      "id": "french-door-refrigerator",
+      "brandId": "gelo-fino",
+      "brand": {
+        "id": "gelo-fino",
+        "name": {
+          "en": "Gelo Fino",
+          "pt-BR": "Gelo Fino"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Gelo Fino French Door Refrigerator with Bottom Freezer Drawer, Internal Water Dispenser, Ice Maker, Humidity-Controlled Crisper Drawers, Fingerprint Resistant Finish",
+        "pt-BR": "Geladeira Gelo Fino French Door com Gaveta Freezer Inferior, Dispenser Interno de Água, Fábrica de Gelo, Gavetas com Controle de Umidade, Acabamento Antidigitais"
+      },
+      "description": {
+        "en": "A French door refrigerator with a roomy bottom freezer drawer and an ice maker. Humidity-controlled drawers keep produce fresh longer, and the fingerprint resistant finish wipes clean.",
+        "pt-BR": "Geladeira French Door com amplo freezer em gaveta na parte inferior e fábrica de gelo. As gavetas com controle de umidade mantêm legumes frescos por mais tempo, e o acabamento antidigitais limpa com facilidade."
+      },
+      "price": {
+        "BRL": 9999.9,
+        "USD": 2199.99
+      },
+      "listPrice": {
+        "BRL": 11499.9,
+        "USD": 2499.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "refrigerator",
+          "french door",
+          "bottom freezer",
+          "ice maker"
+        ],
+        "pt-BR": [
+          "geladeira",
+          "french door",
+          "freezer inferior",
+          "fábrica de gelo"
+        ]
+      },
+      "defaultVariantId": "stainless-25-cu-ft",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "stainless",
+              "name": {
+                "en": "Stainless steel",
+                "pt-BR": "Aço inox"
+              },
+              "hex": "#C9CCCE"
+            },
+            {
+              "id": "black-stainless",
+              "name": {
+                "en": "Black stainless",
+                "pt-BR": "Inox preto"
+              },
+              "hex": "#3B3C3E"
+            }
+          ]
+        },
+        {
+          "id": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "values": [
+            {
+              "id": "25-cu-ft",
+              "name": {
+                "en": "25 cu ft",
+                "pt-BR": "700 L"
+              }
+            },
+            {
+              "id": "28-cu-ft",
+              "name": {
+                "en": "28 cu ft",
+                "pt-BR": "790 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "stainless-25-cu-ft",
+          "sku": "GFN-FDR-SS-25",
+          "options": {
+            "color": "stainless",
+            "capacity": "25-cu-ft"
+          },
+          "price": {
+            "BRL": 9999.9,
+            "USD": 2199.99
+          },
+          "listPrice": {
+            "BRL": 11499.9,
+            "USD": 2499.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel French door refrigerator with bottom freezer drawer, front view",
+                "pt-BR": "Geladeira French Door em aço inox com gaveta freezer inferior, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "stainless-white.png",
+                "#f5f5f5": "stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/french-door-refrigerator/stainless-white.webp",
+                "#f5f5f5": "images/french-door-refrigerator/stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "stainless-28-cu-ft",
+          "sku": "GFN-FDR-SS-28",
+          "options": {
+            "color": "stainless",
+            "capacity": "28-cu-ft"
+          },
+          "price": {
+            "BRL": 12999.9,
+            "USD": 2499.99
+          },
+          "listPrice": {
+            "BRL": 14499.9,
+            "USD": 2799.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel French door refrigerator with bottom freezer drawer, front view",
+                "pt-BR": "Geladeira French Door em aço inox com gaveta freezer inferior, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "stainless-white.png",
+                "#f5f5f5": "stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/french-door-refrigerator/stainless-white.webp",
+                "#f5f5f5": "images/french-door-refrigerator/stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "black-stainless-25-cu-ft",
+          "sku": "GFN-FDR-BS-25",
+          "options": {
+            "color": "black-stainless",
+            "capacity": "25-cu-ft"
+          },
+          "price": {
+            "BRL": 10499.9,
+            "USD": 2299.99
+          },
+          "listPrice": {
+            "BRL": 11999.9,
+            "USD": 2599.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black stainless steel French door refrigerator with bottom freezer drawer, front view",
+                "pt-BR": "Geladeira French Door em inox preto com gaveta freezer inferior, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-stainless-white.png",
+                "#f5f5f5": "black-stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/french-door-refrigerator/black-stainless-white.webp",
+                "#f5f5f5": "images/french-door-refrigerator/black-stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "black-stainless-28-cu-ft",
+          "sku": "GFN-FDR-BS-28",
+          "options": {
+            "color": "black-stainless",
+            "capacity": "28-cu-ft"
+          },
+          "price": {
+            "BRL": 13499.9,
+            "USD": 2599.99
+          },
+          "listPrice": {
+            "BRL": 14999.9,
+            "USD": 2899.99
+          },
+          "availability": "out_of_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black stainless steel French door refrigerator with bottom freezer drawer, front view",
+                "pt-BR": "Geladeira French Door em inox preto com gaveta freezer inferior, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-stainless-white.png",
+                "#f5f5f5": "black-stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/french-door-refrigerator/black-stainless-white.webp",
+                "#f5f5f5": "images/french-door-refrigerator/black-stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "front-load-laundry-pair",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-lavanderia",
+      "unitId": "set",
+      "name": {
+        "en": "Lumelar Front Load Washer and Electric Dryer Set, Matching Design, Steam Cycles, Sensor Drying, Stackable, Quiet Motors, Wrinkle Care, Reversible Dryer Door",
+        "pt-BR": "Conjunto Lumelar de Lavadora de Carga Frontal e Secadora Elétrica, Design Combinando, Ciclos a Vapor, Secagem por Sensor, Empilháveis, Motores Silenciosos"
+      },
+      "description": {
+        "en": "A front load washer and a matching electric dryer sold together as a set, so the laundry room looks uniform. Both can sit side by side or stack, and they share steam cycles and sensor drying.",
+        "pt-BR": "Lavadora de carga frontal e secadora elétrica combinando, vendidas juntas em um conjunto que deixa a lavanderia uniforme. Podem ficar lado a lado ou empilhadas e compartilham ciclos a vapor e secagem por sensor."
+      },
+      "price": {
+        "BRL": 8999.9,
+        "USD": 1799.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "laundry set",
+          "washer and dryer",
+          "front load",
+          "laundry"
+        ],
+        "pt-BR": [
+          "conjunto de lavanderia",
+          "lavadora e secadora",
+          "carga frontal",
+          "lavanderia"
+        ]
+      },
+      "defaultVariantId": "white",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            },
+            {
+              "id": "graphite",
+              "name": {
+                "en": "Graphite",
+                "pt-BR": "Grafite"
+              },
+              "hex": "#4A4D52"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white",
+          "sku": "LML-FLP-WH",
+          "options": {
+            "color": "white"
+          },
+          "price": {
+            "BRL": 8999.9,
+            "USD": 1799.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White front load washer and a matching dryer standing side by side, front view",
+                "pt-BR": "Máquina de lavar de carga frontal e secadora combinando, na cor branco, lado a lado, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/front-load-laundry-pair/white-white.webp",
+                "#f5f5f5": "images/front-load-laundry-pair/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "set",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "set",
+                "other": "sets"
+              },
+              "pt-BR": {
+                "one": "jogo",
+                "other": "jogos"
+              }
+            }
+          }
+        },
+        {
+          "id": "graphite",
+          "sku": "LML-FLP-GR",
+          "options": {
+            "color": "graphite"
+          },
+          "price": {
+            "BRL": 9799.9,
+            "USD": 1949.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Graphite front load washer and a matching dryer standing side by side, front view",
+                "pt-BR": "Máquina de lavar de carga frontal e secadora combinando, na cor grafite, lado a lado, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "graphite-white.png",
+                "#f5f5f5": "graphite-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/front-load-laundry-pair/graphite-white.webp",
+                "#f5f5f5": "images/front-load-laundry-pair/graphite-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "set",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "set",
+                "other": "sets"
+              },
+              "pt-BR": {
+                "one": "jogo",
+                "other": "jogos"
+              }
+            }
+          }
+        }
+      ],
+      "unit": {
+        "id": "set",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "set",
+            "other": "sets"
+          },
+          "pt-BR": {
+            "one": "jogo",
+            "other": "jogos"
+          }
+        }
+      }
+    },
+    {
+      "id": "front-load-washer",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-lavanderia",
+      "name": {
+        "en": "Lumelar Front Load Washing Machine with Steam Cycle, Stackable Design, 14 Wash Programs, High Speed Spin, Allergen Rinse, Quiet Motor",
+        "pt-BR": "Máquina de Lavar Lumelar de Carga Frontal com Ciclo a Vapor, Design Empilhável, 14 Programas de Lavagem, Centrifugação Rápida, Enxágue Antialérgico, Motor Silencioso"
+      },
+      "description": {
+        "en": "A front load washer that uses steam to lift stains and a high speed spin to leave clothes drier. The stackable design fits a matching dryer on top, and the allergen rinse is gentle on sensitive skin.",
+        "pt-BR": "Máquina de lavar de carga frontal que usa vapor para remover manchas e centrifugação em alta velocidade para deixar as roupas mais secas. O design empilhável aceita uma secadora por cima, e o enxágue antialérgico é gentil com peles sensíveis."
+      },
+      "price": {
+        "BRL": 3999.9,
+        "USD": 899.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "washing machine",
+          "front load",
+          "laundry",
+          "steam wash"
+        ],
+        "pt-BR": [
+          "máquina de lavar",
+          "carga frontal",
+          "lavanderia",
+          "lavagem a vapor"
+        ]
+      },
+      "defaultVariantId": "white-4-5-cu-ft",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            },
+            {
+              "id": "graphite",
+              "name": {
+                "en": "Graphite",
+                "pt-BR": "Grafite"
+              },
+              "hex": "#4A4D52"
+            }
+          ]
+        },
+        {
+          "id": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "values": [
+            {
+              "id": "4-5-cu-ft",
+              "name": {
+                "en": "4.5 cu ft",
+                "pt-BR": "11 kg"
+              }
+            },
+            {
+              "id": "5-0-cu-ft",
+              "name": {
+                "en": "5.0 cu ft",
+                "pt-BR": "13 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-4-5-cu-ft",
+          "sku": "LML-FLW-WH-45",
+          "options": {
+            "color": "white",
+            "capacity": "4-5-cu-ft"
+          },
+          "price": {
+            "BRL": 3999.9,
+            "USD": 899.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White front load washing machine with round glass door and top control panel, front view",
+                "pt-BR": "Máquina de lavar branca de carga frontal com porta redonda de vidro e painel superior, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/front-load-washer/white-white.webp",
+                "#f5f5f5": "images/front-load-washer/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "white-5-0-cu-ft",
+          "sku": "LML-FLW-WH-50",
+          "options": {
+            "color": "white",
+            "capacity": "5-0-cu-ft"
+          },
+          "price": {
+            "BRL": 4599.9,
+            "USD": 999.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White front load washing machine with round glass door and top control panel, front view",
+                "pt-BR": "Máquina de lavar branca de carga frontal com porta redonda de vidro e painel superior, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/front-load-washer/white-white.webp",
+                "#f5f5f5": "images/front-load-washer/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "graphite-4-5-cu-ft",
+          "sku": "LML-FLW-GR-45",
+          "options": {
+            "color": "graphite",
+            "capacity": "4-5-cu-ft"
+          },
+          "price": {
+            "BRL": 4299.9,
+            "USD": 949.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Graphite front load washing machine with round glass door and top control panel, front view",
+                "pt-BR": "Máquina de lavar grafite de carga frontal com porta redonda de vidro e painel superior, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "graphite-white.png",
+                "#f5f5f5": "graphite-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/front-load-washer/graphite-white.webp",
+                "#f5f5f5": "images/front-load-washer/graphite-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "graphite-5-0-cu-ft",
+          "sku": "LML-FLW-GR-50",
+          "options": {
+            "color": "graphite",
+            "capacity": "5-0-cu-ft"
+          },
+          "price": {
+            "BRL": 4899.9,
+            "USD": 1049.99
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Graphite front load washing machine with round glass door and top control panel, front view",
+                "pt-BR": "Máquina de lavar grafite de carga frontal com porta redonda de vidro e painel superior, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "graphite-white.png",
+                "#f5f5f5": "graphite-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/front-load-washer/graphite-white.webp",
+                "#f5f5f5": "images/front-load-washer/graphite-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
       "id": "game-controller",
       "categoryId": "eletro-acessorios",
       "name": {
@@ -66557,6 +68575,340 @@
               "src": {
                 "#ffffff": "images/game-controller/detail-white.webp",
                 "#f5f5f5": "images/game-controller/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "gas-cooktop",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Lumelar Built-In Gas Cooktop with Sealed Burners, Matte Black Enameled Surface, Cast-Iron Grates, Front Control Knobs, Automatic Electronic Ignition, Easy to Clean",
+        "pt-BR": "Cooktop a Gás Lumelar de Embutir com Queimadores Selados, Superfície Esmaltada Preta Fosca, Grades de Ferro Fundido, Acendimento Automático, Fácil de Limpar"
+      },
+      "description": {
+        "en": "A built-in gas cooktop with sealed burners that keep spills out and cast-iron grates that hold heavy pots. Choose 4 burners at 24 in or 5 burners, with a center wok burner, at 30 in; both light with one turn of the knob.",
+        "pt-BR": "Cooktop a gás de embutir com queimadores selados que seguram derramamentos e grades de ferro fundido para panelas pesadas. Escolha 4 bocas em 60 cm ou 5 bocas, com queimador tripla chama no centro, em 75 cm; as duas acendem com um giro do botão."
+      },
+      "price": {
+        "BRL": 1799.9,
+        "USD": 379.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "gas cooktop",
+          "built-in",
+          "kitchen appliance",
+          "sealed burners"
+        ],
+        "pt-BR": [
+          "cooktop a gás",
+          "de embutir",
+          "eletrodoméstico de cozinha",
+          "queimadores selados"
+        ]
+      },
+      "defaultVariantId": "4",
+      "options": [
+        {
+          "id": "burners",
+          "name": {
+            "en": "Burners",
+            "pt-BR": "Bocas"
+          },
+          "values": [
+            {
+              "id": "4",
+              "name": {
+                "en": "4",
+                "pt-BR": "4"
+              }
+            },
+            {
+              "id": "5",
+              "name": {
+                "en": "5",
+                "pt-BR": "5"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "4",
+          "sku": "LML-CKT-4B",
+          "options": {
+            "burners": "4"
+          },
+          "price": {
+            "BRL": 1799.9,
+            "USD": 379.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Square matte black gas cooktop with four burners under cast-iron grates and four knobs, seen from above at an angle",
+                "pt-BR": "Cooktop a gás preto fosco quadrado com quatro bocas sob grades de ferro fundido e quatro botões, visto de cima em ângulo"
+              },
+              "backgrounds": {
+                "#ffffff": "4-burner-white.png",
+                "#f5f5f5": "4-burner-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gas-cooktop/4-burner-white.webp",
+                "#f5f5f5": "images/gas-cooktop/4-burner-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "5",
+          "sku": "LML-CKT-5B",
+          "options": {
+            "burners": "5"
+          },
+          "price": {
+            "BRL": 2599.9,
+            "USD": 549.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Wide matte black gas cooktop with five burners, a large center burner and cast-iron grates, seen from above at an angle",
+                "pt-BR": "Cooktop a gás preto fosco largo com cinco bocas, queimador grande no centro e grades de ferro fundido, visto de cima em ângulo"
+              },
+              "backgrounds": {
+                "#ffffff": "5-burner-white.png",
+                "#f5f5f5": "5-burner-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gas-cooktop/5-burner-white.webp",
+                "#f5f5f5": "images/gas-cooktop/5-burner-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "gas-range",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Lumelar 30 Inch Freestanding Gas Range with Five Sealed Burners, Cast-Iron Grates, 5.0 Cu Ft Oven, Continuous Grates, Electronic Ignition, Broiler Drawer",
+        "pt-BR": "Fogão a Gás Lumelar de Piso 76 cm com Cinco Queimadores Selados, Grades de Ferro Fundido, Forno de 140 Litros, Grades Contínuas, Acendimento Eletrônico, Gaveta Aquecedora"
+      },
+      "description": {
+        "en": "A 30 in freestanding gas range with five sealed burners and heavy cast-iron grates that slide pots across the surface. The electronic ignition lights every burner and the oven with a single knob turn.",
+        "pt-BR": "Fogão a gás de piso de 76 cm com cinco queimadores selados e grades pesadas de ferro fundido, que deixam as panelas deslizar pela mesa. O acendimento eletrônico liga cada queimador e o forno com um giro do botão."
+      },
+      "price": {
+        "BRL": 3299.9,
+        "USD": 1099.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "gas range",
+          "freestanding",
+          "kitchen appliance",
+          "five burners"
+        ],
+        "pt-BR": [
+          "fogão a gás",
+          "de piso",
+          "eletrodoméstico de cozinha",
+          "cinco bocas"
+        ]
+      },
+      "defaultVariantId": "stainless",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "stainless",
+              "name": {
+                "en": "Stainless steel",
+                "pt-BR": "Aço inox"
+              },
+              "hex": "#C9CCCE"
+            },
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "stainless",
+          "sku": "LML-GRG-SS",
+          "options": {
+            "color": "stainless"
+          },
+          "price": {
+            "BRL": 3299.9,
+            "USD": 1099.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel freestanding gas range with five burners and cast-iron grates, three-quarter view",
+                "pt-BR": "Fogão a gás de piso em aço inox com cinco bocas e grades de ferro fundido, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "stainless-white.png",
+                "#f5f5f5": "stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gas-range/stainless-white.webp",
+                "#f5f5f5": "images/gas-range/stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "white",
+          "sku": "LML-GRG-WH",
+          "options": {
+            "color": "white"
+          },
+          "price": {
+            "BRL": 2899.9,
+            "USD": 949.99
+          },
+          "availability": "out_of_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White freestanding gas range with five burners and cast-iron grates, three-quarter view",
+                "pt-BR": "Fogão a gás de piso branco com cinco bocas e grades de ferro fundido, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/gas-range/white-white.webp",
+                "#f5f5f5": "images/gas-range/white-gray.webp"
               }
             }
           ],
@@ -76831,6 +79183,174 @@
       }
     },
     {
+      "id": "heat-pump-dryer",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-lavanderia",
+      "name": {
+        "en": "Lumelar 24 Inch Ventless Heat Pump Clothes Dryer, No Duct Needed, Plugs into a Regular Outlet, Gentle Low Heat Drying, Moisture Sensor, Reversible Door",
+        "pt-BR": "Secadora de Roupas Lumelar com Bomba de Calor 60 cm, Sem Duto de Exaustão, Tomada Comum, Secagem Delicada a Baixa Temperatura, Sensor de Umidade"
+      },
+      "description": {
+        "en": "A ventless heat pump dryer that needs no duct and plugs into a regular outlet, so it fits where a vented dryer cannot. Low heat drying is gentle on fabrics, and the water collects in a drawer you empty.",
+        "pt-BR": "Secadora com bomba de calor que dispensa duto de exaustão e liga em tomada comum, ideal onde uma secadora convencional não cabe. A secagem a baixa temperatura preserva os tecidos, e a água fica em um reservatório fácil de esvaziar."
+      },
+      "price": {
+        "BRL": 5999.9,
+        "USD": 1199.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "clothes dryer",
+          "heat pump",
+          "ventless",
+          "laundry"
+        ],
+        "pt-BR": [
+          "secadora de roupas",
+          "bomba de calor",
+          "sem exaustão",
+          "lavanderia"
+        ]
+      },
+      "defaultVariantId": "white",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            },
+            {
+              "id": "graphite",
+              "name": {
+                "en": "Graphite",
+                "pt-BR": "Grafite"
+              },
+              "hex": "#4A4D52"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white",
+          "sku": "LML-HPD-WH",
+          "options": {
+            "color": "white"
+          },
+          "price": {
+            "BRL": 5999.9,
+            "USD": 1199.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White compact front load dryer with a square door with rounded corners and a water container drawer at the top left, three-quarter view",
+                "pt-BR": "Secadora compacta branco de carga frontal com porta quadrada de cantos arredondados e gaveta do reservatório de água no canto superior esquerdo, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/heat-pump-dryer/white-white.webp",
+                "#f5f5f5": "images/heat-pump-dryer/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "graphite",
+          "sku": "LML-HPD-GR",
+          "options": {
+            "color": "graphite"
+          },
+          "price": {
+            "BRL": 6299.9,
+            "USD": 1249.99
+          },
+          "availability": "out_of_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Graphite compact front load dryer with a square door with rounded corners and a water container drawer at the top left, three-quarter view",
+                "pt-BR": "Secadora compacta grafite de carga frontal com porta quadrada de cantos arredondados e gaveta do reservatório de água no canto superior esquerdo, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "graphite-white.png",
+                "#f5f5f5": "graphite-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/heat-pump-dryer/graphite-white.webp",
+                "#f5f5f5": "images/heat-pump-dryer/graphite-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
       "id": "high-early-strength-cement-bag",
       "categoryId": "construcao-basicos",
       "unitId": "bag",
@@ -80058,6 +82578,172 @@
               "src": {
                 "#ffffff": "images/indigo-wide-leg-jeans/detail-white.webp",
                 "#f5f5f5": "images/indigo-wide-leg-jeans/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "induction-cooktop",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Lumelar Built-In Induction Cooktop with Frameless Black Glass Surface, Touch Slider Controls, Booster Power, Child Lock, Pan Detection, Easy Clean",
+        "pt-BR": "Cooktop de Indução Lumelar de Embutir com Superfície de Vidro Preto sem Moldura, Controle por Toque Deslizante, Função Turbo, Trava Infantil, Fácil de Limpar"
+      },
+      "description": {
+        "en": "A frameless black glass induction cooktop with touch slider controls that heat pans quickly and keep the surface cool. The 4 zone model is 24 in (60 cm) wide, and the 5 zone model is 30 in (77 cm).",
+        "pt-BR": "Cooktop de indução de vidro preto sem moldura, com controle por toque deslizante que aquece panelas rápido e mantém a superfície fria. O modelo de 4 zonas tem 60 cm (24 in) de largura, e o de 5 zonas tem 77 cm (30 in)."
+      },
+      "price": {
+        "BRL": 4999.9,
+        "USD": 999.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "induction cooktop",
+          "built-in",
+          "touch controls",
+          "kitchen appliance"
+        ],
+        "pt-BR": [
+          "cooktop de indução",
+          "de embutir",
+          "controle por toque",
+          "eletrodoméstico de cozinha"
+        ]
+      },
+      "defaultVariantId": "4-zone",
+      "options": [
+        {
+          "id": "zones",
+          "name": {
+            "en": "Cooking zones",
+            "pt-BR": "Zonas de aquecimento"
+          },
+          "values": [
+            {
+              "id": "4",
+              "name": {
+                "en": "4",
+                "pt-BR": "4"
+              }
+            },
+            {
+              "id": "5",
+              "name": {
+                "en": "5",
+                "pt-BR": "5"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "4-zone",
+          "sku": "LML-IND-4Z",
+          "options": {
+            "zones": "4"
+          },
+          "price": {
+            "BRL": 4999.9,
+            "USD": 999.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Frameless black glass induction cooktop with 4 cooking zones shown as faint circle outlines and a touch control strip at the front, seen from above at an angle",
+                "pt-BR": "Cooktop de indução de vidro preto sem moldura com 4 zonas de aquecimento marcadas por círculos discretos e faixa de controle por toque na frente, visto de cima em ângulo"
+              },
+              "backgrounds": {
+                "#ffffff": "4-zone-white.png",
+                "#f5f5f5": "4-zone-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/induction-cooktop/4-zone-white.webp",
+                "#f5f5f5": "images/induction-cooktop/4-zone-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "5-zone",
+          "sku": "LML-IND-5Z",
+          "options": {
+            "zones": "5"
+          },
+          "price": {
+            "BRL": 6499.9,
+            "USD": 1299.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Frameless black glass induction cooktop with 5 cooking zones shown as faint circle outlines and a touch control strip at the front, seen from above at an angle",
+                "pt-BR": "Cooktop de indução de vidro preto sem moldura com 5 zonas de aquecimento marcadas por círculos discretos e faixa de controle por toque na frente, visto de cima em ângulo"
+              },
+              "backgrounds": {
+                "#ffffff": "5-zone-white.png",
+                "#f5f5f5": "5-zone-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/induction-cooktop/5-zone-white.webp",
+                "#f5f5f5": "images/induction-cooktop/5-zone-gray.webp"
               }
             }
           ],
@@ -91498,6 +94184,305 @@
       }
     },
     {
+      "id": "microwave-oven",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Lumelar Countertop Microwave Oven with Simple Dial Controls, 1000 Watts, 5 Power Levels, Glass Turntable, Quick Defrost, Easy-Clean Interior",
+        "pt-BR": "Micro-ondas Lumelar de Bancada com Controles Giratórios, 1000 W, 5 Níveis de Potência, Prato Giratório de Vidro, Descongelamento Rápido, Interior Fácil de Limpar"
+      },
+      "description": {
+        "en": "A countertop microwave run by two dials: one sets the power, the other the time, with no menus to learn. The glass turntable heats evenly and lifts out for washing.",
+        "pt-BR": "Micro-ondas de bancada com dois botões giratórios: um escolhe a potência e o outro o tempo, sem menus para aprender. O prato giratório de vidro aquece por igual e sai para lavar."
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 179.99
+      },
+      "listPrice": {
+        "BRL": 1099.9,
+        "USD": 219.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "microwave",
+          "countertop",
+          "kitchen appliance",
+          "dial controls"
+        ],
+        "pt-BR": [
+          "micro-ondas",
+          "de bancada",
+          "eletrodoméstico de cozinha",
+          "controle giratório"
+        ]
+      },
+      "defaultVariantId": "stainless-1-1-cu-ft",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "stainless",
+              "name": {
+                "en": "Stainless steel",
+                "pt-BR": "Aço inox"
+              },
+              "hex": "#C9CCCE"
+            },
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#1F2022"
+            }
+          ]
+        },
+        {
+          "id": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "values": [
+            {
+              "id": "1-1-cu-ft",
+              "name": {
+                "en": "1.1 cu ft",
+                "pt-BR": "32 L"
+              }
+            },
+            {
+              "id": "1-6-cu-ft",
+              "name": {
+                "en": "1.6 cu ft",
+                "pt-BR": "45 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "stainless-1-1-cu-ft",
+          "sku": "LML-MWO-SS-11",
+          "options": {
+            "color": "stainless",
+            "capacity": "1-1-cu-ft"
+          },
+          "price": {
+            "BRL": 899.9,
+            "USD": 179.99
+          },
+          "listPrice": {
+            "BRL": 1099.9,
+            "USD": 219.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel countertop microwave oven with glass door, bar handle and two control dials, three-quarter view",
+                "pt-BR": "Micro-ondas de bancada em aço inox com porta de vidro, puxador e dois botões giratórios, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "stainless-white.png",
+                "#f5f5f5": "stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/microwave-oven/stainless-white.webp",
+                "#f5f5f5": "images/microwave-oven/stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "stainless-1-6-cu-ft",
+          "sku": "LML-MWO-SS-16",
+          "options": {
+            "color": "stainless",
+            "capacity": "1-6-cu-ft"
+          },
+          "price": {
+            "BRL": 1199.9,
+            "USD": 229.99
+          },
+          "listPrice": {
+            "BRL": 1399.9,
+            "USD": 269.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel countertop microwave oven with glass door, bar handle and two control dials, three-quarter view",
+                "pt-BR": "Micro-ondas de bancada em aço inox com porta de vidro, puxador e dois botões giratórios, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "stainless-white.png",
+                "#f5f5f5": "stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/microwave-oven/stainless-white.webp",
+                "#f5f5f5": "images/microwave-oven/stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "black-1-1-cu-ft",
+          "sku": "LML-MWO-BK-11",
+          "options": {
+            "color": "black",
+            "capacity": "1-1-cu-ft"
+          },
+          "price": {
+            "BRL": 949.9,
+            "USD": 189.99
+          },
+          "listPrice": {
+            "BRL": 1149.9,
+            "USD": 229.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte black countertop microwave oven with glass door, bar handle and two control dials, three-quarter view",
+                "pt-BR": "Micro-ondas de bancada preto fosco com porta de vidro, puxador e dois botões giratórios, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/microwave-oven/black-white.webp",
+                "#f5f5f5": "images/microwave-oven/black-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "black-1-6-cu-ft",
+          "sku": "LML-MWO-BK-16",
+          "options": {
+            "color": "black",
+            "capacity": "1-6-cu-ft"
+          },
+          "price": {
+            "BRL": 1249.9,
+            "USD": 239.99
+          },
+          "listPrice": {
+            "BRL": 1449.9,
+            "USD": 279.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Matte black countertop microwave oven with glass door, bar handle and two control dials, three-quarter view",
+                "pt-BR": "Micro-ondas de bancada preto fosco com porta de vidro, puxador e dois botões giratórios, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/microwave-oven/black-white.webp",
+                "#f5f5f5": "images/microwave-oven/black-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
       "id": "miniature-circuit-breaker",
       "categoryId": "construcao-eletrica",
       "unitId": "piece",
@@ -99920,6 +102905,182 @@
               "src": {
                 "#ffffff": "images/over-ear-headphones/detail-white.webp",
                 "#f5f5f5": "images/over-ear-headphones/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "over-the-range-microwave",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Lumelar 30 Inch Over-the-Range Microwave Oven, 1.9 cu ft, 300 CFM Vent Fan, Sensor Cooking, Glass Door, Bar Handle, Cooktop Light, 1000 Watts",
+        "pt-BR": "Micro-ondas Lumelar de Embutir 54 L para Instalar sobre o Fogão, 76 cm, Exaustor de 510 m³/h, Cozimento por Sensor, Porta de Vidro, Iluminação do Fogão"
+      },
+      "description": {
+        "en": "A 30 in microwave that mounts above the range and doubles as a vent fan with 300 CFM of airflow. The cooktop light and sensor cooking make everyday meals easier.",
+        "pt-BR": "Micro-ondas de 76 cm para instalar acima do fogão, com exaustor de 510 m³/h integrado. A iluminação do fogão e o cozimento por sensor facilitam as refeições do dia a dia."
+      },
+      "price": {
+        "BRL": 1799.9,
+        "USD": 349.99
+      },
+      "listPrice": {
+        "BRL": 2099.9,
+        "USD": 399.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "microwave",
+          "over the range",
+          "vent fan",
+          "kitchen appliance"
+        ],
+        "pt-BR": [
+          "micro-ondas",
+          "sobre o fogão",
+          "exaustor",
+          "eletrodoméstico de cozinha"
+        ]
+      },
+      "defaultVariantId": "stainless",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "stainless",
+              "name": {
+                "en": "Stainless steel",
+                "pt-BR": "Aço inox"
+              },
+              "hex": "#C9CCCE"
+            },
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#1F2022"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "stainless",
+          "sku": "LML-MWO-OTR-SS",
+          "options": {
+            "color": "stainless"
+          },
+          "price": {
+            "BRL": 1799.9,
+            "USD": 349.99
+          },
+          "listPrice": {
+            "BRL": 2099.9,
+            "USD": 399.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel wide over-the-range microwave with a glass door, a long bar handle and a vertical keypad panel, front view",
+                "pt-BR": "Micro-ondas de embutir aço inox, largo, para instalar sobre o fogão, com porta de vidro, puxador de barra longo e painel de teclas vertical, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "stainless-white.png",
+                "#f5f5f5": "stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/over-the-range-microwave/stainless-white.webp",
+                "#f5f5f5": "images/over-the-range-microwave/stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "black",
+          "sku": "LML-MWO-OTR-BK",
+          "options": {
+            "color": "black"
+          },
+          "price": {
+            "BRL": 1899.9,
+            "USD": 379.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black wide over-the-range microwave with a glass door, a long bar handle and a vertical keypad panel, front view",
+                "pt-BR": "Micro-ondas de embutir preto, largo, para instalar sobre o fogão, com porta de vidro, puxador de barra longo e painel de teclas vertical, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/over-the-range-microwave/black-white.webp",
+                "#f5f5f5": "images/over-the-range-microwave/black-gray.webp"
               }
             }
           ],
@@ -108805,6 +111966,285 @@
         "BRL": 369.9,
         "USD": 84
       },
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "range-hood",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Lumelar Wall-Mount Chimney Range Hood, 400 CFM Three-Speed Fan, Push Button Controls, LED Lights, Dishwasher-Safe Baffle Filters, Ducted or Ductless",
+        "pt-BR": "Coifa de Parede Lumelar com Chaminé, Exaustor de 680 m³/h com Três Velocidades, Botões de Pressão, Iluminação de LED, Filtros Lavável em Máquina"
+      },
+      "description": {
+        "en": "A wall-mount chimney hood that clears smoke and grease above the cooktop with a three-speed fan. Push buttons on the front edge, bright LED lights and dishwasher-safe filters keep it easy to use.",
+        "pt-BR": "Coifa de parede com chaminé que remove fumaça e gordura acima do cooktop com exaustor de três velocidades. Os botões de pressão na borda frontal, a iluminação de LED e os filtros laváveis em máquina facilitam o uso."
+      },
+      "price": {
+        "BRL": 1499.9,
+        "USD": 299.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "range hood",
+          "wall mount",
+          "chimney",
+          "kitchen appliance"
+        ],
+        "pt-BR": [
+          "coifa",
+          "de parede",
+          "chaminé",
+          "eletrodoméstico de cozinha"
+        ]
+      },
+      "defaultVariantId": "stainless-30-in",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "stainless",
+              "name": {
+                "en": "Stainless steel",
+                "pt-BR": "Aço inox"
+              },
+              "hex": "#C9CCCE"
+            },
+            {
+              "id": "black",
+              "name": {
+                "en": "Black",
+                "pt-BR": "Preto"
+              },
+              "hex": "#1F2022"
+            }
+          ]
+        },
+        {
+          "id": "width",
+          "name": {
+            "en": "Width",
+            "pt-BR": "Largura"
+          },
+          "values": [
+            {
+              "id": "30-in",
+              "name": {
+                "en": "30 in",
+                "pt-BR": "75 cm"
+              }
+            },
+            {
+              "id": "36-in",
+              "name": {
+                "en": "36 in",
+                "pt-BR": "90 cm"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "stainless-30-in",
+          "sku": "LML-HOD-SS-30",
+          "options": {
+            "color": "stainless",
+            "width": "30-in"
+          },
+          "price": {
+            "BRL": 1499.9,
+            "USD": 299.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel wall-mount chimney range hood with a tall vertical chimney over a wide pyramid-shaped canopy and push buttons on the front edge, front view",
+                "pt-BR": "Coifa de parede aço inox com chaminé alta vertical sobre uma coifa larga em formato de pirâmide e botões de pressão na borda frontal, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "stainless-white.png",
+                "#f5f5f5": "stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/range-hood/stainless-white.webp",
+                "#f5f5f5": "images/range-hood/stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "stainless-36-in",
+          "sku": "LML-HOD-SS-36",
+          "options": {
+            "color": "stainless",
+            "width": "36-in"
+          },
+          "price": {
+            "BRL": 1799.9,
+            "USD": 349.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel wall-mount chimney range hood with a tall vertical chimney over a wide pyramid-shaped canopy and push buttons on the front edge, front view",
+                "pt-BR": "Coifa de parede aço inox com chaminé alta vertical sobre uma coifa larga em formato de pirâmide e botões de pressão na borda frontal, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "stainless-white.png",
+                "#f5f5f5": "stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/range-hood/stainless-white.webp",
+                "#f5f5f5": "images/range-hood/stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "black-30-in",
+          "sku": "LML-HOD-BK-30",
+          "options": {
+            "color": "black",
+            "width": "30-in"
+          },
+          "price": {
+            "BRL": 1649.9,
+            "USD": 329.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black wall-mount chimney range hood with a tall vertical chimney over a wide pyramid-shaped canopy and push buttons on the front edge, front view",
+                "pt-BR": "Coifa de parede preto com chaminé alta vertical sobre uma coifa larga em formato de pirâmide e botões de pressão na borda frontal, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/range-hood/black-white.webp",
+                "#f5f5f5": "images/range-hood/black-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "black-36-in",
+          "sku": "LML-HOD-BK-36",
+          "options": {
+            "color": "black",
+            "width": "36-in"
+          },
+          "price": {
+            "BRL": 1999.9,
+            "USD": 399.99
+          },
+          "availability": "out_of_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Black wall-mount chimney range hood with a tall vertical chimney over a wide pyramid-shaped canopy and push buttons on the front edge, front view",
+                "pt-BR": "Coifa de parede preto com chaminé alta vertical sobre uma coifa larga em formato de pirâmide e botões de pressão na borda frontal, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "black-white.png",
+                "#f5f5f5": "black-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/range-hood/black-white.webp",
+                "#f5f5f5": "images/range-hood/black-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
       "unitId": "unit",
       "unit": {
         "id": "unit",
@@ -120533,6 +123973,174 @@
       }
     },
     {
+      "id": "side-by-side-refrigerator",
+      "brandId": "gelo-fino",
+      "brand": {
+        "id": "gelo-fino",
+        "name": {
+          "en": "Gelo Fino",
+          "pt-BR": "Gelo Fino"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Gelo Fino Side-by-Side Refrigerator with Through-the-Door Ice and Water Dispenser, Frost Free Cooling, Adjustable Glass Shelves, Full-Width Door Bins, 26 Cu Ft",
+        "pt-BR": "Geladeira Gelo Fino Side by Side com Dispenser de Gelo e Água na Porta, Frost Free, Prateleiras de Vidro Reguláveis, Porta-Garrafas de Largura Total, 740 Litros"
+      },
+      "description": {
+        "en": "A side-by-side refrigerator with an ice and water dispenser on the door, so there is no need to open it for a cold glass. Frost free cooling means no defrosting, and the glass shelves adjust to fit tall items.",
+        "pt-BR": "Geladeira side by side com dispenser de gelo e água na porta, para pegar um copo gelado sem abri-la. O sistema frost free dispensa o degelo, e as prateleiras de vidro se ajustam para acomodar itens altos."
+      },
+      "price": {
+        "BRL": 7999.9,
+        "USD": 1799.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "refrigerator",
+          "side by side",
+          "ice dispenser",
+          "frost free"
+        ],
+        "pt-BR": [
+          "geladeira",
+          "side by side",
+          "dispenser de gelo",
+          "frost free"
+        ]
+      },
+      "defaultVariantId": "stainless",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "stainless",
+              "name": {
+                "en": "Stainless steel",
+                "pt-BR": "Aço inox"
+              },
+              "hex": "#C9CCCE"
+            },
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "stainless",
+          "sku": "GFN-SBS-SS",
+          "options": {
+            "color": "stainless"
+          },
+          "price": {
+            "BRL": 7999.9,
+            "USD": 1799.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel side-by-side refrigerator with water dispenser on the left door, three-quarter view",
+                "pt-BR": "Geladeira side by side em aço inox com dispenser de água na porta esquerda, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "stainless-white.png",
+                "#f5f5f5": "stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/side-by-side-refrigerator/stainless-white.webp",
+                "#f5f5f5": "images/side-by-side-refrigerator/stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "white",
+          "sku": "GFN-SBS-WH",
+          "options": {
+            "color": "white"
+          },
+          "price": {
+            "BRL": 7499.9,
+            "USD": 1699.99
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White side-by-side refrigerator with water dispenser on the left door, three-quarter view",
+                "pt-BR": "Geladeira side by side branca com dispenser de água na porta esquerda, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/side-by-side-refrigerator/white-white.webp",
+                "#f5f5f5": "images/side-by-side-refrigerator/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
       "id": "single-pole-breaker-10-amp",
       "deprecated": {
         "reason": "Folded into \"miniature-circuit-breaker\" as a variant (rating): it has the same photo and only that choice differs.",
@@ -124118,6 +127726,285 @@
           "pt-BR": {
             "one": "peça",
             "other": "peças"
+          }
+        }
+      }
+    },
+    {
+      "id": "stacked-washer-dryer",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-lavanderia",
+      "name": {
+        "en": "Lumelar Stacked Laundry Center with Top Load Washer Below and Front Load Dryer Above, 27 Inch Wide, Single Control Panel, Steam Refresh, Wrinkle Care",
+        "pt-BR": "Lava e Seca Empilhada Lumelar com Lavadora de Carga Superior Embaixo e Secadora Frontal em Cima, 68 cm de Largura, Painel Único, Vapor, Antivinco"
+      },
+      "description": {
+        "en": "A washer and dryer built as one tall unit that frees up floor space and puts both controls in a single panel. Pick the electric model, or the gas model if the laundry room has a gas hookup.",
+        "pt-BR": "Lavadora e secadora em um só aparelho alto, que economiza espaço no chão e reúne os dois comandos em um único painel. Escolha o modelo elétrico ou o a gás, se a lavanderia tiver ligação de gás."
+      },
+      "price": {
+        "BRL": 7499.9,
+        "USD": 1499.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "laundry tower",
+          "washer dryer",
+          "stacked",
+          "laundry"
+        ],
+        "pt-BR": [
+          "torre de lavanderia",
+          "lava e seca",
+          "empilhada",
+          "lavanderia"
+        ]
+      },
+      "defaultVariantId": "electric-white",
+      "options": [
+        {
+          "id": "fuel",
+          "name": {
+            "en": "Fuel type",
+            "pt-BR": "Tipo de energia"
+          },
+          "values": [
+            {
+              "id": "electric",
+              "name": {
+                "en": "Electric",
+                "pt-BR": "Elétrica"
+              }
+            },
+            {
+              "id": "gas",
+              "name": {
+                "en": "Gas",
+                "pt-BR": "A gás"
+              }
+            }
+          ]
+        },
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            },
+            {
+              "id": "silver",
+              "name": {
+                "en": "Silver",
+                "pt-BR": "Prata"
+              },
+              "hex": "#B8BBBE"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "electric-white",
+          "sku": "LML-SWD-EL-WH",
+          "options": {
+            "fuel": "electric",
+            "color": "white"
+          },
+          "price": {
+            "BRL": 7499.9,
+            "USD": 1499.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White stacked laundry center with a front load dryer on top and a top load washer below, with a single control panel in the middle, three-quarter view",
+                "pt-BR": "Central de lavanderia empilhada branca com a secadora no alto, com porta própria, e a máquina de lavar de carga superior embaixo, com painel único no meio, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/stacked-washer-dryer/white-white.webp",
+                "#f5f5f5": "images/stacked-washer-dryer/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "electric-silver",
+          "sku": "LML-SWD-EL-SI",
+          "options": {
+            "fuel": "electric",
+            "color": "silver"
+          },
+          "price": {
+            "BRL": 7799.9,
+            "USD": 1549.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Silver stacked laundry center with a front load dryer on top and a top load washer below, with a single control panel in the middle, three-quarter view",
+                "pt-BR": "Central de lavanderia empilhada prata com a secadora no alto, com porta própria, e a máquina de lavar de carga superior embaixo, com painel único no meio, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "silver-white.png",
+                "#f5f5f5": "silver-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/stacked-washer-dryer/silver-white.webp",
+                "#f5f5f5": "images/stacked-washer-dryer/silver-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "gas-white",
+          "sku": "LML-SWD-GA-WH",
+          "options": {
+            "fuel": "gas",
+            "color": "white"
+          },
+          "price": {
+            "BRL": 7999.9,
+            "USD": 1599.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White stacked laundry center with a front load dryer on top and a top load washer below, with a single control panel in the middle, three-quarter view",
+                "pt-BR": "Central de lavanderia empilhada branca com a secadora no alto, com porta própria, e a máquina de lavar de carga superior embaixo, com painel único no meio, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/stacked-washer-dryer/white-white.webp",
+                "#f5f5f5": "images/stacked-washer-dryer/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "gas-silver",
+          "sku": "LML-SWD-GA-SI",
+          "options": {
+            "fuel": "gas",
+            "color": "silver"
+          },
+          "price": {
+            "BRL": 8499.9,
+            "USD": 1699.99
+          },
+          "availability": "low_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Silver stacked laundry center with a front load dryer on top and a top load washer below, with a single control panel in the middle, three-quarter view",
+                "pt-BR": "Central de lavanderia empilhada prata com a secadora no alto, com porta própria, e a máquina de lavar de carga superior embaixo, com painel único no meio, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "silver-white.png",
+                "#f5f5f5": "silver-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/stacked-washer-dryer/silver-white.webp",
+                "#f5f5f5": "images/stacked-washer-dryer/silver-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
           }
         }
       }
@@ -133928,6 +137815,732 @@
       }
     },
     {
+      "id": "top-control-dishwasher",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Lumelar 24 Inch Top Control Dishwasher with Hidden Controls, Pocket Handle, 16 Place Settings, 42 dBA Quiet Wash, Adjustable Racks, Sanitize Option",
+        "pt-BR": "Lava-Louças Lumelar 60 cm com Comandos Ocultos na Porta, Puxador Embutido, 16 Serviços, Lavagem Silenciosa de 42 dB, Cestas Reguláveis, Opção Higienizar"
+      },
+      "description": {
+        "en": "A dishwasher with a flat front, controls hidden on the top edge of the door and a pocket handle, so it blends into the cabinets. Sixteen place settings and adjustable racks fit large loads.",
+        "pt-BR": "Lava-louças de frente lisa, com comandos escondidos na borda superior da porta e puxador embutido, que se integra aos armários. Os 16 serviços e as cestas reguláveis acomodam cargas grandes."
+      },
+      "price": {
+        "BRL": 3999.9,
+        "USD": 799.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "dishwasher",
+          "hidden controls",
+          "built-in",
+          "kitchen appliance"
+        ],
+        "pt-BR": [
+          "lava-louças",
+          "comandos ocultos",
+          "de embutir",
+          "eletrodoméstico de cozinha"
+        ]
+      },
+      "defaultVariantId": "stainless",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "stainless",
+              "name": {
+                "en": "Stainless steel",
+                "pt-BR": "Aço inox"
+              },
+              "hex": "#C9CCCE"
+            },
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "stainless",
+          "sku": "LML-DSW-TC-SS",
+          "options": {
+            "color": "stainless"
+          },
+          "price": {
+            "BRL": 3999.9,
+            "USD": 799.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel dishwasher with a completely flat front, controls hidden on the top edge of the door and a recessed pocket handle, front view",
+                "pt-BR": "Lava-louças aço inox de frente totalmente lisa, com comandos escondidos na borda superior da porta e puxador embutido, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "stainless-white.png",
+                "#f5f5f5": "stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/top-control-dishwasher/stainless-white.webp",
+                "#f5f5f5": "images/top-control-dishwasher/stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "white",
+          "sku": "LML-DSW-TC-WH",
+          "options": {
+            "color": "white"
+          },
+          "price": {
+            "BRL": 3799.9,
+            "USD": 749.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White dishwasher with a completely flat front, controls hidden on the top edge of the door and a recessed pocket handle, front view",
+                "pt-BR": "Lava-louças branco de frente totalmente lisa, com comandos escondidos na borda superior da porta e puxador embutido, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/top-control-dishwasher/white-white.webp",
+                "#f5f5f5": "images/top-control-dishwasher/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "top-freezer-refrigerator",
+      "brandId": "gelo-fino",
+      "brand": {
+        "id": "gelo-fino",
+        "name": {
+          "en": "Gelo Fino",
+          "pt-BR": "Gelo Fino"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Gelo Fino Top Freezer Refrigerator with Frost Free Cooling, Reversible Door, Adjustable Glass Shelves, Crisper Drawer, Gallon Door Bins, Compact Footprint",
+        "pt-BR": "Geladeira Gelo Fino Duplex com Freezer em Cima, Frost Free, Porta Reversível, Prateleiras de Vidro Reguláveis, Gaveta de Legumes, Compartimentos para Garrafas Grandes"
+      },
+      "description": {
+        "en": "A top freezer refrigerator with frost free cooling and a reversible door that opens from either side. Door bins hold gallon jugs, and the compact footprint suits small kitchens and apartments.",
+        "pt-BR": "Geladeira duplex com freezer em cima, frost free e porta reversível que abre para qualquer lado. Os compartimentos da porta comportam garrafas grandes, e o design compacto serve bem em cozinhas pequenas e apartamentos."
+      },
+      "price": {
+        "BRL": 3199.9,
+        "USD": 699.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "refrigerator",
+          "top freezer",
+          "frost free",
+          "compact"
+        ],
+        "pt-BR": [
+          "geladeira",
+          "duplex",
+          "frost free",
+          "compacta"
+        ]
+      },
+      "defaultVariantId": "white-18-cu-ft",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            },
+            {
+              "id": "stainless",
+              "name": {
+                "en": "Stainless steel",
+                "pt-BR": "Aço inox"
+              },
+              "hex": "#C9CCCE"
+            }
+          ]
+        },
+        {
+          "id": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "values": [
+            {
+              "id": "18-cu-ft",
+              "name": {
+                "en": "18 cu ft",
+                "pt-BR": "450 L"
+              }
+            },
+            {
+              "id": "21-cu-ft",
+              "name": {
+                "en": "21 cu ft",
+                "pt-BR": "520 L"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-18-cu-ft",
+          "sku": "GFN-TFR-WH-18",
+          "options": {
+            "color": "white",
+            "capacity": "18-cu-ft"
+          },
+          "price": {
+            "BRL": 3199.9,
+            "USD": 699.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White top freezer refrigerator with two doors and vertical handles, three-quarter view",
+                "pt-BR": "Geladeira duplex branca com duas portas e puxadores verticais, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/top-freezer-refrigerator/white-white.webp",
+                "#f5f5f5": "images/top-freezer-refrigerator/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "white-21-cu-ft",
+          "sku": "GFN-TFR-WH-21",
+          "options": {
+            "color": "white",
+            "capacity": "21-cu-ft"
+          },
+          "price": {
+            "BRL": 3699.9,
+            "USD": 799.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White top freezer refrigerator with two doors and vertical handles, three-quarter view",
+                "pt-BR": "Geladeira duplex branca com duas portas e puxadores verticais, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/top-freezer-refrigerator/white-white.webp",
+                "#f5f5f5": "images/top-freezer-refrigerator/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "stainless-18-cu-ft",
+          "sku": "GFN-TFR-SS-18",
+          "options": {
+            "color": "stainless",
+            "capacity": "18-cu-ft"
+          },
+          "price": {
+            "BRL": 3599.9,
+            "USD": 799.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel top freezer refrigerator with two doors and vertical handles, three-quarter view",
+                "pt-BR": "Geladeira duplex em aço inox com duas portas e puxadores verticais, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "stainless-white.png",
+                "#f5f5f5": "stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/top-freezer-refrigerator/stainless-white.webp",
+                "#f5f5f5": "images/top-freezer-refrigerator/stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "stainless-21-cu-ft",
+          "sku": "GFN-TFR-SS-21",
+          "options": {
+            "color": "stainless",
+            "capacity": "21-cu-ft"
+          },
+          "price": {
+            "BRL": 4099.9,
+            "USD": 899.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel top freezer refrigerator with two doors and vertical handles, three-quarter view",
+                "pt-BR": "Geladeira duplex em aço inox com duas portas e puxadores verticais, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "stainless-white.png",
+                "#f5f5f5": "stainless-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/top-freezer-refrigerator/stainless-white.webp",
+                "#f5f5f5": "images/top-freezer-refrigerator/stainless-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "top-load-washer",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-lavanderia",
+      "name": {
+        "en": "Lumelar Top Load Washing Machine with Agitator, Deep Fill Option, 12 Wash Cycles, Stain Removal Cycle, Spill-Proof Lid, Quiet Direct Drive Motor",
+        "pt-BR": "Máquina de Lavar Lumelar de Carga Superior com Agitador, Nível de Água Extra, 12 Programas de Lavagem, Ciclo Antimanchas, Tampa de Vidro Reforçado, Motor Silencioso"
+      },
+      "description": {
+        "en": "A top load washer with an agitator that scrubs heavy loads clean, plus a deep fill option for bulky items. The stain removal cycle and quiet direct drive motor suit busy laundry days.",
+        "pt-BR": "Máquina de lavar de carga superior com agitador que limpa roupas pesadas e opção de nível de água extra para peças volumosas. O ciclo antimanchas e o motor silencioso facilitam a rotina de lavanderia."
+      },
+      "price": {
+        "BRL": 3299.9,
+        "USD": 749.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "washing machine",
+          "top load",
+          "laundry",
+          "washer"
+        ],
+        "pt-BR": [
+          "máquina de lavar",
+          "carga superior",
+          "lavanderia",
+          "lavadora"
+        ]
+      },
+      "defaultVariantId": "white-4-5-cu-ft",
+      "options": [
+        {
+          "id": "color",
+          "name": {
+            "en": "Color",
+            "pt-BR": "Cor"
+          },
+          "values": [
+            {
+              "id": "white",
+              "name": {
+                "en": "White",
+                "pt-BR": "Branco"
+              },
+              "hex": "#F4F4F2"
+            },
+            {
+              "id": "graphite",
+              "name": {
+                "en": "Graphite",
+                "pt-BR": "Grafite"
+              },
+              "hex": "#4A4D52"
+            }
+          ]
+        },
+        {
+          "id": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "values": [
+            {
+              "id": "4-5-cu-ft",
+              "name": {
+                "en": "4.5 cu ft",
+                "pt-BR": "13 kg"
+              }
+            },
+            {
+              "id": "5-2-cu-ft",
+              "name": {
+                "en": "5.2 cu ft",
+                "pt-BR": "17 kg"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "white-4-5-cu-ft",
+          "sku": "LML-TLW-WH-45",
+          "options": {
+            "color": "white",
+            "capacity": "4-5-cu-ft"
+          },
+          "price": {
+            "BRL": 3299.9,
+            "USD": 749.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White top load washing machine with rear control panel and a glass lid, three-quarter view",
+                "pt-BR": "Máquina de lavar branca de carga superior com painel traseiro e tampa de vidro, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/top-load-washer/white-white.webp",
+                "#f5f5f5": "images/top-load-washer/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "white-5-2-cu-ft",
+          "sku": "LML-TLW-WH-52",
+          "options": {
+            "color": "white",
+            "capacity": "5-2-cu-ft"
+          },
+          "price": {
+            "BRL": 3899.9,
+            "USD": 849.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "White top load washing machine with rear control panel and a glass lid, three-quarter view",
+                "pt-BR": "Máquina de lavar branca de carga superior com painel traseiro e tampa de vidro, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "white-white.png",
+                "#f5f5f5": "white-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/top-load-washer/white-white.webp",
+                "#f5f5f5": "images/top-load-washer/white-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "graphite-4-5-cu-ft",
+          "sku": "LML-TLW-GR-45",
+          "options": {
+            "color": "graphite",
+            "capacity": "4-5-cu-ft"
+          },
+          "price": {
+            "BRL": 3499.9,
+            "USD": 799.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Graphite top load washing machine with rear control panel and a glass lid, three-quarter view",
+                "pt-BR": "Máquina de lavar grafite de carga superior com painel traseiro e tampa de vidro, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "graphite-white.png",
+                "#f5f5f5": "graphite-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/top-load-washer/graphite-white.webp",
+                "#f5f5f5": "images/top-load-washer/graphite-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "graphite-5-2-cu-ft",
+          "sku": "LML-TLW-GR-52",
+          "options": {
+            "color": "graphite",
+            "capacity": "5-2-cu-ft"
+          },
+          "price": {
+            "BRL": 4199.9,
+            "USD": 899.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Graphite top load washing machine with rear control panel and a glass lid, three-quarter view",
+                "pt-BR": "Máquina de lavar grafite de carga superior com painel traseiro e tampa de vidro, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "graphite-white.png",
+                "#f5f5f5": "graphite-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/top-load-washer/graphite-white.webp",
+                "#f5f5f5": "images/top-load-washer/graphite-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
       "id": "training-shorts",
       "brandId": "ritmo",
       "brand": {
@@ -139401,6 +144014,172 @@
               "src": {
                 "#ffffff": "images/utility-overshirt/detail-white.webp",
                 "#f5f5f5": "images/utility-overshirt/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "wall-oven",
+      "brandId": "lumelar",
+      "brand": {
+        "id": "lumelar",
+        "name": {
+          "en": "Lumelar",
+          "pt-BR": "Lumelar"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Lumelar 30 Inch Built-In Electric Wall Oven, Stainless Steel, True Convection, Self-Clean Cycle, Dark Glass Window, Bar Handle, Digital Touch Controls",
+        "pt-BR": "Forno Elétrico de Parede Lumelar de Embutir 76 cm em Aço Inox, Convecção Verdadeira, Ciclo de Autolimpeza, Janela de Vidro Escuro, Controles Digitais"
+      },
+      "description": {
+        "en": "A 30 in stainless steel wall oven with convection that circulates hot air for even baking. Choose a single oven, or a double to cook two dishes at different temperatures.",
+        "pt-BR": "Forno de parede de 76 cm em aço inox com convecção, que circula o ar quente para assar de forma uniforme. Escolha o modelo simples ou o duplo, para preparar dois pratos em temperaturas diferentes."
+      },
+      "price": {
+        "BRL": 8999.9,
+        "USD": 1799.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "wall oven",
+          "built-in",
+          "convection",
+          "kitchen appliance"
+        ],
+        "pt-BR": [
+          "forno de parede",
+          "de embutir",
+          "convecção",
+          "eletrodoméstico de cozinha"
+        ]
+      },
+      "defaultVariantId": "single",
+      "options": [
+        {
+          "id": "configuration",
+          "name": {
+            "en": "Configuration",
+            "pt-BR": "Configuração"
+          },
+          "values": [
+            {
+              "id": "double",
+              "name": {
+                "en": "Double",
+                "pt-BR": "Duplo"
+              }
+            },
+            {
+              "id": "single",
+              "name": {
+                "en": "Single",
+                "pt-BR": "Simples"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "single",
+          "sku": "LML-WLO-SI",
+          "options": {
+            "configuration": "single"
+          },
+          "price": {
+            "BRL": 8999.9,
+            "USD": 1799.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel built-in electric wall oven with a dark glass window and a bar handle, front view",
+                "pt-BR": "Forno elétrico de parede de embutir em aço inox com janela de vidro escuro e puxador de barra, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "single-white.png",
+                "#f5f5f5": "single-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wall-oven/single-white.webp",
+                "#f5f5f5": "images/wall-oven/single-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "double",
+          "sku": "LML-WLO-DO",
+          "options": {
+            "configuration": "double"
+          },
+          "price": {
+            "BRL": 15999.9,
+            "USD": 3299.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Stainless steel built-in double electric wall oven with two stacked ovens, each with a dark glass window and a bar handle, front view",
+                "pt-BR": "Forno elétrico duplo de parede de embutir em aço inox, com dois fornos empilhados, cada um com janela de vidro escuro e puxador de barra, vista frontal"
+              },
+              "backgrounds": {
+                "#ffffff": "double-white.png",
+                "#f5f5f5": "double-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wall-oven/double-white.webp",
+                "#f5f5f5": "images/wall-oven/double-gray.webp"
               }
             }
           ],
@@ -161787,6 +166566,172 @@
               "src": {
                 "#ffffff": "images/windbreaker-jacket/detail-white.webp",
                 "#f5f5f5": "images/windbreaker-jacket/detail-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        }
+      ],
+      "unitId": "unit",
+      "unit": {
+        "id": "unit",
+        "kind": "count",
+        "name": {
+          "en": {
+            "one": "unit",
+            "other": "units"
+          },
+          "pt-BR": {
+            "one": "unidade",
+            "other": "unidades"
+          }
+        }
+      }
+    },
+    {
+      "id": "wine-cooler",
+      "brandId": "gelo-fino",
+      "brand": {
+        "id": "gelo-fino",
+        "name": {
+          "en": "Gelo Fino",
+          "pt-BR": "Gelo Fino"
+        }
+      },
+      "categoryId": "eletro-cozinha",
+      "name": {
+        "en": "Gelo Fino Freestanding Wine Cooler with Tempered Glass Door, Chrome Wire Racks, Soft Blue LED Light, Digital Touch Controls, Quiet Compressor Cooling",
+        "pt-BR": "Adega Climatizada Gelo Fino de Piso com Porta de Vidro Temperado, Prateleiras Cromadas, Luz LED Azul Suave, Painel Digital de Toque, Compressor Silencioso"
+      },
+      "description": {
+        "en": "A freestanding wine cooler that holds bottles on their side at a steady temperature. The 12 bottle model is a slim single zone; the 24 bottle model is twice as wide, with two zones so reds and whites each get their own range.",
+        "pt-BR": "Adega climatizada de piso que guarda as garrafas deitadas em temperatura constante. O modelo de 12 garrafas é estreito e tem uma zona; o de 24 garrafas tem o dobro da largura e duas zonas, para tintos e brancos ficarem cada um na sua faixa."
+      },
+      "price": {
+        "BRL": 1499.9,
+        "USD": 249.99
+      },
+      "availability": "in_stock",
+      "tags": {
+        "en": [
+          "wine cooler",
+          "wine fridge",
+          "kitchen appliance",
+          "freestanding"
+        ],
+        "pt-BR": [
+          "adega",
+          "adega climatizada",
+          "eletrodoméstico de cozinha",
+          "de piso"
+        ]
+      },
+      "defaultVariantId": "12-bottles",
+      "options": [
+        {
+          "id": "capacity",
+          "name": {
+            "en": "Capacity",
+            "pt-BR": "Capacidade"
+          },
+          "values": [
+            {
+              "id": "12-bottles",
+              "name": {
+                "en": "12 bottles",
+                "pt-BR": "12 garrafas"
+              }
+            },
+            {
+              "id": "24-bottles",
+              "name": {
+                "en": "24 bottles",
+                "pt-BR": "24 garrafas"
+              }
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "12-bottles",
+          "sku": "GFN-WNC-12",
+          "options": {
+            "capacity": "12-bottles"
+          },
+          "price": {
+            "BRL": 1499.9,
+            "USD": 249.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Slim black wine cooler with glass door and chrome racks holding twelve bottles, three-quarter view",
+                "pt-BR": "Adega climatizada preta estreita com porta de vidro e prateleiras cromadas com doze garrafas, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "12-bottle-white.png",
+                "#f5f5f5": "12-bottle-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wine-cooler/12-bottle-white.webp",
+                "#f5f5f5": "images/wine-cooler/12-bottle-gray.webp"
+              }
+            }
+          ],
+          "unit": {
+            "id": "unit",
+            "kind": "count",
+            "name": {
+              "en": {
+                "one": "unit",
+                "other": "units"
+              },
+              "pt-BR": {
+                "one": "unidade",
+                "other": "unidades"
+              }
+            }
+          }
+        },
+        {
+          "id": "24-bottles",
+          "sku": "GFN-WNC-24",
+          "options": {
+            "capacity": "24-bottles"
+          },
+          "price": {
+            "BRL": 2299.9,
+            "USD": 399.99
+          },
+          "availability": "in_stock",
+          "images": [
+            {
+              "alt": {
+                "en": "Wide black dual zone wine cooler with glass door, red wine on the left and white wine on the right, three-quarter view",
+                "pt-BR": "Adega climatizada preta larga de duas zonas com porta de vidro, vinhos tintos à esquerda e brancos à direita, vista em três quartos"
+              },
+              "backgrounds": {
+                "#ffffff": "24-bottle-white.png",
+                "#f5f5f5": "24-bottle-gray.png"
+              },
+              "src": {
+                "#ffffff": "images/wine-cooler/24-bottle-white.webp",
+                "#f5f5f5": "images/wine-cooler/24-bottle-gray.webp"
               }
             }
           ],
