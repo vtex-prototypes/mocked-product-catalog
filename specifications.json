@@ -966,5 +966,67 @@
         }
       }
     ]
+  },
+  {
+    "id": "shank",
+    "name": {
+      "en": "Shank",
+      "pt-BR": "Haste"
+    },
+    "values": [
+      {
+        "id": "round",
+        "name": {
+          "en": "Round",
+          "pt-BR": "Cilíndrica"
+        }
+      },
+      {
+        "id": "sds-plus",
+        "name": {
+          "en": "SDS-plus",
+          "pt-BR": "SDS-plus"
+        }
+      }
+    ]
+  },
+  {
+    "id": "fits-tool",
+    "name": {
+      "en": "Fits",
+      "pt-BR": "Compatível com"
+    },
+    "values": [
+      {
+        "id": "drill-chuck",
+        "name": {
+          "en": "Drills and drill drivers with a chuck",
+          "pt-BR": "Furadeiras e parafusadeiras com mandril"
+        }
+      },
+      {
+        "id": "rotary-hammer",
+        "name": {
+          "en": "SDS-plus rotary hammers",
+          "pt-BR": "Marteletes SDS-plus"
+        }
+      }
+    ]
+  },
+  {
+    "id": "faucet-mechanism",
+    "name": {
+      "en": "Faucet mechanism",
+      "pt-BR": "Mecanismo da torneira"
+    },
+    "values": [
+      {
+        "id": "single-lever-ceramic-disc",
+        "name": {
+          "en": "Single lever, ceramic disc",
+          "pt-BR": "Monocomando, disco cerâmico"
+        }
+      }
+    ]
   }
 ]

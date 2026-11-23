@@ -1,0 +1,124 @@
+{
+  "id": "brad-point-wood-bit-set",
+  "categoryId": "construcao-acessorios",
+  "unitId": "set",
+  "name": {
+    "en": "Brad-Point Wood Drill Bit Set with Round Shanks for Clean Holes, Fits Any Drill with a Chuck, 5 or 8 Pieces",
+    "pt-BR": "Jogo de Brocas para Madeira com Ponta-Guia e Haste Cilíndrica para Furos Limpos, para Furadeira com Mandril, 5 ou 8 Peças"
+  },
+  "description": {
+    "en": "Brad-point bits with a center spur that keeps the hole from wandering and leaves clean edges in wood. The round shank fits the chuck of any drill or drill driver, from a 3/8 inch keyless chuck up. It does not fit SDS-plus rotary hammers.",
+    "pt-BR": "Brocas com ponta-guia central que não deixa o furo escapar e dá borda limpa na madeira. A haste cilíndrica cabe no mandril de qualquer furadeira ou parafusadeira, a partir do mandril de 10 mm. Não serve em marteletes SDS-plus."
+  },
+  "price": {
+    "BRL": 59.9,
+    "USD": 16.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "brad point",
+      "wood bits",
+      "round shank",
+      "for drills with a chuck",
+      "wood"
+    ],
+    "pt-BR": [
+      "ponta-guia",
+      "brocas para madeira",
+      "haste cilíndrica",
+      "para furadeira com mandril",
+      "madeira"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "steel"
+    },
+    {
+      "id": "shank",
+      "valueId": "round"
+    },
+    {
+      "id": "fits-tool",
+      "valueId": "drill-chuck"
+    }
+  ],
+  "defaultVariantId": "five-piece",
+  "options": [
+    {
+      "id": "pack",
+      "name": {
+        "en": "Set",
+        "pt-BR": "Jogo"
+      },
+      "values": [
+        {
+          "id": "five-piece",
+          "name": {
+            "en": "5 pieces",
+            "pt-BR": "5 peças"
+          }
+        },
+        {
+          "id": "eight-piece",
+          "name": {
+            "en": "8 pieces",
+            "pt-BR": "8 peças"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "five-piece",
+      "sku": "CON-BRAD-BITS-5",
+      "options": {
+        "pack": "five-piece"
+      },
+      "price": {
+        "BRL": 59.9,
+        "USD": 16.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brad-point wood drill bits with round shanks beside a black case",
+            "pt-BR": "Brocas para madeira com ponta-guia e haste cilíndrica ao lado de uma maleta preta"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eight-piece",
+      "sku": "CON-BRAD-BITS-8",
+      "options": {
+        "pack": "eight-piece"
+      },
+      "price": {
+        "BRL": 84.9,
+        "USD": 24.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brad-point wood drill bits with round shanks beside a black case",
+            "pt-BR": "Brocas para madeira com ponta-guia e haste cilíndrica ao lado de uma maleta preta"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

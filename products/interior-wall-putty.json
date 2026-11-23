@@ -1,0 +1,121 @@
+{
+  "id": "interior-wall-putty",
+  "categoryId": "construcao-tintas",
+  "unitId": "bucket",
+  "name": {
+    "en": "Ready-Mixed Interior Wall Putty for Smoothing and Filling Before Paint, 1 Gallon Can or 5 Gallon Bucket",
+    "pt-BR": "Massa Corrida Pronta para Parede Interna, Nivela e Preenche antes da Pintura, Lata 3,6 L ou Balde 18 L"
+  },
+  "description": {
+    "en": "A ready-mixed putty that fills hairline cracks and small holes and levels a wall before primer and paint. It sands smooth and needs no mixing. Wall putty, sometimes called mud or massa corrida, is not the same as fine finishing plaster.",
+    "pt-BR": "Massa corrida pronta que preenche trincas finas e furos pequenos e nivela a parede antes do fundo e da tinta. Lixa com facilidade e não precisa de mistura. Não é o mesmo que a massa fina de acabamento em gesso."
+  },
+  "price": {
+    "BRL": 179.9,
+    "USD": 54
+  },
+  "availability": "low_stock",
+  "tags": {
+    "en": [
+      "wall putty",
+      "filler",
+      "mud",
+      "interior",
+      "before paint"
+    ],
+    "pt-BR": [
+      "massa corrida",
+      "massa de parede",
+      "nivelamento",
+      "interna",
+      "antes da tinta"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "five-gal",
+  "options": [
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "one-gal",
+          "name": {
+            "en": "1 gal",
+            "pt-BR": "3,6 L"
+          }
+        },
+        {
+          "id": "five-gal",
+          "name": {
+            "en": "5 gal",
+            "pt-BR": "18 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one-gal",
+      "sku": "CON-WALL-PUTTY-1GAL",
+      "options": {
+        "size": "one-gal"
+      },
+      "price": {
+        "BRL": 59.9,
+        "USD": 17.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White metal can of interior wall putty",
+            "pt-BR": "Lata branca de massa corrida para parede interna"
+          },
+          "backgrounds": {
+            "#ffffff": "one-gal-white.png",
+            "#f5f5f5": "one-gal-gray.png"
+          }
+        }
+      ],
+      "unitId": "can"
+    },
+    {
+      "id": "five-gal",
+      "sku": "CON-WALL-PUTTY-5GAL",
+      "options": {
+        "size": "five-gal"
+      },
+      "price": {
+        "BRL": 179.9,
+        "USD": 54
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White plastic bucket of interior wall putty",
+            "pt-BR": "Balde plástico branco de massa corrida para parede interna"
+          },
+          "backgrounds": {
+            "#ffffff": "five-gal-white.png",
+            "#f5f5f5": "five-gal-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
