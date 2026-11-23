@@ -1,0 +1,143 @@
+{
+  "id": "large-format-porcelain-thinset",
+  "categoryId": "construcao-argamassas",
+  "unitId": "bag",
+  "name": {
+    "en": "White Polymer-Modified Thinset Mortar for Large-Format Porcelain Tile up to 48 by 48 Inches, 50 Pound Sack with Handle",
+    "pt-BR": "Argamassa Colante Branca com Polímero para Porcelanato de Grande Formato até 120x120 cm, Saco de 20 kg com Alça"
+  },
+  "description": {
+    "en": "A white polymer-modified thinset for large and heavy porcelain tile on indoor floors and walls. It stays workable longer and bonds firmly under big formats, and white powder will not shadow through light tile.",
+    "pt-BR": "Argamassa colante branca com polímero para porcelanato grande e pesado em pisos e paredes internas. Tem tempo em aberto maior e adere bem sob grandes formatos, e o pó branco não escurece peças claras."
+  },
+  "price": {
+    "BRL": 79.9,
+    "USD": 36
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "thinset mortar",
+      "porcelain",
+      "large format",
+      "polymer-modified",
+      "white"
+    ],
+    "pt-BR": [
+      "argamassa colante",
+      "porcelanato",
+      "grande formato",
+      "com polímero",
+      "branca"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branca"
+          },
+          "hex": "#ECECE8"
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "name": {
+        "en": "Quantity",
+        "pt-BR": "Quantidade"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-LARGE-FORMAT-PORCELAIN-THINSET-SINGLE",
+      "options": {
+        "color": "white",
+        "quantity": "single"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 36
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White plastic sack of large-format porcelain thinset with a blue band and a handle",
+            "pt-BR": "Saco plástico branco de argamassa para porcelanato grande formato com faixa azul e alça"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "sku": "CON-LARGE-FORMAT-PORCELAIN-THINSET-PACK",
+      "options": {
+        "color": "white",
+        "quantity": "pack"
+      },
+      "price": {
+        "BRL": 369,
+        "USD": 169
+      },
+      "availability": "low_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White plastic sack of large-format porcelain thinset with a blue band and a handle",
+            "pt-BR": "Saco plástico branco de argamassa para porcelanato grande formato com faixa azul e alça"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

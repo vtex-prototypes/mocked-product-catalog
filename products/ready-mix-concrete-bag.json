@@ -1,0 +1,145 @@
+{
+  "id": "ready-mix-concrete-bag",
+  "categoryId": "construcao-basicos",
+  "unitId": "bag",
+  "name": {
+    "en": "Ready-Mix Concrete with Portland Cement, Sand and Gravel, an 80 Pound Paper Bag, Just Add Water for Slabs, Posts and Footings",
+    "pt-BR": "Concreto Pronto com Cimento Portland, Areia e Brita, Saco de Papel de 40 kg, Só Adicionar Água para Lajes, Postes e Sapatas"
+  },
+  "description": {
+    "en": "A bag of concrete that already holds cement, sand and gravel in the right mix. Add water, stir, and pour small slabs, steps, footings and fence posts. The cement in it binds the sand and gravel as it cures.",
+    "pt-BR": "Saco de concreto que já traz cimento, areia e brita na proporção certa. Adicione água, misture e concrete pequenas lajes, degraus, sapatas e postes de cerca. O cimento da mistura liga a areia e a brita na cura."
+  },
+  "price": {
+    "BRL": 36.9,
+    "USD": 7
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "concrete mix",
+      "ready-mix concrete",
+      "cement",
+      "slab",
+      "fence post",
+      "footing"
+    ],
+    "pt-BR": [
+      "concreto pronto",
+      "mistura de concreto",
+      "cimento",
+      "laje",
+      "poste",
+      "sapata"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "one",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#A5A5A3"
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "one",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "many",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "one",
+      "sku": "CON-READY-MIX-CONCRETE-BAG-ONE",
+      "options": {
+        "color": "gray",
+        "pack": "one"
+      },
+      "price": {
+        "BRL": 36.9,
+        "USD": 7
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray paper sack of ready-mix concrete with a wide black band",
+            "pt-BR": "Saco de papel cinza de concreto pronto com faixa larga preta"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "many",
+      "sku": "CON-READY-MIX-CONCRETE-BAG-MANY",
+      "options": {
+        "color": "gray",
+        "pack": "many"
+      },
+      "price": {
+        "BRL": 169,
+        "USD": 33
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray paper sack of ready-mix concrete with a wide black band",
+            "pt-BR": "Saco de papel cinza de concreto pronto com faixa larga preta"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

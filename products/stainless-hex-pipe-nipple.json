@@ -1,0 +1,175 @@
+{
+  "id": "stainless-hex-pipe-nipple",
+  "categoryId": "construcao-hidraulica",
+  "unitId": "piece",
+  "name": {
+    "en": "Stainless Steel Hex Pipe Nipple with Male Threads on Both Ends, Rust-Proof Connector for Water, Air and Outdoor Lines",
+    "pt-BR": "Niple Sextavado de Aço Inox com Rosca Macho nas Duas Pontas, Conector que Não Enferruja para Água, Ar e Áreas Externas"
+  },
+  "description": {
+    "en": "A short stainless steel nipple with male threads at both ends and a hex in the middle for a wrench. Joins two female fittings, valves or tanks. It does not rust, so it also works on outdoor and wet lines.",
+    "pt-BR": "Niple curto de aço inox com rosca macho nas duas pontas e sextavado no meio para a chave. Une duas conexões fêmeas, registros ou reservatórios. Não enferruja, serve também em linhas externas e úmidas."
+  },
+  "price": {
+    "BRL": 24.9,
+    "USD": 7
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "stainless steel fitting",
+      "pipe nipple",
+      "hex nipple",
+      "threaded",
+      "rust-proof"
+    ],
+    "pt-BR": [
+      "conexão inox",
+      "niple",
+      "niple sextavado",
+      "rosqueado",
+      "não enferruja"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "1-2-in",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "stainless",
+          "name": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          },
+          "hex": "#BFC2C4"
+        }
+      ]
+    },
+    {
+      "id": "thread",
+      "name": {
+        "en": "Thread size",
+        "pt-BR": "Rosca"
+      },
+      "values": [
+        {
+          "id": "1-2-in",
+          "name": {
+            "en": "1/2 in",
+            "pt-BR": "1/2 pol"
+          }
+        },
+        {
+          "id": "3-4-in",
+          "name": {
+            "en": "3/4 in",
+            "pt-BR": "3/4 pol"
+          }
+        },
+        {
+          "id": "1-in",
+          "name": {
+            "en": "1 in",
+            "pt-BR": "1 pol"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "1-2-in",
+      "sku": "CON-STAINLESS-HEX-PIPE-NIPPLE-1-2-IN",
+      "options": {
+        "color": "stainless",
+        "thread": "1-2-in"
+      },
+      "price": {
+        "BRL": 24.9,
+        "USD": 7
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel hex pipe nipple with threads on both ends",
+            "pt-BR": "Niple sextavado de aço inox com rosca nas duas pontas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-4-in",
+      "sku": "CON-STAINLESS-HEX-PIPE-NIPPLE-3-4-IN",
+      "options": {
+        "color": "stainless",
+        "thread": "3-4-in"
+      },
+      "price": {
+        "BRL": 34.9,
+        "USD": 10
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel hex pipe nipple with threads on both ends",
+            "pt-BR": "Niple sextavado de aço inox com rosca nas duas pontas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1-in",
+      "sku": "CON-STAINLESS-HEX-PIPE-NIPPLE-1-IN",
+      "options": {
+        "color": "stainless",
+        "thread": "1-in"
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 14
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel hex pipe nipple with threads on both ends",
+            "pt-BR": "Niple sextavado de aço inox com rosca nas duas pontas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

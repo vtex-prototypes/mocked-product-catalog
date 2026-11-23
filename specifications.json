@@ -320,6 +320,20 @@
           "en": "Polyethylene foam",
           "pt-BR": "Espuma de polietileno"
         }
+      },
+      {
+        "id": "gravel",
+        "name": {
+          "en": "Gravel",
+          "pt-BR": "Brita"
+        }
+      },
+      {
+        "id": "polypropylene",
+        "name": {
+          "en": "Polypropylene",
+          "pt-BR": "Polipropileno"
+        }
       }
     ]
   },

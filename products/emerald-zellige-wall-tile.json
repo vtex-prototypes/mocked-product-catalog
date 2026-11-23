@@ -1,0 +1,149 @@
+{
+  "id": "emerald-zellige-wall-tile",
+  "categoryId": "construcao-revestimentos",
+  "unitId": "area",
+  "name": {
+    "en": "Glossy Emerald Green Handmade-Look Zellige Ceramic Wall Tile with an Uneven Glaze, for a Bathroom or Kitchen Backsplash",
+    "pt-BR": "Revestimento de Parede Cerâmico Verde Esmeralda Brilhante Estilo Zellige com Esmaltado Irregular, para Banheiro ou Backsplash de Cozinha"
+  },
+  "description": {
+    "en": "A deep emerald square ceramic wall tile with the uneven glaze and soft edges of handmade zellige. Light plays across each tile differently. For bathroom walls, shower niches and kitchen backsplashes. Pick the tile size.",
+    "pt-BR": "Revestimento de parede cerâmico quadrado em verde esmeralda profundo, com o esmaltado irregular e as bordas suaves do zellige artesanal. A luz muda em cada peça. Para paredes de banheiro, nichos de box e backsplash de cozinha. Escolha o tamanho."
+  },
+  "price": {
+    "BRL": 149,
+    "USD": 13.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "zellige tile",
+      "green wall tile",
+      "glossy",
+      "bathroom",
+      "backsplash",
+      "handmade look"
+    ],
+    "pt-BR": [
+      "zellige",
+      "revestimento verde",
+      "brilhante",
+      "banheiro",
+      "backsplash",
+      "aspecto artesanal"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "solid"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "4x4",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "emerald",
+          "name": {
+            "en": "Emerald green",
+            "pt-BR": "Verde esmeralda"
+          },
+          "hex": "#0E6B4A"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "4x4",
+          "name": {
+            "en": "4×4 in",
+            "pt-BR": "10×10 cm"
+          }
+        },
+        {
+          "id": "6x6",
+          "name": {
+            "en": "6×6 in",
+            "pt-BR": "15×15 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "4x4",
+      "sku": "CON-EMERALD-ZELLIGE-WALL-TILE-4X4",
+      "options": {
+        "color": "emerald",
+        "size": "4x4"
+      },
+      "price": {
+        "BRL": 149,
+        "USD": 13.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Fan of glossy emerald green zellige-style ceramic wall tiles",
+            "pt-BR": "Leque de revestimentos cerâmicos verde esmeralda brilhantes estilo zellige"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6x6",
+      "sku": "CON-EMERALD-ZELLIGE-WALL-TILE-6X6",
+      "options": {
+        "color": "emerald",
+        "size": "6x6"
+      },
+      "price": {
+        "BRL": 129,
+        "USD": 11.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Fan of glossy emerald green zellige-style ceramic wall tiles",
+            "pt-BR": "Leque de revestimentos cerâmicos verde esmeralda brilhantes estilo zellige"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

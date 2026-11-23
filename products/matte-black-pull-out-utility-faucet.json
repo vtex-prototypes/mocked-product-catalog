@@ -1,0 +1,147 @@
+{
+  "id": "matte-black-pull-out-utility-faucet",
+  "categoryId": "construcao-hidraulica",
+  "unitId": "piece",
+  "name": {
+    "en": "Matte Black Utility Sink Faucet with a Pull-Out Spray Head on a Flexible Hose and a Tall Single Lever",
+    "pt-BR": "Torneira Preta Fosca para Tanque de Serviço com Ducha Extensível em Mangueira Flexível e Alavanca Única Alta"
+  },
+  "description": {
+    "en": "A tall matte black faucet for a laundry tub or garage sink. The spray head pulls out on a flexible hose to rinse brushes, boots and corners of a deep tub. One lever sets flow and temperature.",
+    "pt-BR": "Torneira alta preta fosca para tanque de lavanderia ou pia de garagem. A ducha puxa em mangueira flexível para enxaguar pincéis, botas e cantos de um tanque fundo. Uma alavanca controla vazão e temperatura."
+  },
+  "price": {
+    "BRL": 519,
+    "USD": 125
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "faucet",
+      "laundry tub",
+      "utility sink",
+      "pull-out spray",
+      "matte black"
+    ],
+    "pt-BR": [
+      "torneira",
+      "tanque",
+      "pia de serviço",
+      "ducha extensível",
+      "preta fosca"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "sink-type",
+      "valueId": "laundry"
+    },
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "piece-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#1F1F1F"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Includes",
+        "pt-BR": "Inclui"
+      },
+      "values": [
+        {
+          "id": "piece-only",
+          "name": {
+            "en": "Piece only",
+            "pt-BR": "Só a peça"
+          }
+        },
+        {
+          "id": "kit",
+          "name": {
+            "en": "Installation kit",
+            "pt-BR": "Kit de instalação"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "piece-only",
+      "sku": "CON-MATTE-BLACK-PULL-OUT-UTILITY-FAUCET-PIECE-ONLY",
+      "options": {
+        "color": "matte-black",
+        "install": "piece-only"
+      },
+      "price": {
+        "BRL": 519,
+        "USD": 125
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black utility sink faucet with a pull-out spray head",
+            "pt-BR": "Torneira preta fosca para tanque com ducha extensível"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kit",
+      "sku": "CON-MATTE-BLACK-PULL-OUT-UTILITY-FAUCET-KIT",
+      "options": {
+        "color": "matte-black",
+        "install": "kit"
+      },
+      "price": {
+        "BRL": 623,
+        "USD": 150
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black utility sink faucet with a pull-out spray head",
+            "pt-BR": "Torneira preta fosca para tanque com ducha extensível"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

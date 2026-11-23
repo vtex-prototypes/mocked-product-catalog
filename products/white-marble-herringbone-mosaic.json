@@ -1,0 +1,149 @@
+{
+  "id": "white-marble-herringbone-mosaic",
+  "categoryId": "construcao-revestimentos",
+  "unitId": "area",
+  "name": {
+    "en": "White Marble Herringbone Mosaic Wall Tile on a Mesh Sheet with Soft Gray Veining, for a Shower Wall or Bathroom Feature Wall",
+    "pt-BR": "Mosaico de Mármore Branco em Espinha de Peixe em Tela com Veios Cinza Suaves, para Parede de Box ou Parede de Destaque no Banheiro"
+  },
+  "description": {
+    "en": "Small white marble rectangles laid in a herringbone pattern on a mesh sheet, with soft gray veining that varies from piece to piece. Natural stone for shower walls and feature walls. Seal it after grouting. Pick polished or honed.",
+    "pt-BR": "Pequenos retângulos de mármore branco em espinha de peixe sobre tela, com veios cinza suaves que variam de peça para peça. Pedra natural para paredes de box e de destaque. Aplique selante após o rejunte. Escolha polido ou fosco."
+  },
+  "price": {
+    "BRL": 329,
+    "USD": 29
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "marble mosaic",
+      "herringbone",
+      "natural stone",
+      "shower wall",
+      "bathroom",
+      "marble look"
+    ],
+    "pt-BR": [
+      "mosaico de mármore",
+      "espinha de peixe",
+      "pedra natural",
+      "parede de box",
+      "banheiro",
+      "aspecto mármore"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "natural-stone"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "marble"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "honed",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white-marble",
+          "name": {
+            "en": "White marble",
+            "pt-BR": "Mármore branco"
+          },
+          "hex": "#E9E9E6"
+        }
+      ]
+    },
+    {
+      "id": "finish",
+      "name": {
+        "en": "Finish",
+        "pt-BR": "Acabamento"
+      },
+      "values": [
+        {
+          "id": "honed",
+          "name": {
+            "en": "Honed",
+            "pt-BR": "Fosco"
+          }
+        },
+        {
+          "id": "polished",
+          "name": {
+            "en": "Polished",
+            "pt-BR": "Polido"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "honed",
+      "sku": "CON-WHITE-MARBLE-HERRINGBONE-MOSAIC-HONED",
+      "options": {
+        "color": "white-marble",
+        "finish": "honed"
+      },
+      "price": {
+        "BRL": 329,
+        "USD": 29
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White marble herringbone mosaic sheet with soft gray veining",
+            "pt-BR": "Placa de mosaico de mármore branco em espinha de peixe com veios cinza suaves"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "polished",
+      "sku": "CON-WHITE-MARBLE-HERRINGBONE-MOSAIC-POLISHED",
+      "options": {
+        "color": "white-marble",
+        "finish": "polished"
+      },
+      "price": {
+        "BRL": 359,
+        "USD": 32
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White marble herringbone mosaic sheet with soft gray veining",
+            "pt-BR": "Placa de mosaico de mármore branco em espinha de peixe com veios cinza suaves"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

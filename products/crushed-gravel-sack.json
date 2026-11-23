@@ -1,0 +1,220 @@
+{
+  "id": "crushed-gravel-sack",
+  "categoryId": "construcao-basicos",
+  "unitId": "bag",
+  "name": {
+    "en": "Washed Crushed Gravel for Concrete Mixes, Drainage Trenches and Garden Paths, a 44 Pound Woven Sack of Angular Stone",
+    "pt-BR": "Brita Lavada para Concreto, Drenos e Caminhos de Jardim, Saco de Ráfia de 20 kg de Pedra Britada Angular"
+  },
+  "description": {
+    "en": "Clean crushed stone with sharp edges that lock together. Mix it with cement and sand for concrete, lay it under a slab or pipe for drainage, or spread it for a path. The stone size is chosen on the page.",
+    "pt-BR": "Pedra britada limpa de arestas vivas que se travam entre si. Misture com cimento e areia para fazer concreto, use sob laje ou tubo para drenar, ou espalhe em um caminho. O tamanho da pedra é escolhido na página."
+  },
+  "price": {
+    "BRL": 18.9,
+    "USD": 6.5
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "gravel",
+      "crushed stone",
+      "concrete aggregate",
+      "drainage",
+      "garden path"
+    ],
+    "pt-BR": [
+      "brita",
+      "pedra britada",
+      "agregado",
+      "drenagem",
+      "caminho de jardim"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "gravel"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "3-8-in-one",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray-mix",
+          "name": {
+            "en": "Gray mix",
+            "pt-BR": "Cinza misto"
+          },
+          "hex": "#8E8C86"
+        }
+      ]
+    },
+    {
+      "id": "stone",
+      "name": {
+        "en": "Stone size",
+        "pt-BR": "Tamanho da pedra"
+      },
+      "values": [
+        {
+          "id": "3-8-in",
+          "name": {
+            "en": "3/8 in",
+            "pt-BR": "10 mm"
+          }
+        },
+        {
+          "id": "3-4-in",
+          "name": {
+            "en": "3/4 in",
+            "pt-BR": "20 mm"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Pacote"
+      },
+      "values": [
+        {
+          "id": "one",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "many",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "3-8-in-one",
+      "sku": "CON-CRUSHED-GRAVEL-SACK-3-8-IN-ONE",
+      "options": {
+        "color": "gray-mix",
+        "stone": "3-8-in",
+        "pack": "one"
+      },
+      "price": {
+        "BRL": 18.9,
+        "USD": 6.5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White woven sack overflowing with crushed gray gravel",
+            "pt-BR": "Saco de ráfia branco cheio de brita cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-8-in-many",
+      "sku": "CON-CRUSHED-GRAVEL-SACK-3-8-IN-MANY",
+      "options": {
+        "color": "gray-mix",
+        "stone": "3-8-in",
+        "pack": "many"
+      },
+      "price": {
+        "BRL": 87,
+        "USD": 29.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White woven sack overflowing with crushed gray gravel",
+            "pt-BR": "Saco de ráfia branco cheio de brita cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-4-in-one",
+      "sku": "CON-CRUSHED-GRAVEL-SACK-3-4-IN-ONE",
+      "options": {
+        "color": "gray-mix",
+        "stone": "3-4-in",
+        "pack": "one"
+      },
+      "price": {
+        "BRL": 16.9,
+        "USD": 5.5
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White woven sack overflowing with crushed gray gravel",
+            "pt-BR": "Saco de ráfia branco cheio de brita cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-4-in-many",
+      "sku": "CON-CRUSHED-GRAVEL-SACK-3-4-IN-MANY",
+      "options": {
+        "color": "gray-mix",
+        "stone": "3-4-in",
+        "pack": "many"
+      },
+      "price": {
+        "BRL": 78,
+        "USD": 25.3
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White woven sack overflowing with crushed gray gravel",
+            "pt-BR": "Saco de ráfia branco cheio de brita cinza"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

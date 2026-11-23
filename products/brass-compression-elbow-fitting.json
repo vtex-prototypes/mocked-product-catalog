@@ -1,0 +1,139 @@
+{
+  "id": "brass-compression-elbow-fitting",
+  "categoryId": "construcao-hidraulica",
+  "unitId": "piece",
+  "name": {
+    "en": "Brass 90-Degree Compression Elbow Fitting for Copper and Plastic Water Pipe, Two Compression Nuts, Hot and Cold Lines",
+    "pt-BR": "Cotovelo de Latão 90 Graus com Conexão por Compressão para Tubo de Cobre e Plástico, Duas Porcas, para Água Quente e Fria"
+  },
+  "description": {
+    "en": "A brass elbow that turns a copper or plastic water pipe through a right angle without soldering. Tighten the two compression nuts with a wrench. Takes hot and cold water lines.",
+    "pt-BR": "Cotovelo de latão que muda a direção do tubo de cobre ou plástico em 90 graus sem solda. Basta apertar as duas porcas de compressão com uma chave. Serve para linhas de água quente e fria."
+  },
+  "price": {
+    "BRL": 34.9,
+    "USD": 9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "brass fitting",
+      "elbow",
+      "compression",
+      "copper pipe",
+      "hot water"
+    ],
+    "pt-BR": [
+      "conexão de latão",
+      "cotovelo",
+      "compressão",
+      "tubo de cobre",
+      "água quente"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "brass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "1-2-in",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "brass",
+          "name": {
+            "en": "Brass",
+            "pt-BR": "Latão"
+          },
+          "hex": "#C99A3B"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Pipe size",
+        "pt-BR": "Bitola do tubo"
+      },
+      "values": [
+        {
+          "id": "1-2-in",
+          "name": {
+            "en": "1/2 in",
+            "pt-BR": "15 mm"
+          }
+        },
+        {
+          "id": "3-4-in",
+          "name": {
+            "en": "3/4 in",
+            "pt-BR": "22 mm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "1-2-in",
+      "sku": "CON-BRASS-COMPRESSION-ELBOW-FITTING-1-2-IN",
+      "options": {
+        "color": "brass",
+        "size": "1-2-in"
+      },
+      "price": {
+        "BRL": 34.9,
+        "USD": 9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass 90-degree compression elbow fitting with two nuts",
+            "pt-BR": "Cotovelo de latão 90 graus com duas porcas de compressão"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-4-in",
+      "sku": "CON-BRASS-COMPRESSION-ELBOW-FITTING-3-4-IN",
+      "options": {
+        "color": "brass",
+        "size": "3-4-in"
+      },
+      "price": {
+        "BRL": 52.9,
+        "USD": 14
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Brass 90-degree compression elbow fitting with two nuts",
+            "pt-BR": "Cotovelo de latão 90 graus com duas porcas de compressão"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

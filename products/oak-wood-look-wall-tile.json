@@ -1,0 +1,149 @@
+{
+  "id": "oak-wood-look-wall-tile",
+  "categoryId": "construcao-revestimentos",
+  "unitId": "area",
+  "name": {
+    "en": "Matte Light Oak Wood-Look Porcelain Wall Tile Plank with a Wood Grain Print, for a Bathroom Feature Wall or Shower Wall",
+    "pt-BR": "Revestimento de Parede de Porcelanato Fosco Régua com Aspecto de Madeira Carvalho Claro e Veios, para Parede de Destaque ou Box de Banheiro"
+  },
+  "description": {
+    "en": "A long narrow porcelain plank printed with light oak grain in a matte finish. It brings the look of wood to a bathroom or kitchen wall without swelling in damp air, and it cleans with a damp cloth. Pick the plank size.",
+    "pt-BR": "Régua longa e estreita de porcelanato com veios de carvalho claro em acabamento fosco. Traz o visual da madeira para parede de banheiro ou cozinha sem inchar com a umidade, e limpa com pano úmido. Escolha o tamanho da régua."
+  },
+  "price": {
+    "BRL": 119,
+    "USD": 5.9
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "wood look tile",
+      "wall tile plank",
+      "oak",
+      "porcelain",
+      "bathroom",
+      "feature wall"
+    ],
+    "pt-BR": [
+      "aspecto madeira",
+      "régua de parede",
+      "carvalho",
+      "porcelanato",
+      "banheiro",
+      "parede de destaque"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "porcelain"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "look",
+      "valueId": "wood"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "6x24",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "light-oak",
+          "name": {
+            "en": "Light oak",
+            "pt-BR": "Carvalho claro"
+          },
+          "hex": "#C9A877"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "6x24",
+          "name": {
+            "en": "6×24 in",
+            "pt-BR": "15×60 cm"
+          }
+        },
+        {
+          "id": "8x48",
+          "name": {
+            "en": "8×48 in",
+            "pt-BR": "20×120 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "6x24",
+      "sku": "CON-OAK-WOOD-LOOK-WALL-TILE-6X24",
+      "options": {
+        "color": "light-oak",
+        "size": "6x24"
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 5.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Staggered light oak wood-look porcelain wall tile planks",
+            "pt-BR": "Réguas de porcelanato com aspecto de madeira carvalho claro"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8x48",
+      "sku": "CON-OAK-WOOD-LOOK-WALL-TILE-8X48",
+      "options": {
+        "color": "light-oak",
+        "size": "8x48"
+      },
+      "price": {
+        "BRL": 159,
+        "USD": 7.9
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Staggered light oak wood-look porcelain wall tile planks",
+            "pt-BR": "Réguas de porcelanato com aspecto de madeira carvalho claro"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

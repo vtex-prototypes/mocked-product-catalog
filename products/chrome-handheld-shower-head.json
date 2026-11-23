@@ -1,0 +1,143 @@
+{
+  "id": "chrome-handheld-shower-head",
+  "categoryId": "construcao-banheiro",
+  "unitId": "set",
+  "name": {
+    "en": "Chrome Handheld Shower Head with a Round Face, Slim Handle, Stainless Steel Hose and a Wall Bracket Holder",
+    "pt-BR": "Ducha Higiênica de Mão Cromada com Face Redonda, Cabo Fino, Mangueira Flexível de Inox e Suporte de Parede"
+  },
+  "description": {
+    "en": "A chrome handheld shower with a round spray face and a slim handle. Clip it in the wall bracket for a normal shower, or take it down to rinse the tub, the walls or a child. The stainless hose will not kink.",
+    "pt-BR": "Ducha de mão cromada com face de jato redonda e cabo fino. Prenda no suporte de parede para um banho normal ou retire para enxaguar a banheira, as paredes ou uma criança. A mangueira de inox não dobra."
+  },
+  "price": {
+    "BRL": 99.9,
+    "USD": 29
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "shower head",
+      "handheld shower",
+      "chrome",
+      "hose",
+      "wall bracket"
+    ],
+    "pt-BR": [
+      "chuveiro",
+      "ducha de mão",
+      "cromada",
+      "mangueira",
+      "suporte de parede"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "59-in",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "chrome",
+          "name": {
+            "en": "Chrome",
+            "pt-BR": "Cromado"
+          },
+          "hex": "#D5D7D8"
+        }
+      ]
+    },
+    {
+      "id": "hose",
+      "name": {
+        "en": "Hose length",
+        "pt-BR": "Comprimento da mangueira"
+      },
+      "values": [
+        {
+          "id": "59-in",
+          "name": {
+            "en": "59 in",
+            "pt-BR": "1,5 m"
+          }
+        },
+        {
+          "id": "79-in",
+          "name": {
+            "en": "79 in",
+            "pt-BR": "2 m"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "59-in",
+      "sku": "CON-CHROME-HANDHELD-SHOWER-HEAD-59-IN",
+      "options": {
+        "color": "chrome",
+        "hose": "59-in"
+      },
+      "price": {
+        "BRL": 99.9,
+        "USD": 29
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome handheld shower head with a coiled hose and a wall bracket",
+            "pt-BR": "Ducha de mão cromada com mangueira flexível e suporte de parede"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "79-in",
+      "sku": "CON-CHROME-HANDHELD-SHOWER-HEAD-79-IN",
+      "options": {
+        "color": "chrome",
+        "hose": "79-in"
+      },
+      "price": {
+        "BRL": 129,
+        "USD": 36
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Chrome handheld shower head with a coiled hose and a wall bracket",
+            "pt-BR": "Ducha de mão cromada com mangueira flexível e suporte de parede"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

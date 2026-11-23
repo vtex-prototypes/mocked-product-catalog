@@ -1,0 +1,143 @@
+{
+  "id": "white-pvc-sewer-wye-fitting",
+  "categoryId": "construcao-hidraulica",
+  "unitId": "piece",
+  "name": {
+    "en": "White PVC Sewer Wye Fitting with Three Bell Openings, a Y-Shaped Branch for 4 Inch Drain and Sewer Pipe",
+    "pt-BR": "Junção Y de PVC Branco com Três Bolsas para Tubo de Esgoto, Ramal em Y que Une Dois Tubos a um Coletor"
+  },
+  "description": {
+    "en": "A white PVC wye that joins a branch drain to a main sewer line at a gentle angle, so waste keeps flowing. Three bell ends take solvent-cemented pipe. Used inside walls, under slabs and in buried sewer runs.",
+    "pt-BR": "Junção Y em PVC branco que liga um ramal de esgoto à linha principal em ângulo suave, para o fluxo não parar. As três bolsas recebem tubo colado com adesivo. Usada em paredes, sob lajes e em esgoto enterrado."
+  },
+  "price": {
+    "BRL": 29.9,
+    "USD": 10
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "pvc fitting",
+      "sewer wye",
+      "drain fitting",
+      "y branch",
+      "sewer pipe"
+    ],
+    "pt-BR": [
+      "conexão pvc",
+      "junção y",
+      "esgoto",
+      "ramal",
+      "tubo de esgoto"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "pvc"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    }
+  ],
+  "defaultVariantId": "3-in",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F2EF"
+        }
+      ]
+    },
+    {
+      "id": "diameter",
+      "name": {
+        "en": "Diameter",
+        "pt-BR": "Diâmetro"
+      },
+      "values": [
+        {
+          "id": "3-in",
+          "name": {
+            "en": "3 in",
+            "pt-BR": "75 mm"
+          }
+        },
+        {
+          "id": "4-in",
+          "name": {
+            "en": "4 in",
+            "pt-BR": "100 mm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "3-in",
+      "sku": "CON-WHITE-PVC-SEWER-WYE-FITTING-3-IN",
+      "options": {
+        "color": "white",
+        "diameter": "3-in"
+      },
+      "price": {
+        "BRL": 29.9,
+        "USD": 10
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White PVC sewer wye fitting with three bell openings",
+            "pt-BR": "Junção Y de PVC branco com três bolsas para esgoto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4-in",
+      "sku": "CON-WHITE-PVC-SEWER-WYE-FITTING-4-IN",
+      "options": {
+        "color": "white",
+        "diameter": "4-in"
+      },
+      "price": {
+        "BRL": 44.9,
+        "USD": 15
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White PVC sewer wye fitting with three bell openings",
+            "pt-BR": "Junção Y de PVC branco com três bolsas para esgoto"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

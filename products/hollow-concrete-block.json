@@ -1,0 +1,179 @@
+{
+  "id": "hollow-concrete-block",
+  "categoryId": "construcao-basicos",
+  "unitId": "piece",
+  "name": {
+    "en": "Gray Hollow Concrete Masonry Block, 16 Inches Long and 8 Inches High, Two Cores for Rebar, for Load-Bearing Walls",
+    "pt-BR": "Bloco de Concreto Estrutural Cinza com Dois Furos para Armadura, 39 cm de Comprimento e 19 cm de Altura, para Paredes de Carga"
+  },
+  "description": {
+    "en": "A hollow concrete block with two cores for walls, foundations, retaining walls and garden walls. Steel rebar and grout can be run through the cores to make a wall that carries load. The width is chosen on the page.",
+    "pt-BR": "Bloco de concreto vazado com dois furos para paredes, fundações, muros de arrimo e de jardim. Dá para passar vergalhão e graute nos furos e fazer parede estrutural. A largura é escolhida na página."
+  },
+  "price": {
+    "BRL": 5.9,
+    "USD": 1.65
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "concrete block",
+      "masonry block",
+      "hollow",
+      "structural",
+      "foundation wall"
+    ],
+    "pt-BR": [
+      "bloco de concreto",
+      "bloco estrutural",
+      "vazado",
+      "estrutural",
+      "muro de fundação"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "4-in",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#9C9C99"
+        }
+      ]
+    },
+    {
+      "id": "width",
+      "name": {
+        "en": "Width",
+        "pt-BR": "Largura"
+      },
+      "values": [
+        {
+          "id": "4-in",
+          "name": {
+            "en": "4 in",
+            "pt-BR": "9 cm"
+          }
+        },
+        {
+          "id": "6-in",
+          "name": {
+            "en": "6 in",
+            "pt-BR": "14 cm"
+          }
+        },
+        {
+          "id": "8-in",
+          "name": {
+            "en": "8 in",
+            "pt-BR": "19 cm"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "4-in",
+      "sku": "CON-HOLLOW-CONCRETE-BLOCK-4-IN",
+      "options": {
+        "color": "gray",
+        "width": "4-in"
+      },
+      "price": {
+        "BRL": 5.9,
+        "USD": 1.65
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray hollow concrete block with two rectangular cores",
+            "pt-BR": "Bloco de concreto cinza com dois furos retangulares"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6-in",
+      "sku": "CON-HOLLOW-CONCRETE-BLOCK-6-IN",
+      "options": {
+        "color": "gray",
+        "width": "6-in"
+      },
+      "price": {
+        "BRL": 7.9,
+        "USD": 2.15
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray hollow concrete block with two rectangular cores",
+            "pt-BR": "Bloco de concreto cinza com dois furos retangulares"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8-in",
+      "sku": "CON-HOLLOW-CONCRETE-BLOCK-8-IN",
+      "options": {
+        "color": "gray",
+        "width": "8-in"
+      },
+      "price": {
+        "BRL": 9.9,
+        "USD": 2.75
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Gray hollow concrete block with two rectangular cores",
+            "pt-BR": "Bloco de concreto cinza com dois furos retangulares"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "two-pole-plug-in-breaker",
+  "categoryId": "construcao-eletrica",
+  "unitId": "piece",
+  "name": {
+    "en": "Black Two-Pole Plug-In Circuit Breaker with Linked Toggle Handles, for 240 Volt Dryers, Ovens and Water Heaters in a Panel",
+    "pt-BR": "Disjuntor Bipolar Preto de Encaixe com Alavancas Ligadas, para Secadoras, Fornos e Aquecedores de 220 Volts em Quadro"
+  },
+  "description": {
+    "en": "A double-width plug-in breaker with two linked handles that trip together. It protects a 240 volt circuit such as a dryer, an oven or a water heater. Snaps onto the bus of a compatible panel. Pick the amp rating the appliance needs.",
+    "pt-BR": "Disjuntor de encaixe de largura dupla com duas alavancas ligadas que desarmam juntas. Protege circuito de 220 volts como secadora, forno ou aquecedor. Encaixa no barramento de quadro compatível. Escolha a corrente do aparelho."
+  },
+  "price": {
+    "BRL": 69.9,
+    "USD": 18
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "circuit breaker",
+      "two-pole breaker",
+      "double breaker",
+      "breaker panel",
+      "240 volt"
+    ],
+    "pt-BR": [
+      "disjuntor",
+      "disjuntor bipolar",
+      "disjuntor duplo",
+      "quadro de disjuntores",
+      "220 volts"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polycarbonate"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "dark"
+    }
+  ],
+  "defaultVariantId": "20-a",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "black",
+          "name": {
+            "en": "Black",
+            "pt-BR": "Preto"
+          },
+          "hex": "#1E1E1E"
+        }
+      ]
+    },
+    {
+      "id": "rating",
+      "name": {
+        "en": "Rating",
+        "pt-BR": "Corrente"
+      },
+      "values": [
+        {
+          "id": "20-a",
+          "name": {
+            "en": "20 A",
+            "pt-BR": "20 A"
+          }
+        },
+        {
+          "id": "30-a",
+          "name": {
+            "en": "30 A",
+            "pt-BR": "30 A"
+          }
+        },
+        {
+          "id": "40-a",
+          "name": {
+            "en": "40 A",
+            "pt-BR": "40 A"
+          }
+        },
+        {
+          "id": "50-a",
+          "name": {
+            "en": "50 A",
+            "pt-BR": "50 A"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "20-a",
+      "sku": "CON-TWO-POLE-PLUG-IN-BREAKER-20-A",
+      "options": {
+        "color": "black",
+        "rating": "20-a"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 18
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black two-pole plug-in breaker with linked handles and a pigtail",
+            "pt-BR": "Disjuntor bipolar preto de encaixe com alavancas ligadas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "30-a",
+      "sku": "CON-TWO-POLE-PLUG-IN-BREAKER-30-A",
+      "options": {
+        "color": "black",
+        "rating": "30-a"
+      },
+      "price": {
+        "BRL": 74.9,
+        "USD": 19
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black two-pole plug-in breaker with linked handles and a pigtail",
+            "pt-BR": "Disjuntor bipolar preto de encaixe com alavancas ligadas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "40-a",
+      "sku": "CON-TWO-POLE-PLUG-IN-BREAKER-40-A",
+      "options": {
+        "color": "black",
+        "rating": "40-a"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 23
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black two-pole plug-in breaker with linked handles and a pigtail",
+            "pt-BR": "Disjuntor bipolar preto de encaixe com alavancas ligadas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "50-a",
+      "sku": "CON-TWO-POLE-PLUG-IN-BREAKER-50-A",
+      "options": {
+        "color": "black",
+        "rating": "50-a"
+      },
+      "price": {
+        "BRL": 99.9,
+        "USD": 26
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Black two-pole plug-in breaker with linked handles and a pigtail",
+            "pt-BR": "Disjuntor bipolar preto de encaixe com alavancas ligadas"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

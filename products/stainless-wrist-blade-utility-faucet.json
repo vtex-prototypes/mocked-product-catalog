@@ -1,0 +1,147 @@
+{
+  "id": "stainless-wrist-blade-utility-faucet",
+  "categoryId": "construcao-hidraulica",
+  "unitId": "piece",
+  "name": {
+    "en": "Stainless Steel Deck-Mounted Utility Sink Faucet with High Arc Spout and Two Long Wrist-Blade Handles",
+    "pt-BR": "Torneira Inox de Bancada para Tanque de Serviço com Bica Alta Arqueada e Dois Registros Longos Tipo Alavanca"
+  },
+  "description": {
+    "en": "A heavy-duty stainless faucet for a laundry tub, workshop or utility sink. The high arc spout clears tall buckets and the long blade handles can be turned with a wrist or wet hands.",
+    "pt-BR": "Torneira inox reforçada para tanque de lavanderia, oficina ou pia de serviço. A bica alta arqueada passa baldes altos e os registros longos giram com o punho ou com as mãos molhadas."
+  },
+  "price": {
+    "BRL": 329,
+    "USD": 79
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "faucet",
+      "laundry tub",
+      "utility sink",
+      "stainless steel",
+      "wrist blade"
+    ],
+    "pt-BR": [
+      "torneira",
+      "tanque",
+      "pia de serviço",
+      "aço inox",
+      "alavanca longa"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "sink-type",
+      "valueId": "laundry"
+    },
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "piece-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "brushed-steel",
+          "name": {
+            "en": "Brushed steel",
+            "pt-BR": "Aço escovado"
+          },
+          "hex": "#B8BABB"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Includes",
+        "pt-BR": "Inclui"
+      },
+      "values": [
+        {
+          "id": "piece-only",
+          "name": {
+            "en": "Piece only",
+            "pt-BR": "Só a peça"
+          }
+        },
+        {
+          "id": "kit",
+          "name": {
+            "en": "Installation kit",
+            "pt-BR": "Kit de instalação"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "piece-only",
+      "sku": "CON-STAINLESS-WRIST-BLADE-UTILITY-FAUCET-PIECE-ONLY",
+      "options": {
+        "color": "brushed-steel",
+        "install": "piece-only"
+      },
+      "price": {
+        "BRL": 329,
+        "USD": 79
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless deck-mounted utility faucet with a high arc spout and wrist-blade handles",
+            "pt-BR": "Torneira inox de bancada para tanque com bica alta e registros longos"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kit",
+      "sku": "CON-STAINLESS-WRIST-BLADE-UTILITY-FAUCET-KIT",
+      "options": {
+        "color": "brushed-steel",
+        "install": "kit"
+      },
+      "price": {
+        "BRL": 395,
+        "USD": 95
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless deck-mounted utility faucet with a high arc spout and wrist-blade handles",
+            "pt-BR": "Torneira inox de bancada para tanque com bica alta e registros longos"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

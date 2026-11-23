@@ -1,0 +1,141 @@
+{
+  "id": "tile-adhesive-cartridge",
+  "categoryId": "construcao-argamassas",
+  "unitId": "tube",
+  "name": {
+    "en": "Tile Adhesive in a Caulking Gun Cartridge for Loose Tile, Trim Pieces and Small Repairs, Ceramic and Porcelain, 10 Ounce",
+    "pt-BR": "Adesivo para Revestimento em Cartucho para Pistola, para Peças Soltas, Cantoneiras e Pequenos Reparos, Cerâmica e Porcelanato, 300 g"
+  },
+  "description": {
+    "en": "A tile adhesive in a cartridge that fits a standard caulking gun. Squeeze a bead behind a loose tile, a trim piece or a soap dish and press it back. For small repairs, not for laying a whole floor.",
+    "pt-BR": "Adesivo para revestimento em cartucho que serve em pistola de calafetar comum. Aplique um cordão atrás de peça solta, cantoneira ou saboneteira e pressione. Para pequenos reparos, não para assentar um piso inteiro."
+  },
+  "price": {
+    "BRL": 39.9,
+    "USD": 11
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "tile adhesive",
+      "cartridge",
+      "tile repair",
+      "loose tile",
+      "porcelain",
+      "ceramic"
+    ],
+    "pt-BR": [
+      "adesivo para revestimento",
+      "cartucho",
+      "reparo",
+      "peça solta",
+      "porcelanato",
+      "cerâmica"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "acrylic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#EFEFEA"
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "name": {
+        "en": "Quantity",
+        "pt-BR": "Quantidade"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 tube",
+            "pt-BR": "1 tubo"
+          }
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "6 tubes",
+            "pt-BR": "6 tubos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-TILE-ADHESIVE-CARTRIDGE-SINGLE",
+      "options": {
+        "color": "white",
+        "quantity": "single"
+      },
+      "price": {
+        "BRL": 39.9,
+        "USD": 11
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White caulking cartridge of tile adhesive with a brown band and a cut nozzle",
+            "pt-BR": "Cartucho branco de adesivo para revestimento com faixa marrom e bico cortado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "sku": "CON-TILE-ADHESIVE-CARTRIDGE-PACK",
+      "options": {
+        "color": "white",
+        "quantity": "pack"
+      },
+      "price": {
+        "BRL": 219,
+        "USD": 62
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White caulking cartridge of tile adhesive with a brown band and a cut nozzle",
+            "pt-BR": "Cartucho branco de adesivo para revestimento com faixa marrom e bico cortado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

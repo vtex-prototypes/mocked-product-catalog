@@ -1,0 +1,147 @@
+{
+  "id": "rapid-set-tile-mortar-pail",
+  "categoryId": "construcao-argamassas",
+  "unitId": "pail",
+  "name": {
+    "en": "Rapid-Set Gray Thinset Mortar for Porcelain and Ceramic Floors, Walkable in Three Hours, 22 Pound Pail with Lid",
+    "pt-BR": "Argamassa Colante Cinza de Pega Rápida para Porcelanato e Cerâmica, Pode Pisar em Três Horas, Balde de 10 kg com Tampa"
+  },
+  "description": {
+    "en": "A fast-setting gray thinset in a resealable pail for porcelain and ceramic floors, thresholds and repairs. Tile can be walked on after about three hours, so a bathroom or an entry can be back in use the same day.",
+    "pt-BR": "Argamassa colante cinza de pega rápida em balde com tampa para porcelanato e cerâmica em pisos, soleiras e reparos. Pode-se pisar após cerca de três horas, e banheiro ou entrada voltam a uso no mesmo dia."
+  },
+  "price": {
+    "BRL": 129,
+    "USD": 49
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "thinset mortar",
+      "porcelain",
+      "rapid set",
+      "repairs",
+      "indoor floors"
+    ],
+    "pt-BR": [
+      "argamassa colante",
+      "porcelanato",
+      "pega rápida",
+      "reparos",
+      "pisos internos"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "gray",
+          "name": {
+            "en": "Gray",
+            "pt-BR": "Cinza"
+          },
+          "hex": "#9A9B98"
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "name": {
+        "en": "Quantity",
+        "pt-BR": "Quantidade"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 pail",
+            "pt-BR": "1 balde"
+          }
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "2 pails",
+            "pt-BR": "2 baldes"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-RAPID-SET-TILE-MORTAR-PAIL-SINGLE",
+      "options": {
+        "color": "gray",
+        "quantity": "single"
+      },
+      "price": {
+        "BRL": 129,
+        "USD": 49
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red plastic pail with a lid and a metal handle holding rapid-set tile mortar",
+            "pt-BR": "Balde plástico vermelho com tampa e alça de metal com argamassa de pega rápida"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "sku": "CON-RAPID-SET-TILE-MORTAR-PAIL-PACK",
+      "options": {
+        "color": "gray",
+        "quantity": "pack"
+      },
+      "price": {
+        "BRL": 245,
+        "USD": 93
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red plastic pail with a lid and a metal handle holding rapid-set tile mortar",
+            "pt-BR": "Balde plástico vermelho com tampa e alça de metal com argamassa de pega rápida"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

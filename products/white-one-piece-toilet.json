@@ -1,0 +1,222 @@
+{
+  "id": "white-one-piece-toilet",
+  "categoryId": "construcao-banheiro",
+  "unitId": "set",
+  "name": {
+    "en": "White Ceramic One-Piece Toilet with a Sleek Seamless Tank, Elongated Bowl, Soft-Close Seat and Top Push-Button Flush",
+    "pt-BR": "Vaso Sanitário Monobloco de Cerâmica Branco com Caixa Acoplada Sem Emendas, Assento Oval com Fechamento Suave e Acionamento no Topo"
+  },
+  "description": {
+    "en": "A one-piece white ceramic toilet with the tank and bowl molded as one, so there is no seam to collect dirt. Elongated bowl, soft-close seat and a push-button flush on the tank lid. Choose single or dual flush.",
+    "pt-BR": "Vaso sanitário monobloco de cerâmica branca com caixa e bacia moldadas em uma só peça, sem emenda para acumular sujeira. Bacia oval, assento com fechamento suave e acionamento por botão na tampa. Escolha entre acionamento simples ou duplo."
+  },
+  "price": {
+    "BRL": 899,
+    "USD": 249
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "toilet",
+      "one-piece toilet",
+      "elongated",
+      "soft-close seat",
+      "dual flush",
+      "white"
+    ],
+    "pt-BR": [
+      "vaso sanitário",
+      "monobloco",
+      "oval",
+      "assento soft close",
+      "duplo acionamento",
+      "branco"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "ceramic"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "piece-only-single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F4F4F2"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Includes",
+        "pt-BR": "Inclui"
+      },
+      "values": [
+        {
+          "id": "piece-only",
+          "name": {
+            "en": "Piece only",
+            "pt-BR": "Só a peça"
+          }
+        },
+        {
+          "id": "kit",
+          "name": {
+            "en": "Installation kit",
+            "pt-BR": "Kit de instalação"
+          }
+        }
+      ]
+    },
+    {
+      "id": "flush",
+      "name": {
+        "en": "Flush",
+        "pt-BR": "Descarga"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "Single",
+            "pt-BR": "Simples"
+          }
+        },
+        {
+          "id": "dual",
+          "name": {
+            "en": "Dual",
+            "pt-BR": "Duplo"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "piece-only-single",
+      "sku": "CON-WHITE-ONE-PIECE-TOILET-PIECE-ONLY-SINGLE",
+      "options": {
+        "color": "white",
+        "install": "piece-only",
+        "flush": "single"
+      },
+      "price": {
+        "BRL": 899,
+        "USD": 249
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White ceramic one-piece toilet with an elongated bowl and a closed seat",
+            "pt-BR": "Vaso sanitário monobloco de cerâmica branco com bacia oval e assento fechado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "piece-only-dual",
+      "sku": "CON-WHITE-ONE-PIECE-TOILET-PIECE-ONLY-DUAL",
+      "options": {
+        "color": "white",
+        "install": "piece-only",
+        "flush": "dual"
+      },
+      "price": {
+        "BRL": 1049,
+        "USD": 289
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White ceramic one-piece toilet with an elongated bowl and a closed seat",
+            "pt-BR": "Vaso sanitário monobloco de cerâmica branco com bacia oval e assento fechado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kit-single",
+      "sku": "CON-WHITE-ONE-PIECE-TOILET-KIT-SINGLE",
+      "options": {
+        "color": "white",
+        "install": "kit",
+        "flush": "single"
+      },
+      "price": {
+        "BRL": 978,
+        "USD": 271
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White ceramic one-piece toilet with an elongated bowl and a closed seat",
+            "pt-BR": "Vaso sanitário monobloco de cerâmica branco com bacia oval e assento fechado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kit-dual",
+      "sku": "CON-WHITE-ONE-PIECE-TOILET-KIT-DUAL",
+      "options": {
+        "color": "white",
+        "install": "kit",
+        "flush": "dual"
+      },
+      "price": {
+        "BRL": 1128,
+        "USD": 311
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White ceramic one-piece toilet with an elongated bowl and a closed seat",
+            "pt-BR": "Vaso sanitário monobloco de cerâmica branco com bacia oval e assento fechado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

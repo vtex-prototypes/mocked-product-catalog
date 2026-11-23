@@ -29,6 +29,10 @@
   },
   "specifications": [
     {
+      "id": "sink-type",
+      "valueId": "basin"
+    },
+    {
       "id": "material",
       "valueId": "stainless-steel"
     },

@@ -1,0 +1,143 @@
+{
+  "id": "white-rotary-dimmer-switch",
+  "categoryId": "construcao-eletrica",
+  "unitId": "piece",
+  "name": {
+    "en": "White Rotary Dimmer Switch with a Round Knob and a Small Paddle, Sets the Brightness of LED and Incandescent Lights, Indoor Wall",
+    "pt-BR": "Interruptor Dimmer Branco com Botão Giratório e Tecla, Regula o Brilho de Lâmpadas LED e Incandescentes, Parede Interna"
+  },
+  "description": {
+    "en": "A white dimmer switch for an indoor wall. Turn the round knob to set the light level and press the small paddle to switch the light on or off at that level. Pick the rated load that fits the lamps on the circuit.",
+    "pt-BR": "Interruptor dimmer branco para parede interna. Gire o botão para ajustar a luz e use a tecla pequena para ligar ou desligar mantendo o nível. Escolha a potência que combina com as lâmpadas do circuito."
+  },
+  "price": {
+    "BRL": 79.9,
+    "USD": 24
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "dimmer switch",
+      "light switch",
+      "switch",
+      "led dimmer",
+      "rotary dimmer"
+    ],
+    "pt-BR": [
+      "dimmer",
+      "interruptor",
+      "interruptor dimmer",
+      "dimmer led",
+      "dimmer rotativo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polycarbonate"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "300-w",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F2EF"
+        }
+      ]
+    },
+    {
+      "id": "load",
+      "name": {
+        "en": "Rated load",
+        "pt-BR": "Potência"
+      },
+      "values": [
+        {
+          "id": "300-w",
+          "name": {
+            "en": "300 W",
+            "pt-BR": "300 W"
+          }
+        },
+        {
+          "id": "600-w",
+          "name": {
+            "en": "600 W",
+            "pt-BR": "600 W"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "300-w",
+      "sku": "CON-WHITE-ROTARY-DIMMER-SWITCH-300-W",
+      "options": {
+        "color": "white",
+        "load": "300-w"
+      },
+      "price": {
+        "BRL": 79.9,
+        "USD": 24
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White rotary dimmer switch with a round knob and a small paddle",
+            "pt-BR": "Interruptor dimmer branco com botão giratório e tecla"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "600-w",
+      "sku": "CON-WHITE-ROTARY-DIMMER-SWITCH-600-W",
+      "options": {
+        "color": "white",
+        "load": "600-w"
+      },
+      "price": {
+        "BRL": 109,
+        "USD": 32
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White rotary dimmer switch with a round knob and a small paddle",
+            "pt-BR": "Interruptor dimmer branco com botão giratório e tecla"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

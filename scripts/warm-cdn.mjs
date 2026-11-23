@@ -20,9 +20,9 @@ const files = new Set(["catalog.json", "loader.js"]);
 for (const p of catalog.products) for (const v of p.variants) for (const img of v.images) for (const src of Object.values(img.src)) files.add(src);
 
 const base = `https://cdn.jsdelivr.net/gh/${repo}@${version}/`;
-const ROUNDS = 40;
-const WAIT_MS = 15_000;
-const CONCURRENCY = 16;
+const ROUNDS = 120;
+const WAIT_MS = 5_000;
+const CONCURRENCY = 32;
 
 let pending = [...files];
 for (let round = 1; round <= ROUNDS && pending.length; round++) {

@@ -1,0 +1,220 @@
+{
+  "id": "flexible-metal-conduit-coil",
+  "categoryId": "construcao-eletrica",
+  "unitId": "roll",
+  "name": {
+    "en": "Galvanized Flexible Steel Conduit Coil for Wiring Around Corners, Machines and Tight Spots, Bends by Hand, Indoor Use",
+    "pt-BR": "Rolo de Conduíte Metálico Flexível Galvanizado para Fiação em Curvas, Máquinas e Lugares Apertados, Dobra à Mão, Uso Interno"
+  },
+  "description": {
+    "en": "A coil of spiral-wound galvanized steel conduit that bends by hand around corners and obstacles. It shields the wire from knocks and cuts, and works for motors, workshops and exposed indoor runs. Cut to length with a hacksaw.",
+    "pt-BR": "Rolo de conduíte de aço galvanizado em espiral que dobra à mão em cantos e obstáculos. Protege o fio de batidas e cortes, e serve para motores, oficinas e trechos internos aparentes. Corte no tamanho com serra."
+  },
+  "price": {
+    "BRL": 89,
+    "USD": 28
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "flexible conduit",
+      "metal conduit",
+      "steel conduit",
+      "wire protection",
+      "workshop wiring"
+    ],
+    "pt-BR": [
+      "conduíte flexível",
+      "conduíte metálico",
+      "conduíte de aço",
+      "proteção de fio",
+      "fiação de oficina"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "steel"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "1-2-in-25-ft",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "galvanized",
+          "name": {
+            "en": "Galvanized",
+            "pt-BR": "Galvanizado"
+          },
+          "hex": "#B4B7B9"
+        }
+      ]
+    },
+    {
+      "id": "diameter",
+      "name": {
+        "en": "Diameter",
+        "pt-BR": "Diâmetro"
+      },
+      "values": [
+        {
+          "id": "1-2-in",
+          "name": {
+            "en": "1/2 in",
+            "pt-BR": "20 mm"
+          }
+        },
+        {
+          "id": "3-4-in",
+          "name": {
+            "en": "3/4 in",
+            "pt-BR": "25 mm"
+          }
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "name": {
+        "en": "Length",
+        "pt-BR": "Comprimento"
+      },
+      "values": [
+        {
+          "id": "25-ft",
+          "name": {
+            "en": "25 ft",
+            "pt-BR": "7,5 m"
+          }
+        },
+        {
+          "id": "50-ft",
+          "name": {
+            "en": "50 ft",
+            "pt-BR": "15 m"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "1-2-in-25-ft",
+      "sku": "CON-FLEXIBLE-METAL-CONDUIT-COIL-1-2-IN-25-FT",
+      "options": {
+        "color": "galvanized",
+        "diameter": "1-2-in",
+        "length": "25-ft"
+      },
+      "price": {
+        "BRL": 89,
+        "USD": 28
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Coil of flexible galvanized steel conduit",
+            "pt-BR": "Rolo de conduíte metálico flexível galvanizado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1-2-in-50-ft",
+      "sku": "CON-FLEXIBLE-METAL-CONDUIT-COIL-1-2-IN-50-FT",
+      "options": {
+        "color": "galvanized",
+        "diameter": "1-2-in",
+        "length": "50-ft"
+      },
+      "price": {
+        "BRL": 160,
+        "USD": 50
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Coil of flexible galvanized steel conduit",
+            "pt-BR": "Rolo de conduíte metálico flexível galvanizado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-4-in-25-ft",
+      "sku": "CON-FLEXIBLE-METAL-CONDUIT-COIL-3-4-IN-25-FT",
+      "options": {
+        "color": "galvanized",
+        "diameter": "3-4-in",
+        "length": "25-ft"
+      },
+      "price": {
+        "BRL": 129,
+        "USD": 39
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Coil of flexible galvanized steel conduit",
+            "pt-BR": "Rolo de conduíte metálico flexível galvanizado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-4-in-50-ft",
+      "sku": "CON-FLEXIBLE-METAL-CONDUIT-COIL-3-4-IN-50-FT",
+      "options": {
+        "color": "galvanized",
+        "diameter": "3-4-in",
+        "length": "50-ft"
+      },
+      "price": {
+        "BRL": 232,
+        "USD": 70
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Coil of flexible galvanized steel conduit",
+            "pt-BR": "Rolo de conduíte metálico flexível galvanizado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

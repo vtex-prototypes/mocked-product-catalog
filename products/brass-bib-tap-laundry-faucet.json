@@ -1,0 +1,151 @@
+{
+  "id": "brass-bib-tap-laundry-faucet",
+  "categoryId": "construcao-hidraulica",
+  "unitId": "piece",
+  "name": {
+    "en": "Polished Brass Bib Tap with a T-Handle and Threaded Hose Nozzle for a Laundry Tub, Wall Thread Connection",
+    "pt-BR": "Torneira de Parede Latão Polido com Registro em T e Bico Rosqueado para Mangueira, para Tanque de Lavanderia"
+  },
+  "description": {
+    "en": "A solid brass bib tap for a laundry tub, a washing area or a garden wall. A T-shaped handle opens it, and the ribbed threaded nozzle takes a hose. Screws into a wall pipe thread.",
+    "pt-BR": "Torneira de parede em latão maciço para tanque de lavanderia, área de lavagem ou parede de jardim. O registro em T abre e o bico estriado e rosqueado aceita mangueira. Rosqueia no ponto de água da parede."
+  },
+  "price": {
+    "BRL": 89,
+    "USD": 21
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "faucet",
+      "laundry tub",
+      "bib tap",
+      "brass",
+      "hose nozzle"
+    ],
+    "pt-BR": [
+      "torneira",
+      "tanque",
+      "torneira de parede",
+      "latão",
+      "bico para mangueira"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "sink-type",
+      "valueId": "laundry"
+    },
+    {
+      "id": "material",
+      "valueId": "brass"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "application",
+      "valueId": "outdoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "medium"
+    }
+  ],
+  "defaultVariantId": "piece-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "polished-brass",
+          "name": {
+            "en": "Polished brass",
+            "pt-BR": "Latão polido"
+          },
+          "hex": "#C9A24A"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": {
+        "en": "Includes",
+        "pt-BR": "Inclui"
+      },
+      "values": [
+        {
+          "id": "piece-only",
+          "name": {
+            "en": "Piece only",
+            "pt-BR": "Só a peça"
+          }
+        },
+        {
+          "id": "kit",
+          "name": {
+            "en": "Installation kit",
+            "pt-BR": "Kit de instalação"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "piece-only",
+      "sku": "CON-BRASS-BIB-TAP-LAUNDRY-FAUCET-PIECE-ONLY",
+      "options": {
+        "color": "polished-brass",
+        "install": "piece-only"
+      },
+      "price": {
+        "BRL": 89,
+        "USD": 21
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Polished brass bib tap with a T-handle and threaded hose nozzle",
+            "pt-BR": "Torneira de parede latão polido com registro em T e bico rosqueado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kit",
+      "sku": "CON-BRASS-BIB-TAP-LAUNDRY-FAUCET-KIT",
+      "options": {
+        "color": "polished-brass",
+        "install": "kit"
+      },
+      "price": {
+        "BRL": 107,
+        "USD": 25
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Polished brass bib tap with a T-handle and threaded hose nozzle",
+            "pt-BR": "Torneira de parede latão polido com registro em T e bico rosqueado"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

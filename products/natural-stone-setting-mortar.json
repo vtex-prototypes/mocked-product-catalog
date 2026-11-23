@@ -1,0 +1,143 @@
+{
+  "id": "natural-stone-setting-mortar",
+  "categoryId": "construcao-argamassas",
+  "unitId": "bag",
+  "name": {
+    "en": "Off-White Non-Staining Setting Mortar for Natural Stone, Marble and Slate, Indoor Floors and Walls, 55 Pound Woven Sack",
+    "pt-BR": "Argamassa Off-White que Não Mancha para Pedras Naturais, Mármore e Ardósia, Pisos e Paredes Internas, Saco Ráfia de 25 kg"
+  },
+  "description": {
+    "en": "An off-white setting mortar for natural stone, marble and slate. It cures without the gray cement staining that darkens pale stone and keeps the tile flat under heavy pieces. Mix with water in a clean pail.",
+    "pt-BR": "Argamassa off-white para pedras naturais, mármore e ardósia. Cura sem as manchas de cimento cinza que escurecem a pedra clara e mantém a peça nivelada sob peças pesadas. Misture com água em balde limpo."
+  },
+  "price": {
+    "BRL": 119,
+    "USD": 44
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "setting mortar",
+      "natural stone",
+      "marble",
+      "slate",
+      "non-staining"
+    ],
+    "pt-BR": [
+      "argamassa",
+      "pedra natural",
+      "mármore",
+      "ardósia",
+      "não mancha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "cement"
+    },
+    {
+      "id": "application",
+      "valueId": "indoor"
+    },
+    {
+      "id": "tone",
+      "valueId": "light"
+    }
+  ],
+  "defaultVariantId": "single",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "off-white",
+          "name": {
+            "en": "Off-white",
+            "pt-BR": "Off-white"
+          },
+          "hex": "#E6E1D3"
+        }
+      ]
+    },
+    {
+      "id": "quantity",
+      "name": {
+        "en": "Quantity",
+        "pt-BR": "Quantidade"
+      },
+      "values": [
+        {
+          "id": "single",
+          "name": {
+            "en": "1 bag",
+            "pt-BR": "1 saco"
+          }
+        },
+        {
+          "id": "pack",
+          "name": {
+            "en": "5 bags",
+            "pt-BR": "5 sacos"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "single",
+      "sku": "CON-NATURAL-STONE-SETTING-MORTAR-SINGLE",
+      "options": {
+        "color": "off-white",
+        "quantity": "single"
+      },
+      "price": {
+        "BRL": 119,
+        "USD": 44
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tan woven sack of natural stone setting mortar with dark brown stripes and an open top",
+            "pt-BR": "Saco ráfia bege de argamassa para pedra natural com listras marrons e boca aberta"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "sku": "CON-NATURAL-STONE-SETTING-MORTAR-PACK",
+      "options": {
+        "color": "off-white",
+        "quantity": "pack"
+      },
+      "price": {
+        "BRL": 549,
+        "USD": 205
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tan woven sack of natural stone setting mortar with dark brown stripes and an open top",
+            "pt-BR": "Saco ráfia bege de argamassa para pedra natural com listras marrons e boca aberta"
+          },
+          "backgrounds": {
+            "#ffffff": "main-white.png",
+            "#f5f5f5": "main-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
