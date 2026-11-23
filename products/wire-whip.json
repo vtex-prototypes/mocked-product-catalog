@@ -1,0 +1,197 @@
+{
+  "id": "wire-whip",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar P45-WW Wire Whip, Stainless Steel, Replacement for Whipping Cream, Egg Whites and Meringue, Fits Lumelar Tilt-Head and Bowl-Lift Stand Mixers",
+    "pt-BR": "Batedor de Arame Lumelar P45-WW, Aço Inox, Peça de Reposição para Bater Creme, Claras e Merengue, Compatível com Batedeiras Planetárias Lumelar Basculantes e com Elevação"
+  },
+  "description": {
+    "en": "A wire whip for cream, egg whites and meringue. The 6-wire whip suits everyday whipping, and the 11-wire whip adds more air in less time.",
+    "pt-BR": "Batedor de arame para creme, claras e merengue. O de 6 arames serve para o dia a dia, e o de 11 arames incorpora mais ar em menos tempo."
+  },
+  "price": {
+    "BRL": 189.9,
+    "USD": 29.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "wire whip",
+      "whisk",
+      "stand mixer part",
+      "whipped cream"
+    ],
+    "pt-BR": [
+      "batedor de arame",
+      "fouet",
+      "peça de batedeira",
+      "chantilly"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "fits-tool",
+      "valueId": "tilt-head-stand-mixer"
+    },
+    {
+      "id": "fits-tool",
+      "valueId": "bowl-lift-stand-mixer"
+    }
+  ],
+  "defaultVariantId": "6-wires-tilt-head",
+  "options": [
+    {
+      "id": "wires",
+      "name": {
+        "en": "Wires",
+        "pt-BR": "Arames"
+      },
+      "values": [
+        {
+          "id": "6-wires",
+          "name": {
+            "en": "6",
+            "pt-BR": "6"
+          }
+        },
+        {
+          "id": "11-wires",
+          "name": {
+            "en": "11",
+            "pt-BR": "11"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fits",
+      "name": {
+        "en": "Fits",
+        "pt-BR": "Compatível com"
+      },
+      "values": [
+        {
+          "id": "tilt-head",
+          "name": {
+            "en": "Tilt-head mixers",
+            "pt-BR": "Batedeiras basculantes"
+          }
+        },
+        {
+          "id": "bowl-lift",
+          "name": {
+            "en": "Bowl-lift mixers",
+            "pt-BR": "Batedeiras de elevação"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "6-wires-tilt-head",
+      "sku": "LML-WWP-6-TH",
+      "options": {
+        "wires": "6-wires",
+        "fits": "tilt-head"
+      },
+      "price": {
+        "BRL": 189.9,
+        "USD": 29.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel stand mixer wire whip with 6 wires, three-quarter view",
+            "pt-BR": "Batedor de arame de aço inox com 6 arames para batedeira planetária, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "6-wires-white.png",
+            "#f5f5f5": "6-wires-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6-wires-bowl-lift",
+      "sku": "LML-WWP-6-BL",
+      "options": {
+        "wires": "6-wires",
+        "fits": "bowl-lift"
+      },
+      "price": {
+        "BRL": 219.9,
+        "USD": 34.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel stand mixer wire whip with 6 wires, three-quarter view",
+            "pt-BR": "Batedor de arame de aço inox com 6 arames para batedeira planetária, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "6-wires-white.png",
+            "#f5f5f5": "6-wires-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11-wires-tilt-head",
+      "sku": "LML-WWP-11-TH",
+      "options": {
+        "wires": "11-wires",
+        "fits": "tilt-head"
+      },
+      "price": {
+        "BRL": 219.9,
+        "USD": 34.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel stand mixer wire whip with 11 wires, three-quarter view",
+            "pt-BR": "Batedor de arame de aço inox com 11 arames para batedeira planetária, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "11-wires-white.png",
+            "#f5f5f5": "11-wires-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11-wires-bowl-lift",
+      "sku": "LML-WWP-11-BL",
+      "options": {
+        "wires": "11-wires",
+        "fits": "bowl-lift"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel stand mixer wire whip with 11 wires, three-quarter view",
+            "pt-BR": "Batedor de arame de aço inox com 11 arames para batedeira planetária, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "11-wires-white.png",
+            "#f5f5f5": "11-wires-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

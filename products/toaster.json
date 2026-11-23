@@ -1,0 +1,431 @@
+{
+  "id": "toaster",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar TS40-X Toaster with Wide Slots, Browning Dial with 6 Shade Settings, Bagel and Defrost Functions, Cancel Button, Removable Crumb Tray",
+    "pt-BR": "Torradeira Lumelar TS40-X com Fendas Largas, Botão de Tostagem com 6 Níveis, Funções Bagel e Descongelar, Botão Cancelar, Gaveta de Migalhas Removível"
+  },
+  "description": {
+    "en": "A toaster with extra-wide slots for thick bread and bagels. One dial sets the shade, and the crumb tray slides out to empty.",
+    "pt-BR": "Torradeira com fendas extralargas para pães grossos e bagels. Um botão ajusta o nível de tostagem e a gaveta de migalhas sai para esvaziar."
+  },
+  "price": {
+    "BRL": 399.9,
+    "USD": 99.99
+  },
+  "listPrice": {
+    "BRL": 499.9,
+    "USD": 119.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "toaster",
+      "bagel",
+      "breakfast",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "torradeira",
+      "bagel",
+      "café da manhã",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    }
+  ],
+  "defaultVariantId": "white-2-slices",
+  "options": [
+    {
+      "id": "slices",
+      "name": {
+        "en": "Slices",
+        "pt-BR": "Fatias"
+      },
+      "values": [
+        {
+          "id": "2-slices",
+          "name": {
+            "en": "2",
+            "pt-BR": "2"
+          }
+        },
+        {
+          "id": "4-slices",
+          "name": {
+            "en": "4",
+            "pt-BR": "4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F1EC"
+        },
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        },
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        },
+        {
+          "id": "pistachio",
+          "name": {
+            "en": "Pistachio",
+            "pt-BR": "Pistache"
+          },
+          "hex": "#C3CF9A"
+        },
+        {
+          "id": "sage-green",
+          "name": {
+            "en": "Sage green",
+            "pt-BR": "Verde sálvia"
+          },
+          "hex": "#9CAF94"
+        },
+        {
+          "id": "butter-yellow",
+          "name": {
+            "en": "Butter yellow",
+            "pt-BR": "Amarelo manteiga"
+          },
+          "hex": "#F1DD9B"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-2-slices",
+      "sku": "LML-TST-WH-2",
+      "options": {
+        "slices": "2-slices",
+        "color": "white"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 99.99
+      },
+      "listPrice": {
+        "BRL": 499.9,
+        "USD": 119.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White two-slice toaster with two wide slots, a side lever and a browning dial, three-quarter view",
+            "pt-BR": "Torradeira branco de duas fatias com duas fendas largas, alavanca lateral e botão de tostagem, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-2-slices",
+      "sku": "LML-TST-MB-2",
+      "options": {
+        "slices": "2-slices",
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black two-slice toaster with two wide slots, a side lever and a browning dial, three-quarter view",
+            "pt-BR": "Torradeira preto fosco de duas fatias com duas fendas largas, alavanca lateral e botão de tostagem, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-2-slices",
+      "sku": "LML-TST-CR-2",
+      "options": {
+        "slices": "2-slices",
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red two-slice toaster with two wide slots, a side lever and a browning dial, three-quarter view",
+            "pt-BR": "Torradeira vermelho cereja de duas fatias com duas fendas largas, alavanca lateral e botão de tostagem, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pistachio-2-slices",
+      "sku": "LML-TST-PI-2",
+      "options": {
+        "slices": "2-slices",
+        "color": "pistachio"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pistachio green two-slice toaster with two wide slots, a side lever and a browning dial, three-quarter view",
+            "pt-BR": "Torradeira verde pistache de duas fatias com duas fendas largas, alavanca lateral e botão de tostagem, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "pistachio-white.png",
+            "#f5f5f5": "pistachio-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-green-2-slices",
+      "sku": "LML-TST-SG-2",
+      "options": {
+        "slices": "2-slices",
+        "color": "sage-green"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage green two-slice toaster with two wide slots, a side lever and a browning dial, three-quarter view",
+            "pt-BR": "Torradeira verde sálvia de duas fatias com duas fendas largas, alavanca lateral e botão de tostagem, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "butter-yellow-2-slices",
+      "sku": "LML-TST-BY-2",
+      "options": {
+        "slices": "2-slices",
+        "color": "butter-yellow"
+      },
+      "price": {
+        "BRL": 399.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Butter yellow two-slice toaster with two wide slots, a side lever and a browning dial, three-quarter view",
+            "pt-BR": "Torradeira amarelo manteiga de duas fatias com duas fendas largas, alavanca lateral e botão de tostagem, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "butter-yellow-white.png",
+            "#f5f5f5": "butter-yellow-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-4-slices",
+      "sku": "LML-TST-WH-4",
+      "options": {
+        "slices": "4-slices",
+        "color": "white"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 149.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White four-slice toaster with two long slots, a side lever and a browning dial, three-quarter view",
+            "pt-BR": "Torradeira branco de quatro fatias com duas fendas longas, alavanca lateral e botão de tostagem, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-4-slice-white.png",
+            "#f5f5f5": "white-4-slice-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-4-slices",
+      "sku": "LML-TST-MB-4",
+      "options": {
+        "slices": "4-slices",
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 149.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black four-slice toaster with two long slots, a side lever and a browning dial, three-quarter view",
+            "pt-BR": "Torradeira preto fosco de quatro fatias com duas fendas longas, alavanca lateral e botão de tostagem, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-4-slice-white.png",
+            "#f5f5f5": "matte-black-4-slice-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-4-slices",
+      "sku": "LML-TST-CR-4",
+      "options": {
+        "slices": "4-slices",
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 149.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red four-slice toaster with two long slots, a side lever and a browning dial, three-quarter view",
+            "pt-BR": "Torradeira vermelho cereja de quatro fatias com duas fendas longas, alavanca lateral e botão de tostagem, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-4-slice-white.png",
+            "#f5f5f5": "cherry-red-4-slice-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pistachio-4-slices",
+      "sku": "LML-TST-PI-4",
+      "options": {
+        "slices": "4-slices",
+        "color": "pistachio"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 149.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pistachio green four-slice toaster with two long slots, a side lever and a browning dial, three-quarter view",
+            "pt-BR": "Torradeira verde pistache de quatro fatias com duas fendas longas, alavanca lateral e botão de tostagem, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "pistachio-4-slice-white.png",
+            "#f5f5f5": "pistachio-4-slice-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-green-4-slices",
+      "sku": "LML-TST-SG-4",
+      "options": {
+        "slices": "4-slices",
+        "color": "sage-green"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 149.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage green four-slice toaster with two long slots, a side lever and a browning dial, three-quarter view",
+            "pt-BR": "Torradeira verde sálvia de quatro fatias com duas fendas longas, alavanca lateral e botão de tostagem, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-4-slice-white.png",
+            "#f5f5f5": "sage-green-4-slice-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "butter-yellow-4-slices",
+      "sku": "LML-TST-BY-4",
+      "options": {
+        "slices": "4-slices",
+        "color": "butter-yellow"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 149.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Butter yellow four-slice toaster with two long slots, a side lever and a browning dial, three-quarter view",
+            "pt-BR": "Torradeira amarelo manteiga de quatro fatias com duas fendas longas, alavanca lateral e botão de tostagem, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "butter-yellow-4-slice-white.png",
+            "#f5f5f5": "butter-yellow-4-slice-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

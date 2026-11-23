@@ -1,0 +1,184 @@
+{
+  "id": "espresso-machine",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar ES15-P Semi-Automatic Espresso Machine with 15 Bar Pump, 58 mm Portafilter, Steam Wand, Pressure Gauge, Removable Water Tank, Cup Warmer",
+    "pt-BR": "Máquina de Espresso Lumelar ES15-P Semiautomática com Bomba de 15 Bar, Porta-Filtro de 58 mm, Vaporizador de Leite, Manômetro, Reservatório Removível, Aquecedor de Xícaras"
+  },
+  "description": {
+    "en": "A semi-automatic espresso machine with a 15 bar pump and a 58 mm portafilter, so you control the dose and the shot. The steam wand froths milk and the tank lifts out to fill.",
+    "pt-BR": "Máquina de espresso semiautomática com bomba de 15 bar e porta-filtro de 58 mm, para você controlar a dose e a extração. O vaporizador espuma o leite e o reservatório sai para encher."
+  },
+  "price": {
+    "BRL": 2499.9,
+    "USD": 449.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "espresso machine",
+      "semi-automatic",
+      "steam wand",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "máquina de espresso",
+      "semiautomática",
+      "vaporizador de leite",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    }
+  ],
+  "defaultVariantId": "stainless",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "stainless",
+          "name": {
+            "en": "Stainless steel",
+            "pt-BR": "Aço inox"
+          },
+          "hex": "#C9CCCE"
+        },
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        },
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        },
+        {
+          "id": "sage-green",
+          "name": {
+            "en": "Sage green",
+            "pt-BR": "Verde sálvia"
+          },
+          "hex": "#9CAF94"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "stainless",
+      "sku": "LML-ESP-SS",
+      "options": {
+        "color": "stainless"
+      },
+      "price": {
+        "BRL": 2499.9,
+        "USD": 449.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel semi-automatic espresso machine with a portafilter, steam wand and pressure gauge, three-quarter view",
+            "pt-BR": "Máquina de espresso semiautomática em aço inox com porta-filtro, vaporizador e manômetro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-white.png",
+            "#f5f5f5": "stainless-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black",
+      "sku": "LML-ESP-MB",
+      "options": {
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 2499.9,
+        "USD": 449.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black semi-automatic espresso machine with a portafilter, steam wand and pressure gauge, three-quarter view",
+            "pt-BR": "Máquina de espresso semiautomática preto fosco com porta-filtro, vaporizador e manômetro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red",
+      "sku": "LML-ESP-CR",
+      "options": {
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 2499.9,
+        "USD": 449.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red semi-automatic espresso machine with a portafilter, steam wand and pressure gauge, three-quarter view",
+            "pt-BR": "Máquina de espresso semiautomática vermelho cereja com porta-filtro, vaporizador e manômetro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-green",
+      "sku": "LML-ESP-SG",
+      "options": {
+        "color": "sage-green"
+      },
+      "price": {
+        "BRL": 2499.9,
+        "USD": 449.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage green semi-automatic espresso machine with a portafilter, steam wand and pressure gauge, three-quarter view",
+            "pt-BR": "Máquina de espresso semiautomática verde sálvia com porta-filtro, vaporizador e manômetro, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "flex-edge-beater",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar P45-FE Flex Edge Beater with Silicone Edge That Scrapes the Bowl, Flat Beater Replacement for Lumelar Tilt-Head and Bowl-Lift Stand Mixers",
+    "pt-BR": "Batedor Flex Lumelar P45-FE com Borda de Silicone que Raspa a Tigela, Batedor Plano de Reposição para Batedeiras Planetárias Lumelar Basculantes e com Elevação"
+  },
+  "description": {
+    "en": "A flat beater with a flexible silicone edge that scrapes the bowl as it turns, so less batter stays on the sides. Pick the version that matches your mixer type.",
+    "pt-BR": "Batedor plano com borda flexível de silicone que raspa a tigela enquanto gira, deixando menos massa nas laterais. Escolha a versão do seu tipo de batedeira."
+  },
+  "price": {
+    "BRL": 249.9,
+    "USD": 39.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "flex edge beater",
+      "flat beater",
+      "stand mixer part",
+      "silicone"
+    ],
+    "pt-BR": [
+      "batedor com borda flexível",
+      "batedor plano",
+      "peça de batedeira",
+      "silicone"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "fits-tool",
+      "valueId": "tilt-head-stand-mixer"
+    },
+    {
+      "id": "fits-tool",
+      "valueId": "bowl-lift-stand-mixer"
+    }
+  ],
+  "defaultVariantId": "tilt-head",
+  "options": [
+    {
+      "id": "fits",
+      "name": {
+        "en": "Fits",
+        "pt-BR": "Compatível com"
+      },
+      "values": [
+        {
+          "id": "tilt-head",
+          "name": {
+            "en": "Tilt-head mixers",
+            "pt-BR": "Batedeiras basculantes"
+          }
+        },
+        {
+          "id": "bowl-lift",
+          "name": {
+            "en": "Bowl-lift mixers",
+            "pt-BR": "Batedeiras de elevação"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "tilt-head",
+      "sku": "LML-FEB-TH",
+      "options": {
+        "fits": "tilt-head"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 39.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Flat stand mixer beater with a white silicone scraping edge, three-quarter view",
+            "pt-BR": "Batedor plano de batedeira planetária com borda raspadora de silicone branco, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "flex-edge-beater-white.png",
+            "#f5f5f5": "flex-edge-beater-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bowl-lift",
+      "sku": "LML-FEB-BL",
+      "options": {
+        "fits": "bowl-lift"
+      },
+      "price": {
+        "BRL": 279.9,
+        "USD": 44.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Flat stand mixer beater with a white silicone scraping edge, three-quarter view",
+            "pt-BR": "Batedor plano de batedeira planetária com borda raspadora de silicone branco, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "flex-edge-beater-white.png",
+            "#f5f5f5": "flex-edge-beater-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

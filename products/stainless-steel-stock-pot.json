@@ -1,0 +1,116 @@
+{
+  "id": "stainless-steel-stock-pot",
+  "brandId": "lumelar",
+  "categoryId": "casa-panelas",
+  "name": {
+    "en": "Lumelar Stainless Steel Stock Pot with Lid, Tall Pot for Soups, Stocks, Pasta and Canning, Riveted Handles, Encapsulated Base, Induction Ready",
+    "pt-BR": "Caldeirão Lumelar de Aço Inox com Tampa, Panela Alta para Sopas, Caldos, Massas e Conservas, Alças Rebitadas, Fundo Triplo, Para Indução"
+  },
+  "description": {
+    "en": "A tall stainless steel stock pot with a tight-fitting lid for soups, stocks and a full box of pasta. The thick base heats evenly and the handles stay secure when the pot is full.",
+    "pt-BR": "Caldeirão alto de aço inox com tampa bem ajustada para sopas, caldos e um pacote inteiro de massa. O fundo grosso aquece por igual e as alças seguram firme com a panela cheia."
+  },
+  "price": {
+    "BRL": 249.9,
+    "USD": 59.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "stock pot",
+      "stainless steel",
+      "soup pot",
+      "induction",
+      "large pot"
+    ],
+    "pt-BR": [
+      "caldeirão",
+      "aço inox",
+      "panela para sopa",
+      "indução",
+      "panela grande"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    }
+  ],
+  "defaultVariantId": "8-qt",
+  "options": [
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "8-qt",
+          "name": {
+            "en": "8 qt",
+            "pt-BR": "7,6 L"
+          }
+        },
+        {
+          "id": "12-qt",
+          "name": {
+            "en": "12 qt",
+            "pt-BR": "11,4 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "8-qt",
+      "sku": "LML-STP-08",
+      "options": {
+        "capacity": "8-qt"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tall stainless steel stock pot with a domed lid and two riveted side handles, front view",
+            "pt-BR": "Caldeirão alto de aço inox com tampa abaulada e duas alças laterais rebitadas, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-steel-stock-pot-white.png",
+            "#f5f5f5": "stainless-steel-stock-pot-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12-qt",
+      "sku": "LML-STP-12",
+      "options": {
+        "capacity": "12-qt"
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 79.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Tall stainless steel stock pot with a domed lid and two riveted side handles, front view",
+            "pt-BR": "Caldeirão alto de aço inox com tampa abaulada e duas alças laterais rebitadas, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "stainless-steel-stock-pot-white.png",
+            "#f5f5f5": "stainless-steel-stock-pot-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

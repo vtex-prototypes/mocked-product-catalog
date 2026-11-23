@@ -334,6 +334,34 @@
           "en": "Polypropylene",
           "pt-BR": "Polipropileno"
         }
+      },
+      {
+        "id": "silicone",
+        "name": {
+          "en": "Silicone",
+          "pt-BR": "Silicone"
+        }
+      },
+      {
+        "id": "hard-anodized-aluminum",
+        "name": {
+          "en": "Hard-anodized aluminum",
+          "pt-BR": "Alumínio anodizado duro"
+        }
+      },
+      {
+        "id": "enameled-cast-iron",
+        "name": {
+          "en": "Enameled cast iron",
+          "pt-BR": "Ferro fundido esmaltado"
+        }
+      },
+      {
+        "id": "aluminized-steel",
+        "name": {
+          "en": "Aluminized steel",
+          "pt-BR": "Aço aluminizado"
+        }
       }
     ]
   },
@@ -1009,6 +1037,27 @@
         "name": {
           "en": "SDS-plus rotary hammers",
           "pt-BR": "Marteletes SDS-plus"
+        }
+      },
+      {
+        "id": "tilt-head-stand-mixer",
+        "name": {
+          "en": "Tilt-head stand mixers",
+          "pt-BR": "Batedeiras planetárias de cabeça basculante"
+        }
+      },
+      {
+        "id": "bowl-lift-stand-mixer",
+        "name": {
+          "en": "Bowl-lift stand mixers",
+          "pt-BR": "Batedeiras planetárias com elevação de tigela"
+        }
+      },
+      {
+        "id": "stand-mixer-hub",
+        "name": {
+          "en": "Stand mixers with an attachment hub",
+          "pt-BR": "Batedeiras planetárias com conector de acessórios"
         }
       }
     ]

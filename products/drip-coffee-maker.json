@@ -1,0 +1,253 @@
+{
+  "id": "drip-coffee-maker",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar DC12-B Programmable Drip Coffee Maker with Glass Carafe, 24-Hour Timer, Brew Strength Control, Pause-and-Serve, Reusable Basket Filter, Keep-Warm Plate",
+    "pt-BR": "Cafeteira Elétrica Lumelar DC12-B Programável com Jarra de Vidro, Timer de 24 Horas, Controle de Intensidade, Pausa para Servir, Filtro Permanente, Placa para Manter Aquecido"
+  },
+  "description": {
+    "en": "A drip coffee maker you can set the night before: the 24-hour timer starts the brew while you wake up. The glass carafe sits on a warming plate and the filter basket is reusable.",
+    "pt-BR": "Cafeteira elétrica que você programa na noite anterior: o timer de 24 horas começa o preparo enquanto você acorda. A jarra de vidro fica sobre uma placa de aquecimento e o filtro é permanente."
+  },
+  "price": {
+    "BRL": 449.9,
+    "USD": 99.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "coffee maker",
+      "drip coffee",
+      "glass carafe",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "cafeteira",
+      "café filtrado",
+      "jarra de vidro",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "glass"
+    },
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    }
+  ],
+  "defaultVariantId": "matte-black-8-cups",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        },
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F1EC"
+        },
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        }
+      ]
+    },
+    {
+      "id": "cups",
+      "name": {
+        "en": "Cups",
+        "pt-BR": "Xícaras"
+      },
+      "values": [
+        {
+          "id": "8-cups",
+          "name": {
+            "en": "8",
+            "pt-BR": "8"
+          }
+        },
+        {
+          "id": "12-cups",
+          "name": {
+            "en": "12",
+            "pt-BR": "12"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "matte-black-8-cups",
+      "sku": "LML-DCM-MB-8",
+      "options": {
+        "color": "matte-black",
+        "cups": "8-cups"
+      },
+      "price": {
+        "BRL": 449.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black drip coffee maker with a glass carafe, a water reservoir and a control panel, three-quarter view",
+            "pt-BR": "Cafeteira elétrica preto fosco com jarra de vidro, reservatório de água e painel de controle, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-12-cups",
+      "sku": "LML-DCM-MB-12",
+      "options": {
+        "color": "matte-black",
+        "cups": "12-cups"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 129.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black drip coffee maker with a glass carafe, a water reservoir and a control panel, three-quarter view",
+            "pt-BR": "Cafeteira elétrica preto fosco com jarra de vidro, reservatório de água e painel de controle, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-8-cups",
+      "sku": "LML-DCM-WH-8",
+      "options": {
+        "color": "white",
+        "cups": "8-cups"
+      },
+      "price": {
+        "BRL": 449.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White drip coffee maker with a glass carafe, a water reservoir and a control panel, three-quarter view",
+            "pt-BR": "Cafeteira elétrica branco com jarra de vidro, reservatório de água e painel de controle, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-12-cups",
+      "sku": "LML-DCM-WH-12",
+      "options": {
+        "color": "white",
+        "cups": "12-cups"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 129.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White drip coffee maker with a glass carafe, a water reservoir and a control panel, three-quarter view",
+            "pt-BR": "Cafeteira elétrica branco com jarra de vidro, reservatório de água e painel de controle, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-8-cups",
+      "sku": "LML-DCM-CR-8",
+      "options": {
+        "color": "cherry-red",
+        "cups": "8-cups"
+      },
+      "price": {
+        "BRL": 449.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red drip coffee maker with a glass carafe, a water reservoir and a control panel, three-quarter view",
+            "pt-BR": "Cafeteira elétrica vermelho cereja com jarra de vidro, reservatório de água e painel de controle, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-12-cups",
+      "sku": "LML-DCM-CR-12",
+      "options": {
+        "color": "cherry-red",
+        "cups": "12-cups"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 129.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red drip coffee maker with a glass carafe, a water reservoir and a control panel, three-quarter view",
+            "pt-BR": "Cafeteira elétrica vermelho cereja com jarra de vidro, reservatório de água e painel de controle, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

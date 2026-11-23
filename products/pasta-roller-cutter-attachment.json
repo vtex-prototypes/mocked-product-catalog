@@ -1,0 +1,118 @@
+{
+  "id": "pasta-roller-cutter-attachment",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar Pasta Roller and Cutter Attachment for Stand Mixers, Stainless Steel Rollers, 8 Thickness Settings, Cuts Fettuccine and Spaghetti, Hub Mounted",
+    "pt-BR": "Rolo e Cortador de Massas Lumelar para Batedeira, Rolos de Aço Inox, 8 Níveis de Espessura, Corta Fettuccine e Espaguete, Encaixe no Cubo"
+  },
+  "description": {
+    "en": "Rolls fresh dough into smooth sheets, then cuts fettuccine and spaghetti with the cutters. It fits every Lumelar stand mixer's front hub and the rollers adjust to eight thicknesses.",
+    "pt-BR": "Abre a massa fresca em folhas lisas e corta fettuccine e espaguete com os cortadores. Encaixa no cubo frontal de qualquer batedeira Lumelar e os rolos ajustam para oito espessuras."
+  },
+  "price": {
+    "BRL": 549.9,
+    "USD": 99.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "pasta roller",
+      "pasta cutter",
+      "stand mixer attachment",
+      "fresh pasta"
+    ],
+    "pt-BR": [
+      "rolo de massa",
+      "cortador de massa",
+      "acessório para batedeira",
+      "massa fresca"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "fits-tool",
+      "valueId": "stand-mixer-hub"
+    },
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    }
+  ],
+  "defaultVariantId": "1-piece",
+  "options": [
+    {
+      "id": "pieces",
+      "name": {
+        "en": "Pieces",
+        "pt-BR": "Peças"
+      },
+      "values": [
+        {
+          "id": "1-piece",
+          "name": {
+            "en": "Roller only",
+            "pt-BR": "Só o rolo"
+          }
+        },
+        {
+          "id": "3-pieces",
+          "name": {
+            "en": "Roller and 2 cutters",
+            "pt-BR": "Rolo e 2 cortadores"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "1-piece",
+      "sku": "LML-PRC-1P",
+      "options": {
+        "pieces": "1-piece"
+      },
+      "price": {
+        "BRL": 549.9,
+        "USD": 99.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel pasta roller attachment with hand-tightened thickness dial and flat hub shaft, three-quarter view",
+            "pt-BR": "Acessório rolo de massas em aço inox com botão de espessura e eixo de encaixe, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "roller-only-white.png",
+            "#f5f5f5": "roller-only-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3-pieces",
+      "sku": "LML-PRC-3P",
+      "options": {
+        "pieces": "3-pieces"
+      },
+      "price": {
+        "BRL": 899.9,
+        "USD": 179.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel pasta roller attachment shown with fettuccine and spaghetti cutter attachments, three-quarter view",
+            "pt-BR": "Acessório rolo de massas em aço inox com os cortadores de fettuccine e espaguete, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "roller-and-cutters-white.png",
+            "#f5f5f5": "roller-and-cutters-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

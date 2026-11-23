@@ -1,0 +1,335 @@
+{
+  "id": "food-processor",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar FP13-D Food Processor with Clear Work Bowl, Feed Tube, S-Blade, Slicing and Shredding Discs, One-Dial Control, Dishwasher-Safe Parts",
+    "pt-BR": "Processador de Alimentos Lumelar FP13-D com Copo Transparente, Tubo de Alimentação, Lâmina em S, Discos para Fatiar e Ralar, Controle de Um Botão, Peças Laváveis na Lava-Louças"
+  },
+  "description": {
+    "en": "A food processor that chops, slices and shreds with one dial: turn it for low, high or pulse. The clear bowl shows the work and every removable part goes in the dishwasher.",
+    "pt-BR": "Processador de alimentos que pica, fatia e rala com um único botão: gire para velocidade baixa, alta ou pulsar. O copo transparente mostra o preparo e todas as peças removíveis vão na lava-louças."
+  },
+  "price": {
+    "BRL": 249.9,
+    "USD": 49.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "food processor",
+      "chopper",
+      "slicing",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "processador de alimentos",
+      "picador",
+      "fatiador",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polycarbonate"
+    },
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    }
+  ],
+  "defaultVariantId": "white-3-5-cup",
+  "options": [
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "3-5-cup",
+          "name": {
+            "en": "3.5 cups",
+            "pt-BR": "830 mL"
+          }
+        },
+        {
+          "id": "9-cup",
+          "name": {
+            "en": "9 cups",
+            "pt-BR": "2,1 L"
+          }
+        },
+        {
+          "id": "13-cup",
+          "name": {
+            "en": "13 cups",
+            "pt-BR": "3,1 L"
+          }
+        }
+      ]
+    },
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F1EC"
+        },
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        },
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-3-5-cup",
+      "sku": "LML-FPR-WH-35",
+      "options": {
+        "capacity": "3-5-cup",
+        "color": "white"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 49.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Mini food processor chopper with a small clear bowl and a white base with one dial, three-quarter view",
+            "pt-BR": "Mini processador de alimentos com copo transparente pequeno e base branco com um botão, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-chopper-white.png",
+            "#f5f5f5": "white-chopper-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-3-5-cup",
+      "sku": "LML-FPR-MB-35",
+      "options": {
+        "capacity": "3-5-cup",
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 49.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Mini food processor chopper with a small clear bowl and a matte black base with one dial, three-quarter view",
+            "pt-BR": "Mini processador de alimentos com copo transparente pequeno e base preto fosco com um botão, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-chopper-white.png",
+            "#f5f5f5": "matte-black-chopper-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-3-5-cup",
+      "sku": "LML-FPR-CR-35",
+      "options": {
+        "capacity": "3-5-cup",
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 249.9,
+        "USD": 49.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Mini food processor chopper with a small clear bowl and a cherry red base with one dial, three-quarter view",
+            "pt-BR": "Mini processador de alimentos com copo transparente pequeno e base vermelho cereja com um botão, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-chopper-white.png",
+            "#f5f5f5": "cherry-red-chopper-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-9-cup",
+      "sku": "LML-FPR-WH-09",
+      "options": {
+        "capacity": "9-cup",
+        "color": "white"
+      },
+      "price": {
+        "BRL": 699.9,
+        "USD": 149.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Food processor with a wide clear bowl, feed tube, S-blade and a white base with one dial, three-quarter view",
+            "pt-BR": "Processador de alimentos com copo largo transparente, tubo de alimentação, lâmina em S e base branco com um botão, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-9-cup",
+      "sku": "LML-FPR-MB-09",
+      "options": {
+        "capacity": "9-cup",
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 699.9,
+        "USD": 149.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Food processor with a wide clear bowl, feed tube, S-blade and a matte black base with one dial, three-quarter view",
+            "pt-BR": "Processador de alimentos com copo largo transparente, tubo de alimentação, lâmina em S e base preto fosco com um botão, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-9-cup",
+      "sku": "LML-FPR-CR-09",
+      "options": {
+        "capacity": "9-cup",
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 699.9,
+        "USD": 149.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Food processor with a wide clear bowl, feed tube, S-blade and a cherry red base with one dial, three-quarter view",
+            "pt-BR": "Processador de alimentos com copo largo transparente, tubo de alimentação, lâmina em S e base vermelho cereja com um botão, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-13-cup",
+      "sku": "LML-FPR-WH-13",
+      "options": {
+        "capacity": "13-cup",
+        "color": "white"
+      },
+      "price": {
+        "BRL": 1099.9,
+        "USD": 229.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Food processor with a wide clear bowl, feed tube, S-blade and a white base with one dial, three-quarter view",
+            "pt-BR": "Processador de alimentos com copo largo transparente, tubo de alimentação, lâmina em S e base branco com um botão, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-13-cup",
+      "sku": "LML-FPR-MB-13",
+      "options": {
+        "capacity": "13-cup",
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 1099.9,
+        "USD": 229.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Food processor with a wide clear bowl, feed tube, S-blade and a matte black base with one dial, three-quarter view",
+            "pt-BR": "Processador de alimentos com copo largo transparente, tubo de alimentação, lâmina em S e base preto fosco com um botão, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-13-cup",
+      "sku": "LML-FPR-CR-13",
+      "options": {
+        "capacity": "13-cup",
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 1099.9,
+        "USD": 229.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Food processor with a wide clear bowl, feed tube, S-blade and a cherry red base with one dial, three-quarter view",
+            "pt-BR": "Processador de alimentos com copo largo transparente, tubo de alimentação, lâmina em S e base vermelho cereja com um botão, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

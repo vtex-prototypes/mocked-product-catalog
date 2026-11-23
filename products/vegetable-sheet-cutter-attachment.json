@@ -1,0 +1,118 @@
+{
+  "id": "vegetable-sheet-cutter-attachment",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar Vegetable Sheet Cutter Attachment for Stand Mixers, Cuts Long Sheets of Fruits and Vegetables, Wraps and Rolls, Includes Peel Blade, Hub Mounted",
+    "pt-BR": "Cortador de Legumes em Folhas Lumelar para Batedeira, Corta Frutas e Legumes em Folhas Longas, Para Wraps e Rolinhos, Inclui Lâmina Descascadora"
+  },
+  "description": {
+    "en": "Cuts apples, cucumbers and potatoes into one long, even sheet for wraps, rolls and garnishes. It fits every Lumelar stand mixer's front hub.",
+    "pt-BR": "Corta maçã, pepino e batata em uma folha longa e uniforme para wraps, rolinhos e decorações. Encaixa no cubo frontal de qualquer batedeira Lumelar."
+  },
+  "price": {
+    "BRL": 679.9,
+    "USD": 129.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "sheet cutter",
+      "vegetable sheets",
+      "stand mixer attachment",
+      "wraps"
+    ],
+    "pt-BR": [
+      "cortador em folhas",
+      "folhas de legumes",
+      "acessório para batedeira",
+      "wraps"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "fits-tool",
+      "valueId": "stand-mixer-hub"
+    },
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    }
+  ],
+  "defaultVariantId": "thin",
+  "options": [
+    {
+      "id": "blades",
+      "name": {
+        "en": "Blades",
+        "pt-BR": "Lâminas"
+      },
+      "values": [
+        {
+          "id": "thin",
+          "name": {
+            "en": "Thin",
+            "pt-BR": "Fina"
+          }
+        },
+        {
+          "id": "thick",
+          "name": {
+            "en": "Thick",
+            "pt-BR": "Grossa"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "thin",
+      "sku": "LML-VSC-TN",
+      "options": {
+        "blades": "thin"
+      },
+      "price": {
+        "BRL": 679.9,
+        "USD": 129.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Vegetable sheet cutter attachment with white housing, stainless steel blade and holder, three-quarter view",
+            "pt-BR": "Acessório cortador de legumes em folhas com corpo branco, lâmina de aço inox e suporte, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sheet-cutter-white.png",
+            "#f5f5f5": "sheet-cutter-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "thick",
+      "sku": "LML-VSC-TK",
+      "options": {
+        "blades": "thick"
+      },
+      "price": {
+        "BRL": 729.9,
+        "USD": 139.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Vegetable sheet cutter attachment with white housing, stainless steel blade and holder, three-quarter view",
+            "pt-BR": "Acessório cortador de legumes em folhas com corpo branco, lâmina de aço inox e suporte, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sheet-cutter-white.png",
+            "#f5f5f5": "sheet-cutter-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

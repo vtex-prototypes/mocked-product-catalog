@@ -1,0 +1,411 @@
+{
+  "id": "enameled-cast-iron-dutch-oven",
+  "brandId": "lumelar",
+  "categoryId": "casa-panelas",
+  "name": {
+    "en": "Lumelar Enameled Cast Iron Dutch Oven with Lid, Round Casserole for Braising, Baking Bread and Slow Cooking, Even Heat Retention, Oven Safe",
+    "pt-BR": "Panela de Ferro Fundido Lumelar Esmaltado com Tampa, Caçarola Redonda para Assar, Refogar, Fazer Pão e Cozinhar Devagar, Retém o Calor, Vai ao Forno"
+  },
+  "description": {
+    "en": "A round enameled cast iron Dutch oven with a heavy lid that holds in steam and heat. Use it for stews, braises and bread, on the stovetop or in the oven.",
+    "pt-BR": "Panela redonda de ferro fundido esmaltado com tampa pesada que mantém o vapor e o calor. Serve para ensopados, assados lentos e pão, no fogão ou no forno."
+  },
+  "price": {
+    "BRL": 599.9,
+    "USD": 149.99
+  },
+  "listPrice": {
+    "BRL": 699.9,
+    "USD": 179.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "dutch oven",
+      "cast iron",
+      "enameled",
+      "casserole",
+      "braising"
+    ],
+    "pt-BR": [
+      "panela de ferro fundido",
+      "esmaltada",
+      "caçarola",
+      "cozimento lento",
+      "forno"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "enameled-cast-iron"
+    }
+  ],
+  "defaultVariantId": "4-qt-cherry-red",
+  "options": [
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "4-qt",
+          "name": {
+            "en": "4 qt",
+            "pt-BR": "3,8 L"
+          }
+        },
+        {
+          "id": "6-qt",
+          "name": {
+            "en": "6 qt",
+            "pt-BR": "5,7 L"
+          }
+        }
+      ]
+    },
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        },
+        {
+          "id": "pistachio",
+          "name": {
+            "en": "Pistachio",
+            "pt-BR": "Pistache"
+          },
+          "hex": "#C3CF9A"
+        },
+        {
+          "id": "sage-green",
+          "name": {
+            "en": "Sage green",
+            "pt-BR": "Verde sálvia"
+          },
+          "hex": "#9CAF94"
+        },
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F1EC"
+        },
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "4-qt-cherry-red",
+      "sku": "LML-DVN-4-RD",
+      "options": {
+        "capacity": "4-qt",
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 149.99
+      },
+      "listPrice": {
+        "BRL": 699.9,
+        "USD": 179.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red enameled cast iron Dutch oven with matching lid and loop handles, three-quarter view",
+            "pt-BR": "Panela de ferro fundido esmaltado vermelho cereja com tampa e alças laterais, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4-qt-pistachio",
+      "sku": "LML-DVN-4-PI",
+      "options": {
+        "capacity": "4-qt",
+        "color": "pistachio"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 149.99
+      },
+      "listPrice": {
+        "BRL": 699.9,
+        "USD": 179.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pistachio enameled cast iron Dutch oven with matching lid and loop handles, three-quarter view",
+            "pt-BR": "Panela de ferro fundido esmaltado pistache com tampa e alças laterais, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "pistachio-white.png",
+            "#f5f5f5": "pistachio-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4-qt-sage-green",
+      "sku": "LML-DVN-4-SG",
+      "options": {
+        "capacity": "4-qt",
+        "color": "sage-green"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 149.99
+      },
+      "listPrice": {
+        "BRL": 699.9,
+        "USD": 179.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage green enameled cast iron Dutch oven with matching lid and loop handles, three-quarter view",
+            "pt-BR": "Panela de ferro fundido esmaltado verde sálvia com tampa e alças laterais, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4-qt-white",
+      "sku": "LML-DVN-4-WH",
+      "options": {
+        "capacity": "4-qt",
+        "color": "white"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 149.99
+      },
+      "listPrice": {
+        "BRL": 699.9,
+        "USD": 179.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White enameled cast iron Dutch oven with matching lid and loop handles, three-quarter view",
+            "pt-BR": "Panela de ferro fundido esmaltado branco com tampa e alças laterais, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4-qt-matte-black",
+      "sku": "LML-DVN-4-BK",
+      "options": {
+        "capacity": "4-qt",
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 149.99
+      },
+      "listPrice": {
+        "BRL": 699.9,
+        "USD": 179.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black enameled cast iron Dutch oven with matching lid and loop handles, three-quarter view",
+            "pt-BR": "Panela de ferro fundido esmaltado preto fosco com tampa e alças laterais, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6-qt-cherry-red",
+      "sku": "LML-DVN-6-RD",
+      "options": {
+        "capacity": "6-qt",
+        "color": "cherry-red"
+      },
+      "price": {
+        "BRL": 799.9,
+        "USD": 199.99
+      },
+      "listPrice": {
+        "BRL": 899.9,
+        "USD": 239.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red enameled cast iron Dutch oven with matching lid and loop handles, three-quarter view",
+            "pt-BR": "Panela de ferro fundido esmaltado vermelho cereja com tampa e alças laterais, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6-qt-pistachio",
+      "sku": "LML-DVN-6-PI",
+      "options": {
+        "capacity": "6-qt",
+        "color": "pistachio"
+      },
+      "price": {
+        "BRL": 799.9,
+        "USD": 199.99
+      },
+      "listPrice": {
+        "BRL": 899.9,
+        "USD": 239.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Pistachio enameled cast iron Dutch oven with matching lid and loop handles, three-quarter view",
+            "pt-BR": "Panela de ferro fundido esmaltado pistache com tampa e alças laterais, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "pistachio-white.png",
+            "#f5f5f5": "pistachio-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6-qt-sage-green",
+      "sku": "LML-DVN-6-SG",
+      "options": {
+        "capacity": "6-qt",
+        "color": "sage-green"
+      },
+      "price": {
+        "BRL": 799.9,
+        "USD": 199.99
+      },
+      "listPrice": {
+        "BRL": 899.9,
+        "USD": 239.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Sage green enameled cast iron Dutch oven with matching lid and loop handles, three-quarter view",
+            "pt-BR": "Panela de ferro fundido esmaltado verde sálvia com tampa e alças laterais, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6-qt-white",
+      "sku": "LML-DVN-6-WH",
+      "options": {
+        "capacity": "6-qt",
+        "color": "white"
+      },
+      "price": {
+        "BRL": 799.9,
+        "USD": 199.99
+      },
+      "listPrice": {
+        "BRL": 899.9,
+        "USD": 239.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White enameled cast iron Dutch oven with matching lid and loop handles, three-quarter view",
+            "pt-BR": "Panela de ferro fundido esmaltado branco com tampa e alças laterais, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6-qt-matte-black",
+      "sku": "LML-DVN-6-BK",
+      "options": {
+        "capacity": "6-qt",
+        "color": "matte-black"
+      },
+      "price": {
+        "BRL": 799.9,
+        "USD": 199.99
+      },
+      "listPrice": {
+        "BRL": 899.9,
+        "USD": 239.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black enameled cast iron Dutch oven with matching lid and loop handles, three-quarter view",
+            "pt-BR": "Panela de ferro fundido esmaltado preto fosco com tampa e alças laterais, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

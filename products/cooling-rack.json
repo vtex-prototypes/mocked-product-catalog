@@ -1,0 +1,116 @@
+{
+  "id": "cooling-rack",
+  "brandId": "lumelar",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Lumelar Stainless Steel Cooling Rack, Wire Grid Baking Rack for Cooling Cookies and Roasting, Fits Half Sheet Pans, Oven Safe, Dishwasher Safe",
+    "pt-BR": "Grade de Resfriamento Lumelar de Aço Inox, Grade de Arame para Esfriar Biscoitos e Assar, Encaixa em Assadeira Grande, Vai ao Forno e à Lava-Louças"
+  },
+  "description": {
+    "en": "A stainless steel wire grid on raised feet so air reaches the underside of cookies, cakes and breads. It also sits inside a sheet pan for roasting and crisping.",
+    "pt-BR": "Grade de arame de aço inox com pés elevados para o ar chegar por baixo de biscoitos, bolos e pães. Também encaixa dentro da assadeira para assar e deixar crocante."
+  },
+  "price": {
+    "BRL": 59.9,
+    "USD": 16.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "cooling rack",
+      "baking rack",
+      "stainless steel",
+      "wire rack",
+      "bakeware"
+    ],
+    "pt-BR": [
+      "grade de resfriamento",
+      "grade para assar",
+      "aço inox",
+      "grade de arame",
+      "assar"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    }
+  ],
+  "defaultVariantId": "1",
+  "options": [
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Embalagem"
+      },
+      "values": [
+        {
+          "id": "1",
+          "name": {
+            "en": "1",
+            "pt-BR": "1"
+          }
+        },
+        {
+          "id": "2",
+          "name": {
+            "en": "2",
+            "pt-BR": "2"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "1",
+      "sku": "LML-CLR-01",
+      "options": {
+        "pack": "1"
+      },
+      "price": {
+        "BRL": 59.9,
+        "USD": 16.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rectangular stainless steel cooling rack with a tight wire grid and raised feet, three-quarter view",
+            "pt-BR": "Grade de resfriamento retangular de aço inox com malha fina de arame e pés elevados, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "1-pack-white.png",
+            "#f5f5f5": "1-pack-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "sku": "LML-CLR-02",
+      "options": {
+        "pack": "2"
+      },
+      "price": {
+        "BRL": 99.9,
+        "USD": 27.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Two rectangular stainless steel cooling racks stacked, tight wire grid and raised feet, three-quarter view",
+            "pt-BR": "Duas grades de resfriamento retangulares de aço inox empilhadas, malha fina de arame e pés elevados, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "2-pack-white.png",
+            "#f5f5f5": "2-pack-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

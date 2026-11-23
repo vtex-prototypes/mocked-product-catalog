@@ -1,0 +1,122 @@
+{
+  "id": "kitchen-knife-set",
+  "brandId": "lumelar",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Lumelar Kitchen Knife Set with Block, Stainless Steel Blades with Black Ergonomic Handles, Chef, Bread, Utility and Paring Knives, Hand Wash Recommended",
+    "pt-BR": "Jogo de Facas de Cozinha Lumelar com Cepo, Lâminas de Aço Inox com Cabos Pretos Ergonômicos, Facas do Chef, de Pão, Multiuso e de Legumes, Lavar à Mão"
+  },
+  "description": {
+    "en": "A kitchen knife set with stainless steel blades, black handles and a block that keeps the edges protected. The larger set adds steak knives, shears and a honing steel.",
+    "pt-BR": "Jogo de facas de cozinha com lâminas de aço inox, cabos pretos e um cepo que protege os fios. O jogo maior inclui facas de churrasco, tesoura e chaira."
+  },
+  "price": {
+    "BRL": 199.9,
+    "USD": 49.99
+  },
+  "listPrice": {
+    "BRL": 249.9,
+    "USD": 69.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "knife set",
+      "kitchen knives",
+      "knife block",
+      "stainless steel",
+      "chef knife"
+    ],
+    "pt-BR": [
+      "jogo de facas",
+      "facas de cozinha",
+      "cepo de facas",
+      "aço inox",
+      "faca do chef"
+    ]
+  },
+  "defaultVariantId": "6-pieces",
+  "options": [
+    {
+      "id": "pieces",
+      "name": {
+        "en": "Pieces",
+        "pt-BR": "Peças"
+      },
+      "values": [
+        {
+          "id": "6-pieces",
+          "name": {
+            "en": "6",
+            "pt-BR": "6"
+          }
+        },
+        {
+          "id": "14-pieces",
+          "name": {
+            "en": "14",
+            "pt-BR": "14"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "6-pieces",
+      "sku": "LML-KNS-06",
+      "options": {
+        "pieces": "6-pieces"
+      },
+      "price": {
+        "BRL": 199.9,
+        "USD": 49.99
+      },
+      "listPrice": {
+        "BRL": 249.9,
+        "USD": 69.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Six-piece kitchen knife set with a chef's knife, bread knife, utility knife, paring knife, shears and a wooden block, front view",
+            "pt-BR": "Jogo de facas de cozinha de 6 peças com faca do chef, de pão, multiuso, de legumes, tesoura e cepo de madeira, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "6-pieces-white.png",
+            "#f5f5f5": "6-pieces-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14-pieces",
+      "sku": "LML-KNS-14",
+      "options": {
+        "pieces": "14-pieces"
+      },
+      "price": {
+        "BRL": 449.9,
+        "USD": 119.99
+      },
+      "listPrice": {
+        "BRL": 549.9,
+        "USD": 149.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Fourteen-piece kitchen knife set with chef's, bread, utility and paring knives, steak knives, shears, honing steel and a wooden block, front view",
+            "pt-BR": "Jogo de facas de cozinha de 14 peças com facas do chef, de pão, multiuso e de legumes, facas de churrasco, tesoura, chaira e cepo de madeira, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "14-pieces-white.png",
+            "#f5f5f5": "14-pieces-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

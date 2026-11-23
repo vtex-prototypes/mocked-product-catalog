@@ -1,0 +1,369 @@
+{
+  "id": "blender",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar BL56-V Countertop Blender with 56 oz Plastic Jar, 1200 Watts, Variable Speed Dial, Pulse Function, Removable Stainless Blades, Dishwasher-Safe Jar",
+    "pt-BR": "Liquidificador Lumelar BL56-V de Bancada com Jarra de 1,6 L, 1200 W, Botão de Velocidade Variável, Função Pulsar, Lâminas de Aço Removíveis, Jarra Lavável na Lava-Louças"
+  },
+  "description": {
+    "en": "A countertop blender with a clear jar, a base in your choice of color and one dial for speed, plus a pulse setting for quick bursts. The jar and lid are dishwasher safe and the blades lift out for cleaning.",
+    "pt-BR": "Liquidificador de bancada com jarra transparente, base na cor que você escolher e um botão para a velocidade, além da função pulsar para toques rápidos. A jarra e a tampa vão na lava-louças e as lâminas saem para limpar."
+  },
+  "price": {
+    "BRL": 449.9,
+    "USD": 129.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "blender",
+      "countertop",
+      "smoothies",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "liquidificador",
+      "de bancada",
+      "vitaminas",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "polycarbonate"
+    },
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    }
+  ],
+  "defaultVariantId": "white-48-oz",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F1EC"
+        },
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        },
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        },
+        {
+          "id": "pistachio",
+          "name": {
+            "en": "Pistachio",
+            "pt-BR": "Pistache"
+          },
+          "hex": "#C3CF9A"
+        },
+        {
+          "id": "sage-green",
+          "name": {
+            "en": "Sage green",
+            "pt-BR": "Verde sálvia"
+          },
+          "hex": "#9CAF94"
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "name": {
+        "en": "Capacity",
+        "pt-BR": "Capacidade"
+      },
+      "values": [
+        {
+          "id": "48-oz",
+          "name": {
+            "en": "48 oz",
+            "pt-BR": "1,4 L"
+          }
+        },
+        {
+          "id": "56-oz",
+          "name": {
+            "en": "56 oz",
+            "pt-BR": "1,6 L"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "white-48-oz",
+      "sku": "LML-BLD-WH-48",
+      "options": {
+        "color": "white",
+        "capacity": "48-oz"
+      },
+      "price": {
+        "BRL": 449.9,
+        "USD": 129.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Countertop blender with a clear jar, black lid and a white base with one control dial, front view",
+            "pt-BR": "Liquidificador de bancada com jarra transparente, tampa preta e base branco com um botão de controle, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-56-oz",
+      "sku": "LML-BLD-WH-56",
+      "options": {
+        "color": "white",
+        "capacity": "56-oz"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 179.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Countertop blender with a clear jar, black lid and a white base with one control dial, front view",
+            "pt-BR": "Liquidificador de bancada com jarra transparente, tampa preta e base branco com um botão de controle, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-48-oz",
+      "sku": "LML-BLD-MB-48",
+      "options": {
+        "color": "matte-black",
+        "capacity": "48-oz"
+      },
+      "price": {
+        "BRL": 449.9,
+        "USD": 129.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Countertop blender with a clear jar, black lid and a matte black base with one control dial, front view",
+            "pt-BR": "Liquidificador de bancada com jarra transparente, tampa preta e base preto fosco com um botão de controle, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-56-oz",
+      "sku": "LML-BLD-MB-56",
+      "options": {
+        "color": "matte-black",
+        "capacity": "56-oz"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 179.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Countertop blender with a clear jar, black lid and a matte black base with one control dial, front view",
+            "pt-BR": "Liquidificador de bancada com jarra transparente, tampa preta e base preto fosco com um botão de controle, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-48-oz",
+      "sku": "LML-BLD-CR-48",
+      "options": {
+        "color": "cherry-red",
+        "capacity": "48-oz"
+      },
+      "price": {
+        "BRL": 449.9,
+        "USD": 129.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Countertop blender with a clear jar, black lid and a cherry red base with one control dial, front view",
+            "pt-BR": "Liquidificador de bancada com jarra transparente, tampa preta e base vermelho cereja com um botão de controle, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-56-oz",
+      "sku": "LML-BLD-CR-56",
+      "options": {
+        "color": "cherry-red",
+        "capacity": "56-oz"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 179.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Countertop blender with a clear jar, black lid and a cherry red base with one control dial, front view",
+            "pt-BR": "Liquidificador de bancada com jarra transparente, tampa preta e base vermelho cereja com um botão de controle, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pistachio-48-oz",
+      "sku": "LML-BLD-PI-48",
+      "options": {
+        "color": "pistachio",
+        "capacity": "48-oz"
+      },
+      "price": {
+        "BRL": 449.9,
+        "USD": 129.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Countertop blender with a clear jar, black lid and a pistachio green base with one control dial, front view",
+            "pt-BR": "Liquidificador de bancada com jarra transparente, tampa preta e base verde pistache com um botão de controle, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "pistachio-white.png",
+            "#f5f5f5": "pistachio-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pistachio-56-oz",
+      "sku": "LML-BLD-PI-56",
+      "options": {
+        "color": "pistachio",
+        "capacity": "56-oz"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 179.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Countertop blender with a clear jar, black lid and a pistachio green base with one control dial, front view",
+            "pt-BR": "Liquidificador de bancada com jarra transparente, tampa preta e base verde pistache com um botão de controle, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "pistachio-white.png",
+            "#f5f5f5": "pistachio-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-green-48-oz",
+      "sku": "LML-BLD-SG-48",
+      "options": {
+        "color": "sage-green",
+        "capacity": "48-oz"
+      },
+      "price": {
+        "BRL": 449.9,
+        "USD": 129.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Countertop blender with a clear jar, black lid and a sage green base with one control dial, front view",
+            "pt-BR": "Liquidificador de bancada com jarra transparente, tampa preta e base verde sálvia com um botão de controle, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sage-green-56-oz",
+      "sku": "LML-BLD-SG-56",
+      "options": {
+        "color": "sage-green",
+        "capacity": "56-oz"
+      },
+      "price": {
+        "BRL": 599.9,
+        "USD": 179.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Countertop blender with a clear jar, black lid and a sage green base with one control dial, front view",
+            "pt-BR": "Liquidificador de bancada com jarra transparente, tampa preta e base verde sálvia com um botão de controle, vista frontal"
+          },
+          "backgrounds": {
+            "#ffffff": "sage-green-white.png",
+            "#f5f5f5": "sage-green-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "immersion-blender",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar IB20-C Immersion Blender, Stainless Steel Blending Shaft, Variable Speed Control, Turbo Button, Ergonomic Grip for Soups, Sauces and Smoothies",
+    "pt-BR": "Mixer de Mão Lumelar IB20-C, Haste de Aço Inox, Controle de Velocidade Variável, Botão Turbo, Empunhadura Ergonômica para Sopas, Molhos e Vitaminas"
+  },
+  "description": {
+    "en": "An immersion blender that purees soups and sauces right in the pot. The stainless steel shaft detaches for washing, and the set adds a chopper bowl and a whisk.",
+    "pt-BR": "Mixer de mão que tritura sopas e molhos direto na panela. A haste de aço inox sai para lavar, e o kit traz ainda um copo picador e um batedor de claras."
+  },
+  "price": {
+    "BRL": 229.9,
+    "USD": 49.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "immersion blender",
+      "hand blender",
+      "soups",
+      "kitchen appliance"
+    ],
+    "pt-BR": [
+      "mixer de mão",
+      "mixer",
+      "sopas",
+      "eletrodoméstico de cozinha"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "power-source",
+      "valueId": "corded"
+    }
+  ],
+  "defaultVariantId": "matte-black-blender-only",
+  "options": [
+    {
+      "id": "color",
+      "name": {
+        "en": "Color",
+        "pt-BR": "Cor"
+      },
+      "values": [
+        {
+          "id": "matte-black",
+          "name": {
+            "en": "Matte black",
+            "pt-BR": "Preto fosco"
+          },
+          "hex": "#232325"
+        },
+        {
+          "id": "white",
+          "name": {
+            "en": "White",
+            "pt-BR": "Branco"
+          },
+          "hex": "#F2F1EC"
+        },
+        {
+          "id": "cherry-red",
+          "name": {
+            "en": "Cherry red",
+            "pt-BR": "Vermelho cereja"
+          },
+          "hex": "#B3172B"
+        }
+      ]
+    },
+    {
+      "id": "pieces",
+      "name": {
+        "en": "Set",
+        "pt-BR": "Kit"
+      },
+      "values": [
+        {
+          "id": "blender-only",
+          "name": {
+            "en": "Blender only",
+            "pt-BR": "Só o mixer"
+          }
+        },
+        {
+          "id": "with-attachments",
+          "name": {
+            "en": "With chopper and whisk",
+            "pt-BR": "Com picador e batedor"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "matte-black-blender-only",
+      "sku": "LML-IMB-BLK-BO",
+      "options": {
+        "color": "matte-black",
+        "pieces": "blender-only"
+      },
+      "price": {
+        "BRL": 229.9,
+        "USD": 49.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black immersion blender with stainless steel blending shaft, three-quarter view",
+            "pt-BR": "Mixer de mão preto fosco com haste de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-white.png",
+            "#f5f5f5": "matte-black-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "matte-black-with-attachments",
+      "sku": "LML-IMB-BLK-KT",
+      "options": {
+        "color": "matte-black",
+        "pieces": "with-attachments"
+      },
+      "price": {
+        "BRL": 369.9,
+        "USD": 79.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Matte black immersion blender with chopper bowl and whisk attachment laid out beside it, three-quarter view",
+            "pt-BR": "Mixer de mão preto fosco com copo picador e batedor de claras ao lado, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "matte-black-set-white.png",
+            "#f5f5f5": "matte-black-set-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-blender-only",
+      "sku": "LML-IMB-WHT-BO",
+      "options": {
+        "color": "white",
+        "pieces": "blender-only"
+      },
+      "price": {
+        "BRL": 229.9,
+        "USD": 49.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White immersion blender with stainless steel blending shaft, three-quarter view",
+            "pt-BR": "Mixer de mão branco com haste de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-white.png",
+            "#f5f5f5": "white-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "white-with-attachments",
+      "sku": "LML-IMB-WHT-KT",
+      "options": {
+        "color": "white",
+        "pieces": "with-attachments"
+      },
+      "price": {
+        "BRL": 369.9,
+        "USD": 79.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White immersion blender with chopper bowl and whisk attachment laid out beside it, three-quarter view",
+            "pt-BR": "Mixer de mão branco com copo picador e batedor de claras ao lado, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "white-set-white.png",
+            "#f5f5f5": "white-set-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-blender-only",
+      "sku": "LML-IMB-RED-BO",
+      "options": {
+        "color": "cherry-red",
+        "pieces": "blender-only"
+      },
+      "price": {
+        "BRL": 229.9,
+        "USD": 49.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red immersion blender with stainless steel blending shaft, three-quarter view",
+            "pt-BR": "Mixer de mão vermelho cereja com haste de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-white.png",
+            "#f5f5f5": "cherry-red-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cherry-red-with-attachments",
+      "sku": "LML-IMB-RED-KT",
+      "options": {
+        "color": "cherry-red",
+        "pieces": "with-attachments"
+      },
+      "price": {
+        "BRL": 369.9,
+        "USD": 79.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Cherry red immersion blender with chopper bowl and whisk attachment laid out beside it, three-quarter view",
+            "pt-BR": "Mixer de mão vermelho cereja com copo picador e batedor de claras ao lado, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "cherry-red-set-white.png",
+            "#f5f5f5": "cherry-red-set-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

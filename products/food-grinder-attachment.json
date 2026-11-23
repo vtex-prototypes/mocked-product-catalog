@@ -1,0 +1,114 @@
+{
+  "id": "food-grinder-attachment",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar Food Grinder Attachment for Stand Mixers, Fine and Coarse Grinding Plates, Sausage Stuffer Tubes, Grinds Meat, Cheese and Vegetables, Hub Mounted",
+    "pt-BR": "Moedor de Alimentos Lumelar para Batedeira, Discos Fino e Grosso, Bicos para Rechear Linguiça, Mói Carne, Queijo e Legumes, Encaixe no Cubo"
+  },
+  "description": {
+    "en": "Grinds meat, hard cheese and vegetables through the fine or coarse plate, and the two stuffer tubes fill casings for homemade sausage. It fits every Lumelar stand mixer's front hub.",
+    "pt-BR": "Mói carne, queijo duro e legumes pelo disco fino ou grosso, e os dois bicos recheiam a tripa para fazer linguiça caseira. Encaixa no cubo frontal de qualquer batedeira Lumelar."
+  },
+  "price": {
+    "BRL": 499.9,
+    "USD": 89.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "food grinder",
+      "meat grinder",
+      "sausage stuffer",
+      "stand mixer attachment"
+    ],
+    "pt-BR": [
+      "moedor de carne",
+      "moedor de alimentos",
+      "recheador de linguiça",
+      "acessório para batedeira"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "fits-tool",
+      "valueId": "stand-mixer-hub"
+    }
+  ],
+  "defaultVariantId": "metal",
+  "options": [
+    {
+      "id": "material",
+      "name": {
+        "en": "Material",
+        "pt-BR": "Material"
+      },
+      "values": [
+        {
+          "id": "metal",
+          "name": {
+            "en": "Die-cast metal",
+            "pt-BR": "Metal fundido"
+          }
+        },
+        {
+          "id": "plastic",
+          "name": {
+            "en": "Plastic",
+            "pt-BR": "Plástico"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "metal",
+      "sku": "LML-FGR-MT",
+      "options": {
+        "material": "metal"
+      },
+      "price": {
+        "BRL": 499.9,
+        "USD": 89.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Die-cast metal food grinder attachment with hopper, grinding plates and sausage stuffer tubes, three-quarter view",
+            "pt-BR": "Acessório moedor de alimentos em metal fundido com funil, discos de moagem e bicos para linguiça, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "metal-white.png",
+            "#f5f5f5": "metal-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plastic",
+      "sku": "LML-FGR-PL",
+      "options": {
+        "material": "plastic"
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "White plastic food grinder attachment with hopper, grinding plates and sausage stuffer tubes, three-quarter view",
+            "pt-BR": "Acessório moedor de alimentos em plástico branco com funil, discos de moagem e bicos para linguiça, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "plastic-white.png",
+            "#f5f5f5": "plastic-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

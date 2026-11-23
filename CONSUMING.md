@@ -18,9 +18,9 @@ A store type maps onto a root in `categories.json`. These are the roots the cata
 | Store | Root id | Published | Drafts |
 |---|---|---|---|
 | Clothing & Accessories | `roupa-acessorios` | 119 | 0 |
-| Home & Decor | `casa-decoracao` | 7 | 49 |
+| Home & Decor | `casa-decoracao` | 24 | 36 |
 | Grocery | `supermercado` | 0 | 62 |
-| Electronics & Appliances | `eletronicos` | 45 | 21 |
+| Electronics & Appliances | `eletronicos` | 69 | 15 |
 | Sports & Outdoors | `esportes` | 13 | 34 |
 | Building Materials | `construcao` | 422 | 0 |
 <!-- coverage:end -->

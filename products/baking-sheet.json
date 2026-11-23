@@ -1,0 +1,191 @@
+{
+  "id": "baking-sheet",
+  "brandId": "lumelar",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Lumelar Aluminized Steel Baking Sheet, Rimmed Cookie and Sheet Pan for Roasting Vegetables, Baking Cookies and Cooking Sheet Meals, Warp-Resistant Rolled Edge",
+    "pt-BR": "Assadeira Lumelar de Aço Aluminizado com Borda, Forma para Biscoitos, Legumes Assados e Refeições de Uma Só Assadeira, Borda Reforçada que Não Empena"
+  },
+  "description": {
+    "en": "A rimmed baking sheet in aluminized steel that browns cookies and roasts vegetables evenly. The rolled edge keeps it flat in a hot oven.",
+    "pt-BR": "Assadeira com borda em aço aluminizado que dora biscoitos e assa legumes por igual. A borda reforçada mantém a forma plana no forno quente."
+  },
+  "price": {
+    "BRL": 49.9,
+    "USD": 14.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "baking sheet",
+      "sheet pan",
+      "aluminized steel",
+      "bakeware",
+      "cookie sheet"
+    ],
+    "pt-BR": [
+      "assadeira",
+      "forma",
+      "aço aluminizado",
+      "assar",
+      "biscoitos"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "aluminized-steel"
+    }
+  ],
+  "defaultVariantId": "quarter-sheet-1",
+  "options": [
+    {
+      "id": "size",
+      "name": {
+        "en": "Size",
+        "pt-BR": "Tamanho"
+      },
+      "values": [
+        {
+          "id": "quarter-sheet",
+          "name": {
+            "en": "Quarter sheet, 9 x 13 in",
+            "pt-BR": "33 x 23 cm"
+          }
+        },
+        {
+          "id": "half-sheet",
+          "name": {
+            "en": "Half sheet, 13 x 18 in",
+            "pt-BR": "46 x 33 cm"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pack",
+      "name": {
+        "en": "Pack",
+        "pt-BR": "Embalagem"
+      },
+      "values": [
+        {
+          "id": "1",
+          "name": {
+            "en": "1",
+            "pt-BR": "1"
+          }
+        },
+        {
+          "id": "2",
+          "name": {
+            "en": "2",
+            "pt-BR": "2"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "quarter-sheet-1",
+      "sku": "LML-BKS-Q1",
+      "options": {
+        "size": "quarter-sheet",
+        "pack": "1"
+      },
+      "price": {
+        "BRL": 49.9,
+        "USD": 14.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rectangular aluminized steel baking sheet with a rolled rim in a gray finish, three-quarter view",
+            "pt-BR": "Assadeira retangular de aço aluminizado com borda reforçada em acabamento cinza, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "1-pack-white.png",
+            "#f5f5f5": "1-pack-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quarter-sheet-2",
+      "sku": "LML-BKS-Q2",
+      "options": {
+        "size": "quarter-sheet",
+        "pack": "2"
+      },
+      "price": {
+        "BRL": 89.9,
+        "USD": 24.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Two rectangular aluminized steel baking sheets stacked, gray finish, three-quarter view",
+            "pt-BR": "Duas assadeiras retangulares de aço aluminizado empilhadas, acabamento cinza, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "2-pack-white.png",
+            "#f5f5f5": "2-pack-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "half-sheet-1",
+      "sku": "LML-BKS-H1",
+      "options": {
+        "size": "half-sheet",
+        "pack": "1"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 19.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Rectangular aluminized steel baking sheet with a rolled rim in a gray finish, three-quarter view",
+            "pt-BR": "Assadeira retangular de aço aluminizado com borda reforçada em acabamento cinza, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "1-pack-white.png",
+            "#f5f5f5": "1-pack-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "half-sheet-2",
+      "sku": "LML-BKS-H2",
+      "options": {
+        "size": "half-sheet",
+        "pack": "2"
+      },
+      "price": {
+        "BRL": 119.9,
+        "USD": 34.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Two rectangular aluminized steel baking sheets stacked, gray finish, three-quarter view",
+            "pt-BR": "Duas assadeiras retangulares de aço aluminizado empilhadas, acabamento cinza, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "2-pack-white.png",
+            "#f5f5f5": "2-pack-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

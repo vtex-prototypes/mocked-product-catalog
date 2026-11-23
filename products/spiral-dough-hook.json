@@ -1,0 +1,122 @@
+{
+  "id": "spiral-dough-hook",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar P45-DH Spiral Dough Hook, Stainless Steel, Replacement for Kneading Bread and Pizza Dough, Fits Lumelar Tilt-Head and Bowl-Lift Stand Mixers",
+    "pt-BR": "Gancho Espiral para Massa Lumelar P45-DH, Aço Inox, Peça de Reposição para Sovar Massa de Pão e Pizza, Compatível com Batedeiras Planetárias Lumelar Basculantes e com Elevação"
+  },
+  "description": {
+    "en": "A spiral dough hook that kneads bread and pizza dough without climbing the shaft. Pick the version that matches your mixer type.",
+    "pt-BR": "Gancho espiral que sova massa de pão e de pizza sem subir pelo eixo. Escolha a versão do seu tipo de batedeira."
+  },
+  "price": {
+    "BRL": 159.9,
+    "USD": 24.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "dough hook",
+      "spiral hook",
+      "stand mixer part",
+      "bread dough"
+    ],
+    "pt-BR": [
+      "gancho para massa",
+      "gancho espiral",
+      "peça de batedeira",
+      "massa de pão"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "stainless-steel"
+    },
+    {
+      "id": "fits-tool",
+      "valueId": "tilt-head-stand-mixer"
+    },
+    {
+      "id": "fits-tool",
+      "valueId": "bowl-lift-stand-mixer"
+    }
+  ],
+  "defaultVariantId": "tilt-head",
+  "options": [
+    {
+      "id": "fits",
+      "name": {
+        "en": "Fits",
+        "pt-BR": "Compatível com"
+      },
+      "values": [
+        {
+          "id": "tilt-head",
+          "name": {
+            "en": "Tilt-head mixers",
+            "pt-BR": "Batedeiras basculantes"
+          }
+        },
+        {
+          "id": "bowl-lift",
+          "name": {
+            "en": "Bowl-lift mixers",
+            "pt-BR": "Batedeiras de elevação"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "tilt-head",
+      "sku": "LML-SDH-TH",
+      "options": {
+        "fits": "tilt-head"
+      },
+      "price": {
+        "BRL": 159.9,
+        "USD": 24.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel spiral dough hook for a stand mixer, three-quarter view",
+            "pt-BR": "Gancho espiral de aço inox para batedeira planetária, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "spiral-dough-hook-white.png",
+            "#f5f5f5": "spiral-dough-hook-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bowl-lift",
+      "sku": "LML-SDH-BL",
+      "options": {
+        "fits": "bowl-lift"
+      },
+      "price": {
+        "BRL": 189.9,
+        "USD": 29.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Stainless steel spiral dough hook for a stand mixer, three-quarter view",
+            "pt-BR": "Gancho espiral de aço inox para batedeira planetária, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "spiral-dough-hook-white.png",
+            "#f5f5f5": "spiral-dough-hook-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

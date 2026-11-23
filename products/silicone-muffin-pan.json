@@ -1,0 +1,116 @@
+{
+  "id": "silicone-muffin-pan",
+  "brandId": "lumelar",
+  "categoryId": "casa-acessorios-cozinha",
+  "name": {
+    "en": "Lumelar Silicone Muffin Pan, Flexible Nonstick Cupcake Mold with Fluted Cups, Oven and Freezer Safe, Easy Release, Dishwasher Safe",
+    "pt-BR": "Forma de Silicone Lumelar para Muffins, Molde Flexível Antiaderente para Cupcakes com Cavidades Onduladas, Vai ao Forno e ao Freezer, Fácil de Desenformar"
+  },
+  "description": {
+    "en": "A flexible silicone muffin pan with fluted cups. Press the base and the muffins pop out without sticking.",
+    "pt-BR": "Forma de silicone flexível para muffins, com cavidades onduladas. Basta pressionar o fundo e os muffins saem sem grudar."
+  },
+  "price": {
+    "BRL": 44.9,
+    "USD": 12.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "muffin pan",
+      "cupcake mold",
+      "silicone",
+      "bakeware",
+      "nonstick"
+    ],
+    "pt-BR": [
+      "forma para muffins",
+      "forma de cupcake",
+      "silicone",
+      "assar",
+      "antiaderente"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "material",
+      "valueId": "silicone"
+    }
+  ],
+  "defaultVariantId": "6-cups",
+  "options": [
+    {
+      "id": "cups",
+      "name": {
+        "en": "Cups",
+        "pt-BR": "Cavidades"
+      },
+      "values": [
+        {
+          "id": "6-cups",
+          "name": {
+            "en": "6",
+            "pt-BR": "6"
+          }
+        },
+        {
+          "id": "12-cups",
+          "name": {
+            "en": "12",
+            "pt-BR": "12"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "6-cups",
+      "sku": "LML-MMP-06",
+      "options": {
+        "cups": "6-cups"
+      },
+      "price": {
+        "BRL": 44.9,
+        "USD": 12.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red silicone muffin pan with six fluted cups, three-quarter view",
+            "pt-BR": "Forma de silicone vermelha para muffins com seis cavidades com bordas onduladas, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "6-cups-white.png",
+            "#f5f5f5": "6-cups-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12-cups",
+      "sku": "LML-MMP-12",
+      "options": {
+        "cups": "12-cups"
+      },
+      "price": {
+        "BRL": 69.9,
+        "USD": 19.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Red silicone muffin pan with twelve fluted cups, three-quarter view",
+            "pt-BR": "Forma de silicone vermelha para muffins com doze cavidades com bordas onduladas, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "12-cups-white.png",
+            "#f5f5f5": "12-cups-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -56,17 +56,6 @@
       "src": "drafts/avocado.jpg"
     },
     {
-      "id": "baking-sheet",
-      "categoryId": "casa-acessorios-cozinha",
-      "name": {
-        "en": "Baking sheet",
-        "pt-BR": "Assadeira"
-      },
-      "photo": "baking-sheet.jpg",
-      "figmaNode": "134:5734",
-      "src": "drafts/baking-sheet.jpg"
-    },
-    {
       "id": "basketball",
       "categoryId": "esportes-acessorios",
       "name": {
@@ -98,17 +87,6 @@
       "photo": "black-peppercorns.jpg",
       "figmaNode": "130:5571",
       "src": "drafts/black-peppercorns.jpg"
-    },
-    {
-      "id": "blender",
-      "categoryId": "eletro-cozinha",
-      "name": {
-        "en": "Blender",
-        "pt-BR": "Liquidificador"
-      },
-      "photo": "blender.jpg",
-      "figmaNode": "131:5584",
-      "src": "drafts/blender.jpg"
     },
     {
       "id": "box-grater",
@@ -364,28 +342,6 @@
       "src": "drafts/eggs-carton.jpg"
     },
     {
-      "id": "electric-coffee-grinder",
-      "categoryId": "casa-hobbies",
-      "name": {
-        "en": "Electric coffee grinder",
-        "pt-BR": "Moedor de café elétrico"
-      },
-      "photo": "electric-coffee-grinder.jpg",
-      "figmaNode": "134:5645",
-      "src": "drafts/electric-coffee-grinder.jpg"
-    },
-    {
-      "id": "electric-kettle",
-      "categoryId": "eletro-cozinha",
-      "name": {
-        "en": "Electric kettle",
-        "pt-BR": "Chaleira elétrica"
-      },
-      "photo": "electric-kettle.jpg",
-      "figmaNode": "131:5579",
-      "src": "drafts/electric-kettle.jpg"
-    },
-    {
       "id": "energy-drink-can",
       "categoryId": "mercado-bebidas-nao-alcoolicas",
       "name": {
@@ -461,17 +417,6 @@
       "photo": "fondue-set.jpg",
       "figmaNode": "134:5735",
       "src": "drafts/fondue-set.jpg"
-    },
-    {
-      "id": "food-processor",
-      "categoryId": "eletro-cozinha",
-      "name": {
-        "en": "Food processor",
-        "pt-BR": "Processador de alimentos"
-      },
-      "photo": "food-processor.jpg",
-      "figmaNode": "134:5739",
-      "src": "drafts/food-processor.jpg"
     },
     {
       "id": "frozen-french-fries",
@@ -750,28 +695,6 @@
       "src": "drafts/keypad-deadbolt.jpg"
     },
     {
-      "id": "kitchen-knife-set",
-      "categoryId": "casa-acessorios-cozinha",
-      "name": {
-        "en": "Kitchen knife set",
-        "pt-BR": "Jogo de facas"
-      },
-      "photo": "kitchen-knife-set.jpg",
-      "figmaNode": "134:5743",
-      "src": "drafts/kitchen-knife-set.jpg"
-    },
-    {
-      "id": "kitchen-scale",
-      "categoryId": "eletro-cozinha",
-      "name": {
-        "en": "Digital kitchen scale",
-        "pt-BR": "Balança de cozinha digital"
-      },
-      "photo": "kitchen-scale.jpg",
-      "figmaNode": "134:5737",
-      "src": "drafts/kitchen-scale.jpg"
-    },
-    {
       "id": "knit-sneaker-boot",
       "categoryId": "esportes-sapatos",
       "name": {
@@ -948,17 +871,6 @@
       "src": "drafts/mixed-nuts.jpg"
     },
     {
-      "id": "mixing-bowl-set",
-      "categoryId": "casa-acessorios-cozinha",
-      "name": {
-        "en": "Stainless steel mixing bowl set",
-        "pt-BR": "Jogo de tigelas de aço inox"
-      },
-      "photo": "mixing-bowl-set.jpg",
-      "figmaNode": "134:5745",
-      "src": "drafts/mixing-bowl-set.jpg"
-    },
-    {
       "id": "mustard",
       "categoryId": "mercado-temperos-molhos",
       "name": {
@@ -968,28 +880,6 @@
       "photo": "mustard.jpg",
       "figmaNode": "132:5603",
       "src": "drafts/mustard.jpg"
-    },
-    {
-      "id": "nonstick-cookware-set",
-      "categoryId": "casa-panelas",
-      "name": {
-        "en": "Nonstick cookware set",
-        "pt-BR": "Jogo de panelas antiaderentes"
-      },
-      "photo": "nonstick-cookware-set.jpg",
-      "figmaNode": "134:5731",
-      "src": "drafts/nonstick-cookware-set.jpg"
-    },
-    {
-      "id": "nonstick-frying-pan",
-      "categoryId": "casa-panelas",
-      "name": {
-        "en": "Nonstick frying pan",
-        "pt-BR": "Frigideira antiaderente"
-      },
-      "photo": "nonstick-frying-pan.jpg",
-      "figmaNode": "132:5595",
-      "src": "drafts/nonstick-frying-pan.jpg"
     },
     {
       "id": "nubuck-lace-up-boot",
@@ -1289,28 +1179,6 @@
       "src": "drafts/sherpa-lined-hiking-boot.jpg"
     },
     {
-      "id": "silicone-muffin-pan",
-      "categoryId": "casa-acessorios-cozinha",
-      "name": {
-        "en": "Silicone muffin pan",
-        "pt-BR": "Forma de silicone para muffins"
-      },
-      "photo": "silicone-muffin-pan.jpg",
-      "figmaNode": "134:5748",
-      "src": "drafts/silicone-muffin-pan.jpg"
-    },
-    {
-      "id": "silicone-spatula",
-      "categoryId": "casa-acessorios-cozinha",
-      "name": {
-        "en": "Silicone spatula",
-        "pt-BR": "Espátula de silicone"
-      },
-      "photo": "silicone-spatula.jpg",
-      "figmaNode": "134:5750",
-      "src": "drafts/silicone-spatula.jpg"
-    },
-    {
       "id": "silicone-whisk",
       "categoryId": "casa-acessorios-cozinha",
       "name": {
@@ -1477,61 +1345,6 @@
       "src": "drafts/sports-water-bottle.jpg"
     },
     {
-      "id": "stainless-steel-cookware-set",
-      "categoryId": "casa-panelas",
-      "name": {
-        "en": "Stainless steel cookware set",
-        "pt-BR": "Jogo de panelas de aço inox"
-      },
-      "photo": "stainless-steel-cookware-set.jpg",
-      "figmaNode": "134:5733",
-      "src": "drafts/stainless-steel-cookware-set.jpg"
-    },
-    {
-      "id": "stainless-steel-frying-pan",
-      "categoryId": "casa-panelas",
-      "name": {
-        "en": "Stainless steel frying pan",
-        "pt-BR": "Frigideira de aço inox"
-      },
-      "photo": "stainless-steel-frying-pan.jpg",
-      "figmaNode": "134:5688",
-      "src": "drafts/stainless-steel-frying-pan.jpg"
-    },
-    {
-      "id": "stainless-steel-stock-pot",
-      "categoryId": "casa-panelas",
-      "name": {
-        "en": "Stainless steel stock pot",
-        "pt-BR": "Caldeirão de aço inox"
-      },
-      "photo": "stainless-steel-stock-pot.jpg",
-      "figmaNode": "134:5728",
-      "src": "drafts/stainless-steel-stock-pot.jpg"
-    },
-    {
-      "id": "stainless-steel-whisk",
-      "categoryId": "casa-acessorios-cozinha",
-      "name": {
-        "en": "Stainless steel whisk",
-        "pt-BR": "Batedor de aço inox"
-      },
-      "photo": "stainless-steel-whisk.jpg",
-      "figmaNode": "136:5596",
-      "src": "drafts/stainless-steel-whisk.jpg"
-    },
-    {
-      "id": "stand-mixer",
-      "categoryId": "eletro-cozinha",
-      "name": {
-        "en": "Stand mixer",
-        "pt-BR": "Batedeira planetária"
-      },
-      "photo": "stand-mixer.jpg",
-      "figmaNode": "131:5591",
-      "src": "drafts/stand-mixer.jpg"
-    },
-    {
       "id": "steam-iron",
       "categoryId": "eletro-casa-praticos",
       "name": {
@@ -1596,17 +1409,6 @@
       "photo": "telescopic-hiking-pole.jpg",
       "figmaNode": "136:5654",
       "src": "drafts/telescopic-hiking-pole.jpg"
-    },
-    {
-      "id": "toaster",
-      "categoryId": "eletro-cozinha",
-      "name": {
-        "en": "Toaster",
-        "pt-BR": "Torradeira"
-      },
-      "photo": "toaster.jpg",
-      "figmaNode": "131:5590",
-      "src": "drafts/toaster.jpg"
     },
     {
       "id": "toilet-paper-pack",
@@ -1784,17 +1586,6 @@
       "photo": "wooden-coat-hanger.jpg",
       "figmaNode": "134:5612",
       "src": "drafts/wooden-coat-hanger.jpg"
-    },
-    {
-      "id": "wooden-cutting-board",
-      "categoryId": "casa-acessorios-cozinha",
-      "name": {
-        "en": "Wooden cutting board",
-        "pt-BR": "Tábua de corte de madeira"
-      },
-      "photo": "wooden-cutting-board.jpg",
-      "figmaNode": "134:5665",
-      "src": "drafts/wooden-cutting-board.jpg"
     },
     {
       "id": "wooden-stool",

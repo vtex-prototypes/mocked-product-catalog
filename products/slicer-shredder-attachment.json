@@ -1,0 +1,114 @@
+{
+  "id": "slicer-shredder-attachment",
+  "brandId": "lumelar",
+  "categoryId": "eletro-cozinha",
+  "name": {
+    "en": "Lumelar Slicer and Shredder Attachment for Stand Mixers, Interchangeable Cones for Slicing and Shredding Vegetables, Cheese and Fruit, Hub Mounted",
+    "pt-BR": "Fatiador e Ralador Lumelar para Batedeira, Cones Intercambiáveis para Fatiar e Ralar Legumes, Queijo e Frutas, Encaixe no Cubo"
+  },
+  "description": {
+    "en": "Slices cucumbers and carrots and shreds cheese, cabbage and potatoes directly into the mixer bowl. It fits every Lumelar stand mixer's front hub, and the four-cone set adds a fine shredder.",
+    "pt-BR": "Fatia pepino e cenoura e rala queijo, repolho e batata direto na cuba da batedeira. Encaixa no cubo frontal de qualquer batedeira Lumelar, e o conjunto com quatro cones inclui um ralador fino."
+  },
+  "price": {
+    "BRL": 329.9,
+    "USD": 59.99
+  },
+  "availability": "in_stock",
+  "tags": {
+    "en": [
+      "slicer",
+      "shredder",
+      "stand mixer attachment",
+      "cheese grater"
+    ],
+    "pt-BR": [
+      "fatiador",
+      "ralador",
+      "acessório para batedeira",
+      "ralador de queijo"
+    ]
+  },
+  "specifications": [
+    {
+      "id": "fits-tool",
+      "valueId": "stand-mixer-hub"
+    }
+  ],
+  "defaultVariantId": "3-cones",
+  "options": [
+    {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "pt-BR": "Cones"
+      },
+      "values": [
+        {
+          "id": "3-cones",
+          "name": {
+            "en": "3",
+            "pt-BR": "3"
+          }
+        },
+        {
+          "id": "4-cones",
+          "name": {
+            "en": "4",
+            "pt-BR": "4"
+          }
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "3-cones",
+      "sku": "LML-SSH-3C",
+      "options": {
+        "cones": "3-cones"
+      },
+      "price": {
+        "BRL": 329.9,
+        "USD": 59.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Slicer and shredder attachment with white housing, feed tube and stainless steel cones, three-quarter view",
+            "pt-BR": "Acessório fatiador e ralador com corpo branco, tubo de alimentação e cones de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "slicer-shredder-white.png",
+            "#f5f5f5": "slicer-shredder-gray.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4-cones",
+      "sku": "LML-SSH-4C",
+      "options": {
+        "cones": "4-cones"
+      },
+      "price": {
+        "BRL": 379.9,
+        "USD": 69.99
+      },
+      "availability": "in_stock",
+      "images": [
+        {
+          "alt": {
+            "en": "Slicer and shredder attachment with white housing, feed tube and stainless steel cones, three-quarter view",
+            "pt-BR": "Acessório fatiador e ralador com corpo branco, tubo de alimentação e cones de aço inox, vista em três quartos"
+          },
+          "backgrounds": {
+            "#ffffff": "slicer-shredder-white.png",
+            "#f5f5f5": "slicer-shredder-gray.png"
+          }
+        }
+      ]
+    }
+  ]
+}
