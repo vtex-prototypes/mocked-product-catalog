@@ -143,6 +143,8 @@ Use any image model. This is the prompt that produced the current set. Replace t
 
 > Create a product image for a "cotton bath towel". The product is isolated on a pure flat white background (#FFFFFF). Absolutely no shadows: no drop shadow, no contact shadow, no soft gray under the product, no floor, no vignette. No text, labels, logos or brand tags. Clean e-commerce cutout look, square format.
 
+Add this sentence too, so the object does not come out as a copy of a famous model: "Use a generic design that does not resemble any specific brand's product; avoid signature shapes, trims and details of well-known models."
+
 Rules the image has to meet:
 
 | Rule | Checked by |
@@ -152,6 +154,7 @@ Rules the image has to meet:
 | No shadow or gray halo around the product | you, and the PR reviewer |
 | No text, logos, tags or labels | you, and the PR reviewer |
 | Fictional or generic product, no real brands | you, and the PR reviewer |
+| Nothing in the design points to a real brand or model (a color alone is fine) | you, and the PR reviewer |
 
 "White" means `#FFFFFF`, not "light". Many models output a warm `#F5F5F0` background that looks white in isolation but shows as a gray square on a white page. Only 9 of the 229 original Figma photos pass this check, which is why drafts exist. If the validator says the edges are off-white, re-prompt with "pure flat white background (#FFFFFF)" rather than editing the image. We tried cutting out backgrounds by hand and the results were worse than regenerating.
 
@@ -173,7 +176,7 @@ Content rules:
 - **Variants, not lookalike products.** A size, gauge, rating, model, pack, grade or color of the same object is a variant of one product. An intended use ("for slabs", "for wet areas") is neither a product nor a variant. Two products that are still sold can never share a photo: `npm run validate` fails. The full rule, with examples, is in [AGENTS.md](AGENTS.md#one-product-many-variants).
 - **Option and value names.** The option names the dimension (`Rating`) and the value is only the answer (`20 A`, never "20 Amp Rating"). No placeholders such as `Original` or `Alternate`, no repeated or long values, real sizes instead of "Compact | Large". `npm run validate` checks it; the full rule is in [AGENTS.md](AGENTS.md#naming-options-and-values).
 - **At least two variants, on whatever axes fit the product.** List them under `options` and sell each combination as a `variant`. Give a new photo to each combination that looks different, and reuse the files when it does not (sizes of the same jacket, for example). When one of the axes is color, give it two or more values with a `hex` swatch and a clearly different photo each. Color is optional: a bottle can vary by volume only.
-- **Fictional brands, when you use one.** Add it to `brands.json` and set `brandId`. `Casa Norte`, `Fio Puro`, `Trilha Livre`, `Altitude` and `Ritmo` are already there. Never use a trademark or a real brand name, in the copy or in the photo.
+- **Fictional brands, when you use one.** Add it to `brands.json` and set `brandId`. `Casa Norte`, `Fio Puro`, `Trilha Livre`, `Altitude` and `Ritmo` are already there. Never use a trademark or a real brand name, in the copy or in the photo, and never a design that reads as one brand's product, such as a phone shaped like an iPhone. A color alone is fine; the full rule is in [AGENTS.md](AGENTS.md).
 - **Shared values go in `specifications.json`.** Reuse a material, size, or capacity instead of writing a near-copy on the product. Add a value there when none fits.
 - If the category you need isn't in `categories.json`, add it there in the same PR, with both language names.
 
